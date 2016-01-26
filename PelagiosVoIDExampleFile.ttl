@@ -1,0 +1,15 @@
+@prefix : <http://my-domain.org/my-data/> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+:my-dataset a void:Dataset;
+  dcterms:title "My Archaeological Dataset";
+  dcterms:publisher "My Institution or Project";
+  foaf:homepage <https://my-domain.org/>;
+  dcterms:description "A dataset of archaeological items.";
+  dcterms:license <http://opendatacommons.org/licenses/by/>;
+
+  # This is VERY important
+  void:dataDump <http://my-domain.org/downloads/pelagios.ttl> ;
+  .

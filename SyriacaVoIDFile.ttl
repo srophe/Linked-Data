@@ -1,0 +1,18 @@
+@prefix : <http://syriaca.org/terms> .
+#we need to make the above namespace
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+:my-dataset a void:Dataset;
+  dcterms:title "The Syriac Gazetteer";
+  dcterms:publisher "Syriaca.org: The Syriac Reference Portal";
+  foaf:homepage <https://syriaca.org/>;
+  dcterms:description "The Syriac Gazetteer is a geographical reference work of Syriaca.org for places relevant to Syriac studies.";
+  dcterms:license <http://opendatacommons.org/licenses/by/>;
+#does this license refer to the whole dataset or just this file?
+
+  # This is VERY important
+  void:dataDump <http://syriaca.org/downloads/pelagios.ttl> ;
+  #we need to make the above link
+  .

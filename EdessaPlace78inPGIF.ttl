@@ -1,0 +1,61 @@
+#this is our attempt at a crosswalk to the Pelagios Gazetteer Interconnection Format
+
+#these namespaces need revision
+
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://syriaca.org/place/78> a lawd:Place ;
+
+  rdfs:label "Edessa"@en ;
+
+  dcterms:description "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ;
+
+  # are we using temporal correctly here for a start date without an end? It is confusing that the pelagios example does not use 4 digit dates? Is that required?
+  dcterms:temporal "-0304" ;
+
+  # Need to do! We need to insert the PeroidO identifiers into our data. For now all data can be marked as Late Antique-Late Byzantine (AD 300-1450)
+  dcterms:temporal <http://n2t.net/ark:/99152/p03wskdpjk3> ; #   Late Antique-Late Byzantine (AD 300-1450)
+
+  skos:exactMatch <http://pleiades.stoa.org/places/658457> ,
+                  <http://en.wikipedia.org/wiki/Edessa> ,
+                  <http://en.wikipedia.org/wiki/Şanlıurfa> ;
+
+  # It is not clear how we should encode attestations.
+  # What is needed as a source URI, is it enough just to cite our own record?
+  #Note: there are a lot more names that can be encoded here.
+  lawd:hasName [ lawd:primaryForm "Edessa"@en ];
+  lawd:hasName [ lawd:primaryForm "ܐܘܪܗܝ"@syr ] ;
+  lawd:hasName [
+    lawd:primaryForm "أَذاسا"@ar ;
+    lawd:hasAttestation <http://syriaca.org/place/78/html>
+  ] ;
+
+  geo:location [ geo:lat 37.15 ;  geo:long 38.8 ] ;
+
+  #We need guidance about how to cite the URIs for our html and tei data.
+  foaf:primaryTopicOf
+    <http://syriaca.org/place/78/html> ;
+  foaf:primaryTopicOf
+    <http://syriaca.org/place/78/tei> ;
+
+  dcterms:isPartOf <http://syriaca.org/place/145> ;
+  dcterms:isPartOf <http://syriaca.org/place/166> ;
+
+#The following below is not encoded yet, need more information about how to represent our data.
+<http://www.mygazetteer.org/att/0001> a lawd:Attestation ;
+  dcterms:publisher <http://www.mygazetteer.org/> ;
+  cito:citesAsEvidence
+    <http://www.mygazetteer.org/documents/01234> ;
+  cnt:chars "Αθήνα"
+  .
+
+#general questions: Where do we encode the sources of our data?

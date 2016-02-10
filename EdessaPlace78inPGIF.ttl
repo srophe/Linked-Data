@@ -12,6 +12,7 @@
 @prefix lawd: <http://lawd.info/ontology/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/78> a lawd:Place ;
 
@@ -28,6 +29,9 @@
   skos:exactMatch <http://pleiades.stoa.org/places/658457> ,
                   <http://en.wikipedia.org/wiki/Edessa> ,
                   <http://en.wikipedia.org/wiki/Şanlıurfa> ;
+  wdata: Q1190403
+  wdata: Q133118
+  # these are the wikidata id's for Edessa and Şanlıurfa
 
   # It is not clear how we should encode attestations.
   # What is needed as a source URI, is it enough just to cite our own record?

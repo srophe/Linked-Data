@@ -13,7 +13,7 @@
 <http://syriaca.org/place/78> a lawd:Place ;
 
   rdfs:label "Edessa — ܐܘܪܗܝ" ;
-  #because our titles are sometimes, multilingual, I have left off the language tag
+  #because our titles are sometimes multilingual, I have left off the language tag
 
   dcterms:description "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ;
 

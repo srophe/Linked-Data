@@ -4,15 +4,18 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 
-:my-dataset a void:Dataset;
-  dcterms:title "The Syriac Gazetteer";
+:syriac_gazetteer a void:Dataset;
+  dcterms:title "The Syriac Gazetteer RDF Dataset";
   dcterms:publisher "Syriaca.org: The Syriac Reference Portal";
-  foaf:homepage <https://syriaca.org/>;
-  dcterms:description "The Syriac Gazetteer is a geographical reference work of Syriaca.org for places relevant to Syriac studies.";
-  dcterms:license <http://opendatacommons.org/licenses/by/>;
-#does this license refer to the whole dataset or just this file?
-
-  # This is VERY important
-  void:dataDump <http://syriaca.org/downloads/pelagios.ttl> ;
+  foaf:homepage <https://syriaca.org/geo>;
+  #not sure this is right, probably this homepage should be a homepage about this data set, not the source?
+  dcterms:description "The Syriac Gazetteer RDF Dataset is a linked dataset derived from The Syriac Gazetteer, a geographical reference work of Syriaca.org for places relevant to Syriac studies.";
+  dcterms:creator "Thomas A. Carlson" ;
+  dcterms:creator "David A. Michelson" ;
+  dcterms:date 2014 .
+  dcterms:license <http://creativecommons.org/licenses/by/3.0/>;
+  dcterms:source	"The Syriac Gazetteer"
+  #we could put a cool URI here instead
+  dcterms:created	2016-02-11.
+  void:dataDump <http://syriaca.org/geo.ttl> ;
   #we need to make the above link
-  .

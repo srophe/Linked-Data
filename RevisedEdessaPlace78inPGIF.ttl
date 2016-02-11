@@ -1,0 +1,78 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/78> a lawd:Place ;
+
+  rdfs:label "Edessa — ܐܘܪܗܝ" ;
+  #because our titles are sometimes, multilingual, I have left off the language tag
+
+  dcterms:description "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ;
+
+  #these descriptions are sometimes data which we are reusing from other resources under a creative commons license. In those cases we need to show an attribution on this. How would we do that, could we use a lawd:attribution?
+
+  dcterms:temporal "-0304" ;
+
+  dcterms:temporal <http://n2t.net/ark:/99152/p03wskdpjk3> ;
+  #   Late Antique-Late Byzantine (AD 300-1450)
+
+  # Need to do! We need to insert the PeroidO identifiers into our data. All data that has an appropriate date within the range can be marked as Late Antique-Late Byzantine (AD 300-1450)
+
+  skos:exactMatch <http://pleiades.stoa.org/places/658457> ;
+
+  skos:closeMatch <http://en.wikipedia.org/wiki/Edessa> ,
+                  <http://en.wikipedia.org/wiki/Şanlıurfa> ;
+  #At a future date we should include wikidata URIs but we don't have these yet
+
+  lawd:hasName [ lawd:primaryForm "Edessa"@en ];
+  lawd:hasName [ lawd:primaryForm "ܐܘܪܗܝ"@syr ] ;
+  lawd:hasName [ lawd:variantForm "Urfa"@en ];
+  #will repeat for all tei:placeNames
+
+  geo:location [ geo:lat 37.15 ;  geo:long 38.8 ] ;
+
+  foaf:primaryTopicOf
+    <http://syriaca.org/place/78/html> ;
+  foaf:primaryTopicOf
+    <http://syriaca.org/place/78/tei> ;
+
+  dcterms:isPartOf <http://syriaca.org/place/145> ;
+  dcterms:isPartOf <http://syriaca.org/place/166> ;
+
+  lawd:hasAttestation <http://syriaca.org/bib78-0>.
+  #does this work as an attestation for the whole place data? Is it okay that the attestation is a modern work of scholarship and not a historical source? We will need to mint URIs for these attestations. I would prefer instead of this to have a way to indicate this as a source rather than attestation.
+
+<http://syriaca.org/attestation/78-0> a lawd:Attestation ;
+  dcterms:publisher "Syriaca.org: The Syriac Reference Portal" ;
+  dcterms:creator "Thomas A. Carlson" ;
+  dcterms:creator "David A. Michelson" ;
+  dcterms:contributor "Thomas A. Carlson" ;
+  dcterms:contributor "David A. Michelson" ;
+  dcterms:date 2014;
+  #are the preceding six lines redundant since we give the data for the citation in lines 63 onward below?
+  cito:citesAsEvidence <http://syriaca.org/place/78/tei> .
+
+<http://syriaca.org/place/78/tei> a lawd:Citation ;
+dcterms:publisher "Syriaca.org: The Syriac Reference Portal" ;
+dcterms:creator "Thomas A. Carlson" ;
+dcterms:creator "David A. Michelson" ;
+dcterms:contributor "Thomas A. Carlson" ;
+dcterms:contributor "David A. Michelson" ;
+  dcterms:title "Edessa — ܐܘܪܗܝ";
+  dcterms:date 2014;
+  cito:citesAsEvidence <http://syriaca.org/place/78/tei> .
+
+<http://syriaca.org/bibl/1/> a lawd:Citation ;
+dcterms:creator "A. Harrak" ;
+  dcterms:title "The Gorgias Encyclopedic Dictionary of the Syriac Heritage";
+  dcterms:bibliographicCitation "138-139"
+  cito:citesAsEvidence <http://syriaca.org/place/78/tei> .
+#how do we cite this in the above record? We can add all bibliography once we understand better.

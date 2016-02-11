@@ -27,11 +27,8 @@
   dcterms:temporal <http://n2t.net/ark:/99152/p03wskdpjk3> ; #   Late Antique-Late Byzantine (AD 300-1450)
 
   skos:exactMatch <http://pleiades.stoa.org/places/658457> ,
-                  <http://en.wikipedia.org/wiki/Edessa> ,
-                  <http://en.wikipedia.org/wiki/Şanlıurfa> ;
-  wdata: Q1190403
-  wdata: Q133118
-  # these are the wikidata id's for Edessa and Şanlıurfa
+                  <https://www.wikidata.org/wiki/Q1190403> ,
+                  <https://www.wikidata.org/wiki/Q133118> ;
 
   # It is not clear how we should encode attestations.
   # What is needed as a source URI, is it enough just to cite our own record?

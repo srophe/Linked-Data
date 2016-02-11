@@ -67,12 +67,10 @@ dcterms:creator "David A. Michelson" ;
 dcterms:contributor "Thomas A. Carlson" ;
 dcterms:contributor "David A. Michelson" ;
   dcterms:title "Edessa — ܐܘܪܗܝ";
-  dcterms:date 2014;
-  cito:citesAsEvidence <http://syriaca.org/place/78/tei> .
+  dcterms:date 2014 .
 
 <http://syriaca.org/bibl/1/> a lawd:Citation ;
 dcterms:creator "A. Harrak" ;
   dcterms:title "The Gorgias Encyclopedic Dictionary of the Syriac Heritage";
-  dcterms:bibliographicCitation "138-139"
-  cito:citesAsEvidence <http://syriaca.org/place/78/tei> .
+  dcterms:bibliographicCitation "138-139" .
 #how do we cite this in the above record? We can add all bibliography once we understand better.

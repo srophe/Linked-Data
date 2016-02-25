@@ -1,0 +1,62 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/78> a lawd:Place ;
+
+  rdfs:label "Edessa — ܐܘܪܗܝ" ;
+  #/TEI/teiHeader/fileDesc/titleStmt/title() Including the textnodes of child elements with normalized whitespace
+  #because our titles are sometimes multilingual, I have left off the language tag
+
+  dcterms:description "A city of Mesopotamia, the capital of the ancient kingdom of Osrhoene, modern Urfa."@en
+    #/TEI/text/body/listPlace/place/desc Note: This should be the node that contains xml:id="abstract-..." This is not an ideal marker. I think we should change the XML to add an attribute to mark the abstract.
+    #above is for TEI:desc without @source
+
+  dcterms:description [
+    rdfs:label  "A famous city, five day journey eastward from Aleppo, now called Urfa."@en
+    #above is for TEI:desc WITH child TEI:quote[@source]
+    #/TEI/text/body/listPlace/place/desc/quote Note: This should still be the TEI:desc that contains xml:id="abstract-..."
+    dcterms:source <http://syriaca.org/bibl/4/>
+    #needs to be looked up at /TEI/text/body/listPlace/place/bibl/ptr based on the @source xml:id
+    dcterms:license <http://creativecommons.org/licenses/by/3.0/>
+    #needs to be looked up at /TEI/teiHeader/fileDesc/publicationStmt/availability/licence/p/listBibl/bibl/ptr based on the @source xml:id
+    ];
+
+  dcterms:temporal "-0304" ;
+  #from /TEI/text/body/listPlace/place/state[@type="existence"]/@from
+
+  skos:exactMatch <http://pleiades.stoa.org/places/658457> ;
+  #/TEI/text/body/listPlace/place/idno[@type="URI"]() when it contains http://pleiades...
+
+  skos:closeMatch <http://en.wikipedia.org/wiki/Edessa> ,
+                  <http://en.wikipedia.org/wiki/Şanlıurfa> ;
+  #/TEI/text/body/listPlace/place/idno[@type="URI"]() when it contains http://en.wikipedia.org...
+
+  lawd:hasName [ lawd:primaryForm "Edessa"@en ];
+  # /TEI/text/body/listPlace/place/placeName[@syriaca-tags="#syriaca-headword"]()
+  lawd:hasName [ lawd:primaryForm "ܐܘܪܗܝ"@syr ] ;
+    #/TEI/text/body/listPlace/place/placeName[@syriaca-tags="#syriaca-headword"]()
+  lawd:hasName [ lawd:variantForm "Urfa"@en ];
+  #please repeat for all other /TEI/text/body/listPlace/place/placeName() (Where  @syriaca-tags is not "#syriaca-headword") including the @xml:lang
+
+  geo:location [ geo:lat 37.15 ;  geo:long 38.8 ] ;
+  #/TEI/text/body/listPlace/place/location/geo() Note the first numeric string is geo:lat, the second is geo:long
+
+  foaf:primaryTopicOf
+    <http://syriaca.org/place/78/html> ;
+  #autogenerate this from file number or number found in /TEI/teiHeader/fileDesc/publicationStmt/idno[@type=URI]
+  foaf:primaryTopicOf
+    <http://syriaca.org/place/78/tei> ;
+  #/TEI/teiHeader/fileDesc/publicationStmt/idno[@type=URI]
+
+  dcterms:isPartOf <http://syriaca.org/place/145> ;
+  dcterms:isPartOf <http://syriaca.org/place/166> ;
+  #/TEI/text/body/listPlace/relation[@name=contained, @active="take the URIs from here"]

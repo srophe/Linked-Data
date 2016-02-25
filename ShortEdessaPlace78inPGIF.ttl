@@ -13,7 +13,7 @@
 <http://syriaca.org/place/78> a lawd:Place ;
 
   rdfs:label "Edessa — ܐܘܪܗܝ" ;
-  #/TEI/teiHeader/fileDesc/titleStmt/title() Including the textnodes of child elements with normalized whitespace
+  #/TEI/teiHeader/fileDesc/titleStmt/title/descendant::text() Including the textnodes of child elements with normalized whitespace
   #because our titles are sometimes multilingual, I have left off the language tag
 
   dcterms:description "A city of Mesopotamia, the capital of the ancient kingdom of Osrhoene, modern Urfa."@en

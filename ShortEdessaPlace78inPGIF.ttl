@@ -60,3 +60,4 @@
   dcterms:isPartOf <http://syriaca.org/place/145> ;
   dcterms:isPartOf <http://syriaca.org/place/166> ;
   #/TEI/text/body/listPlace/relation[@name=contained, @active="take the URIs from here"]
+  # Use dcterms:relation for share-a-name

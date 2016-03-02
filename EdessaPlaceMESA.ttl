@@ -1,0 +1,25 @@
+# this is a work in progress -AA
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" 
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:role="http://www.loc.gov/loc.terms/relators/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+         xmlns:collex="http://www.collex.org/schema#" 
+         xmlns:dcterms="http://purl.org/dc/terms/">
+         xmlns:cito="xmlns:cito="http://purl.org/spar/cito/cito:"
+         xmlns:cnt="http://www.w3.org/2011/content#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:lawd="http://lawd.info/ontology/"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:wdata="https://www.wikidata.org/wiki/Special:EntityData/"
+
+<rdf:type lawd:Place="http://syriaca.org/place/78"/>
+  <role:edt>"Thomas A. Carlson"</edt>
+  <role:edt>"David A. Michelson"</edt>
+    <rdfs:label>"Edessa"</rdfs:label>
+    <dcterms:description>"a famous city, five day journey eastward from Aleppo, now called Urfa"@en</dcterms:description>
+    <dcterms:temporal>"-0304"</dcterms:temporal>  # still waiting on PeriodO id.s?
+    <skos:exactMatch>"http://pleiades.stoa.org/places/658457"</skos:exactMatch> # " " or < > around URIs?
+    

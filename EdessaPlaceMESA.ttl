@@ -18,13 +18,14 @@
          rdfs:label "Edessa"@en ;
          dcterms:description "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ;
          
-         dcterms:date "-0304" #used dcterms:date instead of dcterms:temporal b/c calls for string literal ;
+         dcterms:date "-0304" #used dcterms:date [not dcterms:temporal] b/c calls for string literal ;
          
          skos:exactMatch <http://pleiades.stoa.org/places/658457> ;
-         skos:closeMatch <https://www.wikidata.org/w/index.php?search=&search=edessa&title=Special%3ASearch&go=Go> ;
-                           # should this be wdata:Q1190403?
-         skos:closeMatch <https://www.wikidata.org/wiki/Q133118> ;
-                           # wdata:Q133118
+         skos:closeMatch <https://www.wikidata.org/w/index.php?search=&search=edessa&title=Special%3ASearch&go=Go> ; # should this be wdata:Q1190403?
+         skos:closeMatch <https://www.wikidata.org/wiki/Q133118> ; # wdata:Q133118
+         skos:altLabel "Urfa"@en ;
+         skos:related <http://syriaca.org/place/145.html> ,
+                  <http://syriaca.org/place/166.html> ;
          
          lawd:hasName [ lawd:primaryForm "Edessa"@en ];
          lawd:hasName [ lawd:primaryForm "ܐܘܪܗܝ"@syr ] ;
@@ -33,8 +34,12 @@
          lawd:hasAttestation <http://syriaca.org/place/78/html>
   ] ;
          geo:location [ geo:lat 37.15 ;  geo:long 38.8 ] ;
+         
+         dcterms:isPartOf <http://syriaca.org/place/145> ;
+         dcterms:isPartOf <http://syriaca.org/place/166> ;
 
-
-  role:edt #need ORCID id for Thomas A. Carlson
-  role:edt #need ORCID id for David A. Michelson
+         collex:discipline "History" # collex.org/schema# temporarily offline - not sure what's needed here
+         
+         role:edt # need ORCID id for Thomas A. Carlson
+         role:edt # need ORCID id for David A. Michelson
     

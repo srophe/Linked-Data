@@ -25,8 +25,16 @@
                            # should this be wdata:Q1190403?
          skos:closeMatch <https://www.wikidata.org/wiki/Q133118> ;
                            # wdata:Q133118
+         
+         lawd:hasName [ lawd:primaryForm "Edessa"@en ];
+         lawd:hasName [ lawd:primaryForm "ܐܘܪܗܝ"@syr ] ;
+         lawd:hasName [
+         lawd:primaryForm "أَذاسا"@ar ;
+         lawd:hasAttestation <http://syriaca.org/place/78/html>
+  ] ;
+         geo:location [ geo:lat 37.15 ;  geo:long 38.8 ] ;
 
 
-  role:edt #need ORCID id
-  role:edt #need ORCID id
+  role:edt #need ORCID id for Thomas A. Carlson
+  role:edt #need ORCID id for David A. Michelson
     

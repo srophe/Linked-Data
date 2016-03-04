@@ -19,16 +19,40 @@
 <http://syriaca.org/place/78> a lawd:Place ;
 
          rdfs:label "Edessa"@en ;
-         dcterms:description "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ;
+         dcterms:description "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ,
+                           "### need unicode for Arabic here ###" ;
+                                    cito:citesAsSourceDocument "Berule bdire d-ʿal yulpone suryoye hdire" ,
+                                    role:aut <https://www.wikidata.org/wiki/Q1368502> ,
+                                    role:trl <https://www.wikidata.org/wiki/Q2088332> ,
+                                    bibo:locator "pp: 556" ; # is there a reason page is written like this on syriaca.org?
+                           
+                           "### need unicode for Arabic here ###" ;
+                                    cito:citesAsSourceDocument "al-Luʼluʼ al-manthūr fī tārīkh al-ʻulūm wa-al-ādāb al-Suryāniyyah" ,
+                                    role:aut <https://www.wikidata.org/wiki/Q1368502> ,
+                                    bibo:locator "pp: 516" ;
+                                    
+                           "183. Edessa"@en ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
+                                    role:edt <http://viaf.org/viaf/36934903> ,
+                                    bibo:locator "pp: 1, 4, 5–6 (with fig. 1), 9–10, 13, 15–16, 18, 26, 29, 31, 33–34, 36, 37–38, 41, 46, 54, 56, 60, 64, 69, 71, 74, 84, 86, 90, 97–98, 99, 102, 107–108, 126, 127, 128, 132–133, 138–139 (with fig. 47), 145, 153, 155, 162, 163, 164, 178, 191–192, 195–196, 197, 199, 201–202, 209, 213, 220, 229, 237, 249, 252, 260–261, 262, 266, 267, 268, 270, 271–272, 273, 284, 287, 288, 303–304, 314, 316, 317, 322, 327–328, 332, 335, 343, 346, 348, 350, 351, 352, 356, 361, 363, 367, 376, 377, 384, 390, 392, 398, 401, 403, 407, 410–411, 419, 431, 432, 433, 438–439, 444, 446, 448, maps: Map I B1, II B1, III." ;
+                           
+                           "a famous city, five day journey eastward from Aleppo, now called Urfa." ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/54405272> ,
+                                    role:aut <https://www.wikidata.org/wiki/Q1368502> ,
+                                    role:trl <http://viaf.org/viaf/27483> ,
+                                    dcterms:publisher "Gorgias Press" , # is there a URI for them?
+                                    role:# publication place "Piscataway, NJ" , # need URI
+                                    bibo:locator "pp: 553" ;
+                           
          
          dcterms:date "-0304" ; # used dcterms:date [not dcterms:temporal] b/c calls for string literal
          
-         skos:exactMatch <http://pleiades.stoa.org/places/658457> ;
+         skos:exactMatch <http://pleiades.stoa.org/places/658457> ; # this is an instance of owl:TransitiveProperty - do we want to use it?
          skos:closeMatch <https://www.wikidata.org/w/index.php?search=&search=edessa&title=Special%3ASearch&go=Go> , # should this be wdata:Q1190403?
                          <https://www.wikidata.org/wiki/Q133118> ; # wdata:Q133118
          skos:altLabel "Urfa"@en ;
          skos:related <http://syriaca.org/place/145.html> ,
-                  <http://syriaca.org/place/166.html> ;
+                      <http://syriaca.org/place/166.html> ;
          
          lawd:hasName [ lawd:primaryForm "Edessa"@en ];
          lawd:hasName [ lawd:primaryForm "ܐܘܪܗܝ"@syr ] ;
@@ -86,7 +110,7 @@
                            # how to do citations for all these events? use bibo?
                            cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ; # this is Worldcat Permalink for Brock, et al. Gorgias Encyclopedic Dictionary...
 
-         lawd:hasAttestation "Attestation of Christian church in Edessa according to the Chronicle of Edessa." , # didn't remove dates from literal b/c unsure of dcterms:date usage
+         lawd:hasAttestation "Attestation of Christian church in Edessa according to the Chronicle of Edessa." , # need to do cito and bibo for this section
                                     dcterms:date "201" ;
                              "Attestation of anti-Chalcedonian bishop in Edessa according to the Chronicle of Edessa." ,
                                     dcterms:date "520" ;

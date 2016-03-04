@@ -41,40 +41,70 @@
          dcterms:isPartOf <http://syriaca.org/place/145> ; # is there a way to express "was part of" instead of "is part of"?
          dcterms:isPartOf <http://syriaca.org/place/166> ;
          
-         skos:historyNote  "Renamed Edessa by Seleucus I Nicator. (304 BCE)" , # assuming there's better label for historical events? ## didn't remove dates from literal b/c unsure of dcterms:date usage
-                                    dcterms:date "-304" ;
-                           "Flood of the river Daiṣan destroyed part of city. (201)" ,
-                                    dcterms:date "201" ;
-                           "Full incorporation into the Roman Empire. (213)" ,
-                                    dcterms:date "213" ;
-                           "Closure of the "School of the Persians." (489)" , # will this read as literal inside a literal?
-                                    dcterms:date "489" ;
-                           "Edessa conquered by the Arabs. (641)" ,
-                                    dcterms:date "641" ;
-                           "Edessa conquered by the Crusaders. (1098)" ,
-                                    dcterms:date "1098" ;
-                           "Edessa conquered by Zengi of Mosul. (1144)" ,
-                                    dcterms:date "1144" ;
-                           "Edessa incorporated into the Ottoman Empire. (1517)" ,
-                                    dcterms:date "1517" ;
-                           "Massacres of some of Armenian and Syriac Christians during World War I. (not before 1913, not after 1919)" ,
+         skos:historyNote  "Renamed Edessa by Seleucus I Nicator." , # assuming there's better label for historical events?
+                                    dcterms:date "-304" ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
+                                    bibo:locator "pp: 138-139" ;
+                           "Flood of the river Daiṣan destroyed part of city." ,
+                                    dcterms:date "201" ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
+                                    bibo:locator "pp: 138-139" ;
+                           "Full incorporation into the Roman Empire." ,
+                                    dcterms:date "213" ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
+                                    bibo:locator "pp: 138-139" ;
+                           "Closure of the "School of the Persians"." , # will this read as literal inside a literal?
+                                    dcterms:date "489" ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
+                                    bibo:locator "pp: 138-139" ;
+                           "Edessa conquered by the Arabs." ,
+                                    dcterms:date "641" ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
+                                    bibo:locator "pp: 138-139" ;
+                           "Edessa conquered by the Crusaders." ,
+                                    dcterms:date "1098" ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
+                                    bibo:locator "pp: 138-139" ;
+                           "Edessa conquered by Zengi of Mosul." ,
+                                    dcterms:date "1144" ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
+                                    bibo:locator "pp: 138-139" ;
+                           "Edessa incorporated into the Ottoman Empire." ,
+                                    dcterms:date "1517" ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
+                                    bibo:locator "pp: 138-139" ;
+                           "Massacres of some of Armenian and Syriac Christians during World War I." ,
                                     time:intervalStartedBy "1913" ,
-                                    time:intervalFinishedBy "1919" ;
-                           "Emigration of remaining Armenian and Syrian Christians to Aleppo. (1924)" ;
-                                    dcterms:date "1924" ;
+                                    time:intervalFinishedBy "1919" ; # needs to be checked accd'g to PeriodO ## better to use periodo:earliestYear/latestYear?
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
+                                    bibo:locator "pp: 138-139" ;
+                           "Emigration of remaining Armenian and Syrian Christians to Aleppo." ;
+                                    dcterms:date "1924" ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
+                                    bibo:locator "pp: 138-139" ;
                            
                            # how to do citations for all these events? use bibo?
                            cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ; # this is Worldcat Permalink for Brock, et al. Gorgias Encyclopedic Dictionary...
 
-         lawd:hasAttestation "Attestation of Christian church in Edessa according to the Chronicle of Edessa. (201)" ,
-                             "Attestation of anti-Chalcedonian bishop in Edessa according to the Chronicle of Edessa. (520)" ,
-                             "Attestation of Chalcedonian bishop in Edessa according to the Chronicle of Edessa. (522)" ,
-                             "Attestation of Chalcedonian author in Edessa according to the Chronicle of Edessa. (not before 540)" ,
-                             "Attestation of name ######## in the anonymous Chronicle of 1234. (not before 1146, not after 1234)" ,
-                             "Attestation of Syrian Orthodox church in Edessa in the anonymous Chronicle of 1234. (1146)" ,
-                             "Attestation of names الرُّهاء and أَذاسا in the Muʿjam al-buldān of Yāqūt al-Ḥamawī. (not before 1224, not after 1228)" ,
-                             "Attestation of Syrian Orthodox metropolitan for Edessa according to Barsoum's Scattered Pearls. (1624)" ,
-                             # how do we cite the citations with URIs?
+         lawd:hasAttestation "Attestation of Christian church in Edessa according to the Chronicle of Edessa." , # didn't remove dates from literal b/c unsure of dcterms:date usage
+                                    dcterms:date "201" ;
+                             "Attestation of anti-Chalcedonian bishop in Edessa according to the Chronicle of Edessa." ,
+                                    dcterms:date "520" ;
+                             "Attestation of Chalcedonian bishop in Edessa according to the Chronicle of Edessa." ,
+                                    dcterms:date "522" ;
+                             "Attestation of Chalcedonian author in Edessa according to the Chronicle of Edessa." ,
+                                    time:intervalStartedBy "540" ;
+                             "Attestation of name ######## in the anonymous Chronicle of 1234." ,
+                                    time:intervalStartedBy "1146" ,
+                                    time:intervalFinishedBy "1234" ;
+                             "Attestation of Syrian Orthodox church in Edessa in the anonymous Chronicle of 1234." ,
+                                    dcterms:date "1146" ;
+                             "Attestation of names الرُّهاء and أَذاسا in the Muʿjam al-buldān of Yāqūt al-Ḥamawī." ,
+                                    time:intervalStartedBy "1224" ,
+                                    time:intervalFinishedBy "1228" ;
+                             "Attestation of Syrian Orthodox metropolitan for Edessa according to Barsoum's Scattered Pearls." ,
+                                    dcterms:date "1624"
+                             # can we cite these with URIs?
                              ## dcterms:isReferencedBy?
                              
          rdfs:seeAlso <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Edessa&sT=keywords> , # is rdfs:seeAlso permissible with a URL?

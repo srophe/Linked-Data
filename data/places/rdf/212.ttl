@@ -1,0 +1,35 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/212> a lawd:Place ;
+rdfs:label "al-Qaryatayn — ܩܪܝܬܝܢ"  ;
+dcterms:description "A town northeast of and southeast of ."  ;
+ dcterms:description [
+rdfs:label "ܐܰܬܪܰܐ ܗܘ ܕܒܐܘܚܕܳܢܐ ܕܰܚܡܶܨ ܡܰܪܕܶܐ ܬܪܶܝܢ ܝܰܘܡܝ̈ܢ ܒܐܘܪܚܳܐ ܕܡܰܕܒܪܐ ܕܒܶܝܬ ܠܗ̇ ܘܰܠܣܰܟܢܗ ܘܐܪܟ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "بليدة من اعمال حمص مرحلة يومين عنها في طريق البرية بينها وبين سخنة ارك."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a small town in the province of Ḥomṣ, about ten day journey from there on the way to the desert between Sukhna and Arak."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0638"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/668315>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Al-Qaryatayn>  ;
+geo:location [
+geo:lat "34.233333"  ;
+geo:long "34.233333"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/212/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/212/tei>  ;
+geo:location [
+geo:lat "34.233333"  ;
+geo:long "34.233333"  ;].

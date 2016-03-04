@@ -1,0 +1,34 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/299> a lawd:Place ;
+rdfs:label "Bālis — ܒܐܠܫ"  ;
+ dcterms:description [
+rdfs:label "ܐܰܬܪܐ ܕܒܶܝܬ ܚܳܠܳܒ ܠܩܰܐܠܘܢܝܩܝ ܘܐܝܬܘܗܝ ܒܪܒܐܠܝܣܘܣ ܥܰܬܝܩܬܳܐ ܘܡܶܫܬܰܡܰܗ ܝܰܘܡܳܢ ܡܰܣܟܢܗ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "بلدة بارض الشام بين حلب والرقة وهي برباليسوس القديمة تسمى في وقتنا مسكنة"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a town in Syria between Aleppo and al-Raqqa, known in antiquity as Perpalisos, it is now called Maskana."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0253"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/668208>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Barbalissos>  ;
+geo:location [
+geo:lat "36.0021275"  ;
+geo:long "36.0021275"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/299/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/299/tei>  ;
+geo:location [
+geo:lat "36.0021275"  ;
+geo:long "36.0021275"  ;].

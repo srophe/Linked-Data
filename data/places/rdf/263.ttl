@@ -1,0 +1,21 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/263> a lawd:Place ;
+rdfs:label "Bahdeidat"  ;
+ dcterms:description [
+rdfs:label "Bahdeidat is 12 km. northeast of Jbeil (Giblet or Byblos), 47 km. from Beirut, 550 m. above sea level."@en  ;];
+ dcterms:description [
+rdfs:label "69. Bahdeidat"@en  ;];
+dcterms:temporal "1300"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/263/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/263/tei>  .

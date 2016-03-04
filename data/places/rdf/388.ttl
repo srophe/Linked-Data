@@ -1,0 +1,30 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/388> a lawd:Place ;
+rdfs:label "St. Mark — ܕܝܪܐ ܕܡܪܝ ܡܪܩܘܣ ܐܘܢܓܠܝܣܛܐ ܘܕܡܪܬܝ ܡܪܝܡ"  ;
+ dcterms:description [
+rdfs:label "Said to be located on the site of the Last Supper and named after the Evangelist, the monastery is situated on Mount Zion in Jerusalem."@en  ;];
+ dcterms:description [
+rdfs:label "354. Mark, Monastery of St."@en  ;];
+ dcterms:description [
+rdfs:label "ܒܐܘܪܫܠܡ ܘܡܶܬܝܕܥ ܕܰܝܪܐ ܕܣܘܪ̈ܝܝܐ ܕܰܝܪܐ ܥܰܬܝܩܐ. ܣܳܠܶܩ ܒܶܢܝܳܢܗ ܠܕܳܪܐ ܚܡܝܫܳܝܐ ܐܰܘ ܫܬܝܬܳܝܐ ܘܣܳܗܕܐ ܠܗ̇ ܠܗܳܕܐ ܟܬܝܒܬܳܐ ܣܘܪܝܳܝܬܐ ܐܶܣܛܪܰܢܓܶܠܳܝܬܐ ܕܐܶܬܚܰܙܝܰܬ ܒܥܺܕܬܗ ܫܢܰܬ 1940 ܘܗܽܘܝܘ ܝܰܘܡܳܢ ܟܘܪܣܝܳܐ ܕܡܝܛܪܘܦܘܠܝܛܘܬܢ ܘܡܰܥܡܪܐ ܠܕܰܝܪ̈ܳܝܰܝܢ ܡܢ ܫܢܰܬ 1472 ܘܐܝܬ ܒܗ ܒܶܝܬ ܓܙܐ ܕܰܟܬܳܒ̈ܐ ܪ̈ܝܫܳܝܐ ܘܡܰܛܒܥܬܐ ܘܰܗܘܐ ܡܢܗ ܫܰܒܥܐ ܡܝܛܪ̈ܘܦܘܠܝܛܐ"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "باورشليم ويعرف بدير السريان دير قديم ترقى عمارته الى المئة الخامسة او السادسة يشهد بهذا اثر سرياني اسطرنجيلي ظهر في بيعته عام 1940 وهو اليوم كرسي مطرانيتنا ومسكن رهباننا من سنة 1472 وفيه خزانة كتب نفيسة ومطبعة ونشأ منه سبعة مطارنة."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "both located in Jerusalem. St. Mark is also known as the Monastery of the Syrians. It is an old monastery, built in the fifth or sixth century, according to an Estrangelo Syriac inscription on a stone discovered in 1940. Today it is the see of our metropolitan and it has been the home of our monks since 1472. The monastery has a magnificent library and a press. It has produced seven bishops."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1472"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/388/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/388/tei>  .

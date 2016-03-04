@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/376> a lawd:Place ;
+rdfs:label "Qidr Monastery — ܕܝܪܐ ܕܩܕܪ"  ;
+ dcterms:description [
+rdfs:label "ܐܰܘ ܩܝܕܪ ܡܶܢ ܕܰܝܪ̈ܳܬܐ ܕܪܝܫ ܥܰܝܢܐ ܕܟܝܪ ܒܡܰܐܬܳܐ ܫܬܺܝܬܳܝܬܐ ܘܡܶܢܗ ܗܘܳܐ ܡܰܟܬܒܳܢܐ ܩܰܫܝܫܐ ܬܳܐܘܡܐ ܫܢܰܬ 636 ܘܐܰܫܩܶܠܘ ܕܰܝܪ̈ܳܝܘܗܝ ܠܕܰܝܪܐ ܕܥܰܡܘܕܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "من اديار جبل راس عين ذكر في المئة السادسة ومنه نشأ المؤرخ القس توما سنة 636 ورحل رهبانه الى دير العمود."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "near Rish ʿAyna, was first mentioned by historians in the sixth century. One of its graduates is the chronicler-priest Thomas, in 636. Its monks later moved to the Pillar Monastery."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0600"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/376/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/376/tei>  .

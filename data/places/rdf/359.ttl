@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/359> a lawd:Place ;
+rdfs:label "Dayr Sarjīsiyya — ܕܝܪܐ ܕܣܪܓܝܣܝܗ"  ;
+ dcterms:description [
+rdfs:label "ܒܫܶܡ ܣܗܳܕ̈ܐ ܣܰܪܓܝܣ ܘܒܳܟܘܣ. ܒܢܳܝܗܝ ܕܰܝܪܳܝܐ ܟܝܣܳܐ ܐܫܢܘܝܐ ܐܰܕܘܪܒܰܝܓܳܢܳܝܐ ܒܰܚܕܳܐ ܡܶܢ ܦܶܢܝ̈ܬܳܐ ܕܓܘܒܰܐܣ ܐܰܬܪܳܐ ܫܢܰܬ 958 ܟܶܢ ܫܰܟܠܠܘܗ̇ ܫܢܰܬ 1001 ܘܒܶܗ ܐܰܠܦ ܪܰܒܰܢ ܡܰܪܘܢ ܘܒܶܗ ܐܶܬܢܰܦܰܩܘ ܚܰܕ ܡܰܦܪܝܳܢܐ ܘܥܶܣܪܐ ܐܶܦܝܣܩܘܦ̈ܐ ܥܕܰܡܐ ܠܰܫܢܰܬ 1170"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "باسم الشهيدين سرجيس وباخوس بناء الراهب كيسو الاشنوي الاذربيجاني في بعض انحآء بلد جوباس عام 958 وتمّ بنآؤه سنة 1001 وفيه علَّم الربان يوحنا تلميذ مارون، وتخرّج مفريان وعشرة اساقفة حتى سنة 1170"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "of the Monastery of the Martyrs Sergius and Bacchus: its construction was begun by the monk Kiso Ashnawi of Azerbayjan Jubas in 958, but was not finished until 1001. One of the professors at its school was John, the pupil of Marun. From its founding until 1170, one Maphryono and ten bishops graduated from it."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0958"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/359/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/359/tei>  .

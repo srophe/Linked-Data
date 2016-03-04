@@ -1,0 +1,27 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/103> a lawd:Place ;
+rdfs:label "Irenopolis"  ;
+dcterms:description "A town of east of ."  ;
+dcterms:temporal "0300"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/658458>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Irenopolis,_Cilicia>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Düziçi>  ;
+geo:location [
+geo:lat "37.24952"  ;
+geo:long "37.24952"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/103/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/103/tei>  ;
+geo:location [
+geo:lat "37.24952"  ;
+geo:long "37.24952"  ;].

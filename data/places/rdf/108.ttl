@@ -1,0 +1,38 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/108> a lawd:Place ;
+rdfs:label "Karka d-Beth Slokh — ܟܪܟܐ ܕܒܝܬ ܣܠܘܟ"  ;
+ dcterms:description [
+rdfs:label "The name occurs in the 6th cent. ‘History of Karka d- Beth Slokh and its Martyrs’ published by Bedjan, and it means literally 'Fortress of the House of Seleucus.'"@en  ;];
+ dcterms:description [
+rdfs:label "316. Karka d-Beth Slokh"@en  ;];
+ dcterms:description [
+rdfs:label "ܡܕܺܝܢܰܬ ܟܰܪܟܘܟ ܗܳܝ ܕܰܒܥܪܰܐܩ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "هي مدينة كركوك في العراق."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "the present city of Kirkuk, in Iraq."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "-0858"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/893941>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Kirkuk>  ;
+geo:location [
+geo:lat "35.468099"  ;
+geo:long "35.468099"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/108/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/108/tei>  ;
+geo:location [
+geo:lat "35.468099"  ;
+geo:long "35.468099"  ;].

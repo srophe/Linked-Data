@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/344> a lawd:Place ;
+rdfs:label "Dayro d-Boʿut — ܕܝܪܐ ܕܒܥܘܬ"  ;
+ dcterms:description [
+rdfs:label "ܒܰܫܒܳܒܘܬܗ̇ ܕܟܰܪܒܘܬ. ܐܶܬܥܗܰܕ ܫܢܰܬ 1057 ܘܒܗ ܐܶܬܢܰܦܩܘ ܐܰܪܒܥܳܐ ܐܶܦܝܣܩܘܦ̈ܐ. ܒܰܙܘܗܝ ܟܶܢܫܳܐ ܕܡܰܫܠܡ̈ܳܢܐ ܫܢܰܬ 1290 ܘܐܰܚܕܘܗܝ ܒܰܩܛܝܪܳܐ ܚܕܳܪ̈ܰܝ 1131"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "بجوار خربوت ذكر سنة 1057 وفيه تخرج اربعة اساقفة نهبته طائفة من المسلمين عام 1290 ثم اغتصبوه حوالي 1311"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "near Kharput, first was mentioned in history in 1057. It produced four bishops. In 1290 it was ransacked by a group of Muslims and Muslims finally occupied it in 1311."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1057"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/344/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/344/tei>  .

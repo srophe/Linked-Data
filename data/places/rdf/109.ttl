@@ -1,0 +1,35 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/109> a lawd:Place ;
+rdfs:label "Kallinikos — ܩܐܠܘܢܝܩܝ"  ;
+dcterms:description "A city on the where the enters it."  ;
+ dcterms:description [
+rdfs:label "ܡܕܝܢܬܳܐ ܗܘܳܬ ܪܰܒܬܳܐ ܒܩܘܪܒܳܐ ܕܰܦܪܳܬ ܘܡܶܬܰܐܡܪ ܠܗ̇ ܪܰܩܰܗ̈ ܘܝܰܘܡܳܢܐ ܗܘܳܬ ܡܕܝܢܬܳܘܢܺܝܬܳܐ ܕܕܳܡܝܳܐ ܠܰܩܪܺܝܬܳܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "وهي قالونيقس القديمة مدينة عظيمة واقعة بقرب الفرات واليوم امست بليدة اشبه بالقرية."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "the ancient Callinicus, it was a big city near the Euphrates. Today it is a small town, more nearly a village."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0581"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/668318>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Al-Raqqah>  ;
+geo:location [
+geo:lat "35.95"  ;
+geo:long "35.95"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/109/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/109/tei>  ;
+geo:location [
+geo:lat "35.95"  ;
+geo:long "35.95"  ;].

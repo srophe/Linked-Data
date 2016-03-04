@@ -1,0 +1,36 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/62> a lawd:Place ;
+rdfs:label "Circesium — ܩܪܩܝܣܝܘܢ"  ;
+dcterms:description "A city at the confluence of the Euphrates and the Khabur rivers."  ;
+ dcterms:description [
+rdfs:label "ܐܰܬܪܐ ܗܘ ܕܥܰܠ ܢܗܰܪ ܢܒܘܪܐܝܟܐ ܕܢܳܣܶܟ ܒܰܦܪܳܬ. ܚܪܶܒ ܘܐܝܬ ܒܕܘܟܬܗ ܩܪܝܬܳܐ ܕܡܶܬܐܡܰܪ ܠܳܗ̇ ܐܰܒܘܣܰܪܰܐܝ (ܒܨܝܪܗ̈)"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "بلد على نهر الخابور عند مصبه في الفرات خرب وفي موضعه قرية ابو سراي (بصيرة)."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a town near the place where the Khabur joins the Euphrates; it no longer exists. On its site lies the village of Abu Saray (Busayra)."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0363"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/893974>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Circesium>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Al-Busayrah>  ;
+geo:location [
+geo:lat "35.15676"  ;
+geo:long "35.15676"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/62/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/62/tei>  ;
+geo:location [
+geo:lat "35.15676"  ;
+geo:long "35.15676"  ;].

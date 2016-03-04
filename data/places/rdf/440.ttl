@@ -1,0 +1,34 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/440> a lawd:Place ;
+rdfs:label "Konia — ܐܝܩܘܢܝܘܢ"  ;
+ dcterms:description [
+rdfs:label "ܩܳܘܢܝܰܐ ܡܕܝܢܬܳܐ ܗܝ ܕܰܒܡܶܨܥܰܬ ܐܰܢܰܐܛܳܘܠ ܘܰܠܬܰܝܡܢܗ̇ ܕܰܐܢܩܰܘܪܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "مدينة في وسط الاناضول جنوبي انقرة."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a city in central Anatolia, south of Ankara."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "-0354"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/648647>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Konya>  ;
+geo:location [
+geo:lat "37.872202"  ;
+geo:long "37.872202"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/440/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/440/tei>  ;
+geo:location [
+geo:lat "37.872202"  ;
+geo:long "37.872202"  ;].

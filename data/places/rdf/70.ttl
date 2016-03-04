@@ -1,0 +1,34 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/70> a lawd:Place ;
+rdfs:label "Dayro d-Mor Abay — ܕܝܪܐ ܕܡܪܝ ܐܒܝ"  ;
+dcterms:description "A monastery near Qeleth in Ṭur ʿAbdin."  ;
+ dcterms:description [
+rdfs:label "ܣܳܗܕܐ ܦܳܪܣܳܝܐ ܠܓܰܪܒܰܝ ܩܶܠܬ ܩܪܝܬܳܐ ܡܰܪܕܶܐ ܩܰܛܝ̈ܢܢ. ܕܰܝܪܰܐ ܗܘ ܪܰܒܐ ܐܶܬܒܢܝ ܒܕܳܪܳܐ ܫܬܝܬܳܝܐ ܘܒܰܫܢܰܬ 1250 ܐܝܬ ܗܘܐ ܒܗ ܫܬܝܺܢ ܕܰܝܪ̈ܳܝܐ. ܟܶܢ ܗܘܐ ܒܶܝܬ ܟܘܪܣܝܳܐ ܕܐܶܦܣܩܘܦܳܐ. ܘܰܢܦܰܩ ܡܶܢܗ ܚܰܕ ܦܰܛܪܝܰܪܟܳܐ ܘܰܚܕܰܥܣܪ ܐܶܦܝ̈ܣܩܘܦܶܐ. ܘܰܚܕܳܪ̈ܰܝ ܫܢܰܬ 1700 ܥܰܠܥܶܠܘ ܙܰܒ̈ܢܐ ܒܐܢܳܫܰܘ̈ܗܝ ܘܚܰܪ̈ܒܳܬܗ ܩܰܝ̈ܡܳܢ"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "الشهيد الفارسي شمالي قرية قلث مسيرة عشرين دقيقة؛ دير عظيم انشىء في القرن السادس وعام 1250 حوى ستين راهباً ثم صار كرسياً اسقفيا ونشأ منه بطريرك واحد عشر اسقفاً، عصف الدهر بأهله حوالي سنة 1700 واطلاله ماثلة"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "the Persian martyr, is north of Qellith. It was a large monastery, established in the sixth century. In 1250 it had about sixty monks. Later, it became an episcopal see and from it came one Patriarch and eleven bishops. It was abandoned in 1700 and its ruins can still be seen."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1700"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/874577>  ;
+geo:location [
+geo:lat "37.594831"  ;
+geo:long "37.594831"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/70/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/70/tei>  ;
+geo:location [
+geo:lat "37.594831"  ;
+geo:long "37.594831"  ;].

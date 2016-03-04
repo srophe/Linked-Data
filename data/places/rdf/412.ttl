@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/412> a lawd:Place ;
+rdfs:label "Semqe — ܣܡܩ̈ܐ"  ;
+ dcterms:description [
+rdfs:label "ܡܶܢ ܩܘܪ̈ܝܘܐ ܕܐܳܡܝܕ ܠܡܰܕܢܰܚ ܓܰܪܒܰܝ ܕܝܠܳܗ̇ܳ ܡܰܪܕܶܐ ܬܰܪܬܝܢ ܫܳܥܝ̈ܢ ܘܰܟܒܰܪ ܗܝ ܡܬܶܩܰܪܝܳܐ ܝܰܘܡܢ ܣܘܡܰܐܩܠܝ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "من قرى ديار بكر ولعلها المسماة سوماقلي في شرقها الشمالي مسافة ساعتين عنها."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a village two hours journey northeast of Diyarbakr. It may be the village called Summaqli."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0500"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/412/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/412/tei>  .

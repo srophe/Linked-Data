@@ -1,0 +1,29 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/461> a lawd:Place ;
+rdfs:label "Malabar — ܡܝܠܝܒܪ"  ;
+dcterms:description "A coastal region in southern ."  ;
+ dcterms:description [
+rdfs:label "ܩܠܝܡܰܐ ܗܘ ܕܰܒܬܝܡܰܢ ܡܰܥܪܰܒ ܐܰܬܪ̈ܰܘܳܬܐ ܕܗܶܢܕܘ ܥܰܠ ܝܰܕ ܐܘܩܝܰܐܢܘܣ ܗܶܢܕܘܳܝܳܐ ܕܐܳܚܶܕ ܠܬܰܪܬܶܝܢ ܐܰܡܝܪ̈ܘܳܬܐ ܕܟܺܘܓܝܺܢ ܘܰܬܪܰܐܘܢܟܘܪ"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "اقليم في الجنوب الغربي من بلاد الهند على ساحل الاوقيانوس الهندي يشتمل على امارتي كوجين وتراونكور."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a territory in southwest India, on the coast of the Indian Ocean [sic]; it includes the provinces of Travancore and Cochin."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1330"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/50092>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Malabar_Coast>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/461/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/461/tei>  .

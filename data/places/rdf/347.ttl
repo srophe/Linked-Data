@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/347> a lawd:Place ;
+rdfs:label "Dayro d-Beth Botin — ܕܝܪܐ ܕܒܝܬ ܒܬܝ̈ܢ"  ;
+ dcterms:description [
+rdfs:label "ܒܚܳܪܢ. ܐܶܬܟܰܢܫܰܬ ܒܗ ܣܘܢܰܗܕܘܣ ܫܢܰܬ 793 ܐܰܦܶܩ ܚܰܕ ܦܰܛܪܝܰܪܟܳܐ ܘܰܬܠܳܬܐ ܐܶܦܝܣܩܘܦ̈ܐ. ܥܕܰܡܳܐ ܠܰܫܢܰܬ 975."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "في حران عقد فيه مجمع عام 793 وخرّج بطريركاً وثلاثة اساقفة حتى سنة 975"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "in Ḥarran. A synod met there in 793. It produced one Patriarch and three bishops and remained active until 975."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0793"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/347/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/347/tei>  .

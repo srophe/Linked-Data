@@ -1,0 +1,27 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/73> a lawd:Place ;
+rdfs:label "Dayro d-Noṭpo — ܕܝܪܐ ܕܢܛܦܐ"  ;
+dcterms:description "A monastery overlooking Dayr al-Zaʿfarān outside Mardin, dedicated to the Virgin Mary and St. Theodore."  ;
+ dcterms:description [
+rdfs:label "ܒܫܶܡ ܡܳܪܬܰܢ ܒܬܘܽܠܬܐ ܘܡܳܪܝ ܬܶܐܘܕܘܪܳܘܣ. ܕܰܝܪܐ ܙܥܘܽܪܐ ܘܥܰܬܝܩ ܗܰܝܟܠܗ ܢܩܝܺܪ ܒܫܽܘܥܐ ܗܽܘܝܽܘ ܒܪܺܝܫ ܛܘܪܐ ܕܚܳܐܪ ܠܕܰܝܪܳܐ ܕܙܰܥܦܰܪܐܢ ܩܰܒܠ ܟܶܢܫܐ ܕܥܶܢܘܳܝ̈ܐ ܘܐܶܬܬܟܶܒܘ ܠܘܳܬܢ ܛܶܒ̈ܘܗܝ ܡܶܢ ܕܳܪܐ ܕܐܰܪܒܥܣܪ ܘܐܶܬܪܰܝܫܰܢ ܥܠܰܘܗܝ ܒܙܰܒܢ ܐܶܦܝܣܩܘܦܐ ܘܡܶܬܒܰܝܬܶܐ ܠܗ ܐܰܪܒܥܳܐ ܐܶܦܣܩܘܦ̈ܐ. ܘܐܶܬܓܰܙܺܝ ܡܶܢ ܐܢܳܫܘ̈ܗܝ ܚܕܳܪ ܫܢܰܬ 1927 ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "باسم السيدة العذراء. ومار ثاودورس دير صغير قديم منقور في الصخر هيكله في صدر جبل مطل على دير الزعفران، حوى رهطا من النساك وتوارت عندنا اخباره منذ القرن الرابع عشر ورئسه اسقف احيانا؛ ينسب اليه اربعة اساقفة وخلا من اهله حول سنة 1927."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "was built in the name of the Virgin and St. Theodorus. It is a small monastery hewn in the rocks in a mountain overlooking the Zaʿfaran Monastery and housed a group of monks. We have a great deal of information about it since the fourteenth century. At times it was administered by a bishop. It became empty, however, about 1927."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1400"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/73/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/73/tei>  .

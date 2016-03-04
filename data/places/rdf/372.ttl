@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/372> a lawd:Place ;
+rdfs:label "Dayr Fusqīn — ܕܝܪܐ ܕܦܣܩܝܢ"  ;
+ dcterms:description [
+rdfs:label "ܥܠ ܣܶܦܰܬ ܦܪܳܬ ܢܰܗܪܐ ܒܩܘܽܪܒܐ ܕܕܰܝܪܐ ܕܡܳܪܝ ܐܰܒܚܰܝ ܒܓܰܪܓܪܰ. ܚܰܕܶܬ ܠܒܶܢܝܳܢܗ ܕܰܝܪܳܝܐ ܕܰܘܝܕ ܘܟܶܢܫܐ ܕܥܶܢܘ̈ܝܐ ܒܪܺܝܫܐ ܕܡܰܐܬܐ ܕܰܚܕܰܥܣܪ̈ܐ ܘܠܗ ܡܬܒܰܝܬܝܢ ܚܰܡܫܐ ܐܶܦܝܣܩܘ̈ܦܐ ܒܕܳܪܗ ܩܰܕܡܳܝܐ ܒܡܰܐܬܐ ܕܰܥܣܪ ܘܰܒܢܳܐ ܗܰܝܟܠܗ ܪܰܒܰܢ ܚܰܒܩܘܩ ܗܘ ܕܰܫܟܝܚ ܗܘܐ ܒܰܫܢܰܬ 1160 ܘܥܰܡܝܪ ܗܘܐ ܫܢܰܬ 1565 ܐܠܐ ܒܳܬܰܪ ܩܰܠܝܠ ܫܢ̈ܝܐ ܠܰܝܬ ܗܘܐ ܒܗ̇ ܥܳܡܘܪ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "على ضفة نهر الفرات بقرب دير مار ابحاي في كركر؛ جدد بناءه الربان داود ورهط من النساك صدر المئة الحادية عشرة، واليه ينسب خمسة اساقفة في حقبته الاولى في المئة العاشرة، وبنى هيكله الربان حبقوق الذي كان موجودا حول سنة 1160 كان عامرا عام 1565 لكنه امسى خاليا بعد سنوات قليلة."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "on the left bank of the Euphrates, near Mor Abḥai Monastery in Karkar. Master David and a group of monks renovated it at the beginning of the eleventh century. To this monastery are attributed five bishops in the tenth century. Its nave was built by the monk Habakkuk (fl. c. 1160). The monastery was still populated in 1565, but was abandoned a few years later."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1000"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/372/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/372/tei>  .

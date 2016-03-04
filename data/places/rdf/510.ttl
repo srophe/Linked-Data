@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/510> a lawd:Place ;
+rdfs:label "Tokat — ܬܘܩܐܬ"  ;
+dcterms:description "A city of north-central ."  ;
+dcterms:temporal "-0030"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/857105>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Tokat>  ;
+geo:location [
+geo:lat "40.317677"  ;
+geo:long "40.317677"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/510/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/510/tei>  ;
+geo:location [
+geo:lat "40.317677"  ;
+geo:long "40.317677"  ;].

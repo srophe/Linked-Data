@@ -1,0 +1,34 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/290> a lawd:Place ;
+rdfs:label "Aqsarāy — ܐܩܣܪܐܝ"  ;
+ dcterms:description [
+rdfs:label "ܡܕܝܺܢܬܐ ܕܰܠܓܪܒܰܝ ܡܰܕܢܰܚ ܩܳܘܢܝܰܐ ܘܪܰܚܝ̣ܩܳܐ ܡܶܢܗ̇ 60 ܡܝ̈ܠܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "مدينة الى الجهة الشمالية الشرقية من مدينة قونية على مسافة 60 ميلاً منها"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a town sixty miles northeast of Konya."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "-0030"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/619164>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Aksaray>  ;
+geo:location [
+geo:lat "38.37335"  ;
+geo:long "38.37335"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/290/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/290/tei>  ;
+geo:location [
+geo:lat "38.37335"  ;
+geo:long "38.37335"  ;].

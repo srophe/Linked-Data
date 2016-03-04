@@ -1,0 +1,27 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/321> a lawd:Place ;
+rdfs:label "Diyār Rabīʿa — ܓܙܪܬܐ ܥܠܝܬܐ"  ;
+ dcterms:description [
+rdfs:label "ܒܝܬ ܇ ܒܘܪܐ ܘܕܶܩܠܰܬ ܐܝܬܰܝܗܘܢ ܡܰܥܡܪ̈ܶܐ ܕܬܰܓܠܒܳܝ̈ܐ ܛܘܗܡܳܐ ܪܰܒܐ ܕܰܐܪ̈ܰܐܒܳܝܐ ܘܐܺܝܬܰܝܗܘܽܢ ܗܘܰܘ ܡܫܝܚ̈ܝܶܐ ܣܘܪ̈ܝܳܝܐ ܐܰܪ̈ܬܘܕܘܟܣܽܘ ܘܩܰܘܺܝܘ ܡܫܝܚܝ̈ܐ ܥܕܰܡܳܐ ܠܡܰܐܬܐ ܥܣܝܪܳܝܬܳܐ ܘܡܶܢ ܛܒ̈ܝܒܶܐ ܕܓܰܒܪ̈ܶܝܗ̇ ܓܰܝܐܬ ܒܪ ܓܘܬ ܕܺܝܕܺܝܥ ܐܰܟܛܠ ܦܘܺܐܝܛܳܐ ܕܢܰܦܝܩ ܫܡܗ ܚܕܳܪ̈ܰܝ ܫܢܰܬ 710 ܐܬܓܰܙܝܰܬ ܡܢ ܐܢܳܫ̈ܝܗ̇ ܒܕܳܪܳܐ ܕܐܰܪܒܰܥܣܪ ܐܶܬܝܰܬܒܬ ܚܕܳܪ̈ܰܝ ܫܢܰܬ 1921 ܘܐܶܬܚ̈ܕܰܬܝ ܒܗ̇ ܡܕܝܢ̈ܬܳܐ ܕܚܰܣܝܟܐ ܘܒܶܝܬܙ̈ܠܐ ܘܪܝܫ ܥܰܝܢܳܐ ܘܫܰܪܝ ܪܳܕܐ ܒܳܗ̇ ܫܘܽܟܠܠܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "بين الخابور ودجلة كانت منازل التغالبة او بني تغلب احدى قبائل العرب الكبرى، وكانت مسيحية سريانية ارثوذكسية ظلت على نصرانيتها حتى المئة العاشرة. ومن اشهر رجالها غياث بن غوث المعروف بالاخطل الشاعر الذائع الصيت حوالي سنة 710 - اقفرت من اهلها في القرن الرابع عشر. ثم مُصّرت حوالي سنة 1921 فاستحدثت فيها بلدة الحسكة ومدينة القامشلي وغيرهما وانتشر فيها العمران"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a district between the rivers Khabur and Tigris. In ancient times it was the abode of the bani Taghlib, a large Arab tribe which was Syrian Orthodox and remained Christian until the tenth century. One of its members is the famous poet Ghiyath Ibn Ghawth, nicknamed al-Akhṭal (c. 710). It became desolate in the fourteenth century, but was resettled about 1921. New towns such as Ḥasaka, Qamishli and others were built in it."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0680"  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Diyar_Rabi'a>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/321/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/321/tei>  .

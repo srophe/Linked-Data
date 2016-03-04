@@ -1,0 +1,35 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/75> a lawd:Place ;
+rdfs:label "Doliche — ܕܠܘܟ"  ;
+dcterms:description "A town west of the Euphrates, north of Aleppo, and northeast of Cyrrhus."  ;
+ dcterms:description [
+rdfs:label "ܡܕܝܢܬܳܘܢܝܬܳܐ ܗܝ ܕܒܰܦܢܝܬ ܚܳܠܳܒ ܝܺܕܝܺܥܐ ܗܘܳܬ. ܪܰܚܝ̣ܩܐ ܗܘܳܬ ܡܶܢ ܫܰܡܺܝܫܰܛ ܐܝܟ ܬܪܶܥܣܰܪ ܡܝ̈ܠܐ ܘܝܰܘܡܳܢ ܚܰܪܝܒܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "بليدة من نواحي حلب بالعواصم كانت وهي اثنا عشر ميلاً عن سميساط، خاوية على عروشها"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a small town in the province of Aleppo, twelve miles from Samosata."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0180"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/658455>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Dülük>  ;
+geo:location [
+geo:lat "37.153671"  ;
+geo:long "37.153671"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/75/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/75/tei>  ;
+geo:location [
+geo:lat "37.153671"  ;
+geo:long "37.153671"  ;].

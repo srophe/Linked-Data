@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/361> a lawd:Place ;
+rdfs:label "Mor Shlemun — ܕܝܪܐ ܕܡܪܝ ܫܠܝܡܘܢ"  ;
+ dcterms:description [
+rdfs:label "ܒܩܘܪܒܳܐ ܕܕܠܘܟ. ܘܚܳܐܰܪ ܠܡܰܪܓܐ ܕܥܰܝܢܳܐ ܘܥܰܡܝܪ ܗܘܳܐ 875 - 1000 ܘܢܰܦܶܩ 13 ܐܶܦܝܣܩܘܦ̈ܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "بالثغر قرب دلوك يطلّ على مرج العين كان عامراً 875-1000 وخرّج ثلاثة عشر اسقفاً"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "in al-Thaghr, near Duluk, overlooking Marj al-ʿAyn, was inhabited between 875 and 1000. Thirteen bishops graduated from it."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0875"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/361/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/361/tei>  .

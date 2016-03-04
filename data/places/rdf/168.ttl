@@ -1,0 +1,28 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/168> a lawd:Place ;
+rdfs:label "Rabban Hormizd — ܪܒܢ ܗܘܪܡܝܙܕ ܥܓ̰ܡܝܐ"  ;
+ dcterms:description [
+rdfs:label "The Chaldean monastery of Rabban Hormizd, built upon a mountain ridge northeast of Alqosh in northern Iraq, is famous not only for its magnificent location and impressive buildings, but also for its central role in the history of the transmission of E.-Syr. literature and its importance in the struggles between the Chald. Church and the Ch. of E., to which the monastery originally belonged."@en  ;];
+ dcterms:description [
+rdfs:label "264. Hormizd, Monastery of Rabban"@en  ;];
+dcterms:temporal "0700"  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Rabban_Hormizd_Monastery>  ;
+geo:location [
+geo:lat "36.749167"  ;
+geo:long "36.749167"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/168/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/168/tei>  ;
+geo:location [
+geo:lat "36.749167"  ;
+geo:long "36.749167"  ;].

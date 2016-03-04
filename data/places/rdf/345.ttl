@@ -1,0 +1,27 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/345> a lawd:Place ;
+rdfs:label "Paksimeṭ — ܦܩܝܣܡܐܛ"  ;
+dcterms:description "A monastery in Cilicia."  ;
+ dcterms:description [
+rdfs:label "ܒܳܣܝܣ ܕܰܒܩܝܠܝܺܩܝܐ. ܥܡܰܪ ܒܗ ܝܘܚܰܢܢ ܕܝ̄ܒ ܫܢܰܬ 1108 ܘܐܰܘܩܕܽܘܗܝ ܦܳܠܚ̈ܐ ܡܶܨܪ̈ܝܐ ܬܠܳܬ ܙܰܒܢ̈ܝܢ ܒܶܝܬ ܫܢܰܬ 1226 - 1279 ܘܩܰܛܠܗ ܒܗ 25 ܕܰܝܪ̈ܝܐ ܘܠܗ ܡܶܬܒܰܝܬܶܐ ܓܪܝܺܓܘܪܺܝܘܣ ܡܶܛܪܘܦܘܠܝܛܐ ܕܣܝܺܣ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "في سيس بقيليقية، نزل به يوحنا الثاني عشر عام 1208 واحرقه الجنود المصريون ثلاثاً بين سنة 1266-1279 وقتلوا فيه خمسة وعشرين راهباً (التاريخ المدني لابن العبري ص 523 و 531 و 542) واليه ينسب غريغوريوس مطران سيس حول 1290"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "is situated in Sīs, Cilicia. Patriarch John XII resided there in 1108. Between 1266 and 1279, it was burned three times by Egyptian troops, who also killed twenty-five monks. (See Bar Hebraeus, Chronography, pp. 523, 531, 542). Gregorius, metropolitan of Sīs, may have belonged to this monastery around 1290."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1108"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/345/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/345/tei>  .

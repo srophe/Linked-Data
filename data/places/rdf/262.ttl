@@ -1,0 +1,31 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/262> a lawd:Place ;
+rdfs:label "Qaraqosh — ܒܝܬ ܟܘܕܝܕܐ"  ;
+ dcterms:description [
+rdfs:label "A sizable town located to the east of Mosul, on the same road along which Barṭelle and Karamlish are located."@en  ;];
+ dcterms:description [
+rdfs:label "441. Qaraqosh"@en  ;];
+ dcterms:description [
+rdfs:label "ܩܪܝܬܐ ܪܰܒܬܳܐ ܕܒܐܘܚܕܳܢܐ ܕܢܝܺܢܘܶܐ ܠܡܰܕܢܚܐ ܕܡܰܘܨܠ ܘܡܶܬܐܡܰܪ ܠܗ̇ ܝܰܘܡܳܢ ܩܰܪܰܩܽܘܫ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "قرية كبيرة من اعمال نينوى شرقي مدينة الموصل يقال لها اليوم قرقوش"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a large village in the province of Nineveh, north of Mosul; now called Qaraqosh."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0600"  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Bakhdida>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/262/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/262/tei>  .

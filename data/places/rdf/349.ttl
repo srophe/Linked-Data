@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/349> a lawd:Place ;
+rdfs:label "Gubba Barraya — ܕܝܪܐ ܕܓܘܒܐ ܒܪܝܐ"  ;
+ dcterms:description [
+rdfs:label "ܒܡܰܕܒܪܳܐ ܕܰܦܪܳܬ ܒܶܝܬ ܚܳܠܳܒ ܠܡܰܒܘܓ ܐܶܫܬܰܬܐܣ ܒܚܰܪܬܗ ܕܕܳܪܳܐ ܚܡܺܝܫܳܝܳܐ ܘܰܒܪܺܝܫܗ ܕܰܫܬܝܺܬܳܝܐ ܘܐܶܬܦܣܶܩ ܛܶܒܗ ܒܡܶܨܥܳܝ̈ܬܗ ܕܰܬܫܝܺܥܳܝܐ ܐܰܦܶܩ ܐܰܪܒܥܳܐ ܦܰܛܪܝܰܪ̈ܟܐ ܘܰܬܠܳܬܐ ܐܶܦܝ̈ܣܩܘܦܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "في برية الفرات بين حلب ومنبج شيد بناؤه في سلخ القرن الخامس وصدر السادس وانقطع خبره اواسط التاسع انجب اربعة بطاركة وثلاثة اساقفة"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "located in the Euphrates desert between Aleppo and Mabug, was built at the end of the fifth and the start of the sixth century. Nothing is known about it after the middle of the ninth century. It produced four patriarchs and three bishops."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0550"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/349/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/349/tei>  .

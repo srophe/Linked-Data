@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/328> a lawd:Place ;
+rdfs:label "al-Ḥaṣṣāṣa — ܚܨܐܨܗ̇"  ;
+ dcterms:description [
+rdfs:label "ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܠܰܚܩܐ ܗܘܳܬ ܒܩܘܽܪܒܐ ܕܩܰܨܪܐ ܕܒܰܪ ܗܘܒܝܪܗ ܕܒܐܽܘܚܕܳܢܐ ܕܟܽܘܦܰܗ ܠܐ ܡܶܬܚܰܙܝܐ ܕܘܟܬܗ̇."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "كانت من قرى السواد قرب قصر ابن هبيرة من عمل الكوفة لا اثر لها"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "an ancient village in southern Iraq, near Qaṣr Ibn Hubayra, in the vicinity of al-Kūfa."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1214"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/328/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/328/tei>  .

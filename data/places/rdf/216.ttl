@@ -1,0 +1,38 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/216> a lawd:Place ;
+rdfs:label "Ḥarran — ܚܪܢ"  ;
+ dcterms:description [
+rdfs:label "Syr./Hebrew Ḥārān; Latin Carrhae; Arabic Ḥarran. Ancient city in Mesopotamia, approximately 45 km south-southeast of Edessa."@en  ;];
+ dcterms:description [
+rdfs:label "250. Ḥarran"@en  ;];
+ dcterms:description [
+rdfs:label "ܡܕܺܝܢܬܳܐ ܗܘܳܬ ܪܰܒܬܳܐ ܘܥܰܬܝܩܬܳܐ ܕܰܒܬܰܝܡܢܗ̇ ܕܐܽܘܪܗܳܝ ܘܰܚܫܝܒܳܐ ܗܘܳܬ ܪܒܐ ܕܐܰܬܪ̈ܘܳܬܐ ܕܡܨܪ ܘܰܩܪܝܬܳܐ ܗܝ ܗܳܫܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "كانت مدينة عظيمة قديمة في جنوبي الرها و بينهما يوم وعُدّت قصبة ديار مضر وامست قرية"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "once a great city, a day’s journey south from Edessa. It was considered the capital of Diyar Miṣr, but now is a small village."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "-2000"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/658427>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Harran>  ;
+geo:location [
+geo:lat "36.8775"  ;
+geo:long "36.8775"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/216/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/216/tei>  ;
+geo:location [
+geo:lat "36.8775"  ;
+geo:long "36.8775"  ;].

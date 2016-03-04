@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/294> a lawd:Place ;
+rdfs:label "Bājabbāra — ܒܝܬ ܓܢܒܪ̈ܐ"  ;
+ dcterms:description [
+rdfs:label "ܩܪܺܝܬܳܐ ܗܝ ܕܥܰܠ ܢܰܗܪܘܣܐ ܕܟܘܣܪ ܕܰܠܡܕܢܚܐ ܕܡܰܘܨܰܠ ܚܰܪܝܒܐ ܒܡܶܨܥܳܝ̈ܬܗ ܕܕܳܪܐ ܕܝܓ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "قرية مندثرة في شرقي الموصل على نهير الخوسر خربت اواسط المئة الثالثة عشرة"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a village north of Mosul on the Khuser Creek, ruined in the middle of the thirteenth century."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1225"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/294/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/294/tei>  .

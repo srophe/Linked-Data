@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/143> a lawd:Place ;
+rdfs:label "Nabk — ܢܒܟ"  ;
+dcterms:description "A town northeast of and southwest of ."  ;
+dcterms:temporal "1185"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/678085>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/An-Nabk>  ;
+geo:location [
+geo:lat "34.016667"  ;
+geo:long "34.016667"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/143/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/143/tei>  ;
+geo:location [
+geo:lat "34.016667"  ;
+geo:long "34.016667"  ;].

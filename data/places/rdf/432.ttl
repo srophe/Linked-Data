@@ -1,0 +1,34 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/432> a lawd:Place ;
+rdfs:label "ʿIrqa — ܥܪܩܐ"  ;
+ dcterms:description [
+rdfs:label "ܐܰܬܪܰܐ ܗܘ ܕܥܰܠ ܝܰܕ ܝܰܡܐ ܒܶܝܬ ܦܰܢܺܝܗ ܘܰܛܪܺܝܦܳܘܠܝܣ ܒܡܰܕܢܰܚ ܓܰܪܒܰܝ ܕܝܠܗ̇. ܒܰܝܢܳܬܗܝܢ ܐܰܪܒܥܐ ܦܰܪ̈ܣܚܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "بلد على سيف البحر بين رفنية وطرابلس في شرقيها الشمالي بينهما اربعة فراسخ."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a town on the seashore between Raphina and Tripoli, about four leagues from the latter city."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "-1300"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/668198>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Arqa>  ;
+geo:location [
+geo:lat "34.531277"  ;
+geo:long "34.531277"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/432/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/432/tei>  ;
+geo:location [
+geo:lat "34.531277"  ;
+geo:long "34.531277"  ;].

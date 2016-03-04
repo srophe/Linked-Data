@@ -1,0 +1,29 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/33> a lawd:Place ;
+rdfs:label "Beth Garmai — ܒܝܬ ܓܪ̈ܡܝ"  ;
+ dcterms:description [
+rdfs:label "An ecclesiastical province confined between the Lower Zab northward, the Tigris westward, the Diyālā river southward, and the mountains of Ḥimrīn eastward."@en  ;];
+ dcterms:description [
+rdfs:label "99. Beth Garmai"@en  ;];
+dcterms:temporal "0410"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/893999>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Beth_Garmaï_(East_Syrian_Ecclesiastical_Province)>  ;
+geo:location [
+geo:lat "35.5"  ;
+geo:long "35.5"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/33/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/33/tei>  ;
+geo:location [
+geo:lat "35.5"  ;
+geo:long "35.5"  ;].

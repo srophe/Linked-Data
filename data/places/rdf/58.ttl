@@ -1,0 +1,38 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/58> a lawd:Place ;
+rdfs:label "Ctesiphon — ܩܛܝܣܦܘܢ"  ;
+ dcterms:description [
+rdfs:label "Located on the Tigris, south of modern Baghdad."@en  ;];
+ dcterms:description [
+rdfs:label "483. Seleucia-Ctesiphon"@en  ;];
+ dcterms:description [
+rdfs:label "ܬܰܪܬܝܢ ܡܕܝ̈ܢܳܢ ܕܒܰܚܕ̈ܕܐ ܣܒܝܣ̈ܢ ܘܡܶܬܩܰܪ̈ܝܳܢ ܡܕܝ̈ܢܳܬܐ ܐܶܡܐ ܕܰܡܕܝ̈ܢܬܳܐ ܕܦܳܪ̈ܣܳܝܐ ܣܰܐܣܰܐܢܳܝ̈ܐ ܠܬܰܝܡܢܳܗ̇ ܕܒܓܕܕ ܡܰܪܕܶܐ ܫܶܬ ܫܳܥܝ̈ܢ ܘܰܚܪܶܒ̈ܝ ܒܫܘܪܳܝ ܫܘܠܛܳܢܐ ܕܥܰܪ̈ܒܝܐ ܘܰܒܓܰܢܒܗܝܢ ܝܰܘܡܳܢ ܩܪܝܬܳܐ ܕܣܰܠܡܰܐܢ ܒܰܐܟ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "مدينتان متصلتان سميتا بالمدائن عاصمة الفرس الساسانيين، جنوبي بغداد مسيرة ست ساعات، خربتا في صدر الفتح العربي وبجانبهما اليوم قرية سلمان باك."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "two connected cities. They were the capital of the Sassanids, situated about six hours journey south of Baghdad. Both these cities were destroyed at the beginning of the Arab conquest. Near their site is the present village of Salman Pak."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0001"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/893976>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Ctesiphon>  ;
+geo:location [
+geo:lat "33.09361"  ;
+geo:long "33.09361"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/58/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/58/tei>  ;
+geo:location [
+geo:lat "33.09361"  ;
+geo:long "33.09361"  ;].

@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/337> a lawd:Place ;
+rdfs:label "Dayr Abū Ghālib — ܕܝܪܐ ܕܐܒܘ ܓܐܠܒ"  ;
+ dcterms:description [
+rdfs:label "ܒܓܰܪܓܰܪ. ܥܗܝܺܕ ܡܶܢ ܫܢܰܬ 1133 ܥܕܰܡܳܐ 1600 ܘܒܰܫܢܰܬ 1170 ܒܢܳܐ ܦܰܛܪܝܰܪܟܳܐ ܡܺܝܟܳܐܝܠ ܠܥܺܕܬܗ ܘܰܢܦܰܩܘ ܡܶܢܗ ܚܰܡܫܳܐ ܐܶܦܝܣܩܘܦ̈ܐ"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "في كركر ذكر منذ سنة 1138 حتى 1600 وعام 1170 بنى البطريرك ميخائيل بيعته وتخرج فيه خمسة اساقفة"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "in Karkar, was built in 1138 and remained in existence until 1600. In 1170, Patriarch Michael the Great rebuilt its church. It produced five bishops."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1137"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/337/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/337/tei>  .

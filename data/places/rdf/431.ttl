@@ -1,0 +1,34 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/431> a lawd:Place ;
+rdfs:label "ʿArqa — ܥܪܩܐ"  ;
+ dcterms:description [
+rdfs:label "ܡܕܝܢܬܳܐ ܗܝ ܕܰܒܩܘܪܒܳܐ ܕܡܝܠܺܝܛܝܢܝ ܘܰܠܡܰܥܪܒܳܗ̇ ܚܰܪܝܒܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "مدينة كانت بقرب ملطية غربيها، غامرة."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a town, formerly west of Melitene; still inhabited."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0300"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/628929>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Akçadağ>  ;
+geo:location [
+geo:lat "38.343754"  ;
+geo:long "38.343754"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/431/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/431/tei>  ;
+geo:location [
+geo:lat "38.343754"  ;
+geo:long "38.343754"  ;].

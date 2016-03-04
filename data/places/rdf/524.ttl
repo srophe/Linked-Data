@@ -1,0 +1,25 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/524> a lawd:Place ;
+rdfs:label "Mount Sinjar — ܛܘܪܐ ܕܫܝܓܪ"  ;
+dcterms:description "A mountainous ridge in northwestern Iraq."  ;
+skos:exactMatch <http://pleiades.stoa.org/places/874700>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Sinjar_Mountains>  ;
+geo:location [
+geo:lat "36.354311"  ;
+geo:long "36.354311"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/524/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/524/tei>  ;
+geo:location [
+geo:lat "36.354311"  ;
+geo:long "36.354311"  ;].

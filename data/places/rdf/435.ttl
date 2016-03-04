@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/435> a lawd:Place ;
+rdfs:label "Farzmān — ܦܪܙܡܐܢ"  ;
+ dcterms:description [
+rdfs:label "ܐܰܬܪܐ ܕܚܰܪܝܒ. ܢܳܦܠܳܐ ܗܘܳܬ ܠܣܶܡܠܐ ܕܒܺܝܪܰܗܓܺܝܟ ܥܰܠ ܢܗܰܪ ܦܰܪܙܡܰܐܢ ܚܰܕ ܡܶܢ ܦܶܪ̈ܥܐ ܕܰܦܪܳܬ ܕܡܶܬܐܡܰܪ ܠܗ ܡܰܪܙܝܡܐܢ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "بلدة داثرة كان موقعها شمالي بيره جك على نهر فرزمان احد فروع الفرات ويقال له مرزيمان."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "an ancient town north of Biricik on the river Farzmān, a tributary of the Euphrates called Marzīmān."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1124"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/435/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/435/tei>  .

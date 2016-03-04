@@ -1,0 +1,34 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/399> a lawd:Place ;
+rdfs:label "Yoḥannan Urṭaya — ܕܝܪܐ ܕܡܪܝ ܝܘܚܢܢ ܕܐܘܪ̈ܛܝܐ"  ;
+dcterms:description "A monastery north of ."  ;
+ dcterms:description [
+rdfs:label "ܒܢܳܝܗܝ ܗܳܢܐ ܥܢܘܳܝܐ ܒܰܫܒܳܒܘܬܗ̇ ܕܐܳܡܝܕ ܫܢܰܬ 590 ܐܰܦܩ ܬܠܳܬܐ ܐܶܦܝܣ̈ܩܘܦܐ ܗܰܘ ܕܶܝܢ ܕܛܰܒܝܒ ܒܗܘܢ ܝܘܚܰܢܢ ܕܐܶܦܣܘܣ ܘܠܐ ܦܓܰܥܢܢ ܒܛܶܐܒܐ ܥܠܰܘܗܝ ܒܳܬܰܪ ܫܢܰܬ 600 ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "بناه هذا الناسك في جوار ديار بكر سنة 390 انجب ثلاثة أساقفة أشهرهم يوحنا الافسسي المؤرخ 587 + ولم نقف له على خبر بعد سنة 600."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "John the ascetic built this monastery in 390 near Diyarbakir. It produced three bishops, the most famous of whom is John of Ephesus, the historian (d. 587). We know nothing about it after 600."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0389"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/874524>  ;
+geo:location [
+geo:lat "37.937557"  ;
+geo:long "37.937557"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/399/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/399/tei>  ;
+geo:location [
+geo:lat "37.937557"  ;
+geo:long "37.937557"  ;].

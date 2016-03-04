@@ -1,0 +1,35 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/89> a lawd:Place ;
+rdfs:label "Marʿash — ܡܪܥܫ"  ;
+dcterms:description "A city near the northeast of and northwest of ."  ;
+ dcterms:description [
+rdfs:label "ܘܐܝܬܶܝܗ̇ ܓܰܪܡܰܐܢܝܩܝ ܥܰܬܝܩܬܐ ܡܕܝܺܢܬܐ ܕܰܒܓܰܪܒܝ ܚܳܠܳܒ ܘܰܒܬܝܡܢܳܐ ܕܣܺܝܘܐܰܣ"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "وهي جرمانيقي القديمة؛ مدينة شمالي حلب وجنوبي سيواس."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "the ancient Germanicia, north of Aleppo and south of Sivas. [Modern name, Kahramanmaraş. (tr.)]"@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0710"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/658474>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Kahramanmaraş>  ;
+geo:location [
+geo:lat "37.583333"  ;
+geo:long "37.583333"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/89/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/89/tei>  ;
+geo:location [
+geo:lat "37.583333"  ;
+geo:long "37.583333"  ;].

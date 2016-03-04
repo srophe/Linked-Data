@@ -1,0 +1,38 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/226> a lawd:Place ;
+rdfs:label "Mor Gabriel — ܕܝܪܐ ܕܩܪܛܡܝܢ"  ;
+ dcterms:description [
+rdfs:label "The Monastery of Qarṭmin began long before its official foundation date of 397."@en  ;];
+ dcterms:description [
+rdfs:label "214. Gabriel, Monastery of Mor"@en  ;];
+ dcterms:description [
+rdfs:label "ܠܡܰܕܢܚܐ ܕܡܶܕܝܰܕ ܡܰܪܕܶܐ ܐܰܪܒܰܥ ܫܳܥ̈ܝܢ ܗܽܘܝܽܘ ܛܒܺܝܒܶܐ ܕܕܰܝܪ̈ܳܬܳܐ ܕܛܘܪܥܰܒܕܝܢ. ܒܢܰܐܘܽܗܝ ܥܶܢܘܳܝ̈ܐ ܡܳܪܝ ܫܡܘܐܝܠ ܘܡܳܪܝ ܫܶܡܥܘܢ. ܫܢܰܬ 397 ܒܳܬܰܪܟܶܢ ܐܶܫܬܕܰܪ ܥܠܰܘܗܝ ܫܶܡ ܪܝܫܗ ܘܐܶܦܝܣܩܘܦܗ ܡܳܪܝ ܓܰܒܪܐܝܠ 667 ܘܰܗܘܳܐ ܟܘܪܣܝܳܐ ܠܡܶܛܪ̈ܘܦܘܠܝܛܐ ܕܛܘܽܪܥܰܒܕܺܝܢ. ܫܢܰܬ 615 ܥܕܰܡܐ ܠܰܫܢܬ 1049 ܟܶܢ ܐܶܬܒܰܠܚܕ ܒܪܝܺܫܳܢܘܬ ܦܶܠܓܘܬܐ ܪܘܺܝܚܬܐ ܕܛܘܪܳܐ. ܘܰܠܚܰܪܬܐ ܐܶܣܬܰܝܟ ܒܡܰܪܥܝܬܐ ܕܝܠܳܢܳܝܬܐ ܥܕܰܡܐ ܠܰܫܢܰܬ 1915 ܐܶܬܢܰܦܰܩܘ ܒܗ ܐܰܪܒܥܐ ܦܰܛܪ̈ܝܪܟܐ ܘܚܕ ܡܰܦܪܝܢܐ ܘܬܶܫܥܐ ܘܫܰܒܥܝܢ ܐܶܦܝܣܩܘ̈ܦܐ ܘܰܥܕܰܟܝܠ ܥܰܡܝܪ ܘܰܡܝܰܬܰܒ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "شرقي مذيات مسيرة اربع ساعات عنها اشهر اديار طورعبدين، بناه الناسكان مار صموئيل ومار شمعون عام 397 ثم اطلق عليه اسم رئيسه واسقفه مار جبرائيل 667 + صار كرسيا لمطارنة طورعبدين سنة 615 حتى 1049 ثم انفرد مطرانه برئاسة قسم واسع من الجبل ثم انحصر بابرشية خاصة به حتى سنة 1915 تخرج فيه اربعة بطاركة ومفريان وتسعة وسبعون اسقفاً لا يزال عامرا آهلا."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "four hour journey east of Midyat, is the most famous monastery in Tur ʿAbdin. It was built in 397 by the two ascetics, St. Samuel and St. Simon. It is commonly called the Monastery of St. Gabriel, after its abbot and bishop Gabriel (d. 667). This monastery was the metropolitan see of Tur ʿAbdin from 615 to 1049. Afterwards, its metropolitan was the ecclesiastical leader of a large part of Tur ʿAbdin; still later, however, his jurisdiction was restricted to a private diocese until 1915. This monastery claims four Patriarchs, a Maphryono and seventy bishops. It is still inhabited."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0397"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/874583>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Mor_Gabriel_Monastery>  ;
+geo:location [
+geo:lat "37.321778"  ;
+geo:long "37.321778"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/226/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/226/tei>  ;
+geo:location [
+geo:lat "37.321778"  ;
+geo:long "37.321778"  ;].

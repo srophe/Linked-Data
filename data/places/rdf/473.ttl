@@ -1,0 +1,21 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/473> a lawd:Place ;
+rdfs:label "The Enaton — ܐܢܛܘܢ"  ;
+ dcterms:description [
+rdfs:label "A monastic district southwest. of Alexandria (Egypt) on the coastal road to Cyrene (Libya) which flourished esp. in the 5th to 7th cent."@en  ;];
+ dcterms:description [
+rdfs:label "196. The Enaton"@en  ;];
+dcterms:temporal "0451"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/473/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/473/tei>  .

@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/365> a lawd:Place ;
+rdfs:label "Mor Shilo — ܕܝܪܐ ܕܡܪܝ ܫܝܠܐ"  ;
+ dcterms:description [
+rdfs:label "ܩܰܕܝܫܐ ܕܰܥܢܰܕ ܫܢܰܬ 506 ܒܰܡܕܝܢܰܬ ܣܪܘܓ ܒܶܗ ܐܶܬܟܰܢܰܫ̈ܝ ܬܰܪܬܶܝܢ ܣܘܢܶܗ̈ܕܘ ܫܢܰܬ 706 . 846 ܘܣܰܝܰܥ ܠܥܺܕܬܳܐ ܒܬܶܫܥܳܐ ܐܶܦܝܣܩܘ̈ܦܶܐ ܡܶܢ ܫܢܰܬ 698 . 930"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "القديس المتوفى سنة 506 في مدينة سروج فيه عقد مجمعان سنة 706 و 846 ونجد الكنيسة بتسعة اساقفة من سنة 698 الى 930"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "built in Sarug and named after St. Shila (d. 506). Two synods were convened in this monastery, in 706 and 846, and between 698 and 930 it produced nine bishops."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0527"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/365/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/365/tei>  .

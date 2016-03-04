@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/364> a lawd:Place ;
+rdfs:label "Dayro d-Shiro — ܕܝܪܐ ܕܫܝܪܐ"  ;
+ dcterms:description [
+rdfs:label "ܒܰܫܡܳܐ ܕܡܳܪܝ ܫܰܒܛܝ ܚܰܕ ܡܢ ܟܦܰܪ ܫܳܡܰܥ. ܥܰܗܕܗ ܥܢܘܳܝ̈ܐ ܕܕܳܪܳܐ ܚܡܝܫܳܝܐ ܠܘܩܒܰܠ ܕܰܝܪܳܐ ܕܡܳܪܝ ܐܰܒܚܝ ܘܰܒܩܘܪܒܳܐ ܕܕܰܝܪܐ ܕܦܳܣܩܝܢ ܕܰܒܓܰܪܓܰܪ. ܚܰܕܶܬ ܠܒܶܢܝܳܢܗ ܐܰܬܰܢܐܣܝܘܣ ܕܰܢܚܳܐ ܡܝܛܪܘܦܘܠܝܛܳܐ ܕܐܘܪܗܳܝ 1171 . 1191. ܘܒܗ ܥܡܰܪ ܝܘܚܰܢܢ ܕܰܬܪܶܥܣܰܪ ܒܕܰܝܪܳܝܘܬܗ ܘܒܗ ܐܶܬܬܣܪܰܚ ܦܰܛܪܝܰܪܟܐ ܘܩܰܘܝ̣ ܥܰܡܝ̣ܪ ܥܕܰܡܐ ܠܫܘܪܳܝܳܐ ܕܡܰܐܬܐ ܫܒܰܥܣܝܪܳܝܬܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "باسم مار شبطاي من نساك القرن الخامس، ازآء دير مار ابحاي وبقرب دير فسقين في كركر جدد عمارته اثناسيوس دنحا مطران الرها 1171-1191 وفيه اقام يوحنا الثاني عشر في رهبنته وفيه رسم بطريركاً، وظل عامراً حتى اوائل المئة السابعة عشرة"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "was built in the name of St. Shabtai, a fifth-century ascetic, opposite the Monastery of Mor Abḥai, near the Monastery of Fusqīn in Karkar. It was restored by Athanasius Denḥa, metropolitan of Edessa (1171-1191). While a monk, Patriarch John XII resided in this monastery and in it he was consecrated Patriarch, it remained populated until the beginning of the seventeenth century."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1191"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/364/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/364/tei>  .

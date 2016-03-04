@@ -1,0 +1,34 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/63> a lawd:Place ;
+rdfs:label "Claudia — ܩܠܘܕܝܐ"  ;
+dcterms:description "A city southeast of Melitene."  ;
+ dcterms:description [
+rdfs:label "ܚܶܣܢܳܐ ܕܩܰܪܝܒ ܗܘܐ ܠܡܺܝܠܝܛܝܢܝ ܐܶܣܬܚܦ ܘܰܗܦܰܟ ܒܢܳܝܗܝ ܚܰܣܢ ܒܰܪ ܩܚܛܒܗ ܫܢܰܬ 141 ܗܳܓܳܪܳܝܬܐ. ܘܫܰܚܠܦܗ ܠܰܐܬܪܐ ܒܰܫܡܗ. ܘܰܚܪܒ ܒܳܬܰܪ ܕܳܪܐ ܬܠܳܬܰܥܣܝܪܳܝܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "حصن كان بقرب ملطية هدم فاعاد بناءه الحسن بن قحطبة سنة 141 هـ وحوله بلدة باسمه خربت بعد القرن الثالث عشر."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a citadel near Melitene, destroyed and rebuilt by al-Ḥasan Ibn Quḥṭuba in 141 A.H. Around the citadel was built a town bearing the same name, but it was laid to ruin after the thirteenth century."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0953"  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Qlaudia_(West_Syrian_Diocese)>  ;
+geo:location [
+geo:lat "38.1666666"  ;
+geo:long "38.1666666"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/63/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/63/tei>  ;
+geo:location [
+geo:lat "38.1666666"  ;
+geo:long "38.1666666"  ;].

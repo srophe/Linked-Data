@@ -1,0 +1,34 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/284> a lawd:Place ;
+rdfs:label "Erzincan — ܐܪܙܢܓܐܢ"  ;
+ dcterms:description [
+rdfs:label "ܡܕܝܺܢܬܐ ܕܰܒܬܰܝܡܢܐ ܡܰܥܪܒܳܝܐ ܕܐܰܪܙܪܽܘܡ"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "مدينة من ولاية ارزروم في جنوبيها الغربي واهلها يقولون ارزنكان"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a town southwest of the province of Erzurum. The natives call it Erzincan."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1254"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/874467>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Erzincan>  ;
+geo:location [
+geo:lat "39.75"  ;
+geo:long "39.75"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/284/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/284/tei>  ;
+geo:location [
+geo:lat "39.75"  ;
+geo:long "39.75"  ;].

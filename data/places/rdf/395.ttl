@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/395> a lawd:Place ;
+rdfs:label "Mor Ahrun d-Shagre — ܕܝܪܐ ܕܡܪܝ ܐܗܪܘܢ ܕܫܓܪ̈ܐ"  ;
+ dcterms:description [
+rdfs:label "ܒܐܘܚܕܳܢܐ ܕܰܩܠܝܣܘܪܐ. ܐܶܬܢܰܦܩܘ ܒܗ ܬܪܶܝܢ ܦܰܛܪܝܪ̈ܟܐ ܘܚܰܡܫܐ ܐܶܦܝܣ̈ܩܘܦܶܐ 686 - 1170"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "في الشغر من أعمال قليسورا، فيه تخرج بطريركان وخمسة اساقفة 986 - 1170."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "in Shaghr, in the province of Qallisura. Two patriarchs and five bishops graduated from it between 986 and 1170."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0986"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/395/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/395/tei>  .

@@ -1,0 +1,25 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/595> a lawd:Place ;
+rdfs:label "Jabal al-Durūz"  ;
+dcterms:description "A mountain in ."  ;
+skos:exactMatch <http://pleiades.stoa.org/places/678042>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Jabal_al-Druze>  ;
+geo:location [
+geo:lat "32.75"  ;
+geo:long "32.75"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/595/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/595/tei>  ;
+geo:location [
+geo:lat "32.75"  ;
+geo:long "32.75"  ;].

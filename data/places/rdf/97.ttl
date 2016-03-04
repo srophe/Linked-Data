@@ -1,0 +1,34 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/97> a lawd:Place ;
+rdfs:label "Qalʿa Rumayta — ܩܠܥܐ ܪܘܡܝܬܐ"  ;
+dcterms:description "A city on the west of and northeast of ."  ;
+ dcterms:description [
+rdfs:label "ܩܶܠܥܳܐ ܚܰܣܝܢܬܳܐ ܘܰܐܬܪܐ ܕܰܠܡܰܥܪܰܒ ܦܪܳܬ ܠܘܩܒܰܠ ܒܝܪܬܐ ܠܩܘܪܒܳܐ ܕܰܩܪܝܬܐ ܟ̣ܠܦܬܝ. ܘܡܶܫܬܰܡܗܐ ܗܘܳܬ ܩܶܠܥܳܐ ܕܙܘܓܡܐ. ܘܚܰܪܝܒܐ"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "قلعة حصينة وبلد غربي الفرات مقابل البيرة بالقرب من قرية خلفتي وكان اسم القلعة زوغما، خربة."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "an ancient fortified citadel and town west of the Euphrates, opposite al-Bīra. The name of the citadel was Zughma."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1203"  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Rumkale>  ;
+geo:location [
+geo:lat "37.270778"  ;
+geo:long "37.270778"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/97/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/97/tei>  ;
+geo:location [
+geo:lat "37.270778"  ;
+geo:long "37.270778"  ;].

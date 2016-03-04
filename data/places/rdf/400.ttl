@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/400> a lawd:Place ;
+rdfs:label "Mor Yuḥanon d-Norab — ܕܝܪܐ ܕܡܪܝ ܝܘܚܢܢ ܕܢܐܪܒ"  ;
+ dcterms:description [
+rdfs:label "ܠܐ ܝܳܕܥܝܢܰܢ ܠܕܘܟܬܗ ܕܟܺܝܪ ܪܝܫܳܢܗ ܐܰܒܐ ܓܶܘܰܪܓܝ ܫܢܰܬ 563 - 569"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "نجهل موقعه وذكر رئيسه الانبا جاورجي سنة 563 - 569."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "the location of this monastery is unknown to us. We know, however, that Anba George was its abbot from 563 to 569."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0563"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/400/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/400/tei>  .

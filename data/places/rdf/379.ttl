@@ -1,0 +1,27 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/379> a lawd:Place ;
+rdfs:label "Dayro d-Qube — ܕܝܪܐ ܕܩܘܒ̈ܐ"  ;
+ dcterms:description [
+rdfs:label "ܒܰܫܦܘܽܠܐ ܕܛܘܪܐ ܕܐܽܘܪܗܳܝ ܠܬܰܝܡܢ ܥܕܬܐ ܕܡܳܪܝ ܩܘܙܡܐ ܐܶܬܒܢܺܝ ܒܫܘܪܳܝܐ ܕܕܳܪܐ ܚܡܺܝܫܝܐ. ܘܐܰܚܪܒܗ ܒܪܳܐ ܕܒܰܟܬܰܪܝ ܫܢܰܬ 751 ܘܬܶܢܝܳܢܘܬ ܐܶܬܗܦܟ ܒܶܢܝܳܢܗ ܘܢܰܦܩ ܬܠܳܬܐ ܐܶܦܝܣܩܘ̈ܦܐ ܥܕܰܡܐ ܠܰܫܢܬ 873"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "في لحف جبل الرها في جنوب بيعة مار قزما، انشئ اوائل القرن الخامس ودمره ابن البختري عام 751 واعيد بناؤه فخرج ثلاثة اساقفة حتى سنة 873."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "in the Mountain of Edessa, south of St. Cosmas Church. Built at the beginning of the fifth century, it was destroyed by Ibn al-Bukhtūrī in 751, but was later restored. By 873 it had produced three bishops."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0500"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/662205>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/379/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/379/tei>  .

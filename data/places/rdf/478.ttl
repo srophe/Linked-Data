@@ -1,0 +1,22 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/478> a lawd:Place ;
+rdfs:label "Turfan"  ;
+ dcterms:description [
+rdfs:label "German excavations (1904–7), conducted near Bulayıq, north of Turfan, brought to light numerous fragmentary mss. evidently from the library of an E.-Syr. monastery."@en  ;];
+ dcterms:description [
+rdfs:label "566. Turfan, Syriac texts from"@en  ;];
+dcterms:temporal "0900"  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Turpan>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/478/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/478/tei>  .

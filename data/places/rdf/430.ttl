@@ -1,0 +1,33 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/430> a lawd:Place ;
+rdfs:label "ʿArabān — ܥܪܒܐܢ"  ;
+ dcterms:description [
+rdfs:label "ܐܬܪܐ ܕܰܒܚܳܒܘܪ ܗܘܐ ܒܰܐܪܥܳܐ ܕܓܳܙܰܪܬܐ ܒܣܶܦܬܗ ܡܰܥܪܒܳܝܬܐ. ܘܐܝܬܰܘܗܝ ܕܰܠܩܘܒܠܐ ܕܥܓܐܓܗ̈."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "بليدة كانت بالخابور من ارض الجزيرة على ضفته الغربية وهي قرية مقابل العجاجة."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a town on the west bank of the Khabur River in al-Jazira, opposite al-ʿAjjāja."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "-0330"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/874688>  ;
+geo:location [
+geo:lat "36.244537"  ;
+geo:long "36.244537"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/430/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/430/tei>  ;
+geo:location [
+geo:lat "36.244537"  ;
+geo:long "36.244537"  ;].

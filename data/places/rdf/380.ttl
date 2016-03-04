@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/380> a lawd:Place ;
+rdfs:label "Dayr Kāsliyud — ܕܝܪܐ ܕܟܣܠܝܘܕ"  ;
+ dcterms:description [
+rdfs:label "ܒܐܽܘܚܕܳܢܐ ܕܓܰܪܡܰܐܢܺܝܩܝ (ܡܪܥܫ) ܐܶܬܢܰܦܰܩ ܒܗ ܐܰܪܒܥܐ ܐܶܦܝܣܩܘ̈ܦܐ ܡܶܢ ܫܢܰܬ 1100 - 1200"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "في ولاية مرعش تخرج فيه اربعة اساقفة من سنة 1100 الى 1200."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "in the province of Marʿash. Between 1100 and 1200 four bishops graduated from it."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1100"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/380/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/380/tei>  .

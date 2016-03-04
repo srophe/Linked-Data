@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/425> a lawd:Place ;
+rdfs:label "Quṣūr — ܩܨܪ̈ܐ"  ;
+ dcterms:description [
+rdfs:label "ܘܡܶܬܐܡܰܪ ܠܳܗ̇ ܓܽܘܠܠܝܶܗ ܩܪܝܬܳܐ ܗܝ ܕܰܠܬܰܝܡܢܳܗ̇ ܕܡܰܪܕܶܝܢ ܡܰܪܕܶܐ ܕܬܰܪܬܶܝܢ ܫܳܥ̈ܝܢ ܡܝܰܬܒܳܐ ܗܘܳܬ ܒܣܘܪ̈ܝܝܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "ويقال لها الكولية، قرية جنوبي ماردين نحو ساعتين عنها آهلة بالسريان."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a village about two hours journey south of Mardin, heavily populated by Syrians."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1718"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/425/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/425/tei>  .

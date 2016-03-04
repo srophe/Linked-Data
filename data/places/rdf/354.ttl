@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/354> a lawd:Place ;
+rdfs:label "Dayr al-Dawāʾir — ܕܝܪܐ ܕܕܘܐܝܪ"  ;
+ dcterms:description [
+rdfs:label "ܒܟܘܪܐ ܕܐܰܢܛܝܘܟܺܝܰܐ. ܕܟܺܝܪ ܒܰܫܢܰܬ 1112 ܘܡܶܢܗ ܢܦܰܩ ܚܰܕ ܦܰܛܪܝܰܪܟܐ ܘܐܰܪܒܥܳܐ ܐܶܦܝܣܩ̈ܘܦܶܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "في كورة انطاكية ذكر سنة 1112 ومنه نشأ بطريرك واربعة اساقفة"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "in the province of Antioch, is first mentioned in history in 1112. From it came one Patriarch and four bishops."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1112"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/354/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/354/tei>  .

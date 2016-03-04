@@ -1,0 +1,27 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/391> a lawd:Place ;
+rdfs:label "Dayr al-Muʿallaq — ܕܝܪܐ ܕܡܥܠܩ"  ;
+dcterms:description "A monastery near ."  ;
+ dcterms:description [
+rdfs:label "ܒܫܶܡ ܥܢܘܳܝ̈ܐ ܣܰܪܓܝܣ ܘܰܙܥܘܪܐ ܘܒܳܥܘܬ ܥܰܠ ܪܳܡܬܐ ܕܛܘܪܐ ܨܗܝܳܐ ܠܥܶܠ ܡܶܢ ܒܳܠܕ ܡܕܝܢܬܐ ܒܰܬܠܳܬܐ ܦܪ̈ܣܚܝܢ ܒܶܝܬ ܠܗ̇ ܠܫܝܓܳܪ ܠܡܰܥܪܰܒ ܡܰܘܨܠ ܘܡܶܣܬܒܰܪ ܒܶܢܝܳܢܗ ܒܡܰܐܬܐ ܚܡܝܫܝܬܐ ܐܰܦܩ ܚܰܕ ܡܰܦܪܝܳܢܐ ܘܐܢܳܫ̈ܝܢ ܐܶܦܝܣܩܘ̈ܦܐ. ܘܰܗܘܐ ܟܘܪܣܝܳܐ ܐܶܦܝܣܩܘܦܳܝܐ ܡܶܢ ܫܢܰܬ 1167 - 1345 ܟܶܢ ܐܶܬܛܫܝ ܛܶܒܗ. ܘܐܶܬܠܰܝܬܝܰܬ ܕܘܟܬܗ"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "باسم النساك سرجيس وزعورا وباعوث على قلة الجبل القاحل فوق مدينة بلد بثلاثة فراسخ بينها وبين سنجار غربي الموصل، يظن بناؤه في المئة الخامسة، انجب مفريانا وبعض اساقفة وصار كرسيا اسقفيا منذ سنة 1167 الى 1345 ثم انطمس خبره وعفا اثره."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "is thought to have been built in the fifth century in the name of the ascetics Sergius, Zura and Bāʿūth, on the crest of the Barren Mountain above Balad, three leagues from Sinjar, west of Mosul. It produced one Maphryono and some bishops and was a bishopric see from 1167 to 1345, after which it became deserted. [See "Rihla ila Athar Dayr al-Muʿallaq" ("A Trip to the Ruins of al-Muallaq Monastery"), Al-Mashriq 3: 7 (1951), 214-220. Although this article is unsigned, it was written by the late Bishop Gregorius Bulos Bahnam, (d. 1969), while he was still a monk in Mosul. This translator was among the group which visited the monastery with Rev. Bahnam (tr.)]."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0500"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/391/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/391/tei>  .

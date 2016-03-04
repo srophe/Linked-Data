@@ -1,0 +1,35 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/456> a lawd:Place ;
+rdfs:label "Mayuma — ܡܐܝܘܡܐ"  ;
+dcterms:description "The port city of ."  ;
+ dcterms:description [
+rdfs:label "ܠܡܺܐܢܳܐ ܚܰܪܝܒܳܐ ܒܩܘܪܒܳܐ ܕܥܰܙܐ ܥܰܠ ܝܰܕ ܝܰܡܳܐ ܡܶܨܥܳܝܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "مينا خرب بقرب غزة على سيف بحر الروم."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "an ancient port on the Mediterranean, near Gazza."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "-0030"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/687903>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Maiuma>  ;
+geo:location [
+geo:lat "31.530845"  ;
+geo:long "31.530845"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/456/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/456/tei>  ;
+geo:location [
+geo:lat "31.530845"  ;
+geo:long "31.530845"  ;].

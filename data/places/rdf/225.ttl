@@ -1,0 +1,31 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/225> a lawd:Place ;
+rdfs:label "Mor Behnam — ܕܝܪܐ ܕܡܪܝ ܒܗܢܡ"  ;
+ dcterms:description [
+rdfs:label "Situated ca. 36 km. southeast of Mosul, Dayro d-Mor Behnam contains the only full program of medieval church decoration that survives to this day in Iraq."@en  ;];
+ dcterms:description [
+rdfs:label "91. Behnam, Dayro d-Mor"@en  ;];
+ dcterms:description [
+rdfs:label "ܘܡܶܬܶܐܡܰܪ ܠܗ ܕܰܝܪܐ ܕܓܘܒܳܐ ܒܬܰܝܡܰܢ ܡܰܕܢܰܚ ܡܰܘܨܠ ܡܰܪܕܶܐ ܫܶܬ ܫܳܥܝ̈ܢ. ܐܶܫܬܰܬܐܣ ܒܫܘܪܳܝ ܕܳܪܳܐ ܚܡܝܫܳܝܳܐ. ܘܐܶܬܢܰܦܰܩܘ ܒܗ ܬܪܶܝܢ ܡܰܦܪܝܳܢ̈ܐ ܘܫܰܒܥܳܐ ܐܶܦܝܣܩܘܦ̈ܐ ܘܒܰܫܢܰܬ 1839 ܐܰܚܕܘܗܝ ܐܰܝܠܶܝܢ ܕܰܦܪܰܫܘ ܠܩܰܬܘܠܝܩܘܬܐ ܘܝܰܬܝܪ ܡܶܢ ܫܬܝܢ ܫܢܺܝ̈ܢ ܦܳܫ ܣܦܝܩ. ܘܝܰܘܡܳܢ ܥܰܡܝܪ ܗܘ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "ويقال له دير الجبّ، جنوبي شرقي الموصل مسير ست ساعات عنها انشىء صدر القرن الخامس وتخرج فيه مفريانان وسبعة اساقفة وسنة 1839 تولته الفرقة المتكثلكة وامسى خاليا نيفاً وستين سنة وهو الآن آهل"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "also called the Pit Monastery, is situated about six hours’ journey southeast of Mosul. It was built in the beginning of the fifth century. From it graduated one Maphryono and seven bishops. In 1839, it was usurped by a group which seceded and joined the Catholic church. It was deserted for some sixty years, but is now populated."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1164"  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Mar_Behnam_Monastery>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/225/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/225/tei>  .

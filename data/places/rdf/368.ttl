@@ -1,0 +1,32 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/368> a lawd:Place ;
+rdfs:label "St. Catherine — ܕܝܪܐ ܕܛܘܪܐ ܕܣܝܢܝ"  ;
+ dcterms:description [
+rdfs:label "The Monastery of St. Catherine on Sinai was founded in the 6th cent. It had a multicultural community prior to the Ottoman period when it became entirely Greek."@en  ;];
+ dcterms:description [
+rdfs:label "120. Catherine, Monastery of St."@en  ;];
+ dcterms:description [
+rdfs:label "ܒܩܶܠܥܐ ܕܛܘܪܳܐ ܕܣܝܢܰܝ ܘܐܺܝܬܰܘܗܝ ܕܝܰܘܢ̈ܝܐ ܕܰܝܪܰܐ ܗܘ ܪܰܒܐ ܘܥܰܬܝ̣ܩܐ. ܥܰܒܕܗ ܩܶܣܰܪ ܝܘܽܣܛܝܺܢܝܰܐܢ ܩܰܕܡܳܝܐ. ܘܰܡܝܰܬܰܒ ܗܳܫܐ ܒܚܰܡܫܰܥܣܰܪ ܕܰܝܪ̈ܝܐ ܘܐܝܬ ܒܶܝܬ ܓܰܙ̈ܐ ܕܰܟܬܳܒ̈ܐ ܣܘܪ̈ܝܳܝܐ ܪ̈ܝܫܳܝܐ ܘܥܰܬܝ̣̈ܩܐ ܕܡܳܢܶܝܢ ܐܝܟ 280 ܟܬܳܒ̈ܐ ܣܘܽܓܐܗܘܽܢ ܟܬܺܝܒܝܺܢ ܒܩܰܢܝܐ ܐܶܣܛܪܢܓܶܠܝܐ ܘܡܰܠܟܳܝܐ. ܘܗܽܘܝܽܘ ܒܶܝܬ ܟܘܽܪܣܝܐ ܐܶܦܝܣܩܘܦܳܝܐ. ܡܝܛܪܘܦܘܠܝܛܗ ܥܳܡܰܪ ܒܩܰܐܗܪܗ̈"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "في قلعة جبل سينا وهو لليونان دير عظيم قديم انشأه القيصر يوسطنيان الاول آهل بخمسة عشر راهباً وفيه خزانة كتب سريانية نفيسة قديمة يناهز عددها 280 مصحفاً اكثرها مخطوط بالقلمين الاسطرنجيلي والملكي وهو كرسي اسقفي يقيم مطرانه في القاهرة."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "built on top of Mount Sinai by Justinian, now belongs to the Greeks. Fifteen monks presently live in it. It has a magnificent library, containing about 280 old Syriac manuscripts, most of which are written in the Estrangelo and Malkite scripts. It is also a bishopric seat whose metropolitan resides in Cairo."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0600"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/746745>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Saint_Catherine's_Monastery>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/368/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/368/tei>  .

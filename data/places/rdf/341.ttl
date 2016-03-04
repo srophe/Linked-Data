@@ -1,0 +1,26 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/341> a lawd:Place ;
+rdfs:label "Eusebona — ܕܝܪܐ ܕܡܪܝ ܐܘܣܝܒܝܢܐ"  ;
+ dcterms:description [
+rdfs:label "ܒܩܘܪܒܳܐ ܕܬܰܠܥܕܰܐ ܩܪܺܝܬܳܐ ܒܟܘܪܳܐ ܕܐܰܢܛܝܘܟܺܝܰܐ ܒܢܰܐܘܗܝ ܬܪܝܢ ܥܢܘ̈ܝܶܐ ܡܝܰܬܪ̈ܐ ܡܳܪܝ ܐܘܣܝܒܘܢܶܐ ܘܗܽܘܝܘ ܐܘܣܰܐܒܝܺܘܣ ܪܰܒܳܐ. ܘܐܰܡܝܐܢ ܗܰܘ ܕܫܰܬܶܐܣ ܡܰܕܪܰܫܬܳܐ ܠܡܰܠܦܘܬ ܦܺܝܠܳܣܘܦܘܬܐ ܗܳܝ ܡܶܢ ܚܕܳܪ̈ܰܝ 340 ܘܒܶܗ ܐܶܣܬܰܦܪ ܡܳܪܝ ܫܶܡܥܘܢ ܕܐܶܣܛܘܢܗ ܒܫܘܪܳܝܳܐ ܘܡܰܛܝ ܡܶܢܝܳܢ ܕܰܝܪ̈ܳܝܘܗܝ ܫܢܰܬ 409 ܡܐܐ ܘܥܶܣܪܝܢ ܐܰܦܶܩ ܝܘܚܰܢܢ ܬܠܝܬܳܝܐ ܘܰܬܪܶܝܢ ܐܶܦܝܣܩܘܦ̈ܐ ܒܡܰܐܬܳܐ ܕܰܬܫܥ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "بقرب قرية تلعدا في كورة انطاكية. بناه الناسكان الفاضلان مار اوسيبونا وهو اسابيوس الكبير، واميان الذي انشأ مدرسة لتعليم الفلسفة وذلك حوالي سنة 340 وفيه ترهب مار سمعان العمودي في اول امره وبلغ عدد رهبانه في عام 409 مئة وعشرين، انجب يوحنا الثالث واسقفين في المئة التاسعة"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "near the village of Talʿada, in the vicinity of Antioch. It was built by the noble monk Eusebius the Great and Amian, who established a school for the teaching of philosophy about 340. St. Simon the Stylite entered this monastery at the beginning of his monastic vocation. In 409 it had 120 monks. It produced Patriarch John III and two bishops in the ninth century."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0409"  ;
+foaf:primaryTopicOf <http://syriaca.org/place/341/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/341/tei>  .

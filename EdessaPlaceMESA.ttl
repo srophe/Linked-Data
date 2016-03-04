@@ -1,4 +1,4 @@
-# this is a work in progress -AA
+# work in progress -AA
 
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,7 +6,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix collex: <http://www.collex.org/schema#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix cito: <xmlns:cito="http://purl.org/spar/cito/cito:> .
+@prefix cito: <http://purl.org/spar/cito/cito:> .
 @prefix cnt: <http://www.w3.org/2011/content#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -32,12 +32,47 @@
          lawd:hasName [
          lawd:primaryForm "أَذاسا"@ar ;
          lawd:hasAttestation <http://syriaca.org/place/78/html>
-  ] ;
+  ] ;    # why this is a lawd:hasAttestation? it's already foaf:primaryTopicOf
          geo:location [ geo:lat 37.15 ;  geo:long 38.8 ] ;
          
          dcterms:isPartOf <http://syriaca.org/place/145> ;
          dcterms:isPartOf <http://syriaca.org/place/166> ;
+         
+         skos:historyNote  "Renamed Edessa by Seleucus I Nicator. (304 BCE)" , # assuming there's better label for historical events?
+                           "Flood of the river Daiṣan destroyed part of city. (201)" ,
+                           "Full incorporation into the Roman Empire. (213)" ,
+                           "Closure of the "School of the Persians." (489)" , # will this read as literal inside a literal?
+                           "Edessa conquered by the Arabs. (641)" ,
+                           "Edessa conquered by the Crusaders. (1098)" ,
+                           "Edessa conquered by Zengi of Mosul. (1144)" ,
+                           "Edessa incorporated into the Ottoman Empire. (1517)" ,
+                           "Massacres of some of Armenian and Syriac Christians during World War I. (not before 1913, not after 1919)" ,
+                           "Emigration of remaining Armenian and Syrian Christians to Aleppo. (1924)" ;
+                           # how to do citations for all these events?
+                           cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ; # this is Worldcat Permalink for Brock, et al. Gorgias Encyclopedic Dictionary...
 
+         lawd:hasAttestation "Attestation of Christian church in Edessa according to the Chronicle of Edessa. (201)" ,
+                             "Attestation of anti-Chalcedonian bishop in Edessa according to the Chronicle of Edessa. (520)" ,
+                             "Attestation of Chalcedonian bishop in Edessa according to the Chronicle of Edessa. (522)" ,
+                             "Attestation of Chalcedonian author in Edessa according to the Chronicle of Edessa. (not before 540)" ,
+                             "Attestation of name ######## in the anonymous Chronicle of 1234. (not before 1146, not after 1234)" ,
+                             "Attestation of Syrian Orthodox church in Edessa in the anonymous Chronicle of 1234. (1146)" ,
+                             "Attestation of names الرُّهاء and أَذاسا in the Muʿjam al-buldān of Yāqūt al-Ḥamawī. (not before 1224, not after 1228)" ,
+                             "Attestation of Syrian Orthodox metropolitan for Edessa according to Barsoum's Scattered Pearls. (1624)" ,
+                             # how do we cite the citations with URIs?
+                             
+         rdfs:seeAlso <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Edessa&sT=keywords> , # is rdfs:seeAlso permissible with a URL?
+                      <http://pleiades.stoa.org/places/658457> ,
+                      <https://www.google.com/maps?q=37.15,+38.8+%28name%29&z=10&ll=37.15,+38.8> ,
+                      <http://syriaca.org/place/78/tei> , # is this best here?
+                      <http://syriaca.org/place/78/atom> ,
+                      <https://en.wikipedia.org/wiki/Edessa> ,
+                      <https://en.wikipedia.org/wiki/%C5%9Eanl%C4%B1urfa> ;
+
+# Known Religious Communities
+
+# Incerta
+         
          collex:discipline "History" # collex.org/schema# temporarily offline - not sure what's needed here
          
          role:edt # need ORCID id for Thomas A. Carlson

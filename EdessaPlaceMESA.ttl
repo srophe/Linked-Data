@@ -14,13 +14,14 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 @prefix bibo: <http://bibliontology.com/bibo/bibo.php#> .
+@prefix time: <https://www.w3.org/TR/owl-time/> .
 
 <http://syriaca.org/place/78> a lawd:Place ;
 
          rdfs:label "Edessa"@en ;
          dcterms:description "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ;
          
-         dcterms:date "-0304" ; #used dcterms:date [not dcterms:temporal] b/c calls for string literal
+         dcterms:date "-0304" ; # used dcterms:date [not dcterms:temporal] b/c calls for string literal
          
          skos:exactMatch <http://pleiades.stoa.org/places/658457> ;
          skos:closeMatch <https://www.wikidata.org/w/index.php?search=&search=edessa&title=Special%3ASearch&go=Go> , # should this be wdata:Q1190403?
@@ -57,7 +58,10 @@
                            "Edessa incorporated into the Ottoman Empire. (1517)" ,
                                     dcterms:date "1517" ;
                            "Massacres of some of Armenian and Syriac Christians during World War I. (not before 1913, not after 1919)" ,
+                                    time:intervalStartedBy "1913" ,
+                                    time:intervalFinishedBy "1919" ;
                            "Emigration of remaining Armenian and Syrian Christians to Aleppo. (1924)" ;
+                                    dcterms:date "1924" ;
                            
                            # how to do citations for all these events? use bibo?
                            cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ; # this is Worldcat Permalink for Brock, et al. Gorgias Encyclopedic Dictionary...

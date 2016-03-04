@@ -13,16 +13,18 @@
 @prefix lawd: <http://lawd.info/ontology/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix bibo: <http://bibliontology.com/bibo/bibo.php#> .
 
 <http://syriaca.org/place/78> a lawd:Place ;
+
          rdfs:label "Edessa"@en ;
          dcterms:description "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ;
          
-         dcterms:date "-0304" #used dcterms:date [not dcterms:temporal] b/c calls for string literal ;
+         dcterms:date "-0304" ; #used dcterms:date [not dcterms:temporal] b/c calls for string literal
          
          skos:exactMatch <http://pleiades.stoa.org/places/658457> ;
-         skos:closeMatch <https://www.wikidata.org/w/index.php?search=&search=edessa&title=Special%3ASearch&go=Go> ; # should this be wdata:Q1190403?
-         skos:closeMatch <https://www.wikidata.org/wiki/Q133118> ; # wdata:Q133118
+         skos:closeMatch <https://www.wikidata.org/w/index.php?search=&search=edessa&title=Special%3ASearch&go=Go> , # should this be wdata:Q1190403?
+                         <https://www.wikidata.org/wiki/Q133118> ; # wdata:Q133118
          skos:altLabel "Urfa"@en ;
          skos:related <http://syriaca.org/place/145.html> ,
                   <http://syriaca.org/place/166.html> ;
@@ -32,23 +34,32 @@
          lawd:hasName [
          lawd:primaryForm "أَذاسا"@ar ;
          lawd:hasAttestation <http://syriaca.org/place/78/html>
-  ] ;    # why this is a lawd:hasAttestation? it's already foaf:primaryTopicOf
+  ] ;    # why this is a lawd:hasAttestation if already foaf:primaryTopicOf?
          geo:location [ geo:lat 37.15 ;  geo:long 38.8 ] ;
          
-         dcterms:isPartOf <http://syriaca.org/place/145> ;
+         dcterms:isPartOf <http://syriaca.org/place/145> ; # is there a way to express "was part of" instead of "is part of"?
          dcterms:isPartOf <http://syriaca.org/place/166> ;
          
-         skos:historyNote  "Renamed Edessa by Seleucus I Nicator. (304 BCE)" , # assuming there's better label for historical events?
+         skos:historyNote  "Renamed Edessa by Seleucus I Nicator. (304 BCE)" , # assuming there's better label for historical events? ## didn't remove dates from literal b/c unsure of dcterms:date usage
+                                    dcterms:date "-304" ;
                            "Flood of the river Daiṣan destroyed part of city. (201)" ,
+                                    dcterms:date "201" ;
                            "Full incorporation into the Roman Empire. (213)" ,
+                                    dcterms:date "213" ;
                            "Closure of the "School of the Persians." (489)" , # will this read as literal inside a literal?
+                                    dcterms:date "489" ;
                            "Edessa conquered by the Arabs. (641)" ,
+                                    dcterms:date "641" ;
                            "Edessa conquered by the Crusaders. (1098)" ,
+                                    dcterms:date "1098" ;
                            "Edessa conquered by Zengi of Mosul. (1144)" ,
+                                    dcterms:date "1144" ;
                            "Edessa incorporated into the Ottoman Empire. (1517)" ,
+                                    dcterms:date "1517" ;
                            "Massacres of some of Armenian and Syriac Christians during World War I. (not before 1913, not after 1919)" ,
                            "Emigration of remaining Armenian and Syrian Christians to Aleppo. (1924)" ;
-                           # how to do citations for all these events?
+                           
+                           # how to do citations for all these events? use bibo?
                            cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ; # this is Worldcat Permalink for Brock, et al. Gorgias Encyclopedic Dictionary...
 
          lawd:hasAttestation "Attestation of Christian church in Edessa according to the Chronicle of Edessa. (201)" ,
@@ -60,6 +71,7 @@
                              "Attestation of names الرُّهاء and أَذاسا in the Muʿjam al-buldān of Yāqūt al-Ḥamawī. (not before 1224, not after 1228)" ,
                              "Attestation of Syrian Orthodox metropolitan for Edessa according to Barsoum's Scattered Pearls. (1624)" ,
                              # how do we cite the citations with URIs?
+                             ## dcterms:isReferencedBy?
                              
          rdfs:seeAlso <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Edessa&sT=keywords> , # is rdfs:seeAlso permissible with a URL?
                       <http://pleiades.stoa.org/places/658457> ,

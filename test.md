@@ -1,0 +1,1 @@
+Testing utf-8 text from xquery to github. Still problems with submitting binary files, or using expath http.

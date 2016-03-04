@@ -1,0 +1,183 @@
+xquery version "3.0";
+(:
+ : Build atom feed for all syrica.org modules
+ : Module is used by atom.xql and rest.xqm 
+ : @param $collection selects data collection for feed 
+ : @param $id return single entry matching xml:id
+ : @param $start start paged results
+ : @param $perpage default set to 25 can be changed via perpage param
+:)
+
+declare namespace tei = "http://www.tei-c.org/ns/1.0";
+declare namespace schema = "http://schema.org/";
+declare namespace cito = "http://purl.org/spar/cito";
+declare namespace cnt = "http://www.w3.org/2011/content";
+declare namespace foaf = "http://xmlns.com/foaf/0.1";
+declare namespace geo = "http://www.w3.org/2003/01/geo/wgs84_pos#";
+declare namespace gn = "http://www.geonames.org/ontology#";
+declare namespace lawd = "http://lawd.info/ontology";
+declare namespace skos = "http://www.w3.org/2004/02/skos/core#";
+declare namespace rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#";
+declare namespace dc="http://purl.org/dc/elements/1.1/";
+declare namespace dcterms="http://purl.org/dc/terms/";
+declare namespace collex="http://www.collex.org/schema#";
+declare namespace ra="http://www.rossettiarchive.org/schema#";
+declare namespace rdfs="http://www.w3.org/2000/01/rdf-schema#";
+declare namespace role="http://www.loc.gov/loc.terms/relators/";
+declare namespace owl="http://www.w3.org/2002/07/owl"; 
+declare namespace syriaca="http://syriaca.org/schema#";
+
+declare option exist:serialize "method=text media-type=text/turtle indent=yes";
+
+declare function local:make-uri($uri){
+    concat('<',normalize-space($uri),'>')
+};
+
+declare function local:make-lang($lang) as xs:string?{
+    concat('@',$lang)
+};
+
+declare function local:make-literal($string, $lang) as xs:string?{
+    concat('"',normalize-space(string-join($string,' ')),'"',
+        if($lang != '') then local:make-lang($lang) 
+        else ())
+    
+};
+
+declare function local:make-triple($s as xs:string?, $o as xs:string?, $p as xs:string?) as xs:string* {
+    concat('&#xa;', $s,' ', $o,' ', $p, ' ;')
+};
+
+declare function local:desc($rec) as xs:string* {
+string-join(
+for $desc in $rec/descendant::tei:desc
+let $source := $desc/tei:quote/@source
+return
+    if($desc[@type='abstract'][not(@source)][not(tei:quote/@source)] or $desc[contains(@xml:id,'abstract')][not(@source)][not(tei:quote/@source)][. != '']) then 
+        local:make-triple('dcterms:description', local:make-literal($desc/text(),''),'')
+    else 
+        if($desc/child::* != '' or $desc != '') then 
+            concat('&#xa; dcterms:description [',
+                local:make-triple('rdfs:label', local:make-literal($desc, string($desc/@xml:lang)),''),
+                    if($source != '') then
+                       if($desc/ancestor::tei:TEI/descendant::tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence/tei:p/tei:listBibl/tei:bibl/tei:ptr/@target = $source) then 
+                            local:make-triple('dcterms:license', local:make-uri(string($desc/ancestor::tei:TEI/descendant::tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence/@target)),'')
+                       else ()
+                    else (),
+            '];')
+        else (), '')
+};
+
+declare function local:ids($rec) as xs:string* {
+string-join(
+for $id in $rec/descendant::tei:idno[@type='URI']
+return 
+    if($id[starts-with(.,'http://pleiades')]) then 
+        local:make-triple('skos:exactMatch',local:make-uri($id),'')
+    else if($id[starts-with(.,'http://en.wikipedia.org')]) then 
+        local:make-triple('skos:closeMatch',local:make-uri($id),'')
+    else (),''
+    )
+};
+
+declare function local:names($rec) as xs:string*{
+string-join(
+for $name in $rec/descendant::tei:placeName
+return 
+    concat('&#xa; lawd:hasName [',
+        if($name[contains(@syriaca-tags,'#syriaca-headword')]) then
+           local:make-triple('lawd:primaryForm',local:make-literal($name/text(),$name/@xml:lang),'') 
+        else local:make-triple('lawd:variantForm',local:make-literal($name/text(),$name/@xml:lang),''), 
+    '];'),'')
+};
+
+declare function local:geo($rec) as xs:string*{
+string-join(
+for $geo in $rec/descendant::tei:location[tei:geo]
+return 
+    concat('&#xa;geo:location [',
+        local:make-triple('geo:lat',local:make-literal(substring-before($geo/tei:geo,' '),''),''),
+        local:make-triple('geo:long',local:make-literal(substring-before($geo/tei:geo,' '),''),''),
+    '];'),'')
+};
+
+declare function local:relation($rec) as xs:string*{
+string-join(
+for $relation in $rec/descendant::tei:relation
+return 
+    if($relation/@name = 'contained') then 
+        for $active in tokenize($relation/@active,' ')
+        return local:make-triple('dcterms:isPartOf',local:make-uri($active),'')
+    else if($relation/@name = 'share-a-name') then 
+        for $mutual in tokenize($relation/@mutual,' ')
+        return 
+            if($mutual(.,'#')) then () 
+            else local:make-triple('dcterms:relation',local:make-uri($mutual),'')
+    else (),'')
+};
+
+declare function local:prefix() as xs:string{
+"@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .&#xa;"
+};
+
+declare function local:make-triples($rec) as xs:string*{
+let $id := replace($rec/descendant::tei:idno[starts-with(.,'http://syriaca.org/')][1],'/tei','')
+return 
+    concat(
+    local:make-triple(local:make-uri($id), 'a', 'lawd:Place'),
+    local:make-triple('rdfs:label', local:make-literal($rec/descendant::tei:titleStmt/tei:title[@level='a'][1]/descendant::text(),''),''),
+    local:desc($rec),
+    if($rec/descendant::tei:state[@type='existence'][@from]) then
+        local:make-triple('dcterms:temporal', local:make-literal($rec/descendant::tei:state[@type='existence']/@from,''),'')
+    else (),
+    local:ids($rec),
+    local:geo($rec),
+    local:make-triple('foaf:primaryTopicOf', local:make-uri(concat($id,'/html')),''),
+    local:make-triple('foaf:primaryTopicOf', local:make-uri(concat($id,'/tei')),''),
+    local:geo($rec),
+    local:relation($rec)
+    )
+};
+
+declare function local:record($rec) as xs:string*{
+    replace(local:make-triples($rec),';$','.&#xa;')
+};
+
+(: Full collection 
+let $recs := collection('/db/apps/srophe-data/data/places/tei')
+let $full-rec := 
+   string-join(
+   for $hit in $recs
+    let $filename := concat(tokenize(replace($hit/descendant::tei:idno[@type='URI'][starts-with(.,'http://syriaca.org')][1],'/tei',''),'/')[last()],'.ttl')
+    let $file-data :=  
+        try {
+            local:record($hit)
+        } catch * {
+            <error>Caught error {$err:code}: {$err:description}</error>
+            }
+    return $file-data,'&#xa;')  
+let $full := concat(local:prefix(),$full-rec)    
+return xmldb:store(xs:anyURI('/db/apps/bug-test/data/places/rdf'), xmldb:encode-uri('all-places.ttl'), $full)
+:)
+
+(: Individual recs :)
+for $hit at $p in subsequence($recs, 3500, 4500)//tei:TEI
+let $filename := concat(tokenize(replace($hit/descendant::tei:idno[@type='URI'][starts-with(.,'http://syriaca.org')][1],'/tei',''),'/')[last()],'.ttl')
+let $file-data :=  
+    try {
+        (concat(local:prefix(), local:record($hit)))
+    } catch * {
+        <error>Caught error {$err:code}: {$err:description}</error>
+        }     
+return xmldb:store(xs:anyURI('/db/apps/bug-test/data/places/rdf'), xmldb:encode-uri($filename), $file-data)
+

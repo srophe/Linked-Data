@@ -145,6 +145,6 @@
          
          collex:discipline "History" # collex.org/schema# temporarily offline - not sure what's needed here
          
-         role:edt # need ORCID id for Thomas A. Carlson
-         role:edt # need ORCID id for David A. Michelson
+         role:edt <http://syriaca.org/editors.xml#tcarlson> ;
+         role:edt <http://syriaca.org/editors.xml#dmichelson> .
     

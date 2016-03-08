@@ -23,7 +23,7 @@
          rdfs:label "Edessa"@en ;
          dcterms:description: "A city of <http://syriaca.org/place/124.html>, the capital of the ancient kingdom of <http://syriaca.org/place/145.html>, modern Urfa." ;
          dcterms:description "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ;
-         a <http://syriaca.org/geo/browse.html?view=type&type=settlement> ; # link broken on Edessa page Apache 500 server error
+         a <http://syriaca.org/geo/browse.html?view=type&type=settlement> ; # link broken on Edessa page - Apache 500 server error
                   dcterms:description "### need unicode for Arabic here ###" ,
                            [ cito:citesAsSourceDocument "Berule bdire d-ʿal yulpone suryoye hdire" ;
                            role:aut <https://www.wikidata.org/wiki/Q1368502> ;

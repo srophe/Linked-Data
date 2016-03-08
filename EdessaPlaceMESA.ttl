@@ -21,115 +21,152 @@
 <http://syriaca.org/place/78> a lawd:Place ;
 
          rdfs:label "Edessa"@en ;
-                  dcterms:description "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ,
-                           "### need unicode for Arabic here ###" ;
-                                    cito:citesAsSourceDocument "Berule bdire d-ʿal yulpone suryoye hdire" ,
-                                    role:aut <https://www.wikidata.org/wiki/Q1368502> ,
-                                    role:trl <https://www.wikidata.org/wiki/Q2088332> ,
-                                    bibo:locator "pp: 556" ; # is there a reason page is written like this on syriaca.org?
+         dcterms:description: "A city of <http://syriaca.org/place/124.html>, the capital of the ancient kingdom of <http://syriaca.org/place/145.html>, modern Urfa." ;
+         dcterms:description "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ;
+         a <http://syriaca.org/geo/browse.html?view=type&type=settlement> ; # link broken on Edessa page Apache 500 server error
+                  dcterms:description "### need unicode for Arabic here ###" ,
+                           [ cito:citesAsSourceDocument "Berule bdire d-ʿal yulpone suryoye hdire" ;
+                           role:aut <https://www.wikidata.org/wiki/Q1368502> ;
+                           role:trl <https://www.wikidata.org/wiki/Q2088332> ;
+                           bibo:locator "pp: 556" # is there a reason page is written like this on syriaca.org?
+                           ] ;
+                  dcterms:description "### need unicode for Arabic here ###" ,
+                           [ cito:citesAsSourceDocument "al-Luʼluʼ al-manthūr fī tārīkh al-ʻulūm wa-al-ādāb al-Suryāniyyah" ;
+                           role:aut <https://www.wikidata.org/wiki/Q1368502> ;
+                           bibo:locator "pp: 516" ;
+                           ] ;         
+                  dcterms:description "183. Edessa"@en ,
+                           [ cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
+                           role:edt <http://viaf.org/viaf/36934903> ;
+                           bibo:locator "pp: 1, 4, 5–6 (with fig. 1), 9–10, 13, 15–16, 18, 26, 29, 31, 33–34, 36, 37–38, 41, 46, 54, 56, 60, 64, 69, 71, 74, 84, 86, 90, 97–98, 99, 102, 107–108, 126, 127, 128, 132–133, 138–139 (with fig. 47), 145, 153, 155, 162, 163, 164, 178, 191–192, 195–196, 197, 199, 201–202, 209, 213, 220, 229, 237, 249, 252, 260–261, 262, 266, 267, 268, 270, 271–272, 273, 284, 287, 288, 303–304, 314, 316, 317, 322, 327–328, 332, 335, 343, 346, 348, 350, 351, 352, 356, 361, 363, 367, 376, 377, 384, 390, 392, 398, 401, 403, 407, 410–411, 419, 431, 432, 433, 438–439, 444, 446, 448, maps: Map I B1, II B1, III." ;
+                           ] ;
+                  dcterms:description "a famous city, five day journey eastward from Aleppo, now called Urfa." ,
+                           [ cito:citesAsSourceDocument <http://www.worldcat.org/oclc/54405272> ;
+                           role:aut <https://www.wikidata.org/wiki/Q1368502> ;
+                           role:trl <http://viaf.org/viaf/27483> ;
+                           bibo:locator "pp: 553" 
+                           ] ;
                            
-                           "### need unicode for Arabic here ###" ;
-                                    cito:citesAsSourceDocument "al-Luʼluʼ al-manthūr fī tārīkh al-ʻulūm wa-al-ādāb al-Suryāniyyah" ,
-                                    role:aut <https://www.wikidata.org/wiki/Q1368502> ,
-                                    bibo:locator "pp: 516" ;
-                                    
-                           "183. Edessa"@en ,
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
-                                    role:edt <http://viaf.org/viaf/36934903> ,
-                                    bibo:locator "pp: 1, 4, 5–6 (with fig. 1), 9–10, 13, 15–16, 18, 26, 29, 31, 33–34, 36, 37–38, 41, 46, 54, 56, 60, 64, 69, 71, 74, 84, 86, 90, 97–98, 99, 102, 107–108, 126, 127, 128, 132–133, 138–139 (with fig. 47), 145, 153, 155, 162, 163, 164, 178, 191–192, 195–196, 197, 199, 201–202, 209, 213, 220, 229, 237, 249, 252, 260–261, 262, 266, 267, 268, 270, 271–272, 273, 284, 287, 288, 303–304, 314, 316, 317, 322, 327–328, 332, 335, 343, 346, 348, 350, 351, 352, 356, 361, 363, 367, 376, 377, 384, 390, 392, 398, 401, 403, 407, 410–411, 419, 431, 432, 433, 438–439, 444, 446, 448, maps: Map I B1, II B1, III." ;
-                           
-                           "a famous city, five day journey eastward from Aleppo, now called Urfa." ,
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/54405272> ,
-                                    role:aut <https://www.wikidata.org/wiki/Q1368502> ,
-                                    role:trl <http://viaf.org/viaf/27483> ,
-                                    dcterms:publisher "Gorgias Press" , # is there a URI for them?
-                                    role:# publication place "Piscataway, NJ" , # need URI
-                                    bibo:locator "pp: 553" ;
-                           
-         
          dcterms:date "-0304" ; # used dcterms:date [not dcterms:temporal] b/c calls for string literal
          
          skos:exactMatch <http://pleiades.stoa.org/places/658457> ; # this is an instance of owl:TransitiveProperty - do we want to use it?
-         skos:closeMatch <https://www.wikidata.org/w/index.php?search=&search=edessa&title=Special%3ASearch&go=Go> , # should this be wdata:Q1190403?
+         skos:closeMatch <https://www.wikidata.org/w/index.php?search=&search=edessa&title=Special%3ASearch&go=Go> , # wdata:Q1190403
                          <https://www.wikidata.org/wiki/Q133118> ; # wdata:Q133118
          skos:altLabel "Urfa"@en ;
          skos:related <http://syriaca.org/place/145.html> ,
                       <http://syriaca.org/place/166.html> ;
          
-         lawd:hasName [ lawd:primaryForm "Edessa"@en ];
+         lawd:hasName [ lawd:primaryForm "Edessa"@en ] ;
          lawd:hasName [ lawd:primaryForm "ܐܘܪܗܝ"@syr ] ;
          lawd:hasName [
          lawd:primaryForm "أَذاسا"@ar ;
          lawd:hasAttestation <http://syriaca.org/place/78/html>
-  ] ;    # why this is a lawd:hasAttestation if already foaf:primaryTopicOf?
+         ] ;    # why this is a lawd:hasAttestation if already foaf:primaryTopicOf?
+         
          geo:location [ geo:lat 37.15 ;  geo:long 38.8 ] ;
          
-         dcterms:isPartOf <http://syriaca.org/place/145> ; # is there a way to express "was part of" instead of "is part of"?
-         dcterms:isPartOf <http://syriaca.org/place/166> ;
+         dcterms:isPartOf <http://syriaca.org/place/145> , # is there a way to express "was part of" instead of "is part of"?
+                          <http://syriaca.org/place/166> ;
          
-         #rdfs:comment ?
-         skos:historyNote  "Renamed Edessa by Seleucus I Nicator." , # assuming there's better label for historical events?
-                                    dcterms:date "-304" ,
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
-                                    bibo:locator "pp: 138-139" ;
+         # Events #
+         ## rdfs:comment ?
+         ### synatx here needs review
+                  skos:historyNote  "Renamed Edessa by Seleucus I Nicator." ,
+                                    [ dcterms:date "-304" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
+                                    bibo:locator "pp: 138-139"
+                                    ] ;
                            "Flood of the river Daiṣan destroyed part of city." ,
-                                    dcterms:date "201" ,
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
-                                    bibo:locator "pp: 138-139" ;
+                                    [ dcterms:date "201" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
+                                    bibo:locator "pp: 138-139"
+                                    ] ;
                            "Full incorporation into the Roman Empire." ,
-                                    dcterms:date "213" ,
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
-                                    bibo:locator "pp: 138-139" ;
+                                    [ dcterms:date "213" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
+                                    bibo:locator "pp: 138-139"
+                                    ] ;
                            "Closure of the "School of the Persians"." , # will this read as literal inside a literal?
-                                    dcterms:date "489" ,
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
-                                    bibo:locator "pp: 138-139" ;
+                                    [ dcterms:date "489" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
+                                    bibo:locator "pp: 138-139"
+                                    ] ;
                            "Edessa conquered by the Arabs." ,
-                                    dcterms:date "641" ,
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
-                                    bibo:locator "pp: 138-139" ;
+                                    [ dcterms:date "641" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
+                                    bibo:locator "pp: 138-139"
+                                    ] ;
                            "Edessa conquered by the Crusaders." ,
-                                    dcterms:date "1098" ,
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
-                                    bibo:locator "pp: 138-139" ;
+                                    [ dcterms:date "1098" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
+                                    bibo:locator "pp: 138-139"
+                                    ] ;
                            "Edessa conquered by Zengi of Mosul." ,
-                                    dcterms:date "1144" ,
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
-                                    bibo:locator "pp: 138-139" ;
+                                    [ dcterms:date "1144" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
+                                    bibo:locator "pp: 138-139"
+                                    ] ;
                            "Edessa incorporated into the Ottoman Empire." ,
-                                    dcterms:date "1517" ,
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
-                                    bibo:locator "pp: 138-139" ;
+                                    [ dcterms:date "1517" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
+                                    bibo:locator "pp: 138-139"
+                                    ] ;
                            "Massacres of some of Armenian and Syriac Christians during World War I." ,
-                                    periodo:earliestYear "1913" ,
-                                    periodo:latestYear "1919" ,
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
-                                    bibo:locator "pp: 138-139" ;
-                           "Emigration of remaining Armenian and Syrian Christians to Aleppo." ;
-                                    dcterms:date "1924" ,
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
-                                    bibo:locator "pp: 138-139" ;
+                                    [ periodo:earliestYear "1913" ;
+                                    periodo:latestYear "1919" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
+                                    bibo:locator "pp: 138-139"
+                                    ] ;
+                           "Emigration of remaining Armenian and Syrian Christians to Aleppo." ,
+                                    [ dcterms:date "1924" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
+                                    bibo:locator "pp: 138-139"
+                                    ] ;
 
-
+         # Attestations
+         ## need syntax review
          lawd:hasAttestation "Attestation of Christian church in Edessa according to the Chronicle of Edessa." , # need to do cito and bibo for this section
-                                    dcterms:date "201" ;
+                                    [ dcterms:date "201" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/834291376> ;
+                                    bibo:locator pp: 1:2, 11, 13.
+                                    ] ;
                              "Attestation of anti-Chalcedonian bishop in Edessa according to the Chronicle of Edessa." ,
-                                    dcterms:date "520" ;
+                                    [ dcterms:date "520" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/834291376> ;
+                                    bibo:locator pp: 1:2, 11, 13.
+                                    ] ;
                              "Attestation of Chalcedonian bishop in Edessa according to the Chronicle of Edessa." ,
-                                    dcterms:date "522" ;
+                                    [ dcterms:date "522" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/834291376> ;
+                                    bibo:locator pp: 1:2, 11, 13.
+                                    ] ;
                              "Attestation of Chalcedonian author in Edessa according to the Chronicle of Edessa." ,
-                                    periodo:earliestYear "540" ;
+                                    [ periodo:earliestYear "540" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/834291376> ;
+                                    bibo:locator pp: 1:2, 11, 13.
+                                    ] ;
                              "Attestation of name ######## in the anonymous Chronicle of 1234." ,
-                                    periodo:earliestYear "1146" ,
+                                    [ periodo:earliestYear "1146" ;
                                     periodo:latestYear "1234" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/1145695 ;
+                                    bibo:locator "pp: 2:136"
+                                    ] ;
                              "Attestation of Syrian Orthodox church in Edessa in the anonymous Chronicle of 1234." ,
-                                    dcterms:date "1146" ;
+                                    [ dcterms:date "1146" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/1145695 ;
+                                    bibo:locator "pp: 2:136"
+                                    ] ;
                              "Attestation of names الرُّهاء and أَذاسا in the Muʿjam al-buldān of Yāqūt al-Ḥamawī." ,
-                                    periodo:earliestYear "1224" ,
+                                    [ periodo:earliestYear "1224" ;
                                     periodo:latestYear "1228" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/23909540> ;
+                                    bibo:locator "pp: I:155; III:120."
+                                    ] ;
                              "Attestation of Syrian Orthodox metropolitan for Edessa according to Barsoum's Scattered Pearls." ,
-                                    dcterms:date "1624"
-                             # can we cite these with URIs?
+                                    [ dcterms:date "1624" ;
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/54405272> ;
+                                    bibo:locator "pp: 553"
+                                    ] ;
                              ## dcterms:isReferencedBy?
                              
          rdfs:seeAlso <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Edessa&sT=keywords> , # is rdfs:seeAlso permissible with a URL?

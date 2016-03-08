@@ -1,15 +1,16 @@
-# work in progress -AA
+# still a work in progress -AA
 
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix role: <http://www.loc.gov/loc.terms/relators/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix collex: <http://www.collex.org/schema#> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix cito: <http://purl.org/spar/cito/cito:> .
-@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix cnt: <http://www.w3.org/2011/content#> . # not yet used
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> . # not yet used
 @prefix lawd: <http://lawd.info/ontology/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
@@ -20,17 +21,21 @@
 
 <http://syriaca.org/place/78> a lawd:Place ;
 
+                  collex:discipline "History" ; # collex.org/schema# offline - need to ask MESA what they want
+                  role:edt <http://syriaca.org/editors.xml#tcarlson> ,
+                           <http://syriaca.org/editors.xml#dmichelson> ;
+
          rdfs:label "Edessa"@en ;
-         dcterms:description: "A city of <http://syriaca.org/place/124.html>, the capital of the ancient kingdom of <http://syriaca.org/place/145.html>, modern Urfa." ;
-         dcterms:description "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ;
+         dcterms:description: "A city of <http://syriaca.org/place/124.html>, the capital of the ancient kingdom of <http://syriaca.org/place/145.html>, modern Urfa." ,
+                              "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ;
          a <http://syriaca.org/geo/browse.html?view=type&type=settlement> ; # link broken on Edessa page - Apache 500 server error
-                  dcterms:description ### need unicode for Arabic here ### ,
+                  dcterms:description # need unicode for Arabic here # ,
                            [ cito:citesAsSourceDocument "Berule bdire d-ʿal yulpone suryoye hdire" ;
                            role:aut <https://www.wikidata.org/wiki/Q1368502> ;
                            role:trl <https://www.wikidata.org/wiki/Q2088332> ;
                            bibo:locator "pp: 556"
                            ] ;
-                  dcterms:description ### need unicode for Arabic here ### ,
+                  dcterms:description # need unicode for Arabic here # ,
                            [ cito:citesAsSourceDocument "al-Luʼluʼ al-manthūr fī tārīkh al-ʻulūm wa-al-ādāb al-Suryāniyyah" ;
                            role:aut <https://www.wikidata.org/wiki/Q1368502> ;
                            bibo:locator "pp: 516" ;
@@ -47,9 +52,10 @@
                            bibo:locator "pp: 553" 
                            ] ;
                            
-         dcterms:date "-0304" ; # used dcterms:date [not dcterms:temporal] b/c calls for string literal
+         dcterms:date "-0304" ; # used dcterms:date, not dcterms:temporal, b/c calls for string literal
+         # add PeriodO id
          
-         skos:exactMatch <http://pleiades.stoa.org/places/658457> ; # this is an instance of owl:TransitiveProperty - do we want to use it?
+         skos:exactMatch <http://pleiades.stoa.org/places/658457> ; # exactMatch is an instance of owl:TransitiveProperty - do we want to use it?
          skos:closeMatch <https://www.wikidata.org/wiki/Q1190403> , # wdata:Q1190403
                          <https://www.wikidata.org/wiki/Q133118> ; # wdata:Q133118
          skos:altLabel "Urfa"@en ;
@@ -127,48 +133,48 @@
          # Attestations
          ## need syntax review
          ### dcterms:isReferencedBy?
-         lawd:hasAttestation "Attestation of Christian church in Edessa according to the Chronicle of Edessa." , # need to do cito and bibo for this section
+         lawd:hasAttestation "Attestation of Christian church in Edessa according to the Chronicle of Edessa." ,
                                     [ dcterms:date "201" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/834291376> ;
                                     bibo:locator pp: 1:2, 11, 13.
-                                    ] ,
+] ,
                              "Attestation of anti-Chalcedonian bishop in Edessa according to the Chronicle of Edessa." ,
                                     [ dcterms:date "520" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/834291376> ;
                                     bibo:locator pp: 1:2, 11, 13.
-                                    ] ,
+] ,
                              "Attestation of Chalcedonian bishop in Edessa according to the Chronicle of Edessa." ,
                                     [ dcterms:date "522" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/834291376> ;
                                     bibo:locator pp: 1:2, 11, 13.
-                                    ] ,
+] ,
                              "Attestation of Chalcedonian author in Edessa according to the Chronicle of Edessa." ,
                                     [ periodo:earliestYear "540" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/834291376> ;
                                     bibo:locator pp: 1:2, 11, 13.
-                                    ] ,
+] ,
                              "Attestation of name ######## in the anonymous Chronicle of 1234." ,
                                     [ periodo:earliestYear "1146" ;
                                     periodo:latestYear "1234" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/1145695 ;
                                     bibo:locator "pp: 2:136"
-                                    ] ,
+] ,
                              "Attestation of Syrian Orthodox church in Edessa in the anonymous Chronicle of 1234." ,
                                     [ dcterms:date "1146" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/1145695 ;
                                     bibo:locator "pp: 2:136"
-                                    ] ,
+] ,
                              "Attestation of names الرُّهاء and أَذاسا in the Muʿjam al-buldān of Yāqūt al-Ḥamawī." ,
                                     [ periodo:earliestYear "1224" ;
                                     periodo:latestYear "1228" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/23909540> ;
                                     bibo:locator "pp: I:155; III:120."
-                                    ] ,
+] ,
                              "Attestation of Syrian Orthodox metropolitan for Edessa according to Barsoum's Scattered Pearls." ,
                                     [ dcterms:date "1624" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/54405272> ;
                                     bibo:locator "pp: 553"
-                                    ] ;
+] ;
                              
          rdfs:seeAlso <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Edessa&sT=keywords> , # is rdfs:seeAlso permissible with a URL?
                       <http://pleiades.stoa.org/places/658457> ,
@@ -179,10 +185,9 @@
                       <https://en.wikipedia.org/wiki/%C5%9Eanl%C4%B1urfa> ;
 
 # Known Religious Communities
-## this section in need of editing
-### used lawd:hasAttestation instead of time:intervalStartedBy and time:intervalFinishedBy
+## used lawd:hasAttestation instead of time:intervalStartedBy and time:intervalFinishedBy
 
-                  rdfs:label "Christians" ;
+                  rdfs:label "Christians" ,
                            [ lawd:hasAttestation "201" ;
                            lawd:hasAttestation "1624" ;
                            cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
@@ -231,11 +236,7 @@
 
          skos:historyNote "GEDSH articles identifies its river as the <http://syriaca.org/place/43.html> but this identification is contested." ;
 
-         collex:discipline "History" # collex.org/schema# temporarily offline - not sure what's needed here
-         
-         role:edt <http://syriaca.org/editors.xml#tcarlson> ,
-                  <http://syriaca.org/editors.xml#dmichelson> ;
-         
+
           cc:license "Attribution 3.0 unported" ,
           <http://creativecommons.org/licenses/by/3.0/deed.en_US> # this needs editing
 

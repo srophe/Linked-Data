@@ -28,7 +28,7 @@
                            [ cito:citesAsSourceDocument "Berule bdire d-ʿal yulpone suryoye hdire" ;
                            role:aut <https://www.wikidata.org/wiki/Q1368502> ;
                            role:trl <https://www.wikidata.org/wiki/Q2088332> ;
-                           bibo:locator "pp: 556" # is there a reason page is written like this on syriaca.org?
+                           bibo:locator "pp: 556"
                            ] ;
                   dcterms:description "### need unicode for Arabic here ###" ,
                            [ cito:citesAsSourceDocument "al-Luʼluʼ al-manthūr fī tārīkh al-ʻulūm wa-al-ādāb al-Suryāniyyah" ;

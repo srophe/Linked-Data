@@ -173,7 +173,7 @@
          rdfs:seeAlso <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Edessa&sT=keywords> , # is rdfs:seeAlso permissible with a URL?
                       <http://pleiades.stoa.org/places/658457> ,
                       <https://www.google.com/maps?q=37.15,+38.8+%28name%29&z=10&ll=37.15,+38.8> ,
-                      <http://syriaca.org/place/78/tei> , # is this best here?
+                      <http://syriaca.org/place/78/tei> ,
                       <http://syriaca.org/place/78/atom> ,
                       <https://en.wikipedia.org/wiki/Edessa> ,
                       <https://en.wikipedia.org/wiki/%C5%9Eanl%C4%B1urfa> ;
@@ -199,7 +199,7 @@
                                     [ rdfs:subClassOf "Christians" ,
                                                       "Syriac" ;
                                     lawd:hasAttestation "520" ,
-                                                        "1624" ,
+                                                        "1624" 
 ] ;
                                              rdfs:label "Melkite" ,
                                              [ rdfs:subClassOf "Christians" ,

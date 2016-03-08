@@ -16,6 +16,7 @@
 @prefix bibo: <http://bibliontology.com/bibo/bibo.php#> .
 @prefix time: <https://www.w3.org/TR/owl-time/> .
 @prefix periodo: <http://n2t.net/ark:/99152/p0v> . # need to verify this
+@prefix cc: <https://creativecommons.org/schema.rdf> .
 
 <http://syriaca.org/place/78> a lawd:Place ;
 
@@ -149,7 +150,7 @@
                            cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
                            bibo:locator "pp: 138-139" ;
                               rdfs:label "Syriac" ,  
-                              rdfs:subClassOf "Christians" # is this correct usage? (see below)
+                              rdfs:subClassOf "Christians" # is this correct usage? (used multiple times below)
                               lawd:hasAttestation "520"
                               lawd:hasAttestation "1624" ,
                                     rdfs:label "West Syrian" ,
@@ -181,13 +182,14 @@
 
 # Incerta
 
-
-
-
-
+         skos:historyNote "GEDSH articles identifies its river as the <http://syriaca.org/place/43.html> but this identification is contested." ;
 
          collex:discipline "History" # collex.org/schema# temporarily offline - not sure what's needed here
          
-         role:edt <http://syriaca.org/editors.xml#tcarlson> ;
-         role:edt <http://syriaca.org/editors.xml#dmichelson> .
+         role:edt <http://syriaca.org/editors.xml#tcarlson> ,
+                  <http://syriaca.org/editors.xml#dmichelson> ;
+         
+          cc:license "Attribution 3.0 unported" ,
+          <http://creativecommons.org/licenses/by/3.0/deed.en_US> # this needs editing
+
     

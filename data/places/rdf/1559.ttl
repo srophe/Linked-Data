@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1559> a lawd:Place ;
 rdfs:label "Nahra"  ;
+ lawd:hasName [
+lawd:primaryForm "Nahra"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Nahrā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1559/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1559/tei>  .

@@ -17,8 +17,13 @@ skos:exactMatch <http://pleiades.stoa.org/places/1001889>  ;
 geo:location [
 geo:lat "42.5"  ;
 geo:long "42.5"  ;];
+ lawd:hasName [
+lawd:primaryForm "Thrace"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܬܪܐܩܝܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܬܰܪܐܰܩܝܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ثراقية"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1459/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1459/tei>  ;
-geo:location [
-geo:lat "42.5"  ;
-geo:long "42.5"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/1459/tei>  .

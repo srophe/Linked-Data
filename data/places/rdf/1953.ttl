@@ -13,5 +13,9 @@
 <http://syriaca.org/place/1953> a lawd:Place ;
 rdfs:label "Patriarchal Cell at Marāghā"  ;
 dcterms:description "A residence of the Catholicos of the Church of the East."  ;
+ lawd:hasName [
+lawd:primaryForm "Patriarchal Cell at Marāghā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Patriarchal Cell"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1953/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1953/tei>  .

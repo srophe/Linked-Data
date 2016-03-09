@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "in Claudia, first mentioned in history in 1000. Dionysius V was consecrated there in 1034."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1000"  ;
+ lawd:hasName [
+lawd:primaryForm "Mor Dimeṭ"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܕܝܡܛ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܕܺܝܡܶܛ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار ديميط"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Dimet Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/355/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/355/tei>  .

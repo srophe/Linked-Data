@@ -14,5 +14,17 @@
 rdfs:label "Sīnjis — ܣܝܢܓܣ"  ;
 dcterms:description "A village near , near which is the ."  ;
 dcterms:temporal "1943"  ;
+ lawd:hasName [
+lawd:primaryForm "Sīnjis"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܣܝܢܓܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "سينجس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Sinjis"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Claudia"  ;];
+ lawd:hasName [
+lawd:variantForm "Dayro d-Modiq"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/558/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/558/tei>  .

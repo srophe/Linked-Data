@@ -26,8 +26,25 @@ skos:exactMatch <http://pleiades.stoa.org/places/874688>  ;
 geo:location [
 geo:lat "36.244537"  ;
 geo:long "36.244537"  ;];
+ lawd:hasName [
+lawd:primaryForm "ʿArabān"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܥܪܒܐܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܥܰܪܒܐܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "عربان"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "ʿArbān"@en  ;];
+ lawd:hasName [
+lawd:variantForm "عَرَبان"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Arabān"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Arabān"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Arbān"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Arbān"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/430/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/430/tei>  ;
-geo:location [
-geo:lat "36.244537"  ;
-geo:long "36.244537"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/430/tei>  .

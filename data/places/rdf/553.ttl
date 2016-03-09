@@ -13,5 +13,23 @@
 <http://syriaca.org/place/553> a lawd:Place ;
 rdfs:label "Defne — ܕܦܢܗ"  ;
 dcterms:description "A village near ."  ;
+ lawd:hasName [
+lawd:primaryForm "Defne"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʿAtafiyya"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܦܢܗ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܶܦܢܗ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دفنة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Dafna"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Atafiyya"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Atafiyya"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥesno d-Kifo"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/553/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/553/tei>  .

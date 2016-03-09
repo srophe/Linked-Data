@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1404> a lawd:Place ;
 rdfs:label "Mabbūwā"  ;
+ lawd:hasName [
+lawd:primaryForm "Mabbūwā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1404/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1404/tei>  .

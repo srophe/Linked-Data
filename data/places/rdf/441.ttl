@@ -22,5 +22,11 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a village in the vicinity of Mardin, inhabited until 1635."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1635"  ;
+ lawd:hasName [
+lawd:primaryForm "Qawim"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܩܘܝܡ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "قويم"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/441/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/441/tei>  .

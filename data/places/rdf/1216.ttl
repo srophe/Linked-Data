@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1216> a lawd:Place ;
 rdfs:label "Gardābād"  ;
+ lawd:hasName [
+lawd:primaryForm "Gardābād"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1216/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1216/tei>  .

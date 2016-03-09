@@ -21,5 +21,19 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
  dcterms:description [
 rdfs:label "a town in central Anatolia."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ lawd:hasName [
+lawd:primaryForm "Simandu"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܣܝܡܢܕܘ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "سمندو"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "سيمندو"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Samando"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Semando"@en  ;];
+ lawd:hasName [
+lawd:variantForm "سَمَنْدو"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/413/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/413/tei>  .

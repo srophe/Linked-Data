@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2308> a lawd:Place ;
 rdfs:label "Gweri Atel"  ;
+ lawd:hasName [
+lawd:primaryForm "Gweri Atel"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Gweri Ātel"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2308/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2308/tei>  .

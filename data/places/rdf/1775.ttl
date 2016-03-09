@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1775> a lawd:Place ;
 rdfs:label "Tīdōr"  ;
+ lawd:hasName [
+lawd:primaryForm "Tīdōr"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1775/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1775/tei>  .

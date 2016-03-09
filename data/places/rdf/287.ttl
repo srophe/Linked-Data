@@ -23,5 +23,17 @@ rdfs:label "a large ancient village in the province of Bazabdi (Beth Zabdai), ab
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1832"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/İdil>  ;
+ lawd:hasName [
+lawd:primaryForm "Āzakh"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܐܙܟ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܰܙܰܟ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "آزخ"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Azekh"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Idil"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/287/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/287/tei>  .

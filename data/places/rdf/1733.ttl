@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1733> a lawd:Place ;
 rdfs:label "Sīre"  ;
+ lawd:hasName [
+lawd:primaryForm "Sīre"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1733/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1733/tei>  .

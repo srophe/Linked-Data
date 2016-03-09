@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/956> a lawd:Place ;
 rdfs:label "Bāhzānī"  ;
+ lawd:hasName [
+lawd:primaryForm "Bāhzānī"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Ḥazyānā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/956/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/956/tei>  .

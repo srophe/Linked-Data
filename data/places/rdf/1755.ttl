@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1755> a lawd:Place ;
 rdfs:label "Tallpnā"  ;
+ lawd:hasName [
+lawd:primaryForm "Tallpnā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1755/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1755/tei>  .

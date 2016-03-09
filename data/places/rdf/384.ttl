@@ -26,8 +26,33 @@ skos:exactMatch <http://pleiades.stoa.org/places/874578>  ;
 geo:location [
 geo:lat "37.211579"  ;
 geo:long "37.211579"  ;];
+ lawd:hasName [
+lawd:primaryForm "Gawgal"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܓܘܓܠ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܓܘܓܠ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܒܶܝܬ ܓܘܳܓܝ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܐܰܒܪܗܡ ܟܰܫܟܳܪܝܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير كوكل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "دير بيت كوكي"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "دير ابرهيم الكشكري"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Gugel Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beth Gugi Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of Abraham of Kashkar"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bet Gaugal"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Abraham of Kashkar"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʻGreat Monastery’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/384/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/384/tei>  ;
-geo:location [
-geo:lat "37.211579"  ;
-geo:long "37.211579"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/384/tei>  .

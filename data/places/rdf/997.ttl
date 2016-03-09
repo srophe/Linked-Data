@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/997> a lawd:Place ;
 rdfs:label "Bespīn"  ;
+ lawd:hasName [
+lawd:primaryForm "Bespīn"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/997/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/997/tei>  .

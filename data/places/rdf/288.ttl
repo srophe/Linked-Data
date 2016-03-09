@@ -26,8 +26,15 @@ skos:exactMatch <http://pleiades.stoa.org/places/874508>  ;
 geo:location [
 geo:lat "37.407482"  ;
 geo:long "37.407482"  ;];
+ lawd:hasName [
+lawd:primaryForm "Isfis"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܐܣܦܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܶܣܦܶܣ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "إِسفِس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Isfes"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/288/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/288/tei>  ;
-geo:location [
-geo:lat "37.407482"  ;
-geo:long "37.407482"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/288/tei>  .

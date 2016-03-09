@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2438> a lawd:Place ;
 rdfs:label "Mar Abraham of Resha"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Abraham of Resha"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Abraham of Reshā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2438/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2438/tei>  .

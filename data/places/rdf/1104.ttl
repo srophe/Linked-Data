@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1104> a lawd:Place ;
 rdfs:label "Bōshat"  ;
+ lawd:hasName [
+lawd:primaryForm "Bōshat"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1104/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1104/tei>  .

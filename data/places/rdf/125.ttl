@@ -25,8 +25,15 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Dūr-Katlimmu>  ;
 geo:location [
 geo:lat "35.65633"  ;
 geo:long "35.65633"  ;];
+ lawd:hasName [
+lawd:primaryForm "Magdal"@en  ;];
+ lawd:hasName [
+lawd:variantForm "مجدل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Majdal"@en  ;];
+ lawd:hasName [
+lawd:variantForm "مِجْدَل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Khabur River"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/125/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/125/tei>  ;
-geo:location [
-geo:lat "35.65633"  ;
-geo:long "35.65633"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/125/tei>  .

@@ -13,5 +13,13 @@
 <http://syriaca.org/place/618> a lawd:Place ;
 rdfs:label "Rabban Ṣapra"  ;
 dcterms:description "A monastery near ."  ;
+ lawd:hasName [
+lawd:primaryForm "Rabban Ṣapra"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery of Rabban Sapra"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Rabban Saprā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Nisibis"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/618/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/618/tei>  .

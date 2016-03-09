@@ -18,8 +18,27 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Yemişli,_Midyat>  ;
 geo:location [
 geo:lat "37.33"  ;
 geo:long "37.33"  ;];
+ lawd:hasName [
+lawd:primaryForm "Anḥil"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Anhil"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Anḥel"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܐܢܚܠ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܰܢܚܠ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "انحل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Enḥel"@en  ;];
+ lawd:hasName [
+lawd:variantForm "أَنْحِل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur ʿAbdin"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/24/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/24/tei>  ;
-geo:location [
-geo:lat "37.33"  ;
-geo:long "37.33"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/24/tei>  .

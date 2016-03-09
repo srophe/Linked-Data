@@ -14,5 +14,17 @@
 rdfs:label "Afghanistan — ܐܦܓܐܢܣܬܐܢ"  ;
 dcterms:description "A region of ."  ;
 dcterms:temporal "1530"  ;
+ lawd:hasName [
+lawd:primaryForm "Afghanistan"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܐܦܓܐܢܣܬܐܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܰܦܓܰܐܢܺܣܬܰܐܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "افغانستان"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Αfghanistan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Central Asia"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1523/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1523/tei>  .

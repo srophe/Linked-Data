@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1370> a lawd:Place ;
 rdfs:label "Kartīnes"  ;
+ lawd:hasName [
+lawd:primaryForm "Kartīnes"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1370/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1370/tei>  .

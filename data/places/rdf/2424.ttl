@@ -12,5 +12,19 @@
 
 <http://syriaca.org/place/2424> a lawd:Place ;
 rdfs:label "Baʿut"  ;
+ lawd:hasName [
+lawd:primaryForm "Baʿut"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bāʿūṯ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "دير باغوث"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Baut"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ba‘ut"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Bāūṯ"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Bā‘ūṯ"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2424/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2424/tei>  .

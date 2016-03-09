@@ -19,5 +19,21 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Syria_Palaestina>  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Palaestina_Prima>  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Palaestina_Secunda>  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Palaestina_Salutaris>  ;
+ lawd:hasName [
+lawd:primaryForm "Palaestina"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܦܠܫܬ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܦܠܶܫܬ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "فلسطين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Palestine"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Roman Palestine"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Caesarea"  ;];
+ lawd:hasName [
+lawd:variantForm "Jerusalem"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/149/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/149/tei>  .

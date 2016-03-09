@@ -31,8 +31,55 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Ras_al-Ayn,_Syria>  ;
 geo:location [
 geo:lat "36.82584"  ;
 geo:long "36.82584"  ;];
+ lawd:hasName [
+lawd:primaryForm "Reshʿayna"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Theodosiopolis"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Raʾs al-ʿAyn"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ceylanpınar"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Resülayn"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܪܝܫ ܥܝܢܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܪܝܺܫ ܥܰܝܢܳܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "رأس عين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Rish ʿAyna"@en  ;];
+ lawd:hasName [
+lawd:variantForm "رأس العين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Reshayna"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Resh‘ayna"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Raʾs al-Ayn"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Raʾs al-‘Ayn"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Rish Ayna"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Rish ‘Ayna"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Resh Ayna"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Resh ‘Ayna"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Raʾs al-Ayn"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Raʾs al-’Ayn"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Raʾs al-Ayn"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Raʾs al-Ayn"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Raʾs al-‘Ayn"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Raʾs al-‘Ayn"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Resh ʿAyna"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/172/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/172/tei>  ;
-geo:location [
-geo:lat "36.82584"  ;
-geo:long "36.82584"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/172/tei>  .

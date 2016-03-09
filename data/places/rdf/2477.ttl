@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2477> a lawd:Place ;
 rdfs:label "Mar ʻPatris’"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar ʻPatris’"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār ʻPatris’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2477/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2477/tei>  .

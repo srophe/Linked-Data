@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2392> a lawd:Place ;
 rdfs:label "Tis"  ;
+ lawd:hasName [
+lawd:primaryForm "Tis"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Tīs"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2392/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2392/tei>  .

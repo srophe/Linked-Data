@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1340> a lawd:Place ;
 rdfs:label "Ḥūlḥūs"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥūlḥūs"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1340/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1340/tei>  .

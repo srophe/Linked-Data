@@ -14,5 +14,17 @@
 rdfs:label "Bālulan"  ;
 dcterms:description "A village west of ."  ;
 dcterms:temporal "1824"  ;
+ lawd:hasName [
+lawd:primaryForm "Bālulan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bālūlan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "‘Beʿellawin'"@en  ;];
+ lawd:hasName [
+lawd:variantForm "‘Beellawin'"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Be‘ellawin'"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Urmia"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/248/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/248/tei>  .

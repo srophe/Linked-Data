@@ -21,5 +21,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
  dcterms:description [
 rdfs:label "a mountain in the district of Melitene."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ lawd:hasName [
+lawd:primaryForm "Ṭuro Briko"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܛܘܪܐ ܒܪܝܟܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܛܘܪܐ ܒܪܝܟܳܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "الجبل المبارك"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "The Blessed Mountain"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/318/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/318/tei>  .

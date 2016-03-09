@@ -12,5 +12,11 @@
 
 <http://syriaca.org/place/749> a lawd:Place ;
 rdfs:label "Goyan"  ;
+ lawd:hasName [
+lawd:primaryForm "Goyan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Gōgāye"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Sindi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/749/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/749/tei>  .

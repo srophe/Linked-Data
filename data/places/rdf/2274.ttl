@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2274> a lawd:Place ;
 rdfs:label "Beth Daron"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Daron"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Dārōn"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2274/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2274/tei>  .

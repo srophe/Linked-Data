@@ -24,5 +24,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0568"  ;
 skos:exactMatch <http://pleiades.stoa.org/places/876742>  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Zuqnin_Monastery>  ;
+ lawd:hasName [
+lawd:primaryForm "Zuqnin"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܙܘܩܢ̈ܝܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܙܘܩܢ̈ܝܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير زوقنين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Zuqnīn Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/358/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/358/tei>  .

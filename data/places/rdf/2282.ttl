@@ -12,5 +12,11 @@
 
 <http://syriaca.org/place/2282> a lawd:Place ;
 rdfs:label "Beth Ṭure"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Ṭure"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Ṭūre (ʻthe mountains’)"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʻMountains’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2282/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2282/tei>  .

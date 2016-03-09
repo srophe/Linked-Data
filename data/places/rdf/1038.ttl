@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1038> a lawd:Place ;
 rdfs:label "Beth Kūshtā"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Kūshtā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Kūshtā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1038/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1038/tei>  .

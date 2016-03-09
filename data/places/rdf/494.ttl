@@ -19,8 +19,21 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Ankara>  ;
 geo:location [
 geo:lat "39.943198"  ;
 geo:long "39.943198"  ;];
+ lawd:hasName [
+lawd:primaryForm "Ancyra"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ankyra"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܐܢܩܘܪܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܰܢܩܘܪܰܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "انقرة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ankara"@en  ;];
+ lawd:hasName [
+lawd:variantForm "أَنْقِرة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Anatolia"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/494/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/494/tei>  ;
-geo:location [
-geo:lat "39.943198"  ;
-geo:long "39.943198"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/494/tei>  .

@@ -22,5 +22,13 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "an ancient town north of Biricik on the river Farzmān, a tributary of the Euphrates called Marzīmān."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1124"  ;
+ lawd:hasName [
+lawd:primaryForm "Farzmān"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܦܪܙܡܐܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܦܰܪܙܡܰܐܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "فرزمان"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/435/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/435/tei>  .

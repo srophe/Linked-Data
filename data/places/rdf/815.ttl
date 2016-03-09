@@ -13,5 +13,7 @@
 <http://syriaca.org/place/815> a lawd:Place ;
 rdfs:label "Dīzā Gāwār"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Yüksekova>  ;
+ lawd:hasName [
+lawd:primaryForm "Dīzā Gāwār"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/815/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/815/tei>  .

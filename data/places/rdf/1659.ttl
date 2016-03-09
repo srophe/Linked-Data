@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1659> a lawd:Place ;
 rdfs:label "Rōmā Smōqā"  ;
+ lawd:hasName [
+lawd:primaryForm "Rōmā Smōqā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1659/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1659/tei>  .

@@ -22,5 +22,17 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a village near Antioch."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0723"  ;
+ lawd:hasName [
+lawd:primaryForm "Rūḥīn"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܪܘܚܝܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܪܘܝܚܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "روحين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ruḥīn"@en  ;];
+ lawd:hasName [
+lawd:variantForm "رُوْحِين"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/406/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/406/tei>  .

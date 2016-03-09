@@ -27,8 +27,39 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Rumkale>  ;
 geo:location [
 geo:lat "37.270778"  ;
 geo:long "37.270778"  ;];
+ lawd:hasName [
+lawd:primaryForm "Qalʿa Rumayta"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Hṙomklay"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܩܠܥܐ ܪܘܡܝܬܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܩܶܠܥܳܐ ܪܘܡܳܝܬܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "قلعة الروم"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Qalʿat al-Rum"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Qala Rumayta"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Qal‘a Rumayta"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Qalat al-Rum"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Qal‘at al-Rum"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Aintab"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Aintab"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Euphrates"  ;];
+ lawd:hasName [
+lawd:variantForm "Edessa"  ;];
+ lawd:hasName [
+lawd:variantForm "ʿAintab"  ;];
+ lawd:hasName [
+lawd:variantForm "Zeugma"  ;];
+ lawd:hasName [
+lawd:variantForm "Halfeti"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/97/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/97/tei>  ;
-geo:location [
-geo:lat "37.270778"  ;
-geo:long "37.270778"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/97/tei>  .

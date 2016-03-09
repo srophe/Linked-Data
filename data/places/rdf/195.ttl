@@ -19,8 +19,15 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Tyre,_Lebanon>  ;
 geo:location [
 geo:lat "33.26889"  ;
 geo:long "33.26889"  ;];
+ lawd:hasName [
+lawd:primaryForm "Tyros"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Tyre"@en  ;];
+ lawd:hasName [
+lawd:variantForm "صُوْر"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Mediterranean Sea"  ;];
+ lawd:hasName [
+lawd:variantForm "Damascus"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/195/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/195/tei>  ;
-geo:location [
-geo:lat "33.26889"  ;
-geo:long "33.26889"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/195/tei>  .

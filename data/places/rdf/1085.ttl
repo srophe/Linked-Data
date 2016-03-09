@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1085> a lawd:Place ;
 rdfs:label "Beth Zakho"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Zakho"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Zākhō"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1085/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1085/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1807> a lawd:Place ;
 rdfs:label "‘Village of the Levites’"  ;
+ lawd:hasName [
+lawd:primaryForm "‘Village of the Levites’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1807/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1807/tei>  .

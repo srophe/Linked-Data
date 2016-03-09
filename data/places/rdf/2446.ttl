@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2446> a lawd:Place ;
 rdfs:label "Mar Atqen"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Atqen"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Aṯqen"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2446/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2446/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1220> a lawd:Place ;
 rdfs:label "Gaṣlōnā"  ;
+ lawd:hasName [
+lawd:primaryForm "Gaṣlōnā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1220/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1220/tei>  .

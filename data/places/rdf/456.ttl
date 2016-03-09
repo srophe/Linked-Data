@@ -28,8 +28,19 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Maiuma>  ;
 geo:location [
 geo:lat "31.530845"  ;
 geo:long "31.530845"  ;];
+ lawd:hasName [
+lawd:primaryForm "Mayuma"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Maïuma"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܡܐܝܘܡܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܡܰܐܝܘܡܰܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "مايوما"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Gaza"  ;];
+ lawd:hasName [
+lawd:variantForm "Gaza"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/456/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/456/tei>  ;
-geo:location [
-geo:lat "31.530845"  ;
-geo:long "31.530845"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/456/tei>  .

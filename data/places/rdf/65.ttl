@@ -19,8 +19,15 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Cyrrhus>  ;
 geo:location [
 geo:lat "36.73466"  ;
 geo:long "36.73466"  ;];
+ lawd:hasName [
+lawd:primaryForm "Cyrrhus"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܩܘܪܘܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܩܽܘܪܳܘܣ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "قورس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "قُوْرُس"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/65/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/65/tei>  ;
-geo:location [
-geo:lat "36.73466"  ;
-geo:long "36.73466"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/65/tei>  .

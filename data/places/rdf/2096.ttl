@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2096> a lawd:Place ;
 rdfs:label "Ḥadīde"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥadīde"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥḏattā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2096/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2096/tei>  .

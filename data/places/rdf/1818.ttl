@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1818> a lawd:Place ;
 rdfs:label "Zangīlan"  ;
+ lawd:hasName [
+lawd:primaryForm "Zangīlan"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1818/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1818/tei>  .

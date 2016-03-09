@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1076> a lawd:Place ;
 rdfs:label "Beth Tannūrā"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Tannūrā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Tannūrā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1076/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1076/tei>  .

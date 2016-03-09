@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1573> a lawd:Place ;
 rdfs:label "Nerab Barzaï"  ;
+ lawd:hasName [
+lawd:primaryForm "Nerab Barzaï"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1573/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1573/tei>  .

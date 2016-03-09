@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2499> a lawd:Place ;
 rdfs:label "Mar ʻYazdit’"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar ʻYazdit’"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār ʻYazdit’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2499/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2499/tei>  .

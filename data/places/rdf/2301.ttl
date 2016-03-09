@@ -12,5 +12,11 @@
 
 <http://syriaca.org/place/2301> a lawd:Place ;
 rdfs:label "Eshnuq"  ;
+ lawd:hasName [
+lawd:primaryForm "Eshnuq"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Eshnūq"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʻEscinuc’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2301/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2301/tei>  .

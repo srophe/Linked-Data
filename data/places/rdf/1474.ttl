@@ -14,5 +14,15 @@
 rdfs:label "Dayro d-Qurus — ܕܝܪܐ ܕܩܘܪܘܣ"  ;
 dcterms:description "An unlocated monastery"  ;
 dcterms:temporal "0538"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayro d-Qurus"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܩܘܪܘܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܩܽܘܪܘܣ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير قوروس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of Mar Cyrus"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1474/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1474/tei>  .

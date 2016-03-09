@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/967> a lawd:Place ;
 rdfs:label "Barbitha"  ;
+ lawd:hasName [
+lawd:primaryForm "Barbitha"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Barbīṯā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/967/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/967/tei>  .

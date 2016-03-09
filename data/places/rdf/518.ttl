@@ -14,5 +14,17 @@
 rdfs:label "Mt. Qāsiyūn — ܛܘܪܐ ܕܩܐܣܝܘܢ"  ;
 dcterms:description "A mountain north of Damascus."  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Mount_Qasioun>  ;
+ lawd:hasName [
+lawd:primaryForm "Mt. Qāsiyūn"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܛܘܪܐ ܕܩܐܣܝܘܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܛܘܪܳܐ ܕܩܰܐܣܒܘܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "جبل قاسيون"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Qasyun Mountain"@en  ;];
+ lawd:hasName [
+lawd:variantForm "قَاسيُون"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/518/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/518/tei>  .

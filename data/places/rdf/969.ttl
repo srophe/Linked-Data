@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/969> a lawd:Place ;
 rdfs:label "Barmīn"  ;
+ lawd:hasName [
+lawd:primaryForm "Barmīn"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/969/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/969/tei>  .

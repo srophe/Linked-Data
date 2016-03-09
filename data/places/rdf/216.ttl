@@ -31,8 +31,19 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Harran>  ;
 geo:location [
 geo:lat "36.8775"  ;
 geo:long "36.8775"  ;];
+ lawd:hasName [
+lawd:primaryForm "Ḥarran"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Carrhae"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥārān"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܚܪܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "حرّان"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥarrān"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Harran"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/216/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/216/tei>  ;
-geo:location [
-geo:lat "36.8775"  ;
-geo:long "36.8775"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/216/tei>  .

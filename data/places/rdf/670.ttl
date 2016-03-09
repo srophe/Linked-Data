@@ -13,5 +13,7 @@
 <http://syriaca.org/place/670> a lawd:Place ;
 rdfs:label "Ardamut"  ;
 dcterms:description "A village in northern Iraq."  ;
+ lawd:hasName [
+lawd:primaryForm "Ardamut"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/670/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/670/tei>  .

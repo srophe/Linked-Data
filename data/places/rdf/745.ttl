@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/745> a lawd:Place ;
 rdfs:label "Gamlawloḥe"  ;
+ lawd:hasName [
+lawd:primaryForm "Gamlawloḥe"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Gamlāwlōḥe"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/745/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/745/tei>  .

@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a village in the province of Seʿert, which I do not believe is inhabited."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1943"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayr Hābīl"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܗܒܝܠ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܗܳܒܝܠ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير هابيل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Dayr Hābil"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/402/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/402/tei>  .

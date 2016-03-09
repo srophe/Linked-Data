@@ -12,5 +12,17 @@
 
 <http://syriaca.org/place/936> a lawd:Place ;
 rdfs:label "ʿAyna d-Alile"  ;
+ lawd:hasName [
+lawd:primaryForm "ʿAyna d-Alile"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʿAïna d'Alīle"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ayna d-Alile"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Ayna d-Alile"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Aïna d'Alīle"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Aïna d'Alīle"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/936/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/936/tei>  .

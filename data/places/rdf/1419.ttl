@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1419> a lawd:Place ;
 rdfs:label "Maqqabṯā"  ;
+ lawd:hasName [
+lawd:primaryForm "Maqqabṯā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1419/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1419/tei>  .

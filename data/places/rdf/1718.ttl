@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1718> a lawd:Place ;
 rdfs:label "Shōqūr"  ;
+ lawd:hasName [
+lawd:primaryForm "Shōqūr"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1718/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1718/tei>  .

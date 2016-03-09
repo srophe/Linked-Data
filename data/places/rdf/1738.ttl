@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1738> a lawd:Place ;
 rdfs:label "Sōrīnes"  ;
+ lawd:hasName [
+lawd:primaryForm "Sōrīnes"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1738/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1738/tei>  .

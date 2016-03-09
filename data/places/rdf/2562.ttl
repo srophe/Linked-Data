@@ -14,5 +14,13 @@
 rdfs:label "Mart Maryam"  ;
 dcterms:description "A church in"  ;
 dcterms:temporal "1875"  ;
+ lawd:hasName [
+lawd:primaryForm "Mart Maryam"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mart Mariam"@en  ;];
+ lawd:hasName [
+lawd:variantForm "St. Mary"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Arzni"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2562/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2562/tei>  .

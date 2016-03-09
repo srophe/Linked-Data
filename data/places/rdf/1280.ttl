@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1280> a lawd:Place ;
 rdfs:label "Hayyis"  ;
+ lawd:hasName [
+lawd:primaryForm "Hayyis"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1280/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1280/tei>  .

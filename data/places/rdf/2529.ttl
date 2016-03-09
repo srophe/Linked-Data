@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/2529> a lawd:Place ;
 rdfs:label "Patriarchal Seminary of Saint Peter"  ;
+ lawd:hasName [
+lawd:primaryForm "Patriarchal Seminary of Saint Peter"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2529/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2529/tei>  .

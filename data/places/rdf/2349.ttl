@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2349> a lawd:Place ;
 rdfs:label "Nicosia"  ;
+ lawd:hasName [
+lawd:primaryForm "Nicosia"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Nicosia (Latin archdiocese)"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2349/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2349/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1774> a lawd:Place ;
 rdfs:label "Tkhuma Gawaya"  ;
+ lawd:hasName [
+lawd:primaryForm "Tkhuma Gawaya"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Tḥūmā Gāwāyā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1774/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1774/tei>  .

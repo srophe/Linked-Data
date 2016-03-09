@@ -13,5 +13,13 @@
 <http://syriaca.org/place/706> a lawd:Place ;
 rdfs:label "Elam"  ;
 skos:exactMatch <http://pleiades.stoa.org/places/912842>  ;
+ lawd:hasName [
+lawd:primaryForm "Elam"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʿĪlām"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Īlām"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Īlām"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/706/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/706/tei>  .

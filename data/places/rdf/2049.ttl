@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2049> a lawd:Place ;
 rdfs:label "Mar Quryaqos and Saint John the Baptist"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Quryaqos and Saint John the Baptist"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Quriāqōs and Saint John the Baptist"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2049/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2049/tei>  .

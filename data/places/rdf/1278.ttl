@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1278> a lawd:Place ;
 rdfs:label "Hawsheshur"  ;
+ lawd:hasName [
+lawd:primaryForm "Hawsheshur"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1278/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1278/tei>  .

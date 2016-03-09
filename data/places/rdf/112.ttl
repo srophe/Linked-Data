@@ -24,5 +24,23 @@ rdfs:label "an ancient town in the province of Samosata, between Aleppo and Edes
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0825"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Çakırhüyük,_Besni>  ;
+ lawd:hasName [
+lawd:primaryForm "Kaysum"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Kesoun"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܟܝܫܘܡ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "كيسوم"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Kesum"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Qala Rumayta"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Qal‘a Rumayta"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Qalʿa Rumayta"  ;];
+ lawd:hasName [
+lawd:variantForm "Samosata"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/112/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/112/tei>  .

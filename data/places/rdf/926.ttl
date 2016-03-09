@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/926> a lawd:Place ;
 rdfs:label "Julmar"  ;
+ lawd:hasName [
+lawd:primaryForm "Julmar"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Julamerk"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/926/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/926/tei>  .

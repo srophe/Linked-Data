@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1078> a lawd:Place ;
 rdfs:label "Beth Tartar"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Tartar"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Tartar"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1078/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1078/tei>  .

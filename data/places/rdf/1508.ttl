@@ -19,8 +19,17 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Bayt_Jibrin>  ;
 geo:location [
 geo:lat "31.607738"  ;
 geo:long "31.607738"  ;];
+ lawd:hasName [
+lawd:primaryForm "Gubrin"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܝܬ ܓܘܒܪ̈ܝܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܶܝܬ ܓܘܽܒܪ̈ܺܝܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بيت جبرين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Beth Gabrin"@en  ;];
+ lawd:hasName [
+lawd:variantForm "بَيت جِبْرين"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1508/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1508/tei>  ;
-geo:location [
-geo:lat "31.607738"  ;
-geo:long "31.607738"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/1508/tei>  .

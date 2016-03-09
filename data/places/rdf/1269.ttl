@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1269> a lawd:Place ;
 rdfs:label "Harmāshe"  ;
+ lawd:hasName [
+lawd:primaryForm "Harmāshe"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1269/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1269/tei>  .

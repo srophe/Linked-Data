@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2357> a lawd:Place ;
 rdfs:label "Radani"  ;
+ lawd:hasName [
+lawd:primaryForm "Radani"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Radāni"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2357/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2357/tei>  .

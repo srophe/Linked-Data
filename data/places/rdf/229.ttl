@@ -26,5 +26,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "between Rish ʿAyna and Majdal in upper Jazira, was built by St. Simon and became famous at the beginning of the eighth century. By the middle of the tenth century, six bishops had graduated from it. It fell to ruin a long time ago."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0724"  ;
+ lawd:hasName [
+lawd:primaryForm "Qarqaphto"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܩܪܩܦܬܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܩܰܪܩܰܦܬܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير قرقفتا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Qarqafta Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/229/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/229/tei>  .

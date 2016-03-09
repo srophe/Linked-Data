@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2428> a lawd:Place ;
 rdfs:label "Bezqin"  ;
+ lawd:hasName [
+lawd:primaryForm "Bezqin"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bezqīn"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2428/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2428/tei>  .

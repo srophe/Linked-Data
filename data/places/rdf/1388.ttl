@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1388> a lawd:Place ;
 rdfs:label "Kiyyet"  ;
+ lawd:hasName [
+lawd:primaryForm "Kiyyet"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1388/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1388/tei>  .

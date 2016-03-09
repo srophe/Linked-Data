@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1351> a lawd:Place ;
 rdfs:label "Isrūr"  ;
+ lawd:hasName [
+lawd:primaryForm "Isrūr"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1351/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1351/tei>  .

@@ -28,5 +28,19 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0800"  ;
 skos:exactMatch <http://pleiades.stoa.org/places/727108>  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Syrian_Monastery,_Egypt>  ;
+ lawd:hasName [
+lawd:primaryForm "Dayr al-Suryān"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of the Syrians"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܣܘܪ̈ܝܝܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܣܘܪ̈ܝܝܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير السريان"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Deir al-Surian"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Saint Mary Deipara (West Syrian)"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/360/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/360/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1120> a lawd:Place ;
 rdfs:label "Chambā d-Beth Ṣūṣīnā"  ;
+ lawd:hasName [
+lawd:primaryForm "Chambā d-Beth Ṣūṣīnā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Chambā d'Beṯ Ṣūṣīnā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1120/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1120/tei>  .

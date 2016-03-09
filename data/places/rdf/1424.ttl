@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1424> a lawd:Place ;
 rdfs:label "Marta"  ;
+ lawd:hasName [
+lawd:primaryForm "Marta"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mārtā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1424/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1424/tei>  .

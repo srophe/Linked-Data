@@ -13,5 +13,7 @@
 <http://syriaca.org/place/1180> a lawd:Place ;
 rdfs:label "Apamene"  ;
 dcterms:description "The region around Apamea"  ;
+ lawd:hasName [
+lawd:primaryForm "Apamene"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1180/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1180/tei>  .

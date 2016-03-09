@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2450> a lawd:Place ;
 rdfs:label "Mar ʻCratos'"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar ʻCratos'"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār ʻCratos'"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2450/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2450/tei>  .

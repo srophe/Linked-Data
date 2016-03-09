@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/794> a lawd:Place ;
 rdfs:label "Zibar"  ;
+ lawd:hasName [
+lawd:primaryForm "Zibar"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Zibār"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/794/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/794/tei>  .

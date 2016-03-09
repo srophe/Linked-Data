@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1391> a lawd:Place ;
 rdfs:label "Korīj"  ;
+ lawd:hasName [
+lawd:primaryForm "Korīj"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1391/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1391/tei>  .

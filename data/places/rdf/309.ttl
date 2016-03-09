@@ -24,5 +24,11 @@ rdfs:label "an ancient village in the province of Bajermi (Beth Garmai), which i
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0460"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Beth_Garmaï_(East_Syrian_Ecclesiastical_Province)#The_diocese_of_Tahal>  ;
+ lawd:hasName [
+lawd:primaryForm "Taḥal"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܬܚܠ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "تَحل"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/309/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/309/tei>  .

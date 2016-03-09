@@ -1,2 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/35> a lawd:Place ;
+rdfs:label "Beth Lapaṭ — ܒܝܬ ܠܦܛ"  ;
+ dcterms:description [
+rdfs:label "Chief city of Beth Huzaye/Khuzistan, whose metropolitan bishopric ranked second after that of Seleucia-Ctesiphon."@en  ;];
+ dcterms:description [
+rdfs:label "100. Beth Lapaṭ"@en  ;];
+dcterms:temporal "0270"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/912873>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Gundeshapur>  ;
+geo:location [
+geo:lat "32.283618"  ;
+geo:long "32.283618"  ;];
+ lawd:hasName [
+lawd:primaryForm "Beth Lapaṭ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Gondeshapur"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Jundi-Shapur"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܝܬ ܠܦܛ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܶܝܬ ܠܰܦܛ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بيت لافط"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Beth Laphet"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bet Lapat"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Gundishapur"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Jundishapur"@en  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/35/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/35/tei>  ;
+dcterms:relation <http://syriaca.org/place/711>  .

@@ -14,5 +14,19 @@
 rdfs:label "Kfar Nabu — ܟܦܪ ܢܒܘ"  ;
 dcterms:description "A village near ."  ;
 dcterms:temporal "0785"  ;
+ lawd:hasName [
+lawd:primaryForm "Kfar Nabu"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܟܦܪ ܢܒܘ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܟܰܦܰܪ ܢܳܒܘܽ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "كفر نبو"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Kafr Nabu"@en  ;];
+ lawd:hasName [
+lawd:variantForm "كفرنبو"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Serugh"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1511/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1511/tei>  .

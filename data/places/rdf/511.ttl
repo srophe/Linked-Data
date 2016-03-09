@@ -25,8 +25,25 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Nizip>  ;
 geo:location [
 geo:lat "37.009788"  ;
 geo:long "37.009788"  ;];
+ lawd:hasName [
+lawd:primaryForm "Nizip"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܢܨܝܒܝܢ ܕܪ̈ܘܡܝܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܢܨܝܒܝܢ ܕܪ̈ܘܡܳܝܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "نصيبين الروم"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Byzantine Nisibin"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Aintab"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Aintab"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Euphrates"  ;];
+ lawd:hasName [
+lawd:variantForm "ʿAintab"  ;];
+ lawd:hasName [
+lawd:variantForm "Birtha"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/511/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/511/tei>  ;
-geo:location [
-geo:lat "37.009788"  ;
-geo:long "37.009788"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/511/tei>  .

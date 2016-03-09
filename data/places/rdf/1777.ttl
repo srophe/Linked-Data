@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1777> a lawd:Place ;
 rdfs:label "Tiran"  ;
+ lawd:hasName [
+lawd:primaryForm "Tiran"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1777/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1777/tei>  .

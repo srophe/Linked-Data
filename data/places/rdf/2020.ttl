@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2020> a lawd:Place ;
 rdfs:label "Mar Niha"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Niha"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Nīhā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2020/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2020/tei>  .

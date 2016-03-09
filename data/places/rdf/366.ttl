@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "in Marʿash. Seven bishops graduated from it between 805 and 1110."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0805"  ;
+ lawd:hasName [
+lawd:primaryForm "Mor Shayno"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܫܝܢܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܫܰܝܢܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار شينا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Shina Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/366/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/366/tei>  .

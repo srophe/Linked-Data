@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1222> a lawd:Place ;
 rdfs:label "Gebbā"  ;
+ lawd:hasName [
+lawd:primaryForm "Gebbā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1222/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1222/tei>  .

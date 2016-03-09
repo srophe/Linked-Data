@@ -13,5 +13,9 @@
 <http://syriaca.org/place/1959> a lawd:Place ;
 rdfs:label "Patriarchal Residence at Alqōsh"  ;
 dcterms:description "A residence of the Catholicos of the Church of the East."  ;
+ lawd:hasName [
+lawd:primaryForm "Patriarchal Residence at Alqōsh"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Patriarchal Residence"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1959/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1959/tei>  .

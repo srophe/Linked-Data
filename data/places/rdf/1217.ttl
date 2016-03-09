@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1217> a lawd:Place ;
 rdfs:label "Gargāne"  ;
+ lawd:hasName [
+lawd:primaryForm "Gargāne"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1217/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1217/tei>  .

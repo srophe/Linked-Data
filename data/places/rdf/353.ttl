@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "(d. 439) in the mountain of Matīniyya, northwest of the village of Dairkah, a day’s journey north of Mardin. It was rebuilt by John, metropolitan of Mardin, and was inhabited until 1230. Its magnificent remains can be seen to this day."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1165"  ;
+ lawd:hasName [
+lawd:primaryForm "Mor Daniel of Jolsh"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܕܢܝܐܝܠ ܕܓܠܫ ܥܢܘܝܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܕܳܢܝܐܝܠ ܕܓܳܠܫ ܥܢܘܳܝܳܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار دانيال الجلشي الناسك"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of Daniel the Jalshian ascetic"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/353/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/353/tei>  .

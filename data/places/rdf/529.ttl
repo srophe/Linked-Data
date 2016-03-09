@@ -15,5 +15,13 @@ rdfs:label "Russia — ܩܘܛܢܘܬܐ ܕܪܘܣܝܐ"  ;
 dcterms:description "The very large country in northeastern Europe and northern Asia."  ;
 dcterms:temporal "1917"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Russia>  ;
+ lawd:hasName [
+lawd:primaryForm "Russia"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܩܘܛܢܘܬܐ ܕܪܘܣܝܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܩܘܽܛܢܘܬܐ ܕܪܘܽܣܝܰܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "جمهورية روسيا"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/529/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/529/tei>  .

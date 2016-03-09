@@ -15,5 +15,19 @@ rdfs:label "Yarbūz"  ;
 dcterms:description "A village between and ."  ;
 dcterms:temporal "1900"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Yarpuz>  ;
+ lawd:hasName [
+lawd:primaryForm "Yarbūz"@en  ;];
+ lawd:hasName [
+lawd:variantForm "يربوز"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Yarbuz"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Aintab"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Aintab"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Adana"  ;];
+ lawd:hasName [
+lawd:variantForm "ʿAintab"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/516/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/516/tei>  .

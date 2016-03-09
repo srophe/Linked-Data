@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1694> a lawd:Place ;
 rdfs:label "Serṭa"  ;
+ lawd:hasName [
+lawd:primaryForm "Serṭa"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Serṭā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1694/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1694/tei>  .

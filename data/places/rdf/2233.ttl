@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2233> a lawd:Place ;
 rdfs:label "Rabban Bar Ṣawma"  ;
+ lawd:hasName [
+lawd:primaryForm "Rabban Bar Ṣawma"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Rabban Bar Ṣawmā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2233/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2233/tei>  .

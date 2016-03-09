@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "Yaquṭ says, “Kuḥayl was a big city on the Tigris between the two Zabs, above Takrit, going southwards. Today it is no more.” Kuḥayl was the birthplace of the Syrian learned man Moses Bar Kepha (d. 903)."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0833"  ;
+ lawd:hasName [
+lawd:primaryForm "Mashhad Kuḥayl"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܡܫܗܕ ܟܘܚܝܠ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܡܰܫܗܕ ܟܘܚܰܝܠ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "مشهد كحيل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "الكُحَيْل"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/458/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/458/tei>  .

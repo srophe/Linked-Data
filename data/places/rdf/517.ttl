@@ -14,5 +14,19 @@
 rdfs:label "Ghūṭa — ܥܒܐ"  ;
 dcterms:description "The fertile farmland surrounding ."  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Ghouta>  ;
+ lawd:hasName [
+lawd:primaryForm "Ghūṭa"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܥܒܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܥܳܒܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "غوطة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ghūta"@en  ;];
+ lawd:hasName [
+lawd:variantForm "الغْوْطة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Damascus"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/517/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/517/tei>  .

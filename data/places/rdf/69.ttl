@@ -20,12 +20,44 @@ rdfs:label "620. al-Zaʿfarān, Dayr"@en  ;];
 rdfs:label "ܐܰܘ ܕܰܝܪܳܐ ܕܡܳܪܝ ܚܰܢܰܢܝܳܐ ܐܶܫܬܰܬܰܐܣ ܒܚܰܪܬܗ ܕܕܳܪܳܐ ܪܒܺܝܥܳܝܳܐ ) ܘܫܰܟܠܠܶܗ ܡܳܪܝ ܚܰܢܰܢܝܳܐ ܡܝܛܪܘܦܘܠܝܛܳܐ ܕܡܰܪܕܝܢ ܒܶܝܬ 793 - 800 ܒܡܰܕܢܰܚ ܡܶܪܕܳܐ ܫܳܥܬܐ ܡܶܢܳܗ̇. ܕܰܝܪܰܐ ܗܘ ܪܰܒܐ ܕܥܰܡܝܪ ܘܰܡܝܰܬܰܒ ܗܘܳܐ ܒܶܝܬ ܟܘܪܣܝܳܐ ܠܦܰܛܪܝܰܪܟܘܬܐ ܡܶܢ ܫܢܰܬ 1293 - 1933 ܝܰܬܝܪ ܡܶܢ ܫܶܬܡܳܐܐ ܫܢ̈ܝܺܢ. ܘܐܰܦܶܩ ܚܰܕ ܘܥܶܣܪܝܢ ܦܰܛܪܝܰܪ̈ܟܐ ܘܬܶܫܥܳܐ ܡܰܦܪ̈ܝܳܢܐ ܘܡܳܐܐ ܘܥܶܣܪܳܐ ܐܶܦܝܣܩܘ̈ܦܐ. ܘܒܰܫܢܰܬ 1917 ܦܪܰܣܢܰܢ ܡܟܰܬܒܰܙܰܒܢܗ ܕܰܡܫܰܡܠܰܝ ܘܰܪܫܝܺܡ ( ܢܰܙܗܗ̈ ܐܠܐܕܗܰܐܢ ) ܘܚܳܝܪܝܺܢ ܥܠܰܘܗܝ ܠܓܰܪܒܝܳܐ ܬܠܳܬܐ ܕܰܝܪ̈ܐ ܙܥܘܪ̈ܐ ܕܰܝܪܐ ܕܢܶܦܛܳܐ ܘܕܰܝܪܐ ܕܡܳܪܝ ܥܙܳܙܳܐܝܠ ܘܰܡܝܰܬܒ ܗܘܐ ܒܟܶܢܫܳܐ ܕܕܰܝܪ̈ܳܝܶܐ ܒܶܝܬ ܫܢܰܬ 1500 - 1600 ܘܕܰܝܪܳܐ ܕܡܳܪܝ ܝܰܥܩܘܒ ܡܰܠܦܳܢܐ ܕܰܕܟܺܝܪ ܠܰܙܒܰܢܬܐ ܩܰܕܡܳܝܬܐ ܫܢܰܬ 1165 ܘܰܥܕܰܡܳܐ ܠܗܳܫܳܐ ܥܰܡܝܪ ܘܰܚܒܝ̈ܫܳܝܳܬܐ ܕܡܳܪܝ ܒܶܗܢܰܡ ( ܘܡܳܪܝ ܝܰܘܣܦ ) ܕܰܥܡܰܪܘ ܒܗܶܝܢ ܐܢܳܫ̈ܝܢ ܥܢܘ̈ܝܐ ܥܕܰܡܳܐ ܠܡܶܨܥܳܝ̈ܬܗ ܕܕܳܪܐ ܕܰܫܒܰܥܣܪ ܘܐܶܬܢܰܦܰܩܘ ܒܗܶܝܢ ܐܶܦܝܣܩܘ̈ܦܐ."@syr-Syrj  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
  dcterms:description [
-rdfs:label "او دير مار حنانيا وهو مطران ماردين الذي وطّد اركانه سنة 793-800 على انقاض قلعة ودير قديم شرقي ماردين مسير ساعة عنها. وهو دير كبير عامر آهل، صار كرسياً للبطاركة من سنة 1293 نيفاً وستمائة سنة، انجب واحداً وعشرين بطريركاً وتسعة مفارنة ومئة وعشرة اساقفة. وسنة 1917 عملنا ونشرنا تاريخه الضافي الموسوم "بنزهة الاذهان" ويطل عليه شمالاً ثلاثة اديار صغيرة متجاورة وهي دير مار عززائيل وكان آهلاً برهط من الرهبان بين سنة 1500-1600 ودير مار يعقوب الملفان وذكر لأول مرة سنة 1165 ولا يزال عامراً، وصومعة مار بهنام وقطنها نفر من النساك حتى اواسط القرن السابع عشر وتخرج في كل منها نفر من الاساقفة"@ar  ;
+rdfs:label "او دير مار حنانيا وهو مطران ماردين الذي وطّد اركانه سنة 793-800 على انقاض قلعة ودير قديم شرقي ماردين مسير ساعة عنها. وهو دير كبير عامر آهل، صار كرسياً للبطاركة من سنة 1293 نيفاً وستمائة سنة، انجب واحداً وعشرين بطريركاً وتسعة مفارنة ومئة وعشرة اساقفة. وسنة 1917 عملنا ونشرنا تاريخه الضافي الموسوم بنزهة الاذهان ويطل عليه شمالاً ثلاثة اديار صغيرة متجاورة وهي دير مار عززائيل وكان آهلاً برهط من الرهبان بين سنة 1500-1600 ودير مار يعقوب الملفان وذكر لأول مرة سنة 1165 ولا يزال عامراً، وصومعة مار بهنام وقطنها نفر من النساك حتى اواسط القرن السابع عشر وتخرج في كل منها نفر من الاساقفة"@ar  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
  dcterms:description [
 rdfs:label "or St. Ḥananya Monastery, was built by Ḥananya, metropolitan of Mardin, between 793 and 800 on the site of an old monastery north of Mardin. This great and populous monastery in 1293 became the Patriarchal see for some six hundred years. It claims twenty-one Patriarchs, nine Maphryonos and 110 bishops. In 1917 we published its detailed history, entitled Nuzhat al-Adhhān (The Excursion of Minds). In its immediate neighborhood there are three small monasteries close together:"@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0800"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Mor_Hananyo_Monastery>  ;
+ lawd:hasName [
+lawd:primaryForm "Dayr al-Zaʿfarān"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Dayro d-Mor Ḥnonyo"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Dayr Mār Ḥanānyā"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܙܥܦܪܐܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܙܰܥܦܰܪܐܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير الزعفران"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Zaʿfaran Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery Deir Zafaran"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Zaʿfarān (West Syrian)"@en  ;];
+ lawd:hasName [
+lawd:variantForm "عمر الزعفران"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Dayr al-Zafarān"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Dayr al-Za‘farān"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Zafaran Monastery"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Za‘faran Monastery"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Zafarān (West Syrian)"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Za‘farān (West Syrian)"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/69/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/69/tei>  .

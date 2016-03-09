@@ -14,5 +14,15 @@
 rdfs:label "Gawilan"  ;
 dcterms:description "A village north of and southeast of ."  ;
 dcterms:temporal "1735"  ;
+ lawd:hasName [
+lawd:primaryForm "Gawilan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Gāwīlan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Anzel"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Urmia"  ;];
+ lawd:hasName [
+lawd:variantForm "Salmas"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/247/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/247/tei>  .

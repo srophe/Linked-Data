@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/2198> a lawd:Place ;
 rdfs:label "Mart Maryam of the Immaculate Conception"  ;
+ lawd:hasName [
+lawd:primaryForm "Mart Maryam of the Immaculate Conception"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2198/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2198/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/2328> a lawd:Place ;
 rdfs:label "ʻKoma’"  ;
+ lawd:hasName [
+lawd:primaryForm "ʻKoma’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2328/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2328/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2359> a lawd:Place ;
 rdfs:label "Ramonin"  ;
+ lawd:hasName [
+lawd:primaryForm "Ramonin"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ramōnīn"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2359/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2359/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2222> a lawd:Place ;
 rdfs:label "Church in Baghdad"  ;
+ lawd:hasName [
+lawd:primaryForm "Church in Baghdad"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Name not known"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2222/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2222/tei>  .

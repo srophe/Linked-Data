@@ -13,5 +13,19 @@
 <http://syriaca.org/place/501> a lawd:Place ;
 rdfs:label "Māksīn — ܡܐܟܣܝܢ"  ;
 dcterms:description "A town of the ."  ;
+ lawd:hasName [
+lawd:primaryForm "Māksīn"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܡܐܟܣܝܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܡܰܐܟܣܝܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ماكسين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Macine"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ماكِسِين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Khābūrā district"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/501/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/501/tei>  .

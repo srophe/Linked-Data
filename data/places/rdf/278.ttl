@@ -14,5 +14,17 @@
 rdfs:label "Dayr ʿAṭiya"  ;
 dcterms:description "A village between Nabk and Qara in Syria."  ;
 dcterms:temporal "1999"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayr ʿAṭiya"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Dayr ʿAtiya"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Dayr Aṭiya"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Dayr ‘Aṭiya"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Dayr Atiya"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Dayr ‘Atiya"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/278/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/278/tei>  .

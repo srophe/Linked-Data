@@ -22,5 +22,23 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a farm south of Mardin, at the foot of the mountain of Mardin. It was named after the prophet Elijah, because of a church in it bearing the name of this prophet. Today it is called Çiftlik in Turkish."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1943"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayr Ilyā"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܗ ܐܠܝܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܶܝܪܰܗ ܐܠܝܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܓܶܦܬܠܶܟ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير اِليا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "جفتلك"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Dayr Elijah"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Çiftlik"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mar Eliya"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/403/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/403/tei>  .

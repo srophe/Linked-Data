@@ -27,8 +27,19 @@ skos:exactMatch <http://pleiades.stoa.org/places/874524>  ;
 geo:location [
 geo:lat "37.937557"  ;
 geo:long "37.937557"  ;];
+ lawd:hasName [
+lawd:primaryForm "Yoḥannan Urṭaya"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܝܘܚܢܢ ܕܐܘܪ̈ܛܝܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܝܘܚܰܢܢ ܕܐܘܪ̈ܛܝܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار يوحنا الاورطي"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "John Orti Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of John the Iberian"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Amid"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/399/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/399/tei>  ;
-geo:location [
-geo:lat "37.937557"  ;
-geo:long "37.937557"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/399/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1125> a lawd:Place ;
 rdfs:label "Chambā d-Nene"  ;
+ lawd:hasName [
+lawd:primaryForm "Chambā d-Nene"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Chambā d'Nene"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1125/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1125/tei>  .

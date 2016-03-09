@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1231> a lawd:Place ;
 rdfs:label "Mar Sābā"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Sābā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Sābā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1231/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1231/tei>  .

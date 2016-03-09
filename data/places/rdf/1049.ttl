@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1049> a lawd:Place ;
 rdfs:label "Beth Nura"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Nura"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Nūrā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1049/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1049/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1396> a lawd:Place ;
 rdfs:label "Kūlyā"  ;
+ lawd:hasName [
+lawd:primaryForm "Kūlyā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1396/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1396/tei>  .

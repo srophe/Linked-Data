@@ -23,5 +23,21 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a town on the Tigris, opposite the city of Diyarbakr. Its Syrian population left it in 1928."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1710"  ;
+ lawd:hasName [
+lawd:primaryForm "Quṭurbul"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Qaṭrabil"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܩܛܪܒܠ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܩܶܛܪܒܠ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "قطربل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Quṭrubul"@en  ;];
+ lawd:hasName [
+lawd:variantForm "قُطْرَبُّل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Amid"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/426/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/426/tei>  .

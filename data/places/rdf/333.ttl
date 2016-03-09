@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a town near Melitene."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1095"  ;
+ lawd:hasName [
+lawd:primaryForm "Kharshana"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܟܪܫܢܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܪܫܢܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "خرشنة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "خَرْشنة"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/333/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/333/tei>  .

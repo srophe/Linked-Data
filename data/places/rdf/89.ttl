@@ -28,8 +28,43 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Kahramanmaraş>  ;
 geo:location [
 geo:lat "37.583333"  ;
 geo:long "37.583333"  ;];
+ lawd:hasName [
+lawd:primaryForm "Marʿash"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Germanicea"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܡܪܥܫ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܡܰܪܥܫ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܓܰܪܡܰܐܢܝܩܝ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "مرعش"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "جرمانيقي"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Germanicia"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Kahramanmaraş"@en  ;];
+ lawd:hasName [
+lawd:variantForm "مَرْعَش"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Marash"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mar‘ash"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ayn Zarba"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Ayn Zarba"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Aintab"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Aintab"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Pyramos river"  ;];
+ lawd:hasName [
+lawd:variantForm "ʿAyn Zarba"  ;];
+ lawd:hasName [
+lawd:variantForm "ʿAintab"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/89/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/89/tei>  ;
-geo:location [
-geo:lat "37.583333"  ;
-geo:long "37.583333"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/89/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1025> a lawd:Place ;
 rdfs:label "Beth Gūrbā"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Gūrbā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Gūrbā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1025/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1025/tei>  .

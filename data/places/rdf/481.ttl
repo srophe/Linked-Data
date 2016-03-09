@@ -18,8 +18,21 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Yeşilırmak_River>  ;
 geo:location [
 geo:lat "41.1802622"  ;
 geo:long "41.1802622"  ;];
+ lawd:hasName [
+lawd:primaryForm "Yeşil Irmak"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܝܫܝܠ ܐܝܪܡܐܩ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܝܶܫܺܝܠ ܐܺܝܪܡܰܐܩ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "يشيل ايرماق"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Tokat"  ;];
+ lawd:hasName [
+lawd:variantForm "Amāsiyya"  ;];
+ lawd:hasName [
+lawd:variantForm "Black Sea"  ;];
+ lawd:hasName [
+lawd:variantForm "Samsun"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/481/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/481/tei>  ;
-geo:location [
-geo:lat "41.1802622"  ;
-geo:long "41.1802622"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/481/tei>  .

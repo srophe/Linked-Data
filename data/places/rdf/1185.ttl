@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1185> a lawd:Place ;
 rdfs:label "Dūchail"  ;
+ lawd:hasName [
+lawd:primaryForm "Dūchail"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1185/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1185/tei>  .

@@ -27,8 +27,31 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Barbalissos>  ;
 geo:location [
 geo:lat "36.0021275"  ;
 geo:long "36.0021275"  ;];
+ lawd:hasName [
+lawd:primaryForm "Bālis"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܐܠܫ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܳܐܠܫ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܪܒܐܠܝܣܘܣ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܡܰܣܟܢܗ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بالس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "بالش"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "برباليسوس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "مسكنة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Bāls"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bālsh"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Perpalisos"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Maskana"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/299/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/299/tei>  ;
-geo:location [
-geo:lat "36.0021275"  ;
-geo:long "36.0021275"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/299/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1258> a lawd:Place ;
 rdfs:label "Hakmiyyā"  ;
+ lawd:hasName [
+lawd:primaryForm "Hakmiyyā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Hakmīyā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1258/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1258/tei>  .

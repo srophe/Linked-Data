@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/960> a lawd:Place ;
 rdfs:label "Baitlāre"  ;
+ lawd:hasName [
+lawd:primaryForm "Baitlāre"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/960/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/960/tei>  .

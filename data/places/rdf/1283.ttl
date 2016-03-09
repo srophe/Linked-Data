@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1283> a lawd:Place ;
 rdfs:label "Herdā"  ;
+ lawd:hasName [
+lawd:primaryForm "Herdā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1283/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1283/tei>  .

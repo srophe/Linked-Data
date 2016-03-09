@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/988> a lawd:Place ;
 rdfs:label "Beidar"  ;
+ lawd:hasName [
+lawd:primaryForm "Beidar"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/988/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/988/tei>  .

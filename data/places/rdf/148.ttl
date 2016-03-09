@@ -14,5 +14,9 @@
 rdfs:label "Our Lady of the Seeds"  ;
 dcterms:description "A monastery near Alqosh."  ;
 dcterms:temporal "1858"  ;
+ lawd:hasName [
+lawd:primaryForm "Our Lady of the Seeds"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Notre Dame des Semences"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/148/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/148/tei>  .

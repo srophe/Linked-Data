@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1409> a lawd:Place ;
 rdfs:label "Māghes"  ;
+ lawd:hasName [
+lawd:primaryForm "Māghes"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1409/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1409/tei>  .

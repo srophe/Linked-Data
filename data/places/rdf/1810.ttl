@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1810> a lawd:Place ;
 rdfs:label "Wāzirāwā"  ;
+ lawd:hasName [
+lawd:primaryForm "Wāzirāwā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1810/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1810/tei>  .

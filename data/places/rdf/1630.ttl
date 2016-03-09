@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1630> a lawd:Place ;
 rdfs:label "Qōjījā"  ;
+ lawd:hasName [
+lawd:primaryForm "Qōjījā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1630/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1630/tei>  .

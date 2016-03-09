@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1796> a lawd:Place ;
 rdfs:label "Ṭūpzābād"  ;
+ lawd:hasName [
+lawd:primaryForm "Ṭūpzābād"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1796/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1796/tei>  .

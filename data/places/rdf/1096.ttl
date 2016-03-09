@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1096> a lawd:Place ;
 rdfs:label "Bingov"  ;
+ lawd:hasName [
+lawd:primaryForm "Bingov"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1096/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1096/tei>  .

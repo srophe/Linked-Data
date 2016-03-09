@@ -14,5 +14,9 @@
 rdfs:label "Mar Aphnimaran"  ;
 dcterms:description "A monastery frequented by ."  ;
 dcterms:temporal "0800"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Aphnimaran"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Apnī-māran"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/669/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/669/tei>  .

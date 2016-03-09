@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1265> a lawd:Place ;
 rdfs:label "Hamziyyā"  ;
+ lawd:hasName [
+lawd:primaryForm "Hamziyyā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Hamzīyyā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1265/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1265/tei>  .

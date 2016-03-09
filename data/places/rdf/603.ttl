@@ -14,5 +14,19 @@
 rdfs:label "Khurasan — ܟܘܪܐܣܐܢ"  ;
 dcterms:description "A region east and somewhat south of the ."  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Greater_Khorasan>  ;
+ lawd:hasName [
+lawd:primaryForm "Khurasan"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܟܘܪܐܣܐܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܟܘܽܪܐܣܰܐܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "خراسان"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Khorasan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Khorasān"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Caspian Sea"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/603/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/603/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1138> a lawd:Place ;
 rdfs:label "Dādōsh"  ;
+ lawd:hasName [
+lawd:primaryForm "Dādōsh"@en  ;];
+ lawd:hasName [
+lawd:variantForm "‘Dārōsh’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1138/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1138/tei>  .

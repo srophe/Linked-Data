@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1323> a lawd:Place ;
 rdfs:label "Ḥawṣar"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥawṣar"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1323/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1323/tei>  .

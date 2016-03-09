@@ -12,5 +12,11 @@
 
 <http://syriaca.org/place/2372> a lawd:Place ;
 rdfs:label "Sharūkhiyya"  ;
+ lawd:hasName [
+lawd:primaryForm "Sharūkhiyya"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Sharūkhīyā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʻChiaruchia’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2372/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2372/tei>  .

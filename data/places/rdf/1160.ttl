@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1160> a lawd:Place ;
 rdfs:label "Deleb"  ;
+ lawd:hasName [
+lawd:primaryForm "Deleb"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1160/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1160/tei>  .

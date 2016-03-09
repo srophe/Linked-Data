@@ -1,2 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/46> a lawd:Place ;
+rdfs:label "Beirut — ܒܝܪܘܬ"  ;
+ dcterms:description [
+rdfs:label "Beirut, Lebanon is mentioned in many Syr. Orth. texts in connection with the St. Jude monastery and church."@en  ;];
+ dcterms:description [
+rdfs:label "93. Beirut"@en  ;];
+dcterms:temporal "-1300"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/678060>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Beirut>  ;
+geo:location [
+geo:lat "33.88694"  ;
+geo:long "33.88694"  ;];
+ lawd:hasName [
+lawd:primaryForm "Beirut"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Berytos"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܝܪܘܬ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܰܝܪܘܬ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بيروت"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "بَيْرُوْت"@ar  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/46/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/46/tei>  ;
+dcterms:relation <http://syriaca.org/place/2272>  .

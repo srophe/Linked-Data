@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1386> a lawd:Place ;
 rdfs:label "Kīgar"  ;
+ lawd:hasName [
+lawd:primaryForm "Kīgar"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1386/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1386/tei>  .

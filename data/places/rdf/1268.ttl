@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1268> a lawd:Place ;
 rdfs:label "Harbūnan"  ;
+ lawd:hasName [
+lawd:primaryForm "Harbūnan"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1268/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1268/tei>  .

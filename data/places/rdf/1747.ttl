@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1747> a lawd:Place ;
 rdfs:label "Ṣawra"  ;
+ lawd:hasName [
+lawd:primaryForm "Ṣawra"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ṣawrā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1747/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1747/tei>  .

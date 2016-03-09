@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1018> a lawd:Place ;
 rdfs:label "Beth Daiwe"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Daiwe"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Daiwe"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1018/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1018/tei>  .

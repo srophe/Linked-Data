@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1607> a lawd:Place ;
 rdfs:label "Pūsan"  ;
+ lawd:hasName [
+lawd:primaryForm "Pūsan"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1607/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1607/tei>  .

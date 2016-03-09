@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/816> a lawd:Place ;
 rdfs:label "Elki"  ;
+ lawd:hasName [
+lawd:primaryForm "Elki"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/816/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/816/tei>  .

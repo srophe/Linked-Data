@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1031> a lawd:Place ;
 rdfs:label "Beth Ḥnīq"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Ḥnīq"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Ḥnīq"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1031/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1031/tei>  .

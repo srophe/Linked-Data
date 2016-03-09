@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2486> a lawd:Place ;
 rdfs:label "‘Elan’"  ;
+ lawd:hasName [
+lawd:primaryForm "‘Elan’"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʻElan’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2486/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2486/tei>  .

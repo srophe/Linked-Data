@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/776> a lawd:Place ;
 rdfs:label "Sapsāpā"  ;
+ lawd:hasName [
+lawd:primaryForm "Sapsāpā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/776/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/776/tei>  .

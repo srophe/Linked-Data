@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/932> a lawd:Place ;
 rdfs:label "Azar"  ;
+ lawd:hasName [
+lawd:primaryForm "Azar"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/932/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/932/tei>  .

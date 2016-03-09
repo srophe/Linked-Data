@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "outside Ḥarran, south of Edessa, was mentioned by historians for the first time in 710."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0710"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayro da-Kfartebno"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܟܦܪܬܒܢܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܰܟܦܰܪܬܶܒܢܳܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير كفرتبنا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Kafrtina Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/381/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/381/tei>  .

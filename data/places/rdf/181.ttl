@@ -19,8 +19,7 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Elaiussa_Sebaste>  ;
 geo:location [
 geo:lat "36.48362"  ;
 geo:long "36.48362"  ;];
+ lawd:hasName [
+lawd:primaryForm "Sebaste"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/181/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/181/tei>  ;
-geo:location [
-geo:lat "36.48362"  ;
-geo:long "36.48362"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/181/tei>  .

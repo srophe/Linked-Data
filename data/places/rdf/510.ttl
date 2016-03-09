@@ -19,8 +19,17 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Tokat>  ;
 geo:location [
 geo:lat "40.317677"  ;
 geo:long "40.317677"  ;];
+ lawd:hasName [
+lawd:primaryForm "Tokat"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܬܘܩܐܬ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܬܳܘܩܰܐܬ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "توقات"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "تَوْقات"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Anatolia"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/510/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/510/tei>  ;
-geo:location [
-geo:lat "40.317677"  ;
-geo:long "40.317677"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/510/tei>  .

@@ -13,5 +13,13 @@
 <http://syriaca.org/place/1450> a lawd:Place ;
 rdfs:label "Kalkh — ܟܠܟ"  ;
 dcterms:description "A region whose evangelization was described by ."  ;
+ lawd:hasName [
+lawd:primaryForm "Kalkh"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܟܠܟ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܟܰܠܟ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "كلخ"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1450/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1450/tei>  .

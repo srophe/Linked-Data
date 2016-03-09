@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1721> a lawd:Place ;
 rdfs:label "Shūrzāq"  ;
+ lawd:hasName [
+lawd:primaryForm "Shūrzāq"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1721/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1721/tei>  .

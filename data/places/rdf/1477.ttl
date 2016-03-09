@@ -18,8 +18,15 @@ skos:exactMatch <http://pleiades.stoa.org/places/648707>  ;
 geo:location [
 geo:lat "36.759213"  ;
 geo:long "36.759213"  ;];
+ lawd:hasName [
+lawd:primaryForm "Meloe"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܡܝܠܘܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܡܺܝܠܘܰܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ميلوا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Miloe"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1477/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1477/tei>  ;
-geo:location [
-geo:lat "36.759213"  ;
-geo:long "36.759213"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/1477/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1579> a lawd:Place ;
 rdfs:label "Noyli"  ;
+ lawd:hasName [
+lawd:primaryForm "Noyli"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1579/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1579/tei>  .

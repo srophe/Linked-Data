@@ -22,5 +22,17 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "in al-Thaghr, near Duluk, overlooking Marj al-ʿAyn, was inhabited between 875 and 1000. Thirteen bishops graduated from it."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0875"  ;
+ lawd:hasName [
+lawd:primaryForm "Mor Shlemun"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܫܠܝܡܘܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܫܠܶܝܡܘܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار سليمان"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Solomon Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "دير سليمان"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/361/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/361/tei>  .

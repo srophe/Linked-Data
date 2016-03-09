@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1012> a lawd:Place ;
 rdfs:label "Beth Bar Shīrā"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Bar Shīrā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Bar Shīrā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1012/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1012/tei>  .

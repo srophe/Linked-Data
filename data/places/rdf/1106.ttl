@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1106> a lawd:Place ;
 rdfs:label "Bōzān"  ;
+ lawd:hasName [
+lawd:primaryForm "Bōzān"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Bōzi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1106/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1106/tei>  .

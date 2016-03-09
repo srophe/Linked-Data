@@ -28,8 +28,15 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Dülük>  ;
 geo:location [
 geo:lat "37.153671"  ;
 geo:long "37.153671"  ;];
+ lawd:hasName [
+lawd:primaryForm "Doliche"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܠܘܟ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܠܘܟ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دُلوك"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Dulūk"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/75/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/75/tei>  ;
-geo:location [
-geo:lat "37.153671"  ;
-geo:long "37.153671"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/75/tei>  .

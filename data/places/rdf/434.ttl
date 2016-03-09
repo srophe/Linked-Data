@@ -19,5 +19,19 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a town in the district of Antioch whose location is unknown; birthplace of the learned Jacob of Edessa."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0672"  ;
+ lawd:hasName [
+lawd:primaryForm "ʿAyn Dābā"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܥܝܢܕܐܒܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܥܰܝܢܕܰܐܒܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "عين دابا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ayn Dābā"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Ayn Dābā"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Anazarba"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/434/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/434/tei>  .

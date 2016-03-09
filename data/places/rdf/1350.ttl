@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1350> a lawd:Place ;
 rdfs:label "Īsīrā"  ;
+ lawd:hasName [
+lawd:primaryForm "Īsīrā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1350/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1350/tei>  .

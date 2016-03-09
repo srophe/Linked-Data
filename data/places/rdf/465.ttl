@@ -21,5 +21,17 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
  dcterms:description [
 rdfs:label "perhaps Naryān or al-Nars, or possibly another location, a territory between al-Kufa and Wasit in southern Iraq."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ lawd:hasName [
+lawd:primaryForm "Narsaybād"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܢܪܣܝܒܐܕ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܢܪܣܝܒܰܐܕ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "نرسيباد"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Narsībād"@en  ;];
+ lawd:hasName [
+lawd:variantForm "نَرسيان"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/465/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/465/tei>  .

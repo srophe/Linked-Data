@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1352> a lawd:Place ;
 rdfs:label "Jdīdā"  ;
+ lawd:hasName [
+lawd:primaryForm "Jdīdā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1352/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1352/tei>  .

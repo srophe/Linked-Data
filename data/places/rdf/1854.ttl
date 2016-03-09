@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1854> a lawd:Place ;
 rdfs:label "Holy Sepulchre"  ;
+ lawd:hasName [
+lawd:primaryForm "Holy Sepulchre"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1854/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1854/tei>  .

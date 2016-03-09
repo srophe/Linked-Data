@@ -14,5 +14,25 @@
 rdfs:label "Dayr al-Markaba — ܕܝܪܐ ܕܡܪܟܒܬܐ"  ;
 dcterms:description "A monastery where Barloho was a monk."  ;
 dcterms:temporal "0525"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayr al-Markaba"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܟܒܬܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܩܶܠܳܝܬܐ ܕܶܐܠܝܫܥ ܢܙܺܝܪܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܡܰܪܟܰܒܬܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "صومعة اليشع الناسك"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "دير المركبة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Cell of Elishaʿ the Ascetic"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of the Chariot"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Cell of Elisha the Ascetic"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Cell of Elisha‘ the Ascetic"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1462/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1462/tei>  .

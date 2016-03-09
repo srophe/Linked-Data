@@ -22,5 +22,13 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a village in the province of Melitene. Master Ṣaliba Qarikari (d. 1164) is thought to have come from there."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1134"  ;
+ lawd:hasName [
+lawd:primaryForm "Qarikara"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܩܪܝܟܪܗ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܩܰܪܝܟܰܪܗ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "قريكرة"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/424/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/424/tei>  .

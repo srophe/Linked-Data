@@ -27,8 +27,21 @@ skos:exactMatch <http://pleiades.stoa.org/places/658562>  ;
 geo:location [
 geo:lat "37.110367"  ;
 geo:long "37.110367"  ;];
+ lawd:hasName [
+lawd:primaryForm "Urima"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܐܘܪܝܡ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "اوريم"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Orim"@en  ;];
+ lawd:hasName [
+lawd:variantForm "أُوْرِم"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Euphrates"  ;];
+ lawd:hasName [
+lawd:variantForm "Edessa"  ;];
+ lawd:hasName [
+lawd:variantForm "Halfeti"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/205/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/205/tei>  ;
-geo:location [
-geo:lat "37.110367"  ;
-geo:long "37.110367"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/205/tei>  .

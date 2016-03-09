@@ -14,5 +14,15 @@
 rdfs:label "Our Lady of Ṣaydnāyā"  ;
 dcterms:description "A monastery outside north of ."  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Convent_of_Our_Lady_of_Saidnaya>  ;
+ lawd:hasName [
+lawd:primaryForm "Our Lady of Ṣaydnāyā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery of Our Lady of Saydnayai"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery of Saydnaya"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ṣaydnāyā"  ;];
+ lawd:hasName [
+lawd:variantForm "Damascus"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/617/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/617/tei>  .

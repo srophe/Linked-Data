@@ -29,8 +29,29 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Adıyaman>  ;
 geo:location [
 geo:lat "37.75972"  ;
 geo:long "37.75972"  ;];
+ lawd:hasName [
+lawd:primaryForm "Ḥiṣn Manṣūr"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Perrhe"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Hiṣn Manṣūr"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Adıyaman"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Parrin"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܚܣܢ ܡܢܨܘܪ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܚܰܣܰܢ ܡܰܢܨܘܪ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "حصن منصور"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Qala Rumayta"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Qal‘a Rumayta"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Qalʿa Rumayta"  ;];
+ lawd:hasName [
+lawd:variantForm "Melitene"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/94/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/94/tei>  ;
-geo:location [
-geo:lat "37.75972"  ;
-geo:long "37.75972"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/94/tei>  .

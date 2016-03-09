@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1366> a lawd:Place ;
 rdfs:label "Kānūntā"  ;
+ lawd:hasName [
+lawd:primaryForm "Kānūntā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1366/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1366/tei>  .

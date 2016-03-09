@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1149> a lawd:Place ;
 rdfs:label "Dargeli"  ;
+ lawd:hasName [
+lawd:primaryForm "Dargeli"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1149/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1149/tei>  .

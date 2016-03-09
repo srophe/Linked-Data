@@ -31,10 +31,49 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Şanlıurfa>  ;
 geo:location [
 geo:lat "37.15"  ;
 geo:long "37.15"  ;];
+ lawd:hasName [
+lawd:primaryForm "Edessa"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Urfa"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܐܘܪܗܝ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܘܪܗܳܝ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܘܪܦܰܗ̈"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "الرها"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "اورفه"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Adme"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Antiochia Kallirhoe"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Urhay"@en  ;];
+ lawd:hasName [
+lawd:variantForm "الرُّهاء"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "أَذاسا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Mesopotamia"  ;];
+ lawd:hasName [
+lawd:variantForm "Osrhoene"  ;];
+ lawd:hasName [
+lawd:variantForm "Aleppo"  ;];
+ lawd:hasName [
+lawd:variantForm "Aleppo"  ;];
+ lawd:hasName [
+lawd:variantForm "Daiṣan"  ;];
+ lawd:hasName [
+lawd:variantForm "Roman Empire"  ;];
+ lawd:hasName [
+lawd:variantForm "Ottoman Empire"  ;];
+ lawd:hasName [
+lawd:variantForm "Aleppo"  ;];
+ lawd:hasName [
+lawd:variantForm "Balikh"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/78/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/78/tei>  ;
-geo:location [
-geo:lat "37.15"  ;
-geo:long "37.15"  ;];
 dcterms:isPartOf <http://syriaca.org/place/145>  ;
 dcterms:isPartOf <http://syriaca.org/place/166>  .

@@ -13,5 +13,9 @@
 <http://syriaca.org/place/640> a lawd:Place ;
 rdfs:label "Ramla"  ;
 dcterms:description "A location southeast of ."  ;
+ lawd:hasName [
+lawd:primaryForm "Ramla"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥirta"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/640/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/640/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1794> a lawd:Place ;
 rdfs:label "Ṭāqiān"  ;
+ lawd:hasName [
+lawd:primaryForm "Ṭāqiān"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1794/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1794/tei>  .

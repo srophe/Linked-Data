@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1077> a lawd:Place ;
 rdfs:label "Beth Tarshmāye"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Tarshmāye"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Tarshmāye"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1077/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1077/tei>  .

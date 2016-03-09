@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2451> a lawd:Place ;
 rdfs:label "Mar Dada"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Dada"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Dādā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2451/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2451/tei>  .

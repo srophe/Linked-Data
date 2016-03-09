@@ -14,5 +14,13 @@
 rdfs:label "Qaṣr Ibn Hubayra — ܩܨܪܐ ܕܒܪ ܗܘܒܝܪܗ"  ;
 dcterms:description "A town in southern Iraq founded during the caliphate of Marwān II (r. 744-750) by the last Umayyad governor of Iraq, Yazīd bin ʿUmar bin Hubayra."  ;
 dcterms:temporal "0750"  ;
+ lawd:hasName [
+lawd:primaryForm "Qaṣr Ibn Hubayra"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܩܨܪܐ ܕܒܪ ܗܘܒܝܪܗ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܩܰܨܪܐ ܕܒܰܪ ܗܘܒܝܪܗ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "قصر ابن هبيرة"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/492/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/492/tei>  .

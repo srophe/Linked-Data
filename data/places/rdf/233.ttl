@@ -1,2 +1,61 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/233> a lawd:Place ;
+rdfs:label "Tell ʿAda — ܕܝܪܐ ܕܬܠܥܕܐ"  ;
+ dcterms:description [
+rdfs:label "The Monastery of Tell ʿAda, also known as the ‘Great Monastery’, is located just over 48 km. from Aleppo; 1500 m. north of the present village of Tell ʿAda."@en  ;];
+ dcterms:description [
+rdfs:label "537. Tell ʿAda, Monastery of"@en  ;];
+ dcterms:description [
+rdfs:label "ܕܺܝܕܝܥ ܕܰܝܪܳܐ ܪܰܒܳܐ ܕܰܒܬܰܝܡܰܢ ܛܘܪܳܐ ܕܣܶܡܥܰܐܢ ܘܰܒܓܰܪܒܰܝ ܬܰܠܥܕܰܐ ܩܪܺܝܬܳܐ ܡܰܪܕܶܐ ܥܶܣܪܝܢ ܩܰܛܝ̈ܢܳܢ ܡܶܢܗ ܒܟܘܪܳܐ ܕܐܰܢܛܝܘܟܺܝܰܐ ܫܰܬܐܣܶܗ ܐܰܡܝܰܐܢܘܣ ܥܶܢܘܳܝܐ ܕܰܕܟܺܝܪ ܠܰܢ ܡܶܢܟܰܕܘ ܩܕܳܡ ܫܢܰܬ 340 ܘܰܥܡܰܪ ܒܗ ܐܘܣܰܐܒܺܝܘܣ ܥܢܘܳܝܐ. ܐܶܬܕܰܟܪܘܗܝ ܬܶܐܘܕܘܪܺܝܛܳܘܣ ܕܩܽܘܪܘܣ ܘܝܘܚܰܢܢ ܕܐܶܦܶܣܘܣ ܘܒܰܫܢܰܬ 942 ܫܰܟܠܶܠ ܒܗ ܝܘܚܰܢܳܢ ܒܘܪܓܳܐ . ܐܰܦܶܩ ܬܶܫܥܳܐ ܐܶܦܝ̈ܣܩܘܦܐ ܘܫܰܪ̈ܟܳܢܰܘܗܝ ܩܰܝܳܡܝܢ ܥܕܰܡܳܐ ܠܝܰܘܡܳܢ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "المعروف بالدير الكبير؛ في جنوبي جبل سمعان وشمالي قرية تلعدا مسير عشرين دقيقة منها في كورة انطاكية شيده اميانس الناسك المذكور آنفاً قبل سنة 340 واقام فيه اوسابيوس الناسك. ذكره ثاودريطس القورشي ويوحنا الا فسسي، وسنة 942 عمر فيه يوحنا السادس برجاً انجب تسعة اساقفة واطلاله اليوم ماثلة"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "also known as the Great Monastery, is situated south of Siman mountain, a twenty-minute walk north of the village of Talʿada, in the province of Antioch. It was built before 340 by Amian the ascetic and in it resided Eusebius the ascetic (both men are mentioned above). This monastery is mentioned by chroniclers Theodoret of Cyrus and John of Ephesus. In 942, Patriarch John built a tower there. It produced nine bishops. Its remains can still be seen today."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0400"  ;
+ lawd:hasName [
+lawd:primaryForm "Tell ʿAda"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܬܠܥܕܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܬܰܠܥܕܰܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܪܰܒܳܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير تلعدا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "الدير الكبير"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Talʿada Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Great Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery of Tell Ada"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Tell Ada"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Tell ‘Ada"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Talada Monastery"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Tal‘ada Monastery"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥama"  ;];
+ lawd:hasName [
+lawd:variantForm "Aleppo"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/233/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/233/tei>  ;
+dcterms:relation <http://syriaca.org/place/198>  .

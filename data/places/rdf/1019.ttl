@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1019> a lawd:Place ;
 rdfs:label "Beth Dalyatha"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Dalyatha"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Dālyāṯā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1019/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1019/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1188> a lawd:Place ;
 rdfs:label "Dūrgā"  ;
+ lawd:hasName [
+lawd:primaryForm "Dūrgā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1188/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1188/tei>  .

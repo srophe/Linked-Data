@@ -12,5 +12,11 @@
 
 <http://syriaca.org/place/2503> a lawd:Place ;
 rdfs:label "Mar Yoḥannan the Persian"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Yoḥannan the Persian"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Yōḥannān the Persian"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Glāle"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2503/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2503/tei>  .

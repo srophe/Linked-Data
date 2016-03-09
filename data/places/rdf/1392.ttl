@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1392> a lawd:Place ;
 rdfs:label "Kūfre"  ;
+ lawd:hasName [
+lawd:primaryForm "Kūfre"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1392/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1392/tei>  .

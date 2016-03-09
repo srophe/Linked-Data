@@ -14,5 +14,15 @@
 rdfs:label "Ḥawrā — ܚܘܪܐ"  ;
 dcterms:description "A village near Serugh."  ;
 dcterms:temporal "0471"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥawrā"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܚܘܪܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܚܰܘܪܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "حَوْرا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "حَوْرة"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1456/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1456/tei>  .

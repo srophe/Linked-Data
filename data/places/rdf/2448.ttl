@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2448> a lawd:Place ;
 rdfs:label "Mar ʻBaṣinnā'"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar ʻBaṣinnā'"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār ʻBaṣinnā'"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2448/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2448/tei>  .

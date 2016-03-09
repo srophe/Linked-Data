@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1196> a lawd:Place ;
 rdfs:label "Ejnīṯ"  ;
+ lawd:hasName [
+lawd:primaryForm "Ejnīṯ"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1196/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1196/tei>  .

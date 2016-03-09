@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1041> a lawd:Place ;
 rdfs:label "Beth Megāli"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Megāli"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Megāli"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1041/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1041/tei>  .

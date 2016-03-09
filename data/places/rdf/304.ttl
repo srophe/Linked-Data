@@ -22,5 +22,19 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "an extinct village in the province of Josya, seven hours journey south of Ḥomṣ."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0758"  ;
+ lawd:hasName [
+lawd:primaryForm "Bʿeltan"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܥܠܬܐܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܥܶܠܬܰܐܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بعلتان"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Baltan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beltan"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "B‘eltan"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/304/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/304/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1852> a lawd:Place ;
 rdfs:label "Forty Martyrs"  ;
+ lawd:hasName [
+lawd:primaryForm "Forty Martyrs"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Forty Martyrs (West Syrian)"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1852/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1852/tei>  .

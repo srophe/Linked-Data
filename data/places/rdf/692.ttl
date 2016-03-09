@@ -13,5 +13,17 @@
 <http://syriaca.org/place/692> a lawd:Place ;
 rdfs:label "St. Cosmas Church — ܥܕܬܐ ܕܡܪܝ ܩܘܙܡܐ"  ;
 dcterms:description "A church in the outside of ."  ;
+ lawd:hasName [
+lawd:primaryForm "St. Cosmas Church"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܥܕܬܐ ܕܡܪܝ ܩܘܙܡܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܥܕܬܐ ܕܡܳܪܝ ܩܘܙܡܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بيعة مار قزما"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭuro Briko"  ;];
+ lawd:hasName [
+lawd:variantForm "Edessa"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/692/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/692/tei>  .

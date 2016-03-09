@@ -19,8 +19,13 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Perga>  ;
 geo:location [
 geo:lat "36.961406"  ;
 geo:long "36.961406"  ;];
+ lawd:hasName [
+lawd:primaryForm "Perga"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܦܪܓܝ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܦܰܪܓܰܝ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "برجة"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1469/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1469/tei>  ;
-geo:location [
-geo:lat "36.961406"  ;
-geo:long "36.961406"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/1469/tei>  .

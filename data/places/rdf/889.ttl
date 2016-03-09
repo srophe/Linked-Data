@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/889> a lawd:Place ;
 rdfs:label "Ājāpshīr"  ;
+ lawd:hasName [
+lawd:primaryForm "Ājāpshīr"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/889/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/889/tei>  .

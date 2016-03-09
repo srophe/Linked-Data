@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1182> a lawd:Place ;
 rdfs:label "Dōdi Jeri"  ;
+ lawd:hasName [
+lawd:primaryForm "Dōdi Jeri"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1182/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1182/tei>  .

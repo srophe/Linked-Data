@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1645> a lawd:Place ;
 rdfs:label "Rabnat"  ;
+ lawd:hasName [
+lawd:primaryForm "Rabnat"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Rabnaṯ"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1645/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1645/tei>  .

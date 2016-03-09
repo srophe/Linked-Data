@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1089> a lawd:Place ;
 rdfs:label "Beth Zīzō"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Zīzō"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Zīzō"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1089/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1089/tei>  .

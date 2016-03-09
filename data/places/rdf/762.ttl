@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/762> a lawd:Place ;
 rdfs:label "Marde"  ;
+ lawd:hasName [
+lawd:primaryForm "Marde"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mardin"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/762/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/762/tei>  .

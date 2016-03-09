@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1053> a lawd:Place ;
 rdfs:label "Beth Qermā"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Qermā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Qermā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1053/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1053/tei>  .

@@ -18,8 +18,15 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Lydia>  ;
 geo:location [
 geo:lat "38.746057"  ;
 geo:long "38.746057"  ;];
+ lawd:hasName [
+lawd:primaryForm "Lydia"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܠܘܕܝܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܠܘܽܕܺܝܰܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "لوديا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Asia Minor"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1526/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1526/tei>  ;
-geo:location [
-geo:lat "38.746057"  ;
-geo:long "38.746057"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/1526/tei>  .

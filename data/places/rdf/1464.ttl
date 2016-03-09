@@ -18,8 +18,17 @@ skos:exactMatch <http://pleiades.stoa.org/places/658621>  ;
 geo:location [
 geo:lat "36.131236"  ;
 geo:long "36.131236"  ;];
+ lawd:hasName [
+lawd:primaryForm "Dayro d-Mor Tumo"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܬܐܘܡܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܬܐܘܡܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار توما"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of St. Thomas"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Seleucia Pieria"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1464/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1464/tei>  ;
-geo:location [
-geo:lat "36.131236"  ;
-geo:long "36.131236"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/1464/tei>  .

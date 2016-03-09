@@ -13,5 +13,15 @@
 <http://syriaca.org/place/497> a lawd:Place ;
 rdfs:label "Sanīr — ܣܢܝܪ"  ;
 dcterms:description "A mountain in southwestern Syria."  ;
+ lawd:hasName [
+lawd:primaryForm "Sanīr"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܣܢܝܪ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "سنير"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Sinnir"@en  ;];
+ lawd:hasName [
+lawd:variantForm "سَنِير"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/497/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/497/tei>  .

@@ -22,5 +22,19 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a village in the province of Karkar, also called Dayr Abu Ghalib."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1566"  ;
+ lawd:hasName [
+lawd:primaryForm "Wank"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܘܐܢܟ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܘܰܐܢܟ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܰܐܒܘ ܓܰܐܠܶܒ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ونك"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "دير ابو غالب"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Dayr Abu Ghalib"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/468/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/468/tei>  .

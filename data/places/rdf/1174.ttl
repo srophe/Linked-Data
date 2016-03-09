@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1174> a lawd:Place ;
 rdfs:label "Dīzār"  ;
+ lawd:hasName [
+lawd:primaryForm "Dīzār"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1174/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1174/tei>  .

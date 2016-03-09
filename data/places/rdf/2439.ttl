@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2439> a lawd:Place ;
 rdfs:label "Mar Abraham of Shamrāḥ"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Abraham of Shamrāḥ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Abraham of Shamrāḥ"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2439/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2439/tei>  .

@@ -21,5 +21,17 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
  dcterms:description [
 rdfs:label "a small village east of Barṭelli (in Iraq)."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ lawd:hasName [
+lawd:primaryForm "Bāṣikhrā"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܐܨܟܪܝܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܐܙܟܪܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "باصخرا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "باصخرايا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Baṣekhrā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/297/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/297/tei>  .

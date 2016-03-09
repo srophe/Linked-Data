@@ -1,2 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/42> a lawd:Place ;
+rdfs:label "Balad — ܒܠܕ"  ;
+ dcterms:description [
+rdfs:label "Balad, Assyrian Balaṭ, Syriac and Arabic Balad or Balaṭ, and modern Aski Mosul (Turkish for ‘Old Mosul’) are names referring to a town located some 40 km. northwest of Mosul, on the west bank of the Tigris."@en  ;];
+ dcterms:description [
+rdfs:label "70. Balad"@en  ;];
+ dcterms:description [
+rdfs:label "ܡܕܝܢܬܳܐ ܥܰܬܝܩܬܳܐ ܕܥܠ ܕܶܩܠܰܬ ܠܡܰܥܪܒܐ ܠܥܶܠ ܡܶܢ ܡܰܘܨܠ ܕܐܺܝܬ ܒܰܝܢܳܬܗܝܢ ܫܰܒܥܐ ܦܪ̈ܣܚܝܢ ܚܰܪܝ̣ܒܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "مدينة قديمة على دجلة من غربيها فوق الموصل بينهما سبع فراسخ، خربت في المئة الرابعة عشرة ويقال لاطلالها اسكي موصل"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "an ancient town above Mosul on the western bank of the Tigris, ruined in the fourteenth century. It is now called Eski Mosul."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0559"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/874379>  ;
+geo:location [
+geo:lat "36.514152"  ;
+geo:long "36.514152"  ;];
+ lawd:hasName [
+lawd:primaryForm "Balad"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Aski Mosul"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Balaṭ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Eski Mosul"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܠܕ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܳܠܳܕ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بَلد"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "اسكي موصل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "بَلَد"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "بلط"@ar  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/42/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/42/tei>  ;
+dcterms:relation <http://syriaca.org/place/2268>  .

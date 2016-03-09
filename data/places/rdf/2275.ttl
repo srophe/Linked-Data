@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2275> a lawd:Place ;
 rdfs:label "Beth Mahqart"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Mahqart"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Mahqart"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2275/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2275/tei>  .

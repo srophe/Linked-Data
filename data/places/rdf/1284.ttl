@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1284> a lawd:Place ;
 rdfs:label "Heshmāwā"  ;
+ lawd:hasName [
+lawd:primaryForm "Heshmāwā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1284/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1284/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1186> a lawd:Place ;
 rdfs:label "Dūpere"  ;
+ lawd:hasName [
+lawd:primaryForm "Dūpere"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1186/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1186/tei>  .

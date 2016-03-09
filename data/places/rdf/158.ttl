@@ -1,2 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/158> a lawd:Place ;
+rdfs:label "Philippopolis"  ;
+dcterms:description "A town east of in the Roman province of ."  ;
+dcterms:temporal "0210"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/678332>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Shahba>  ;
+geo:location [
+geo:lat "32.85359"  ;
+geo:long "32.85359"  ;];
+ lawd:hasName [
+lawd:primaryForm "Philippopolis"@en  ;];
+ lawd:hasName [
+lawd:variantForm "شهبة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Tiberias"  ;];
+ lawd:hasName [
+lawd:variantForm "Arabia"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/158/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/158/tei>  ;
+dcterms:relation <http://syriaca.org/place/1458>  .

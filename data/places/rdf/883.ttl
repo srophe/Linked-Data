@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/883> a lawd:Place ;
 rdfs:label "Abrō"  ;
+ lawd:hasName [
+lawd:primaryForm "Abrō"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/883/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/883/tei>  .

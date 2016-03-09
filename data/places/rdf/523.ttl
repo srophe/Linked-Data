@@ -19,8 +19,15 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Herat>  ;
 geo:location [
 geo:lat "34.345833"  ;
 geo:long "34.345833"  ;];
+ lawd:hasName [
+lawd:primaryForm "Herat"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܗܪܐܬ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܗܰܪܐܬ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "هرات"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "هَراة"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/523/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/523/tei>  ;
-geo:location [
-geo:lat "34.345833"  ;
-geo:long "34.345833"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/523/tei>  .

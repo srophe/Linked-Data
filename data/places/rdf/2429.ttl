@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2429> a lawd:Place ;
 rdfs:label "Dawra"  ;
+ lawd:hasName [
+lawd:primaryForm "Dawra"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Dawrā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2429/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2429/tei>  .

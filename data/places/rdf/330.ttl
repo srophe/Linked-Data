@@ -23,5 +23,19 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "the town of Kharput in Armenia, between Amid and Melitene. Its people moved to the nearby new town of Maʿmūrat al-ʿAzīz."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1131"  ;
+ lawd:hasName [
+lawd:primaryForm "Kharput"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܚܣܢ ܙܝܐܕ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܚܰܣܰܢ ܙܰܝܰܐܕ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܟ݂ܰܪܒܘܬ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "حصن زياد"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "خربوت"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥiṣn Ziyād"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/330/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/330/tei>  .

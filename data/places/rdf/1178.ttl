@@ -14,5 +14,9 @@
 rdfs:label "North Africa"  ;
 dcterms:description "The region north of the Sahara desert."  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/North_Africa>  ;
+ lawd:hasName [
+lawd:primaryForm "North Africa"@en  ;];
+ lawd:hasName [
+lawd:variantForm "إِفريقية"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1178/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1178/tei>  .

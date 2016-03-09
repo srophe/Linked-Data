@@ -13,5 +13,13 @@
 <http://syriaca.org/place/610> a lawd:Place ;
 rdfs:label "Bar Qayṭi"  ;
 dcterms:description "A monastery in the region of , whose monks wrote a letter to Catholicos Sabrishoʿ in 598."  ;
+ lawd:hasName [
+lawd:primaryForm "Bar Qayṭi"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bar Qaiti"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery of Barqita"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Sinjar"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/610/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/610/tei>  .

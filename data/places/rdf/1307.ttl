@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1307> a lawd:Place ;
 rdfs:label "Ḥānjarak"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥānjarak"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1307/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1307/tei>  .

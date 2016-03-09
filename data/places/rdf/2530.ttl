@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2530> a lawd:Place ;
 rdfs:label "Seminary of Khosrowa"  ;
+ lawd:hasName [
+lawd:primaryForm "Seminary of Khosrowa"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Seminary of Khosrōwā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2530/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2530/tei>  .

@@ -12,5 +12,17 @@
 
 <http://syriaca.org/place/937> a lawd:Place ;
 rdfs:label "ʿAyna d-Nune"  ;
+ lawd:hasName [
+lawd:primaryForm "ʿAyna d-Nune"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʿAïnā d'Nūne"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ayna d-Nune"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Ayna d-Nune"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Aïnā d'Nūne"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Aïnā d'Nūne"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/937/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/937/tei>  .

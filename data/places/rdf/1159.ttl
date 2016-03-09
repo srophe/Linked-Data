@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1159> a lawd:Place ;
 rdfs:label "Dayr Shemesh"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayr Shemesh"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Deir Shemesh"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1159/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1159/tei>  .

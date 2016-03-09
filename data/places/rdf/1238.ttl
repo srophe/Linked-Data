@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1238> a lawd:Place ;
 rdfs:label "Gōlōzōr"  ;
+ lawd:hasName [
+lawd:primaryForm "Gōlōzōr"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1238/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1238/tei>  .

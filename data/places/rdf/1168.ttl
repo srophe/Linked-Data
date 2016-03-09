@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1168> a lawd:Place ;
 rdfs:label "Dissiūn"  ;
+ lawd:hasName [
+lawd:primaryForm "Dissiūn"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1168/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1168/tei>  .

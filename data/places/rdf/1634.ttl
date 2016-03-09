@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1634> a lawd:Place ;
 rdfs:label "Qūlārāḥwi"  ;
+ lawd:hasName [
+lawd:primaryForm "Qūlārāḥwi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1634/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1634/tei>  .

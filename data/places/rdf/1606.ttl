@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1606> a lawd:Place ;
 rdfs:label "Prat"  ;
+ lawd:hasName [
+lawd:primaryForm "Prat"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Prāṯ"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1606/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1606/tei>  .

@@ -23,5 +23,33 @@ rdfs:label "a district between the rivers Khabur and Tigris. In ancient times it
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0680"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Diyar_Rabi'a>  ;
+ lawd:hasName [
+lawd:primaryForm "Diyār Rabīʿa"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܓܙܪܬܐ ܥܠܝܬܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܓܳܙܰܪܬܐ ܥܶܠܳܝܬܳܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܰܬܪ̈ܘܬܳܐ ܕܪܒܝܥܗ̇"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "الجزيرة العليا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "ديار ربيعة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Upper Jazira"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Diyār Rabiʿa"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Diyār Rabīa"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Diyār Rabī‘a"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Diyār Rabia"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Diyār Rabi‘a"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Gazarta"  ;];
+ lawd:hasName [
+lawd:variantForm "Tigris"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/321/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/321/tei>  .

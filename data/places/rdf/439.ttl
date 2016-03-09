@@ -27,8 +27,13 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Cyzicus>  ;
 geo:location [
 geo:lat "40.389806"  ;
 geo:long "40.389806"  ;];
+ lawd:hasName [
+lawd:primaryForm "Cyzicus"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܩܘܙܝܩܘܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܩܘܙܺܝܩܘܣ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "قوزيقوس"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/439/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/439/tei>  ;
-geo:location [
-geo:lat "40.389806"  ;
-geo:long "40.389806"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/439/tei>  .

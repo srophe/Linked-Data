@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1613> a lawd:Place ;
 rdfs:label "Qārāgōz"  ;
+ lawd:hasName [
+lawd:primaryForm "Qārāgōz"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1613/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1613/tei>  .

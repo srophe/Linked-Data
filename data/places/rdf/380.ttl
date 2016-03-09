@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "in the province of Marʿash. Between 1100 and 1200 four bishops graduated from it."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1100"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayr Kāsliyud"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܟܣܠܝܘܕ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܟܣܠܝܘܕ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير كاسليود"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Kasliyud Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/380/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/380/tei>  .

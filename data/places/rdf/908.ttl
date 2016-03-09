@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/908> a lawd:Place ;
 rdfs:label "Ardod"  ;
+ lawd:hasName [
+lawd:primaryForm "Ardod"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Arḏōḏ"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/908/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/908/tei>  .

@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "in Shaghr, in the province of Qallisura. Two patriarchs and five bishops graduated from it between 986 and 1170."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0986"  ;
+ lawd:hasName [
+lawd:primaryForm "Mor Ahrun d-Shagre"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܐܗܪܘܢ ܕܫܓܪ̈ܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܐܰܗܪܘܢ ܕܫܓܪ̈ܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار هارون"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Aaron Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/395/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/395/tei>  .

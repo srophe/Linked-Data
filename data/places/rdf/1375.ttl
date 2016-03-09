@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1375> a lawd:Place ;
 rdfs:label "Keverūk"  ;
+ lawd:hasName [
+lawd:primaryForm "Keverūk"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1375/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1375/tei>  .

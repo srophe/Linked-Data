@@ -12,5 +12,17 @@
 
 <http://syriaca.org/place/1361> a lawd:Place ;
 rdfs:label "Jūlpat ʿĀlīḥān"  ;
+ lawd:hasName [
+lawd:primaryForm "Jūlpat ʿĀlīḥān"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Jūlpat ʿĀlīḥān parish"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Jūlpat Ālīḥān"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Jūlpat ‘Ālīḥān"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Jūlpat Ālīḥān parish"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Jūlpat ‘Ālīḥān parish"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1361/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1361/tei>  .

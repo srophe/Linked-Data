@@ -23,5 +23,27 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "very near Aleppo, towards the gate known as Bab Allah (“The Gate of God”), from which its Syriac name is derived. It was built in the sixth century and among its inhabitants was Thomas of Harkel, the famous translator of the Bible. It produced two Patriarchs and fifteen bishops. Nothing is known about it after 975."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0600"  ;
+ lawd:hasName [
+lawd:primaryForm "Tarʿil"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܬܪܥܝܠܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܬܰܪܥܝܠܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير ترعيل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Tarʿīl Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Taril"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Tar‘il"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Tarīl Monastery"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Tar‘īl Monastery"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Aleppo"  ;];
+ lawd:hasName [
+lawd:variantForm "Euphrates"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/348/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/348/tei>  .

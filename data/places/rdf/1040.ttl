@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1040> a lawd:Place ;
 rdfs:label "Beth Marūt"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Marūt"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Marūṯ"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1040/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1040/tei>  .

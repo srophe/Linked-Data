@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1013> a lawd:Place ;
 rdfs:label "Beth Bīyyā"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Bīyyā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Bīyyā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1013/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1013/tei>  .

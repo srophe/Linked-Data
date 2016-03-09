@@ -14,5 +14,11 @@
 rdfs:label "Urmia"  ;
 dcterms:description "An Assyrian settlement in"  ;
 dcterms:temporal "1877"  ;
+ lawd:hasName [
+lawd:primaryForm "Urmia"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Arazdayan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Armenia"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2558/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2558/tei>  .

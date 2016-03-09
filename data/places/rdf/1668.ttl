@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1668> a lawd:Place ;
 rdfs:label "Samsekke"  ;
+ lawd:hasName [
+lawd:primaryForm "Samsekke"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1668/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1668/tei>  .

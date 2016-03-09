@@ -13,5 +13,9 @@
 <http://syriaca.org/place/636> a lawd:Place ;
 rdfs:label "Qara Quzaq"  ;
 dcterms:description "An ancient city on the ."  ;
+ lawd:hasName [
+lawd:primaryForm "Qara Quzaq"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Euphrates"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/636/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/636/tei>  .

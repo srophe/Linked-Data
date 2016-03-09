@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1398> a lawd:Place ;
 rdfs:label "Lāgīppā"  ;
+ lawd:hasName [
+lawd:primaryForm "Lāgīppā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1398/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1398/tei>  .

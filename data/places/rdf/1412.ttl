@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1412> a lawd:Place ;
 rdfs:label "Malakta"  ;
+ lawd:hasName [
+lawd:primaryForm "Malakta"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Malakṯā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1412/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1412/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1642> a lawd:Place ;
 rdfs:label "Rabahi"  ;
+ lawd:hasName [
+lawd:primaryForm "Rabahi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1642/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1642/tei>  .

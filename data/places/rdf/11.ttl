@@ -31,8 +31,27 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Apamea_(Syria)>  ;
 geo:location [
 geo:lat "35.418"  ;
 geo:long "35.418"  ;];
+ lawd:hasName [
+lawd:primaryForm "Apamea"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܐܘܦܡܝܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܘܦܰܡܝܰܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܩܰܠܥܗ̈ ܐܠܡܨ̇ܝܩ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "آفامية"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "فامية"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "قلعة المضيق"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Qalʿat al-Madīq"@en  ;];
+ lawd:hasName [
+lawd:variantForm "أَفَامِيَة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Qalat al-Madīq"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Qal‘at al-Madīq"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/11/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/11/tei>  ;
-geo:location [
-geo:lat "35.418"  ;
-geo:long "35.418"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/11/tei>  .

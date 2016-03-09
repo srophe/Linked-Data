@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1567> a lawd:Place ;
 rdfs:label "Nargi"  ;
+ lawd:hasName [
+lawd:primaryForm "Nargi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1567/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1567/tei>  .

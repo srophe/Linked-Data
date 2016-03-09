@@ -14,5 +14,23 @@
 rdfs:label "Bote — ܒ̈ܬܐ"  ;
 dcterms:description "A village in northeast of ."  ;
 dcterms:temporal "1943"  ;
+ lawd:hasName [
+lawd:primaryForm "Bote"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒ̈ܬܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒ̈ܬܶܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "باتي"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Bāti"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur ʿAbdin"  ;];
+ lawd:hasName [
+lawd:variantForm "Midyat"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/240/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/240/tei>  .

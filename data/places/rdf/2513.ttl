@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2513> a lawd:Place ;
 rdfs:label "Qori"  ;
+ lawd:hasName [
+lawd:primaryForm "Qori"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Qōrī"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2513/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2513/tei>  .

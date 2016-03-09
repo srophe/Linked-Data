@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2436> a lawd:Place ;
 rdfs:label "Garin"  ;
+ lawd:hasName [
+lawd:primaryForm "Garin"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Gārīn"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2436/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2436/tei>  .

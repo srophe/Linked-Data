@@ -13,5 +13,17 @@
 <http://syriaca.org/place/1479> a lawd:Place ;
 rdfs:label "Anṣanā — ܐܢܨܢܐ"  ;
 dcterms:description "The seat of a bishop named Theodore whose biography, no longer extant, was ascribed to ."  ;
+ lawd:hasName [
+lawd:primaryForm "Anṣanā"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܐܢܨܢܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܰܢܨܢܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "انصنا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ausana"@en  ;];
+ lawd:hasName [
+lawd:variantForm "أَنْصِنا"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1479/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1479/tei>  .

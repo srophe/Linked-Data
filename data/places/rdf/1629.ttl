@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1629> a lawd:Place ;
 rdfs:label "Qōb"  ;
+ lawd:hasName [
+lawd:primaryForm "Qōb"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Qōp"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1629/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1629/tei>  .

@@ -13,5 +13,9 @@
 <http://syriaca.org/place/874> a lawd:Place ;
 rdfs:label "Sulṭāniyya"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Soltaniyeh>  ;
+ lawd:hasName [
+lawd:primaryForm "Sulṭāniyya"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Sultaniyyeh"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/874/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/874/tei>  .

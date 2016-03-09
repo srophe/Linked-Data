@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2249> a lawd:Place ;
 rdfs:label "ʻAmid, Gazarta, Siirt, Ṭanze, Ḥezzo and the Gordlaye’"  ;
+ lawd:hasName [
+lawd:primaryForm "ʻAmid, Gazarta, Siirt, Ṭanze, Ḥezzo and the Gordlaye’"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʻĀmid, Gāzartā, Seert, Ṭanze, Ḥezzō and the Gordlāye’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2249/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2249/tei>  .

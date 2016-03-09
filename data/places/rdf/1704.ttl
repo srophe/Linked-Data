@@ -14,5 +14,7 @@
 rdfs:label "Sharanesh"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Sharanish>  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Sharanish>  ;
+ lawd:hasName [
+lawd:primaryForm "Sharanesh"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1704/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1704/tei>  .

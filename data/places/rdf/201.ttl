@@ -19,8 +19,9 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Tiberias>  ;
 geo:location [
 geo:lat "32.7966"  ;
 geo:long "32.7966"  ;];
+ lawd:hasName [
+lawd:primaryForm "Tiberias"@en  ;];
+ lawd:hasName [
+lawd:variantForm "طبرية"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/201/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/201/tei>  ;
-geo:location [
-geo:lat "32.7966"  ;
-geo:long "32.7966"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/201/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2235> a lawd:Place ;
 rdfs:label "Rabban Hormizd and Mar Giwargis"  ;
+ lawd:hasName [
+lawd:primaryForm "Rabban Hormizd and Mar Giwargis"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Rabban Hormizd and Mār Gīwārgīs"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2235/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2235/tei>  .

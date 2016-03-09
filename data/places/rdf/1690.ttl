@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1690> a lawd:Place ;
 rdfs:label "Semḥōr"  ;
+ lawd:hasName [
+lawd:primaryForm "Semḥōr"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1690/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1690/tei>  .

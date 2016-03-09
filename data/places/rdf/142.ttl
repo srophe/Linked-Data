@@ -1,2 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/142> a lawd:Place ;
+rdfs:label "Nisibis — ܢܨܝܒܝܢ"  ;
+ dcterms:description [
+rdfs:label "City in Mesopotamia and important center of early Syriac Christianity."@en  ;];
+ dcterms:description [
+rdfs:label "400. Nisibis"@en  ;];
+ dcterms:description [
+rdfs:label "ܡܕܝܢܬܳܐ ܕܥܰܡܝܪܳܐ ܡܶܢ ܐܰܬܪ̈ܘܳܬܳܐ ܕܰܓܙܝܳܪܐ. ܐܝܬ ܒܶܝܬ ܠܳܗ̇ ܠܡܰܘܨܠ ܚܰܡܫܳܐ ܝܰܘܡ̈ܝܢ. ܘܝܰܘܡܳܢܳܐ ܐܺܝܬܶܝܗ̇ ܡܕܝܢܳܬܘܢܝܬܳܐ ܘܐܝܬ ܬܽܘܒ ܢܨܝܒܝܢ ܩܪܝܬܳܐ ܕܥܰܠ ܣܶܦܰܬ ܦܪܳܬ ܠܡܰܥܪܒܳܐ ܕܒܺܝܪܰܗܓܺܝܟ ܘܡܶܬܝܰܕܥܳܐ ܢܨܺܝܒܝܢ ܕܪ̈ܘܡܳܝܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "مدينة عامرة من بلاد الجزيرة بينها وبين الموصل خمسة ايام وهي اليوم بليدة: ونصيبين ايضا قرية على شاطئ الفرات غربي بيرهجك كانت تعرف بنصيبين الروم."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a town in the Jazira, five days’ journey from Mosul; today it is a small town. Nisibin is also the name of a village on the west bank of the Euphrates, west of Biricik, formerly known as the Byzantine Nisibin. [Modern name, Nusaybin. (tr.)]"@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0306"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/874623>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Nusaybin>  ;
+geo:location [
+geo:lat "37.06667"  ;
+geo:long "37.06667"  ;];
+ lawd:hasName [
+lawd:primaryForm "Nisibis"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Nṣibin"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Nusaybin"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ṣoba"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܢܨܝܒܝܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "نصيبين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Nisibin"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ṣōbā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "نَصِيبين"@ar  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/142/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/142/tei>  ;
+dcterms:relation <http://syriaca.org/place/723>  ;
+dcterms:relation <http://syriaca.org/place/2351>  .

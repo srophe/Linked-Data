@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1643> a lawd:Place ;
 rdfs:label "Rabanuk"  ;
+ lawd:hasName [
+lawd:primaryForm "Rabanuk"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1643/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1643/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1153> a lawd:Place ;
 rdfs:label "Deh"  ;
+ lawd:hasName [
+lawd:primaryForm "Deh"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Eruh"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1153/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1153/tei>  .

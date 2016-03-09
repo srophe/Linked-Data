@@ -14,5 +14,21 @@
 rdfs:label "Shīḥā — ܫܝܚܐ"  ;
 dcterms:description "A village near ."  ;
 dcterms:temporal "0900"  ;
+ lawd:hasName [
+lawd:primaryForm "Shīḥā"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܫܝܚܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܫܺܝܚܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "شيحا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "شيح"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Shiḥa"@en  ;];
+ lawd:hasName [
+lawd:variantForm "الشِيْحة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Cyrrhus"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1503/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1503/tei>  .

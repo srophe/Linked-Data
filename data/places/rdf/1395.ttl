@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1395> a lawd:Place ;
 rdfs:label "Kūrsen"  ;
+ lawd:hasName [
+lawd:primaryForm "Kūrsen"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1395/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1395/tei>  .

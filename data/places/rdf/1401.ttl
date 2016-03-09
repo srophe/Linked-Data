@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1401> a lawd:Place ;
 rdfs:label "Lūz"  ;
+ lawd:hasName [
+lawd:primaryForm "Lūz"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1401/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1401/tei>  .

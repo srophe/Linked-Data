@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2516> a lawd:Place ;
 rdfs:label "Rabban Mar Iyob"  ;
+ lawd:hasName [
+lawd:primaryForm "Rabban Mar Iyob"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Rabban Mār Iyyūb"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2516/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2516/tei>  .

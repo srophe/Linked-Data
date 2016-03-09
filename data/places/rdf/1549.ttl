@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1549> a lawd:Place ;
 rdfs:label "Mōhalle"  ;
+ lawd:hasName [
+lawd:primaryForm "Mōhalle"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1549/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1549/tei>  .

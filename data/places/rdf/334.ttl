@@ -22,5 +22,11 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a small town northwest of Mersin."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1295"  ;
+ lawd:hasName [
+lawd:primaryForm "Dāwlū"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܐܘܠܘ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "داولو"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/334/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/334/tei>  .

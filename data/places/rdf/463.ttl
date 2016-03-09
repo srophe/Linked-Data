@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a village northwest of Mardin."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1537"  ;
+ lawd:hasName [
+lawd:primaryForm "al-Manṣūriyya"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܡܢܨܘܪܝܗ̇"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܡܰܢܨܘܪܝܗ̇"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "المنصورية"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Mansūriyya"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/463/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/463/tei>  .

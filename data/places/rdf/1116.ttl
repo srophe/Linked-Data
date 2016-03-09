@@ -13,5 +13,15 @@
 <http://syriaca.org/place/1116> a lawd:Place ;
 rdfs:label "Challūk — ܓܠܟ"  ;
 dcterms:description "A village on the in the region."  ;
+ lawd:hasName [
+lawd:primaryForm "Challūk"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܓܠܟ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܓ̰ܲܠܸܟ̇"@syr-Syrn  ;];
+ lawd:hasName [
+lawd:variantForm "Khabur River"  ;];
+ lawd:hasName [
+lawd:variantForm "Lower Ṭiyari"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1116/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1116/tei>  .

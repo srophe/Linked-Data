@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/832> a lawd:Place ;
 rdfs:label "Karh Guddān"  ;
+ lawd:hasName [
+lawd:primaryForm "Karh Guddān"@en  ;];
+ lawd:hasName [
+lawd:variantForm "كرخ جُدّان"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/832/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/832/tei>  .

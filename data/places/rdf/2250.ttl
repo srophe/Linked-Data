@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2250> a lawd:Place ;
 rdfs:label "ʻAmid, Nisibis, Mardin, Ḥesna, and Jerusalem’"  ;
+ lawd:hasName [
+lawd:primaryForm "ʻAmid, Nisibis, Mardin, Ḥesna, and Jerusalem’"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʻĀmid, Nisibis, Mardīn, Ḥesnā, and Jerusalem’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2250/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2250/tei>  .

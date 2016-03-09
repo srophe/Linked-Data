@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2072> a lawd:Place ;
 rdfs:label "Mar Shaddad"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Shaddad"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Shaddad"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2072/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2072/tei>  .

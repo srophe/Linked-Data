@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1400> a lawd:Place ;
 rdfs:label "Līzan"  ;
+ lawd:hasName [
+lawd:primaryForm "Līzan"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1400/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1400/tei>  .

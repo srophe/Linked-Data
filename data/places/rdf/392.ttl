@@ -26,8 +26,19 @@ skos:exactMatch <http://pleiades.stoa.org/places/874582>  ;
 geo:location [
 geo:lat "37.231912"  ;
 geo:long "37.231912"  ;];
+ lawd:hasName [
+lawd:primaryForm "Mor Malke"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܡܠܟܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܡܰܠܟܶܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار ملكي"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Malke Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery of Mar Malkha"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Malke"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/392/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/392/tei>  ;
-geo:location [
-geo:lat "37.231912"  ;
-geo:long "37.231912"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/392/tei>  .

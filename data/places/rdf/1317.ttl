@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1317> a lawd:Place ;
 rdfs:label "Ḥardā"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥardā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1317/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1317/tei>  .

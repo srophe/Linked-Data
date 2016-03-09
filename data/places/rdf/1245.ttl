@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1245> a lawd:Place ;
 rdfs:label "Gundikta"  ;
+ lawd:hasName [
+lawd:primaryForm "Gundikta"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Gundikṯā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1245/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1245/tei>  .

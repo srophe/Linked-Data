@@ -27,8 +27,17 @@ skos:exactMatch <http://pleiades.stoa.org/places/874577>  ;
 geo:location [
 geo:lat "37.594831"  ;
 geo:long "37.594831"  ;];
+ lawd:hasName [
+lawd:primaryForm "Dayro d-Mor Abay"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܐܒܝ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܐܰܒܝ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار آباي"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Abai Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery of Mar Abai"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/70/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/70/tei>  ;
-geo:location [
-geo:lat "37.594831"  ;
-geo:long "37.594831"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/70/tei>  .

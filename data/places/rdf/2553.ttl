@@ -14,5 +14,13 @@
 rdfs:label "Verin Dvin"  ;
 dcterms:description "An Assyrian settlement in southwest of"  ;
 dcterms:temporal "1849"  ;
+ lawd:hasName [
+lawd:primaryForm "Verin Dvin"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Dvin-Aysor"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Armenia"  ;];
+ lawd:hasName [
+lawd:variantForm "Erevan"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2553/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2553/tei>  .

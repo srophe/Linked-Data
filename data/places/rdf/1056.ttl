@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1056> a lawd:Place ;
 rdfs:label "Beth Qūrāye"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Qūrāye"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Qūrāye"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1056/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1056/tei>  .

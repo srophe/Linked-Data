@@ -14,5 +14,19 @@
 rdfs:label "Umm Jaʿfar — ܐܡ ܓܥܦܪ"  ;
 dcterms:description "Part of the western side of ."  ;
 dcterms:temporal "0925"  ;
+ lawd:hasName [
+lawd:primaryForm "Umm Jaʿfar"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܐܡ ܓܥܦܪ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܡ ܓܰܥܦܰܪ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ام جعفر"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Umm Jafar"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Umm Ja‘far"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Baghdad"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1496/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1496/tei>  .

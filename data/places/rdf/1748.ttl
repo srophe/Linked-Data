@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1748> a lawd:Place ;
 rdfs:label "Ṣedūḥ"  ;
+ lawd:hasName [
+lawd:primaryForm "Ṣedūḥ"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1748/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1748/tei>  .

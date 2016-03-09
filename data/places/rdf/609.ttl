@@ -13,5 +13,11 @@
 <http://syriaca.org/place/609> a lawd:Place ;
 rdfs:label "Babai of Nisibis"  ;
 dcterms:description "A monastery probably near ."  ;
+ lawd:hasName [
+lawd:primaryForm "Babai of Nisibis"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery of Babai of Nisibis"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Nisibis"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/609/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/609/tei>  .

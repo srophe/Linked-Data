@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1048> a lawd:Place ;
 rdfs:label "Beth Newā"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Newā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Newā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1048/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1048/tei>  .

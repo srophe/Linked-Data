@@ -23,5 +23,17 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "in al-Raqqa, on the west bank of the Euphrates. The Empress Theodora (d. 548) gave money for its construction and in 635 it was enlarged by the monks. By 956, one Patriarch and ten bishops had graduated from it."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0548"  ;
+ lawd:hasName [
+lawd:primaryForm "Monastery of Esṭona"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܥܡܘܕܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܥܰܡܘܕܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير العمود"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Pillar Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Kallinikos"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/371/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/371/tei>  .

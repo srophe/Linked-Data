@@ -16,8 +16,7 @@ skos:exactMatch <http://pleiades.stoa.org/places/903080>  ;
 geo:location [
 geo:lat "34.5"  ;
 geo:long "34.5"  ;];
+ lawd:hasName [
+lawd:primaryForm "Media"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/720/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/720/tei>  ;
-geo:location [
-geo:lat "34.5"  ;
-geo:long "34.5"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/720/tei>  .

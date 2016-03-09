@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1757> a lawd:Place ;
 rdfs:label "Tarmāni"  ;
+ lawd:hasName [
+lawd:primaryForm "Tarmāni"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1757/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1757/tei>  .

@@ -14,5 +14,13 @@
 rdfs:label "Beth Ḥur — ܒܝܬ ܚܘܪ"  ;
 dcterms:description "A place the invasion of which was described in two poems ascribed to ."  ;
 dcterms:temporal "0491"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Ḥur"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܝܬ ܚܘܪ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܶܝܬ ܚܘܪ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بيت حور"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1455/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1455/tei>  .

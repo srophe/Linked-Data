@@ -16,5 +16,13 @@ dcterms:description "A Roman province including the middle Levantine coast from 
 dcterms:temporal "0200"  ;
 skos:exactMatch <http://pleiades.stoa.org/places/991410>  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Phoenice_(Roman_province)>  ;
+ lawd:hasName [
+lawd:primaryForm "Phoenice"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Phoenicia"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Tyros"  ;];
+ lawd:hasName [
+lawd:variantForm "Tripolis"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/151/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/151/tei>  .

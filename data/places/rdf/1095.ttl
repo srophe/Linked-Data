@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1095> a lawd:Place ;
 rdfs:label "Billi"  ;
+ lawd:hasName [
+lawd:primaryForm "Billi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1095/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1095/tei>  .

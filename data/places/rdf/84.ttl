@@ -21,8 +21,11 @@ skos:exactMatch <http://pleiades.stoa.org/places/922698>  ;
 geo:location [
 geo:lat "30.5"  ;
 geo:long "30.5"  ;];
+ lawd:hasName [
+lawd:primaryForm "Fars"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Fārs"@en  ;];
+ lawd:hasName [
+lawd:variantForm "فارس"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/84/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/84/tei>  ;
-geo:location [
-geo:lat "30.5"  ;
-geo:long "30.5"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/84/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1373> a lawd:Place ;
 rdfs:label "Kashkāwā"  ;
+ lawd:hasName [
+lawd:primaryForm "Kashkāwā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1373/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1373/tei>  .

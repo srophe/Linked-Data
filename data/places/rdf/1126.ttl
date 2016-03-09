@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1126> a lawd:Place ;
 rdfs:label "Chambā Hadtā"  ;
+ lawd:hasName [
+lawd:primaryForm "Chambā Hadtā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1126/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1126/tei>  .

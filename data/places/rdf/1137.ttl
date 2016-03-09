@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1137> a lawd:Place ;
 rdfs:label "Dāden"  ;
+ lawd:hasName [
+lawd:primaryForm "Dāden"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1137/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1137/tei>  .

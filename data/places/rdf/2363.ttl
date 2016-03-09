@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2363> a lawd:Place ;
 rdfs:label "ʻSalmas, Siirt and Jilu’"  ;
+ lawd:hasName [
+lawd:primaryForm "ʻSalmas, Siirt and Jilu’"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʻSalmas, Seert and Jīlū’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2363/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2363/tei>  .

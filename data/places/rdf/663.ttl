@@ -18,8 +18,13 @@ skos:closeMatch <http://en.wikipedia.org/wiki/İskenderun>  ;
 geo:location [
 geo:lat "36.589023"  ;
 geo:long "36.589023"  ;];
+ lawd:hasName [
+lawd:primaryForm "Iskenderun"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Alexandretta"@en  ;];
+ lawd:hasName [
+lawd:variantForm "إسكندرونة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Antioch"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/663/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/663/tei>  ;
-geo:location [
-geo:lat "36.589023"  ;
-geo:long "36.589023"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/663/tei>  .

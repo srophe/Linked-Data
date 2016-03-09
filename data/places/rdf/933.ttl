@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/933> a lawd:Place ;
 rdfs:label "Azyānīsh"  ;
+ lawd:hasName [
+lawd:primaryForm "Azyānīsh"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/933/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/933/tei>  .

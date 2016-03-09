@@ -1,2 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/418> a lawd:Place ;
+rdfs:label "al-Ṣāliḥiyya — ܨܐܠܚܝܗ̇"  ;
+ dcterms:description [
+rdfs:label "ܩܪܝܬܳܐ ܗܝ ܕܒܩܘܪܒܳܐ ܕܐܘܪܗܳܝ ܘܩܰܕܡܳܝܐ ܕܬܰܚܡܗ̇ ܥܰܒܕ ܐܠܡܰܠܟ ܒܰܪ ܨܰܐܠܚ ܐܰܠܗܰܐܫܡܝ. ܟ݂ܰܐܠܕܝ ܕܶܝܢ ܐܶܡܪ ܒܩܘܪܒܐ ܕܪܰܩܗ̇ ܐܝܬ ܠܘܳܬܗ̇ ܒܰܛܝܐܣ ܘܕܰܝܪܳܐ ܕܡܳܪܝ ܙܰܟܰܝ ܩܰܕܡܳܝܐ ܕܫܰܟܠܠ ܩܨܪ̈ܝܗ̇ ܡܗܕܝ"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "قرية قرب الرها اختطها عبد الملك بن صالح الهاشمي، وقال الخالدي قرب الرقة عندها بطياس ودير مار زكى؛ اول من احدث قصورها المهدي."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a village near Edessa, established by ʿAbd al-Mālik Ibn Ṣāliḥ al-Hāshimi. Al-Khālidi states that it was near al-Raqqa, near Batyas and the Monastery of Mar Zakka. The first person to build palaces there was the Abbasid Caliph al-Mahdi."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ lawd:hasName [
+lawd:primaryForm "al-Ṣāliḥiyya"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܨܐܠܚܝܗ̇"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܨܰܐܠܚܝܗ̇"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "الصالحية"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Saliḥiyya"@en  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/418/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/418/tei>  ;
+dcterms:relation <http://syriaca.org/place/419>  .

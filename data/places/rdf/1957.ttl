@@ -13,5 +13,9 @@
 <http://syriaca.org/place/1957> a lawd:Place ;
 rdfs:label "Patriarchal Cell at Telkepe"  ;
 dcterms:description "A residence of the Catholicos of the Church of the East."  ;
+ lawd:hasName [
+lawd:primaryForm "Patriarchal Cell at Telkepe"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Patriarchal Cell"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1957/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1957/tei>  .

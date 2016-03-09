@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a village in the Sawar district, populated by Syrians until the end of the sixteenth century."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1600"  ;
+ lawd:hasName [
+lawd:primaryForm "Rūmāniyya"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܪܘܡܐܢܝܗ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܪܘܡܰܐܢܝܗ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "رومانية"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Romaniya"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/407/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/407/tei>  .

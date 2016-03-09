@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1651> a lawd:Place ;
 rdfs:label "Rayhānābād"  ;
+ lawd:hasName [
+lawd:primaryForm "Rayhānābād"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1651/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1651/tei>  .

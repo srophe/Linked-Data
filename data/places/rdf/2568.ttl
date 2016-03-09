@@ -14,5 +14,13 @@
 rdfs:label "Maris bar Barʿaton — ܕܝܪܗ ܕܡܪܝܣ ܒܪ ܒܪܥܬܘܢ"  ;
 dcterms:description "A monastery in named after the chief of that village."  ;
 dcterms:temporal "0400"  ;
+ lawd:hasName [
+lawd:primaryForm "Maris bar Barʿaton"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܗ ܕܡܪܝܣ ܒܪ ܒܪܥܬܘܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "Maris bar Barathon"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Telneshe"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2568/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2568/tei>  .

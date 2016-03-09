@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2482> a lawd:Place ;
 rdfs:label "Mar Qawma"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Qawma"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Qawmā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2482/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2482/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1564> a lawd:Place ;
 rdfs:label "Nānib"  ;
+ lawd:hasName [
+lawd:primaryForm "Nānib"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1564/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1564/tei>  .

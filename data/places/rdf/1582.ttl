@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1582> a lawd:Place ;
 rdfs:label "Ōret"  ;
+ lawd:hasName [
+lawd:primaryForm "Ōret"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1582/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1582/tei>  .

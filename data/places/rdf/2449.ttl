@@ -12,5 +12,21 @@
 
 <http://syriaca.org/place/2449> a lawd:Place ;
 rdfs:label "Mar Bokhtishoʿ"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Bokhtishoʿ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Bōkhtīshōʿ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʻBicijeso’"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Margānā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mar Bokhtisho"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mar Bokhtisho‘"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Bōkhtīshō"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Bōkhtīshō‘"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2449/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2449/tei>  .

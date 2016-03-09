@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2132> a lawd:Place ;
 rdfs:label "Mar Zakka"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Zakka"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Zakkā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2132/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2132/tei>  .

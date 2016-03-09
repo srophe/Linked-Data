@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1639> a lawd:Place ;
 rdfs:label "Qūrnābālgūzli"  ;
+ lawd:hasName [
+lawd:primaryForm "Qūrnābālgūzli"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1639/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1639/tei>  .

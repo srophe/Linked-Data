@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2331> a lawd:Place ;
 rdfs:label "ʻLower Urmi’"  ;
+ lawd:hasName [
+lawd:primaryForm "ʻLower Urmi’"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʻLower Ūrmī’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2331/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2331/tei>  .

@@ -22,5 +22,13 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a village in the Manazgird [Malazgirt] territory."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1299"  ;
+ lawd:hasName [
+lawd:primaryForm "Sidus"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܣܝܕܘܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "سيدوس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Sidos"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/417/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/417/tei>  .

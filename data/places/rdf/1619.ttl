@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1619> a lawd:Place ;
 rdfs:label "Qārū"  ;
+ lawd:hasName [
+lawd:primaryForm "Qārū"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1619/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1619/tei>  .

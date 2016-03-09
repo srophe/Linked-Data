@@ -14,5 +14,15 @@
 rdfs:label "Shalabdīn — ܫܠܒܕܝܢ"  ;
 dcterms:description "Seat of a bishop about 1174."  ;
 dcterms:temporal "1179"  ;
+ lawd:hasName [
+lawd:primaryForm "Shalabdīn"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܫܠܒܕܝܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܝܠܒܕܺܝܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "شلبدين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Shalabdin"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1488/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1488/tei>  .

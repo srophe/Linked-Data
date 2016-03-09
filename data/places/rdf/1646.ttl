@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1646> a lawd:Place ;
 rdfs:label "Rāgūlā d-Ṣālābakkān"  ;
+ lawd:hasName [
+lawd:primaryForm "Rāgūlā d-Ṣālābakkān"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Rāgūlā d'Ṣālābakkān"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1646/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1646/tei>  .

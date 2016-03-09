@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2238> a lawd:Place ;
 rdfs:label "Rabban Petion"  ;
+ lawd:hasName [
+lawd:primaryForm "Rabban Petion"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Rabban Peṯiōn"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2238/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2238/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1758> a lawd:Place ;
 rdfs:label "Tarmel"  ;
+ lawd:hasName [
+lawd:primaryForm "Tarmel"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1758/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1758/tei>  .

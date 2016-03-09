@@ -19,8 +19,7 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Hulwan,_Iran>  ;
 geo:location [
 geo:lat "34.465"  ;
 geo:long "34.465"  ;];
+ lawd:hasName [
+lawd:primaryForm "Ḥulwān"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/220/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/220/tei>  ;
-geo:location [
-geo:lat "34.465"  ;
-geo:long "34.465"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/220/tei>  .

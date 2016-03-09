@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1407> a lawd:Place ;
 rdfs:label "Magdal Debā"  ;
+ lawd:hasName [
+lawd:primaryForm "Magdal Debā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1407/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1407/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1198> a lawd:Place ;
 rdfs:label "Eqror"  ;
+ lawd:hasName [
+lawd:primaryForm "Eqror"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Eqrōr"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1198/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1198/tei>  .

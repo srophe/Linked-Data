@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/982> a lawd:Place ;
 rdfs:label "Bāsūrīn — ܒܣܘܪܝܢ"  ;
+ lawd:hasName [
+lawd:primaryForm "Bāsūrīn"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܣܘܪܝܢ"@syr  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/982/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/982/tei>  .

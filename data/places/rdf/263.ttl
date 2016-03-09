@@ -17,5 +17,7 @@ rdfs:label "Bahdeidat is 12 km. northeast of Jbeil (Giblet or Byblos), 47 km. fr
  dcterms:description [
 rdfs:label "69. Bahdeidat"@en  ;];
 dcterms:temporal "1300"  ;
+ lawd:hasName [
+lawd:primaryForm "Bahdeidat"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/263/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/263/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/2384> a lawd:Place ;
 rdfs:label "ʻTallescani’"  ;
+ lawd:hasName [
+lawd:primaryForm "ʻTallescani’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2384/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2384/tei>  .

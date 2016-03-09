@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/737> a lawd:Place ;
 rdfs:label "Chal"  ;
+ lawd:hasName [
+lawd:primaryForm "Chal"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/737/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/737/tei>  .

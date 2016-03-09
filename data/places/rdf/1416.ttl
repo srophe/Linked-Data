@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1416> a lawd:Place ;
 rdfs:label "Māmityār"  ;
+ lawd:hasName [
+lawd:primaryForm "Māmityār"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1416/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1416/tei>  .

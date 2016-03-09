@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1759> a lawd:Place ;
 rdfs:label "Tarshīsh"  ;
+ lawd:hasName [
+lawd:primaryForm "Tarshīsh"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1759/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1759/tei>  .

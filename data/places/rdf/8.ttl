@@ -32,8 +32,29 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Diyarbakır>  ;
 geo:location [
 geo:lat "37.981944"  ;
 geo:long "37.981944"  ;];
+ lawd:hasName [
+lawd:primaryForm "Amida"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Amid"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Diyarbakır"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Omid"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܐܡܝܕ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܳܡܝ̣ܕ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܝܰܐܪܒܟܶܪ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "آمد"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "ديار بكر"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Diyarbakir"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Āmid"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Diyārbakr"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/8/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/8/tei>  ;
-geo:location [
-geo:lat "37.981944"  ;
-geo:long "37.981944"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/8/tei>  .

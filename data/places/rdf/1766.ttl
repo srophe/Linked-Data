@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1766> a lawd:Place ;
 rdfs:label "Tel Maḥmad"  ;
+ lawd:hasName [
+lawd:primaryForm "Tel Maḥmad"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1766/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1766/tei>  .

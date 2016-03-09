@@ -14,5 +14,15 @@
 rdfs:label "Ālīn"  ;
 dcterms:description "A village in ."  ;
 dcterms:temporal "1943"  ;
+ lawd:hasName [
+lawd:primaryForm "Ālīn"@en  ;];
+ lawd:hasName [
+lawd:variantForm "آلين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur ʿAbdin"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/536/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/536/tei>  .

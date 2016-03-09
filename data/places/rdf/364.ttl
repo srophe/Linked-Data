@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "was built in the name of St. Shabtai, a fifth-century ascetic, opposite the Monastery of Mor Abḥai, near the Monastery of Fusqīn in Karkar. It was restored by Athanasius Denḥa, metropolitan of Edessa (1171-1191). While a monk, Patriarch John XII resided in this monastery and in it he was consecrated Patriarch, it remained populated until the beginning of the seventeenth century."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1191"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayro d-Shiro"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܫܝܪܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܫܝܪܳܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير شيرو"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Shiro Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/364/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/364/tei>  .

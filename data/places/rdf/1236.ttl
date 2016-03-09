@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1236> a lawd:Place ;
 rdfs:label "Gōḥikki"  ;
+ lawd:hasName [
+lawd:primaryForm "Gōḥikki"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1236/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1236/tei>  .

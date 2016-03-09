@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1037> a lawd:Place ;
 rdfs:label "Beth Kshāye"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Kshāye"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Kshāye"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1037/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1037/tei>  .

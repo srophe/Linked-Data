@@ -14,5 +14,15 @@
 rdfs:label "Dimitrov"  ;
 dcterms:description "An Assyrian settlement in southeast of"  ;
 dcterms:temporal "1839"  ;
+ lawd:hasName [
+lawd:primaryForm "Dimitrov"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Koylasar"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Łuylasar"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Armenia"  ;];
+ lawd:hasName [
+lawd:variantForm "Erevan"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2552/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2552/tei>  .

@@ -18,8 +18,13 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Amuda>  ;
 geo:location [
 geo:lat "37.104166"  ;
 geo:long "37.104166"  ;];
+ lawd:hasName [
+lawd:primaryForm "ʿĀmūda"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Āmūda"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Āmūda"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Qamishli"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/664/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/664/tei>  ;
-geo:location [
-geo:lat "37.104166"  ;
-geo:long "37.104166"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/664/tei>  .

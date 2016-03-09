@@ -15,5 +15,23 @@ rdfs:label "Greater Zab — ܙܒܐ ܪܒܐ"  ;
 dcterms:description "A tributary of the which flows north of ."  ;
 skos:exactMatch <http://pleiades.stoa.org/places/894183>  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Great_Zab>  ;
+ lawd:hasName [
+lawd:primaryForm "Greater Zab"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Upper Zab"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܙܒܐ ܪܒܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܙܒܐ ܪܰܒܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "الزاب الكبير"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Great Zab"@en  ;];
+ lawd:hasName [
+lawd:variantForm "الزاب الأعلى"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Tigris"  ;];
+ lawd:hasName [
+lawd:variantForm "Arbela"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/204/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/204/tei>  .

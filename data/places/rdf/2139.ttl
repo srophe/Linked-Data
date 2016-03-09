@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2139> a lawd:Place ;
 rdfs:label "Mar Zirwanda"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Zirwanda"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Zirwandā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2139/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2139/tei>  .

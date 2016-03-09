@@ -8,6 +8,8 @@ declare namespace tei = "http://www.tei-c.org/ns/1.0";
 
 declare option exist:serialize "method=text media-type=text/turtle indent=yes";
 
+declare variable $id {request:get-parameter('id', '')};
+
 (: Create URI :)
 declare function local:make-uri($uri){
     concat('<',normalize-space($uri),'>')
@@ -145,30 +147,43 @@ declare function local:record($rec) as xs:string*{
 };
 
 (: Get/save triples to db :)
-let $recs := collection('/db/apps/srophe-data/data/places/tei')
-(: Individual recs :)
-for $hit at $p in subsequence($recs, 1, 20)//tei:TEI
-let $filename := concat(tokenize(replace($hit/descendant::tei:idno[@type='URI'][starts-with(.,'http://syriaca.org')][1],'/tei',''),'/')[last()],'.ttl')
-let $file-data :=  
-    try {
-        (concat(local:prefix(), local:record($hit)))
-    } catch * {
-        <error>Caught error {$err:code}: {$err:description}</error>
-        }     
-return xmldb:store(xs:anyURI('/db/apps/bug-test/data/places/rdf'), xmldb:encode-uri($filename), $file-data)
-
-(: Full collection 
-let $full-rec := 
-   string-join(
-   for $hit in $recs
+if($id != '') then  
+    let $recs := collection('/db/apps/srophe-data/data/places/tei')//tei:idno[@type='URI'][. = $id]
+    (: Individual recs :)
+    for $hit in $recs/ancestor::tei:TEI
     let $filename := concat(tokenize(replace($hit/descendant::tei:idno[@type='URI'][starts-with(.,'http://syriaca.org')][1],'/tei',''),'/')[last()],'.ttl')
     let $file-data :=  
         try {
-            local:record($hit)
+            (concat(local:prefix(), local:record($hit)))
         } catch * {
             <error>Caught error {$err:code}: {$err:description}</error>
-            }
-    return $file-data,'&#xa;')  
-let $full := concat(local:prefix(),$full-rec)    
-return xmldb:store(xs:anyURI('/db/apps/bug-test/data/places/rdf'), xmldb:encode-uri('all-places.ttl'), $full)
-:)
+            }     
+    return $file-data(:xmldb:store(xs:anyURI('/db/apps/bug-test/data/places/rdf'), xmldb:encode-uri($filename), $file-data):)
+else if($id = 'run all') then 
+    let $recs := collection('/db/apps/srophe-data/data/places/tei')
+    (: Individual recs :)
+    for $hit at $p in subsequence($recs, 1, 20)//tei:TEI
+    let $filename := concat(tokenize(replace($hit/descendant::tei:idno[@type='URI'][starts-with(.,'http://syriaca.org')][1],'/tei',''),'/')[last()],'.ttl')
+    let $file-data :=  
+        try {
+            (concat(local:prefix(), local:record($hit)))
+        } catch * {
+            <error>Caught error {$err:code}: {$err:description}</error>
+            }     
+    return xmldb:store(xs:anyURI('/db/apps/bug-test/data/places/rdf'), xmldb:encode-uri($filename), $file-data)
+else if($id = 'combined') then 
+    (: Full collection:) 
+    let $full-rec := 
+       string-join(
+       for $hit in $recs
+        let $filename := concat(tokenize(replace($hit/descendant::tei:idno[@type='URI'][starts-with(.,'http://syriaca.org')][1],'/tei',''),'/')[last()],'.ttl')
+        let $file-data :=  
+            try {
+                local:record($hit)
+            } catch * {
+                <error>Caught error {$err:code}: {$err:description}</error>
+                }
+        return $file-data,'&#xa;')  
+    let $full := concat(local:prefix(),$full-rec)    
+    return xmldb:store(xs:anyURI('/db/apps/bug-test/data/places/rdf'), xmldb:encode-uri('all-places.ttl'), $full)
+else ()

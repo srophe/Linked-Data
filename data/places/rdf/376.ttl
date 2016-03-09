@@ -22,5 +22,19 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "near Rish ʿAyna, was first mentioned by historians in the sixth century. One of its graduates is the chronicler-priest Thomas, in 636. Its monks later moved to the Pillar Monastery."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0600"  ;
+ lawd:hasName [
+lawd:primaryForm "Qidr Monastery"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܩܕܪ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܩܕܪ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܩܝܕܪ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير قدر"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "دير قيدار"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Qidar Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/376/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/376/tei>  .

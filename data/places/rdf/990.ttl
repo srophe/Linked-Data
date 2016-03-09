@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/990> a lawd:Place ;
 rdfs:label "Bekinde"  ;
+ lawd:hasName [
+lawd:primaryForm "Bekinde"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/990/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/990/tei>  .

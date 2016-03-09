@@ -29,8 +29,35 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Al-Busayrah>  ;
 geo:location [
 geo:lat "35.15676"  ;
 geo:long "35.15676"  ;];
+ lawd:hasName [
+lawd:primaryForm "Circesium"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܩܪܩܝܣܝܘܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܩܰܪܩܝܣܝܘܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܩܪܩܝܣܝܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܰܒܘܣܰܪܰܐܝ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܨܝܪܗ̈"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "قرقسيون"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "قرقيسياء"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "ابو سراي"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "بصيرة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Qarqisun"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Qarqisyya"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Abu Saray"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Busayra"@en  ;];
+ lawd:hasName [
+lawd:variantForm "قَرْقيْسِياء"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/62/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/62/tei>  ;
-geo:location [
-geo:lat "35.15676"  ;
-geo:long "35.15676"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/62/tei>  .

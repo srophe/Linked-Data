@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1541> a lawd:Place ;
 rdfs:label "Menjilāwā"  ;
+ lawd:hasName [
+lawd:primaryForm "Menjilāwā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1541/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1541/tei>  .

@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "built in the name of the Virgin and the Forty Martyrs in Claudia, near the village of Sinjis, was first mentioned in history in 986. Ten metropolitans graduated from it. In 1257 the henchmen of Ahmad Ibn Ballās burned this monastery."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0986"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayro d-Modiq"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܕܝܩ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܡܳܕܝܩ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير ماذيق"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Mādhīq Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/386/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/386/tei>  .

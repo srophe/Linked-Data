@@ -13,5 +13,9 @@
 <http://syriaca.org/place/2533> a lawd:Place ;
 rdfs:label "Kilis"  ;
 dcterms:description "A village near ."  ;
+ lawd:hasName [
+lawd:primaryForm "Kilis"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Siirt"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2533/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2533/tei>  .

@@ -13,5 +13,17 @@
 <http://syriaca.org/place/661> a lawd:Place ;
 rdfs:label "Mar Gabriel and Mar Abraham"  ;
 dcterms:description "An important monastery near whose site has been incorporated into the modern city."  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Gabriel and Mar Abraham"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mar Abraham"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Upper Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Gabriel"@en  ;];
+ lawd:hasName [
+lawd:variantForm "دير الأعلى"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Mosul"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/661/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/661/tei>  .

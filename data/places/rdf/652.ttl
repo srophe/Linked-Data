@@ -13,5 +13,11 @@
 <http://syriaca.org/place/652> a lawd:Place ;
 rdfs:label "Gusit"  ;
 dcterms:description "A village near ."  ;
+ lawd:hasName [
+lawd:primaryForm "Gusit"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Gousit"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥimṣ"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/652/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/652/tei>  .

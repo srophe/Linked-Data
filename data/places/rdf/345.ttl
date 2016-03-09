@@ -23,5 +23,21 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "is situated in Sīs, Cilicia. Patriarch John XII resided there in 1108. Between 1266 and 1279, it was burned three times by Egyptian troops, who also killed twenty-five monks. (See Bar Hebraeus, Chronography, pp. 523, 531, 542). Gregorius, metropolitan of Sīs, may have belonged to this monastery around 1290."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1108"  ;
+ lawd:hasName [
+lawd:primaryForm "Paksimeṭ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Baksimeṭ"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܦܩܝܣܡܐܛ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܦܰܩܝܣܡܰܐܛ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "باقسماط"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "فقسماط"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Baqismāt Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Phaqismāt Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/345/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/345/tei>  .

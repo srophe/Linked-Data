@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2461> a lawd:Place ;
 rdfs:label "Mar Gregory"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Gregory"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Gregory"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2461/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2461/tei>  .

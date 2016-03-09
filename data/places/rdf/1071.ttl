@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1071> a lawd:Place ;
 rdfs:label "Beth Ṣāṭi"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Ṣāṭi"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Ṣāṭi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1071/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1071/tei>  .

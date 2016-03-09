@@ -14,5 +14,11 @@
 rdfs:label "al-Thaghr"  ;
 dcterms:description "The border area of northern Syria and Mesopotamia between the Byzantine Empire and the caliphate."  ;
 dcterms:temporal "0982"  ;
+ lawd:hasName [
+lawd:primaryForm "al-Thaghr"@en  ;];
+ lawd:hasName [
+lawd:variantForm "الثغر"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "الثَغْر"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/567/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/567/tei>  .

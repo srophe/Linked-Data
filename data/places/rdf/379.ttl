@@ -23,5 +23,19 @@ rdfs:label "in the Mountain of Edessa, south of St. Cosmas Church. Built at the 
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0500"  ;
 skos:exactMatch <http://pleiades.stoa.org/places/662205>  ;
+ lawd:hasName [
+lawd:primaryForm "Dayro d-Qube"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܩܘܒ̈ܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܩܘܒ̈ܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير قوبا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "دير القبب"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Qūbā Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of the Domes"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/379/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/379/tei>  .

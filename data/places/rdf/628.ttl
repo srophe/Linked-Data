@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/628> a lawd:Place ;
 rdfs:label "Mar Yoḥannan of Dalyatha"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Yoḥannan of Dalyatha"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery of John of Dalyatha"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/628/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/628/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1811> a lawd:Place ;
 rdfs:label "Wīlā"  ;
+ lawd:hasName [
+lawd:primaryForm "Wīlā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1811/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1811/tei>  .

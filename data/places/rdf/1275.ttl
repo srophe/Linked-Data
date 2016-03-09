@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1275> a lawd:Place ;
 rdfs:label "Haṣār d-Bābāganjā"  ;
+ lawd:hasName [
+lawd:primaryForm "Haṣār d-Bābāganjā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Haṣār d'Bābāganjā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1275/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1275/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1604> a lawd:Place ;
 rdfs:label "Piyōz"  ;
+ lawd:hasName [
+lawd:primaryForm "Piyōz"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1604/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1604/tei>  .

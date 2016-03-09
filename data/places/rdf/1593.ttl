@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1593> a lawd:Place ;
 rdfs:label "Pārḥīlan"  ;
+ lawd:hasName [
+lawd:primaryForm "Pārḥīlan"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1593/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1593/tei>  .

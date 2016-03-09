@@ -14,5 +14,11 @@
 rdfs:label "St. Antony"  ;
 dcterms:description "A monastery in , 334 km southeast of ."  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Monastery_of_Saint_Anthony>  ;
+ lawd:hasName [
+lawd:primaryForm "St. Antony"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Egypt"  ;];
+ lawd:hasName [
+lawd:variantForm "Cairo"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/668/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/668/tei>  .

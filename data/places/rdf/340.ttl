@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "in Kafr al-Bīra, in the province of Apamea. It was built in the fifth century, but received no mention by historians before 535."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0535"  ;
+ lawd:hasName [
+lawd:primaryForm "Mor Eusebios of Kaprā d-Bartā"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܐܘܣܝܒ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܐܘܣܝܒ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار اوسيب"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ousib Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/340/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/340/tei>  .

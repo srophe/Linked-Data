@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/721> a lawd:Place ;
 rdfs:label "Mongolia"  ;
+ lawd:hasName [
+lawd:primaryForm "Mongolia"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/721/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/721/tei>  .

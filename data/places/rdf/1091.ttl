@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1091> a lawd:Place ;
 rdfs:label "Bezwāge"  ;
+ lawd:hasName [
+lawd:primaryForm "Bezwāge"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1091/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1091/tei>  .

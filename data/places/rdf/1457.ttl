@@ -14,5 +14,15 @@
 rdfs:label "Dayro d-Mor Isḥaq — ܕܝܪܐ ܕܡܪܝ ܐܝܣܚܩ"  ;
 dcterms:description "A monastery at al-Jabbūl near Aleppo."  ;
 dcterms:temporal "0521"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayro d-Mor Isḥaq"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܐܝܣܚܩ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܐܝܣܚܳܩ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار اسحق"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of St. Isaac"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1457/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1457/tei>  .

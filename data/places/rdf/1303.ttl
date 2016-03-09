@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1303> a lawd:Place ;
 rdfs:label "Ḥānānīs Taḥtayta"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥānānīs Taḥtayta"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥānānīs Taḥtaiṯā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1303/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1303/tei>  .

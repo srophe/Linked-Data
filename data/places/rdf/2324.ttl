@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2324> a lawd:Place ;
 rdfs:label "Kaṭai"  ;
+ lawd:hasName [
+lawd:primaryForm "Kaṭai"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ōng"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2324/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2324/tei>  .

@@ -14,5 +14,21 @@
 rdfs:label "Dayro da-Ṭlito — ܕܝܪܐ ܕܛܠܝܬܐ"  ;
 dcterms:description "An unlocated monastery."  ;
 dcterms:temporal "0715"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayro da-Ṭlito"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܛܠܝܬܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܰܛܠܺܝܬܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܡܰܠܽܘܛܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير ملوطا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "دير طليثا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of Beth Meluta"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of Ṭalitha"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1514/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1514/tei>  .

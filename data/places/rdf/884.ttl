@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/884> a lawd:Place ;
 rdfs:label "Adeḥ"  ;
+ lawd:hasName [
+lawd:primaryForm "Adeḥ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Āḏeḥ"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/884/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/884/tei>  .

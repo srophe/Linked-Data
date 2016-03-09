@@ -22,5 +22,23 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a town in the district of Rabiʿa, later Shabakhtan, northwest of Mardin."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1125"  ;
+ lawd:hasName [
+lawd:primaryForm "Tel Besme"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܬܠܒܣ̈ܡܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܬܶܠܒܣܡ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܬܶܠܒܶܣ̈ܡܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "تلّ بسم"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "تلّ بسمة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Tālbsam"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Tālbsma"@en  ;];
+ lawd:hasName [
+lawd:variantForm "تل بسمة"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/312/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/312/tei>  .

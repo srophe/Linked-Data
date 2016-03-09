@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1429> a lawd:Place ;
 rdfs:label "Mar Nuḥa"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Nuḥa"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Nūḥā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1429/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1429/tei>  .

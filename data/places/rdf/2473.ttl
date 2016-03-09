@@ -12,5 +12,29 @@
 
 <http://syriaca.org/place/2473> a lawd:Place ;
 rdfs:label "Mar Mikhaʾil of Tarʿil"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Mikhaʾil of Tarʿil"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Mīkhā'īl of Tarʿil"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mar Mikhaʾil of Taril"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mar Mikhaʾil of Tar‘il"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Mīkhā'īl of Taril"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Mīkhā'īl of Tar‘il"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mar Mikhaʾil of Taril"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mar Mikhaʾil of Tar’il"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mar Mikhaʾil of Taril"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mar Mikhaʾil of Taril"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mar Mikhaʾil of Tar‘il"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mar Mikhaʾil of Tar‘il"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2473/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2473/tei>  .

@@ -27,8 +27,17 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Suruç>  ;
 geo:location [
 geo:lat "36.97608"  ;
 geo:long "36.97608"  ;];
+ lawd:hasName [
+lawd:primaryForm "Serugh"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Saruj"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܣܪܘܓ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "سروج"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Sarug"@en  ;];
+ lawd:hasName [
+lawd:variantForm "سَرُوج"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/48/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/48/tei>  ;
-geo:location [
-geo:lat "36.97608"  ;
-geo:long "36.97608"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/48/tei>  .

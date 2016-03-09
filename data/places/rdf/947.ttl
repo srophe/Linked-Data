@@ -12,5 +12,11 @@
 
 <http://syriaca.org/place/947> a lawd:Place ;
 rdfs:label "ʿAnbi"  ;
+ lawd:hasName [
+lawd:primaryForm "ʿAnbi"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Anbi"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Anbi"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/947/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/947/tei>  .

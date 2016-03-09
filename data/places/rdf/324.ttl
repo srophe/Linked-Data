@@ -22,5 +22,13 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a village of Bazabdi, above Isfes."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1384"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥadl"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܚܕܠ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "حدل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥidl"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/324/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/324/tei>  .

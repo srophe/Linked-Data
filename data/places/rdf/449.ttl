@@ -22,5 +22,21 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "A village in the province of Nisibin; it is called Qaniq in Syriac."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1943"  ;
+ lawd:hasName [
+lawd:primaryForm "Kenki"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܟܢܟܝ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܟܶܢܟܝ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܩܰܐܢܰܩ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "كنكي"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "قانق"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Kaniq"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Qaniq"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/449/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/449/tei>  .

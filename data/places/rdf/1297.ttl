@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1297> a lawd:Place ;
 rdfs:label "Ḥadiānā"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥadiānā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1297/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1297/tei>  .

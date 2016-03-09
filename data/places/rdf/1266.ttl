@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1266> a lawd:Place ;
 rdfs:label "Hanere"  ;
+ lawd:hasName [
+lawd:primaryForm "Hanere"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1266/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1266/tei>  .

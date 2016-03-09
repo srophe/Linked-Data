@@ -22,5 +22,17 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a big village in Karkar, inhabited by Syrians until recent times."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1943"  ;
+ lawd:hasName [
+lawd:primaryForm "ʿUrbish"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܥܘܪܒܝܫ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܥܘܪܒܺܝܫ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "عوربيش"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Urbish"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Urbish"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/433/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/433/tei>  .

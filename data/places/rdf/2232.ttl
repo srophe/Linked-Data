@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/2232> a lawd:Place ;
 rdfs:label "Rabban Barburatū"  ;
+ lawd:hasName [
+lawd:primaryForm "Rabban Barburatū"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2232/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2232/tei>  .

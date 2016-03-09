@@ -12,5 +12,17 @@
 
 <http://syriaca.org/place/1437> a lawd:Place ;
 rdfs:label "Mata d-Mar Zayʿa"  ;
+ lawd:hasName [
+lawd:primaryForm "Mata d-Mar Zayʿa"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Māṯā d'Mār Zayʿā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mata d-Mar Zaya"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mata d-Mar Zay‘a"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Māṯā d'Mār Zayā"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Māṯā d'Mār Zay‘ā"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1437/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1437/tei>  .

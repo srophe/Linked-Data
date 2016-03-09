@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1598> a lawd:Place ;
 rdfs:label "Peḥḥen"  ;
+ lawd:hasName [
+lawd:primaryForm "Peḥḥen"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1598/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1598/tei>  .

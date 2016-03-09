@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2300> a lawd:Place ;
 rdfs:label "Erbil"  ;
+ lawd:hasName [
+lawd:primaryForm "Erbil"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʻArbel’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2300/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2300/tei>  .

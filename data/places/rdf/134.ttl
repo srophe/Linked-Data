@@ -1,2 +1,59 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/134> a lawd:Place ;
+rdfs:label "Maypherqaṭ — ܡܝܦܪܩܛ"  ;
+dcterms:description "A city north of the and east of ."  ;
+ dcterms:description [
+rdfs:label "ܛܒܝܒܳܐ ܗܘܳܬ ܕܰܡܕܝܢ̈ܬܳܐ ܕܐܳܡܺܝܕ ܠܓܰܪܒܰܝ ܡܰܕܢܚܳܗ̇ ܘܝܰܘܡܳܢ ܩܰܣܛܪܰܐ ܗܝ̣."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "كانت اشهر مدينة بديار بكر في شماليها الشرقي وهي الان بليدة."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "once the most famous city in the northeastern part of the province of Diyarbakir, now a small town."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0410"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/874573>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Silvan,_Turkey>  ;
+geo:location [
+geo:lat "38.1427855"  ;
+geo:long "38.1427855"  ;];
+ lawd:hasName [
+lawd:primaryForm "Maypherqaṭ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Martyropolis"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Silvan"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܡܝܦܪܩܛ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܡܝܺܦܰܪܩܰܛ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ميافارقين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Miyapharqin"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Maipherqat"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mayperqat"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Maiperqāṭ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "مَيّافارقِين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Tigris"  ;];
+ lawd:hasName [
+lawd:variantForm "Amida"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/134/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/134/tei>  ;
+dcterms:relation <http://syriaca.org/place/2338>  .

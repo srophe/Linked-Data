@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1603> a lawd:Place ;
 rdfs:label "Pīr Yedelan"  ;
+ lawd:hasName [
+lawd:primaryForm "Pīr Yedelan"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1603/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1603/tei>  .

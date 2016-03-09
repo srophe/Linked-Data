@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1562> a lawd:Place ;
 rdfs:label "Nairdūshā"  ;
+ lawd:hasName [
+lawd:primaryForm "Nairdūshā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1562/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1562/tei>  .

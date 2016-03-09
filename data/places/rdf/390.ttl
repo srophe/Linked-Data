@@ -23,5 +23,15 @@ rdfs:label "one of the biggest and most important monasteries in the Mountain of
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0600"  ;
 skos:exactMatch <http://pleiades.stoa.org/places/662181>  ;
+ lawd:hasName [
+lawd:primaryForm "Dayro d-Madnḥoye"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܕܢܚܝ̈ܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܡܰܕܢܚܳܝ̈ܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير المشارقة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of the Easterners"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/390/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/390/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1331> a lawd:Place ;
 rdfs:label "Ḥeṣṣā"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥeṣṣā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1331/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1331/tei>  .

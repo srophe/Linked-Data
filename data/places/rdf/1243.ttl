@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1243> a lawd:Place ;
 rdfs:label "Gūlīzan"  ;
+ lawd:hasName [
+lawd:primaryForm "Gūlīzan"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1243/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1243/tei>  .

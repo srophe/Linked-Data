@@ -17,5 +17,17 @@ rdfs:label "A prestigious Roman Catholic theological seminary in Mosul, Iraq, ca
  dcterms:description [
 rdfs:label "484. Seminary of St. John"@en  ;];
 dcterms:temporal "1878"  ;
+ lawd:hasName [
+lawd:primaryForm "Seminary of St. John (Mosul)"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Seminary of St. John"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Séminaire Syro-Chaldéen St. Jean"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Maʿhad Mār Yūḥannā al-Ḥabīb"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mahad Mār Yūḥannā al-Ḥabīb"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ma‘had Mār Yūḥannā al-Ḥabīb"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/477/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/477/tei>  .

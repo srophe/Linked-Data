@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2089> a lawd:Place ;
 rdfs:label "Mar Stephen"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Stephen"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Stephen"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2089/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2089/tei>  .

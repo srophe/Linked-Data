@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1061> a lawd:Place ;
 rdfs:label "Beth Rewai"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Rewai"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Rewai"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1061/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1061/tei>  .

@@ -22,5 +22,19 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a village on the Tigris, now in ruins, five hours journey northeast of Mosul."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0863"  ;
+ lawd:hasName [
+lawd:primaryForm "Bārimmān"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܐܪܡܐܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܰܐܪܡܰܐܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بارمّان"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "بارمّا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Baremmān"@en  ;];
+ lawd:hasName [
+lawd:variantForm "بارِمّا"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/295/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/295/tei>  .

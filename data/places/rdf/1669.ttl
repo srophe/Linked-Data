@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1669> a lawd:Place ;
 rdfs:label "Sanjābālū"  ;
+ lawd:hasName [
+lawd:primaryForm "Sanjābālū"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1669/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1669/tei>  .

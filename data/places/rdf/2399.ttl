@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/2399> a lawd:Place ;
 rdfs:label "ʻUlcismi’"  ;
+ lawd:hasName [
+lawd:primaryForm "ʻUlcismi’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2399/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2399/tei>  .

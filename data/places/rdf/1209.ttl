@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1209> a lawd:Place ;
 rdfs:label "Fakīrā"  ;
+ lawd:hasName [
+lawd:primaryForm "Fakīrā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1209/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1209/tei>  .

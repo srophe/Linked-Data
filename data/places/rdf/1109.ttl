@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1109> a lawd:Place ;
 rdfs:label "Būrāshān"  ;
+ lawd:hasName [
+lawd:primaryForm "Būrāshān"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1109/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1109/tei>  .

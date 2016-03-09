@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1237> a lawd:Place ;
 rdfs:label "Gol"  ;
+ lawd:hasName [
+lawd:primaryForm "Gol"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1237/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1237/tei>  .

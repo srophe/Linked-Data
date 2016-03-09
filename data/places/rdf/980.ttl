@@ -14,5 +14,17 @@
 rdfs:label "Bashosh"  ;
 dcterms:description "A village in northern Iraq."  ;
 dcterms:temporal "0779"  ;
+ lawd:hasName [
+lawd:variantForm "Shosh"  ;];
+ lawd:hasName [
+lawd:primaryForm "Bashosh"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Shosh"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bāshōsh"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Shōsh"@en  ;];
+ lawd:hasName [
+lawd:variantForm "الشوش"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/980/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/980/tei>  .

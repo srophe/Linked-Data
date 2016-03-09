@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1142> a lawd:Place ;
 rdfs:label "Dairikki"  ;
+ lawd:hasName [
+lawd:primaryForm "Dairikki"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1142/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1142/tei>  .

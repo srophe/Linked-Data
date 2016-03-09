@@ -13,5 +13,9 @@
 <http://syriaca.org/place/2542> a lawd:Place ;
 rdfs:label "Griḥa — ܓܪܝܚܐ"  ;
 dcterms:temporal "1477-11-29"  ;
+ lawd:hasName [
+lawd:primaryForm "Griḥa"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܓܪܝܚܐ"@syr  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2542/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2542/tei>  .

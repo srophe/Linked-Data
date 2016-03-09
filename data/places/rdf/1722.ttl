@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1722> a lawd:Place ;
 rdfs:label "Shūwash"  ;
+ lawd:hasName [
+lawd:primaryForm "Shūwash"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1722/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1722/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2251> a lawd:Place ;
 rdfs:label "ʻAmid, Siirt, Gazarta and the Bokhtaye’"  ;
+ lawd:hasName [
+lawd:primaryForm "ʻAmid, Siirt, Gazarta and the Bokhtaye’"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʻĀmid, Seert, Gāzartā and the Bokhtāye’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2251/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2251/tei>  .

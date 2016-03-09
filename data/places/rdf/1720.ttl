@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1720> a lawd:Place ;
 rdfs:label "Shūrd"  ;
+ lawd:hasName [
+lawd:primaryForm "Shūrd"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1720/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1720/tei>  .

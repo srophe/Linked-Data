@@ -16,5 +16,19 @@ dcterms:description "A village near ."  ;
 dcterms:temporal "1138"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Dayr_Tarif>  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Beit_Arif>  ;
+ lawd:hasName [
+lawd:primaryForm "Beth ʿArīf"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܝܬ ܥܪܝܦ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܶܝܬ ܥܰܪܺܝܦ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بيت عريف"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Beth Arīf"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Beth ‘Arīf"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Jerusalem"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1491/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1491/tei>  .

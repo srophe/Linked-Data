@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1376> a lawd:Place ;
 rdfs:label "Keyīkīlūi"  ;
+ lawd:hasName [
+lawd:primaryForm "Keyīkīlūi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1376/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1376/tei>  .

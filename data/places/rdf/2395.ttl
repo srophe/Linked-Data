@@ -12,5 +12,11 @@
 
 <http://syriaca.org/place/2395> a lawd:Place ;
 rdfs:label "Ṭamanon"  ;
+ lawd:hasName [
+lawd:primaryForm "Ṭamanon"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭamānōn"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Wasṭā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2395/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2395/tei>  .

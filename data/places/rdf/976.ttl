@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/976> a lawd:Place ;
 rdfs:label "Bāsh"  ;
+ lawd:hasName [
+lawd:primaryForm "Bāsh"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/976/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/976/tei>  .

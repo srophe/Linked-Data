@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2068> a lawd:Place ;
 rdfs:label "Mar Sarapion"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Sarapion"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Sarapion"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2068/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2068/tei>  .

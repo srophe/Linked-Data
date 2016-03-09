@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/931> a lawd:Place ;
 rdfs:label "Ayyel"  ;
+ lawd:hasName [
+lawd:primaryForm "Ayyel"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/931/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/931/tei>  .

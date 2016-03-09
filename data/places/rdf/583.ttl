@@ -14,5 +14,11 @@
 rdfs:label "Bohtan"  ;
 dcterms:description "A region of Kurdistan."  ;
 skos:exactMatch <http://pleiades.stoa.org/places/874488>  ;
+ lawd:hasName [
+lawd:primaryForm "Bohtan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bohtān"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Sherwāye"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/583/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/583/tei>  .

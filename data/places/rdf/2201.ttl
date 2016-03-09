@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2201> a lawd:Place ;
 rdfs:label "Mart Meskinta"  ;
+ lawd:hasName [
+lawd:primaryForm "Mart Meskinta"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mart Meskintā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2201/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2201/tei>  .

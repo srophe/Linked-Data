@@ -13,5 +13,9 @@
 <http://syriaca.org/place/1958> a lawd:Place ;
 rdfs:label "Patriarchal Cell at Wasṭā"  ;
 dcterms:description "A residence of the Catholicos of the Church of the East."  ;
+ lawd:hasName [
+lawd:primaryForm "Patriarchal Cell at Wasṭā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Patriarchal Cell"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1958/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1958/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2431> a lawd:Place ;
 rdfs:label "Hakots Vank"  ;
+ lawd:hasName [
+lawd:primaryForm "Hakots Vank"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Hakots Vank (Armenian)"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2431/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2431/tei>  .

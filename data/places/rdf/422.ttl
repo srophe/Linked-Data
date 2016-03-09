@@ -23,5 +23,17 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a town in the province of al-Ṣawr, populated by Syrians until the middle of the seventeenth century."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1549"  ;
+ lawd:hasName [
+lawd:primaryForm "Qāluq"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܩܐܠܘܩ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܩܰܐܠܘܩ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "قالوق"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Qālūq"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mardin"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/422/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/422/tei>  .

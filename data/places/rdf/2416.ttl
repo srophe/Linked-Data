@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2416> a lawd:Place ;
 rdfs:label "Abba Hbisha"  ;
+ lawd:hasName [
+lawd:primaryForm "Abba Hbisha"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Abbā Hbīshā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2416/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2416/tei>  .

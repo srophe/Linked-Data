@@ -17,5 +17,13 @@ rdfs:label "A monastic district southwest. of Alexandria (Egypt) on the coastal 
  dcterms:description [
 rdfs:label "196. The Enaton"@en  ;];
 dcterms:temporal "0451"  ;
+ lawd:hasName [
+lawd:primaryForm "The Enaton"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܐܢܛܘܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܰܢܛܘܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "أنطون"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/473/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/473/tei>  .

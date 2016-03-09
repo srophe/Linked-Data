@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "in the province of Antioch. It was in this monastery that Dionysius II resided in the middle of the seventh century and translated books of philosophy into our Syriac language."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0645"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Malka"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܒܝܬ ܡܠܟܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܒܶܝܬ ܡܰܠܟܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير بيث ملكي"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Beth Malke Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/393/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/393/tei>  .

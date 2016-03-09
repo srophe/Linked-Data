@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1047> a lawd:Place ;
 rdfs:label "Beth Narqōs"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Narqōs"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Narqōs"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1047/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1047/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2378> a lawd:Place ;
 rdfs:label "Soqoṭra"  ;
+ lawd:hasName [
+lawd:primaryForm "Soqoṭra"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Soqōṭrā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2378/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2378/tei>  .

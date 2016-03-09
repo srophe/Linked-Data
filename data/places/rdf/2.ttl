@@ -17,8 +17,21 @@ dcterms:temporal "1501"  ;
 geo:location [
 geo:lat "37.483889"  ;
 geo:long "37.483889"  ;];
+ lawd:hasName [
+lawd:primaryForm "Ṣalaḥ"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܨܠܚ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܨܰܠܚ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "صلح"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Salaḥ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur ʿAbdin"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2/tei>  ;
-geo:location [
-geo:lat "37.483889"  ;
-geo:long "37.483889"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/2/tei>  .

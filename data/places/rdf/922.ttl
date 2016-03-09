@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/922> a lawd:Place ;
 rdfs:label "Ātes"  ;
+ lawd:hasName [
+lawd:primaryForm "Ātes"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/922/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/922/tei>  .

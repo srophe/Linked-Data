@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2101> a lawd:Place ;
 rdfs:label "Mar Ṭalya"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Ṭalya"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Ṭalyā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2101/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2101/tei>  .

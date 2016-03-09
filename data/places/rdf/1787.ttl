@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1787> a lawd:Place ;
 rdfs:label "Ṭabyatha"  ;
+ lawd:hasName [
+lawd:primaryForm "Ṭabyatha"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭabyāṯā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1787/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1787/tei>  .

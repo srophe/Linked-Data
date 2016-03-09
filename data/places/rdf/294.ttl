@@ -22,5 +22,17 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a village north of Mosul on the Khuser Creek, ruined in the middle of the thirteenth century."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1225"  ;
+ lawd:hasName [
+lawd:primaryForm "Bājabbāra"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܝܬ ܓܢܒܪ̈ܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܐܓܒܐܪܗ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܶܝܬ ܓܰܢܒܳܪ̈ܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "باجبّارة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Bajabbara"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/294/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/294/tei>  .

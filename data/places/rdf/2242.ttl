@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/2242> a lawd:Place ;
 rdfs:label "Ṣūlṭān Mahdūkht"  ;
+ lawd:hasName [
+lawd:primaryForm "Ṣūlṭān Mahdūkht"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2242/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2242/tei>  .

@@ -20,8 +20,13 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Bodrum>  ;
 geo:location [
 geo:lat "37.042901"  ;
 geo:long "37.042901"  ;];
+ lawd:hasName [
+lawd:primaryForm "Halicarnassus"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܗܐܠܝܩܪܢܣܘܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܗܶܐܠܺܝܩܰܪܢܣܳܘܣ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "هاليكرناس"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1468/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1468/tei>  ;
-geo:location [
-geo:lat "37.042901"  ;
-geo:long "37.042901"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/1468/tei>  .

@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "of the Monastery of the Martyrs Sergius and Bacchus: its construction was begun by the monk Kiso Ashnawi of Azerbayjan Jubas in 958, but was not finished until 1001. One of the professors at its school was John, the pupil of Marun. From its founding until 1170, one Maphryono and ten bishops graduated from it."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0958"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayr Sarjīsiyya"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܣܪܓܝܣܝܗ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܣܰܪܓܝܣܝܗ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير سرجيسية"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Sarjīsiyya Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/359/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/359/tei>  .

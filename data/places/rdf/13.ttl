@@ -31,8 +31,19 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Erbil>  ;
 geo:location [
 geo:lat "36.191111"  ;
 geo:long "36.191111"  ;];
+ lawd:hasName [
+lawd:primaryForm "Arbela"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Erbil"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܐܪܒܝܠ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܰܪܒܝܠ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "اربل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Arbil"@en  ;];
+ lawd:hasName [
+lawd:variantForm "إِرْبِل"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/13/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/13/tei>  ;
-geo:location [
-geo:lat "36.191111"  ;
-geo:long "36.191111"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/13/tei>  .

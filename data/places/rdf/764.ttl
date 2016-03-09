@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/764> a lawd:Place ;
 rdfs:label "Mūkūs"  ;
+ lawd:hasName [
+lawd:primaryForm "Mūkūs"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/764/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/764/tei>  .

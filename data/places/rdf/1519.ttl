@@ -14,5 +14,13 @@
 rdfs:label "Ramtashir — ܪܡܬܫܝܪ"  ;
 dcterms:description "An unlocated village, the birthplace of ."  ;
 dcterms:temporal "0630"  ;
+ lawd:hasName [
+lawd:primaryForm "Ramtashir"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܪܡܬܫܝܪ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܪܰܡܰܬܫܺܝܪ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "رمتشير"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1519/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1519/tei>  .

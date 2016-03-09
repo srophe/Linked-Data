@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1163> a lawd:Place ;
 rdfs:label "Dīdān"  ;
+ lawd:hasName [
+lawd:primaryForm "Dīdān"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1163/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1163/tei>  .

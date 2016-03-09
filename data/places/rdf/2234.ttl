@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2234> a lawd:Place ;
 rdfs:label "Rabban Bokhtizad"  ;
+ lawd:hasName [
+lawd:primaryForm "Rabban Bokhtizad"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Rabban Bōkhtizad"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2234/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2234/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1411> a lawd:Place ;
 rdfs:label "Mākītā"  ;
+ lawd:hasName [
+lawd:primaryForm "Mākītā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1411/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1411/tei>  .

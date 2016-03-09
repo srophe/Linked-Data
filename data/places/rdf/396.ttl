@@ -22,5 +22,21 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "in the Mount of Edessa, south of the city of Edessa and the Nawāwīs Monastery. The chronicler monk of Zuqnin mentioned it in his history (c. 751). One Patriarch and some bishops graduated from it. It remained active until the thirteenth century."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0775"  ;
+ lawd:hasName [
+lawd:primaryForm "Yoldat Aloho"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܝܠܕܬ ܐܠܗܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܝܳܠܕܰܬ ܐܠܗܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܺܝܚܝ̈ܕܳܝܐ ܢܘܟܪ̈ܳܝܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير والدة الاله"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "دير المتوحدين الغرباء"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Mother of God Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of the Solitary Strangers"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/396/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/396/tei>  .

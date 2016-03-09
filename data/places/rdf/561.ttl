@@ -14,5 +14,17 @@
 rdfs:label "Mariba — ܡܪܝܒܐ"  ;
 dcterms:description "A village near ."  ;
 dcterms:temporal "1943"  ;
+ lawd:hasName [
+lawd:primaryForm "Mariba"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܡܪܝܒܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܡܰܪܝܒܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "مريبا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Murayba"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥarran"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/561/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/561/tei>  .

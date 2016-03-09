@@ -13,5 +13,9 @@
 <http://syriaca.org/place/1781> a lawd:Place ;
 rdfs:label "‘Tower of the Vine’"  ;
 dcterms:description "A location half an hour away from ."  ;
+ lawd:hasName [
+lawd:primaryForm "‘Tower of the Vine’"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Rabban Hormizd monastery"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1781/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1781/tei>  .

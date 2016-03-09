@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1024> a lawd:Place ;
 rdfs:label "Beth Gawsā"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Gawsā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Gawsā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1024/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1024/tei>  .

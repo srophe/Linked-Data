@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/779> a lawd:Place ;
 rdfs:label "Shwāwūtā"  ;
+ lawd:hasName [
+lawd:primaryForm "Shwāwūtā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Shwāwūṯā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/779/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/779/tei>  .

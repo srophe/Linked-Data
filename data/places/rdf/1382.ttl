@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1382> a lawd:Place ;
 rdfs:label "Khardes"  ;
+ lawd:hasName [
+lawd:primaryForm "Khardes"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥardes"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1382/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1382/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1264> a lawd:Place ;
 rdfs:label "Haltūn"  ;
+ lawd:hasName [
+lawd:primaryForm "Haltūn"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1264/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1264/tei>  .

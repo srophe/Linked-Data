@@ -23,5 +23,19 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "was built in the name of the Virgin and St. Theodorus. It is a small monastery hewn in the rocks in a mountain overlooking the Zaʿfaran Monastery and housed a group of monks. We have a great deal of information about it since the fourteenth century. At times it was administered by a bishop. It became empty, however, about 1927."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1400"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayro d-Noṭpo"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܢܛܦܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܢܛܦܳܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير القطرة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "دير الناطف"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Qaṭra Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Nāṭif Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/73/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/73/tei>  .

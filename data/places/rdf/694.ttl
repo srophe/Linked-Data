@@ -15,5 +15,15 @@ rdfs:label "Isparta — ܣܒܐܪܛܗ"  ;
 dcterms:description "A town of western west of and north of Antalya."  ;
 skos:exactMatch <http://pleiades.stoa.org/places/642531/>  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Isparta>  ;
+ lawd:hasName [
+lawd:primaryForm "Isparta"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܣܒܐܪܛܗ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܣܒܰܐܪܛܰܗ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "Anatolia"  ;];
+ lawd:hasName [
+lawd:variantForm "Konia"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/694/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/694/tei>  .

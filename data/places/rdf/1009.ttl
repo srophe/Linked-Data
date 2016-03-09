@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1009> a lawd:Place ;
 rdfs:label "Beth Bābe"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Bābe"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Bābe"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1009/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1009/tei>  .

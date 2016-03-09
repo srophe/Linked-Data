@@ -13,7 +13,7 @@
 <http://syriaca.org/place/221> a lawd:Place ;
 rdfs:label "Ṭur ʿAbdin — ܛܘܪܥܒܕܝܢ"  ;
  dcterms:description [
-rdfs:label "Properly speaking, Ṭur ʿAbdin (‘Mountain of the servants’) does not include the whole province of Mardin in Turkey, but only the limestone plateau in the eastern part of it, between the river Tigris and Nisibis.""@en  ;];
+rdfs:label "Properly speaking, Ṭur ʿAbdin (‘Mountain of the servants’) does not include the whole province of Mardin in Turkey, but only the limestone plateau in the eastern part of it, between the river Tigris and Nisibis."@en  ;];
  dcterms:description [
 rdfs:label "565. Ṭur ʿAbdin"@en  ;];
  dcterms:description [
@@ -31,8 +31,33 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Tur_Abdin>  ;
 geo:location [
 geo:lat "37.5"  ;
 geo:long "37.5"  ;];
+ lawd:hasName [
+lawd:primaryForm "Ṭur ʿAbdin"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܛܘܪܥܒܕܝܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܛܘܪܥܰܒܕܝܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "طورعبدين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Tur ʿAbdin"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Tur Abdin"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭūr ʿAbdīn"@en  ;];
+ lawd:hasName [
+lawd:variantForm "طور عَبْدِين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Tur Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Tur ‘Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭūr Abdīn"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭūr ‘Abdīn"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/221/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/221/tei>  ;
-geo:location [
-geo:lat "37.5"  ;
-geo:long "37.5"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/221/tei>  .

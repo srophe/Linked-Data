@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1764> a lawd:Place ;
 rdfs:label "Tel Ḥesh"  ;
+ lawd:hasName [
+lawd:primaryForm "Tel Ḥesh"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1764/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1764/tei>  .

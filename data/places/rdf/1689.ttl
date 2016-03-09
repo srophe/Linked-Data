@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1689> a lawd:Place ;
 rdfs:label "Sekūnis"  ;
+ lawd:hasName [
+lawd:primaryForm "Sekūnis"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1689/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1689/tei>  .

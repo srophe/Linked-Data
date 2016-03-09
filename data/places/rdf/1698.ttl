@@ -12,5 +12,11 @@
 
 <http://syriaca.org/place/1698> a lawd:Place ;
 rdfs:label "Shāḥ — ܫܟ"  ;
+ lawd:hasName [
+lawd:primaryForm "Shāḥ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Shākh"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܫܟ"@syr  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1698/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1698/tei>  .

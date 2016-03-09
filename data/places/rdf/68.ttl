@@ -1,2 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/68> a lawd:Place ;
+rdfs:label "Dayr al-Ṣalīb — ܕܝܪܐ ܕܨܠܝܒܐ"  ;
+ dcterms:description [
+rdfs:label "Monastery and village in Ṭur ʿAbdin."@en  ;];
+ dcterms:description [
+rdfs:label "466. al-Ṣalīb, Dayr"@en  ;];
+ dcterms:description [
+rdfs:label "ܒܶܝܬ ܙܰܐܙ ܠܚܰܣܢ ܟܺܐܦܐ ܒܛܘܪܥܰܒܕܝܢ. ܕܟܺܝܪ ܒܡܰܟܬܰܒܙܒ̈ܢܐ ܫܢܰܬ 775 ܗܘܳܐ ܟܘܽܪܣܝܳܐ ܠܐܶܦܺܝܣܩܘܦ̈ܐ ܕܚܰܐܚ 1089 - 1873 ܘܩܳܡ ܡܶܢܗ ܦܰܛܪܝܰܪܟܐ ܠܛܘܪܐ ܘܚܰܕ ܡܰܦܪܝܳܢܐ ܘܶܫܬܐ ܐܶܦܝܣܩܘ̈ܦܐ. ܘܰܒܡܶܨܥܳܝ̈ܬܳܐ ܕܕܳܪܐ ܕܰܥܒܰܪ ܗܘܳܐ ܩܪܝܬܳܐ ܙܥܘܪܬܐ. ܘܰܥܕܡܳܐ ܠܝܰܘܡܳܢ ܥܕܺܬܗ ܩܰܝܳܡܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "بين زاز وحصن كيفا في طور عبدين ذكر في التاريخ سنة 775 وصار كرسيا لأساقفة حاح (1089-1873) ونشأ منه بطرك للطور ومفريان وستة اساقفة، وفي اواسط القرن الماضي امسى قرية صغيرة ولا تزال بيعته عامرة"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "between Zāz and Ḥiṣn Kifa in Tur ʿAbdin, was first mentioned in history in 775. It was the see of the bishops of Ḥaḥ from 1089 to 1873. One Patriarch of Tur ʿAbdin, a Maphryono and six bishops graduated from it. In the middle of the last century it became the site of a small village, but its church still exists."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0775"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayr al-Ṣalīb"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Dayro da-Ṣlibo"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of the Cross"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of Beth El"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܨܠܝܒܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܰܨܠܝܒܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير الصليب"@ar  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/68/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/68/tei>  ;
+dcterms:relation <http://syriaca.org/place/367>  .

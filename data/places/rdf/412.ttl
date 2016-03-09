@@ -22,5 +22,17 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a village two hours journey northeast of Diyarbakr. It may be the village called Summaqli."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0500"  ;
+ lawd:hasName [
+lawd:primaryForm "Semqe"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܣܡܩ̈ܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܣܡܩ̈ܝ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "سمقا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "سمقي"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Semqa"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/412/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/412/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1281> a lawd:Place ;
 rdfs:label "Hbashkūbe"  ;
+ lawd:hasName [
+lawd:primaryForm "Hbashkūbe"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1281/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1281/tei>  .

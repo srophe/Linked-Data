@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/907> a lawd:Place ;
 rdfs:label "Āqōse"  ;
+ lawd:hasName [
+lawd:primaryForm "Āqōse"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/907/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/907/tei>  .

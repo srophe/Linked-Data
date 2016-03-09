@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1753> a lawd:Place ;
 rdfs:label "Takīdābād"  ;
+ lawd:hasName [
+lawd:primaryForm "Takīdābād"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1753/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1753/tei>  .

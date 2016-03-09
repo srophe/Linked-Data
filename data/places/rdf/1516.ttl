@@ -14,5 +14,15 @@
 rdfs:label "Tell Rumanin — ܬܠܪ̈ܘܡܢܝܢ"  ;
 dcterms:description "The location of an addressee of canons from ."  ;
 dcterms:temporal "0708"  ;
+ lawd:hasName [
+lawd:primaryForm "Tell Rumanin"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܬܠܪ̈ܘܡܢܝܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܬܶܠܪ̈ܘܡܢܺܝܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "تلرومنين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Tell Rumnin"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1516/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1516/tei>  .

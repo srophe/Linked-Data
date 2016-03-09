@@ -13,5 +13,9 @@
 <http://syriaca.org/place/659> a lawd:Place ;
 rdfs:label "Abba Ṣliba"  ;
 dcterms:description "A monastery in ."  ;
+ lawd:hasName [
+lawd:primaryForm "Abba Ṣliba"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beth Nuhadra"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/659/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/659/tei>  .

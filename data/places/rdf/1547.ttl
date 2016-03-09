@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1547> a lawd:Place ;
 rdfs:label "Meze"  ;
+ lawd:hasName [
+lawd:primaryForm "Meze"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1547/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1547/tei>  .

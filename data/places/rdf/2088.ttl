@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2088> a lawd:Place ;
 rdfs:label "Mar Shona"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Shona"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Shōnā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2088/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2088/tei>  .

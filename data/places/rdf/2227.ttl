@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2227> a lawd:Place ;
 rdfs:label "Church in Serkāfe"  ;
+ lawd:hasName [
+lawd:primaryForm "Church in Serkāfe"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Name not known"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2227/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2227/tei>  .

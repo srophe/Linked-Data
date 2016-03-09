@@ -14,5 +14,15 @@
 rdfs:label "Mar Quryaqos and Mart Yulita"  ;
 dcterms:description "A church in"  ;
 dcterms:temporal "1840"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Quryaqos and Mart Yulita"@en  ;];
+ lawd:hasName [
+lawd:variantForm "St. Kirik"@en  ;];
+ lawd:hasName [
+lawd:variantForm "St. Kirik and St. Yulita"@en  ;];
+ lawd:hasName [
+lawd:variantForm "St. Cyril"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Dimitrov"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2563/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2563/tei>  .

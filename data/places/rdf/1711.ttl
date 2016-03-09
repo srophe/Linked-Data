@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1711> a lawd:Place ;
 rdfs:label "Shimshājeyan"  ;
+ lawd:hasName [
+lawd:primaryForm "Shimshājeyan"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1711/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1711/tei>  .

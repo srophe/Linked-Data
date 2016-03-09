@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2441> a lawd:Place ;
 rdfs:label "Mar Abraham the Penitent"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Abraham the Penitent"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Abraham the Penitent"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2441/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2441/tei>  .

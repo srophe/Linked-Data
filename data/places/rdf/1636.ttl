@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1636> a lawd:Place ;
 rdfs:label "Qūrānā"  ;
+ lawd:hasName [
+lawd:primaryForm "Qūrānā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Qūrānā (ii)"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1636/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1636/tei>  .

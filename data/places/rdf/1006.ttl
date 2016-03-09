@@ -12,5 +12,17 @@
 
 <http://syriaca.org/place/1006> a lawd:Place ;
 rdfs:label "Beth ʿArbata"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth ʿArbata"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ ʿArbāṯā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beth Arbata"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Beth ‘Arbata"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Arbāṯā"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ ‘Arbāṯā"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1006/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1006/tei>  .

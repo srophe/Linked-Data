@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1228> a lawd:Place ;
 rdfs:label "Girik Bedrō"  ;
+ lawd:hasName [
+lawd:primaryForm "Girik Bedrō"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1228/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1228/tei>  .

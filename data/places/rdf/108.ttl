@@ -31,8 +31,29 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Kirkuk>  ;
 geo:location [
 geo:lat "35.468099"  ;
 geo:long "35.468099"  ;];
+ lawd:hasName [
+lawd:primaryForm "Karka d-Beth Slokh"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Kirkuk"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܟܪܟܐ ܕܒܝܬ ܣܠܘܟ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܟܪܟ ܣܠܘܟ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܟܰܪܟܘܟ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "كرخ سلوخ"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "كركوك"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Karkh Slukh"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Karka de Beth Selok"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Kirkūk"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Karkā d'Beṯ Ṣlōḥ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Slōḥ"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/108/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/108/tei>  ;
-geo:location [
-geo:lat "35.468099"  ;
-geo:long "35.468099"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/108/tei>  .

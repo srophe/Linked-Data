@@ -14,5 +14,7 @@
 rdfs:label "United Kingdom"  ;
 dcterms:description "An island nation off the northwestern coast of Europe."  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/United_Kingdom>  ;
+ lawd:hasName [
+lawd:primaryForm "United Kingdom"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/700/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/700/tei>  .

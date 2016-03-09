@@ -14,5 +14,17 @@
 rdfs:label "Dayro d-Nardas — ܕܝܪܐ ܕܢܪܕܣ"  ;
 dcterms:description "A monastery near ."  ;
 dcterms:temporal "0628"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayro d-Nardas"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܢܪܕܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܢܰܪܕܰܣ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير نردس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of Nardes"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mosul"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1522/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1522/tei>  .

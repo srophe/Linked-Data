@@ -18,5 +18,11 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
  dcterms:description [
 rdfs:label "a town east of Yarbuz in the Adana province."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ lawd:hasName [
+lawd:primaryForm "Ṣalāḥiyya"@en  ;];
+ lawd:hasName [
+lawd:variantForm "صلاحية"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ṣalaḥiyya"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/420/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/420/tei>  .

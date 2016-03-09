@@ -22,5 +22,13 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "an ancient town on the east bank of the Tigris, near the Great Zab."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0575"  ;
+ lawd:hasName [
+lawd:primaryForm "Qrunto"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܩܪܘܢܬܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "قرونتا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Qronta"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/423/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/423/tei>  .

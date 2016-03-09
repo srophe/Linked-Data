@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1051> a lawd:Place ;
 rdfs:label "Beth Qadshāye"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Qadshāye"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Qadshāye"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1051/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1051/tei>  .

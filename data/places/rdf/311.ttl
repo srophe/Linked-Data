@@ -23,5 +23,21 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "on the Euphrates, near Kharput."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1264"  ;
+ lawd:hasName [
+lawd:primaryForm "Tel Arsenius"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܬܠ ܐܪܣܐܢܝܘܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܬܶܠ ܐܰܪܣܰܐܢܝܘܣ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܬܶܠ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "تلّ ارسانيوس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "تيل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Tell Arsenius"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Euphrates"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/311/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/311/tei>  .

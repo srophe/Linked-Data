@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1249> a lawd:Place ;
 rdfs:label "Gūrjālūi"  ;
+ lawd:hasName [
+lawd:primaryForm "Gūrjālūi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1249/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1249/tei>  .

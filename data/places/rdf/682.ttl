@@ -13,5 +13,15 @@
 <http://syriaca.org/place/682> a lawd:Place ;
 rdfs:label "ʿAyn al-Tamr"  ;
 dcterms:description "A village near ."  ;
+ lawd:hasName [
+lawd:primaryForm "ʿAyn al-Tamr"@en  ;];
+ lawd:hasName [
+lawd:variantForm "عين التمر"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ayn al-Tamr"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Ayn al-Tamr"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥirta"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/682/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/682/tei>  .

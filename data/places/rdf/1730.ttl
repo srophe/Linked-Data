@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1730> a lawd:Place ;
 rdfs:label "Silmūan"  ;
+ lawd:hasName [
+lawd:primaryForm "Silmūan"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1730/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1730/tei>  .

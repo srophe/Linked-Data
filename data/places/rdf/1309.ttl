@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1309> a lawd:Place ;
 rdfs:label "Ḥarabsorik"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥarabsorik"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1309/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1309/tei>  .

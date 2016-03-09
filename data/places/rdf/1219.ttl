@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1219> a lawd:Place ;
 rdfs:label "Garmāwā"  ;
+ lawd:hasName [
+lawd:primaryForm "Garmāwā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1219/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1219/tei>  .

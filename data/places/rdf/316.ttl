@@ -27,8 +27,15 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Tennis,_Egypt>  ;
 geo:location [
 geo:lat "31.255258"  ;
 geo:long "31.255258"  ;];
+ lawd:hasName [
+lawd:primaryForm "Tinnīs"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܬܢܝܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "تِنّيس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Tinnis"@en  ;];
+ lawd:hasName [
+lawd:variantForm "تِنِّيْس"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/316/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/316/tei>  ;
-geo:location [
-geo:lat "31.255258"  ;
-geo:long "31.255258"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/316/tei>  .

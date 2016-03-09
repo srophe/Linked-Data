@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/748> a lawd:Place ;
 rdfs:label "Gizaresh"  ;
+ lawd:hasName [
+lawd:primaryForm "Gizaresh"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/748/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/748/tei>  .

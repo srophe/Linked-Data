@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1702> a lawd:Place ;
 rdfs:label "Shāpūṭ"  ;
+ lawd:hasName [
+lawd:primaryForm "Shāpūṭ"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1702/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1702/tei>  .

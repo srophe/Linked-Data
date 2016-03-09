@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1086> a lawd:Place ;
 rdfs:label "Beth Zeqte"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Zeqte"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Zeqte"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1086/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1086/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1896> a lawd:Place ;
 rdfs:label "Mar David"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar David"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār David"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1896/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1896/tei>  .

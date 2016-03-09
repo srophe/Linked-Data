@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1112> a lawd:Place ;
 rdfs:label "Būtūr"  ;
+ lawd:hasName [
+lawd:primaryForm "Būtūr"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1112/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1112/tei>  .

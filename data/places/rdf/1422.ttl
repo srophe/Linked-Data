@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1422> a lawd:Place ;
 rdfs:label "Margen"  ;
+ lawd:hasName [
+lawd:primaryForm "Margen"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1422/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1422/tei>  .

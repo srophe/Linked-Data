@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/966> a lawd:Place ;
 rdfs:label "Barbuk"  ;
+ lawd:hasName [
+lawd:primaryForm "Barbuk"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/966/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/966/tei>  .

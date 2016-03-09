@@ -12,5 +12,13 @@
 
 <http://syriaca.org/place/1208> a lawd:Place ;
 rdfs:label "ʿEṣṣān"  ;
+ lawd:hasName [
+lawd:primaryForm "ʿEṣṣān"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ṣeyān"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Eṣṣān"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Eṣṣān"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1208/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1208/tei>  .

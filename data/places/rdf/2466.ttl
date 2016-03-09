@@ -12,5 +12,17 @@
 
 <http://syriaca.org/place/2466> a lawd:Place ;
 rdfs:label "Mar Ishoʿraḥma"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Ishoʿraḥma"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Ishōʿraḥmā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mar Ishoraḥma"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mar Isho‘raḥma"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Ishōraḥmā"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Ishō‘raḥmā"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2466/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2466/tei>  .

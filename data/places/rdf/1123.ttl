@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1123> a lawd:Place ;
 rdfs:label "Chambā d-Kūrḥe"  ;
+ lawd:hasName [
+lawd:primaryForm "Chambā d-Kūrḥe"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Chambā d'Kūrḥe"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1123/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1123/tei>  .

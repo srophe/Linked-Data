@@ -14,5 +14,15 @@
 rdfs:label "Tirminaz — ܬܪܡܢܙ"  ;
 dcterms:description "A place near ."  ;
 dcterms:temporal "0817"  ;
+ lawd:hasName [
+lawd:primaryForm "Tirminaz"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܬܪܡܢܙ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܬܰܪܡܢܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ترمناز"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Cyrrhus"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1509/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1509/tei>  .

@@ -1,2 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/343> a lawd:Place ;
+rdfs:label "Mor Bosus — ܕܝܪܐ ܕܡܪܝ ܒܣܘܣ"  ;
+ dcterms:description [
+rdfs:label "ܒܩܘܪܒܳܐ ܕܚܰܐܪܡ ܒܶܝܬ ܐܘܦܘܡܺܝܰܐ ܠܰܚܡܶܨ ܕܰܝܪܐ ܫܒܝܚܳܐ. ܝܺܨܶܦ ܕܒܶܢܝܳܢܗ ܡܶܛܠ ܐܰܠܳܗܐ ܪܝܫܳܢܐ ܦܶܛܪܘܣ ܒܰܪ ܝܰܘܣܦ ܚܶܡܨܳܝܐ ܣܘܪܝܳܝܳܐ ܐܰܝܟ ܫܢܰܬ 480 ܘܫܰܟܶܢ ܠܗ ܫܘ̈ܟܢܐ ܕܡܰܪܕܶܝܢ ܥܰܠ ܐܢܳܫ̈ܘܗܝ ܙܝܳܢܬܗܘܢ. ܘܡܰܛܝ ܡܶܢܝܳܢ ܕܰܝܪ̈ܳܝܰܘܗܝ ܒܕܳܪܳܐ ܕܒܳܬܪ ܫܬܳܐ ܐܰܠܦܝ̈ܢ ܘܰܬܠܳܬܡܐܐ ܘܥܰܡܝܪ ܗܘܳܐ ܥܕܰܡܐ ܠܰܫܢܰܬ 830 ܘܐܶܬܢܰܦܰܩܘ ܒܗ 3 ܐܶܦܝܣܩܘܦ̈ܐ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "بقرب حارم بين اوفيمية وحمص. دير مشهور جليل تطوّع ببنائه لوجه الله الكريم، الوجيه بطرس بن يوسف الحمصي السرياني نحو سنة 480 وحبس عليه اوقافاً جليلة تدرّ على اهله ارزاقهم، فبلغ رهبانه في العقد الثالث من القرن التالي ستة آلاف و ثلثمائة، وكان عامرا حتى سنة 830 و تخرج فيه ثلاثة اساقفة"@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "near Ḥārim, between Euphemia and Ḥomṣ, is a famous and great monastery which was built in 480 through the private donation of the eminent Syrian Peter bin Joseph of Ḥomṣ, who bequeathed a great deal of property for the sustenance of its monks. In the third decade of the fifth century, its monks numbered 6,300. It remained populated until 830 and produced three bishops."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0518"  ;
+ lawd:hasName [
+lawd:primaryForm "Mor Bosus"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܒܣܘܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܒܳܣܘܣ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار باسوس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Bāsūs Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery of Mar Bassus"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mor Bosus"  ;];
+ lawd:hasName [
+lawd:variantForm "Mor Bosus"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/343/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/343/tei>  ;
+dcterms:relation <http://syriaca.org/place/571>  .

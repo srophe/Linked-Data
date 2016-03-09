@@ -14,5 +14,31 @@
 rdfs:label "Beth Manʿem — ܒܝܬ ܡܢܥܡ"  ;
 dcterms:description "A village in southeast of ."  ;
 dcterms:temporal "0925"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Manʿem"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܝܬ ܡܢܥܡ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܶܝܬ ܡܰܢܥܡ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بانمعم"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Banimʿim"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beth Manem"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Beth Man‘em"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Banimim"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Banim‘im"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur ʿAbdin"  ;];
+ lawd:hasName [
+lawd:variantForm "Midyat"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/243/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/243/tei>  .

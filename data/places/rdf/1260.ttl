@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1260> a lawd:Place ;
 rdfs:label "Halbi"  ;
+ lawd:hasName [
+lawd:primaryForm "Halbi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1260/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1260/tei>  .

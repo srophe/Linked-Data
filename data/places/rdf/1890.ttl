@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1890> a lawd:Place ;
 rdfs:label "Mar Babai"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Babai"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Babaï"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1890/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1890/tei>  .

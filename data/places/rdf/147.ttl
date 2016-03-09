@@ -18,8 +18,23 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Orontes_River>  ;
 geo:location [
 geo:lat "35.2728339"  ;
 geo:long "35.2728339"  ;];
+ lawd:hasName [
+lawd:primaryForm "Orontes"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʿĀṣī"@en  ;];
+ lawd:hasName [
+lawd:variantForm "الأُرُنْد"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "العاصي"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Āṣī"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Āṣī"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Syria"  ;];
+ lawd:hasName [
+lawd:variantForm "Emesa"  ;];
+ lawd:hasName [
+lawd:variantForm "Antioch"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/147/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/147/tei>  ;
-geo:location [
-geo:lat "35.2728339"  ;
-geo:long "35.2728339"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/147/tei>  .

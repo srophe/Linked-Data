@@ -15,5 +15,19 @@ rdfs:label "al-Wāsiṭ — ܘܐܣܛ"  ;
 dcterms:description "A city of southern Iraq on the west bank of the ."  ;
 dcterms:temporal "0714"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Wasit,_Iraq>  ;
+ lawd:hasName [
+lawd:primaryForm "al-Wāsiṭ"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܘܐܣܛ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܘܰܐܣܛ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "واسط"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Wasit"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Tigris"  ;];
+ lawd:hasName [
+lawd:variantForm "Kashkar"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/509/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/509/tei>  .

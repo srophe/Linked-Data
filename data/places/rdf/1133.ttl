@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1133> a lawd:Place ;
 rdfs:label "Chiyānā"  ;
+ lawd:hasName [
+lawd:primaryForm "Chiyānā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1133/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1133/tei>  .

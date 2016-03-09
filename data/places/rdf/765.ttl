@@ -12,5 +12,11 @@
 
 <http://syriaca.org/place/765> a lawd:Place ;
 rdfs:label "Outer Salaḥ"  ;
+ lawd:hasName [
+lawd:primaryForm "Outer Salaḥ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Outer Salāḥ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Salāḥ of Narsaï"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/765/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/765/tei>  .

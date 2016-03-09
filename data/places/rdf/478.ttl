@@ -18,5 +18,7 @@ rdfs:label "German excavations (1904–7), conducted near Bulayıq, north of Tur
 rdfs:label "566. Turfan, Syriac texts from"@en  ;];
 dcterms:temporal "0900"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Turpan>  ;
+ lawd:hasName [
+lawd:primaryForm "Turfan"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/478/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/478/tei>  .

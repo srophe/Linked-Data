@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/731> a lawd:Place ;
 rdfs:label "Artushi"  ;
+ lawd:hasName [
+lawd:primaryForm "Artushi"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Artushi Kurdish district"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/731/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/731/tei>  .

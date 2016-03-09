@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1991> a lawd:Place ;
 rdfs:label "Mar Imama and Mar Daniel"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Imama and Mar Daniel"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Imāmā and Mār Daniel"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1991/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1991/tei>  .

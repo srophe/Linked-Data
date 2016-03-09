@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1808> a lawd:Place ;
 rdfs:label "Wasṭa"  ;
+ lawd:hasName [
+lawd:primaryForm "Wasṭa"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Wasṭā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1808/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1808/tei>  .

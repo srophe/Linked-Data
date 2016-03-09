@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1043> a lawd:Place ;
 rdfs:label "Beth Mishmish"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Mishmish"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Mishmish"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1043/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1043/tei>  .

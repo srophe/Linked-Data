@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2419> a lawd:Place ;
 rdfs:label "Bar Ḥadbshabba"  ;
+ lawd:hasName [
+lawd:primaryForm "Bar Ḥadbshabba"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bar Ḥadbshabbā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2419/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2419/tei>  .

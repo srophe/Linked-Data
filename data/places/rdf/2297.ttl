@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/2297> a lawd:Place ;
 rdfs:label "ʻDutra’"  ;
+ lawd:hasName [
+lawd:primaryForm "ʻDutra’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2297/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2297/tei>  .

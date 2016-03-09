@@ -23,5 +23,17 @@ rdfs:label "near the village of Zarjal in al-Bushayriyya, in the province of Diy
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1400"  ;
 skos:exactMatch <http://pleiades.stoa.org/places/874439>  ;
+ lawd:hasName [
+lawd:primaryForm "Mor Quryaqos"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܩܘܪܝܐܩܘܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܩܘܽܪܝܰܐܩܘܣ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار قرياقس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Quryaqos Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Quriāqōs (West Syrian)"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/377/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/377/tei>  .

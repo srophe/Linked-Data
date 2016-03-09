@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1580> a lawd:Place ;
 rdfs:label "Nūhāwā"  ;
+ lawd:hasName [
+lawd:primaryForm "Nūhāwā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Nūwābā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1580/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1580/tei>  .

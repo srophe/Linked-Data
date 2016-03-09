@@ -23,5 +23,17 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a district about six leagues from Ḥomṣ, towards Damascus,situated between the mountains of Lebanon and Sinnir. Today it is a small village, recently built near the ruins of ancient Josya."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0600"  ;
+ lawd:hasName [
+lawd:primaryForm "Jūsiya"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܓܘܣܝܗ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "جوسية"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Josya"@en  ;];
+ lawd:hasName [
+lawd:variantForm "جُوْسِية"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Emesa"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/323/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/323/tei>  .

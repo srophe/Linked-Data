@@ -14,5 +14,15 @@
 rdfs:label "Shagre — ܫܓܪ̈ܐ"  ;
 dcterms:description "A village near ."  ;
 dcterms:temporal "1943"  ;
+ lawd:hasName [
+lawd:primaryForm "Shagre"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܫܓܪ̈ܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "الشغر"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Shaghr"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Qlisuro"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/550/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/550/tei>  .

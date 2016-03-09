@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1771> a lawd:Place ;
 rdfs:label "Tel Sebīn"  ;
+ lawd:hasName [
+lawd:primaryForm "Tel Sebīn"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1771/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1771/tei>  .

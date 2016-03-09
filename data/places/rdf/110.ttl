@@ -1,2 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/110> a lawd:Place ;
+rdfs:label "Karamlish"  ;
+ dcterms:description [
+rdfs:label "A small town located between the Tigris and the Upper Zab, some 15 km. southeast of Mosul, between Barṭelle and Qaraqosh."@en  ;];
+ dcterms:description [
+rdfs:label "315. Karamlish"@en  ;];
+dcterms:temporal "1317"  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Karamlish>  ;
+geo:location [
+geo:lat "36.303611"  ;
+geo:long "36.303611"  ;];
+ lawd:hasName [
+lawd:primaryForm "Karamlish"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Garmshā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "كرمليس"@ar  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/110/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/110/tei>  ;
+dcterms:relation <http://syriaca.org/place/2335>  .

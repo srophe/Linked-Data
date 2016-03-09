@@ -18,8 +18,15 @@ skos:exactMatch <http://pleiades.stoa.org/places/874536>  ;
 geo:location [
 geo:lat "37.344308"  ;
 geo:long "37.344308"  ;];
+ lawd:hasName [
+lawd:primaryForm "Mar Yoḥannan of Kamul"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery of Mar Yohannan Qamulaya"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Yōḥannān of Beṯ Garmaï and Ūkāmā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Kamūl"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Gazarta"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/128/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/128/tei>  ;
-geo:location [
-geo:lat "37.344308"  ;
-geo:long "37.344308"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/128/tei>  .

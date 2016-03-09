@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/974> a lawd:Place ;
 rdfs:label "Barzāne"  ;
+ lawd:hasName [
+lawd:primaryForm "Barzāne"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/974/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/974/tei>  .

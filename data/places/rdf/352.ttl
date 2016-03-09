@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "in the mountain of Sinjar, is first mentioned in history in the sixth century. From it graduated Maphryono Paul in 722 and the monk David Bar Paul in the beginning of the ninth century."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0600"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayro da-Knushyo"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܟܢܘܫܝܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܰܟܢܘܫܝܳܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير خنوشيا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Khanushya Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/352/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/352/tei>  .

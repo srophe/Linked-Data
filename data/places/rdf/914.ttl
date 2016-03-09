@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/914> a lawd:Place ;
 rdfs:label "Armānīs"  ;
+ lawd:hasName [
+lawd:primaryForm "Armānīs"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/914/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/914/tei>  .

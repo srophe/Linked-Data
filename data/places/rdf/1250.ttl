@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1250> a lawd:Place ;
 rdfs:label "Guske"  ;
+ lawd:hasName [
+lawd:primaryForm "Guske"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1250/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1250/tei>  .

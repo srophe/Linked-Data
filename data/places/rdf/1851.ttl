@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1851> a lawd:Place ;
 rdfs:label "Dominican church"  ;
+ lawd:hasName [
+lawd:primaryForm "Dominican church"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1851/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1851/tei>  .

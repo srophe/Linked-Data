@@ -29,8 +29,21 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Carcathiocerta>  ;
 geo:location [
 geo:lat "38.25661"  ;
 geo:long "38.25661"  ;];
+ lawd:hasName [
+lawd:primaryForm "Ingila"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܐܓܠ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܰܓܶܠ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "اكل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Agel"@en  ;];
+ lawd:hasName [
+lawd:variantForm "انجل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Tigris"  ;];
+ lawd:hasName [
+lawd:variantForm "Amida"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/102/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/102/tei>  ;
-geo:location [
-geo:lat "38.25661"  ;
-geo:long "38.25661"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/102/tei>  .

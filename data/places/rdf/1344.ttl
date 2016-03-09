@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1344> a lawd:Place ;
 rdfs:label "Ikīwailāri"  ;
+ lawd:hasName [
+lawd:primaryForm "Ikīwailāri"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1344/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1344/tei>  .

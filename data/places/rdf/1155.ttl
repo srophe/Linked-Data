@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1155> a lawd:Place ;
 rdfs:label "Dayr Abūn"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayr Abūn"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Deir Abūn"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1155/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1155/tei>  .

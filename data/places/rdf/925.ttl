@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/925> a lawd:Place ;
 rdfs:label "Arsham"  ;
+ lawd:hasName [
+lawd:primaryForm "Arsham"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Arsham"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/925/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/925/tei>  .

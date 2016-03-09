@@ -23,5 +23,25 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a town between Dara and Rish ʿAyna, southwest of Mardin; now only a village."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0869"  ;
+ lawd:hasName [
+lawd:primaryForm "Kfartuto"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܟܦܪܬܘܬ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܟܦܰܪܬܘܬ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "كفرتوث"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Kafrtūt"@en  ;];
+ lawd:hasName [
+lawd:variantForm "كفرتُوْثا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Reshayna"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Resh‘ayna"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mardin"  ;];
+ lawd:hasName [
+lawd:variantForm "Reshʿayna"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/113/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/113/tei>  .

@@ -22,5 +22,21 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a village about two hours journey south of Mardin, heavily populated by Syrians."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1718"  ;
+ lawd:hasName [
+lawd:primaryForm "Quṣūr"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܩܨܪ̈ܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܩܨܘܪ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܓܽܘܠܠܝܶܗ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "قصور"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "الكولية"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Quṣur"@en  ;];
+ lawd:hasName [
+lawd:variantForm "al-Kawliyya"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/425/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/425/tei>  .

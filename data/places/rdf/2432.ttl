@@ -12,5 +12,19 @@
 
 <http://syriaca.org/place/2432> a lawd:Place ;
 rdfs:label "Klilishoʿ"  ;
+ lawd:hasName [
+lawd:primaryForm "Klilishoʿ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Klīlīshōʿ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "دير الجاثليق"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Klilisho"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Klilisho‘"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Klīlīshō"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Klīlīshō‘"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2432/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2432/tei>  .

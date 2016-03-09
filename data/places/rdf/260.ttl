@@ -27,5 +27,21 @@ rdfs:label "a large village in the province of Nineveh, north of Mosul."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1153"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Bartella>  ;
+ lawd:hasName [
+lawd:primaryForm "Barṭelle"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܪܛܠܗ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܰܪܛܶܠܗ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "برطلى"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Barṭille"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Barṭallāh"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Bar Ṭelaï"@en  ;];
+ lawd:hasName [
+lawd:variantForm "بَرطُلَّى"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/260/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/260/tei>  .

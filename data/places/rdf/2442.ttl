@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2442> a lawd:Place ;
 rdfs:label "Mar ʻAbupus’"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar ʻAbupus’"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār ʻAbupus’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2442/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2442/tei>  .

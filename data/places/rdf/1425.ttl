@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1425> a lawd:Place ;
 rdfs:label "Mārwānan"  ;
+ lawd:hasName [
+lawd:primaryForm "Mārwānan"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1425/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1425/tei>  .

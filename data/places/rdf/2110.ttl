@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2110> a lawd:Place ;
 rdfs:label "Mar Tuḥmano"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Tuḥmano"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Tuḥmānō"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2110/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2110/tei>  .

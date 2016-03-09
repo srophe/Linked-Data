@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1235> a lawd:Place ;
 rdfs:label "Balu"  ;
+ lawd:hasName [
+lawd:primaryForm "Balu"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bālū"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1235/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1235/tei>  .

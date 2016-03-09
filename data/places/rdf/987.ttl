@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/987> a lawd:Place ;
 rdfs:label "Beḥmā"  ;
+ lawd:hasName [
+lawd:primaryForm "Beḥmā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/987/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/987/tei>  .

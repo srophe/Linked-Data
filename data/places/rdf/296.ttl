@@ -22,5 +22,19 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "an ancient town in Karkar (in Iraq)."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1191"  ;
+ lawd:hasName [
+lawd:primaryForm "Bārūmāna"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܐܪܘܡܐܢܗ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܪܘܡܐܢܗ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بارومانة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "رومانة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Barumana"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Rumana"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/296/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/296/tei>  .

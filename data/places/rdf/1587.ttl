@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1587> a lawd:Place ;
 rdfs:label "Ōshik"  ;
+ lawd:hasName [
+lawd:primaryForm "Ōshik"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1587/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1587/tei>  .

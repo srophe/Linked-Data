@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/2353> a lawd:Place ;
 rdfs:label "ʻPersian Borders’"  ;
+ lawd:hasName [
+lawd:primaryForm "ʻPersian Borders’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2353/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2353/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2525> a lawd:Place ;
 rdfs:label "Mar Awgin"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Awgin"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Awgin"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2525/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2525/tei>  .

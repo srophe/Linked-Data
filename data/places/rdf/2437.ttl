@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2437> a lawd:Place ;
 rdfs:label "Mar Abraham of Nathpar"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Abraham of Nathpar"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Abraham of Naṯpar"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2437/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2437/tei>  .

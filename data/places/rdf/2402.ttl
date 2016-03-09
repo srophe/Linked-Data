@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2402> a lawd:Place ;
 rdfs:label "Urfa"  ;
+ lawd:hasName [
+lawd:primaryForm "Urfa"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Urfa (patriarchal vicariate)"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2402/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2402/tei>  .

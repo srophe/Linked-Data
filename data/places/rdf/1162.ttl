@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1162> a lawd:Place ;
 rdfs:label "Derres"  ;
+ lawd:hasName [
+lawd:primaryForm "Derres"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1162/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1162/tei>  .

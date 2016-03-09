@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1652> a lawd:Place ;
 rdfs:label "Razgā"  ;
+ lawd:hasName [
+lawd:primaryForm "Razgā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1652/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1652/tei>  .

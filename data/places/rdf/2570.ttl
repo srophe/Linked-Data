@@ -13,5 +13,9 @@
 <http://syriaca.org/place/2570> a lawd:Place ;
 rdfs:label "Michigan"  ;
 dcterms:description "A state in the ."  ;
+ lawd:hasName [
+lawd:primaryForm "Michigan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "United States of America"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2570/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2570/tei>  .

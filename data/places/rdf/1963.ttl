@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1963> a lawd:Place ;
 rdfs:label "Beth Gawaya"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Gawaya"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Gāwāyā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1963/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1963/tei>  .

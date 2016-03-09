@@ -19,8 +19,19 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Tripoli,_Lebanon>  ;
 geo:location [
 geo:lat "34.43333"  ;
 geo:long "34.43333"  ;];
+ lawd:hasName [
+lawd:primaryForm "Tripolis"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Tripoli"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܛܪܝܦܘܠܝܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܛܪܺܝܦܳܘܽܠܝܺܣ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "طرابلس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "اطرابُلس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Beirut"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/203/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/203/tei>  ;
-geo:location [
-geo:lat "34.43333"  ;
-geo:long "34.43333"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/203/tei>  .

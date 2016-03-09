@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1594> a lawd:Place ;
 rdfs:label "Parrāshin"  ;
+ lawd:hasName [
+lawd:primaryForm "Parrāshin"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1594/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1594/tei>  .

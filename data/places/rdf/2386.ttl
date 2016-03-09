@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/2386> a lawd:Place ;
 rdfs:label "Tarsus and Malatya"  ;
+ lawd:hasName [
+lawd:primaryForm "Tarsus and Malatya"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2386/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2386/tei>  .

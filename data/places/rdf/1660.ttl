@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1660> a lawd:Place ;
 rdfs:label "Rūgāmīsh"  ;
+ lawd:hasName [
+lawd:primaryForm "Rūgāmīsh"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1660/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1660/tei>  .

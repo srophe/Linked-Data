@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1726> a lawd:Place ;
 rdfs:label "Sidos"  ;
+ lawd:hasName [
+lawd:primaryForm "Sidos"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Sīdōs"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1726/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1726/tei>  .

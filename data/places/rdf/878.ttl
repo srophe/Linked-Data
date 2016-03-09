@@ -14,5 +14,13 @@
 rdfs:label "Vatican — ܘܐܬܝܩܐܢ"  ;
 dcterms:description "A portion of the city of Rome."  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Vatican_Hill>  ;
+ lawd:hasName [
+lawd:primaryForm "Vatican"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܘܐܬܝܩܐܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܘܰܐܬܝܩܰܐܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "الواتيكان"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/878/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/878/tei>  .

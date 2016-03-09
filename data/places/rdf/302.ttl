@@ -22,5 +22,25 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a town two day journey north of Diyarbakir."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1526"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Sheriye"@en  ;];
+ lawd:hasName [
+lawd:variantForm "al-Bsheriyyeh"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bsheriyyeh"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܝܬ ܫܐܪ̈ܝܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܶܝܬ ܫܶܐܪ̈ܺܝܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܶܫܶܝܪܺܝܶܗ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بشيريّة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "اللام"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Bushayriyya"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bshīr"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/302/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/302/tei>  .

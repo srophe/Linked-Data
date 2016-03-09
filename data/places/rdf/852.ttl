@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/852> a lawd:Place ;
 rdfs:label "Maḥoze d-Arewan"  ;
+ lawd:hasName [
+lawd:primaryForm "Maḥoze d-Arewan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Māḥōze d'Arewān"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/852/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/852/tei>  .

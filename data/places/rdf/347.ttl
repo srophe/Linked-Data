@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "in Ḥarran. A synod met there in 793. It produced one Patriarch and three bishops and remained active until 975."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0793"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayro d-Beth Botin"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܒܝܬ ܒܬܝ̈ܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܒܶܝܬ ܒܳܬܝ̈ܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير بيث باتين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Beth Bātīn Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/347/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/347/tei>  .

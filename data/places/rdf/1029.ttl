@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1029> a lawd:Place ;
 rdfs:label "Beth Handawāyā"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Handawāyā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Handawāyā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1029/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1029/tei>  .

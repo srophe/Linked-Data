@@ -19,8 +19,21 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Palu,_Elazığ>  ;
 geo:location [
 geo:lat "38.705472"  ;
 geo:long "38.705472"  ;];
+ lawd:hasName [
+lawd:primaryForm "Bālū"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܐܠܘ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܰܐܠܘ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بالو"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Balū"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mamūrat al-Azīz"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ma‘mūrat al-‘Azīz"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Maʿmūrat al-ʿAzīz"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/520/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/520/tei>  ;
-geo:location [
-geo:lat "38.705472"  ;
-geo:long "38.705472"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/520/tei>  .

@@ -13,5 +13,15 @@
 <http://syriaca.org/place/513> a lawd:Place ;
 rdfs:label "al-Ṣawr — ܨܘܪܐ"  ;
 dcterms:description "A district near ."  ;
+ lawd:hasName [
+lawd:primaryForm "al-Ṣawr"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܨܘܪܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܨܰܘܪܳܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "الصور"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Mardin"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/513/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/513/tei>  .

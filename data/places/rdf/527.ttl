@@ -14,5 +14,21 @@
 rdfs:label "Ḥiṣn Maslama Ibn ʿAbd al-Malik — ܚܣܢ ܡܣܠܡܗ ܒܢ ܥܒܕ ܐܠܡܠܟ"  ;
 dcterms:description "Not far from ."  ;
 dcterms:temporal "1225"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥiṣn Maslama Ibn ʿAbd al-Malik"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܚܣܢ ܡܣܠܡܗ ܒܢ ܥܒܕ ܐܠܡܠܟ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܚܰܣܰܢ ܡܰܣܠܡܗ ܒܶܢ ܥܰܒܕ ܐܠܡܠܟ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "حصن مسلمة بن عبد الملك"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "حصن مسلمة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥiṣn Maslama Ibn Abd al-Malik"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥiṣn Maslama Ibn ‘Abd al-Malik"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Tell Maḥre"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/527/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/527/tei>  .

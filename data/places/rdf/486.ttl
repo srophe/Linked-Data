@@ -16,5 +16,21 @@ dcterms:description "A historical region bounded on the north by the and the Tau
 dcterms:temporal "-0200"  ;
 skos:exactMatch <http://pleiades.stoa.org/places/1306>  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Syria>  ;
+ lawd:hasName [
+lawd:primaryForm "Syria"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܣܘܪܝܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܣܽܘܪܺܝܰܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ارض الشام"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "الشَأم"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Euphrates River"  ;];
+ lawd:hasName [
+lawd:variantForm "Mediterranean Sea"  ;];
+ lawd:hasName [
+lawd:variantForm "Palestine"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/486/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/486/tei>  .

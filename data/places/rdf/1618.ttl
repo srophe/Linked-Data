@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1618> a lawd:Place ;
 rdfs:label "Qardiwār"  ;
+ lawd:hasName [
+lawd:primaryForm "Qardiwār"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1618/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1618/tei>  .

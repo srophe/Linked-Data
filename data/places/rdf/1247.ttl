@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1247> a lawd:Place ;
 rdfs:label "Guppā"  ;
+ lawd:hasName [
+lawd:primaryForm "Guppā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Gapītā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1247/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1247/tei>  .

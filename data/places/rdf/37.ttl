@@ -17,5 +17,9 @@ rdfs:label "The region known in Syriac as Beth Qaṭraye includes not only the p
  dcterms:description [
 rdfs:label "102. Beth Qaṭraye"@en  ;];
 dcterms:temporal "0600"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Qaṭraye"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bet Qatraye"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/37/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/37/tei>  .

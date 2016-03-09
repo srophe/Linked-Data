@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1345> a lawd:Place ;
 rdfs:label "Īlāzlūi"  ;
+ lawd:hasName [
+lawd:primaryForm "Īlāzlūi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1345/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1345/tei>  .

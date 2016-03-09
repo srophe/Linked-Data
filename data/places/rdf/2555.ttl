@@ -14,5 +14,11 @@
 rdfs:label "Arzni"  ;
 dcterms:description "An Assyrian settlement north of in the province of Kotayk' in"  ;
 dcterms:temporal "1849"  ;
+ lawd:hasName [
+lawd:primaryForm "Arzni"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Erevan"  ;];
+ lawd:hasName [
+lawd:variantForm "Armenia"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2555/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2555/tei>  .

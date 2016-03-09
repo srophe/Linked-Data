@@ -15,5 +15,7 @@ rdfs:label "Bonn"  ;
 dcterms:description "A city in Germany."  ;
 skos:exactMatch <http://pleiades.stoa.org/places/108818>  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Bonn>  ;
+ lawd:hasName [
+lawd:primaryForm "Bonn"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2541/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2541/tei>  .

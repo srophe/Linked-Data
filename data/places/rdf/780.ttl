@@ -12,5 +12,13 @@
 
 <http://syriaca.org/place/780> a lawd:Place ;
 rdfs:label "Siwine"  ;
+ lawd:hasName [
+lawd:primaryForm "Siwine"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Sīwīne"@en  ;];
+ lawd:hasName [
+lawd:variantForm "‘Barur'"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bārwār"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/780/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/780/tei>  .

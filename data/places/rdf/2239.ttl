@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2239> a lawd:Place ;
 rdfs:label "Rabban Sahda"  ;
+ lawd:hasName [
+lawd:primaryForm "Rabban Sahda"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Rabban Sāhdā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2239/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2239/tei>  .

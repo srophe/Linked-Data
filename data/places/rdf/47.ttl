@@ -26,8 +26,15 @@ dcterms:temporal "1943"  ;
 geo:location [
 geo:lat "37.12"  ;
 geo:long "37.12"  ;];
+ lawd:hasName [
+lawd:primaryForm "Bektaş"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bagdashiyya"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܓܕܐܫܝܗ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܰܓܕܰܐܫܝܗ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بكدشيّة"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/47/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/47/tei>  ;
-geo:location [
-geo:lat "37.12"  ;
-geo:long "37.12"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/47/tei>  .

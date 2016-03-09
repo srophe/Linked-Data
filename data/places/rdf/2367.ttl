@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2367> a lawd:Place ;
 rdfs:label "Sehna"  ;
+ lawd:hasName [
+lawd:primaryForm "Sehna"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Sehnā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2367/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2367/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1637> a lawd:Place ;
 rdfs:label "Qūrānīs"  ;
+ lawd:hasName [
+lawd:primaryForm "Qūrānīs"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1637/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1637/tei>  .

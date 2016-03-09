@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1736> a lawd:Place ;
 rdfs:label "Sīwīne"  ;
+ lawd:hasName [
+lawd:primaryForm "Sīwīne"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1736/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1736/tei>  .

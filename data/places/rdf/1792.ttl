@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1792> a lawd:Place ;
 rdfs:label "Ṭallanīṯā"  ;
+ lawd:hasName [
+lawd:primaryForm "Ṭallanīṯā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1792/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1792/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1592> a lawd:Place ;
 rdfs:label "Pāqaibaiglū"  ;
+ lawd:hasName [
+lawd:primaryForm "Pāqaibaiglū"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1592/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1592/tei>  .

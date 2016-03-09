@@ -12,5 +12,11 @@
 
 <http://syriaca.org/place/2420> a lawd:Place ;
 rdfs:label "Barqa"  ;
+ lawd:hasName [
+lawd:primaryForm "Barqa"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Barqā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Raiqānā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2420/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2420/tei>  .

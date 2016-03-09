@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1312> a lawd:Place ;
 rdfs:label "Ḥarāshik"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥarāshik"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1312/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1312/tei>  .

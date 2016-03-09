@@ -1,2 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/1866> a lawd:Place ;
+rdfs:label "Mar Addai"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Addai"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Addaï"@en  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/1866/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/1866/tei>  ;
+dcterms:relation <http://syriaca.org/place/2443>  ;
+dcterms:relation <http://syriaca.org/place/2444>  ;
+dcterms:relation <http://syriaca.org/place/1863>  ;
+dcterms:relation <http://syriaca.org/place/1864>  ;
+dcterms:relation <http://syriaca.org/place/1865>  .

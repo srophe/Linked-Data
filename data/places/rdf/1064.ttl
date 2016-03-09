@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1064> a lawd:Place ;
 rdfs:label "Beth Sapre"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Sapre"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Sāpre"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1064/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1064/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1052> a lawd:Place ;
 rdfs:label "Beth Qardāgh"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Qardāgh"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Qardāgh"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1052/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1052/tei>  .

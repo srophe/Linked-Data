@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1714> a lawd:Place ;
 rdfs:label "Shirāwā"  ;
+ lawd:hasName [
+lawd:primaryForm "Shirāwā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1714/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1714/tei>  .

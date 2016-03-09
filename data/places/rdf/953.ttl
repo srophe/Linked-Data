@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/953> a lawd:Place ;
 rdfs:label "Babta"  ;
+ lawd:hasName [
+lawd:primaryForm "Babta"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bābṯā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/953/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/953/tei>  .

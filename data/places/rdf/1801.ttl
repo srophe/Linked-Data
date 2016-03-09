@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1801> a lawd:Place ;
 rdfs:label "Ūrīshā"  ;
+ lawd:hasName [
+lawd:primaryForm "Ūrīshā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1801/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1801/tei>  .

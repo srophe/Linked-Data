@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2231> a lawd:Place ;
 rdfs:label "Qadishta"  ;
+ lawd:hasName [
+lawd:primaryForm "Qadishta"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Qadīshtā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2231/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2231/tei>  .

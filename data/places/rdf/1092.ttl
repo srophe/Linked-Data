@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1092> a lawd:Place ;
 rdfs:label "Bidwīl"  ;
+ lawd:hasName [
+lawd:primaryForm "Bidwīl"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1092/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1092/tei>  .

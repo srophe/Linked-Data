@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1686> a lawd:Place ;
 rdfs:label "Satibak"  ;
+ lawd:hasName [
+lawd:primaryForm "Satibak"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1686/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1686/tei>  .

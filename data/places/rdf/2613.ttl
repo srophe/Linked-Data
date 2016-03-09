@@ -13,5 +13,11 @@
 <http://syriaca.org/place/2613> a lawd:Place ;
 rdfs:label "Mar Zaya"  ;
 dcterms:description "A church in"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Zaya"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Marez"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Verin Dvin"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2613/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2613/tei>  .

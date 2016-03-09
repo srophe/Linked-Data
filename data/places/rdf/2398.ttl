@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2398> a lawd:Place ;
 rdfs:label "Ṭus"  ;
+ lawd:hasName [
+lawd:primaryForm "Ṭus"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭūs"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2398/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2398/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1337> a lawd:Place ;
 rdfs:label "Ḥrbat Shnōnīṯā"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥrbat Shnōnīṯā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1337/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1337/tei>  .

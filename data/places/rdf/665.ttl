@@ -13,5 +13,19 @@
 <http://syriaca.org/place/665> a lawd:Place ;
 rdfs:label "ʿĀnāt"  ;
 dcterms:description "A village in the region of ."  ;
+ lawd:hasName [
+lawd:primaryForm "ʿĀnāt"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ānāt"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Ānāt"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ānah"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Ānah"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Amida"  ;];
+ lawd:hasName [
+lawd:variantForm "ʿĀnah"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/665/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/665/tei>  .

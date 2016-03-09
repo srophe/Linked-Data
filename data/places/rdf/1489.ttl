@@ -19,8 +19,23 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Tal_Afar>  ;
 geo:location [
 geo:lat "36.36904"  ;
 geo:long "36.36904"  ;];
+ lawd:hasName [
+lawd:primaryForm "Talʿafar"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܬܠ ܥܦܪ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܬܶܠ ܥܰܦܪ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "تل عفر"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "تل أعفر"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Talafar"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Tal‘afar"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Sinjar"  ;];
+ lawd:hasName [
+lawd:variantForm "Mosul"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1489/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1489/tei>  ;
-geo:location [
-geo:lat "36.36904"  ;
-geo:long "36.36904"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/1489/tei>  .

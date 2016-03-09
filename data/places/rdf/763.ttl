@@ -13,5 +13,7 @@
 <http://syriaca.org/place/763> a lawd:Place ;
 rdfs:label "Mergāwār"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Margawar>  ;
+ lawd:hasName [
+lawd:primaryForm "Mergāwār"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/763/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/763/tei>  .

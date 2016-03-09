@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1282> a lawd:Place ;
 rdfs:label "Helwā"  ;
+ lawd:hasName [
+lawd:primaryForm "Helwā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1282/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1282/tei>  .

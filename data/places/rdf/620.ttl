@@ -13,5 +13,11 @@
 <http://syriaca.org/place/620> a lawd:Place ;
 rdfs:label "Zobar"  ;
 dcterms:description "A monastery near ."  ;
+ lawd:hasName [
+lawd:primaryForm "Zobar"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery of Zobar"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Melitene"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/620/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/620/tei>  .

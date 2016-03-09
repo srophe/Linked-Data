@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/2382> a lawd:Place ;
 rdfs:label "Taimanā"  ;
+ lawd:hasName [
+lawd:primaryForm "Taimanā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2382/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2382/tei>  .

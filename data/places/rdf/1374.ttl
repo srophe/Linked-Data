@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1374> a lawd:Place ;
 rdfs:label "Kek Perzan"  ;
+ lawd:hasName [
+lawd:primaryForm "Kek Perzan"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1374/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1374/tei>  .

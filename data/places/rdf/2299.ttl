@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2299> a lawd:Place ;
 rdfs:label "Dasen"  ;
+ lawd:hasName [
+lawd:primaryForm "Dasen"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Dāsen (and Beṯ Ṭūre)"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2299/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2299/tei>  .

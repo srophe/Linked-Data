@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1083> a lawd:Place ;
 rdfs:label "Beth Wark"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Wark"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Wark"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1083/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1083/tei>  .

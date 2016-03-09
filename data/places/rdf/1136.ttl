@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1136> a lawd:Place ;
 rdfs:label "Dādār"  ;
+ lawd:hasName [
+lawd:primaryForm "Dādār"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭamānōn"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1136/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1136/tei>  .

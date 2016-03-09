@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1870> a lawd:Place ;
 rdfs:label "Mar Antony"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Antony"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Antony"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1870/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1870/tei>  .

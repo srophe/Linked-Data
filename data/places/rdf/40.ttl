@@ -31,8 +31,21 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Bosra>  ;
 geo:location [
 geo:lat "32.516667"  ;
 geo:long "32.516667"  ;];
+ lawd:hasName [
+lawd:primaryForm "Bostra"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Boṣra"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܘܨܪ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܰܣܟܺܝ ܫܶܐܡ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بُصرى"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "اسكي شام"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Buṣra"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Eski Shām"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/40/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/40/tei>  ;
-geo:location [
-geo:lat "32.516667"  ;
-geo:long "32.516667"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/40/tei>  .

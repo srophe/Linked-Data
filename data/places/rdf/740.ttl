@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/740> a lawd:Place ;
 rdfs:label "Derrenaye"  ;
+ lawd:hasName [
+lawd:primaryForm "Derrenaye"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Derrenāye"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/740/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/740/tei>  .

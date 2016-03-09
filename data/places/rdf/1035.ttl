@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1035> a lawd:Place ;
 rdfs:label "Beth Kōlā"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Kōlā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Kōlā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1035/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1035/tei>  .

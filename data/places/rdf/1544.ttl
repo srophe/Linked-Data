@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1544> a lawd:Place ;
 rdfs:label "Meristak"  ;
+ lawd:hasName [
+lawd:primaryForm "Meristak"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1544/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1544/tei>  .

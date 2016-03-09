@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1074> a lawd:Place ;
 rdfs:label "Beth Takshūr"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Takshūr"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Takshūr"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1074/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1074/tei>  .

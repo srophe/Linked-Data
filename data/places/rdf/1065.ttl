@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1065> a lawd:Place ;
 rdfs:label "Beth Shabṭa"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Shabṭa"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Shabṭā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1065/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1065/tei>  .

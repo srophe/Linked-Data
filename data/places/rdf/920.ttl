@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/920> a lawd:Place ;
 rdfs:label "Lower Artūn"  ;
+ lawd:hasName [
+lawd:primaryForm "Lower Artūn"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Artūn (Lower)"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/920/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/920/tei>  .

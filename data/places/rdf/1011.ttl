@@ -12,5 +12,11 @@
 
 <http://syriaca.org/place/1011> a lawd:Place ;
 rdfs:label "Beth Bāni"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Bāni"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Bāni"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Baibān"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1011/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1011/tei>  .

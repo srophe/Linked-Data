@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1677> a lawd:Place ;
 rdfs:label "Sārdasht"  ;
+ lawd:hasName [
+lawd:primaryForm "Sārdasht"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1677/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1677/tei>  .

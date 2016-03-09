@@ -23,5 +23,15 @@ rdfs:label "an ancient town in Palestine, whose location is unknown."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0300"  ;
 skos:exactMatch <http://pleiades.stoa.org/places/662169/>  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥarqel"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܚܪܩܠ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܚܰܪܩܠ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "حرقل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥarkel"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/326/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/326/tei>  .

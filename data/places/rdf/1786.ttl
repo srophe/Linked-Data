@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1786> a lawd:Place ;
 rdfs:label "Tūtrāsh"  ;
+ lawd:hasName [
+lawd:primaryForm "Tūtrāsh"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1786/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1786/tei>  .

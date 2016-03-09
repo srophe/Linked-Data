@@ -12,5 +12,17 @@
 
 <http://syriaca.org/place/1961> a lawd:Place ;
 rdfs:label "Beth ʿAroʿe"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth ʿAroʿe"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ ʿĀrōʿe"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beth Aroe"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Beth ‘Aro‘e"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Ārōe"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ ‘Ārō‘e"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1961/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1961/tei>  .

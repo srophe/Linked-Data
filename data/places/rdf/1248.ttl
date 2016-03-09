@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1248> a lawd:Place ;
 rdfs:label "Gurbatānes"  ;
+ lawd:hasName [
+lawd:primaryForm "Gurbatānes"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1248/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1248/tei>  .

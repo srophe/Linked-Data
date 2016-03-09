@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1066> a lawd:Place ;
 rdfs:label "Beth Shammasha"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Shammasha"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Shammāshā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1066/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1066/tei>  .

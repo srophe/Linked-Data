@@ -13,5 +13,9 @@
 <http://syriaca.org/place/2569> a lawd:Place ;
 rdfs:label "Kalamazoo"  ;
 dcterms:description "A city in ."  ;
+ lawd:hasName [
+lawd:primaryForm "Kalamazoo"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Michigan"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2569/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2569/tei>  .

@@ -22,5 +22,11 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a village about seven hours’ distance south of Mardin, heavily populated by Syrians in the sixteenth century."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1600"  ;
+ lawd:hasName [
+lawd:primaryForm "Klaybin"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܟܠܝܒܝܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "كليبين"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/447/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/447/tei>  .

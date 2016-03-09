@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "an extinct town south of Baghdad, near Ctesiphon. Its exact location is unknown."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0505"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Arsham"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܝܬ ܐܪܫܡ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܶܝܬ ܐܰܪܩܡ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بيث ارشم"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Arsham"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/305/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/305/tei>  .

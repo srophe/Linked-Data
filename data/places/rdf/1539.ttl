@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1539> a lawd:Place ;
 rdfs:label "Memekkan"  ;
+ lawd:hasName [
+lawd:primaryForm "Memekkan"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1539/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1539/tei>  .

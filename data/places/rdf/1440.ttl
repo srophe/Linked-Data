@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1440> a lawd:Place ;
 rdfs:label "Mata d-Qaṣra"  ;
+ lawd:hasName [
+lawd:primaryForm "Mata d-Qaṣra"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Māṯā d'Qaṣrā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1440/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1440/tei>  .

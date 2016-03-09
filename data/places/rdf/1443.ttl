@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1443> a lawd:Place ;
 rdfs:label "Mawānā"  ;
+ lawd:hasName [
+lawd:primaryForm "Mawānā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1443/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1443/tei>  .

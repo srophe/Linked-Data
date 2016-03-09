@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1715> a lawd:Place ;
 rdfs:label "Shīshōḥ"  ;
+ lawd:hasName [
+lawd:primaryForm "Shīshōḥ"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1715/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1715/tei>  .

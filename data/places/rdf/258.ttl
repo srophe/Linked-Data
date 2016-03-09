@@ -17,8 +17,15 @@ skos:exactMatch <http://pleiades.stoa.org/places/874406>  ;
 geo:location [
 geo:lat "36.5"  ;
 geo:long "36.5"  ;];
+ lawd:hasName [
+lawd:primaryForm "Khazir"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Khāzir"@en  ;];
+ lawd:hasName [
+lawd:variantForm "خازر"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Greater Zab"  ;];
+ lawd:hasName [
+lawd:variantForm "Karamlish"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/258/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/258/tei>  ;
-geo:location [
-geo:lat "36.5"  ;
-geo:long "36.5"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/258/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/881> a lawd:Place ;
 rdfs:label "Ābājālūi"  ;
+ lawd:hasName [
+lawd:primaryForm "Ābājālūi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/881/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/881/tei>  .

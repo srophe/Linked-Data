@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1127> a lawd:Place ;
 rdfs:label "Chamesene"  ;
+ lawd:hasName [
+lawd:primaryForm "Chamesene"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1127/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1127/tei>  .

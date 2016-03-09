@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2128> a lawd:Place ;
 rdfs:label "Mar Yoḥannan the Arab"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Yoḥannan the Arab"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Yōḥannān the Arab"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2128/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2128/tei>  .

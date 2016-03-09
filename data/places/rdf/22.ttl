@@ -19,8 +19,9 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Amman>  ;
 geo:location [
 geo:lat "31.933333"  ;
 geo:long "31.933333"  ;];
+ lawd:hasName [
+lawd:primaryForm "Amman"@en  ;];
+ lawd:hasName [
+lawd:variantForm "عَمَان"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/22/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/22/tei>  ;
-geo:location [
-geo:lat "31.933333"  ;
-geo:long "31.933333"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/22/tei>  .

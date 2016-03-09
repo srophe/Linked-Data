@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/977> a lawd:Place ;
 rdfs:label "Bāshbītā"  ;
+ lawd:hasName [
+lawd:primaryForm "Bāshbītā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Shupītā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/977/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/977/tei>  .

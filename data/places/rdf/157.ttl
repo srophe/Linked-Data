@@ -19,8 +19,13 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Petra>  ;
 geo:location [
 geo:lat "30.32861"  ;
 geo:long "30.32861"  ;];
+ lawd:hasName [
+lawd:primaryForm "Petra"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܦܐܛܪܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܦܰܐܛܪܰܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "باطرا"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/157/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/157/tei>  ;
-geo:location [
-geo:lat "30.32861"  ;
-geo:long "30.32861"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/157/tei>  .

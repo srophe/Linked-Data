@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2522> a lawd:Place ;
 rdfs:label "Nunnery in Balad"  ;
+ lawd:hasName [
+lawd:primaryForm "Nunnery in Balad"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Unnamed nunnery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2522/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2522/tei>  .

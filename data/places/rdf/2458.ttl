@@ -1,2 +1,80 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/2458> a lawd:Place ;
+rdfs:label "Mar Giwargis"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Giwargis"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Gīwārgīs"@en  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/2458/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/2458/tei>  ;
+dcterms:relation <http://syriaca.org/place/2459>  ;
+dcterms:relation <http://syriaca.org/place/2460>  ;
+dcterms:relation <http://syriaca.org/place/1908>  ;
+dcterms:relation <http://syriaca.org/place/1909>  ;
+dcterms:relation <http://syriaca.org/place/1910>  ;
+dcterms:relation <http://syriaca.org/place/1912>  ;
+dcterms:relation <http://syriaca.org/place/1913>  ;
+dcterms:relation <http://syriaca.org/place/1914>  ;
+dcterms:relation <http://syriaca.org/place/1915>  ;
+dcterms:relation <http://syriaca.org/place/1916>  ;
+dcterms:relation <http://syriaca.org/place/1917>  ;
+dcterms:relation <http://syriaca.org/place/1918>  ;
+dcterms:relation <http://syriaca.org/place/1919>  ;
+dcterms:relation <http://syriaca.org/place/1920>  ;
+dcterms:relation <http://syriaca.org/place/1921>  ;
+dcterms:relation <http://syriaca.org/place/1922>  ;
+dcterms:relation <http://syriaca.org/place/1923>  ;
+dcterms:relation <http://syriaca.org/place/1924>  ;
+dcterms:relation <http://syriaca.org/place/1925>  ;
+dcterms:relation <http://syriaca.org/place/1926>  ;
+dcterms:relation <http://syriaca.org/place/1927>  ;
+dcterms:relation <http://syriaca.org/place/1928>  ;
+dcterms:relation <http://syriaca.org/place/1929>  ;
+dcterms:relation <http://syriaca.org/place/1930>  ;
+dcterms:relation <http://syriaca.org/place/1932>  ;
+dcterms:relation <http://syriaca.org/place/1933>  ;
+dcterms:relation <http://syriaca.org/place/1934>  ;
+dcterms:relation <http://syriaca.org/place/1935>  ;
+dcterms:relation <http://syriaca.org/place/1936>  ;
+dcterms:relation <http://syriaca.org/place/1937>  ;
+dcterms:relation <http://syriaca.org/place/1938>  ;
+dcterms:relation <http://syriaca.org/place/1939>  ;
+dcterms:relation <http://syriaca.org/place/1940>  ;
+dcterms:relation <http://syriaca.org/place/1941>  ;
+dcterms:relation <http://syriaca.org/place/1942>  ;
+dcterms:relation <http://syriaca.org/place/1943>  ;
+dcterms:relation <http://syriaca.org/place/1944>  ;
+dcterms:relation <http://syriaca.org/place/1945>  ;
+dcterms:relation <http://syriaca.org/place/1946>  ;
+dcterms:relation <http://syriaca.org/place/1965>  ;
+dcterms:relation <http://syriaca.org/place/1966>  ;
+dcterms:relation <http://syriaca.org/place/1967>  ;
+dcterms:relation <http://syriaca.org/place/1968>  ;
+dcterms:relation <http://syriaca.org/place/1969>  ;
+dcterms:relation <http://syriaca.org/place/1970>  ;
+dcterms:relation <http://syriaca.org/place/1971>  ;
+dcterms:relation <http://syriaca.org/place/1972>  ;
+dcterms:relation <http://syriaca.org/place/1973>  ;
+dcterms:relation <http://syriaca.org/place/1974>  ;
+dcterms:relation <http://syriaca.org/place/1975>  ;
+dcterms:relation <http://syriaca.org/place/1976>  ;
+dcterms:relation <http://syriaca.org/place/1977>  ;
+dcterms:relation <http://syriaca.org/place/1978>  ;
+dcterms:relation <http://syriaca.org/place/1979>  ;
+dcterms:relation <http://syriaca.org/place/1980>  ;
+dcterms:relation <http://syriaca.org/place/1981>  ;
+dcterms:relation <http://syriaca.org/place/1982>  ;
+dcterms:relation <http://syriaca.org/place/1983>  ;
+dcterms:relation <http://syriaca.org/place/1984>  ;
+dcterms:relation <http://syriaca.org/place/1985>  .

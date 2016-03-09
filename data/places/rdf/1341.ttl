@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1341> a lawd:Place ;
 rdfs:label "Ḥūrmābād"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥūrmābād"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1341/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1341/tei>  .

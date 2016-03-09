@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1119> a lawd:Place ;
 rdfs:label "Chambā d-Beth Elīyā"  ;
+ lawd:hasName [
+lawd:primaryForm "Chambā d-Beth Elīyā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Chambā d'Beṯ Elīyā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1119/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1119/tei>  .

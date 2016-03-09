@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/704> a lawd:Place ;
 rdfs:label "Beth Moksaye"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Moksaye"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Moksāye"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/704/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/704/tei>  .

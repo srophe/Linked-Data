@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1022> a lawd:Place ;
 rdfs:label "Beth Gabbare"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Gabbare"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Gabbāre"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1022/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1022/tei>  .

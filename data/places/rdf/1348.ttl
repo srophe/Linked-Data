@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1348> a lawd:Place ;
 rdfs:label "Iryāwā"  ;
+ lawd:hasName [
+lawd:primaryForm "Iryāwā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1348/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1348/tei>  .

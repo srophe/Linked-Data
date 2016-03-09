@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1334> a lawd:Place ;
 rdfs:label "Ḥōrdepneh"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥōrdepneh"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1334/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1334/tei>  .

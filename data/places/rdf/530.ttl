@@ -15,5 +15,17 @@ rdfs:label "Port Saʿīd — ܒܘܪܣܥܝܕ"  ;
 dcterms:description "A coastal city in Egypt."  ;
 dcterms:temporal "1859-04-25"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Port_Said>  ;
+ lawd:hasName [
+lawd:primaryForm "Port Saʿīd"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܘܪܣܥܝܕ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܽܘܪܣܰܥܝܕ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بور سعيد"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Port Saīd"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Port Sa‘īd"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/530/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/530/tei>  .

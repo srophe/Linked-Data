@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1093> a lawd:Place ;
 rdfs:label "Bilejān"  ;
+ lawd:hasName [
+lawd:primaryForm "Bilejān"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1093/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1093/tei>  .

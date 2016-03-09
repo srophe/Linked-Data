@@ -23,5 +23,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a ruined city near Melitene."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1070"  ;
+ lawd:hasName [
+lawd:primaryForm "Gubos"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܓܘܒܐܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "جوباس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Jūbās"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Melitene"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/322/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/322/tei>  .

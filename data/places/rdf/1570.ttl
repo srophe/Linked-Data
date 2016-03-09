@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1570> a lawd:Place ;
 rdfs:label "Navdasht"  ;
+ lawd:hasName [
+lawd:primaryForm "Navdasht"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1570/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1570/tei>  .

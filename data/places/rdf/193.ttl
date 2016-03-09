@@ -31,8 +31,21 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Tikrit>  ;
 geo:location [
 geo:lat "34.6"  ;
 geo:long "34.6"  ;];
+ lawd:hasName [
+lawd:primaryForm "Tagrit"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Tikrit"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Takrit"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܬܓܪܝܬ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܬܰܓܪܝܬ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "تكريت"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Tagrīt"@en  ;];
+ lawd:hasName [
+lawd:variantForm "تَكريت"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/193/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/193/tei>  ;
-geo:location [
-geo:lat "34.6"  ;
-geo:long "34.6"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/193/tei>  .

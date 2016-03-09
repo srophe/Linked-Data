@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1290> a lawd:Place ;
 rdfs:label "Hūlūtan"  ;
+ lawd:hasName [
+lawd:primaryForm "Hūlūtan"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1290/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1290/tei>  .

@@ -17,5 +17,7 @@ rdfs:label "The name refers to the tip of a height dominating the towns of Darʿ
  dcterms:description [
 rdfs:label "496. Sharfeh"@en  ;];
 dcterms:temporal "1786"  ;
+ lawd:hasName [
+lawd:primaryForm "Sharfeh"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/232/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/232/tei>  .

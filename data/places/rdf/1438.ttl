@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1438> a lawd:Place ;
 rdfs:label "Mata d-Mart Maryam"  ;
+ lawd:hasName [
+lawd:primaryForm "Mata d-Mart Maryam"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Māṯā d'Mart Maryam"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1438/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1438/tei>  .

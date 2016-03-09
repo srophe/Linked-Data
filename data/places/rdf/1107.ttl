@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1107> a lawd:Place ;
 rdfs:label "Bozlū"  ;
+ lawd:hasName [
+lawd:primaryForm "Bozlū"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1107/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1107/tei>  .

@@ -27,8 +27,13 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Sozopolis,_Pisidia>  ;
 geo:location [
 geo:lat "38.072539"  ;
 geo:long "38.072539"  ;];
+ lawd:hasName [
+lawd:primaryForm "Sozopolis"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܣܘܙܘܦܘܠܝܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܣܳܘܙܘܦܘܠܝܣ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "سوزوبليس"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/414/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/414/tei>  ;
-geo:location [
-geo:lat "38.072539"  ;
-geo:long "38.072539"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/414/tei>  .

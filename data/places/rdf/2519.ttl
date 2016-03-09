@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2519> a lawd:Place ;
 rdfs:label "Rabban Yozadaq"  ;
+ lawd:hasName [
+lawd:primaryForm "Rabban Yozadaq"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Rabban Yōzādāq"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2519/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2519/tei>  .

@@ -21,5 +21,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
  dcterms:description [
 rdfs:label "a mountain near Antioch in Seleucia, which is now called Suwaydiyya."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ lawd:hasName [
+lawd:primaryForm "Black Mountain"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܛܘܪܐܐܘܟܡܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܛܘܪܐܐܘܟܳܡܳܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "الجبل الاسود"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "The Black Mountain"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/317/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/317/tei>  .

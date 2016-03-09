@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1140> a lawd:Place ;
 rdfs:label "Dayra d-Zengel"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayra d-Zengel"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Dairā d'Zengel"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1140/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1140/tei>  .

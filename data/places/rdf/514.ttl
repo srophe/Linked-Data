@@ -19,8 +19,19 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Al-Sukhnah>  ;
 geo:location [
 geo:lat "34.900877"  ;
 geo:long "34.900877"  ;];
+ lawd:hasName [
+lawd:primaryForm "Sukhna"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܣܟܢܗ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܣܰܟܢܗ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "سخنة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "سُخْنة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Palmyra"  ;];
+ lawd:hasName [
+lawd:variantForm "Dayr al-Zor"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/514/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/514/tei>  ;
-geo:location [
-geo:lat "34.900877"  ;
-geo:long "34.900877"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/514/tei>  .

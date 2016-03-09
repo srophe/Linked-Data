@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1962> a lawd:Place ;
 rdfs:label "Beth Banik"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Banik"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Bānik"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1962/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1962/tei>  .

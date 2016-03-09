@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/735> a lawd:Place ;
 rdfs:label "Bilijnaye"  ;
+ lawd:hasName [
+lawd:primaryForm "Bilijnaye"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bilijnāye"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/735/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/735/tei>  .

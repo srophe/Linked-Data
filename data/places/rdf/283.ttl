@@ -23,5 +23,13 @@ rdfs:label "a citadel between Aleppo and Antioch, some three leagues distant fro
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0491"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Atarib>  ;
+ lawd:hasName [
+lawd:primaryForm "Litarba"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܐܬܐܪܒ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "الاثارب"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Athārb"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/283/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/283/tei>  .

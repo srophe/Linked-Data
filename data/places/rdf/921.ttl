@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/921> a lawd:Place ;
 rdfs:label "Upper Artūn"  ;
+ lawd:hasName [
+lawd:primaryForm "Upper Artūn"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Artūn (Upper)"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/921/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/921/tei>  .

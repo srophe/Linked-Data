@@ -14,5 +14,11 @@
 rdfs:label "Sumatar Harabesi"  ;
 dcterms:description "A ruined village between and ."  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Sumatar_Harabesi>  ;
+ lawd:hasName [
+lawd:primaryForm "Sumatar Harabesi"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Edessa"  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥarran"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/643/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/643/tei>  .

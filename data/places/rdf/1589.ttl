@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1589> a lawd:Place ;
 rdfs:label "Pāge"  ;
+ lawd:hasName [
+lawd:primaryForm "Pāge"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1589/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1589/tei>  .

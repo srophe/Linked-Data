@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1319> a lawd:Place ;
 rdfs:label "Ḥarjāwā"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥarjāwā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1319/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1319/tei>  .

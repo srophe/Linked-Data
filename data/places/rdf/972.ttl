@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/972> a lawd:Place ;
 rdfs:label "Barwes"  ;
+ lawd:hasName [
+lawd:primaryForm "Barwes"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/972/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/972/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1838> a lawd:Place ;
 rdfs:label "Zōrāwā"  ;
+ lawd:hasName [
+lawd:primaryForm "Zōrāwā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1838/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1838/tei>  .

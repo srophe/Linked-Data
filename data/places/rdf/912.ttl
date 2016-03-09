@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/912> a lawd:Place ;
 rdfs:label "Ārgen"  ;
+ lawd:hasName [
+lawd:primaryForm "Ārgen"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/912/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/912/tei>  .

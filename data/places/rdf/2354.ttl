@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2354> a lawd:Place ;
 rdfs:label "Prat d-Maishan"  ;
+ lawd:hasName [
+lawd:primaryForm "Prat d-Maishan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Prāṯ d'Maishān"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2354/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2354/tei>  .

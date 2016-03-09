@@ -13,5 +13,7 @@
 <http://syriaca.org/place/644> a lawd:Place ;
 rdfs:label "Tell Magara"  ;
 dcterms:description "A village in Mesopotamia."  ;
+ lawd:hasName [
+lawd:primaryForm "Tell Magara"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/644/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/644/tei>  .

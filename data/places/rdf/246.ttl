@@ -14,5 +14,11 @@
 rdfs:label "Khosrowa"  ;
 dcterms:description "A village southwest of ."  ;
 dcterms:temporal "0697"  ;
+ lawd:hasName [
+lawd:primaryForm "Khosrowa"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Khosrōwā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Salmas"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/246/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/246/tei>  .

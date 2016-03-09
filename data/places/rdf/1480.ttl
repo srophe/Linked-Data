@@ -14,5 +14,15 @@
 rdfs:label "Tell Ṣāliḥiyya — ܨܐܠܚܝܗ"  ;
 dcterms:description "A city of Jazīra near modern Abu Kamāl."  ;
 dcterms:temporal "0542"  ;
+ lawd:hasName [
+lawd:primaryForm "Tell Ṣāliḥiyya"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ṣalihiye"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܨܐܠܚܝܗ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "الصالحية"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ṣalaḥiyya"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1480/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1480/tei>  .

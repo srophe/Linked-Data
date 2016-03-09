@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2518> a lawd:Place ;
 rdfs:label "Rabban Yawsep Busnaya"  ;
+ lawd:hasName [
+lawd:primaryForm "Rabban Yawsep Busnaya"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Rabban Joseph Busnāyā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2518/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2518/tei>  .

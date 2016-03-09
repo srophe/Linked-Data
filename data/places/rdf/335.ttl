@@ -22,5 +22,19 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "or the Monastery of the Ladders, is on the right bank of the Euphrates, a half-hour journey from the village of ʿUrbīsh, near Karkar. It was established sometime after the fifth century and was first mentioned by historians in the beginning of the ninth century. It produced one Patriarch and fourteen bishops. It was inhabited until the beginning of the eighteenth century. Some of its ruins are still standing."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0900"  ;
+ lawd:hasName [
+lawd:primaryForm "Mor Abḥai"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܐܒܚܝ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܐܰܒܚܝ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܣܶܒܠܬܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار ابحاي"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "دير السلالم"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Abḥai Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/335/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/335/tei>  .

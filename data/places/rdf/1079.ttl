@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1079> a lawd:Place ;
 rdfs:label "Beth Tunyō"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Tunyō"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Tunyō"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1079/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1079/tei>  .

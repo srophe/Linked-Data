@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1597> a lawd:Place ;
 rdfs:label "Patōlā"  ;
+ lawd:hasName [
+lawd:primaryForm "Patōlā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1597/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1597/tei>  .

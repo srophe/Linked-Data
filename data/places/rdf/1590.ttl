@@ -12,5 +12,11 @@
 
 <http://syriaca.org/place/1590> a lawd:Place ;
 rdfs:label "Pāʿilan"  ;
+ lawd:hasName [
+lawd:primaryForm "Pāʿilan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Pāilan"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Pā‘ilan"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1590/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1590/tei>  .

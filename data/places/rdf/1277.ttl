@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1277> a lawd:Place ;
 rdfs:label "Hawasan"  ;
+ lawd:hasName [
+lawd:primaryForm "Hawasan"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1277/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1277/tei>  .

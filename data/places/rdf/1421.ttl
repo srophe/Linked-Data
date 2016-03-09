@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1421> a lawd:Place ;
 rdfs:label "Margā"  ;
+ lawd:hasName [
+lawd:primaryForm "Margā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1421/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1421/tei>  .

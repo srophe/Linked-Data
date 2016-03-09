@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1034> a lawd:Place ;
 rdfs:label "Beth Kartwāye"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Kartwāye"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Kartwāye"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1034/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1034/tei>  .

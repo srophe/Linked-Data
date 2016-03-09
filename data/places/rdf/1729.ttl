@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1729> a lawd:Place ;
 rdfs:label "Sīhāni"  ;
+ lawd:hasName [
+lawd:primaryForm "Sīhāni"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1729/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1729/tei>  .

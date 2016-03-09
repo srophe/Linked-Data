@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1903> a lawd:Place ;
 rdfs:label "Mar Gaddi"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Gaddi"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Gaddi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1903/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1903/tei>  .

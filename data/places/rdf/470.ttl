@@ -1,2 +1,48 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/470> a lawd:Place ;
+rdfs:label "Dayro d-Mor Yaʿqub — ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ"  ;
+dcterms:description "A monastery in ."  ;
+ dcterms:description [
+rdfs:label "first mentioned in history in 1165 and still active."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1165"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayro d-Mor Yaʿqub"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܝܰܥܩܘܒ ܡܰܠܦܳܢܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار يعقوب الملفان"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Jacob the Doctor of the Church Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Yaʿqōb (West Syrian)"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Dayro d-Mor Yaqub"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Dayro d-Mor Ya‘qub"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Yaqōb (West Syrian)"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Ya‘qōb (West Syrian)"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Dayr al-Zafarān"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Dayr al-Za‘farān"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Dayr al-Zaʿfarān"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/470/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/470/tei>  ;
+dcterms:relation <http://syriaca.org/place/72>  .

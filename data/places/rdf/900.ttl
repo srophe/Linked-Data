@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/900> a lawd:Place ;
 rdfs:label "Alwach"  ;
+ lawd:hasName [
+lawd:primaryForm "Alwach"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/900/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/900/tei>  .

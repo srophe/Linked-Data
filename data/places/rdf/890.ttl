@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/890> a lawd:Place ;
 rdfs:label "Akol"  ;
+ lawd:hasName [
+lawd:primaryForm "Akol"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/890/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/890/tei>  .

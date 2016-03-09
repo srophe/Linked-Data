@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/886> a lawd:Place ;
 rdfs:label "Aḥasīm"  ;
+ lawd:hasName [
+lawd:primaryForm "Aḥasīm"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/886/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/886/tei>  .

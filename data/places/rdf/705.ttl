@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/705> a lawd:Place ;
 rdfs:label "Beth Rahimai"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Rahimai"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Rahimaï"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/705/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/705/tei>  .

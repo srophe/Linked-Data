@@ -12,5 +12,11 @@
 
 <http://syriaca.org/place/934> a lawd:Place ;
 rdfs:label "ʿĀbdūlākandi"  ;
+ lawd:hasName [
+lawd:primaryForm "ʿĀbdūlākandi"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ābdūlākandi"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Ābdūlākandi"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/934/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/934/tei>  .

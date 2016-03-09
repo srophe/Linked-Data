@@ -22,5 +22,17 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "also called Fghimta: near Rish ʿAyna in the Jazira. It was built in the fifth century, but was reduced to ruins shortly before 1203. It produced two Patriarchs and eleven bishops."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0500"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayro da-Pgimto"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܐܣܦܘܠܘܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܶܐܣܦܘܠܘܣ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير اسفولس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ousopholis Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Fghimta Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/338/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/338/tei>  .

@@ -22,5 +22,19 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "situated south of Mardin, Dunaysar was a large town in the thirteenth century. Today it is a small village, called Koç Hisar, near Tell al-Arman."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1225"  ;
+ lawd:hasName [
+lawd:primaryForm "Dunaysar"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܢܝܣܪ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "دُنَيسر"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "قوج حصار"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Koç Hisar"@en  ;];
+ lawd:hasName [
+lawd:variantForm "دُنيسر"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Kızıltepe"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/401/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/401/tei>  .

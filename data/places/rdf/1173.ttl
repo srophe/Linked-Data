@@ -12,5 +12,17 @@
 
 <http://syriaca.org/place/1173> a lawd:Place ;
 rdfs:label "Dīzā d-Āghā ʿĀlī"  ;
+ lawd:hasName [
+lawd:primaryForm "Dīzā d-Āghā ʿĀlī"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Dīzā d'Āghā ʿĀlī"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Dīzā d-Āghā Ālī"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Dīzā d-Āghā ‘Ālī"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Dīzā d'Āghā Ālī"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Dīzā d'Āghā ‘Ālī"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1173/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1173/tei>  .

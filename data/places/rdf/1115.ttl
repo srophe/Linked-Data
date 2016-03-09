@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1115> a lawd:Place ;
 rdfs:label "Chām"  ;
+ lawd:hasName [
+lawd:primaryForm "Chām"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1115/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1115/tei>  .

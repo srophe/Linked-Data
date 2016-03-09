@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1565> a lawd:Place ;
 rdfs:label "Nāqādā"  ;
+ lawd:hasName [
+lawd:primaryForm "Nāqādā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1565/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1565/tei>  .

@@ -15,5 +15,15 @@ rdfs:label "Mygdonius"  ;
 dcterms:description "A tributary of the which flows past ."  ;
 skos:exactMatch <http://pleiades.stoa.org/places/874509>  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Jaghjagh_River>  ;
+ lawd:hasName [
+lawd:primaryForm "Mygdonius"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Çağçağ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "الهِرماس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Khabur river"  ;];
+ lawd:hasName [
+lawd:variantForm "Nisibis"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/140/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/140/tei>  .

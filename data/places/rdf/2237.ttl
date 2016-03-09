@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2237> a lawd:Place ;
 rdfs:label "Rabban Mar Peter"  ;
+ lawd:hasName [
+lawd:primaryForm "Rabban Mar Peter"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Rabban Mār Peter"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2237/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2237/tei>  .

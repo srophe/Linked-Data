@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1073> a lawd:Place ;
 rdfs:label "Beth Taklita"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Taklita"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Taklīṯā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1073/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1073/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/898> a lawd:Place ;
 rdfs:label "Alqoshta"  ;
+ lawd:hasName [
+lawd:primaryForm "Alqoshta"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Alqōshtā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/898/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/898/tei>  .

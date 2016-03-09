@@ -22,5 +22,29 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "near the village of Talʿada, in the vicinity of Antioch. It was built by the noble monk Eusebius the Great and Amian, who established a school for the teaching of philosophy about 340. St. Simon the Stylite entered this monastery at the beginning of his monastic vocation. In 409 it had 120 monks. It produced Patriarch John III and two bishops in the ninth century."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0409"  ;
+ lawd:hasName [
+lawd:primaryForm "Eusebona"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܐܘܣܝܒܝܢܶܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار اوسيبونا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Eusebius Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Teleda"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܝܪܐ ܕܬܠܥܕܐ ܕܒܝܬ ܡܪܝ ܐܣܒܘܢܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܝܪܐ ܕܬܠܥܕܐ ܕܒܝܬ ܡܪܝ ܐܘܣܒܘܢܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܥܘܡܪܐ ܕܛܘܒܢܐ ܡܪܝ ܐܘܣܒܘܢܐ"@syr  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܐܘܣܒܘܢܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܝܪܐ ܕܛܘܒܢܐ ܡܪܝ ܐܷܘܣܻܝܒܽܘܢܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܝܪܐ ܕܛܘܒܢܐ ܡܪܝ ܐܷܘܣܷܒܻܝܢܰܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "Tell ʿAda"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/341/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/341/tei>  .

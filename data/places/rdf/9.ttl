@@ -28,8 +28,35 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Anazarbus>  ;
 geo:location [
 geo:lat "37.263889"  ;
 geo:long "37.263889"  ;];
+ lawd:hasName [
+lawd:primaryForm "ʿAyn Zarba"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Anazarbos"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Anazarba"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܥܝܢ ܙܪܒܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܥܰܝܢܕܰܐܒܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܙܢܐܙܪܒܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܰܢܐܙܘܪܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "عين زربة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "انازربة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "انازروه"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Anāzarba"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Anāzūra"@en  ;];
+ lawd:hasName [
+lawd:variantForm "عينُ زَربَى"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ayn Zarba"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Ayn Zarba"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/9/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/9/tei>  ;
-geo:location [
-geo:lat "37.263889"  ;
-geo:long "37.263889"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/9/tei>  .

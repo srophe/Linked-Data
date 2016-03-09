@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/913> a lawd:Place ;
 rdfs:label "Arjiqānīs"  ;
+ lawd:hasName [
+lawd:primaryForm "Arjiqānīs"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/913/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/913/tei>  .

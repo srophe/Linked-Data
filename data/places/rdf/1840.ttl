@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1840> a lawd:Place ;
 rdfs:label "Zūmalān"  ;
+ lawd:hasName [
+lawd:primaryForm "Zūmalān"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1840/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1840/tei>  .

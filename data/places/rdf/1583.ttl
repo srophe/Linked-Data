@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1583> a lawd:Place ;
 rdfs:label "Ōre"  ;
+ lawd:hasName [
+lawd:primaryForm "Ōre"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1583/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1583/tei>  .

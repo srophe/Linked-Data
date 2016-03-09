@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1039> a lawd:Place ;
 rdfs:label "Beth Māriggō"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Māriggō"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Māriggō"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1039/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1039/tei>  .

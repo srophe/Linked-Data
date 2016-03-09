@@ -14,5 +14,15 @@
 rdfs:label "Dayro d-Mor Rumanos — ܕܝܪܐ ܕܡܪܝ ܪܘܡܐܢܘܣ"  ;
 dcterms:description "A monastery in Mayuma."  ;
 dcterms:temporal "0508"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayro d-Mor Rumanos"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܪܘܡܐܢܘܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܪܘܡܰܐܢܳܘܣ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار رومانس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of St. Romanus"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1466/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1466/tei>  .

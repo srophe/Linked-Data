@@ -22,5 +22,19 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "the location of this monastery is unknown to us. We know, however, that Anba George was its abbot from 563 to 569."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0563"  ;
+ lawd:hasName [
+lawd:primaryForm "Mor Yuḥanon d-Norab"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܝܘܚܢܢ ܕܢܐܪܒ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܝܘܚܰܢܢ ܕܢܐܪܒ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار يوحنا نيرب"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار يوحنا نارب"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "John Nayrab Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "John Nārab Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/400/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/400/tei>  .

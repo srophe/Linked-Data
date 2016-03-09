@@ -1,2 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/373> a lawd:Place ;
+rdfs:label "Phesilta — ܕܝܪܐ ܕܦܣܝܠܬܐ"  ;
+dcterms:description "A monastery near ."  ;
+ dcterms:description [
+rdfs:label "ܐܰܘܟܝܬ ܓܠܺܝܦܐ ܠܒܰܪ ܡܶܢ ܬܶܠ ܡܰܘܙܠܰܬ ܡܕܝܢܬܐ. ܐܶܫܬܰܬܐܣ ܒܡܰܐܬܳܐ ܚܡܝܫܳܝܬܳܐ ܘܐܰܦܩ ܚܰܡܫܐ ܐܶܦܝܣܩܘܦ̈ܐ ܘܰܫܠܺܝܘ ܛܶܒܰܘ̈ܗܝ ܫܢܰܬ 880 ."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "اي المنحوت؛ بظاهر مدينة تل موزل وطدت دعائمه في المئة الخامسة وانجب خمسة مطارنة ووقفت اخباره سنة 880."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "outside Tell Mawzalt, was built in the fifth century and it produced five metropolitans. Nothing is known about it after 880."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "0500"  ;
+ lawd:hasName [
+lawd:primaryForm "Phesilta"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܦܣܝܠܬܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܰܦܣܝܠܬܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير فسيلتا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Fsīltā Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Quarry Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Tella"  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/373/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/373/tei>  ;
+dcterms:relation <http://syriaca.org/place/374>  .

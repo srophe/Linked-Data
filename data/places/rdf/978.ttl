@@ -12,5 +12,17 @@
 
 <http://syriaca.org/place/978> a lawd:Place ;
 rdfs:label "Bāʿshīqā"  ;
+ lawd:hasName [
+lawd:primaryForm "Bāʿshīqā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ ʿAshīqā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bāshīqā"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Bā‘shīqā"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Ashīqā"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ ‘Ashīqā"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/978/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/978/tei>  .

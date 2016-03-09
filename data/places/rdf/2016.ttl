@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2016> a lawd:Place ;
 rdfs:label "Mar Miles"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Miles"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Mīles"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2016/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2016/tei>  .

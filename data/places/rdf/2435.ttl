@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2435> a lawd:Place ;
 rdfs:label "Mar Abraham of Eshnuq"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Abraham of Eshnuq"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Abraham of Eshnūq"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2435/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2435/tei>  .

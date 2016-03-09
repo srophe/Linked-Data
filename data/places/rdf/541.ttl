@@ -14,5 +14,21 @@
 rdfs:label "Beth Debe — ܒܝܬ ܕܒ̈ܐ"  ;
 dcterms:description "A village in ."  ;
 dcterms:temporal "1943"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Debe"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܝܬ ܕܒ̈ܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܶܝܬ ܕܶܒ̈ܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بادبة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Badebe"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur ʿAbdin"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/541/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/541/tei>  .

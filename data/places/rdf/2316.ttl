@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/2316> a lawd:Place ;
 rdfs:label "Ḥnīṯā and Ḥebtōn"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥnīṯā and Ḥebtōn"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2316/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2316/tei>  .

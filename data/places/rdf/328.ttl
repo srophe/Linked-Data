@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "an ancient village in southern Iraq, near Qaṣr Ibn Hubayra, in the vicinity of al-Kūfa."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1214"  ;
+ lawd:hasName [
+lawd:primaryForm "al-Ḥaṣṣāṣa"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܚܨܐܨܗ̇"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "الحصّاصة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Haṣṣāṣa"@en  ;];
+ lawd:hasName [
+lawd:variantForm "الحَصّاصة"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/328/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/328/tei>  .

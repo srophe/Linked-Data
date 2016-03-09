@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1550> a lawd:Place ;
 rdfs:label "Mrātīṯā"  ;
+ lawd:hasName [
+lawd:primaryForm "Mrātīṯā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1550/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1550/tei>  .

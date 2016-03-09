@@ -14,5 +14,15 @@
 rdfs:label "Fānīr — ܦܐܢܝܪ"  ;
 dcterms:description "A vilage near Qlisuro."  ;
 dcterms:temporal "0472"  ;
+ lawd:hasName [
+lawd:primaryForm "Fānīr"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܦܐܢܝܪ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܦܰܐܢܺܝܪ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "فانير"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Phanir"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1454/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1454/tei>  .

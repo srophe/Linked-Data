@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1227> a lawd:Place ;
 rdfs:label "Ginne"  ;
+ lawd:hasName [
+lawd:primaryForm "Ginne"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1227/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1227/tei>  .

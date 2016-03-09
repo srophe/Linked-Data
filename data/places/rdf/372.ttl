@@ -22,5 +22,21 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "on the left bank of the Euphrates, near Mor Abḥai Monastery in Karkar. Master David and a group of monks renovated it at the beginning of the eleventh century. To this monastery are attributed five bishops in the tenth century. Its nave was built by the monk Habakkuk (fl. c. 1160). The monastery was still populated in 1565, but was abandoned a few years later."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1000"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayr Fusqīn"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܦܣܩܝܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܦܳܣܩܝܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܰܫܡܝ̈ܛܳܝܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير فُسقين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "دير الحفاة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Fusqīn Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Barefooted Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/372/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/372/tei>  .

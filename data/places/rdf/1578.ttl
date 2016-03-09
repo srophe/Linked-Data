@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1578> a lawd:Place ;
 rdfs:label "Nōgwizān"  ;
+ lawd:hasName [
+lawd:primaryForm "Nōgwizān"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1578/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1578/tei>  .

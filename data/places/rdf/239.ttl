@@ -15,5 +15,15 @@ rdfs:label "Upper Kafro"  ;
 dcterms:description "A village in north of ."  ;
 dcterms:temporal "1941"  ;
 skos:closeMatch <http://en.wikipedia.org/wiki/Arıca,_Gercüş>  ;
+ lawd:hasName [
+lawd:primaryForm "Upper Kafro"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur ʿAbdin"  ;];
+ lawd:hasName [
+lawd:variantForm "Midyat"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/239/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/239/tei>  .

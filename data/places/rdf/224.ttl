@@ -26,5 +26,19 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "built on top of a mountain near Melitene, it looks like a citadel, a fact which has led some writers to call it the Monastery of the Cave. It was first mentioned in church history in 790. It was the Patriarchal see from the eleventh century until the thirteenth century. A great monastery, it produced five patriarchs and forty-three metropolitans. It remained populated until the middle of the seventeenth century, when it was abandoned."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0790"  ;
+ lawd:hasName [
+lawd:primaryForm "Mor Barṣawmo"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܒܪܨܘܡܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܒܰܪܨܘܡܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار برصوم"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Barṣoum Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery of Mar Barsauma"@en  ;];
+ lawd:hasName [
+lawd:variantForm "دير برصوما"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/224/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/224/tei>  .

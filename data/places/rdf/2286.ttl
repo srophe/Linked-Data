@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/2286> a lawd:Place ;
 rdfs:label "Canterbury"  ;
+ lawd:hasName [
+lawd:primaryForm "Canterbury"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2286/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2286/tei>  .

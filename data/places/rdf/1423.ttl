@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1423> a lawd:Place ;
 rdfs:label "Mārshānīs — ܡܪܫܢܝܣ"  ;
+ lawd:hasName [
+lawd:primaryForm "Mārshānīs"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܡܪܫܢܝܣ"@syr  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1423/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1423/tei>  .

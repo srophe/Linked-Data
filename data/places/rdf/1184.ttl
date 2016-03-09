@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1184> a lawd:Place ;
 rdfs:label "Dohuk"  ;
+ lawd:hasName [
+lawd:primaryForm "Dohuk"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1184/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1184/tei>  .

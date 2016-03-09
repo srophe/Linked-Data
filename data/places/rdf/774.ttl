@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/774> a lawd:Place ;
 rdfs:label "Reshā"  ;
+ lawd:hasName [
+lawd:primaryForm "Reshā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/774/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/774/tei>  .

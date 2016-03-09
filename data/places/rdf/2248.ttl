@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2248> a lawd:Place ;
 rdfs:label "ʻAmid, Gazarta and Siirt’"  ;
+ lawd:hasName [
+lawd:primaryForm "ʻAmid, Gazarta and Siirt’"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʻĀmid, Gāzartā and Seert’"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2248/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2248/tei>  .

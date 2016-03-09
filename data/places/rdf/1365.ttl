@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1365> a lawd:Place ;
 rdfs:label "Kānifallā"  ;
+ lawd:hasName [
+lawd:primaryForm "Kānifallā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1365/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1365/tei>  .

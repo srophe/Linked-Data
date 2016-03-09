@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1569> a lawd:Place ;
 rdfs:label "Nauberi"  ;
+ lawd:hasName [
+lawd:primaryForm "Nauberi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1569/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1569/tei>  .

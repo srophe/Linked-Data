@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1699> a lawd:Place ;
 rdfs:label "Shāhwīpalān"  ;
+ lawd:hasName [
+lawd:primaryForm "Shāhwīpalān"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1699/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1699/tei>  .

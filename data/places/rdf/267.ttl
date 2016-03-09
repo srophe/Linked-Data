@@ -17,5 +17,7 @@ rdfs:label "Village in Lebanon, on the right bank of the Nahr al-Jaouz, ca. 15 k
  dcterms:description [
 rdfs:label "317. Kfar Helda"@en  ;];
 dcterms:temporal "1250"  ;
+ lawd:hasName [
+lawd:primaryForm "Kfar Helda"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/267/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/267/tei>  .

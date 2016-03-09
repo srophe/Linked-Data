@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/2285> a lawd:Place ;
 rdfs:label "Calicut"  ;
+ lawd:hasName [
+lawd:primaryForm "Calicut"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2285/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2285/tei>  .

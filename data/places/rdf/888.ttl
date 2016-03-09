@@ -12,5 +12,11 @@
 
 <http://syriaca.org/place/888> a lawd:Place ;
 rdfs:label "ʿAksni’"  ;
+ lawd:hasName [
+lawd:primaryForm "ʿAksni’"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Aksni’"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Aksni’"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/888/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/888/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1681> a lawd:Place ;
 rdfs:label "Sarnā"  ;
+ lawd:hasName [
+lawd:primaryForm "Sarnā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1681/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1681/tei>  .

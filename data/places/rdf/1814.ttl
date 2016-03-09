@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1814> a lawd:Place ;
 rdfs:label "Yangījā"  ;
+ lawd:hasName [
+lawd:primaryForm "Yangījā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1814/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1814/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/958> a lawd:Place ;
 rdfs:label "Bailekan"  ;
+ lawd:hasName [
+lawd:primaryForm "Bailekan"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/958/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/958/tei>  .

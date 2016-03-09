@@ -14,5 +14,17 @@
 rdfs:label "Mar Yawnan"  ;
 dcterms:description "A monastery near ."  ;
 dcterms:temporal "0800"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Yawnan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of Jonah"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery of Mar Yonan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Yōnān"@en  ;];
+ lawd:hasName [
+lawd:variantForm "دير يونس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Mosul"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/127/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/127/tei>  .

@@ -14,5 +14,21 @@
 rdfs:label "Fifyāth — ܦܦܝܬ"  ;
 dcterms:description "A village in ."  ;
 dcterms:temporal "1943"  ;
+ lawd:hasName [
+lawd:primaryForm "Fifyāth"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܦܦܝܬ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܦܳܦܝܰܬ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ففياث"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Fifyath"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ṭur ʿAbdin"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/531/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/531/tei>  .

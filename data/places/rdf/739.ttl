@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/739> a lawd:Place ;
 rdfs:label "Debur"  ;
+ lawd:hasName [
+lawd:primaryForm "Debur"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Debūr"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/739/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/739/tei>  .

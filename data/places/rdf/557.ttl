@@ -13,5 +13,25 @@
 <http://syriaca.org/place/557> a lawd:Place ;
 rdfs:label "Bāb al-ʿAmūd — ܬܪܥܐ ܕܥܡܘܕܐ"  ;
 dcterms:description "A district of ."  ;
+ lawd:hasName [
+lawd:primaryForm "Bāb al-ʿAmūd"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܬܪܥܐ ܕܥܡܘܕܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܬܰܪܥܐ ܕܥܰܡܘܕܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "باب العمود"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Bab al-ʿĀmūd"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bāb al-Amūd"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Bāb al-‘Amūd"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Bab al-Āmūd"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Bab al-‘Āmūd"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Jerusalem"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/557/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/557/tei>  .

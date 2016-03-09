@@ -14,5 +14,17 @@
 rdfs:label "Hanzīṭ — ܗܢܙܝܛ"  ;
 dcterms:description "A town about which composed memre."  ;
 dcterms:temporal "0373"  ;
+ lawd:hasName [
+lawd:primaryForm "Hanzīṭ"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܗܢܙܝܛ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܗܶܢܙܝܛ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "هنزيط"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Anazete"@en  ;];
+ lawd:hasName [
+lawd:variantForm "هِنْزيط"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1451/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1451/tei>  .

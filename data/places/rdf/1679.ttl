@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1679> a lawd:Place ;
 rdfs:label "Sarībajlūi"  ;
+ lawd:hasName [
+lawd:primaryForm "Sarībajlūi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1679/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1679/tei>  .

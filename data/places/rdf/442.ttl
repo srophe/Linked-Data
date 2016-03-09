@@ -23,5 +23,19 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a village in the vicinity of Diyarbakir which was populated by Syrians. It was destroyed in World War I."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1914"  ;
+ lawd:hasName [
+lawd:primaryForm "Kaʿbiya"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܟܥܒܝܗ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܟܰܥܒܺܝܶܗ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "كعبية"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Kabiya"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ka‘biya"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Amid"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/442/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/442/tei>  .

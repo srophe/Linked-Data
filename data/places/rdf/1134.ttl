@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1134> a lawd:Place ;
 rdfs:label "Chūlchen"  ;
+ lawd:hasName [
+lawd:primaryForm "Chūlchen"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1134/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1134/tei>  .

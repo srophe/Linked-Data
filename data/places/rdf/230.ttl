@@ -30,8 +30,21 @@ skos:exactMatch <http://pleiades.stoa.org/places/658579>  ;
 geo:location [
 geo:lat "36.827426"  ;
 geo:long "36.827426"  ;];
+ lawd:hasName [
+lawd:primaryForm "Qenneshre"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Qenneshrin"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܩܢܫܪܝܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܩܶܢܰܫܪܺܝܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير قِنَسرين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Qenneshrin Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Monastery of Qenneshre"@en  ;];
+ lawd:hasName [
+lawd:variantForm "دير قنسري"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/230/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/230/tei>  ;
-geo:location [
-geo:lat "36.827426"  ;
-geo:long "36.827426"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/230/tei>  .

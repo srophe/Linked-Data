@@ -13,5 +13,21 @@
 <http://syriaca.org/place/611> a lawd:Place ;
 rdfs:label "Beth Qoqa"  ;
 dcterms:description "A monastery outside ."  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Qoqa"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery of Bet Qoqa"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery of Sabrisho"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Sabrīshōʿ"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Qōqā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Sabrīshō"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Sabrīshō‘"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Erbil"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/611/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/611/tei>  .

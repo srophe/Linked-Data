@@ -18,8 +18,13 @@ skos:exactMatch <http://pleiades.stoa.org/places/874648>  ;
 geo:location [
 geo:lat "37.445274"  ;
 geo:long "37.445274"  ;];
+ lawd:hasName [
+lawd:primaryForm "Penek"@en  ;];
+ lawd:hasName [
+lawd:variantForm "فَنَك"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Tigris"  ;];
+ lawd:hasName [
+lawd:variantForm "Gazarta"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/253/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/253/tei>  ;
-geo:location [
-geo:lat "37.445274"  ;
-geo:long "37.445274"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/253/tei>  .

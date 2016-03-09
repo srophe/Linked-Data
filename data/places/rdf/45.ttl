@@ -27,8 +27,21 @@ skos:exactMatch <http://pleiades.stoa.org/places/658405>  ;
 geo:location [
 geo:lat "36.976694"  ;
 geo:long "36.976694"  ;];
+ lawd:hasName [
+lawd:primaryForm "Baṭnan"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܛܢܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܰܛܢܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بَطنان"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Baṭnān"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Batnan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "بُطْنان"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Serugh"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/45/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/45/tei>  ;
-geo:location [
-geo:lat "36.976694"  ;
-geo:long "36.976694"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/45/tei>  .

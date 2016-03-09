@@ -1,2 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/459> a lawd:Place ;
+rdfs:label "Maʿdan — ܡܥܕܢ"  ;
+ dcterms:description [
+rdfs:label "ܐܰܬܪܰܐ ܗܘ ܕܒܰܦܢܺܝܬ ܫܝܪܘܢ ܕܒܐܘܚܕܳܢ ܣܥܶܪܬ ܗܘܳܬ ܩܪܺܝܬܳܐ ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܡܰܪܕܝܢ ܡܰܪܕܶܐ ܫܶܬ ܫܳܥܝ̈ܢ ܠܓܰܪܒܝܳܗ̇."@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "بلدة في ناحية شروان من لواء سعرت صارت قرية."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a town in the vicinity of Sherwan, in the province of Seʿert; now a village."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1417"  ;
+ lawd:hasName [
+lawd:primaryForm "Maʿdan"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܡܥܕܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܡܰܥܕܰܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "المعدن"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Māʿdan"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Madan"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Ma‘dan"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mādan"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mā‘dan"@en-xsrp1  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/459/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/459/tei>  ;
+dcterms:relation <http://syriaca.org/place/2336>  .

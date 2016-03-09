@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1067> a lawd:Place ;
 rdfs:label "Beth Sharonaye"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Sharonaye"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Sharōnāye"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1067/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1067/tei>  .

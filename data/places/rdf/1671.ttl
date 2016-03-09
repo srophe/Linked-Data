@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1671> a lawd:Place ;
 rdfs:label "Sansālūi"  ;
+ lawd:hasName [
+lawd:primaryForm "Sansālūi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1671/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1671/tei>  .

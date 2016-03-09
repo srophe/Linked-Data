@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1001> a lawd:Place ;
 rdfs:label "Beth Arijai"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Arijai"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Arijai"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1001/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1001/tei>  .

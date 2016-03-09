@@ -23,5 +23,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "an old monastery near Midyat, built about 763. It produced three bishops."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0793"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayro d-Mor Abrohom"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܐܒܪܗܡ ܐܘ ܡܪܝ ܗܒܝܠ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܐܰܒܪܗܡ ܐܰܘ ܡܳܪܝ ܗܳܒܝܠ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار ابرهيم وهابيل"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Abraham and Abel Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/71/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/71/tei>  .

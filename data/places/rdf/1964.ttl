@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1964> a lawd:Place ;
 rdfs:label "Beth Mshaynane"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Mshaynane"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Mshaynāne"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1964/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1964/tei>  .

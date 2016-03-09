@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1343> a lawd:Place ;
 rdfs:label "Ikiāghāj"  ;
+ lawd:hasName [
+lawd:primaryForm "Ikiāghāj"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1343/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1343/tei>  .

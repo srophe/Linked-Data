@@ -14,5 +14,19 @@
 rdfs:label "Church of the Virgin — ܥܕܬܐ ܕܒܬܘܠܬܐ"  ;
 dcterms:description "A church in ."  ;
 dcterms:temporal "1235"  ;
+ lawd:hasName [
+lawd:primaryForm "Church of the Virgin"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܥܕܬܐ ܕܒܬܘܠܬܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܥܺܕܬܳܐ ܕܰܒܬܘܠܬܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بيعة العذرآء"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Qala Rumayta"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Qal‘a Rumayta"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Qalʿa Rumayta"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1486/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1486/tei>  .

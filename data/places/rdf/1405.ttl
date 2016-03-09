@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1405> a lawd:Place ;
 rdfs:label "Mādes"  ;
+ lawd:hasName [
+lawd:primaryForm "Mādes"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1405/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1405/tei>  .

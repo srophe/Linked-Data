@@ -13,5 +13,11 @@
 <http://syriaca.org/place/837> a lawd:Place ;
 rdfs:label "Kuplana"  ;
 dcterms:description "A town in ."  ;
+ lawd:hasName [
+lawd:primaryForm "Kuplana"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Kuplānā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Adiabene"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/837/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/837/tei>  .

@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1650> a lawd:Place ;
 rdfs:label "Rawma"  ;
+ lawd:hasName [
+lawd:primaryForm "Rawma"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Rawmā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1650/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1650/tei>  .

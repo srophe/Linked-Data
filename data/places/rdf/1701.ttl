@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1701> a lawd:Place ;
 rdfs:label "Shamak"  ;
+ lawd:hasName [
+lawd:primaryForm "Shamak"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1701/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1701/tei>  .

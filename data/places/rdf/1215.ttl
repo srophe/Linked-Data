@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1215> a lawd:Place ;
 rdfs:label "Gangājīn"  ;
+ lawd:hasName [
+lawd:primaryForm "Gangājīn"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1215/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1215/tei>  .

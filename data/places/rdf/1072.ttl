@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1072> a lawd:Place ;
 rdfs:label "Beth Ṣayyade"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Ṣayyade"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Ṣayyāde"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1072/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1072/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1760> a lawd:Place ;
 rdfs:label "Tasmālūi"  ;
+ lawd:hasName [
+lawd:primaryForm "Tasmālūi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1760/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1760/tei>  .

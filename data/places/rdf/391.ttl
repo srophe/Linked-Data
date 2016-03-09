@@ -20,8 +20,34 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "باسم النساك سرجيس وزعورا وباعوث على قلة الجبل القاحل فوق مدينة بلد بثلاثة فراسخ بينها وبين سنجار غربي الموصل، يظن بناؤه في المئة الخامسة، انجب مفريانا وبعض اساقفة وصار كرسيا اسقفيا منذ سنة 1167 الى 1345 ثم انطمس خبره وعفا اثره."@ar  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
  dcterms:description [
-rdfs:label "is thought to have been built in the fifth century in the name of the ascetics Sergius, Zura and Bāʿūth, on the crest of the Barren Mountain above Balad, three leagues from Sinjar, west of Mosul. It produced one Maphryono and some bishops and was a bishopric see from 1167 to 1345, after which it became deserted. [See "Rihla ila Athar Dayr al-Muʿallaq" ("A Trip to the Ruins of al-Muallaq Monastery"), Al-Mashriq 3: 7 (1951), 214-220. Although this article is unsigned, it was written by the late Bishop Gregorius Bulos Bahnam, (d. 1969), while he was still a monk in Mosul. This translator was among the group which visited the monastery with Rev. Bahnam (tr.)]."@en  ;
+rdfs:label "is thought to have been built in the fifth century in the name of the ascetics Sergius, Zura and Bāʿūth, on the crest of the Barren Mountain above Balad, three leagues from Sinjar, west of Mosul. It produced one Maphryono and some bishops and was a bishopric see from 1167 to 1345, after which it became deserted. [See Rihla ila Athar Dayr al-Muʿallaq (A Trip to the Ruins of al-Muallaq Monastery), Al-Mashriq 3: 7 (1951), 214-220. Although this article is unsigned, it was written by the late Bishop Gregorius Bulos Bahnam, (d. 1969), while he was still a monk in Mosul. This translator was among the group which visited the monastery with Rev. Bahnam (tr.)]."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0500"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayr al-Muʿallaq"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܥܠܩ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܡܥܠܩ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܣܰܪܓܝܣ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير المعلق"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار سرجيس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Muʿallaq Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "St. Sergius Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Dayr al-Muallaq"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Dayr al-Mu‘allaq"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Muallaq Monastery"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Mu‘allaq Monastery"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Balad"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/391/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/391/tei>  .

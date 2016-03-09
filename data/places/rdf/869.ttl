@@ -13,5 +13,11 @@
 <http://syriaca.org/place/869> a lawd:Place ;
 rdfs:label "Shenna"  ;
 dcterms:description "A city in northern Iraq."  ;
+ lawd:hasName [
+lawd:primaryForm "Shenna"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Shennā d'Beṯ Ramman"@en  ;];
+ lawd:hasName [
+lawd:variantForm "السِّنّ"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/869/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/869/tei>  .

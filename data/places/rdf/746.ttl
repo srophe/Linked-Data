@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/746> a lawd:Place ;
 rdfs:label "Garzan"  ;
+ lawd:hasName [
+lawd:primaryForm "Garzan"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/746/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/746/tei>  .

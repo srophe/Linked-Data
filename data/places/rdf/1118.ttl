@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1118> a lawd:Place ;
 rdfs:label "Chamanki"  ;
+ lawd:hasName [
+lawd:primaryForm "Chamanki"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1118/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1118/tei>  .

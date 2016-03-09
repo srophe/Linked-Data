@@ -13,5 +13,11 @@
 <http://syriaca.org/place/676> a lawd:Place ;
 rdfs:label "Dayr al-Askūl"  ;
 dcterms:description "A monastery in ."  ;
+ lawd:hasName [
+lawd:primaryForm "Dayr al-Askūl"@en  ;];
+ lawd:hasName [
+lawd:variantForm "دير الأَسْكُون"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥirta"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/676/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/676/tei>  .

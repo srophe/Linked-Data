@@ -12,5 +12,11 @@
 
 <http://syriaca.org/place/1084> a lawd:Place ;
 rdfs:label "Beth Zabaye"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Zabaye"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Zābāye"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Bāzawāyā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1084/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1084/tei>  .

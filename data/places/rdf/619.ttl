@@ -13,5 +13,11 @@
 <http://syriaca.org/place/619> a lawd:Place ;
 rdfs:label "Rabban Shabur"  ;
 dcterms:description "A monastery near ."  ;
+ lawd:hasName [
+lawd:primaryForm "Rabban Shabur"@en  ;];
+ lawd:hasName [
+lawd:variantForm "monastery of Rabban Shapur"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Shushtar"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/619/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/619/tei>  .

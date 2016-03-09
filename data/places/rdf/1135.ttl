@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1135> a lawd:Place ;
 rdfs:label "Chūpūl"  ;
+ lawd:hasName [
+lawd:primaryForm "Chūpūl"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1135/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1135/tei>  .

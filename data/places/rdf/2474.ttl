@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2474> a lawd:Place ;
 rdfs:label "Mar Nestorius"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Nestorius"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Nestorius"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2474/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2474/tei>  .

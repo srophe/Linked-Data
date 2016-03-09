@@ -18,8 +18,15 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Chios>  ;
 geo:location [
 geo:lat "38.414"  ;
 geo:long "38.414"  ;];
+ lawd:hasName [
+lawd:primaryForm "Chios"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܟܝܘ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܟܺܝܳܘ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "خيو"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Asia Minor"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1529/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1529/tei>  ;
-geo:location [
-geo:lat "38.414"  ;
-geo:long "38.414"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/1529/tei>  .

@@ -31,8 +31,15 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Malatya>  ;
 geo:location [
 geo:lat "38.34767"  ;
 geo:long "38.34767"  ;];
+ lawd:hasName [
+lawd:primaryForm "Melitene"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Malatya"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܡܝܠܝܛܝܢܝ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ملطية"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "مَلَطْية"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/136/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/136/tei>  ;
-geo:location [
-geo:lat "38.34767"  ;
-geo:long "38.34767"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/136/tei>  .

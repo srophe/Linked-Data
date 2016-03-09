@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/923> a lawd:Place ;
 rdfs:label "Tel Dārā"  ;
+ lawd:hasName [
+lawd:primaryForm "Tel Dārā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/923/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/923/tei>  .

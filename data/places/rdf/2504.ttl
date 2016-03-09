@@ -13,5 +13,21 @@
 <http://syriaca.org/place/2504> a lawd:Place ;
 rdfs:label "Shaykh ʿAdī"  ;
 dcterms:description "The main Yezidi shrine in , which according to a Syriac text forged in the 19th century was originally a monastery."  ;
+ lawd:hasName [
+lawd:primaryForm "Shaykh ʿAdī"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Shaikh ‘Adi"@en  ;];
+ lawd:hasName [
+lawd:variantForm "‘Mār Yōḥannān and Mār Īshōʿsabrān’"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Shaykh Adī"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Shaykh ‘Adī"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Mār Yōḥannān and Mār Īshōsabrān’"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "‘Mār Yōḥannān and Mār Īshō‘sabrān’"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Lālish"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2504/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2504/tei>  .

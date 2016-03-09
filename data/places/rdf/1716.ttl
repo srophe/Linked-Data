@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1716> a lawd:Place ;
 rdfs:label "Shiyōz"  ;
+ lawd:hasName [
+lawd:primaryForm "Shiyōz"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1716/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1716/tei>  .

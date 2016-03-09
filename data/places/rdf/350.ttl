@@ -19,5 +19,13 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "also called George Monastery: in the province of Samosata. Its name first appears in history at the end of the seventh century, but nothing is known about it after the ninth century. From it graduated one Patriarch and five bishops."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0700"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayr Ḥirbāz"@en  ;];
+ lawd:hasName [
+lawd:variantForm "دير حِرباز"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Harbaz Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "George Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/350/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/350/tei>  .

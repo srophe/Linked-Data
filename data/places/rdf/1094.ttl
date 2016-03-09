@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1094> a lawd:Place ;
 rdfs:label "Billān"  ;
+ lawd:hasName [
+lawd:primaryForm "Billān"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Barbellī"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1094/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1094/tei>  .

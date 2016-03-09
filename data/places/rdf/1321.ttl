@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1321> a lawd:Place ;
 rdfs:label "Ḥatailū"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥatailū"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1321/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1321/tei>  .

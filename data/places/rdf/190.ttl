@@ -19,8 +19,17 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Kozan,_Adana>  ;
 geo:location [
 geo:lat "37.45"  ;
 geo:long "37.45"  ;];
+ lawd:hasName [
+lawd:primaryForm "Sis"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܣܝܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "سيس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Sīs"@en  ;];
+ lawd:hasName [
+lawd:variantForm "سيسية"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Cilicia"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/190/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/190/tei>  ;
-geo:location [
-geo:lat "37.45"  ;
-geo:long "37.45"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/190/tei>  .

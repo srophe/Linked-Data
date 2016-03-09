@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2374> a lawd:Place ;
 rdfs:label "Shenna d-Beth Ramman"  ;
+ lawd:hasName [
+lawd:primaryForm "Shenna d-Beth Ramman"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Shennā d'Beṯ Ramman"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2374/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2374/tei>  .

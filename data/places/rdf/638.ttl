@@ -17,8 +17,11 @@ skos:exactMatch <http://pleiades.stoa.org/places/874655>  ;
 geo:location [
 geo:lat "36.53173"  ;
 geo:long "36.53173"  ;];
+ lawd:hasName [
+lawd:primaryForm "Qasr Serij"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mosul"  ;];
+ lawd:hasName [
+lawd:variantForm "Nisibis"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/638/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/638/tei>  ;
-geo:location [
-geo:lat "36.53173"  ;
-geo:long "36.53173"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/638/tei>  .

@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1167> a lawd:Place ;
 rdfs:label "Dirgīni"  ;
+ lawd:hasName [
+lawd:primaryForm "Dirgīni"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1167/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1167/tei>  .

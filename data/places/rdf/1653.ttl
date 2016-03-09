@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1653> a lawd:Place ;
 rdfs:label "Rebbat"  ;
+ lawd:hasName [
+lawd:primaryForm "Rebbat"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1653/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1653/tei>  .

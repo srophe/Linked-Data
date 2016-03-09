@@ -1,2 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/2046> a lawd:Place ;
+rdfs:label "Mar Quryaqos"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Quryaqos"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Quriāqōs"@en  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/2046/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/2046/tei>  ;
+dcterms:relation <http://syriaca.org/place/2484>  ;
+dcterms:relation <http://syriaca.org/place/2485>  ;
+dcterms:relation <http://syriaca.org/place/1430>  ;
+dcterms:relation <http://syriaca.org/place/2035>  ;
+dcterms:relation <http://syriaca.org/place/2036>  ;
+dcterms:relation <http://syriaca.org/place/2037>  ;
+dcterms:relation <http://syriaca.org/place/2038>  ;
+dcterms:relation <http://syriaca.org/place/2039>  ;
+dcterms:relation <http://syriaca.org/place/2040>  ;
+dcterms:relation <http://syriaca.org/place/2041>  ;
+dcterms:relation <http://syriaca.org/place/2042>  ;
+dcterms:relation <http://syriaca.org/place/2043>  ;
+dcterms:relation <http://syriaca.org/place/2044>  ;
+dcterms:relation <http://syriaca.org/place/2045>  ;
+dcterms:relation <http://syriaca.org/place/2047>  ;
+dcterms:relation <http://syriaca.org/place/2048>  .

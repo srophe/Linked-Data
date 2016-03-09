@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2334> a lawd:Place ;
 rdfs:label "Gondeshapur"  ;
+ lawd:hasName [
+lawd:primaryForm "Gondeshapur"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Jundishapur"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2334/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2334/tei>  .

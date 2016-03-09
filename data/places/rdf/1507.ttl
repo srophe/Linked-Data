@@ -14,5 +14,13 @@
 rdfs:label "al-Baḥrayn — ܒܚܪܝܢ"  ;
 dcterms:description "A place whose inhabitants received a letter from ."  ;
 dcterms:temporal "0847"  ;
+ lawd:hasName [
+lawd:primaryForm "al-Baḥrayn"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܚܪܝܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܰܚܪܰܝܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "البحرين"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1507/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1507/tei>  .

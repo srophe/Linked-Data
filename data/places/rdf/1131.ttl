@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1131> a lawd:Place ;
 rdfs:label "Chire Rezen"  ;
+ lawd:hasName [
+lawd:primaryForm "Chire Rezen"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1131/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1131/tei>  .

@@ -27,8 +27,17 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Sarmin>  ;
 geo:location [
 geo:lat "35.922817"  ;
 geo:long "35.922817"  ;];
+ lawd:hasName [
+lawd:primaryForm "Sarmin"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܣܪܡܝܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܣܰܪܡܝܢ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "سرمين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Sermin"@en  ;];
+ lawd:hasName [
+lawd:variantForm "سَرْمِيْن"@ar  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/410/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/410/tei>  ;
-geo:location [
-geo:lat "35.922817"  ;
-geo:long "35.922817"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/410/tei>  .

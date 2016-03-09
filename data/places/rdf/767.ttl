@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/767> a lawd:Place ;
 rdfs:label "Nōrdūz"  ;
+ lawd:hasName [
+lawd:primaryForm "Nōrdūz"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/767/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/767/tei>  .

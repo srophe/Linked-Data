@@ -23,5 +23,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "a village on the Euphrates, the birthplace of Jacob of Sarug (d. 521)."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0460"  ;
+ lawd:hasName [
+lawd:primaryForm "Kurtam"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܟܘܪܬܘܡ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "كورتم"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Qawartam"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Euphrates"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/450/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/450/tei>  .

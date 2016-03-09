@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1046> a lawd:Place ;
 rdfs:label "Beth Nānō"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Nānō"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Nānō"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1046/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1046/tei>  .

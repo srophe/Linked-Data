@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1124> a lawd:Place ;
 rdfs:label "Chambā d-Mālik"  ;
+ lawd:hasName [
+lawd:primaryForm "Chambā d-Mālik"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Chambā d'Mālik"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1124/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1124/tei>  .

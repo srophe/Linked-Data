@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1740> a lawd:Place ;
 rdfs:label "Sūq al-Thalātha"  ;
+ lawd:hasName [
+lawd:primaryForm "Sūq al-Thalātha"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Sūq al-Ṯalāṯa"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1740/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1740/tei>  .

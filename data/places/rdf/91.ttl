@@ -19,8 +19,21 @@ skos:closeMatch <http://en.wikipedia.org/wiki/Hama>  ;
 geo:location [
 geo:lat "35.13333"  ;
 geo:long "35.13333"  ;];
+ lawd:hasName [
+lawd:primaryForm "Ḥama"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Epiphaneia"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܚܡܬ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "حماه"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Hamah"@en  ;];
+ lawd:hasName [
+lawd:variantForm "حَماة"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Orontes river"  ;];
+ lawd:hasName [
+lawd:variantForm "Emesa"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/91/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/91/tei>  ;
-geo:location [
-geo:lat "35.13333"  ;
-geo:long "35.13333"  ;].
+foaf:primaryTopicOf <http://syriaca.org/place/91/tei>  .

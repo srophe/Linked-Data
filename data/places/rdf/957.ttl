@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/957> a lawd:Place ;
 rdfs:label "Baijō"  ;
+ lawd:hasName [
+lawd:primaryForm "Baijō"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/957/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/957/tei>  .

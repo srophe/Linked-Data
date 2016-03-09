@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/910> a lawd:Place ;
 rdfs:label "Ārewūn"  ;
+ lawd:hasName [
+lawd:primaryForm "Ārewūn"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/910/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/910/tei>  .

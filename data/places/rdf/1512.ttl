@@ -14,5 +14,21 @@
 rdfs:label "Beth Naʿar — ܒܝܬ ܢܥܪ"  ;
 dcterms:description "A village near ."  ;
 dcterms:temporal "0790"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Naʿar"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܒܝܬ ܢܥܪ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܒܶܝܬ ܢܢܙ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "بيت نعر"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Beth Naar"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beth Naar"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Beth Na‘ar"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Edessa"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1512/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1512/tei>  .

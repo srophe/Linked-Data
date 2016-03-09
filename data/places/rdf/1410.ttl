@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1410> a lawd:Place ;
 rdfs:label "Māken Āwā"  ;
+ lawd:hasName [
+lawd:primaryForm "Māken Āwā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1410/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1410/tei>  .

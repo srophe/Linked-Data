@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/998> a lawd:Place ;
 rdfs:label "Bestāvā"  ;
+ lawd:hasName [
+lawd:primaryForm "Bestāvā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/998/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/998/tei>  .

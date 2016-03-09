@@ -22,5 +22,15 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "built in Sarug and named after St. Shila (d. 506). Two synods were convened in this monastery, in 706 and 846, and between 698 and 930 it produced nine bishops."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "0527"  ;
+ lawd:hasName [
+lawd:primaryForm "Mor Shilo"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܫܝܠܐ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܫܝܠܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار شيلا"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Shila Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/365/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/365/tei>  .

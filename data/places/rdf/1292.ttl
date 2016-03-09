@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1292> a lawd:Place ;
 rdfs:label "Hūr"  ;
+ lawd:hasName [
+lawd:primaryForm "Hūr"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1292/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1292/tei>  .

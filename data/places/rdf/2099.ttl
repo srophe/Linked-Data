@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2099> a lawd:Place ;
 rdfs:label "Mar Theodore"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Theodore"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mār Theodore (West Syrian)"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2099/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2099/tei>  .

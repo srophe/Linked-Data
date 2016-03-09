@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1339> a lawd:Place ;
 rdfs:label "Ḥṭārā"  ;
+ lawd:hasName [
+lawd:primaryForm "Ḥṭārā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥetrā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1339/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1339/tei>  .

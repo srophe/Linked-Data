@@ -14,5 +14,13 @@
 rdfs:label "Mar Toma"  ;
 dcterms:description "A church in"  ;
 dcterms:temporal "1828"  ;
+ lawd:hasName [
+lawd:primaryForm "Mar Toma"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Holy Apostle Thomas"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Urmi-Church"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Verin Dvin"  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2564/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2564/tei>  .

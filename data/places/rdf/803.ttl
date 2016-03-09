@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/803> a lawd:Place ;
 rdfs:label "Bayt al-Shabab"  ;
+ lawd:hasName [
+lawd:primaryForm "Bayt al-Shabab"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beit al-Shabab"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/803/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/803/tei>  .

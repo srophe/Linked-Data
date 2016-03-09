@@ -12,5 +12,11 @@
 
 <http://syriaca.org/place/1436> a lawd:Place ;
 rdfs:label "Mata Taḥtayta"  ;
+ lawd:hasName [
+lawd:primaryForm "Mata Taḥtayta"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Mātā Taḥtaiṯā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Māṯā d'Bāz"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1436/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1436/tei>  .

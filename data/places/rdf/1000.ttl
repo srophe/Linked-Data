@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/1000> a lawd:Place ;
 rdfs:label "Beth Agre"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Agre"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Agre"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1000/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1000/tei>  .

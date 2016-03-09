@@ -21,5 +21,13 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
  dcterms:description [
 rdfs:label "a village in the Batrun in Lebanon, six hours journey from Tripoli."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ lawd:hasName [
+lawd:primaryForm "Ḥardin"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܚܪܕܝܢ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "حردين"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Ḥardīn"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/325/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/325/tei>  .

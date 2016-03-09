@@ -1,2 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<error>Caught error err:XPTY0004: It is a type error if, during the static analysis phase, an expression is found to have a static type that is not appropriate for the context in which the expression occurs, or during the dynamic evaluation phase, the dynamic type of a value does not match a required type as specified by the matching rules in 2.5.4 SequenceType Matching.</error>
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/382> a lawd:Place ;
+rdfs:label "Mor Giwargis — ܕܝܪܐ ܕܡܪܝ ܓܘܪܓܝܣ"  ;
+ dcterms:description [
+rdfs:label "ܠܡܰܥܪܒܐ ܕܡܶܪܕܐ ܫܰܟܠܠܗ ܡܫܰܡܫܳܢܐ ܐܰܒܽܘ ܥܰܠܝ ܪܝܫ ܐܳܣܰܘ̈ܬܐ ܒܕܳܪܐ ܕܰܬܪܶܥܣܪ. ܚܪܶܒ"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "غربي ماردين رمه الشماس ابو علي رئيس الاطباء في القرن الثاني عشر عفا اثره."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "south of Mardin, was renovated by Abu ʿAli, the chief physician in the twelfth century. It is no longer in existence."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "1200"  ;
+ lawd:hasName [
+lawd:primaryForm "Mor Giwargis"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܓܘܪܓܝܣ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܓܶܘܪܓܝܣ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار كوركيس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "دير مار جرجيس"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "George Monastery"@en  ;];
+foaf:primaryTopicOf <http://syriaca.org/place/382/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/382/tei>  ;
+dcterms:relation <http://syriaca.org/place/383>  .

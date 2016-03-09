@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1257> a lawd:Place ;
 rdfs:label "Hakkadānā"  ;
+ lawd:hasName [
+lawd:primaryForm "Hakkadānā"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1257/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1257/tei>  .

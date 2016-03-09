@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2417> a lawd:Place ;
 rdfs:label "Abba Sahrowaï"  ;
+ lawd:hasName [
+lawd:primaryForm "Abba Sahrowaï"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Abbā Sahrowaï"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2417/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2417/tei>  .

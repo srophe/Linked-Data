@@ -14,5 +14,7 @@
 rdfs:label "Siyagut"  ;
 dcterms:description "An Assyrian settlement in the Šarur region of Northwest Nakhchivan"  ;
 dcterms:temporal "1869"  ;
+ lawd:hasName [
+lawd:primaryForm "Siyagut"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2557/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2557/tei>  .

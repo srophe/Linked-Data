@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2280> a lawd:Place ;
 rdfs:label "Beth Ṣinaye"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth Ṣinaye"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Ṣināye (China)"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2280/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2280/tei>  .

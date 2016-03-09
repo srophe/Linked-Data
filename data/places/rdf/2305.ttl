@@ -12,5 +12,9 @@
 
 <http://syriaca.org/place/2305> a lawd:Place ;
 rdfs:label "ʻGiennum’"  ;
+ lawd:hasName [
+lawd:primaryForm "ʻGiennum’"@en  ;];
+ lawd:hasName [
+lawd:variantForm "ʻGiennum’ (Gāwīlan?)"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/2305/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/2305/tei>  .

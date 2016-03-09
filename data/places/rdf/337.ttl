@@ -22,5 +22,21 @@ dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 rdfs:label "in Karkar, was built in 1138 and remained in existence until 1600. In 1170, Patriarch Michael the Great rebuilt its church. It produced five bishops."@en  ;
 dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
 dcterms:temporal "1137"  ;
+ lawd:hasName [
+lawd:primaryForm "Dayr Abū Ghālib"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܕܝܪܐ ܕܐܒܘ ܓܐܠܒ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܕܰܐܒܽܘ ܓܰܐܠܒ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܕܰܝܪܐ ܦܳܬܘܪ ܡܰܠܟ̈ܐ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "دير ابو غالب"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "دير مائدة الملك"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Abū Ghālib Monastery"@en  ;];
+ lawd:hasName [
+lawd:variantForm "the King’s Table Monastery"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/337/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/337/tei>  .

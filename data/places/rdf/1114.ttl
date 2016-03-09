@@ -12,5 +12,7 @@
 
 <http://syriaca.org/place/1114> a lawd:Place ;
 rdfs:label "Chahārgūshi"  ;
+ lawd:hasName [
+lawd:primaryForm "Chahārgūshi"@en  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1114/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1114/tei>  .

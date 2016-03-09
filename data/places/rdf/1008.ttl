@@ -12,5 +12,17 @@
 
 <http://syriaca.org/place/1008> a lawd:Place ;
 rdfs:label "Beth ʿAzziza"  ;
+ lawd:hasName [
+lawd:primaryForm "Beth ʿAzziza"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ ʿAzīzā"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Beth Azziza"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Beth ‘Azziza"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ Azīzā"@en-xsrp1  ;];
+ lawd:hasName [
+lawd:variantForm "Beṯ ‘Azīzā"@en-xsrp1  ;];
 foaf:primaryTopicOf <http://syriaca.org/place/1008/html>  ;
 foaf:primaryTopicOf <http://syriaca.org/place/1008/tei>  .

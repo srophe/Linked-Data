@@ -231,11 +231,11 @@
 
 # Incerta
 
-         skos:historyNote "GEDSH articles identifies its river as the <http://syriaca.org/place/43.html> but this identification is contested." ;
+         skos:historyNote "GEDSH article identifies its river as the <http://syriaca.org/place/43.html> but this identification is contested." ;
 
 
           cc:license <http://creativecommons.org/licenses/by/3.0/deed.en_US> ;
-          dcterms:dateCopyrighted "2014" ;
+          dcterms:dateCopyrighted "2014" .
           
           
 

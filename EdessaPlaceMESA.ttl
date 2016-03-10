@@ -184,7 +184,7 @@
                       <https://en.wikipedia.org/wiki/%C5%9Eanl%C4%B1urfa> ;
 
 # Known Religious Communities
-## used lawd:hasAttestation instead of time:intervalStartedBy and time:intervalFinishedBy
+## used lawd:hasAttestation instead of periodO:earliestYear and latestYear
 
                   rdfs:label "Christians" ,
                            ( lawd:hasAttestation "201" ,
@@ -194,7 +194,7 @@
 ) ;
                               rdfs:label "Syriac" ,  
                               ( rdfs:subClassOf "Christians" , # is this allowed?
-                              lawd:hasAttestation "520" , #periodO:earliestYear and latestYear ?
+                              lawd:hasAttestation "520" ,
                               lawd:hasAttestation "1624" ,
 ) ;
                                     rdfs:label "West Syrian" ,

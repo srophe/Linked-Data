@@ -1,4 +1,4 @@
-# still a work in progress -AA
+# work in progress -AA
 
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix role: <http://www.loc.gov/loc.terms/relators/> .
@@ -20,39 +20,39 @@
 
 <http://syriaca.org/place/78> a lawd:Place ;
 
-                  collex:discipline "History" ; # dcterms:subject intended to be used with non-literal, dbo:AcademicSubject ?
-                  role:edt <http://syriaca.org/editors.xml#tcarlson> , # not role:aut ?
-                           <http://syriaca.org/editors.xml#dmichelson> ;
+        collex:discipline "History" ; # dcterms:subject intended to be used with non-literal, dbo:AcademicSubject ?
+        role:edt <http://syriaca.org/editors.xml#tcarlson> , # not role:aut ?
+                 <http://syriaca.org/editors.xml#dmichelson> ;
 
-# should we use dcterms:source, schema:citation , cito:cites instead?
+# should we use dcterms:source, dcterms:bibliographicCitation, schema:citation , cito:cites instead?
          rdfs:label "Edessa"@en ;
          dcterms:description: "A city of <http://syriaca.org/place/124.html>, the capital of the ancient kingdom of <http://syriaca.org/place/145.html>, modern Urfa." ,
                               "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ;
-         a <http://syriaca.org/geo/browse.html?view=type&type=settlement> ; # link broken on Edessa page - Apache 500 server error
-                  dcterms:description # need unicode for Arabic here # ,
-                           ( cito:citesAsSourceDocument "Berule bdire d-ʿal yulpone suryoye hdire" , # can cito:citesAsSourceDocument be used with literal ?
+         a <http://syriaca.org/geo/browse.html?view=type&type=settlement> ; # settlement link broken on Edessa page - Apache 500 server error
+                  dcterms:description , # need unicode for Arabic here #
+                           ( cito:citesAsSourceDocument "Berule bdire d-ʿal yulpone suryoye hdire" , # need worldcat URI # can cito:citesAsSourceDocument be used with literal ? ## getting ttl validation error on this line - not sure why
                            role:aut <https://www.wikidata.org/wiki/Q1368502> ,
                            role:trl <https://www.wikidata.org/wiki/Q2088332> ,
                            bibo:locator "pp: 556."
 ) ;
-                  dcterms:description # need unicode for Arabic here # ,
-                           ( cito:citesAsSourceDocument "al-Luʼluʼ al-manthūr fī tārīkh al-ʻulūm wa-al-ādāb al-Suryāniyyah" ,
+                  dcterms:description , # need unicode for Arabic here #
+                           ( cito:citesAsSourceDocument "al-Luʼluʼ al-manthūr fī tārīkh al-ʻulūm wa-al-ādāb al-Suryāniyyah" , # need worldcat URI
                            role:aut <https://www.wikidata.org/wiki/Q1368502> ,
                            bibo:locator "pp: 516." ,
 ) ;         
                   dcterms:description "183. Edessa"@en ,
                            ( cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
                            role:edt <http://viaf.org/viaf/36934903> ,
-                           bibo:locator "pp: 1, 4, 5–6 (with fig. 1), 9–10, 13, 15–16, 18, 26, 29, 31, 33–34, 36, 37–38, 41, 46, 54, 56, 60, 64, 69, 71, 74, 84, 86, 90, 97–98, 99, 102, 107–108, 126, 127, 128, 132–133, 138–139 (with fig. 47), 145, 153, 155, 162, 163, 164, 178, 191–192, 195–196, 197, 199, 201–202, 209, 213, 220, 229, 237, 249, 252, 260–261, 262, 266, 267, 268, 270, 271–272, 273, 284, 287, 288, 303–304, 314, 316, 317, 322, 327–328, 332, 335, 343, 346, 348, 350, 351, 352, 356, 361, 363, 367, 376, 377, 384, 390, 392, 398, 401, 403, 407, 410–411, 419, 431, 432, 433, 438–439, 444, 446, 448, maps: Map I B1, II B1, III."
+                           bibo:locator "pp: 138-139."
 ) ;
-                  dcterms:description "a famous city, five day journey eastward from Aleppo, now called Urfa." ,
+                  dcterms:description "a famous city, five day journey eastward from <http://syriaca.org/place/18.html>, now called Urfa." ,
                            ( cito:citesAsSourceDocument <http://www.worldcat.org/oclc/54405272> ,
                            role:aut <https://www.wikidata.org/wiki/Q1368502> ,
                            role:trl <http://viaf.org/viaf/27483> ,
                            bibo:locator "pp: 553." 
 ) ;
                            
-         dcterms:date "-0304" ; # used dcterms:date, not dcterms:temporal, b/c calls for string literal
+         dcterms:date "-0304" ; # used dcterms:date, not dcterms:temporal b/c calls for string literal
          # add PeriodO id
          
          skos:exactMatch <http://pleiades.stoa.org/places/658457> ; 
@@ -62,7 +62,7 @@
          skos:related <http://syriaca.org/place/145.html> ,
                       <http://syriaca.org/place/166.html> ;
          
-         lawd:hasName ( lawd:primaryForm "Edessa"@en ) ; # should these be bnodes?
+         lawd:hasName ( lawd:primaryForm "Edessa"@en ) ; # should these be bnodes ?
          lawd:hasName ( lawd:primaryForm "ܐܘܪܗܝ"@syr ) ;
          lawd:hasName (
          lawd:primaryForm "أَذاسا"@ar ;
@@ -77,8 +77,8 @@
          
          # Events
          ## rdfs:comment better than skos:historyNote?
-         ### synatx here needs review
-                  skos:historyNote  "Renamed Edessa by Seleucus I Nicator." ,
+         ### syntax here needs review
+                  skos:historyNote  "Renamed Edessa by <https://www.wikidata.org/wiki/Q184176>." , # Seleucus I Nicator
                                     ( dcterms:date "-304" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
                                     bibo:locator "pp: 138-139."
@@ -88,7 +88,7 @@
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
                                     bibo:locator "pp: 138-139."
 ) ,
-                           "Full incorporation into the Roman Empire." ,
+                           "Full incorporation into the <http://syriaca.org/place/166.html>." , # Roman empire
                                     ( dcterms:date "213" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
                                     bibo:locator "pp: 138-139."
@@ -113,7 +113,7 @@
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
                                     bibo:locator "pp: 138-139."
 ) ,
-                           "Edessa incorporated into the Ottoman Empire." ,
+                           "Edessa incorporated into the <http://syriaca.org/place/631.html>." ,
                                     ( dcterms:date "1517" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
                                     bibo:locator "pp: 138-139."
@@ -124,7 +124,7 @@
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
                                     bibo:locator "pp: 138-139."
 ) ,
-                           "Emigration of remaining Armenian and Syrian Christians to Aleppo." ,
+                           "Emigration of remaining Armenian and Syrian Christians to <http://syriaca.org/place/18.html>." , # Aleppo
                                     ( dcterms:date "1924" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
                                     bibo:locator "pp: 138-139."
@@ -188,49 +188,44 @@
 ## used lawd:hasAttestation instead of time:intervalStartedBy and time:intervalFinishedBy
 
                   rdfs:label "Christians" ,
-                           ( lawd:hasAttestation "201" ;
-                           lawd:hasAttestation "1624" ;
-                           cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
+                           ( lawd:hasAttestation "201" ,
+                           lawd:hasAttestation "1624" ,
+                           cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
                            bibo:locator "pp: 138-139." 
 ) ;
                               rdfs:label "Syriac" ,  
-                              ( rdfs:subClassOf "Christians" ; # is this correct usage? (used multiple times below)
-                              lawd:hasAttestation "520" ;
-                              lawd:hasAttestation "1624" ;
-                              cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
-                              bibo:locator "pp: 138-139." 
+                              ( rdfs:subClassOf "Christians" , # is this allowed?
+                              lawd:hasAttestation "520" , #periodO:earliestYear and latestYear ?
+                              lawd:hasAttestation "1624" ,
 ) ;
                                     rdfs:label "West Syrian" ,
-                                    ( rdfs:subClassOf "Christians" ,
-                                                      "Syriac" ;
+                                    ( rdfs:subClassOf "Syriac" ,
                                     lawd:hasAttestation "520" ,
-                                                        "1624" 
+                                    lawd:hasAttestation "1624" 
 ) ;
                                              rdfs:label "Melkite" ,
-                                             ( rdfs:subClassOf "Christians" ,
-                                                               "Syriac" ;  
+                                             ( rdfs:subClassOf "West Syrian" , # is this right ?
                                              lawd:hasAttestation "522" ,
-                                                                 "544"
+                                             lawd:hasAttestation "544"
 ) ;
                                              rdfs:label "Syrian Orthodox" ,
-                                             ( rdfs:subClassOf "Christians" ,
-                                                               "Syriac" ;
+                                             ( rdfs:subClassOf "West Syrian" ,
                                              lawd:hasAttestation "520" ,
-                                                                 "1624"
+                                             lawd:hasAttestation "1624"
 ) ;
                   rdfs:label "Latin" ,
                            ( rdfs:subClassOf "Christians" ;
-                           lawd:hasAttestation "no attestations yet recorded" ;
+                           skos:historyNote "no attestations yet recorded" ;
                            cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
                            bibo:locator "pp: 138-139."
 ) ;
                   rdfs:label "Jews" ,
-                           ( lawd:hasAttestation "no attestations yet recorded" ,
-                           cito:citesAsSourceDocument "Han J. W. Drijvers, "Jews and Christians at Edessa," in Journal of Jewish Studies (n.p.: n.p., 1985)" # no DOI for this article
+                           ( skos:historyNote "no attestations yet recorded" ,
+                           cito:citesAsSourceDocument "Han J. W. Drijvers, 'Jews and Christians at Edessa', in Journal of Jewish Studies (n.p.: n.p., 1985)" # no DOI for this article
                            bibo:locator "pp: 90, 102."
 ) ;
                   rdfs:label "Muslims" ,
-                           ( lawd:hasAttestation "no attestations yet recorded" ;
+                           ( skos:historyNote "no attestations yet recorded" ;
                            cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
                            bibo:locator "pp: 138-139."
 ) ;

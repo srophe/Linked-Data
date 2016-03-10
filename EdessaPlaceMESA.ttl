@@ -30,7 +30,7 @@
                               "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ;
          a <http://syriaca.org/geo/browse.html?view=type&type=settlement> ; # link broken on Edessa page - Apache 500 server error
                   dcterms:description # need unicode for Arabic here # ,
-                           ( cito:citesAsSourceDocument "Berule bdire d-ʿal yulpone suryoye hdire" ;
+                           ( cito:citesAsSourceDocument "Berule bdire d-ʿal yulpone suryoye hdire" ,
                            role:aut <https://www.wikidata.org/wiki/Q1368502> ;
                            role:trl <https://www.wikidata.org/wiki/Q2088332> ;
                            bibo:locator "pp: 556"
@@ -161,7 +161,7 @@
 ) ,
                              "Attestation of Syrian Orthodox church in Edessa in the anonymous Chronicle of 1234." ,
                                     ( dcterms:date "1146" ,
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/1145695 ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/1145695> ,
                                     bibo:locator "pp: 2:136"
 ) ,
                              "Attestation of names الرُّهاء and أَذاسا in the Muʿjam al-buldān of Yāqūt al-Ḥamawī." ,

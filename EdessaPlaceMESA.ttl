@@ -134,47 +134,47 @@
          ## need syntax review
          ### dcterms:isReferencedBy?
          lawd:hasAttestation "Attestation of Christian church in Edessa according to the Chronicle of Edessa." ,
-                                    [ dcterms:date "201" ;
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/834291376> ;
-                                    bibo:locator pp: 1:2, 11, 13.
-] ,
+                                    ( dcterms:date "201" ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/834291376> ,
+                                    bibo:locator "pp: 1:2, 11, 13."
+) ,
                              "Attestation of anti-Chalcedonian bishop in Edessa according to the Chronicle of Edessa." ,
-                                    [ dcterms:date "520" ;
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/834291376> ;
-                                    bibo:locator pp: 1:2, 11, 13.
-] ,
+                                    ( dcterms:date "520" ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/834291376> ,
+                                    bibo:locator "pp: 1:2, 11, 13."
+) ,
                              "Attestation of Chalcedonian bishop in Edessa according to the Chronicle of Edessa." ,
-                                    [ dcterms:date "522" ;
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/834291376> ;
-                                    bibo:locator pp: 1:2, 11, 13.
-] ,
+                                    ( dcterms:date "522" ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/834291376> ,
+                                    bibo:locator "pp: 1:2, 11, 13."
+) ,
                              "Attestation of Chalcedonian author in Edessa according to the Chronicle of Edessa." ,
-                                    [ periodo:earliestYear "540" ;
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/834291376> ;
-                                    bibo:locator pp: 1:2, 11, 13.
-] ,
+                                    ( periodo:earliestYear "540" ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/834291376> ,
+                                    bibo:locator "pp: 1:2, 11, 13."
+) ,
                              "Attestation of name ######## in the anonymous Chronicle of 1234." ,
-                                    [ periodo:earliestYear "1146" ;
-                                    periodo:latestYear "1234" ;
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/1145695 ;
+                                    ( periodo:earliestYear "1146" ,
+                                    periodo:latestYear "1234" ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/1145695> ,
                                     bibo:locator "pp: 2:136"
-] ,
+) ,
                              "Attestation of Syrian Orthodox church in Edessa in the anonymous Chronicle of 1234." ,
-                                    [ dcterms:date "1146" ;
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/1145695 ;
+                                    ( dcterms:date "1146" ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/1145695 ,
                                     bibo:locator "pp: 2:136"
-] ,
+) ,
                              "Attestation of names الرُّهاء and أَذاسا in the Muʿjam al-buldān of Yāqūt al-Ḥamawī." ,
-                                    [ periodo:earliestYear "1224" ;
-                                    periodo:latestYear "1228" ;
+                                    ( periodo:earliestYear "1224" ,
+                                    periodo:latestYear "1228" ,
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/23909540> ;
                                     bibo:locator "pp: I:155; III:120."
-] ,
+) ,
                              "Attestation of Syrian Orthodox metropolitan for Edessa according to Barsoum's Scattered Pearls." ,
-                                    [ dcterms:date "1624" ;
-                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/54405272> ;
+                                    ( dcterms:date "1624" ,
+                                    cito:citesAsSourceDocument <http://www.worldcat.org/oclc/54405272> ,
                                     bibo:locator "pp: 553"
-] ;
+) ;
                              
          rdfs:seeAlso <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Edessa&sT=keywords> , # is rdfs:seeAlso permissible with a URL?
                       <http://pleiades.stoa.org/places/658457> ,

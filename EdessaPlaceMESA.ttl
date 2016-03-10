@@ -33,12 +33,12 @@
                            ( cito:citesAsSourceDocument "Berule bdire d-ʿal yulpone suryoye hdire" ,
                            role:aut <https://www.wikidata.org/wiki/Q1368502> ,
                            role:trl <https://www.wikidata.org/wiki/Q2088332> ,
-                           bibo:locator "pp: 556"
+                           bibo:locator "pp: 556."
 ) ;
                   dcterms:description # need unicode for Arabic here # ,
                            ( cito:citesAsSourceDocument "al-Luʼluʼ al-manthūr fī tārīkh al-ʻulūm wa-al-ādāb al-Suryāniyyah" ,
                            role:aut <https://www.wikidata.org/wiki/Q1368502> ,
-                           bibo:locator "pp: 516" ,
+                           bibo:locator "pp: 516." ,
 ) ;         
                   dcterms:description "183. Edessa"@en ,
                            ( cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ,
@@ -49,7 +49,7 @@
                            ( cito:citesAsSourceDocument <http://www.worldcat.org/oclc/54405272> ,
                            role:aut <https://www.wikidata.org/wiki/Q1368502> ,
                            role:trl <http://viaf.org/viaf/27483> ,
-                           bibo:locator "pp: 553" 
+                           bibo:locator "pp: 553." 
 ) ;
                            
          dcterms:date "-0304" ; # used dcterms:date, not dcterms:temporal, b/c calls for string literal
@@ -62,7 +62,7 @@
          skos:related <http://syriaca.org/place/145.html> ,
                       <http://syriaca.org/place/166.html> ;
          
-         lawd:hasName ( lawd:primaryForm "Edessa"@en ) ;
+         lawd:hasName ( lawd:primaryForm "Edessa"@en ) ; # should these be bnodes?
          lawd:hasName ( lawd:primaryForm "ܐܘܪܗܝ"@syr ) ;
          lawd:hasName (
          lawd:primaryForm "أَذاسا"@ar ;
@@ -81,53 +81,53 @@
                   skos:historyNote  "Renamed Edessa by Seleucus I Nicator." ,
                                     ( dcterms:date "-304" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
-                                    bibo:locator "pp: 138-139"
+                                    bibo:locator "pp: 138-139."
 ) ,
                            "Flood of the river Daiṣan destroyed part of city." ,
                                     ( dcterms:date "201" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
-                                    bibo:locator "pp: 138-139"
+                                    bibo:locator "pp: 138-139."
 ) ,
                            "Full incorporation into the Roman Empire." ,
                                     ( dcterms:date "213" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
-                                    bibo:locator "pp: 138-139"
+                                    bibo:locator "pp: 138-139."
 ) ,
                            "Closure of the 'School of the Persians'." ,
                                     ( dcterms:date "489" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
-                                    bibo:locator "pp: 138-139"
+                                    bibo:locator "pp: 138-139."
 ) ,
                            "Edessa conquered by the Arabs." ,
                                     ( dcterms:date "641" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
-                                    bibo:locator "pp: 138-139"
+                                    bibo:locator "pp: 138-139."
 ) ,
                            "Edessa conquered by the Crusaders." ,
                                     ( dcterms:date "1098" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
-                                    bibo:locator "pp: 138-139"
+                                    bibo:locator "pp: 138-139."
 ) ,
                            "Edessa conquered by Zengi of Mosul." ,
                                     ( dcterms:date "1144" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
-                                    bibo:locator "pp: 138-139"
+                                    bibo:locator "pp: 138-139."
 ) ,
                            "Edessa incorporated into the Ottoman Empire." ,
                                     ( dcterms:date "1517" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
-                                    bibo:locator "pp: 138-139"
+                                    bibo:locator "pp: 138-139."
 ) ,
                            "Massacres of some of Armenian and Syriac Christians during World War I." ,
                                     ( periodo:earliestYear "1913" ;
                                     periodo:latestYear "1919" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
-                                    bibo:locator "pp: 138-139"
+                                    bibo:locator "pp: 138-139."
 ) ,
                            "Emigration of remaining Armenian and Syrian Christians to Aleppo." ,
                                     ( dcterms:date "1924" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
-                                    bibo:locator "pp: 138-139"
+                                    bibo:locator "pp: 138-139."
 ) ;
 
          # Attestations
@@ -157,12 +157,12 @@
                                     ( periodo:earliestYear "1146" ,
                                     periodo:latestYear "1234" ,
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/1145695> ,
-                                    bibo:locator "pp: 2:136"
+                                    bibo:locator "pp: 2:136."
 ) ,
                              "Attestation of Syrian Orthodox church in Edessa in the anonymous Chronicle of 1234." ,
                                     ( dcterms:date "1146" ,
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/1145695> ,
-                                    bibo:locator "pp: 2:136"
+                                    bibo:locator "pp: 2:136."
 ) ,
                              "Attestation of names الرُّهاء and أَذاسا in the Muʿjam al-buldān of Yāqūt al-Ḥamawī." ,
                                     ( periodo:earliestYear "1224" ,
@@ -173,7 +173,7 @@
                              "Attestation of Syrian Orthodox metropolitan for Edessa according to Barsoum's Scattered Pearls." ,
                                     ( dcterms:date "1624" ,
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/54405272> ,
-                                    bibo:locator "pp: 553"
+                                    bibo:locator "pp: 553."
 ) ;
                              
          rdfs:seeAlso <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Edessa&sT=keywords> , # is rdfs:seeAlso permissible with a URL?
@@ -191,14 +191,14 @@
                            ( lawd:hasAttestation "201" ;
                            lawd:hasAttestation "1624" ;
                            cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
-                           bibo:locator "pp: 138-139" 
+                           bibo:locator "pp: 138-139." 
 ) ;
                               rdfs:label "Syriac" ,  
                               ( rdfs:subClassOf "Christians" ; # is this correct usage? (used multiple times below)
                               lawd:hasAttestation "520" ;
                               lawd:hasAttestation "1624" ;
                               cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
-                              bibo:locator "pp: 138-139" 
+                              bibo:locator "pp: 138-139." 
 ) ;
                                     rdfs:label "West Syrian" ,
                                     ( rdfs:subClassOf "Christians" ,
@@ -222,14 +222,14 @@
                            ( rdfs:subClassOf "Christians" ;
                            lawd:hasAttestation "no attestations yet recorded" ;
                            cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
-                           bibo:locator "pp: 138-139"
+                           bibo:locator "pp: 138-139."
 ) ;
                   rdfs:label "Jews" ,
                            lawd:hasAttestation "no attestations yet recorded" ;
                   rdfs:label "Muslims" ,
                            ( lawd:hasAttestation "no attestations yet recorded" ;
                            cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
-                           bibo:locator "pp: 138-139"
+                           bibo:locator "pp: 138-139."
 ) ;
 
 # Incerta

@@ -30,7 +30,7 @@
                               "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ;
          a <http://syriaca.org/geo/browse.html?view=type&type=settlement> ; # settlement link broken on Edessa page - Apache 500 server error
                   dcterms:description , # need unicode for Arabic here #
-                           ( cito:citesAsSourceDocument "Berule bdire d-ʿal yulpone suryoye hdire" , # need worldcat URI # can cito:citesAsSourceDocument be used with literal ? ## getting ttl validation error on this line - not sure why
+                           ( cito:citesAsSourceDocument "Berule bdire d-ʿal yulpone suryoye hdire" , # need worldcat URI # can cito:citesAsSourceDocument be used with literal ?
                            role:aut <https://www.wikidata.org/wiki/Q1368502> ,
                            role:trl <https://www.wikidata.org/wiki/Q2088332> ,
                            bibo:locator "pp: 556."

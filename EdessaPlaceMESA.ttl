@@ -93,7 +93,7 @@
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
                                     bibo:locator "pp: 138-139"
                                     ] ,
-                           "Closure of the "School of the Persians"." , # will this read as literal inside a literal?
+                           "Closure of the 'School of the Persians'." ,
                                     [ dcterms:date "489" ;
                                     cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
                                     bibo:locator "pp: 138-139"

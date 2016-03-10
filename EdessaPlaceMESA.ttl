@@ -24,7 +24,7 @@
         role:edt <http://syriaca.org/editors.xml#tcarlson> , # not role:aut ?
                  <http://syriaca.org/editors.xml#dmichelson> ;
 
-# should we use dcterms:source, dcterms:bibliographicCitation, schema:citation , cito:cites instead?
+# should we use dcterms:source , dcterms:bibliographicCitation , schema:citation , or cito:cites instead?
          rdfs:label "Edessa"@en ;
          dcterms:description: "A city of <http://syriaca.org/place/124.html>, the capital of the ancient kingdom of <http://syriaca.org/place/145.html>, modern Urfa." ,
                               "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ;

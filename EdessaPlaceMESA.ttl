@@ -1,10 +1,9 @@
 # still a work in progress -AA
 
-@prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix role: <http://www.loc.gov/loc.terms/relators/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix collex: <http://www.collex.org/schema#> .
+@prefix collex: <http://www.collex.org/schema#> . # site down - ask MESA what they want
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix cito: <http://purl.org/spar/cito/cito:> .
@@ -16,21 +15,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 @prefix bibo: <http://bibliontology.com/bibo/bibo.php#> .
 @prefix time: <https://www.w3.org/TR/owl-time/> .
-@prefix periodo: <http://n2t.net/ark:/99152/p0v> . # need to verify this
-@prefix cc: <https://creativecommons.org/schema.rdf> .
+@prefix periodo: <http://n2t.net/ark:/99152/p0v> . # need to verify this - dereferences to a download
+@prefix cc: <https://creativecommons.org/schema.rdf> . 
 
 <http://syriaca.org/place/78> a lawd:Place ;
 
-                  collex:discipline "History" ; # collex.org/schema# offline - need to ask MESA what they want
-                  role:edt <http://syriaca.org/editors.xml#tcarlson> ,
+                  collex:discipline "History" ; # dcterms:subject intended to be used with non-literal, dbo:AcademicSubject ?
+                  role:edt <http://syriaca.org/editors.xml#tcarlson> , # not role:aut ?
                            <http://syriaca.org/editors.xml#dmichelson> ;
 
+# should we use dcterms:source, schema:citation , cito:cites instead?
          rdfs:label "Edessa"@en ;
          dcterms:description: "A city of <http://syriaca.org/place/124.html>, the capital of the ancient kingdom of <http://syriaca.org/place/145.html>, modern Urfa." ,
                               "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ;
          a <http://syriaca.org/geo/browse.html?view=type&type=settlement> ; # link broken on Edessa page - Apache 500 server error
                   dcterms:description # need unicode for Arabic here # ,
-                           ( cito:citesAsSourceDocument "Berule bdire d-ʿal yulpone suryoye hdire" ,
+                           ( cito:citesAsSourceDocument "Berule bdire d-ʿal yulpone suryoye hdire" , # can cito:citesAsSourceDocument be used with literal ?
                            role:aut <https://www.wikidata.org/wiki/Q1368502> ,
                            role:trl <https://www.wikidata.org/wiki/Q2088332> ,
                            bibo:locator "pp: 556."
@@ -215,7 +215,7 @@
                                              rdfs:label "Syrian Orthodox" ,
                                              ( rdfs:subClassOf "Christians" ,
                                                                "Syriac" ;
-                                             lawd:hasAttestation "520"
+                                             lawd:hasAttestation "520" ,
                                                                  "1624"
 ) ;
                   rdfs:label "Latin" ,
@@ -225,7 +225,10 @@
                            bibo:locator "pp: 138-139."
 ) ;
                   rdfs:label "Jews" ,
-                           lawd:hasAttestation "no attestations yet recorded" ;
+                           ( lawd:hasAttestation "no attestations yet recorded" ,
+                           cito:citesAsSourceDocument "Han J. W. Drijvers, "Jews and Christians at Edessa," in Journal of Jewish Studies (n.p.: n.p., 1985)" # no DOI for this article
+                           bibo:locator "pp: 90, 102."
+) ;
                   rdfs:label "Muslims" ,
                            ( lawd:hasAttestation "no attestations yet recorded" ;
                            cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;
@@ -237,7 +240,9 @@
          skos:historyNote "GEDSH articles identifies its river as the <http://syriaca.org/place/43.html> but this identification is contested." ;
 
 
-          cc:license "Attribution 3.0 unported" ,
-          <http://creativecommons.org/licenses/by/3.0/deed.en_US> # this needs editing
+          cc:license <http://creativecommons.org/licenses/by/3.0/deed.en_US> ;
+          dcterms:dateCopyrighted "2014" ;
+          
+          
 
     

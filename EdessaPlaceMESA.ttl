@@ -25,6 +25,7 @@
                   role:edt <http://syriaca.org/editors.xml#tcarlson> ,
                            <http://syriaca.org/editors.xml#dmichelson> ;
 
+# should we use dcterms:source, schema:citation , cito:cites instead?
          rdfs:label "Edessa"@en ;
          dcterms:description: "A city of <http://syriaca.org/place/124.html>, the capital of the ancient kingdom of <http://syriaca.org/place/145.html>, modern Urfa." ,
                               "a famous city, five day journey eastward from Aleppo, now called Urfa"@en ;
@@ -215,7 +216,7 @@
                                              rdfs:label "Syrian Orthodox" ,
                                              ( rdfs:subClassOf "Christians" ,
                                                                "Syriac" ;
-                                             lawd:hasAttestation "520"
+                                             lawd:hasAttestation "520" ,
                                                                  "1624"
 ) ;
                   rdfs:label "Latin" ,
@@ -225,7 +226,10 @@
                            bibo:locator "pp: 138-139."
 ) ;
                   rdfs:label "Jews" ,
-                           lawd:hasAttestation "no attestations yet recorded" ;
+                           ( lawd:hasAttestation "no attestations yet recorded" ,
+                           cito:citesAsSourceDocument "Han J. W. Drijvers, "Jews and Christians at Edessa," in Journal of Jewish Studies (n.p.: n.p., 1985)" # no DOI for this article
+                           bibo:locator "pp: 90, 102."
+) ;
                   rdfs:label "Muslims" ,
                            ( lawd:hasAttestation "no attestations yet recorded" ;
                            cito:citesAsSourceDocument <http://www.worldcat.org/oclc/756837093> ;

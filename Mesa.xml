@@ -81,8 +81,9 @@
 
 </rdf:RDF>
 
-Notes: WE may want to list related entries using <dc:relation>
+<!--Notes: WE may want to list related entries using <dc:relation>
 
 Is there a way to include an abstract or description of the item?
 
 How do we include Subject keywords that will be of interest to users and searching, especially the names of the entry translated into other langauges (Arabic or French for example) and the type of location described (monastery, church, village).
+-->

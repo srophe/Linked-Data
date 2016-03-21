@@ -39,6 +39,10 @@
       <role:CRE>CREATOR</role:CRE>
       <role:ETR>ETCHER</role:ETR>
       <role:EGR>ENGRAVER</role:EGR> -->
+      
+      <dc:subject>Edessa</dc:subject>
+      <dc:subject>Syriac Christianity</dc:subject>
+      <dc:subject>Middle East</dc:subject> <!-- Are these the keywords we ask about below?-->
 
       <dc:type>Interactive Resource</dc:type>
 

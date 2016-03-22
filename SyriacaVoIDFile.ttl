@@ -3,6 +3,7 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
+# do we want to add collex:genre and collex:freeculture for MESA?
 
 :syriac_gazetteer a void:Dataset;
   dcterms:title "The Syriac Gazetteer RDF Dataset";

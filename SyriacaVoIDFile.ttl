@@ -3,7 +3,9 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-# do we want to add collex namespaces (genre, freeculture, federation, archive) for MESA?
+# @prefix collex: <http://www.w3.org/2000/01/rdf-schema#> . add genre, freeculture, federation?
+# @prefix role: <http://www.loc.gov/loc.terms/relators> . use AUT, EDT instead of dcterms:creator?
+# dc:source?
 
 :syriac_gazetteer a void:Dataset;
   dcterms:title "The Syriac Gazetteer RDF Dataset";

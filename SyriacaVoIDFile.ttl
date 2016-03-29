@@ -3,14 +3,14 @@
 @prefix void: <http://rdfs.org/ns/void#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
-# @prefix collex: <http://www.w3.org/2000/01/rdf-schema#> . add genre, freeculture, thumbnail, federation?
-# @prefix role: <http://www.loc.gov/loc.terms/relators> . use AUT, EDT instead of dcterms:creator?
+# @prefix collex: <http://www.w3.org/2000/01/rdf-schema#> . add genre, freeculture, thumbnail, federation? -AA
+# @prefix role: <http://www.loc.gov/loc.terms/relators> . use AUT, EDT instead of dcterms:creator? -AA
 
-:syriac_gazetteer a void:Dataset; # need URI for Syriac gazetteer - same as ln 20
+:syriac_gazetteer a void:Dataset; # need URI for Syriac gazetteer - same as ln 20 -AA
   dcterms:title "The Syriac Gazetteer RDF Dataset";
   dcterms:publisher "Syriaca.org: The Syriac Reference Portal";
-  # dc:type?
-  # dc:language?
+  # dc:type? -AA
+  # dc:language? -AA
   foaf:homepage <https://syriaca.org/geo>;
   #not sure this is right, probably this homepage should be a homepage about this data set, not the source?
   dcterms:description "The Syriac Gazetteer RDF Dataset is a linked dataset derived from The Syriac Gazetteer, a geographical reference work of Syriaca.org for places relevant to Syriac studies.";

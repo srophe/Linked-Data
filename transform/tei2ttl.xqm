@@ -72,11 +72,13 @@ declare function local:names($rec) as xs:string*{
 string-join(
 for $name in $rec/descendant::tei:placeName
 return 
-    concat('&#xa; lawd:hasName [',
-        if($name[contains(@syriaca-tags,'#syriaca-headword')]) then
-           local:make-triple('','lawd:primaryForm',local:make-literal($name/text(),$name/@xml:lang)) 
-        else local:make-triple('','lawd:variantForm',local:make-literal($name/text(),$name/@xml:lang)), 
-    '];'),'')
+    if($name/parent::tei:place) then 
+        concat('&#xa; lawd:hasName [',
+            if($name[contains(@syriaca-tags,'#syriaca-headword')]) then
+               local:make-triple('','lawd:primaryForm',local:make-literal($name/text(),$name/@xml:lang)) 
+            else local:make-triple('','lawd:variantForm',local:make-literal($name/text(),$name/@xml:lang)), 
+        '];')    
+    else   local:make-triple('','skos:related',local:make-literal($name/text(),$name/@xml:lang)),'')
 };
 
 (: Locations with coords :)

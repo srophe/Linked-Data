@@ -14,6 +14,6 @@
  rdfs:label "Arsham" ;
  lawd:hasName [
  lawd:primaryForm "Arsham"@en ;];
- skos:related "Arsham" ;
+ skos:related <http://syriaca.org/place/305> ;
  foaf:primaryTopicOf <http://syriaca.org/place/925/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/925/tei> .

@@ -22,7 +22,7 @@
  lawd:variantForm "دير العمود"@ar ;];
  lawd:hasName [
  lawd:variantForm "Pillar Monastery"@en ;];
- skos:related "Kallinikos" ;
+ skos:related <http://syriaca.org/place/109> ;
  dcterms:description "A monastery near ." ;
  dcterms:description [
  rdfs:label "ܒܰܡܕܝܢܬܰ ܩܰܠܘܢܝܩܝ ܥܠ ܣܶܦܬܐ ܣܶܡܳܠܝܬܐ ܕܰܦܪܳܬ ܩܳܡܰܬ ܒܫܘܽܟܠܳܠܗ ܩܰܝܣܰܪܬܐ ܬܶܐܘܕܳܘܪܰܐ ܫܢܰܬ 548 ܘܦܰܬܝܘܗܝ ܕܰܝܪ̈ܝܐ ܫܢܰܬ 635 ܥܰܕܰܪ ܠܥܕܬܐ ܒܚܰܕ ܦܰܛܪܝܰܪܟܐ ܘܰܒܥܶܣܪܐ ܐܶܦܝܣܩܘ̈ܦܐ ܥܕܰܡܐ ܠܰܫܢܰܬ 965 ."@syr-Syrj ;

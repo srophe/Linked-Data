@@ -22,7 +22,7 @@
  lawd:variantForm "لبنان"@ar ;];
  lawd:hasName [
  lawd:variantForm "لُبنان"@ar ;];
- skos:related "Mediterranean Sea" ;
+ skos:related <http://syriaca.org/place/135> ;
  dcterms:description "A mountainous region in the central Levantine coast of the ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/678267> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Lebanon> ;

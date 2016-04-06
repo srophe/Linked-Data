@@ -16,8 +16,8 @@
  lawd:primaryForm "Scythopolis"@en ;];
  lawd:hasName [
  lawd:variantForm "بَيْسان"@ar ;];
- skos:related "Jordan river" ;
- skos:related "Caesarea" ;
+ skos:related <http://syriaca.org/place/599> ;
+ skos:related <http://syriaca.org/place/53> ;
  dcterms:description "A city near the east of ." ;
  dcterms:temporal "-2000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678378> ;

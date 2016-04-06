@@ -24,7 +24,7 @@
  lawd:variantForm "Marj al-Ayn"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Marj al-‘Ayn"@en-xsrp1 ;];
- skos:related "Doliche" ;
+ skos:related <http://syriaca.org/place/75> ;
  dcterms:description "Near ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/568/html> ;

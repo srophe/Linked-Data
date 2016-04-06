@@ -18,8 +18,8 @@
  lawd:primaryForm "ܓܠܟ"@syr ;];
  lawd:hasName [
  lawd:variantForm "ܓ̰ܲܠܸܟ̇"@syr-Syrn ;];
- skos:related "Khabur River" ;
- skos:related "Lower Ṭiyari" ;
+ skos:related <http://syriaca.org/place/2566> ;
+ skos:related <http://syriaca.org/place/761> ;
  dcterms:description "A village on the in the region." ;
  foaf:primaryTopicOf <http://syriaca.org/place/1116/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1116/tei> .

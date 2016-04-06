@@ -18,8 +18,8 @@
  lawd:variantForm "Koylasar"@en ;];
  lawd:hasName [
  lawd:variantForm "Łuylasar"@en ;];
- skos:related "Armenia" ;
- skos:related "Erevan" ;
+ skos:related <http://syriaca.org/place/576> ;
+ skos:related <http://syriaca.org/place/817> ;
  dcterms:description "An Assyrian settlement in southeast of" ;
  dcterms:temporal "1839" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2552/html> ;

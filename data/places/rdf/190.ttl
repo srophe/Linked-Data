@@ -22,7 +22,7 @@
  lawd:variantForm "Sīs"@en ;];
  lawd:hasName [
  lawd:variantForm "سيسية"@ar ;];
- skos:related "Cilicia" ;
+ skos:related <http://syriaca.org/place/55> ;
  dcterms:description "A city in which was the capital of the Armenian Kingdom of Cilicia." ;
  dcterms:temporal "0325" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sis_(Armenian_Kingdom_of_Cilicia)> ;

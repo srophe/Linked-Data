@@ -22,7 +22,7 @@
  lawd:variantForm "Maalta"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ma‘alta"@en-xsrp1 ;];
- skos:related "Maʿalta" ;
+ skos:related <http://syriaca.org/place/1402> ;
  dcterms:description "A village near in Mesopotamia." ;
  foaf:primaryTopicOf <http://syriaca.org/place/681/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/681/tei> .

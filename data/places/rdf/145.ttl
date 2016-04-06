@@ -14,7 +14,7 @@
  rdfs:label "Osrhoene" ;
  lawd:hasName [
  lawd:primaryForm "Osrhoene"@en ;];
- skos:related "Edessa" ;
+ skos:related <http://syriaca.org/place/78> ;
  dcterms:description "A Roman province centered around ." ;
  dcterms:temporal "0244" ;
  skos:exactMatch <http://pleiades.stoa.org/places/991406> ;

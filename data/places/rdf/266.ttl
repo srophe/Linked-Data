@@ -22,8 +22,8 @@
  lawd:variantForm "ܒܰܛܪܘܢ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "البترون"@ar ;];
- skos:related "Tripoli" ;
- skos:related "Jubail" ;
+ skos:related <http://syriaca.org/place/203> ;
+ skos:related <http://syriaca.org/place/52> ;
  dcterms:description "A coastal town between and ." ;
  dcterms:temporal "0024" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668214> ;

@@ -14,7 +14,7 @@
  rdfs:label "Abba Ṣliba" ;
  lawd:hasName [
  lawd:primaryForm "Abba Ṣliba"@en ;];
- skos:related "Beth Nuhadra" ;
+ skos:related <http://syriaca.org/place/1262> ;
  dcterms:description "A monastery in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/659/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/659/tei> .

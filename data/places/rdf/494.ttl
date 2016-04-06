@@ -26,7 +26,7 @@
  lawd:variantForm "Ankara"@en ;];
  lawd:hasName [
  lawd:variantForm "أَنْقِرة"@ar ;];
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A city of central ." ;
  dcterms:temporal "-1000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/619103> ;

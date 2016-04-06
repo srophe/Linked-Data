@@ -24,7 +24,7 @@
  lawd:variantForm "Macine"@en ;];
  lawd:hasName [
  lawd:variantForm "ماكِسِين"@ar ;];
- skos:related "Khābūrā district" ;
+ skos:related <http://syriaca.org/place/332> ;
  dcterms:description "A town of the ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/501/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/501/tei> .

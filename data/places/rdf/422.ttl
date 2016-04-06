@@ -22,7 +22,7 @@
  lawd:variantForm "قالوق"@ar ;];
  lawd:hasName [
  lawd:variantForm "Qālūq"@en ;];
- skos:related "Mardin" ;
+ skos:related <http://syriaca.org/place/130> ;
  dcterms:description "A village near ." ;
  dcterms:description [
  rdfs:label "ܩܪܝܬܳܐ ܗܝ ܕܒܐܘܚܕܳܢܳܐ ܕܨܰܘܪܳܐ ܘܰܡܝܰܬܒܳܐ ܗܘܳܬ ܒܣܘܪ̈ܝܳܝܶܐ ܒܡܶܨܥܝ̈ܬܗ ܕܕܳܪܐ ܕܝ̄ܙ"@syr-Syrj ;

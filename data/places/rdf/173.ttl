@@ -16,7 +16,7 @@
  lawd:primaryForm "Rhosos"@en ;];
  lawd:hasName [
  lawd:variantForm "رُوْسيس"@ar ;];
- skos:related "Antioch" ;
+ skos:related <http://syriaca.org/place/10> ;
  dcterms:description "A town northwest of on the Bay of Iskenderun." ;
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658585> ;

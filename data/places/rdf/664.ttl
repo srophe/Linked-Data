@@ -18,7 +18,7 @@
  lawd:variantForm "Āmūda"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Āmūda"@en-xsrp1 ;];
- skos:related "Qamishli" ;
+ skos:related <http://syriaca.org/place/160> ;
  dcterms:description "A town west of with a Syriac Orthodox school." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874318> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Amuda> ;

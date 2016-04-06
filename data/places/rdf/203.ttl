@@ -24,7 +24,7 @@
  lawd:variantForm "طرابلس"@ar ;];
  lawd:hasName [
  lawd:variantForm "اطرابُلس"@ar ;];
- skos:related "Beirut" ;
+ skos:related <http://syriaca.org/place/46> ;
  dcterms:description "A coastal city north of ." ;
  dcterms:temporal "-0800" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668394> ;

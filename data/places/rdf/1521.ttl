@@ -20,7 +20,7 @@
  lawd:variantForm "ܫܘܪܙܰܩ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "شورزق"@ar ;];
- skos:related "Beth Nuhadra" ;
+ skos:related <http://syriaca.org/place/1262> ;
  dcterms:description "A village of ." ;
  dcterms:temporal "0628" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1521/html> ;

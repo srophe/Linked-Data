@@ -24,7 +24,7 @@
  lawd:variantForm "Fsīltā Monastery"@en ;];
  lawd:hasName [
  lawd:variantForm "Quarry Monastery"@en ;];
- skos:related "Tella" ;
+ skos:related <http://syriaca.org/place/200> ;
  dcterms:description "A monastery near ." ;
  dcterms:description [
  rdfs:label "ܐܰܘܟܝܬ ܓܠܺܝܦܐ ܠܒܰܪ ܡܶܢ ܬܶܠ ܡܰܘܙܠܰܬ ܡܕܝܢܬܐ. ܐܶܫܬܰܬܐܣ ܒܡܰܐܬܳܐ ܚܡܝܫܳܝܬܳܐ ܘܐܰܦܩ ܚܰܡܫܐ ܐܶܦܝܣܩܘܦ̈ܐ ܘܰܫܠܺܝܘ ܛܶܒܰܘ̈ܗܝ ܫܢܰܬ 880 ."@syr-Syrj ;

@@ -14,7 +14,7 @@
  rdfs:label "Arzanene" ;
  lawd:hasName [
  lawd:primaryForm "Arzanene"@en ;];
- skos:related "Lake Van" ;
+ skos:related <http://syriaca.org/place/117> ;
  dcterms:description "A region west and a bit south of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874367/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Arzanene> ;

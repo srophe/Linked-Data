@@ -24,8 +24,8 @@
  lawd:variantForm "Gazza"@en ;];
  lawd:hasName [
  lawd:variantForm "الغَزَّة"@ar ;];
- skos:related "Mediterranean Sea" ;
- skos:related "Mayuma" ;
+ skos:related <http://syriaca.org/place/135> ;
+ skos:related <http://syriaca.org/place/456> ;
  dcterms:description "A city near the coast of the southeastern ." ;
  dcterms:temporal "-1200" ;
  skos:exactMatch <http://pleiades.stoa.org/places/687902> ;

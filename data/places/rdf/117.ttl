@@ -22,7 +22,7 @@
  lawd:variantForm "بحيرة وان"@ar ;];
  lawd:hasName [
  lawd:variantForm "بُحَيْرة ارجيش"@ar ;];
- skos:related "Iraq" ;
+ skos:related <http://syriaca.org/place/98> ;
  dcterms:description "A lake in the mountains to the north of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Lake_Van> ;
  foaf:primaryTopicOf <http://syriaca.org/place/117/html> ;

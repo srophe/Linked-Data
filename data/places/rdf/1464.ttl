@@ -22,7 +22,7 @@
  lawd:variantForm "دير مار توما"@ar ;];
  lawd:hasName [
  lawd:variantForm "Monastery of St. Thomas"@en ;];
- skos:related "Seleucia Pieria" ;
+ skos:related <http://syriaca.org/place/183> ;
  dcterms:description "A monastery near the port of ." ;
  dcterms:temporal "0498" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658621> ;

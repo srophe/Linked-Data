@@ -20,7 +20,7 @@
  lawd:variantForm "ܒܶܝܬ ܙ̈ܠܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "القامشلي"@ar ;];
- skos:related "Nisibis" ;
+ skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A modern city just south of ." ;
  dcterms:temporal "1926" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Qamishli> ;

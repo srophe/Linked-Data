@@ -14,8 +14,8 @@
  rdfs:label "Irenopolis" ;
  lawd:hasName [
  lawd:primaryForm "Irenopolis"@en ;];
- skos:related "Cilicia II" ;
- skos:related "Anazarbos" ;
+ skos:related <http://syriaca.org/place/57> ;
+ skos:related <http://syriaca.org/place/9> ;
  dcterms:description "A town of east of ." ;
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658458> ;

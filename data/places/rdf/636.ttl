@@ -14,7 +14,7 @@
  rdfs:label "Qara Quzaq" ;
  lawd:hasName [
  lawd:primaryForm "Qara Quzaq"@en ;];
- skos:related "Euphrates" ;
+ skos:related <http://syriaca.org/place/82> ;
  dcterms:description "An ancient city on the ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/636/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/636/tei> .

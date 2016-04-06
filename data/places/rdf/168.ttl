@@ -26,8 +26,8 @@
  lawd:variantForm "Rabban Bar Edta"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Rabban Bar ‘Edta"@en-xsrp1 ;];
- skos:related "Beth Lapaṭ" ;
- skos:related "Rabban Bar ʿEdta" ;
+ skos:related <http://syriaca.org/place/35> ;
+ skos:related <http://syriaca.org/place/167> ;
  dcterms:description [
  rdfs:label "The Chaldean monastery of Rabban Hormizd, built upon a mountain ridge northeast of Alqosh in northern Iraq, is famous not only for its magnificent location and impressive buildings, but also for its central role in the history of the transmission of E.-Syr. literature and its importance in the struggles between the Chald. Church and the Ch. of E., to which the monastery originally belonged."@en ;];
  dcterms:description [

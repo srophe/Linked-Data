@@ -16,7 +16,7 @@
  lawd:primaryForm "Mar Zaya"@en ;];
  lawd:hasName [
  lawd:variantForm "Marez"@en ;];
- skos:related "Verin Dvin" ;
+ skos:related <http://syriaca.org/place/2553> ;
  dcterms:description "A church in" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2613/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2613/tei> .

@@ -20,7 +20,7 @@
  lawd:variantForm "Pilgāwār"@en ;];
  lawd:hasName [
  lawd:variantForm "Ṭārōn"@en ;];
- skos:related "Lake Urmia" ;
+ skos:related <http://syriaca.org/place/116> ;
  dcterms:description "A region west of ." ;
  dcterms:temporal "2000" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Targawar> ;

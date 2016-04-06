@@ -16,8 +16,8 @@
  lawd:primaryForm "Mariamme"@en ;];
  lawd:hasName [
  lawd:variantForm "مريمين"@ar ;];
- skos:related "Emesa" ;
- skos:related "Ḥama" ;
+ skos:related <http://syriaca.org/place/215> ;
+ skos:related <http://syriaca.org/place/91> ;
  dcterms:description "A town northwest of and southwest of ." ;
  dcterms:temporal "0079" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668308> ;

@@ -18,8 +18,8 @@
  lawd:primaryForm "ܟܘܘܪܐ"@syr ;];
  lawd:hasName [
  lawd:variantForm "ܟ̣ܵܘܘܿܪܵܐ"@syr-Syrn ;];
- skos:related "Tigris" ;
- skos:related "Zakho" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/208> ;
  dcterms:description "A tributary of the that flows through ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/893928> ;
  skos:exactMatch <http://pleiades.stoa.org/places/874565> ;

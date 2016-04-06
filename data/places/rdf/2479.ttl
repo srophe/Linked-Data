@@ -22,7 +22,7 @@
  lawd:variantForm "Dayr al-Atīqa"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Dayr al-‘Atīqa"@en-xsrp1 ;];
- skos:related "Baghdad" ;
+ skos:related <http://syriaca.org/place/41> ;
  dcterms:description "A monastery in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/2479/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2479/tei> ;

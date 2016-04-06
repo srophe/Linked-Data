@@ -20,7 +20,7 @@
  lawd:variantForm "Mār Yōḥannān of Beṯ Garmaï and Ūkāmā"@en ;];
  lawd:hasName [
  lawd:variantForm "Kamūl"@en ;];
- skos:related "Gazarta" ;
+ skos:related <http://syriaca.org/place/88> ;
  dcterms:description "A monastery east of ." ;
  dcterms:temporal "0700" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874536> ;

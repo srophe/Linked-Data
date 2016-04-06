@@ -22,9 +22,9 @@
  lawd:variantForm "سلمان باك"@ar ;];
  lawd:hasName [
  lawd:variantForm "Salman Pak"@en ;];
- skos:related "Tigris" ;
- skos:related "Baghdad" ;
- skos:related "Ctesiphon" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/41> ;
+ skos:related <http://syriaca.org/place/58> ;
  dcterms:description "A modern city on the south of which partially overlaps the ancient city of ." ;
  dcterms:temporal "1943" ;
  skos:exactMatch <http://pleiades.stoa.org/places/893947> ;

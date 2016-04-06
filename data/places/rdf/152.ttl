@@ -14,10 +14,10 @@
  rdfs:label "Phoenice Libanensis" ;
  lawd:hasName [
  lawd:primaryForm "Phoenice Libanensis"@en ;];
- skos:related "Syria" ;
- skos:related "Phoenice" ;
- skos:related "Damascus" ;
- skos:related "Emesa" ;
+ skos:related <http://syriaca.org/place/486> ;
+ skos:related <http://syriaca.org/place/151> ;
+ skos:related <http://syriaca.org/place/66> ;
+ skos:related <http://syriaca.org/place/215> ;
  dcterms:description "A Roman province of inland bordering to the west and including and ." ;
  dcterms:temporal "0400" ;
  skos:exactMatch <http://pleiades.stoa.org/places/1001938> ;

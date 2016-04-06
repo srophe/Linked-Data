@@ -16,8 +16,8 @@
  lawd:primaryForm "Ram Hormizd"@en ;];
  lawd:hasName [
  lawd:variantForm "رامهرمز"@ar ;];
- skos:related "Hormizd Ardashir" ;
- skos:related "Persian Gulf" ;
+ skos:related <http://syriaca.org/place/96> ;
+ skos:related <http://syriaca.org/place/156> ;
  dcterms:description "A city east of and north of the ." ;
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/912926> ;

@@ -14,7 +14,7 @@
  rdfs:label "Tigris Valley" ;
  lawd:hasName [
  lawd:primaryForm "Tigris Valley"@en ;];
- skos:related "Tigris river" ;
+ skos:related <http://syriaca.org/place/202> ;
  dcterms:description "The valley of the ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/786/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/786/tei> .

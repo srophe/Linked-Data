@@ -26,8 +26,8 @@
  lawd:variantForm "Great Zab"@en ;];
  lawd:hasName [
  lawd:variantForm "الزاب الأعلى"@ar ;];
- skos:related "Tigris" ;
- skos:related "Arbela" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/13> ;
  dcterms:description "A tributary of the which flows north of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/894183> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Great_Zab> ;

@@ -14,8 +14,8 @@
  rdfs:label "Caeciliana" ;
  lawd:hasName [
  lawd:primaryForm "Caeciliana"@en ;];
- skos:related "Euphrates" ;
- skos:related "Mabbug" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/122> ;
  dcterms:description "On the western bank of the northeast of ." ;
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658418> ;

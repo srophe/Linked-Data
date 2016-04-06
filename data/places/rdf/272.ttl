@@ -16,7 +16,7 @@
  lawd:primaryForm "Crac des Chevaliers"@en ;];
  lawd:hasName [
  lawd:variantForm "حصن الاكراد"@ar ;];
- skos:related "Ḥimṣ" ;
+ skos:related <http://syriaca.org/place/215> ;
  dcterms:description "A Crusader fortress west of ." ;
  dcterms:temporal "1030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/587486981> ;

@@ -22,7 +22,7 @@
  lawd:variantForm "توقات"@ar ;];
  lawd:hasName [
  lawd:variantForm "تَوْقات"@ar ;];
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A city of north-central ." ;
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/857105> ;

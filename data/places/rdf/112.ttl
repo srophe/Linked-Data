@@ -26,8 +26,8 @@
  lawd:variantForm "Qala Rumayta"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Qal‘a Rumayta"@en-xsrp1 ;];
- skos:related "Qalʿa Rumayta" ;
- skos:related "Samosata" ;
+ skos:related <http://syriaca.org/place/97> ;
+ skos:related <http://syriaca.org/place/178> ;
  dcterms:description "A town north of and west of ." ;
  dcterms:description [
  rdfs:label "ܐܰܬܪܳܐ ܕܒܐܘܚܕܳܢܰܐ ܗܘ ܕܫܰܡܺܝܫܰܛ ܕܐܝܬ ܒܗ ܚܶܣܢܳܐ ܪܰܒܳܐ ܒܶܝܬ ܚܳܠܒ ܠܐܘܪܗܳܝ ܕܚܰܪܝܒ."@syr-Syrj ;

@@ -18,8 +18,8 @@
  lawd:variantForm "Lāshōm"@en ;];
  lawd:hasName [
  lawd:variantForm "Lāshīn"@en ;];
- skos:related "Beth Garmai" ;
- skos:related "Karka d-Beth Slokh" ;
+ skos:related <http://syriaca.org/place/33> ;
+ skos:related <http://syriaca.org/place/108> ;
  dcterms:description "A town of south of ." ;
  dcterms:temporal "0410" ;
  skos:exactMatch <http://pleiades.stoa.org/places/894034> ;

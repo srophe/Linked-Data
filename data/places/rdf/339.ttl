@@ -26,7 +26,7 @@
  lawd:variantForm "monastery of Mar Awgen"@en ;];
  lawd:hasName [
  lawd:variantForm "Mār Awgin"@en ;];
- skos:related "Nisibis" ;
+ skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A monastery north of ." ;
  dcterms:description [
  rdfs:label "ܒܰܫܦܘܠܳܐ ܕܛܘܪܳܐ ܕܐܝܺܙܠܐ ܗ̇ܘ ܕܚܳܐܰܪ ܠܰܢܨܝܒܝܢ ܐܶܫܬܰܬܐܣ ܒܡܰܐܬܐ ܪܒܝܥܳܝܬܐ ܐܰܘ ܒܪܺܝܫܐ ܕܰܚܡܝܫܳܝܬܐ ܘܐܶܫܬܰܚܠܦܘ ܙܰܒ̈ܢܐ ܥܠܰܘܗܝ ܘܐܶܫܬܰܠܛܘ ܥܠܰܘܗܝ ܢܰܣܛܘܪ̈ܝܰܢܘ ܙܰܒܢܳܐ ܢܰܓܝܪܐ ܘܰܗܦܟ ܠܘܳܬܢ ܒܰܐܚܪ̈ܝܬܗ̇ ܕܡܰܐܬܐ ܕܰܬܡܳܢܰܥܶܣܪ̈ܐ ܢܦܰܩܘ ܡܶܢܗ ܬܪܶܝܢ ܐܶܦܝܣܩܘܦ̈ܐ ܘܰܥܕܰܡܐ ܠܗܳܫܐ ܥܰܡܝܪ ܘܰܫܟܝܺܚ ܒܗ ܕܰܝܪܳܝܐ ܚܰܕ."@syr-Syrj ;

@@ -40,8 +40,8 @@
  lawd:variantForm "Viransehir"@en ;];
  lawd:hasName [
  lawd:variantForm "تل مَوْزَن"@ar ;];
- skos:related "Edessa" ;
- skos:related "Mardin" ;
+ skos:related <http://syriaca.org/place/78> ;
+ skos:related <http://syriaca.org/place/130> ;
  dcterms:description "A town east of and west of ." ;
  dcterms:description [
  rdfs:label "ܡܕܝܺܢܬܐ ܗܘܳܬ ܡܫܰܟܠܠܬܐ ܕܒܶܝܬ ܡܰܪܕܝܢ ܠܐܘܪܗܳܝ ܡܰܪܕܶܐ ܬܪܶܝܢ ܡܰܫ̈ܩܠܝܢ ܡܶܢ ܩܰܕܡܳܝܬܐ ܘܝܰܘܡܳܢ ܡܕܝܢܬܽܘܢܳܝܬܳܐ ܗܝ ܕܡܶܬܶܐܡܰܪ ܠܗ̇ ܘܶܝܪܰܐܢܫܰܗܝܪ."@syr-Syrj ;

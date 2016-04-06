@@ -22,7 +22,7 @@
  lawd:variantForm "باب الله"@ar ;];
  lawd:hasName [
  lawd:variantForm "Bab Allah"@en ;];
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "A gate of ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/570/html> ;

@@ -14,7 +14,7 @@
  rdfs:label "Beth Raziqaye" ;
  lawd:hasName [
  lawd:primaryForm "Beth Raziqaye"@en ;];
- skos:related "Caspian Sea" ;
+ skos:related <http://syriaca.org/place/61> ;
  dcterms:description "A diocese of the Church of the East, south of the ." ;
  dcterms:temporal "0410" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Rai_(East_Syrian_Ecclesiastical_Province)> ;

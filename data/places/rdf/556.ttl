@@ -26,7 +26,7 @@
  lawd:variantForm "monastery of John the Arab"@en ;];
  lawd:hasName [
  lawd:variantForm "Mār Yōḥannān the Arab"@en ;];
- skos:related "Mar Awgen" ;
+ skos:related <http://syriaca.org/place/339> ;
  dcterms:description "A monastery near the monastery of ." ;
  dcterms:temporal "1271" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874586> ;

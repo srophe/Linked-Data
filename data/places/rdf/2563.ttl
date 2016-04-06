@@ -20,7 +20,7 @@
  lawd:variantForm "St. Kirik and St. Yulita"@en ;];
  lawd:hasName [
  lawd:variantForm "St. Cyril"@en ;];
- skos:related "Dimitrov" ;
+ skos:related <http://syriaca.org/place/2552> ;
  dcterms:description "A church in" ;
  dcterms:temporal "1840" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2563/html> ;

@@ -18,7 +18,7 @@
  lawd:primaryForm "ܐܝܛܐܠܝ"@syr ;];
  lawd:hasName [
  lawd:variantForm "ايطاليا"@ar ;];
- skos:related "Europe" ;
+ skos:related <http://syriaca.org/place/591> ;
  dcterms:description "A Mediterranean nation in southern ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/1052> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Italy> ;

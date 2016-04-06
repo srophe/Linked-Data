@@ -22,7 +22,7 @@
  lawd:variantForm "اللاذقية"@ar ;];
  lawd:hasName [
  lawd:variantForm "اللاذِقِيّة"@ar ;];
- skos:related "Apamea" ;
+ skos:related <http://syriaca.org/place/11> ;
  dcterms:description "A port city on the Syrian coast, west of ." ;
  dcterms:temporal "-1000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668290> ;

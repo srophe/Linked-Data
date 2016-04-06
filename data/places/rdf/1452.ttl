@@ -22,8 +22,8 @@
  lawd:variantForm "ما بين النهرين"@ar ;];
  lawd:hasName [
  lawd:variantForm "جزيرة اقور"@ar ;];
- skos:related "Tigris" ;
- skos:related "Euphrates" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/82> ;
  dcterms:description "The watershed of the and rivers, including southeastern Turkey, northeastern Syria, all of Iraq, and western Iran." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874602> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mesopotamia> ;

@@ -14,8 +14,8 @@
  rdfs:label "Arzni" ;
  lawd:hasName [
  lawd:primaryForm "Arzni"@en ;];
- skos:related "Erevan" ;
- skos:related "Armenia" ;
+ skos:related <http://syriaca.org/place/817> ;
+ skos:related <http://syriaca.org/place/576> ;
  dcterms:description "An Assyrian settlement north of in the province of Kotayk' in" ;
  dcterms:temporal "1849" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2555/html> ;

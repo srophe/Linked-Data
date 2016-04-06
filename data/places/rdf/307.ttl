@@ -22,7 +22,7 @@
  lawd:variantForm "بيث شاهاق"@ar ;];
  lawd:hasName [
  lawd:variantForm "Beth Shāhāq"@en ;];
- skos:related "Nineveh" ;
+ skos:related <http://syriaca.org/place/144> ;
  dcterms:description "A village near ." ;
  dcterms:description [
  rdfs:label "ܦܢܺܝܬܐ ܥܰܬܺܝܩܬܐ ܕܒܐܘܚܕܳܢܐ ܕܡܘܨܠ. ܚܰܪܝܒܐ."@syr-Syrj ;

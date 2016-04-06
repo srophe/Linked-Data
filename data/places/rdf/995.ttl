@@ -20,7 +20,7 @@
  lawd:variantForm "ܐܰܢܛܝܘܟܝܰܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "كورة انطاكية"@ar ;];
- skos:related "Antioch" ;
+ skos:related <http://syriaca.org/place/10> ;
  dcterms:description "The region around the city of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/995/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/995/tei> ;

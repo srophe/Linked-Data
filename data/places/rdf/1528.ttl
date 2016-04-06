@@ -22,7 +22,7 @@
  lawd:variantForm "دير الرهاويين"@ar ;];
  lawd:hasName [
  lawd:variantForm "Monastery of the Edessenes"@en ;];
- skos:related "Amid" ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A monastery in ." ;
  dcterms:temporal "0568" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1528/html> ;

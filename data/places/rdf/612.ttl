@@ -16,7 +16,7 @@
  lawd:primaryForm "Yoḥannan of Qanqal"@en ;];
  lawd:hasName [
  lawd:variantForm "monastery of John of Qanqal"@en ;];
- skos:related "Nisibis" ;
+ skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A monastery probably near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/612/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/612/tei> .

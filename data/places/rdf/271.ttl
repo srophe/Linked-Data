@@ -16,7 +16,7 @@
  lawd:primaryForm "Ehden"@en ;];
  lawd:hasName [
  lawd:variantForm "Ahden"@en ;];
- skos:related "Amyūn" ;
+ skos:related <http://syriaca.org/place/269> ;
  dcterms:description "A town east of ." ;
  dcterms:temporal "1283" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ehden> ;

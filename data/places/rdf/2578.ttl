@@ -24,7 +24,7 @@
  lawd:variantForm "Beth Mar John of Beth Zagba"@en ;];
  lawd:hasName [
  lawd:primaryForm "ܒܝܬ ܡܪܝ ܝܘܚܢܢ ܕܒܝܬ ܙܓܒܐ"@syr ;];
- skos:related "Apamea" ;
+ skos:related <http://syriaca.org/place/11> ;
  dcterms:description "The monastery where the Rabbula Gospels were copied, probably located north of ." ;
  dcterms:temporal "0568" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2578/html> ;

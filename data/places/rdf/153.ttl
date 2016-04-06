@@ -16,8 +16,8 @@
  lawd:primaryForm "Palmyra"@en ;];
  lawd:hasName [
  lawd:variantForm "تَدْمُر"@ar ;];
- skos:related "Emesa" ;
- skos:related "Dura-Europos" ;
+ skos:related <http://syriaca.org/place/215> ;
+ skos:related <http://syriaca.org/place/77> ;
  dcterms:description "A town between and ." ;
  dcterms:temporal "-1000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668331> ;

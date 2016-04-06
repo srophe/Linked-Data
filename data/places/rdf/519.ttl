@@ -24,7 +24,7 @@
  lawd:variantForm "Batyas"@en ;];
  lawd:hasName [
  lawd:variantForm "بِطْياس"@ar ;];
- skos:related "al-Raqqa" ;
+ skos:related <http://syriaca.org/place/109> ;
  dcterms:description "Near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/519/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/519/tei> .

@@ -20,7 +20,7 @@
  lawd:variantForm "ܒܶܝܬ ܐܰܪܩܡ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "بيث ارشم"@ar ;];
- skos:related "Arsham" ;
+ skos:related <http://syriaca.org/place/925> ;
  dcterms:description [
  rdfs:label "ܐܰܬܪܐ ܕܩܰܪܝܒ ܠܰܡܕܝܢ̈ܬܐ (ܣܠܝܩ ܘܩܰܛܝܣܦܘܢ) ܠܬܰܝܡܢܗ̇ ܕܒܓܕܕ ܘܠܐ ܝܺܕܝܺܥܐ ܕܘܟܬܗ̇."@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];

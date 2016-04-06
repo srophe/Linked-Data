@@ -22,8 +22,8 @@
  lawd:variantForm "Qinneshrin"@en ;];
  lawd:hasName [
  lawd:variantForm "قِنَّسرين"@ar ;];
- skos:related "Aleppo" ;
- skos:related "Antioch" ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/10> ;
  dcterms:description "A city southwest of and east of ." ;
  dcterms:description [
  rdfs:label "كورة ومدينة مرحلة عن حلب بينها وبين حمص مندثرة."@ar ;

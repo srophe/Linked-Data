@@ -14,8 +14,8 @@
  rdfs:label "Mesopotamia" ;
  lawd:hasName [
  lawd:primaryForm "Mesopotamia"@en ;];
- skos:related "Roman Empire" ;
- skos:related "Amida" ;
+ skos:related <http://syriaca.org/place/166> ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A province of the centered around ." ;
  dcterms:temporal "0200" ;
  skos:exactMatch <http://pleiades.stoa.org/places/981534> ;

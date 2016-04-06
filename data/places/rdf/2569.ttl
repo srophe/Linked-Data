@@ -14,7 +14,7 @@
  rdfs:label "Kalamazoo" ;
  lawd:hasName [
  lawd:primaryForm "Kalamazoo"@en ;];
- skos:related "Michigan" ;
+ skos:related <http://syriaca.org/place/2570> ;
  dcterms:description "A city in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/2569/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2569/tei> .

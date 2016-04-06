@@ -18,7 +18,7 @@
  lawd:variantForm "monastery of Isaac of Nineveh"@en ;];
  lawd:hasName [
  lawd:variantForm "Mār Isaac of Nineveh"@en ;];
- skos:related "Gazarta" ;
+ skos:related <http://syriaca.org/place/88> ;
  dcterms:description "A monastery near the Dūshā river northeast of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/626/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/626/tei> .

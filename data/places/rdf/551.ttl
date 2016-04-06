@@ -22,9 +22,9 @@
  lawd:variantForm "دير القديسة بربارة"@ar ;];
  lawd:hasName [
  lawd:variantForm "Barbara Monastery"@en ;];
- skos:related "St. Barbara" ;
- skos:related "St. Barbara" ;
- dcterms:description "A second "St. Barbara" monastery mentioned by Barsoum in his description of ." ;
+ skos:related <http://syriaca.org/place/346> ;
+ skos:related <http://syriaca.org/place/346> ;
+ dcterms:description "A second St. Barbara monastery mentioned by Barsoum in his description of ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/551/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/551/tei> ;

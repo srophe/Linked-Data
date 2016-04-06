@@ -20,7 +20,7 @@
  lawd:variantForm "ܐܶܦܶܣܘܣ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "افسس"@ar ;];
- skos:related "Asia Minor" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A city in western ." ;
  dcterms:temporal "-0500" ;
  skos:exactMatch <http://pleiades.stoa.org/places/599612> ;

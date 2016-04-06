@@ -28,7 +28,7 @@
  lawd:variantForm "Qalāt Simān"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Qal‘āt Sim‘ān"@en-xsrp1 ;];
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "The monastery of St. Simeon Stylites west of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/658606/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Church_of_Saint_Simeon_Stylites> ;

@@ -22,8 +22,8 @@
  lawd:variantForm "دير القديسة بربارة"@ar ;];
  lawd:hasName [
  lawd:variantForm "Barbara Monastery"@en ;];
- skos:related "Edessa" ;
- skos:related "St. Barbara" ;
+ skos:related <http://syriaca.org/place/78> ;
+ skos:related <http://syriaca.org/place/551> ;
  dcterms:description "A monastery near ." ;
  dcterms:description [
  rdfs:label "ܒܛܘܪܳܐ ܕܐܘܪܗܳܝ ܐܶܫܬܰܬܰܐܣ ܗܰܘ ܕܰܝܪܳܐ ܐܚܪܺܢܳܐ ܒܗ ܒܰܫܡܳܐ ܒܫܘܪܳܝ ܕܳܪܳܐ ܚܡܝܫܳܝܳܐ. ܘܐܶܬܕܰܟܪܳܗ̇ ܡܰܟܬܰܒܙܰܒܢ̈ܐ ܥܕܰܡܐ ܠܰܫܢܰܬ 1191 ܘܒܗ ܐܶܬܢܰܦܩ ܒܰܣܝܺܠܝܘܣ ܦܐܪܣ ܡܝܺܛܪܘܦܘܠܝܛܳܐ ܕܐܘܪܗܳܝ 1204."@syr-Syrj ;

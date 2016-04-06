@@ -18,7 +18,7 @@
  lawd:variantForm "Holy Apostle Thomas"@en ;];
  lawd:hasName [
  lawd:variantForm "Urmi-Church"@en ;];
- skos:related "Verin Dvin" ;
+ skos:related <http://syriaca.org/place/2553> ;
  dcterms:description "A church in" ;
  dcterms:temporal "1828" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2564/html> ;

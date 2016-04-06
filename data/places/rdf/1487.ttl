@@ -22,7 +22,7 @@
  lawd:variantForm "بيعة بربارة"@ar ;];
  lawd:hasName [
  lawd:variantForm "Church of Barbara"@en ;];
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "A church in ." ;
  dcterms:temporal "1227" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1487/html> ;

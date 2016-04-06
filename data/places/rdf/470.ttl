@@ -36,7 +36,7 @@
  lawd:variantForm "Dayr al-Zafarān"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Dayr al-Za‘farān"@en-xsrp1 ;];
- skos:related "Dayr al-Zaʿfarān" ;
+ skos:related <http://syriaca.org/place/69> ;
  dcterms:description "A monastery in ." ;
  dcterms:description [
  rdfs:label "first mentioned in history in 1165 and still active."@en ;

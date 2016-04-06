@@ -24,7 +24,7 @@
  lawd:variantForm "Malula"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ma‘lula"@en-xsrp1 ;];
- skos:related "Damascus" ;
+ skos:related <http://syriaca.org/place/66> ;
  dcterms:description "A village northeast of and southwest of Qara." ;
  dcterms:temporal "1879" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678273> ;

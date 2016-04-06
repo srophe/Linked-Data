@@ -32,7 +32,7 @@
  lawd:variantForm "Kabiya"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ka‘biya"@en-xsrp1 ;];
- skos:related "Kaʿbiya" ;
+ skos:related <http://syriaca.org/place/442> ;
  dcterms:description [
  rdfs:label "ܡܕܺܝܢܬܐ ܕܥܠ ܣܦܳܪ̈ܝ ܦܪܳܬ ܠܡܰܕܢܰܚ ܒܰܐܠܘ ܘܰܠܡܰܥܪܰܒ ܟܰܪܒܘܬ"@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];

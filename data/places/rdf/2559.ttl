@@ -14,7 +14,7 @@
  rdfs:label "Atlakandeh" ;
  lawd:hasName [
  lawd:primaryForm "Atlakandeh"@en ;];
- skos:related "Urmia" ;
+ skos:related <http://syriaca.org/place/206> ;
  dcterms:description "An Assyrian village near" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2559/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2559/tei> .

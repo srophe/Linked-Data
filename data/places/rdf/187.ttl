@@ -16,8 +16,8 @@
  lawd:primaryForm "Sidon"@en ;];
  lawd:hasName [
  lawd:variantForm "صَيْداء"@ar ;];
- skos:related "Beirut" ;
- skos:related "Tyros" ;
+ skos:related <http://syriaca.org/place/46> ;
+ skos:related <http://syriaca.org/place/195> ;
  dcterms:description "A coastal city between and ." ;
  dcterms:temporal "-0950" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678393> ;

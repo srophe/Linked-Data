@@ -18,8 +18,8 @@
  lawd:variantForm "Khāzir"@en ;];
  lawd:hasName [
  lawd:variantForm "خازر"@ar ;];
- skos:related "Greater Zab" ;
- skos:related "Karamlish" ;
+ skos:related <http://syriaca.org/place/204> ;
+ skos:related <http://syriaca.org/place/110> ;
  dcterms:description "A tributary of the which flows east of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874406> ;
 geo:location [

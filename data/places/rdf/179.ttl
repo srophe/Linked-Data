@@ -16,8 +16,8 @@
  lawd:primaryForm "Sarephta"@en ;];
  lawd:hasName [
  lawd:variantForm "صَرَفَنْدة"@ar ;];
- skos:related "Sidon" ;
- skos:related "Tyros" ;
+ skos:related <http://syriaca.org/place/187> ;
+ skos:related <http://syriaca.org/place/195> ;
  dcterms:description "A coastal town between and ." ;
  dcterms:temporal "-1300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678374> ;

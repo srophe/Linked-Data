@@ -16,8 +16,8 @@
  lawd:primaryForm "Ṣadad"@en ;];
  lawd:hasName [
  lawd:variantForm "صدد"@ar ;];
- skos:related "Qara" ;
- skos:related "al-Qaryatayn" ;
+ skos:related <http://syriaca.org/place/161> ;
+ skos:related <http://syriaca.org/place/212> ;
  dcterms:description "A town northeast of and west of ." ;
  dcterms:description [
  rdfs:label "بليدة قديمة جنوبي شرقي حمص على طريق دمشق مرحلة يوم عنها آهلة بنحو من اربعة آلاف نفس من السريان."@ar ;

@@ -38,8 +38,8 @@
  lawd:variantForm "Talada Monastery"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Tal‘ada Monastery"@en-xsrp1 ;];
- skos:related "Ḥama" ;
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/91> ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description [
  rdfs:label "The Monastery of Tell ʿAda, also known as the ‘Great Monastery’, is located just over 48 km. from Aleppo; 1500 m. north of the present village of Tell ʿAda."@en ;];
  dcterms:description [

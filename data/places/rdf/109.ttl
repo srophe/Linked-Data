@@ -44,8 +44,8 @@
  lawd:variantForm "al-Raqqa"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "al-Raqqa‘"@en-xsrp1 ;];
- skos:related "Euphrates" ;
- skos:related "Daiṣan" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/191> ;
  dcterms:description "A city on the where the enters it." ;
  dcterms:description [
  rdfs:label "ܡܕܝܢܬܳܐ ܗܘܳܬ ܪܰܒܬܳܐ ܒܩܘܪܒܳܐ ܕܰܦܪܳܬ ܘܡܶܬܰܐܡܪ ܠܗ̇ ܪܰܩܰܗ̈ ܘܝܰܘܡܳܢܐ ܗܘܳܬ ܡܕܝܢܬܳܘܢܺܝܬܳܐ ܕܕܳܡܝܳܐ ܠܰܩܪܺܝܬܳܐ."@syr-Syrj ;

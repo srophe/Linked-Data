@@ -24,7 +24,7 @@
  lawd:variantForm "Kabiya"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ka‘biya"@en-xsrp1 ;];
- skos:related "Amid" ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A village near ." ;
  dcterms:description [
  rdfs:label "ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܐܳܡܝܕ ܕܰܡܝܰܬܒܳܐ ܗܘܳܬ ܒܣܘܪ̈ܝܳܝܐ ܐܶܣܬܰܚܦܰܬ ܒܰܩܪܳܒܐ ܕܰܥܒܰܪ."@syr-Syrj ;

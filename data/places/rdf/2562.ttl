@@ -18,7 +18,7 @@
  lawd:variantForm "Mart Mariam"@en ;];
  lawd:hasName [
  lawd:variantForm "St. Mary"@en ;];
- skos:related "Arzni" ;
+ skos:related <http://syriaca.org/place/2555> ;
  dcterms:description "A church in" ;
  dcterms:temporal "1875" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2562/html> ;

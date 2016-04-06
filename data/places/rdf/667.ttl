@@ -14,7 +14,7 @@
  rdfs:label "Monastery of the Antonines" ;
  lawd:hasName [
  lawd:primaryForm "Monastery of the Antonines"@en ;];
- skos:related "the Enaton" ;
+ skos:related <http://syriaca.org/place/473> ;
  dcterms:description "A monastery in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/667/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/667/tei> .

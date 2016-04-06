@@ -22,9 +22,9 @@
  lawd:variantForm "Basra"@en ;];
  lawd:hasName [
  lawd:variantForm "مَيْسان"@ar ;];
- skos:related "Iraq" ;
- skos:related "Kashkar" ;
- skos:related "Baṣra" ;
+ skos:related <http://syriaca.org/place/98> ;
+ skos:related <http://syriaca.org/place/111> ;
+ skos:related <http://syriaca.org/place/44> ;
  dcterms:description "A region of southern south of and northwest of ." ;
  dcterms:temporal "0226" ;
  skos:exactMatch <http://pleiades.stoa.org/places/912905> ;

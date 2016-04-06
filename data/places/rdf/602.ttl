@@ -14,7 +14,7 @@
  rdfs:label "Kerala" ;
  lawd:hasName [
  lawd:primaryForm "Kerala"@en ;];
- skos:related "Kottayam" ;
+ skos:related <http://syriaca.org/place/1947> ;
  dcterms:description "A state of the nation of India, officially created in 1956." ;
  dcterms:temporal "1956-11-01" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kerala> ;

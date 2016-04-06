@@ -16,7 +16,7 @@
  lawd:primaryForm "Anasartha"@en ;];
  lawd:hasName [
  lawd:variantForm "خناصرة"@ar ;];
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "A Roman village southeast of ." ;
  dcterms:temporal "0426" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668187> ;

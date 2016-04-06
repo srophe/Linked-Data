@@ -22,8 +22,8 @@
  lawd:variantForm "ܡܰܐܝܘܡܰܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "مايوما"@ar ;];
- skos:related "Gaza" ;
- skos:related "Gaza" ;
+ skos:related <http://syriaca.org/place/87> ;
+ skos:related <http://syriaca.org/place/87> ;
  dcterms:description "The port city of ." ;
  dcterms:description [
  rdfs:label "ܠܡܺܐܢܳܐ ܚܰܪܝܒܳܐ ܒܩܘܪܒܳܐ ܕܥܰܙܐ ܥܰܠ ܝܰܕ ܝܰܡܳܐ ܡܶܨܥܳܝܐ."@syr-Syrj ;

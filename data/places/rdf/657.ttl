@@ -40,7 +40,7 @@
  lawd:variantForm "Mor ‘Azozoʾil"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Mor ‘Azozoʾil"@en-xsrp1 ;];
- skos:related "Dayr al-Zaʿfarān" ;
+ skos:related <http://syriaca.org/place/69> ;
  dcterms:description "A monastery in the hills above ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/657/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/657/tei> .

@@ -30,7 +30,7 @@
  lawd:variantForm "Ḥananya Monastery"@en ;];
  lawd:hasName [
  lawd:variantForm "monastery of Mar Hanina"@en ;];
- skos:related "Kallinikos" ;
+ skos:related <http://syriaca.org/place/109> ;
  dcterms:description "A monastery near ." ;
  dcterms:description [
  rdfs:label "ܘܰܟܒܰܪ ܡܶܬܒܰܝܬܶܐ ܠܚܰܢܝܢܳܐ ܥܢܘܳܝܐ 500 ܒܶܗ ܐܶܬܬܣܪܰܚ ܦܶܛܪܘܣ ܬܠܝܬܳܝܐ ܫܢܰܬ 581."@syr-Syrj ;

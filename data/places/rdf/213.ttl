@@ -26,8 +26,8 @@
  lawd:variantForm "Reshayna"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Resh‘ayna"@en-xsrp1 ;];
- skos:related "Mardin" ;
- skos:related "Reshʿayna" ;
+ skos:related <http://syriaca.org/place/130> ;
+ skos:related <http://syriaca.org/place/172> ;
  dcterms:description "A city south of and southeast of ." ;
  dcterms:temporal "1907" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874742> ;

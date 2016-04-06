@@ -26,8 +26,8 @@
  lawd:variantForm "Dayr al-Muallaq"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Dayr al-Mu‘allaq"@en-xsrp1 ;];
- skos:related "Balad" ;
- skos:related "Dayr al-Muʿallaq" ;
+ skos:related <http://syriaca.org/place/42> ;
+ skos:related <http://syriaca.org/place/391> ;
  dcterms:description "A mountain near on which was the ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/560/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/560/tei> .

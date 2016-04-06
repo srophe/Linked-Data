@@ -22,8 +22,8 @@
  lawd:variantForm "بنشمش"@ar ;];
  lawd:hasName [
  lawd:variantForm "Benshams"@en ;];
- skos:related "Khabur river" ;
- skos:related "Jazira" ;
+ skos:related <http://syriaca.org/place/114> ;
+ skos:related <http://syriaca.org/place/321> ;
  dcterms:description "A place east of the in ." ;
  dcterms:temporal "0837" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1505/html> ;

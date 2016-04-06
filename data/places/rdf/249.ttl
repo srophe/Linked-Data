@@ -14,7 +14,7 @@
  rdfs:label "Ardishai" ;
  lawd:hasName [
  lawd:primaryForm "Ardishai"@en ;];
- skos:related "Urmia" ;
+ skos:related <http://syriaca.org/place/206> ;
  dcterms:description "A village southeast of ." ;
  dcterms:temporal "1810" ;
  foaf:primaryTopicOf <http://syriaca.org/place/249/html> ;

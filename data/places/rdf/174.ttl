@@ -16,7 +16,7 @@
  lawd:primaryForm "Seleucia"@en ;];
  lawd:hasName [
  lawd:variantForm "سَلِيقِية"@ar ;];
- skos:related "Isauria" ;
+ skos:related <http://syriaca.org/place/99> ;
  dcterms:description "A port city of ." ;
  dcterms:temporal "-0281" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648771> ;

@@ -20,7 +20,7 @@
  lawd:variantForm "ܕܰܝܪܐ ܕܰܒܬܘܽܠܬܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "دير العذراء"@ar ;];
- skos:related "Sidus" ;
+ skos:related <http://syriaca.org/place/417> ;
  dcterms:description "A monastery near the village of ." ;
  dcterms:temporal "1299" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1485/html> ;

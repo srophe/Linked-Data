@@ -16,8 +16,8 @@
  lawd:primaryForm "Mar Giwargis"@en ;];
  lawd:hasName [
  lawd:variantForm "Mār Giwārgīs"@en ;];
- skos:related "Dīzā" ;
- skos:related "Wazirābād" ;
+ skos:related <http://syriaca.org/place/1171> ;
+ skos:related <http://syriaca.org/place/1809> ;
  dcterms:description "A church serving both and ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/1930/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1930/tei> ;

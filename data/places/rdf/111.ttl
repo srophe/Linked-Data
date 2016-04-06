@@ -16,7 +16,7 @@
  lawd:primaryForm "Kashkar"@en ;];
  lawd:hasName [
  lawd:variantForm "كَسْكر"@ar ;];
- skos:related "al-Wāsiṭ" ;
+ skos:related <http://syriaca.org/place/509> ;
  dcterms:description "An ancient town in southern Iraq." ;
  dcterms:temporal "0270" ;
  skos:exactMatch <http://pleiades.stoa.org/places/912880> ;

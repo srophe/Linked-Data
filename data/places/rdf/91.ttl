@@ -24,8 +24,8 @@
  lawd:variantForm "Hamah"@en ;];
  lawd:hasName [
  lawd:variantForm "حَماة"@ar ;];
- skos:related "Orontes river" ;
- skos:related "Emesa" ;
+ skos:related <http://syriaca.org/place/147> ;
+ skos:related <http://syriaca.org/place/215> ;
  dcterms:description "A city on the north of ." ;
  dcterms:temporal "-0835" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668182> ;

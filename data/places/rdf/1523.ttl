@@ -22,7 +22,7 @@
  lawd:variantForm "افغانستان"@ar ;];
  lawd:hasName [
  lawd:variantForm "Αfghanistan"@en ;];
- skos:related "Central Asia" ;
+ skos:related <http://syriaca.org/place/585> ;
  dcterms:description "A region of ." ;
  dcterms:temporal "1530" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1523/html> ;

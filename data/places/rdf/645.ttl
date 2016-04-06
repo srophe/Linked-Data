@@ -16,7 +16,7 @@
  lawd:primaryForm "Tell Tuneinir"@en ;];
  lawd:hasName [
  lawd:variantForm "تنينير"@ar ;];
- skos:related "al-Ḥasake" ;
+ skos:related <http://syriaca.org/place/213> ;
  dcterms:description "A village southeast of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874762> ;
 geo:location [

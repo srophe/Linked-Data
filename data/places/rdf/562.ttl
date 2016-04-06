@@ -22,8 +22,8 @@
  lawd:variantForm "الجبل المدخن"@ar ;];
  lawd:hasName [
  lawd:variantForm "Smoke Mountain"@en ;];
- skos:related "Nabk" ;
- skos:related "Musa al-Ḥabashi" ;
+ skos:related <http://syriaca.org/place/143> ;
+ skos:related <http://syriaca.org/place/228> ;
  dcterms:description "The hill outside of on which is the monastery of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/562/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/562/tei> .

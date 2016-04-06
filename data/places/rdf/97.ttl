@@ -36,11 +36,11 @@
  lawd:variantForm "Aintab"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Aintab"@en-xsrp1 ;];
- skos:related "Euphrates" ;
- skos:related "Edessa" ;
- skos:related "ʿAintab" ;
- skos:related "Zeugma" ;
- skos:related "Halfeti" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/78> ;
+ skos:related <http://syriaca.org/place/222> ;
+ skos:related <http://syriaca.org/place/209> ;
+ skos:related <http://syriaca.org/place/695> ;
  dcterms:description "A city on the west of and northeast of ." ;
  dcterms:description [
  rdfs:label "ܩܶܠܥܳܐ ܚܰܣܝܢܬܳܐ ܘܰܐܬܪܐ ܕܰܠܡܰܥܪܰܒ ܦܪܳܬ ܠܘܩܒܰܠ ܒܝܪܬܐ ܠܩܘܪܒܳܐ ܕܰܩܪܝܬܐ ܟ̣ܠܦܬܝ. ܘܡܶܫܬܰܡܗܐ ܗܘܳܬ ܩܶܠܥܳܐ ܕܙܘܓܡܐ. ܘܚܰܪܝܒܐ"@syr-Syrj ;

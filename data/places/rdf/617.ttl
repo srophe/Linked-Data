@@ -18,8 +18,8 @@
  lawd:variantForm "monastery of Our Lady of Saydnayai"@en ;];
  lawd:hasName [
  lawd:variantForm "monastery of Saydnaya"@en ;];
- skos:related "Ṣaydnāyā" ;
- skos:related "Damascus" ;
+ skos:related <http://syriaca.org/place/280> ;
+ skos:related <http://syriaca.org/place/66> ;
  dcterms:description "A monastery outside north of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Convent_of_Our_Lady_of_Saidnaya> ;
  foaf:primaryTopicOf <http://syriaca.org/place/617/html> ;

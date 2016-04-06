@@ -18,10 +18,10 @@
  lawd:variantForm "Lower Zab"@en ;];
  lawd:hasName [
  lawd:variantForm "الزاب الأسفل"@ar ;];
- skos:related "Arbela" ;
- skos:related "Karka d-Beth Slokh" ;
- skos:related "Tigris" ;
- skos:related "Tagrit" ;
+ skos:related <http://syriaca.org/place/13> ;
+ skos:related <http://syriaca.org/place/108> ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/193> ;
  dcterms:description "A river which flows south of and north of and enters the above ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/894184> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Little_Zab> ;

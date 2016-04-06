@@ -18,8 +18,8 @@
  lawd:variantForm "Iabrouda"@en ;];
  lawd:hasName [
  lawd:variantForm "يبرود"@ar ;];
- skos:related "Damascus" ;
- skos:related "Emesa" ;
+ skos:related <http://syriaca.org/place/66> ;
+ skos:related <http://syriaca.org/place/215> ;
  dcterms:description "A town on the road between and ." ;
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678196> ;

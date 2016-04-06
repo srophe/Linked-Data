@@ -24,8 +24,8 @@
  lawd:variantForm "Qala Rumayta"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Qal‘a Rumayta"@en-xsrp1 ;];
- skos:related "Aleppo" ;
- skos:related "Qalʿa Rumayta" ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/97> ;
  dcterms:description "A city north of and southwest of ." ;
  dcterms:temporal "0600" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Gaziantep> ;

@@ -16,7 +16,7 @@
  lawd:primaryForm "Jabal Rīḥāna"@en ;];
  lawd:hasName [
  lawd:variantForm "Jebel Rihane"@en ;];
- skos:related "Mlīkh" ;
+ skos:related <http://syriaca.org/place/608> ;
  dcterms:description "The mountain where the village is located." ;
  foaf:primaryTopicOf <http://syriaca.org/place/598/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/598/tei> .

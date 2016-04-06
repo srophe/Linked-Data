@@ -22,7 +22,7 @@
  lawd:variantForm "غايوس"@ar ;];
  lawd:hasName [
  lawd:variantForm "Gauis"@en ;];
- skos:related "Macedonia" ;
+ skos:related <http://syriaca.org/place/512> ;
  dcterms:description "A mountain in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/1494/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1494/tei> .

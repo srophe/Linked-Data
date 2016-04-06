@@ -16,8 +16,8 @@
  lawd:primaryForm "Philippopolis"@en ;];
  lawd:hasName [
  lawd:variantForm "شهبة"@ar ;];
- skos:related "Tiberias" ;
- skos:related "Arabia" ;
+ skos:related <http://syriaca.org/place/201> ;
+ skos:related <http://syriaca.org/place/12> ;
  dcterms:description "A town east of in the Roman province of ." ;
  dcterms:temporal "0210" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678332> ;

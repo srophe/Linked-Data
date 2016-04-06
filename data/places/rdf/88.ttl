@@ -38,9 +38,9 @@
  lawd:variantForm "Jazirat Ibn Umar"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Jazirat Ibn ‘Umar"@en-xsrp1 ;];
- skos:related "Tigris river" ;
- skos:related "Amida" ;
- skos:related "Mosul" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/8> ;
+ skos:related <http://syriaca.org/place/139> ;
  dcterms:description "A city on the between and ." ;
  dcterms:description [
  rdfs:label "ܡܕܺܝܢܬܘܢܝܬܳܐ ܗܝ ܕܥܰܠ ܕܶܩܠܰܬ ܒܶܝܬ ܐܳܡܝܕ ܠܡܰܘܨܠ."@syr-Syrj ;

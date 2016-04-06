@@ -30,7 +30,7 @@
  lawd:variantForm "Monastery of Ara Rabtha"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Monastery of Ar‘a Rabtha"@en-xsrp1 ;];
- skos:related "Ingila" ;
+ skos:related <http://syriaca.org/place/102> ;
  dcterms:description "A monastery at ." ;
  dcterms:temporal "0516" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1524/html> ;

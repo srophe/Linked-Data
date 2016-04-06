@@ -22,7 +22,7 @@
  lawd:variantForm "الحَفر"@ar ;];
  lawd:hasName [
  lawd:variantForm "Ḥafar"@en ;];
- skos:related "Ṣadad" ;
+ skos:related <http://syriaca.org/place/276> ;
  dcterms:description "A village 7 km south of ." ;
  dcterms:description [
  rdfs:label "ܚܕܳܐ ܗܝ ܡܶܢ ܩܘܽܪ̈ܝܳܐ ܕܰܚܡܶܨ. ܡܰܪܕܐ ܫܳܥܬܐ ܡܶܢ ܨܰܕܕ ܠܬܰܝܡܢܗ̇."@syr-Syrj ;

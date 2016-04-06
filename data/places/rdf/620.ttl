@@ -16,7 +16,7 @@
  lawd:primaryForm "Zobar"@en ;];
  lawd:hasName [
  lawd:variantForm "monastery of Zobar"@en ;];
- skos:related "Melitene" ;
+ skos:related <http://syriaca.org/place/136> ;
  dcterms:description "A monastery near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/620/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/620/tei> .

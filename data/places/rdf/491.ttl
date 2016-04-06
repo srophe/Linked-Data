@@ -28,8 +28,8 @@
  lawd:variantForm "Diyar Miṣr"@en ;];
  lawd:hasName [
  lawd:variantForm "ديار مُضر"@ar ;];
- skos:related "Euphrates" ;
- skos:related "Samosata" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/178> ;
  dcterms:description "A region of Mesopotamia on the from to western Iraq." ;
  dcterms:temporal "0700" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Diyar_Mudar> ;

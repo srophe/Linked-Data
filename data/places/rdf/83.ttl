@@ -22,9 +22,9 @@
  lawd:variantForm "جرابلس"@ar ;];
  lawd:hasName [
  lawd:variantForm "Jarābulus"@en ;];
- skos:related "Euphrates" ;
- skos:related "Mabbug" ;
- skos:related "Birtha" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/122> ;
+ skos:related <http://syriaca.org/place/50> ;
  dcterms:description "A city on the north of and south of" ;
  dcterms:description [
  rdfs:label "ܘܐܝܬܶܝܗ̇ ܐܘܪܘܦܘܣ ܥܰܬܝܺܩܬܐ ܕܰܠܡܰܥܪܰܒ ܦܪܳܬ ܘܰܠܓܰܪܒܰܝ ܡܰܒܘܓ."@syr-Syrj ;

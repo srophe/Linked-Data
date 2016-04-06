@@ -24,7 +24,7 @@
  lawd:variantForm "Nuba"@en ;];
  lawd:hasName [
  lawd:variantForm "نُوْبة"@ar ;];
- skos:related "Egypt" ;
+ skos:related <http://syriaca.org/place/715> ;
  dcterms:description "A region of northeastern Africa, south of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Nubia> ;
  foaf:primaryTopicOf <http://syriaca.org/place/630/html> ;

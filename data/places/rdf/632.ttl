@@ -16,7 +16,7 @@
  lawd:primaryForm "Parthian Empire"@en ;];
  lawd:hasName [
  lawd:variantForm "Parthia"@en ;];
- skos:related "Sasanian Empire" ;
+ skos:related <http://syriaca.org/place/150> ;
  dcterms:description "An ancient Persian empire which was succeeded by the ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/952097> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Parthian_Empire> ;

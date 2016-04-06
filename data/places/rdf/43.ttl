@@ -24,7 +24,7 @@
  lawd:variantForm "Balikh river"@en ;];
  lawd:hasName [
  lawd:variantForm "البليخ"@ar ;];
- skos:related "Daysan" ;
+ skos:related <http://syriaca.org/place/191> ;
  dcterms:description "A tributary of the Euphrates that enters it at al-Raqqa." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Balikh_River> ;
  foaf:primaryTopicOf <http://syriaca.org/place/43/html> ;

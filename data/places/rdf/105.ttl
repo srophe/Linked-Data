@@ -16,8 +16,8 @@
  lawd:primaryForm "Jericho"@en ;];
  lawd:hasName [
  lawd:variantForm "أَرِيْحا"@ar ;];
- skos:related "Jordan river" ;
- skos:related "Jerusalem" ;
+ skos:related <http://syriaca.org/place/599> ;
+ skos:related <http://syriaca.org/place/104> ;
  dcterms:description "A town near the east of ." ;
  dcterms:temporal "-9000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/687917> ;

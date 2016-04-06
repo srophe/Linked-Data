@@ -16,8 +16,8 @@
  lawd:primaryForm "Zakho"@en ;];
  lawd:hasName [
  lawd:variantForm "Zākhō"@en ;];
- skos:related "Mosul" ;
- skos:related "Gazarta" ;
+ skos:related <http://syriaca.org/place/139> ;
+ skos:related <http://syriaca.org/place/88> ;
  dcterms:description "A city northwest of and southeast of ." ;
  dcterms:temporal "1779" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Zakho> ;

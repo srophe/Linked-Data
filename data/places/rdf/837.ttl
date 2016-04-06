@@ -16,7 +16,7 @@
  lawd:primaryForm "Kuplana"@en ;];
  lawd:hasName [
  lawd:variantForm "Kuplānā"@en ;];
- skos:related "Adiabene" ;
+ skos:related <http://syriaca.org/place/995> ;
  dcterms:description "A town in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/837/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/837/tei> .

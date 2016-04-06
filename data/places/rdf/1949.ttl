@@ -14,8 +14,8 @@
  rdfs:label "Mart Maryam" ;
  lawd:hasName [
  lawd:primaryForm "Mart Maryam"@en ;];
- skos:related "Qārājālū" ;
- skos:related "Ābājālūi" ;
+ skos:related <http://syriaca.org/place/1614> ;
+ skos:related <http://syriaca.org/place/881> ;
  dcterms:description "A church serving both and ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/1949/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1949/tei> ;

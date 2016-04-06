@@ -24,7 +24,7 @@
  lawd:variantForm "Hawran"@en ;];
  lawd:hasName [
  lawd:variantForm "حَوران"@ar ;];
- skos:related "Damascus" ;
+ skos:related <http://syriaca.org/place/66> ;
  dcterms:description "A region south of and east of the Sea of Galilee." ;
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678041> ;

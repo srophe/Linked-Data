@@ -18,8 +18,8 @@
  lawd:primaryForm "ܪܘܡܝ"@syr ;];
  lawd:hasName [
  lawd:variantForm "رومية"@ar ;];
- skos:related "Italy" ;
- skos:related "Roman Empire" ;
+ skos:related <http://syriaca.org/place/592> ;
+ skos:related <http://syriaca.org/place/166> ;
  dcterms:description "The capital city of and formerly the capital of the ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/423025> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Rome> ;

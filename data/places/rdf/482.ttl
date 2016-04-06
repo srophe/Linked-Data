@@ -24,8 +24,8 @@
  lawd:variantForm "Dayr al-Zur"@en ;];
  lawd:hasName [
  lawd:variantForm "Deir al-Zor"@en ;];
- skos:related "Euphrates" ;
- skos:related "al-Raqqa" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/109> ;
  dcterms:description "A city on the southeast of ." ;
  dcterms:temporal "1867" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Deir_ez-Zor> ;

@@ -20,7 +20,7 @@
  lawd:variantForm "ܟܺܝܳܘ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "خيو"@ar ;];
- skos:related "Asia Minor" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "An island off the western coast of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/550497> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Chios> ;

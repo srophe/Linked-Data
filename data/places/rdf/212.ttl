@@ -22,8 +22,8 @@
  lawd:variantForm "القريتين"@ar ;];
  lawd:hasName [
  lawd:variantForm "القريتان"@ar ;];
- skos:related "Damascus" ;
- skos:related "Ḥimṣ" ;
+ skos:related <http://syriaca.org/place/66> ;
+ skos:related <http://syriaca.org/place/215> ;
  dcterms:description "A town northeast of and southeast of ." ;
  dcterms:description [
  rdfs:label "ܐܰܬܪܰܐ ܗܘ ܕܒܐܘܚܕܳܢܐ ܕܰܚܡܶܨ ܡܰܪܕܶܐ ܬܪܶܝܢ ܝܰܘܡܝ̈ܢ ܒܐܘܪܚܳܐ ܕܡܰܕܒܪܐ ܕܒܶܝܬ ܠܗ̇ ܘܰܠܣܰܟܢܗ ܘܐܪܟ."@syr-Syrj ;

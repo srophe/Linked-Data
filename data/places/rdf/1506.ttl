@@ -22,7 +22,7 @@
  lawd:variantForm "دير مار يوحنا قورديس"@ar ;];
  lawd:hasName [
  lawd:variantForm "Monastery of Mar John Qurdis"@en ;];
- skos:related "Dara" ;
+ skos:related <http://syriaca.org/place/67> ;
  dcterms:description "A monastery in ." ;
  dcterms:temporal "0829" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1506/html> ;

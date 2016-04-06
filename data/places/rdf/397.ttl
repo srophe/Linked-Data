@@ -32,7 +32,7 @@
  lawd:variantForm "Mor Yaqub"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Mor Ya‘qub"@en-xsrp1 ;];
- skos:related "Kaysum" ;
+ skos:related <http://syriaca.org/place/112> ;
  dcterms:description "A monastery in ." ;
  dcterms:description [
  rdfs:label "ܒܩܘܪܒܐ ܕܟܰܝܫܘܡ ܕܟܝܪ ܒܡܰܟܬܰܒ̈ܙܰܒܢܐ ܒܰܐܚܪ̈ܝܳܬܗ ܕܕܳܪܐ ܫܒܝܥܳܝܐ. ܘܗܘܐ ܡܢܗ ܥܶܣܪܐ ܐܶܦܝܣ̈ܩܘܦܐ ܡܢ ܫܢܰܬ 810 - 925"@syr-Syrj ;

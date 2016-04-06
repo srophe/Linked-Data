@@ -18,8 +18,8 @@
  lawd:variantForm "Tyre"@en ;];
  lawd:hasName [
  lawd:variantForm "صُوْر"@ar ;];
- skos:related "Mediterranean Sea" ;
- skos:related "Damascus" ;
+ skos:related <http://syriaca.org/place/135> ;
+ skos:related <http://syriaca.org/place/66> ;
  dcterms:description "An important port city of the eastern west of ." ;
  dcterms:temporal "-1300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678437> ;

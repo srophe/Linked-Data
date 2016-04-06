@@ -20,8 +20,8 @@
  lawd:variantForm "ارك"@ar ;];
  lawd:hasName [
  lawd:variantForm "أَرَك"@ar ;];
- skos:related "Palmyra" ;
- skos:related "Sukhna" ;
+ skos:related <http://syriaca.org/place/153> ;
+ skos:related <http://syriaca.org/place/514> ;
  dcterms:description "A village on the desert road between and ." ;
  dcterms:temporal "0075" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668196> ;

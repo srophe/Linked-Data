@@ -22,7 +22,7 @@
  lawd:variantForm "هيكل مار يوحنا المعمدان"@ar ;];
  lawd:hasName [
  lawd:variantForm "Church of St. John the Baptist"@en ;];
- skos:related "Amid" ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A church probably in ." ;
  dcterms:temporal "0650" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1520/html> ;

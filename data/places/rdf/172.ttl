@@ -60,7 +60,7 @@
  lawd:variantForm "Raʾs al-‘Ayn"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Raʾs al-‘Ayn"@en-xsrp1 ;];
- skos:related "Resh ʿAyna" ;
+ skos:related <http://syriaca.org/place/1654> ;
  dcterms:description [
  rdfs:label "City on the Khabur, located in the eastern part of ancient Osrhoene and today straddling the Turkish-Syrian border, the Syrian part now bearing the name Raʾs al-ʿAyn and the Turkish part Ceylanpınar (earlier Resülayn)."@en ;];
  dcterms:description [

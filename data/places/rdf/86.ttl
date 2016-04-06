@@ -28,9 +28,9 @@
  lawd:variantForm "Karkar"@en ;];
  lawd:hasName [
  lawd:variantForm "كَرْكر"@ar ;];
- skos:related "Euphrates" ;
- skos:related "Melitene" ;
- skos:related "Amida" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/136> ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A city near the between and ." ;
  dcterms:description [
  rdfs:label "ܚܶܣܢܰܐ ܗܘ ܘܰܡܕܝܢܬܐ ܒܩܘܪܒܳܐ ܕܡܝܺܠܝܺܛܝܢܝ ܒܶܝܬ ܫܰܡܝܫܰܛ ܠܚܰܣܢ ܙܝܰܐܕ ܠܡܰܥܪܒܳܐ ܕܰܦܪܳܬ. ܚܶܪܒܰܬ."@syr-Syrj ;

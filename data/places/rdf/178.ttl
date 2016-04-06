@@ -22,8 +22,8 @@
  lawd:variantForm "سميساط"@ar ;];
  lawd:hasName [
  lawd:variantForm "سُمَيْساط"@ar ;];
- skos:related "Euphrates" ;
- skos:related "Edessa" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/78> ;
  dcterms:description "A town on the northwest of ." ;
  dcterms:description [
  rdfs:label "ܐܰܬܪܐ ܗܘ ܕܰܠܡܰܥܪܒܗ ܕܰܦܪܳܬ ܘܰܠܓܰܪܒܝܗ ܕܐܘܪܗܳܝ."@syr-Syrj ;

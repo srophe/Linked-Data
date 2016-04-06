@@ -16,8 +16,8 @@
  lawd:primaryForm "Hormizd Ardashir"@en ;];
  lawd:hasName [
  lawd:variantForm "Ahwaz"@en ;];
- skos:related "Baṣra" ;
- skos:related "Shushtar" ;
+ skos:related <http://syriaca.org/place/44> ;
+ skos:related <http://syriaca.org/place/186> ;
  dcterms:description "A city of southeastern Mesopotamia between and ." ;
  dcterms:temporal "0271" ;
  skos:exactMatch <http://pleiades.stoa.org/places/912865> ;

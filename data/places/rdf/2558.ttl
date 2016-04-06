@@ -16,7 +16,7 @@
  lawd:primaryForm "Urmia"@en ;];
  lawd:hasName [
  lawd:variantForm "Arazdayan"@en ;];
- skos:related "Armenia" ;
+ skos:related <http://syriaca.org/place/576> ;
  dcterms:description "An Assyrian settlement in" ;
  dcterms:temporal "1877" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2558/html> ;

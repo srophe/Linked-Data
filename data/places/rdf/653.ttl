@@ -18,7 +18,7 @@
  lawd:variantForm "Maarrat al-Numān"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ma‘arrat al-Nu‘mān"@en-xsrp1 ;];
- skos:related "Maʿarrat al-Nuʿmān" ;
+ skos:related <http://syriaca.org/place/499> ;
  dcterms:description "A settlement west of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/668266> ;
 geo:location [

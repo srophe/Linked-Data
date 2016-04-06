@@ -16,7 +16,7 @@
  lawd:primaryForm "Seleucia Pieria"@en ;];
  lawd:hasName [
  lawd:variantForm "سلوقية"@ar ;];
- skos:related "Antioch" ;
+ skos:related <http://syriaca.org/place/10> ;
  dcterms:description "A port city west of ." ;
  dcterms:temporal "-0281" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658483> ;

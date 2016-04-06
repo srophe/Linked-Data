@@ -28,8 +28,8 @@
  lawd:variantForm "Maarrat al-Numān"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ma‘arrat al-Nu‘mān"@en-xsrp1 ;];
- skos:related "Maʿarrat al-Nuʿmān" ;
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/498> ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "A desert area between and ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/498/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/498/tei> .

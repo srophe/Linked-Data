@@ -18,7 +18,7 @@
  lawd:variantForm "Bar Qaiti"@en ;];
  lawd:hasName [
  lawd:variantForm "monastery of Barqita"@en ;];
- skos:related "Sinjar" ;
+ skos:related <http://syriaca.org/place/184> ;
  dcterms:description "A monastery in the region of , whose monks wrote a letter to Catholicos Sabrishoʿ in 598." ;
  foaf:primaryTopicOf <http://syriaca.org/place/610/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/610/tei> .

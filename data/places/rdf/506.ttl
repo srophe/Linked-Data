@@ -20,7 +20,7 @@
  lawd:variantForm "ܬܪܰܐܘܢܟܘܪ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "تراونكور"@ar ;];
- skos:related "India" ;
+ skos:related <http://syriaca.org/place/500> ;
  dcterms:description "A region in southern ." ;
  dcterms:temporal "1739" ;
  skos:exactMatch <http://pleiades.stoa.org/places/50205> ;

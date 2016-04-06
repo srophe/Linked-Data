@@ -16,8 +16,8 @@
  lawd:primaryForm "Larissa"@en ;];
  lawd:hasName [
  lawd:variantForm "شَيزر"@ar ;];
- skos:related "Orontes" ;
- skos:related "Ḥama" ;
+ skos:related <http://syriaca.org/place/147> ;
+ skos:related <http://syriaca.org/place/91> ;
  dcterms:description "A town on the northwest of ." ;
  dcterms:temporal "-1330" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668292> ;

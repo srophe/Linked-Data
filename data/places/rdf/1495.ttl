@@ -20,7 +20,7 @@
  lawd:variantForm "ܕܰܝܪܐ ܒܰܚܙܘܢܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "دير بيزونا"@ar ;];
- skos:related "Maypherqaṭ" ;
+ skos:related <http://syriaca.org/place/134> ;
  dcterms:description "An unlocated monastery, perhaps near ." ;
  dcterms:temporal "0945" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1495/html> ;

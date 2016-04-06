@@ -18,9 +18,9 @@
  lawd:variantForm "Sulemaniyya"@en ;];
  lawd:hasName [
  lawd:variantForm "Suleimaniya"@en ;];
- skos:related "Iraq" ;
- skos:related "Kirkuk" ;
- skos:related "Erbil" ;
+ skos:related <http://syriaca.org/place/98> ;
+ skos:related <http://syriaca.org/place/108> ;
+ skos:related <http://syriaca.org/place/13> ;
  dcterms:description "A modern city in northern east of and southeast of ." ;
  dcterms:temporal "1784-11-14" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sulaymaniyah> ;

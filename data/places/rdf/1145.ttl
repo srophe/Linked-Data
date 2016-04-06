@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1145> a lawd:Place ;
-rdfs:label "Dārāwā"  ;
+ rdfs:label "Dārāwā" ;
  lawd:hasName [
-lawd:primaryForm "Dārāwā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1145/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1145/tei>  ;
-dcterms:relation <http://syriaca.org/place/1146>  .
+ lawd:primaryForm "Dārāwā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1145/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1145/tei> ;
+ dcterms:relation <http://syriaca.org/place/1146> .

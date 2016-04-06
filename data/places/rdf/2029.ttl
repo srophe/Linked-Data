@@ -11,17 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2029> a lawd:Place ;
-rdfs:label "Mar Petion"  ;
+ rdfs:label "Mar Petion" ;
  lawd:hasName [
-lawd:primaryForm "Mar Petion"@en  ;];
+ lawd:primaryForm "Mar Petion"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Petiōn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2029/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2029/tei>  ;
-dcterms:relation <http://syriaca.org/place/2479>  ;
-dcterms:relation <http://syriaca.org/place/2480>  ;
-dcterms:relation <http://syriaca.org/place/2481>  ;
-dcterms:relation <http://syriaca.org/place/2027>  ;
-dcterms:relation <http://syriaca.org/place/2028>  ;
-dcterms:relation <http://syriaca.org/place/2030>  ;
-dcterms:relation <http://syriaca.org/place/2031>  .
+ lawd:variantForm "Mār Petiōn"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2029/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2029/tei> ;
+ dcterms:relation <http://syriaca.org/place/2479> ;
+ dcterms:relation <http://syriaca.org/place/2480> ;
+ dcterms:relation <http://syriaca.org/place/2481> ;
+ dcterms:relation <http://syriaca.org/place/2027> ;
+ dcterms:relation <http://syriaca.org/place/2028> ;
+ dcterms:relation <http://syriaca.org/place/2030> ;
+ dcterms:relation <http://syriaca.org/place/2031> .

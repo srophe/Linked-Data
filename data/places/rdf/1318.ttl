@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1318> a lawd:Place ;
-rdfs:label "Ḥārgel"  ;
+ rdfs:label "Ḥārgel" ;
  lawd:hasName [
-lawd:primaryForm "Ḥārgel"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1318/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1318/tei>  .
+ lawd:primaryForm "Ḥārgel"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1318/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1318/tei> .

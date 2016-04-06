@@ -11,27 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/326> a lawd:Place ;
-rdfs:label "Ḥarqel — ܚܪܩܠ"  ;
+ rdfs:label "Ḥarqel — ܚܪܩܠ" ;
+ lawd:hasName [
+ lawd:primaryForm "Ḥarqel"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܚܪܩܠ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܚܰܪܩܠ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "حرقل"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ḥarkel"@en ;];
  dcterms:description [
-rdfs:label "ܡܶܢ ܩܘܽܪ̈ܝܳܐ ܕܰܦܠܶܫܬ ܕܠܐ ܝܺܕܝܺܥܐ ܕܘ̣ܟܬܗ̇"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܶܢ ܩܘܽܪ̈ܝܳܐ ܕܰܦܠܶܫܬ ܕܠܐ ܝܺܕܝܺܥܐ ܕܘ̣ܟܬܗ̇"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "من قرى فلسطين القديمة مجهولة الموقع"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "من قرى فلسطين القديمة مجهولة الموقع"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "an ancient town in Palestine, whose location is unknown."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0300"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/662169/>  ;
- lawd:hasName [
-lawd:primaryForm "Ḥarqel"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܚܪܩܠ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܚܰܪܩܠ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "حرقل"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ḥarkel"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/326/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/326/tei>  .
+ rdfs:label "an ancient town in Palestine, whose location is unknown."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0300" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/662169/> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/326/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/326/tei> .

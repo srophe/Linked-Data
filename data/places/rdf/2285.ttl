@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2285> a lawd:Place ;
-rdfs:label "Calicut"  ;
+ rdfs:label "Calicut" ;
  lawd:hasName [
-lawd:primaryForm "Calicut"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2285/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2285/tei>  .
+ lawd:primaryForm "Calicut"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2285/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2285/tei> .

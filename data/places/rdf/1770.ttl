@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1770> a lawd:Place ;
-rdfs:label "Tel Qabīn"  ;
+ rdfs:label "Tel Qabīn" ;
  lawd:hasName [
-lawd:primaryForm "Tel Qabīn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1770/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1770/tei>  .
+ lawd:primaryForm "Tel Qabīn"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1770/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1770/tei> .

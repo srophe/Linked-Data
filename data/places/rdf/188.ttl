@@ -11,51 +11,54 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/188> a lawd:Place ;
-rdfs:label "Siirt — ܣܥܪܬ"  ;
+ rdfs:label "Siirt — ܣܥܪܬ" ;
+ lawd:hasName [
+ lawd:primaryForm "Siirt"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Seert"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Sʿert"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܣܥܪܬ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܣܥܶܪܬ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "سعرت"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Seʿert"@en ;];
+ lawd:hasName [
+ lawd:variantForm "اسعرت"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Sert"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "S‘ert"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Seert"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Se‘ert"@en-xsrp1 ;];
  dcterms:description [
-rdfs:label "A city in eastern Turkey, southwest of Lake Van."@en  ;];
+ rdfs:label "A city in eastern Turkey, southwest of Lake Van."@en ;];
  dcterms:description [
-rdfs:label "510. Siirt"@en  ;];
+ rdfs:label "510. Siirt"@en ;];
  dcterms:description [
-rdfs:label "ܡܕܝܢܬܳܐ ܗܝ ܕܰܒܬܰܝܡܢܐ ܕܒܶܕܠܝܣ ( ܘܰܒܣܘܪܝܳܝܳܐ ܡܶܬܩܰܪܝܳܐ ܐܰܬܪܐ ܕܰܡܒܰܕܪ̈ܐ)"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܝܢܬܳܐ ܗܝ ܕܰܒܬܰܝܡܢܐ ܕܒܶܕܠܝܣ ( ܘܰܒܣܘܪܝܳܝܳܐ ܡܶܬܩܰܪܝܳܐ ܐܰܬܪܐ ܕܰܡܒܰܕܪ̈ܐ)"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة جنوبي بدليس."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة جنوبي بدليس."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town south of Bedlis. [Modern name, Siirt. (tr.)]"@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1424"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Siirt>  ;
+ rdfs:label "a town south of Bedlis. [Modern name, Siirt. (tr.)]"@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1424" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Siirt> ;
 geo:location [
-geo:lat "37.933333"  ;
-geo:long "37.933333"  ;];
- lawd:hasName [
-lawd:primaryForm "Siirt"@en  ;];
- lawd:hasName [
-lawd:variantForm "Seert"@en  ;];
- lawd:hasName [
-lawd:variantForm "Sʿert"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܣܥܪܬ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܣܥܶܪܬ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "سعرت"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Seʿert"@en  ;];
- lawd:hasName [
-lawd:variantForm "اسعرت"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Sert"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "S‘ert"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Seert"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Se‘ert"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/188/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/188/tei>  ;
-dcterms:relation <http://syriaca.org/place/724>  ;
-dcterms:relation <http://syriaca.org/place/2365>  ;
-dcterms:relation <http://syriaca.org/place/2366>  .
+ geo:lat "37.933333" ;
+ geo:long "41.95" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/188/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/188/tei> ;
+geo:location [
+ geo:lat "37.933333" ;
+ geo:long "41.95" ;];
+ dcterms:relation <http://syriaca.org/place/724> ;
+ dcterms:relation <http://syriaca.org/place/2365> ;
+ dcterms:relation <http://syriaca.org/place/2366> .

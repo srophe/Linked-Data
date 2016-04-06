@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/366> a lawd:Place ;
-rdfs:label "Mor Shayno — ܕܝܪܐ ܕܡܪܝ ܫܝܢܐ"  ;
+ rdfs:label "Mor Shayno — ܕܝܪܐ ܕܡܪܝ ܫܝܢܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Mor Shayno"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܫܝܢܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܫܰܝܢܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير مار شينا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Shina Monastery"@en ;];
  dcterms:description [
-rdfs:label "ܒܰܐܬܪܳܐ ܕܓܰܪܡܰܐܢܺܝܩܺܝ ܐܶܬܢܰܦܰܩܘ ܒܗ̇ ܫܰܒܥܐ ܐܶܦܝܣܩܘ̈ܦܐ (805 - 1110)"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܰܐܬܪܳܐ ܕܓܰܪܡܰܐܢܺܝܩܺܝ ܐܶܬܢܰܦܰܩܘ ܒܗ̇ ܫܰܒܥܐ ܐܶܦܝܣܩܘ̈ܦܐ (805 - 1110)"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في بلد مرعش تخرَّج فيه سبعة اساقفة (805-1110)"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في بلد مرعش تخرَّج فيه سبعة اساقفة (805-1110)"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "in Marʿash. Seven bishops graduated from it between 805 and 1110."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0805"  ;
- lawd:hasName [
-lawd:primaryForm "Mor Shayno"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܫܝܢܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܫܰܝܢܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير مار شينا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Shina Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/366/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/366/tei>  .
+ rdfs:label "in Marʿash. Seven bishops graduated from it between 805 and 1110."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0805" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/366/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/366/tei> .

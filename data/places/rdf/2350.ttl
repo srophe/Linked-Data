@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2350> a lawd:Place ;
-rdfs:label "Nineveh"  ;
+ rdfs:label "Nineveh" ;
  lawd:hasName [
-lawd:primaryForm "Nineveh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2350/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2350/tei>  ;
-dcterms:relation <http://syriaca.org/place/144>  .
+ lawd:primaryForm "Nineveh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2350/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2350/tei> ;
+ dcterms:relation <http://syriaca.org/place/144> .

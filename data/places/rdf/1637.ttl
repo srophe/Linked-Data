@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1637> a lawd:Place ;
-rdfs:label "Qūrānīs"  ;
+ rdfs:label "Qūrānīs" ;
  lawd:hasName [
-lawd:primaryForm "Qūrānīs"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1637/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1637/tei>  .
+ lawd:primaryForm "Qūrānīs"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1637/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1637/tei> .

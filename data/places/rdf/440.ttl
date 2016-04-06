@@ -11,35 +11,38 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/440> a lawd:Place ;
-rdfs:label "Konia — ܐܝܩܘܢܝܘܢ"  ;
+ rdfs:label "Konia — ܐܝܩܘܢܝܘܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Konia"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܝܩܘܢܝܘܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܝܺܩܘܢܝܘܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܩܳܘܢܝܰܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "قونية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Konya"@en ;];
+ lawd:hasName [
+ lawd:variantForm "قُوْنِية"@ar ;];
  dcterms:description [
-rdfs:label "ܩܳܘܢܝܰܐ ܡܕܝܢܬܳܐ ܗܝ ܕܰܒܡܶܨܥܰܬ ܐܰܢܰܐܛܳܘܠ ܘܰܠܬܰܝܡܢܗ̇ ܕܰܐܢܩܰܘܪܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܳܘܢܝܰܐ ܡܕܝܢܬܳܐ ܗܝ ܕܰܒܡܶܨܥܰܬ ܐܰܢܰܐܛܳܘܠ ܘܰܠܬܰܝܡܢܗ̇ ܕܰܐܢܩܰܘܪܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة في وسط الاناضول جنوبي انقرة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة في وسط الاناضول جنوبي انقرة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a city in central Anatolia, south of Ankara."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-0354"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/648647>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Konya>  ;
+ rdfs:label "a city in central Anatolia, south of Ankara."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-0354" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/648647> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Konya> ;
 geo:location [
-geo:lat "37.872202"  ;
-geo:long "37.872202"  ;];
- lawd:hasName [
-lawd:primaryForm "Konia"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܝܩܘܢܝܘܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܝܺܩܘܢܝܘܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܩܳܘܢܝܰܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "قونية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Konya"@en  ;];
- lawd:hasName [
-lawd:variantForm "قُوْنِية"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/440/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/440/tei>  .
+ geo:lat "37.872202" ;
+ geo:long "32.492331" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/440/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/440/tei> ;
+geo:location [
+ geo:lat "37.872202" ;
+ geo:long "32.492331" ;].

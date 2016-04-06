@@ -11,19 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1494> a lawd:Place ;
-rdfs:label "Gaius — ܓܐܝܘܣ"  ;
-dcterms:description "A mountain in ."  ;
+ rdfs:label "Gaius — ܓܐܝܘܣ" ;
  lawd:hasName [
-lawd:primaryForm "Gaius"@en  ;];
+ lawd:primaryForm "Gaius"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܓܐܝܘܣ"@syr  ;];
+ lawd:primaryForm "ܓܐܝܘܣ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܓܰܐܝܳܘܣ"@syr-Syrj  ;];
+ lawd:variantForm "ܓܰܐܝܳܘܣ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "غايوس"@ar  ;];
+ lawd:variantForm "غايوس"@ar ;];
  lawd:hasName [
-lawd:variantForm "Gauis"@en  ;];
- lawd:hasName [
-lawd:variantForm "Macedonia"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1494/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1494/tei>  .
+ lawd:variantForm "Gauis"@en ;];
+ skos:related "Macedonia" ;
+ dcterms:description "A mountain in ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1494/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1494/tei> .

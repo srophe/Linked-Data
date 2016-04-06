@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2383> a lawd:Place ;
-rdfs:label "Taimar"  ;
+ rdfs:label "Taimar" ;
  lawd:hasName [
-lawd:primaryForm "Taimar"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2383/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2383/tei>  ;
-dcterms:relation <http://syriaca.org/place/784>  .
+ lawd:primaryForm "Taimar"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2383/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2383/tei> ;
+ dcterms:relation <http://syriaca.org/place/784> .

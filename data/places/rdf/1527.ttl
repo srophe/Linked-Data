@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1527> a lawd:Place ;
-rdfs:label "Dayro da-Zkaryo — ܕܝܪܐ ܕܙܟܪܝܐ"  ;
-dcterms:description "A monastery mentioned by ."  ;
-dcterms:temporal "0568"  ;
+ rdfs:label "Dayro da-Zkaryo — ܕܝܪܐ ܕܙܟܪܝܐ" ;
  lawd:hasName [
-lawd:primaryForm "Dayro da-Zkaryo"@en  ;];
+ lawd:primaryForm "Dayro da-Zkaryo"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܙܟܪܝܐ"@syr  ;];
+ lawd:primaryForm "ܕܝܪܐ ܕܙܟܪܝܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܰܙܟܰܪܝܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܰܝܪܐ ܕܰܙܟܰܪܝܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "دير زكريا"@ar  ;];
+ lawd:variantForm "دير زكريا"@ar ;];
  lawd:hasName [
-lawd:variantForm "Monastery of Zachariah"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1527/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1527/tei>  .
+ lawd:variantForm "Monastery of Zachariah"@en ;];
+ dcterms:description "A monastery mentioned by ." ;
+ dcterms:temporal "0568" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1527/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1527/tei> .

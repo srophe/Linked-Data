@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/996> a lawd:Place ;
-rdfs:label "Bellōn"  ;
+ rdfs:label "Bellōn" ;
  lawd:hasName [
-lawd:primaryForm "Bellōn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/996/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/996/tei>  .
+ lawd:primaryForm "Bellōn"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/996/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/996/tei> .

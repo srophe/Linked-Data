@@ -11,28 +11,30 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/621> a lawd:Place ;
-rdfs:label "Nicaea — ܢܝܩܝܐ"  ;
-dcterms:description "A city in northwestern ."  ;
-dcterms:temporal "0325"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/511268>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Nicaea>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Iznik>  ;
+ rdfs:label "Nicaea — ܢܝܩܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Nicaea"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܢܝܩܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܢܺܝܩܺܝܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "نيقية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Nicea"@en ;];
+ lawd:hasName [
+ lawd:variantForm "نِيْقِية"@ar ;];
+ skos:related "Anatolia" ;
+ dcterms:description "A city in northwestern ." ;
+ dcterms:temporal "0325" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/511268> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Nicaea> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Iznik> ;
 geo:location [
-geo:lat "40.426679"  ;
-geo:long "40.426679"  ;];
- lawd:hasName [
-lawd:primaryForm "Nicaea"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܢܝܩܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܢܺܝܩܺܝܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "نيقية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Nicea"@en  ;];
- lawd:hasName [
-lawd:variantForm "نِيْقِية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Anatolia"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/621/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/621/tei>  .
+ geo:lat "40.426679" ;
+ geo:long "29.715443" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/621/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/621/tei> ;
+geo:location [
+ geo:lat "40.426679" ;
+ geo:long "29.715443" ;].

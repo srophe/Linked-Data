@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1595> a lawd:Place ;
-rdfs:label "Pastā"  ;
+ rdfs:label "Pastā" ;
  lawd:hasName [
-lawd:primaryForm "Pastā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1595/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1595/tei>  .
+ lawd:primaryForm "Pastā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1595/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1595/tei> .

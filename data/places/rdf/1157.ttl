@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1157> a lawd:Place ;
-rdfs:label "Dayr Mazzen"  ;
+ rdfs:label "Dayr Mazzen" ;
  lawd:hasName [
-lawd:primaryForm "Dayr Mazzen"@en  ;];
+ lawd:primaryForm "Dayr Mazzen"@en ;];
  lawd:hasName [
-lawd:variantForm "Deir Mazzen"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1157/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1157/tei>  .
+ lawd:variantForm "Deir Mazzen"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1157/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1157/tei> .

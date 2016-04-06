@@ -40,7 +40,7 @@ for $desc in $rec/descendant::tei:desc
 let $source := $desc/tei:quote/@source
 return
     if($desc[@type='abstract'][not(@source)][not(tei:quote/@source)] or $desc[contains(@xml:id,'abstract')][not(@source)][not(tei:quote/@source)][. != '']) then 
-        local:make-triple('', 'dcterms:description', local:make-literal($desc/text()),'')
+        local:make-triple('', 'dcterms:description', local:make-literal($desc/text(),''))
     else 
         if($desc/child::* != '' or $desc != '') then 
             concat('&#xa; dcterms:description [',
@@ -101,9 +101,10 @@ return
         for $active in tokenize($relation/@active,' ')
         return local:make-triple('','dcterms:isPartOf',local:make-uri($active))
     else if($relation/@name = 'share-a-name') then 
-        for $mutual in tokenize($relation/@mutual,' ')
+        let $rel := normalize-space($relation/@mutual)
+        for $mutual in tokenize($rel,' ')
         return 
-            if($mutual(.,'#')) then () 
+            if(starts-with($mutual,'#')) then ()
             else local:make-triple('','dcterms:relation',local:make-uri($mutual))
     else (),'')
 };
@@ -130,6 +131,7 @@ return
     concat(
     local:make-triple(local:make-uri($id), 'a', 'lawd:Place'),
     local:make-triple('','rdfs:label', local:make-literal($rec/descendant::tei:titleStmt/tei:title[@level='a'][1]/descendant::text(),'')),
+    local:names($rec),
     local:desc($rec),
     if($rec/descendant::tei:state[@type='existence'][@from]) then
         local:make-triple('','dcterms:temporal', local:make-literal($rec/descendant::tei:state[@type='existence']/@from,''))
@@ -149,22 +151,10 @@ declare function local:record($rec) as xs:string*{
 };
 
 (: Get/save triples to db :)
-if($id != '') then  
-    let $recs := collection('/db/apps/srophe-data/data/places/tei')//tei:idno[@type='URI'][. = $id]
-    (: Individual recs :)
-    for $hit in $recs/ancestor::tei:TEI
-    let $filename := concat(tokenize(replace($hit/descendant::tei:idno[@type='URI'][starts-with(.,'http://syriaca.org')][1],'/tei',''),'/')[last()],'.ttl')
-    let $file-data :=  
-        try {
-            (concat(local:prefix(), local:record($hit)))
-        } catch * {
-            <error>Caught error {$err:code}: {$err:description}</error>
-            }     
-    return $file-data(:xmldb:store(xs:anyURI('/db/apps/bug-test/data/places/rdf'), xmldb:encode-uri($filename), $file-data):)
-else if($id = 'run all') then 
+if($id = 'run all') then 
     let $recs := collection('/db/apps/srophe-data/data/places/tei')
     (: Individual recs :)
-    for $hit at $p in subsequence($recs, 1, 20)//tei:TEI
+    for $hit at $p in subsequence($recs, 1, 1000)//tei:TEI
     let $filename := concat(tokenize(replace($hit/descendant::tei:idno[@type='URI'][starts-with(.,'http://syriaca.org')][1],'/tei',''),'/')[last()],'.ttl')
     let $file-data :=  
         try {
@@ -172,9 +162,10 @@ else if($id = 'run all') then
         } catch * {
             <error>Caught error {$err:code}: {$err:description}</error>
             }     
-    return xmldb:store(xs:anyURI('/db/apps/bug-test/data/places/rdf'), xmldb:encode-uri($filename), $file-data)
+    return xmldb:store(xs:anyURI('/db/apps/bug-test/data'), xmldb:encode-uri($filename), $file-data)
 else if($id = 'combined') then 
     (: Full collection:) 
+    let $recs := collection('/db/apps/srophe-data/data/places/tei')
     let $full-rec := 
        string-join(
        for $hit in $recs
@@ -188,4 +179,17 @@ else if($id = 'combined') then
         return $file-data,'&#xa;')  
     let $full := concat(local:prefix(),$full-rec)    
     return xmldb:store(xs:anyURI('/db/apps/bug-test/data'), xmldb:encode-uri('all-places.ttl'), $full)
+else if($id != '') then  
+    let $recs := collection('/db/apps/srophe-data/data/places/tei')//tei:idno[@type='URI'][. = $id]
+    (: Individual recs :)
+    for $hit in $recs/ancestor::tei:TEI
+    let $filename := concat(tokenize(replace($hit/descendant::tei:idno[@type='URI'][starts-with(.,'http://syriaca.org')][1],'/tei',''),'/')[last()],'.ttl')
+    let $file-data :=  
+        try {
+            (concat(local:prefix(), local:record($hit)))
+        } catch * {
+            <error>Caught error {$err:code}: {$err:description}</error>
+            }     
+    return $file-data
+    (:xmldb:store(xs:anyURI('/db/apps/bug-test/data/places/rdf'), xmldb:encode-uri($filename), $file-data):)
 else ()

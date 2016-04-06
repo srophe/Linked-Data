@@ -11,39 +11,38 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/397> a lawd:Place ;
-rdfs:label "Mor Yaʿqub — ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ"  ;
-dcterms:description "A monastery in ."  ;
+ rdfs:label "Mor Yaʿqub — ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ" ;
+ lawd:hasName [
+ lawd:primaryForm "Mor Yaʿqub"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Mor Yaʿqub"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܝܰܥܩܘܒ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير مار يعقوب"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Jacob Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Mor Yaqub"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Mor Ya‘qub"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Mor Yaqub"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Mor Ya‘qub"@en-xsrp1 ;];
+ skos:related "Kaysum" ;
+ dcterms:description "A monastery in ." ;
  dcterms:description [
-rdfs:label "ܒܩܘܪܒܐ ܕܟܰܝܫܘܡ ܕܟܝܪ ܒܡܰܟܬܰܒ̈ܙܰܒܢܐ ܒܰܐܚܪ̈ܝܳܬܗ ܕܕܳܪܐ ܫܒܝܥܳܝܐ. ܘܗܘܐ ܡܢܗ ܥܶܣܪܐ ܐܶܦܝܣ̈ܩܘܦܐ ܡܢ ܫܢܰܬ 810 - 925"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܩܘܪܒܐ ܕܟܰܝܫܘܡ ܕܟܝܪ ܒܡܰܟܬܰܒ̈ܙܰܒܢܐ ܒܰܐܚܪ̈ܝܳܬܗ ܕܕܳܪܐ ܫܒܝܥܳܝܐ. ܘܗܘܐ ܡܢܗ ܥܶܣܪܐ ܐܶܦܝܣ̈ܩܘܦܐ ܡܢ ܫܢܰܬ 810 - 925"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بالقرب من كيسوم، ذكره التاريخ اواخر القرن السابع ونشأ منه عشرة اساقفة من 810 الى 925."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بالقرب من كيسوم، ذكره التاريخ اواخر القرن السابع ونشأ منه عشرة اساقفة من 810 الى 925."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "near Kesūm, was first mentioned in history at the end of the seventh century. Ten bishops graduated from it between 810 and 925."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0688"  ;
- lawd:hasName [
-lawd:primaryForm "Mor Yaʿqub"@en  ;];
- lawd:hasName [
-lawd:variantForm "Mor Yaʿqub"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܝܰܥܩܘܒ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير مار يعقوب"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Jacob Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Mor Yaqub"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Mor Ya‘qub"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Mor Yaqub"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Mor Ya‘qub"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Kaysum"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/397/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/397/tei>  .
+ rdfs:label "near Kesūm, was first mentioned in history at the end of the seventh century. Ten bishops graduated from it between 810 and 925."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0688" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/397/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/397/tei> .

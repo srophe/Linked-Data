@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1448> a lawd:Place ;
-rdfs:label "Mazraʿa d-Qelayata"  ;
+ rdfs:label "Mazraʿa d-Qelayata" ;
  lawd:hasName [
-lawd:primaryForm "Mazraʿa d-Qelayata"@en  ;];
+ lawd:primaryForm "Mazraʿa d-Qelayata"@en ;];
  lawd:hasName [
-lawd:variantForm "Mazrāʿā d'Qelāyāṯā"@en  ;];
+ lawd:variantForm "Mazrāʿā d'Qelāyāṯā"@en ;];
  lawd:hasName [
-lawd:variantForm "Mazraa d-Qelayata"@en-xsrp1  ;];
+ lawd:variantForm "Mazraa d-Qelayata"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mazra‘a d-Qelayata"@en-xsrp1  ;];
+ lawd:variantForm "Mazra‘a d-Qelayata"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mazrāā d'Qelāyāṯā"@en-xsrp1  ;];
+ lawd:variantForm "Mazrāā d'Qelāyāṯā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mazrā‘ā d'Qelāyāṯā"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1448/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1448/tei>  .
+ lawd:variantForm "Mazrā‘ā d'Qelāyāṯā"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1448/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1448/tei> .

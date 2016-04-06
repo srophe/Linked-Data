@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/992> a lawd:Place ;
-rdfs:label "Mar Elian"  ;
-dcterms:description "A church in Ḥimṣ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Church_of_Saint_Elian>  ;
+ rdfs:label "Mar Elian" ;
  lawd:hasName [
-lawd:primaryForm "Mar Elian"@en  ;];
+ lawd:primaryForm "Mar Elian"@en ;];
  lawd:hasName [
-lawd:variantForm "St Elian"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/992/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/992/tei>  ;
-dcterms:relation <http://syriaca.org/place/275>  .
+ lawd:variantForm "St Elian"@en ;];
+ dcterms:description "A church in Ḥimṣ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Church_of_Saint_Elian> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/992/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/992/tei> ;
+ dcterms:relation <http://syriaca.org/place/275> .

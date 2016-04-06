@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1390> a lawd:Place ;
-rdfs:label "Komāne"  ;
+ rdfs:label "Komāne" ;
  lawd:hasName [
-lawd:primaryForm "Komāne"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1390/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1390/tei>  .
+ lawd:primaryForm "Komāne"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1390/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1390/tei> .

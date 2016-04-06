@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1623> a lawd:Place ;
-rdfs:label "Qātūnā"  ;
+ rdfs:label "Qātūnā" ;
  lawd:hasName [
-lawd:primaryForm "Qātūnā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1623/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1623/tei>  .
+ lawd:primaryForm "Qātūnā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1623/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1623/tei> .

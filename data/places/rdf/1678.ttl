@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1678> a lawd:Place ;
-rdfs:label "Sarhal"  ;
+ rdfs:label "Sarhal" ;
  lawd:hasName [
-lawd:primaryForm "Sarhal"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1678/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1678/tei>  .
+ lawd:primaryForm "Sarhal"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1678/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1678/tei> .

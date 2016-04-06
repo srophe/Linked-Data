@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2195> a lawd:Place ;
-rdfs:label "Mart Maryam, Mar Stephen and Mar Giwargis"  ;
+ rdfs:label "Mart Maryam, Mar Stephen and Mar Giwargis" ;
  lawd:hasName [
-lawd:primaryForm "Mart Maryam, Mar Stephen and Mar Giwargis"@en  ;];
+ lawd:primaryForm "Mart Maryam, Mar Stephen and Mar Giwargis"@en ;];
  lawd:hasName [
-lawd:variantForm "Mart Maryam, Mār Stephen and Mār Gīwārgīs"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2195/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2195/tei>  .
+ lawd:variantForm "Mart Maryam, Mār Stephen and Mār Gīwārgīs"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2195/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2195/tei> .

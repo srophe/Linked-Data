@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1349> a lawd:Place ;
-rdfs:label "Īsālūi"  ;
+ rdfs:label "Īsālūi" ;
  lawd:hasName [
-lawd:primaryForm "Īsālūi"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1349/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1349/tei>  .
+ lawd:primaryForm "Īsālūi"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1349/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1349/tei> .

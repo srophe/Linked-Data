@@ -11,29 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/371> a lawd:Place ;
-rdfs:label "Monastery of Esṭona — ܕܝܪܐ ܕܥܡܘܕܐ"  ;
-dcterms:description "A monastery near ."  ;
+ rdfs:label "Monastery of Esṭona — ܕܝܪܐ ܕܥܡܘܕܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Monastery of Esṭona"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܥܡܘܕܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܥܰܡܘܕܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير العمود"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Pillar Monastery"@en ;];
+ skos:related "Kallinikos" ;
+ dcterms:description "A monastery near ." ;
  dcterms:description [
-rdfs:label "ܒܰܡܕܝܢܬܰ ܩܰܠܘܢܝܩܝ ܥܠ ܣܶܦܬܐ ܣܶܡܳܠܝܬܐ ܕܰܦܪܳܬ ܩܳܡܰܬ ܒܫܘܽܟܠܳܠܗ ܩܰܝܣܰܪܬܐ ܬܶܐܘܕܳܘܪܰܐ ܫܢܰܬ 548 ܘܦܰܬܝܘܗܝ ܕܰܝܪ̈ܝܐ ܫܢܰܬ 635 ܥܰܕܰܪ ܠܥܕܬܐ ܒܚܰܕ ܦܰܛܪܝܰܪܟܐ ܘܰܒܥܶܣܪܐ ܐܶܦܝܣܩܘ̈ܦܐ ܥܕܰܡܐ ܠܰܫܢܰܬ 965 ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܰܡܕܝܢܬܰ ܩܰܠܘܢܝܩܝ ܥܠ ܣܶܦܬܐ ܣܶܡܳܠܝܬܐ ܕܰܦܪܳܬ ܩܳܡܰܬ ܒܫܘܽܟܠܳܠܗ ܩܰܝܣܰܪܬܐ ܬܶܐܘܕܳܘܪܰܐ ܫܢܰܬ 548 ܘܦܰܬܝܘܗܝ ܕܰܝܪ̈ܝܐ ܫܢܰܬ 635 ܥܰܕܰܪ ܠܥܕܬܐ ܒܚܰܕ ܦܰܛܪܝܰܪܟܐ ܘܰܒܥܶܣܪܐ ܐܶܦܝܣܩܘ̈ܦܐ ܥܕܰܡܐ ܠܰܫܢܰܬ 965 ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في مدينة الرقة على الضفة اليسرى من الفرات، تطوعت بعمارته القيصرة ثاودورة 548 + ووسعه الرهبان عام 635 نجد الكنيسة ببطريرك وعشرة اساقفة حتى سنة 965."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في مدينة الرقة على الضفة اليسرى من الفرات، تطوعت بعمارته القيصرة ثاودورة 548 + ووسعه الرهبان عام 635 نجد الكنيسة ببطريرك وعشرة اساقفة حتى سنة 965."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "in al-Raqqa, on the west bank of the Euphrates. The Empress Theodora (d. 548) gave money for its construction and in 635 it was enlarged by the monks. By 956, one Patriarch and ten bishops had graduated from it."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0548"  ;
- lawd:hasName [
-lawd:primaryForm "Monastery of Esṭona"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܥܡܘܕܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܥܰܡܘܕܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير العمود"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Pillar Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Kallinikos"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/371/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/371/tei>  .
+ rdfs:label "in al-Raqqa, on the west bank of the Euphrates. The Empress Theodora (d. 548) gave money for its construction and in 635 it was enlarged by the monks. By 956, one Patriarch and ten bishops had graduated from it."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0548" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/371/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/371/tei> .

@@ -11,37 +11,39 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/45> a lawd:Place ;
-rdfs:label "Baṭnan — ܒܛܢܢ"  ;
-dcterms:description "A town of ."  ;
+ rdfs:label "Baṭnan — ܒܛܢܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Baṭnan"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܛܢܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܰܛܢܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "بَطنان"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Baṭnān"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Batnan"@en ;];
+ lawd:hasName [
+ lawd:variantForm "بُطْنان"@ar ;];
+ skos:related "Serugh" ;
+ dcterms:description "A town of ." ;
  dcterms:description [
-rdfs:label "ܡܕܺܝܢܬܐ ܥܰܬܝܩܬܳܐ ܕܰܒܩܘܪܒܳܐ ܕܰܣܪܘܓ ܗܘܬ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܺܝܢܬܐ ܥܰܬܝܩܬܳܐ ܕܰܒܩܘܪܒܳܐ ܕܰܣܪܘܓ ܗܘܬ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة قديمة كانت بقرب سروج"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة قديمة كانت بقرب سروج"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "an ancient town, formerly located near Sarug."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0582"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658405>  ;
+ rdfs:label "an ancient town, formerly located near Sarug."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0582" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658405> ;
 geo:location [
-geo:lat "36.976694"  ;
-geo:long "36.976694"  ;];
- lawd:hasName [
-lawd:primaryForm "Baṭnan"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܛܢܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܒܰܛܢܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "بَطنان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Baṭnān"@en  ;];
- lawd:hasName [
-lawd:variantForm "Batnan"@en  ;];
- lawd:hasName [
-lawd:variantForm "بُطْنان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Serugh"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/45/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/45/tei>  .
+ geo:lat "36.976694" ;
+ geo:long "38.42451" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/45/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/45/tei> ;
+geo:location [
+ geo:lat "36.976694" ;
+ geo:long "38.42451" ;].

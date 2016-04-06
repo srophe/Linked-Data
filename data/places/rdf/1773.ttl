@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1773> a lawd:Place ;
-rdfs:label "Tentas"  ;
+ rdfs:label "Tentas" ;
  lawd:hasName [
-lawd:primaryForm "Tentas"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1773/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1773/tei>  .
+ lawd:primaryForm "Tentas"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1773/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1773/tei> .

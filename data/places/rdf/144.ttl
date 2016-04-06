@@ -11,27 +11,30 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/144> a lawd:Place ;
-rdfs:label "Nineveh — ܢܝܢܘܐ"  ;
+ rdfs:label "Nineveh — ܢܝܢܘܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Nineveh"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܢܝܢܘܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܢܺܝܢܘܶܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "نينوى"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "نِيْنَوَى"@ar ;];
  dcterms:description [
-rdfs:label "A very ancient city in northern Iraq located on the eastern side of the Tigris River, directly across from the medieval and modern city of Mosul."@en  ;];
+ rdfs:label "A very ancient city in northern Iraq located on the eastern side of the Tigris River, directly across from the medieval and modern city of Mosul."@en ;];
  dcterms:description [
-rdfs:label "399. Nineveh"@en  ;];
-dcterms:temporal "-1700"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874621>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Nineveh>  ;
+ rdfs:label "399. Nineveh"@en ;];
+ dcterms:temporal "-1700" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874621> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Nineveh> ;
 geo:location [
-geo:lat "36.35944"  ;
-geo:long "36.35944"  ;];
- lawd:hasName [
-lawd:primaryForm "Nineveh"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܢܝܢܘܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܢܺܝܢܘܶܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "نينوى"@ar  ;];
- lawd:hasName [
-lawd:variantForm "نِيْنَوَى"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/144/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/144/tei>  ;
-dcterms:relation <http://syriaca.org/place/2350>  .
+ geo:lat "36.35944" ;
+ geo:long "43.15278" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/144/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/144/tei> ;
+geo:location [
+ geo:lat "36.35944" ;
+ geo:long "43.15278" ;];
+ dcterms:relation <http://syriaca.org/place/2350> .

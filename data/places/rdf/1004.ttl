@@ -11,19 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1004> a lawd:Place ;
-rdfs:label "Beth ʿAlata"  ;
+ rdfs:label "Beth ʿAlata" ;
  lawd:hasName [
-lawd:primaryForm "Beth ʿAlata"@en  ;];
+ lawd:primaryForm "Beth ʿAlata"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ ʿAlāṯā"@en  ;];
+ lawd:variantForm "Beṯ ʿAlāṯā"@en ;];
  lawd:hasName [
-lawd:variantForm "Beth Alata"@en-xsrp1  ;];
+ lawd:variantForm "Beth Alata"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Beth ‘Alata"@en-xsrp1  ;];
+ lawd:variantForm "Beth ‘Alata"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Alāṯā"@en-xsrp1  ;];
+ lawd:variantForm "Beṯ Alāṯā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Beṯ ‘Alāṯā"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1004/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1004/tei>  ;
-dcterms:relation <http://syriaca.org/place/1005>  .
+ lawd:variantForm "Beṯ ‘Alāṯā"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1004/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1004/tei> ;
+ dcterms:relation <http://syriaca.org/place/1005> .

@@ -11,20 +11,20 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/471> a lawd:Place ;
-rdfs:label "Chicago — ܫܝܟܐܓܘ"  ;
+ rdfs:label "Chicago — ܫܝܟܐܓܘ" ;
+ lawd:hasName [
+ lawd:primaryForm "Chicago"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܫܝܟܐܓܘ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܫܺܝܟܰܐܓܳܘ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "شيكاغو"@ar ;];
  dcterms:description [
-rdfs:label "One of the centers of the Assyrian diaspora in the USA."@en  ;];
+ rdfs:label "One of the centers of the Assyrian diaspora in the USA."@en ;];
  dcterms:description [
-rdfs:label "128. Chicago"@en  ;];
-dcterms:temporal "1833-08-12"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Chicago>  ;
- lawd:hasName [
-lawd:primaryForm "Chicago"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܫܝܟܐܓܘ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܫܺܝܟܰܐܓܳܘ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "شيكاغو"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/471/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/471/tei>  .
+ rdfs:label "128. Chicago"@en ;];
+ dcterms:temporal "1833-08-12" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Chicago> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/471/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/471/tei> .

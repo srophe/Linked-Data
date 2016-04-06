@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2352> a lawd:Place ;
-rdfs:label "Qudshanis"  ;
+ rdfs:label "Qudshanis" ;
  lawd:hasName [
-lawd:primaryForm "Qudshanis"@en  ;];
+ lawd:primaryForm "Qudshanis"@en ;];
  lawd:hasName [
-lawd:variantForm "Patriarchal Diocese, Qūdshānīs Patriarchate"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2352/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2352/tei>  ;
-dcterms:relation <http://syriaca.org/place/771>  ;
-dcterms:relation <http://syriaca.org/place/163>  .
+ lawd:variantForm "Patriarchal Diocese, Qūdshānīs Patriarchate"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2352/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2352/tei> ;
+ dcterms:relation <http://syriaca.org/place/771> ;
+ dcterms:relation <http://syriaca.org/place/163> .

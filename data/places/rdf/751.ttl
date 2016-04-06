@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/751> a lawd:Place ;
-rdfs:label "Gwerkel"  ;
+ rdfs:label "Gwerkel" ;
  lawd:hasName [
-lawd:primaryForm "Gwerkel"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/751/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/751/tei>  ;
-dcterms:relation <http://syriaca.org/place/2309>  .
+ lawd:primaryForm "Gwerkel"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/751/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/751/tei> ;
+ dcterms:relation <http://syriaca.org/place/2309> .

@@ -11,22 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/43> a lawd:Place ;
-rdfs:label "Balikh — ܢܗܪ ܒܐܠܚ"  ;
-dcterms:description "A tributary of the Euphrates that enters it at al-Raqqa."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Balikh_River>  ;
+ rdfs:label "Balikh — ܢܗܪ ܒܐܠܚ" ;
  lawd:hasName [
-lawd:primaryForm "Balikh"@en  ;];
+ lawd:primaryForm "Balikh"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܢܗܪ ܒܐܠܚ"@syr  ;];
+ lawd:primaryForm "ܢܗܪ ܒܐܠܚ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܢܗܰܪ ܒܰܐܠܚ"@syr-Syrj  ;];
+ lawd:variantForm "ܢܗܰܪ ܒܰܐܠܚ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "نهر البليخ"@ar  ;];
+ lawd:variantForm "نهر البليخ"@ar ;];
  lawd:hasName [
-lawd:variantForm "Balikh river"@en  ;];
+ lawd:variantForm "Balikh river"@en ;];
  lawd:hasName [
-lawd:variantForm "البليخ"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Daysan"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/43/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/43/tei>  .
+ lawd:variantForm "البليخ"@ar ;];
+ skos:related "Daysan" ;
+ dcterms:description "A tributary of the Euphrates that enters it at al-Raqqa." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Balikh_River> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/43/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/43/tei> .

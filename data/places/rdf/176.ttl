@@ -11,14 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/176> a lawd:Place ;
-rdfs:label "Syria II"  ;
-dcterms:description "A Roman province including ."  ;
-dcterms:temporal "0420"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/1001933>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Syria_(Roman_province)>  ;
+ rdfs:label "Syria II" ;
  lawd:hasName [
-lawd:primaryForm "Syria II"@en  ;];
- lawd:hasName [
-lawd:variantForm "Apamea"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/176/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/176/tei>  .
+ lawd:primaryForm "Syria II"@en ;];
+ skos:related "Apamea" ;
+ dcterms:description "A Roman province including ." ;
+ dcterms:temporal "0420" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/1001933> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Syria_(Roman_province)> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/176/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/176/tei> .

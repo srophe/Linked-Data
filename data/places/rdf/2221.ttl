@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2221> a lawd:Place ;
-rdfs:label "Church in Arsham"  ;
+ rdfs:label "Church in Arsham" ;
  lawd:hasName [
-lawd:primaryForm "Church in Arsham"@en  ;];
+ lawd:primaryForm "Church in Arsham"@en ;];
  lawd:hasName [
-lawd:variantForm "Name not known"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2221/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2221/tei>  .
+ lawd:variantForm "Name not known"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2221/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2221/tei> .

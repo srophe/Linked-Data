@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1270> a lawd:Place ;
-rdfs:label "Harōnan"  ;
+ rdfs:label "Harōnan" ;
  lawd:hasName [
-lawd:primaryForm "Harōnan"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1270/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1270/tei>  .
+ lawd:primaryForm "Harōnan"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1270/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1270/tei> .

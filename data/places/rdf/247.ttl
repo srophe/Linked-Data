@@ -11,18 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/247> a lawd:Place ;
-rdfs:label "Gawilan"  ;
-dcterms:description "A village north of and southeast of ."  ;
-dcterms:temporal "1735"  ;
+ rdfs:label "Gawilan" ;
  lawd:hasName [
-lawd:primaryForm "Gawilan"@en  ;];
+ lawd:primaryForm "Gawilan"@en ;];
  lawd:hasName [
-lawd:variantForm "Gāwīlan"@en  ;];
+ lawd:variantForm "Gāwīlan"@en ;];
  lawd:hasName [
-lawd:variantForm "Anzel"@en  ;];
- lawd:hasName [
-lawd:variantForm "Urmia"  ;];
- lawd:hasName [
-lawd:variantForm "Salmas"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/247/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/247/tei>  .
+ lawd:variantForm "Anzel"@en ;];
+ skos:related "Urmia" ;
+ skos:related "Salmas" ;
+ dcterms:description "A village north of and southeast of ." ;
+ dcterms:temporal "1735" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/247/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/247/tei> .

@@ -11,20 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/77> a lawd:Place ;
-rdfs:label "Dura-Europos"  ;
+ rdfs:label "Dura-Europos" ;
+ lawd:hasName [
+ lawd:primaryForm "Dura-Europos"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Dura Europos"@en ;];
  dcterms:description [
-rdfs:label "Ancient city situated on the west bank of the Middle Euphrates, today known as Tell Ṣāliḥiyya, some 90 km. south-east of Dayr al-Zor, Syria."@en  ;];
+ rdfs:label "Ancient city situated on the west bank of the Middle Euphrates, today known as Tell Ṣāliḥiyya, some 90 km. south-east of Dayr al-Zor, Syria."@en ;];
  dcterms:description [
-rdfs:label "178. Dura-Europos"@en  ;];
-dcterms:temporal "-0303"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/893990>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Dura-Europos>  ;
+ rdfs:label "178. Dura-Europos"@en ;];
+ dcterms:temporal "-0303" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/893990> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Dura-Europos> ;
 geo:location [
-geo:lat "34.747"  ;
-geo:long "34.747"  ;];
- lawd:hasName [
-lawd:primaryForm "Dura-Europos"@en  ;];
- lawd:hasName [
-lawd:variantForm "Dura Europos"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/77/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/77/tei>  .
+ geo:lat "34.747" ;
+ geo:long "40.73" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/77/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/77/tei> ;
+geo:location [
+ geo:lat "34.747" ;
+ geo:long "40.73" ;].

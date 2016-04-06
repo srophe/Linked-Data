@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1821> a lawd:Place ;
-rdfs:label "Zark"  ;
+ rdfs:label "Zark" ;
  lawd:hasName [
-lawd:primaryForm "Zark"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1821/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1821/tei>  .
+ lawd:primaryForm "Zark"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1821/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1821/tei> .

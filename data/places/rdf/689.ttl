@@ -11,15 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/689> a lawd:Place ;
-rdfs:label "Shabakhtān — ܫܒܟܬܐܢ"  ;
-dcterms:description "A medieval region east of Edessa and north of Harran, mentioned in Arabic chronicles from the Crusader period."  ;
+ rdfs:label "Shabakhtān — ܫܒܟܬܐܢ" ;
  lawd:hasName [
-lawd:primaryForm "Shabakhtān"@en  ;];
+ lawd:primaryForm "Shabakhtān"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܫܒܟܬܐܢ"@syr  ;];
+ lawd:primaryForm "ܫܒܟܬܐܢ"@syr ;];
  lawd:hasName [
-lawd:variantForm "شبختان"@ar  ;];
+ lawd:variantForm "شبختان"@ar ;];
  lawd:hasName [
-lawd:variantForm "Shabakhtan"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/689/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/689/tei>  .
+ lawd:variantForm "Shabakhtan"@en ;];
+ dcterms:description "A medieval region east of Edessa and north of Harran, mentioned in Arabic chronicles from the Crusader period." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/689/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/689/tei> .

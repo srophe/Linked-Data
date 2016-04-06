@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1683> a lawd:Place ;
-rdfs:label "Sarpel"  ;
+ rdfs:label "Sarpel" ;
  lawd:hasName [
-lawd:primaryForm "Sarpel"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1683/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1683/tei>  .
+ lawd:primaryForm "Sarpel"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1683/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1683/tei> .

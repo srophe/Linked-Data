@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1577> a lawd:Place ;
-rdfs:label "Nīrek"  ;
+ rdfs:label "Nīrek" ;
  lawd:hasName [
-lawd:primaryForm "Nīrek"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1577/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1577/tei>  .
+ lawd:primaryForm "Nīrek"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1577/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1577/tei> .

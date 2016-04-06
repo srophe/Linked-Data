@@ -11,28 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/406> a lawd:Place ;
-rdfs:label "Rūḥīn — ܪܘܚܝܢ"  ;
+ rdfs:label "Rūḥīn — ܪܘܚܝܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Rūḥīn"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܪܘܚܝܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܪܘܝܚܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "روحين"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ruḥīn"@en ;];
+ lawd:hasName [
+ lawd:variantForm "رُوْحِين"@ar ;];
  dcterms:description [
-rdfs:label "ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܐܰܢܛܝܘܟܝ ܕܰܚܪ̈ܶܒܝ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܐܰܢܛܝܘܟܝ ܕܰܚܪ̈ܶܒܝ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "من قرى انطاكية الداثرة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "من قرى انطاكية الداثرة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village near Antioch."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0723"  ;
- lawd:hasName [
-lawd:primaryForm "Rūḥīn"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܪܘܚܝܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܪܘܝܚܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "روحين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ruḥīn"@en  ;];
- lawd:hasName [
-lawd:variantForm "رُوْحِين"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/406/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/406/tei>  .
+ rdfs:label "a village near Antioch."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0723" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/406/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/406/tei> .

@@ -11,15 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/37> a lawd:Place ;
-rdfs:label "Beth Qaṭraye"  ;
- dcterms:description [
-rdfs:label "The region known in Syriac as Beth Qaṭraye includes not only the peninsula of Qaṭar, but also its hinterland Yamāma, and the entire coast of northeast Arabia as far as the peninsula of Musandam, in present-day Oman, along with the islands."@en  ;];
- dcterms:description [
-rdfs:label "102. Beth Qaṭraye"@en  ;];
-dcterms:temporal "0600"  ;
+ rdfs:label "Beth Qaṭraye" ;
  lawd:hasName [
-lawd:primaryForm "Beth Qaṭraye"@en  ;];
+ lawd:primaryForm "Beth Qaṭraye"@en ;];
  lawd:hasName [
-lawd:variantForm "Bet Qatraye"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/37/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/37/tei>  .
+ lawd:variantForm "Bet Qatraye"@en ;];
+ dcterms:description [
+ rdfs:label "The region known in Syriac as Beth Qaṭraye includes not only the peninsula of Qaṭar, but also its hinterland Yamāma, and the entire coast of northeast Arabia as far as the peninsula of Musandam, in present-day Oman, along with the islands."@en ;];
+ dcterms:description [
+ rdfs:label "102. Beth Qaṭraye"@en ;];
+ dcterms:temporal "0600" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/37/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/37/tei> .

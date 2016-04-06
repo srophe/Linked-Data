@@ -11,24 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/423> a lawd:Place ;
-rdfs:label "Qrunto — ܩܪܘܢܬܐ"  ;
+ rdfs:label "Qrunto — ܩܪܘܢܬܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Qrunto"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܩܪܘܢܬܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "قرونتا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Qronta"@en ;];
  dcterms:description [
-rdfs:label "ܐܰܬܪܐ ܕܥܰܠ ܣܶܦܰܬ ܕܶܩܠܰܬ ܠܡܰܕܢܚܳܐ ܠܘܩܒܰܠ ܬܰܓܪܺܝܬ. ܘܐܰܡܝܪ ܒܩܘܪܒܳܐ ܕܙܒܐ ܪܰܒܐ ܘܚܰܪܝܒ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܐ ܕܥܰܠ ܣܶܦܰܬ ܕܶܩܠܰܬ ܠܡܰܕܢܚܳܐ ܠܘܩܒܰܠ ܬܰܓܪܺܝܬ. ܘܐܰܡܝܪ ܒܩܘܪܒܳܐ ܕܙܒܐ ܪܰܒܐ ܘܚܰܪܝܒ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة على ضفة دجلة شرقا ازاء تكريت وقيل بقرب الزاب الكبير خربة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة على ضفة دجلة شرقا ازاء تكريت وقيل بقرب الزاب الكبير خربة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "an ancient town on the east bank of the Tigris, near the Great Zab."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0575"  ;
- lawd:hasName [
-lawd:primaryForm "Qrunto"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܩܪܘܢܬܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "قرونتا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Qronta"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/423/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/423/tei>  .
+ rdfs:label "an ancient town on the east bank of the Tigris, near the Great Zab."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0575" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/423/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/423/tei> .

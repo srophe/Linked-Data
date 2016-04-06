@@ -11,22 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1492> a lawd:Place ;
-rdfs:label "ʿAdasiyya — ܥܕܣܝܗ"  ;
-dcterms:description "A village near ."  ;
-dcterms:temporal "1138"  ;
+ rdfs:label "ʿAdasiyya — ܥܕܣܝܗ" ;
  lawd:hasName [
-lawd:primaryForm "ʿAdasiyya"@en  ;];
+ lawd:primaryForm "ʿAdasiyya"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܥܕܣܝܗ"@syr  ;];
+ lawd:primaryForm "ܥܕܣܝܗ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܥܰܕܣܺܝܗ"@syr-Syrj  ;];
+ lawd:variantForm "ܥܰܕܣܺܝܗ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "عدسية"@ar  ;];
+ lawd:variantForm "عدسية"@ar ;];
  lawd:hasName [
-lawd:variantForm "Adasiyya"@en-xsrp1  ;];
+ lawd:variantForm "Adasiyya"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Adasiyya"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Jerusalem"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1492/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1492/tei>  .
+ lawd:variantForm "‘Adasiyya"@en-xsrp1 ;];
+ skos:related "Jerusalem" ;
+ dcterms:description "A village near ." ;
+ dcterms:temporal "1138" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1492/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1492/tei> .

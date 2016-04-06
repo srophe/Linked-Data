@@ -11,14 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/643> a lawd:Place ;
-rdfs:label "Sumatar Harabesi"  ;
-dcterms:description "A ruined village between and ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Sumatar_Harabesi>  ;
+ rdfs:label "Sumatar Harabesi" ;
  lawd:hasName [
-lawd:primaryForm "Sumatar Harabesi"@en  ;];
- lawd:hasName [
-lawd:variantForm "Edessa"  ;];
- lawd:hasName [
-lawd:variantForm "Ḥarran"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/643/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/643/tei>  .
+ lawd:primaryForm "Sumatar Harabesi"@en ;];
+ skos:related "Edessa" ;
+ skos:related "Ḥarran" ;
+ dcterms:description "A ruined village between and ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Sumatar_Harabesi> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/643/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/643/tei> .

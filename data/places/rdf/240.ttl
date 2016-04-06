@@ -11,26 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/240> a lawd:Place ;
-rdfs:label "Bote — ܒ̈ܬܐ"  ;
-dcterms:description "A village in northeast of ."  ;
-dcterms:temporal "1943"  ;
+ rdfs:label "Bote — ܒ̈ܬܐ" ;
  lawd:hasName [
-lawd:primaryForm "Bote"@en  ;];
+ lawd:primaryForm "Bote"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܒ̈ܬܐ"@syr  ;];
+ lawd:primaryForm "ܒ̈ܬܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܒ̈ܬܶܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܒ̈ܬܶܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "باتي"@ar  ;];
+ lawd:variantForm "باتي"@ar ;];
  lawd:hasName [
-lawd:variantForm "Bāti"@en  ;];
+ lawd:variantForm "Bāti"@en ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
- lawd:hasName [
-lawd:variantForm "Midyat"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/240/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/240/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related "Ṭur ʿAbdin" ;
+ skos:related "Midyat" ;
+ dcterms:description "A village in northeast of ." ;
+ dcterms:temporal "1943" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/240/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/240/tei> .

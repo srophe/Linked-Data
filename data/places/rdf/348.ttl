@@ -11,39 +11,37 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/348> a lawd:Place ;
-rdfs:label "Tarʿil — ܕܝܪܐ ܕܬܪܥܝܠܐ"  ;
-dcterms:description "A monastery between and the ."  ;
+ rdfs:label "Tarʿil — ܕܝܪܐ ܕܬܪܥܝܠܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Tarʿil"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܬܪܥܝܠܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܬܰܪܥܝܠܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير ترعيل"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Tarʿīl Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Taril"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Tar‘il"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Tarīl Monastery"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Tar‘īl Monastery"@en-xsrp1 ;];
+ skos:related "Aleppo" ;
+ skos:related "Euphrates" ;
+ dcterms:description "A monastery between and the ." ;
  dcterms:description [
-rdfs:label "ܡܝܰܬܰܒ ܗܘܳܬ ܒܕܘܟܬܐ ܕܩܰܪܝܒܳܐ ܠܚܳܠܳܒ ܠܓܰܒܳܐ ܕܬܰܪܥܳܐ ܕܺܝܕܝܥ ܬܪܰܥ ܐܝܺܠ ܒܰܫܡܗ ܣܘܪܝܳܝܳܐ. ܐܶܬܥܰܠܝ ܒܶܢܝܳܢܗ ܒܕܳܪܳܐ ܫܬܝܬܳܝܐ. ܘܒܗ ܐܶܣܬܰܦܰܪ ܬܳܐܘܡܰܐ ܚܰܪܩܶܠܳܝܳܐ ܡܳܪܳܐ ܕܡܰܦܰܩܬܐ ܚܰܪܩܶܠܳܝܬܳܐ ܘܥܰܕܰܪ ܠܥܺܕܬܳܐ ܒܰܬܪܶܝܢ ܦܰܛܪܝܰܪ̈ܟܶܐ ܘܚܰܡܫܰܥܣܪ ܐܶܦܝܣܩܘ̈ܦܐ ܘܒܰܫܢܰܬ 975 ܐܶܬܦܣܶܩܘ ܛܶܒܰܘ̈ܗܝ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܝܰܬܰܒ ܗܘܳܬ ܒܕܘܟܬܐ ܕܩܰܪܝܒܳܐ ܠܚܳܠܳܒ ܠܓܰܒܳܐ ܕܬܰܪܥܳܐ ܕܺܝܕܝܥ ܬܪܰܥ ܐܝܺܠ ܒܰܫܡܗ ܣܘܪܝܳܝܳܐ. ܐܶܬܥܰܠܝ ܒܶܢܝܳܢܗ ܒܕܳܪܳܐ ܫܬܝܬܳܝܐ. ܘܒܗ ܐܶܣܬܰܦܰܪ ܬܳܐܘܡܰܐ ܚܰܪܩܶܠܳܝܳܐ ܡܳܪܳܐ ܕܡܰܦܰܩܬܐ ܚܰܪܩܶܠܳܝܬܳܐ ܘܥܰܕܰܪ ܠܥܺܕܬܳܐ ܒܰܬܪܶܝܢ ܦܰܛܪܝܰܪ̈ܟܶܐ ܘܚܰܡܫܰܥܣܪ ܐܶܦܝܣܩܘ̈ܦܐ ܘܒܰܫܢܰܬ 975 ܐܶܬܦܣܶܩܘ ܛܶܒܰܘ̈ܗܝ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "كان واقعاً على مسافة قريبة من حلب الى جهة الباب المعروف بباب الله اخذاً من اسمه السرياني. رفع بناؤه في القرن السادس وفيه ترهب توما الحرقلي صاحب الترجمة الحرقلية وعضد الكنيسة ببطريركين و خمسة عشر اسقفاً وتوقفت اخباره عام 975"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "كان واقعاً على مسافة قريبة من حلب الى جهة الباب المعروف بباب الله اخذاً من اسمه السرياني. رفع بناؤه في القرن السادس وفيه ترهب توما الحرقلي صاحب الترجمة الحرقلية وعضد الكنيسة ببطريركين و خمسة عشر اسقفاً وتوقفت اخباره عام 975"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "very near Aleppo, towards the gate known as Bab Allah (“The Gate of God”), from which its Syriac name is derived. It was built in the sixth century and among its inhabitants was Thomas of Harkel, the famous translator of the Bible. It produced two Patriarchs and fifteen bishops. Nothing is known about it after 975."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0600"  ;
- lawd:hasName [
-lawd:primaryForm "Tarʿil"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܬܪܥܝܠܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܬܰܪܥܝܠܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير ترعيل"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Tarʿīl Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Taril"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Tar‘il"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Tarīl Monastery"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Tar‘īl Monastery"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Aleppo"  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/348/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/348/tei>  .
+ rdfs:label "very near Aleppo, towards the gate known as Bab Allah (“The Gate of God”), from which its Syriac name is derived. It was built in the sixth century and among its inhabitants was Thomas of Harkel, the famous translator of the Bible. It produced two Patriarchs and fifteen bishops. Nothing is known about it after 975."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0600" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/348/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/348/tei> .

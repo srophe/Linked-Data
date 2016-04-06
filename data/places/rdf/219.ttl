@@ -11,41 +11,44 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/219> a lawd:Place ;
-rdfs:label "Ḥirta — ܚܐܪܬܐ"  ;
+ rdfs:label "Ḥirta — ܚܐܪܬܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Ḥirta"@en ;];
+ lawd:hasName [
+ lawd:variantForm "al-Ḥira"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܚܐܪܬܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "الحيرة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ḥīra"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Hira"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Ḥirtā"@en ;];
+ lawd:hasName [
+ lawd:variantForm "الحِيْرة"@ar ;];
  dcterms:description [
-rdfs:label "Ancient city near the Euphrates to the southeast of present-day al-Najaf."@en  ;];
+ rdfs:label "Ancient city near the Euphrates to the southeast of present-day al-Najaf."@en ;];
  dcterms:description [
-rdfs:label "262. Ḥirta"@en  ;];
+ rdfs:label "262. Ḥirta"@en ;];
  dcterms:description [
-rdfs:label "ܡܕܺܝܢܬܳܐ ܗܝ ܥܰܬܝܩܬܳܐ ܕܪܰܚܝܼܩܐ ܗܘܳܬ ܡܢ ܟܽܘܦܰܗ ܬܠܳܬܐ ܡܝ̣̈ܠܐ ܠܡܰܕܢܚܳܐ ܕܢܰܓܦ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܺܝܢܬܳܐ ܗܝ ܥܰܬܝܩܬܳܐ ܕܪܰܚܝܼܩܐ ܗܘܳܬ ܡܢ ܟܽܘܦܰܗ ܬܠܳܬܐ ܡܝ̣̈ܠܐ ܠܡܰܕܢܚܳܐ ܕܢܰܓܦ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة قديمة دائرة كانت على ثلاثة اميال من الكوفة شرقي النجف"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة قديمة دائرة كانت على ثلاثة اميال من الكوفة شرقي النجف"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "an ancient city, three miles from Kufa and east of al-Najaf."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0358"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/912800>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Al-Hirah>  ;
+ rdfs:label "an ancient city, three miles from Kufa and east of al-Najaf."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0358" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/912800> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Al-Hirah> ;
 geo:location [
-geo:lat "31.88332"  ;
-geo:long "31.88332"  ;];
- lawd:hasName [
-lawd:primaryForm "Ḥirta"@en  ;];
- lawd:hasName [
-lawd:variantForm "al-Ḥira"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܚܐܪܬܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "الحيرة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ḥīra"@en  ;];
- lawd:hasName [
-lawd:variantForm "Hira"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ḥirtā"@en  ;];
- lawd:hasName [
-lawd:variantForm "الحِيْرة"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/219/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/219/tei>  .
+ geo:lat "31.88332" ;
+ geo:long "44.44985" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/219/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/219/tei> ;
+geo:location [
+ geo:lat "31.88332" ;
+ geo:long "44.44985" ;].

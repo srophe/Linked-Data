@@ -11,23 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1402> a lawd:Place ;
-rdfs:label "Maʿalta"  ;
-dcterms:description "A village of ."  ;
+ rdfs:label "Maʿalta" ;
  lawd:hasName [
-lawd:primaryForm "Maʿalta"@en  ;];
+ lawd:primaryForm "Maʿalta"@en ;];
  lawd:hasName [
-lawd:variantForm "Maʿalṯā"@en  ;];
+ lawd:variantForm "Maʿalṯā"@en ;];
  lawd:hasName [
-lawd:variantForm "مَعْلثايا"@ar  ;];
+ lawd:variantForm "مَعْلثايا"@ar ;];
  lawd:hasName [
-lawd:variantForm "Maalta"@en-xsrp1  ;];
+ lawd:variantForm "Maalta"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ma‘alta"@en-xsrp1  ;];
+ lawd:variantForm "Ma‘alta"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Maalṯā"@en-xsrp1  ;];
+ lawd:variantForm "Maalṯā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ma‘alṯā"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Beth Nuhadra"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1402/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1402/tei>  .
+ lawd:variantForm "Ma‘alṯā"@en-xsrp1 ;];
+ skos:related "Beth Nuhadra" ;
+ dcterms:description "A village of ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1402/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1402/tei> .

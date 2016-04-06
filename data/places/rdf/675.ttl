@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/675> a lawd:Place ;
-rdfs:label "ʿAshqūt"  ;
-dcterms:description "A village in Lebanon."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Ashqout>  ;
+ rdfs:label "ʿAshqūt" ;
  lawd:hasName [
-lawd:primaryForm "ʿAshqūt"@en  ;];
+ lawd:primaryForm "ʿAshqūt"@en ;];
  lawd:hasName [
-lawd:variantForm "Ashqūt"@en-xsrp1  ;];
+ lawd:variantForm "Ashqūt"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Ashqūt"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/675/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/675/tei>  .
+ lawd:variantForm "‘Ashqūt"@en-xsrp1 ;];
+ dcterms:description "A village in Lebanon." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Ashqout> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/675/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/675/tei> .

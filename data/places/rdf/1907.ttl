@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1907> a lawd:Place ;
-rdfs:label "Mar Gabra"  ;
+ rdfs:label "Mar Gabra" ;
  lawd:hasName [
-lawd:primaryForm "Mar Gabra"@en  ;];
+ lawd:primaryForm "Mar Gabra"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Gawrā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1907/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1907/tei>  ;
-dcterms:relation <http://syriaca.org/place/1904>  ;
-dcterms:relation <http://syriaca.org/place/1905>  ;
-dcterms:relation <http://syriaca.org/place/1906>  .
+ lawd:variantForm "Mār Gawrā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1907/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1907/tei> ;
+ dcterms:relation <http://syriaca.org/place/1904> ;
+ dcterms:relation <http://syriaca.org/place/1905> ;
+ dcterms:relation <http://syriaca.org/place/1906> .

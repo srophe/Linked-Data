@@ -11,16 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1501> a lawd:Place ;
-rdfs:label "Fārīn — ܦܐܪܝܢ"  ;
-dcterms:description "An unlocated settlement."  ;
-dcterms:temporal "0861"  ;
+ rdfs:label "Fārīn — ܦܐܪܝܢ" ;
  lawd:hasName [
-lawd:primaryForm "Fārīn"@en  ;];
+ lawd:primaryForm "Fārīn"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܦܐܪܝܢ"@syr  ;];
+ lawd:primaryForm "ܦܐܪܝܢ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܩܰܐܪܺܝܢ"@syr-Syrj  ;];
+ lawd:variantForm "ܩܰܐܪܺܝܢ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "فارين"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1501/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1501/tei>  .
+ lawd:variantForm "فارين"@ar ;];
+ dcterms:description "An unlocated settlement." ;
+ dcterms:temporal "0861" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1501/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1501/tei> .

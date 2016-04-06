@@ -11,49 +11,52 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/108> a lawd:Place ;
-rdfs:label "Karka d-Beth Slokh — ܟܪܟܐ ܕܒܝܬ ܣܠܘܟ"  ;
+ rdfs:label "Karka d-Beth Slokh — ܟܪܟܐ ܕܒܝܬ ܣܠܘܟ" ;
+ lawd:hasName [
+ lawd:primaryForm "Karka d-Beth Slokh"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Kirkuk"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܟܪܟܐ ܕܒܝܬ ܣܠܘܟ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܟܪܟ ܣܠܘܟ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܟܰܪܟܘܟ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "كرخ سلوخ"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "كركوك"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Karkh Slukh"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Karka de Beth Selok"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Kirkūk"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Karkā d'Beṯ Ṣlōḥ"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Slōḥ"@en ;];
  dcterms:description [
-rdfs:label "The name occurs in the 6th cent. ‘History of Karka d- Beth Slokh and its Martyrs’ published by Bedjan, and it means literally 'Fortress of the House of Seleucus.'"@en  ;];
+ rdfs:label "The name occurs in the 6th cent. ‘History of Karka d- Beth Slokh and its Martyrs’ published by Bedjan, and it means literally 'Fortress of the House of Seleucus.'"@en ;];
  dcterms:description [
-rdfs:label "316. Karka d-Beth Slokh"@en  ;];
+ rdfs:label "316. Karka d-Beth Slokh"@en ;];
  dcterms:description [
-rdfs:label "ܡܕܺܝܢܰܬ ܟܰܪܟܘܟ ܗܳܝ ܕܰܒܥܪܰܐܩ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܺܝܢܰܬ ܟܰܪܟܘܟ ܗܳܝ ܕܰܒܥܪܰܐܩ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "هي مدينة كركوك في العراق."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "هي مدينة كركوك في العراق."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "the present city of Kirkuk, in Iraq."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-0858"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/893941>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Kirkuk>  ;
+ rdfs:label "the present city of Kirkuk, in Iraq."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-0858" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/893941> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Kirkuk> ;
 geo:location [
-geo:lat "35.468099"  ;
-geo:long "35.468099"  ;];
- lawd:hasName [
-lawd:primaryForm "Karka d-Beth Slokh"@en  ;];
- lawd:hasName [
-lawd:variantForm "Kirkuk"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܟܪܟܐ ܕܒܝܬ ܣܠܘܟ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܟܪܟ ܣܠܘܟ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܟܰܪܟܘܟ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "كرخ سلوخ"@ar  ;];
- lawd:hasName [
-lawd:variantForm "كركوك"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Karkh Slukh"@en  ;];
- lawd:hasName [
-lawd:variantForm "Karka de Beth Selok"@en  ;];
- lawd:hasName [
-lawd:variantForm "Kirkūk"@en  ;];
- lawd:hasName [
-lawd:variantForm "Karkā d'Beṯ Ṣlōḥ"@en  ;];
- lawd:hasName [
-lawd:variantForm "Slōḥ"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/108/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/108/tei>  .
+ geo:lat "35.468099" ;
+ geo:long "44.3953" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/108/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/108/tei> ;
+geo:location [
+ geo:lat "35.468099" ;
+ geo:long "44.3953" ;].

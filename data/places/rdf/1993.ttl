@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1993> a lawd:Place ;
-rdfs:label "Mar Isḥaq"  ;
+ rdfs:label "Mar Isḥaq" ;
  lawd:hasName [
-lawd:primaryForm "Mar Isḥaq"@en  ;];
+ lawd:primaryForm "Mar Isḥaq"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Isaac"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1993/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1993/tei>  ;
-dcterms:relation <http://syriaca.org/place/2465>  ;
-dcterms:relation <http://syriaca.org/place/1992>  ;
-dcterms:relation <http://syriaca.org/place/1994>  ;
-dcterms:relation <http://syriaca.org/place/1995>  .
+ lawd:variantForm "Mār Isaac"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1993/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1993/tei> ;
+ dcterms:relation <http://syriaca.org/place/2465> ;
+ dcterms:relation <http://syriaca.org/place/1992> ;
+ dcterms:relation <http://syriaca.org/place/1994> ;
+ dcterms:relation <http://syriaca.org/place/1995> .

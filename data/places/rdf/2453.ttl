@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2453> a lawd:Place ;
-rdfs:label "Mar Denḥa"  ;
+ rdfs:label "Mar Denḥa" ;
  lawd:hasName [
-lawd:primaryForm "Mar Denḥa"@en  ;];
+ lawd:primaryForm "Mar Denḥa"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Denḥā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2453/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2453/tei>  ;
-dcterms:relation <http://syriaca.org/place/1427>  .
+ lawd:variantForm "Mār Denḥā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2453/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2453/tei> ;
+ dcterms:relation <http://syriaca.org/place/1427> .

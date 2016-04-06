@@ -11,20 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/253> a lawd:Place ;
-rdfs:label "Penek"  ;
-dcterms:description "A town on the northwest of ."  ;
-dcterms:temporal "-0030"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874648>  ;
+ rdfs:label "Penek" ;
+ lawd:hasName [
+ lawd:primaryForm "Penek"@en ;];
+ lawd:hasName [
+ lawd:variantForm "فَنَك"@ar ;];
+ skos:related "Tigris" ;
+ skos:related "Gazarta" ;
+ dcterms:description "A town on the northwest of ." ;
+ dcterms:temporal "-0030" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874648> ;
 geo:location [
-geo:lat "37.445274"  ;
-geo:long "37.445274"  ;];
- lawd:hasName [
-lawd:primaryForm "Penek"@en  ;];
- lawd:hasName [
-lawd:variantForm "فَنَك"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Tigris"  ;];
- lawd:hasName [
-lawd:variantForm "Gazarta"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/253/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/253/tei>  .
+ geo:lat "37.445274" ;
+ geo:long "42.052515" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/253/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/253/tei> ;
+geo:location [
+ geo:lat "37.445274" ;
+ geo:long "42.052515" ;].

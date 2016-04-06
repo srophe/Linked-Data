@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2197> a lawd:Place ;
-rdfs:label "Mart Maryam of Karkh"  ;
+ rdfs:label "Mart Maryam of Karkh" ;
  lawd:hasName [
-lawd:primaryForm "Mart Maryam of Karkh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2197/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2197/tei>  .
+ lawd:primaryForm "Mart Maryam of Karkh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2197/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2197/tei> .

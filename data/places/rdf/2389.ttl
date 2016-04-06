@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2389> a lawd:Place ;
-rdfs:label "Tergawar"  ;
+ rdfs:label "Tergawar" ;
  lawd:hasName [
-lawd:primaryForm "Tergawar"@en  ;];
+ lawd:primaryForm "Tergawar"@en ;];
  lawd:hasName [
-lawd:variantForm "Tergāwār (East Syrian diocese)"@en  ;];
+ lawd:variantForm "Tergāwār (East Syrian diocese)"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻJorum’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2389/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2389/tei>  ;
-dcterms:relation <http://syriaca.org/place/2390>  ;
-dcterms:relation <http://syriaca.org/place/250>  .
+ lawd:variantForm "ʻJorum’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2389/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2389/tei> ;
+ dcterms:relation <http://syriaca.org/place/2390> ;
+ dcterms:relation <http://syriaca.org/place/250> .

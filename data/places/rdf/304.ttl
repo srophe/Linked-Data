@@ -11,30 +11,30 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/304> a lawd:Place ;
-rdfs:label "Bʿeltan — ܒܥܠܬܐܢ"  ;
+ rdfs:label "Bʿeltan — ܒܥܠܬܐܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Bʿeltan"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܥܠܬܐܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܥܶܠܬܰܐܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "بعلتان"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Baltan"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Beltan"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "B‘eltan"@en-xsrp1 ;];
  dcterms:description [
-rdfs:label "ܩܪܝܬܐ ܕܚܰܪܝܒܐ ܕܰܒܬܰܝܡܰܢ ܚܡܶܨ ܗܘܳܬ ܕܒܐܘܚܕܢܐ ܕܓܘܣܝܗ ܕܪܰܚܝܩܳܐ ܡܢܗ̇ ܡܰܪܕܶܐ ܫܒܰܥ ܫܳܥܝ̈ܢ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܝܬܐ ܕܚܰܪܝܒܐ ܕܰܒܬܰܝܡܰܢ ܚܡܶܨ ܗܘܳܬ ܕܒܐܘܚܕܢܐ ܕܓܘܣܝܗ ܕܪܰܚܝܩܳܐ ܡܢܗ̇ ܡܰܪܕܶܐ ܫܒܰܥ ܫܳܥܝ̈ܢ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية مندثرة كانت جنوبي حمص من عمل جوسية مسافة سبع ساعات عنها"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية مندثرة كانت جنوبي حمص من عمل جوسية مسافة سبع ساعات عنها"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "an extinct village in the province of Josya, seven hours journey south of Ḥomṣ."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0758"  ;
- lawd:hasName [
-lawd:primaryForm "Bʿeltan"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܥܠܬܐܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܒܥܶܠܬܰܐܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "بعلتان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Baltan"@en  ;];
- lawd:hasName [
-lawd:variantForm "Beltan"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "B‘eltan"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/304/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/304/tei>  .
+ rdfs:label "an extinct village in the province of Josya, seven hours journey south of Ḥomṣ."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0758" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/304/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/304/tei> .

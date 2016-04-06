@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1855> a lawd:Place ;
-rdfs:label "Kokhe"  ;
+ rdfs:label "Kokhe" ;
  lawd:hasName [
-lawd:primaryForm "Kokhe"@en  ;];
+ lawd:primaryForm "Kokhe"@en ;];
  lawd:hasName [
-lawd:variantForm "Kōkhe"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1855/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1855/tei>  ;
-dcterms:relation <http://syriaca.org/place/475>  .
+ lawd:variantForm "Kōkhe"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1855/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1855/tei> ;
+ dcterms:relation <http://syriaca.org/place/475> .

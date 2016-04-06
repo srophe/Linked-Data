@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/827> a lawd:Place ;
-rdfs:label "Ḥesna ʿEbraya"  ;
+ rdfs:label "Ḥesna ʿEbraya" ;
  lawd:hasName [
-lawd:primaryForm "Ḥesna ʿEbraya"@en  ;];
+ lawd:primaryForm "Ḥesna ʿEbraya"@en ;];
  lawd:hasName [
-lawd:variantForm "Ḥesnā ʿEbrāyā"@en  ;];
+ lawd:variantForm "Ḥesnā ʿEbrāyā"@en ;];
  lawd:hasName [
-lawd:variantForm "Ḥesna Ebraya"@en-xsrp1  ;];
+ lawd:variantForm "Ḥesna Ebraya"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ḥesna ‘Ebraya"@en-xsrp1  ;];
+ lawd:variantForm "Ḥesna ‘Ebraya"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ḥesnā Ebrāyā"@en-xsrp1  ;];
+ lawd:variantForm "Ḥesnā Ebrāyā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ḥesnā ‘Ebrāyā"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/827/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/827/tei>  .
+ lawd:variantForm "Ḥesnā ‘Ebrāyā"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/827/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/827/tei> .

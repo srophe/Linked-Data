@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1664> a lawd:Place ;
-rdfs:label "Rustāqā"  ;
+ rdfs:label "Rustāqā" ;
  lawd:hasName [
-lawd:primaryForm "Rustāqā"@en  ;];
+ lawd:primaryForm "Rustāqā"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Ishōʿ"@en  ;];
+ lawd:variantForm "Mār Ishōʿ"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Ishō"@en-xsrp1  ;];
+ lawd:variantForm "Mār Ishō"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Ishō‘"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1664/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1664/tei>  .
+ lawd:variantForm "Mār Ishō‘"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1664/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1664/tei> .

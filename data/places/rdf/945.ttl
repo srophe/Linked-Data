@@ -11,19 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/945> a lawd:Place ;
-rdfs:label "ʿĀlyābād"  ;
+ rdfs:label "ʿĀlyābād" ;
  lawd:hasName [
-lawd:primaryForm "ʿĀlyābād"@en  ;];
+ lawd:primaryForm "ʿĀlyābād"@en ;];
  lawd:hasName [
-lawd:variantForm "ʿĀlyābād (ii)"@en  ;];
+ lawd:variantForm "ʿĀlyābād (ii)"@en ;];
  lawd:hasName [
-lawd:variantForm "Ālyābād"@en-xsrp1  ;];
+ lawd:variantForm "Ālyābād"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Ālyābād"@en-xsrp1  ;];
+ lawd:variantForm "‘Ālyābād"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ālyābād (ii)"@en-xsrp1  ;];
+ lawd:variantForm "Ālyābād (ii)"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Ālyābād (ii)"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/945/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/945/tei>  ;
-dcterms:relation <http://syriaca.org/place/944>  .
+ lawd:variantForm "‘Ālyābād (ii)"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/945/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/945/tei> ;
+ dcterms:relation <http://syriaca.org/place/944> .

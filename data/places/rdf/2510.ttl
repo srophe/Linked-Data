@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2510> a lawd:Place ;
-rdfs:label "Dayra d-Resha"  ;
+ rdfs:label "Dayra d-Resha" ;
  lawd:hasName [
-lawd:primaryForm "Dayra d-Resha"@en  ;];
+ lawd:primaryForm "Dayra d-Resha"@en ;];
  lawd:hasName [
-lawd:variantForm "‘Monastery of the Head’"@en  ;];
+ lawd:variantForm "‘Monastery of the Head’"@en ;];
  lawd:hasName [
-lawd:variantForm "Dairā d'Rīshā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2510/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2510/tei>  .
+ lawd:variantForm "Dairā d'Rīshā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2510/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2510/tei> .

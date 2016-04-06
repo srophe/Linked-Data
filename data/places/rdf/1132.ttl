@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1132> a lawd:Place ;
-rdfs:label "Chiri Chārā"  ;
+ rdfs:label "Chiri Chārā" ;
  lawd:hasName [
-lawd:primaryForm "Chiri Chārā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1132/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1132/tei>  .
+ lawd:primaryForm "Chiri Chārā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1132/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1132/tei> .

@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2494> a lawd:Place ;
-rdfs:label "Mar Yahbalaha"  ;
+ rdfs:label "Mar Yahbalaha" ;
  lawd:hasName [
-lawd:primaryForm "Mar Yahbalaha"@en  ;];
+ lawd:primaryForm "Mar Yahbalaha"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Yahballāhā"@en  ;];
+ lawd:variantForm "Mār Yahballāhā"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Iṯāllāhā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2494/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2494/tei>  ;
-dcterms:relation <http://syriaca.org/place/2493>  .
+ lawd:variantForm "Mār Iṯāllāhā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2494/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2494/tei> ;
+ dcterms:relation <http://syriaca.org/place/2493> .

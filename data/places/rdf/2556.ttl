@@ -11,12 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2556> a lawd:Place ;
-rdfs:label "Gel"  ;
-dcterms:description "An Assyrian settlement in Eastern Ararat province of"  ;
-dcterms:temporal "1859"  ;
+ rdfs:label "Gel" ;
  lawd:hasName [
-lawd:primaryForm "Gel"@en  ;];
- lawd:hasName [
-lawd:variantForm "Armenia"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2556/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2556/tei>  .
+ lawd:primaryForm "Gel"@en ;];
+ skos:related "Armenia" ;
+ dcterms:description "An Assyrian settlement in Eastern Ararat province of" ;
+ dcterms:temporal "1859" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2556/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2556/tei> .

@@ -11,28 +11,31 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/20> a lawd:Place ;
-rdfs:label "ʿAmadiyya"  ;
-dcterms:description "A town in the mountains of northern Iraq, east of the Tigris."  ;
-dcterms:temporal "1376"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Amadiya>  ;
+ rdfs:label "ʿAmadiyya" ;
+ lawd:hasName [
+ lawd:primaryForm "ʿAmadiyya"@en ;];
+ lawd:hasName [
+ lawd:variantForm "ʿAmādīyā"@en ;];
+ lawd:hasName [
+ lawd:variantForm "العِمَادِيّة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Amadiyya"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Amadiyya"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Amādīyā"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Amādīyā"@en-xsrp1 ;];
+ dcterms:description "A town in the mountains of northern Iraq, east of the Tigris." ;
+ dcterms:temporal "1376" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Amadiya> ;
 geo:location [
-geo:lat "37.0933"  ;
-geo:long "37.0933"  ;];
- lawd:hasName [
-lawd:primaryForm "ʿAmadiyya"@en  ;];
- lawd:hasName [
-lawd:variantForm "ʿAmādīyā"@en  ;];
- lawd:hasName [
-lawd:variantForm "العِمَادِيّة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Amadiyya"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Amadiyya"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Amādīyā"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Amādīyā"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/20/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/20/tei>  ;
-dcterms:relation <http://syriaca.org/place/703>  ;
-dcterms:relation <http://syriaca.org/place/2263>  .
+ geo:lat "37.0933" ;
+ geo:long "43.4872" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/20/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/20/tei> ;
+geo:location [
+ geo:lat "37.0933" ;
+ geo:long "43.4872" ;];
+ dcterms:relation <http://syriaca.org/place/703> ;
+ dcterms:relation <http://syriaca.org/place/2263> .

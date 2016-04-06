@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/386> a lawd:Place ;
-rdfs:label "Dayro d-Modiq — ܕܝܪܐ ܕܡܕܝܩ"  ;
+ rdfs:label "Dayro d-Modiq — ܕܝܪܐ ܕܡܕܝܩ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dayro d-Modiq"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܕܝܩ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܐ ܕܡܳܕܝܩ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير ماذيق"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Mādhīq Monastery"@en ;];
  dcterms:description [
-rdfs:label "ܒܫܶܡ ܒܬܘܠܬܐ ܘܣܳܗܕ̈ܐ ܐܰܪܒܥܝܢ ܒܰܐܬܪܐ ܕܰܩܠܘܕܺܝܰܐ ܒܩܘܪܒܳܐ ܕܣܝܢܓܣ ܩܪܺܝܬܐ. ܕܟܺܝܪ ܫܢܰܬ 986 ܐܶܬܢܰܦܰܩܘ ܒܗ ܥܶܣܪܐ ܡܝܛܪ̈ܘܦܘܠܝܛܐ. ܘܒܰܫܢܰܬ 1257 ܐܰܘܩܕܽܘܗܝ ܓܰܒܪ̈ܐ ܕܐܰܚܡܰܕ ܒܰܪ ܒܰܠܐܣ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܫܶܡ ܒܬܘܠܬܐ ܘܣܳܗܕ̈ܐ ܐܰܪܒܥܝܢ ܒܰܐܬܪܐ ܕܰܩܠܘܕܺܝܰܐ ܒܩܘܪܒܳܐ ܕܣܝܢܓܣ ܩܪܺܝܬܐ. ܕܟܺܝܪ ܫܢܰܬ 986 ܐܶܬܢܰܦܰܩܘ ܒܗ ܥܶܣܪܐ ܡܝܛܪ̈ܘܦܘܠܝܛܐ. ܘܒܰܫܢܰܬ 1257 ܐܰܘܩܕܽܘܗܝ ܓܰܒܪ̈ܐ ܕܐܰܚܡܰܕ ܒܰܪ ܒܰܠܐܣ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "باسم العذراء والشهداء الاربعين في بلد قلودوية بقرب قرية سينجس ذكر سنة 986 تخرج فيه عشرة مطارنة واحرقه اصحاب احمد بن بلاس عام 1257."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "باسم العذراء والشهداء الاربعين في بلد قلودوية بقرب قرية سينجس ذكر سنة 986 تخرج فيه عشرة مطارنة واحرقه اصحاب احمد بن بلاس عام 1257."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "built in the name of the Virgin and the Forty Martyrs in Claudia, near the village of Sinjis, was first mentioned in history in 986. Ten metropolitans graduated from it. In 1257 the henchmen of Ahmad Ibn Ballās burned this monastery."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0986"  ;
- lawd:hasName [
-lawd:primaryForm "Dayro d-Modiq"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܕܝܩ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܡܳܕܝܩ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير ماذيق"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Mādhīq Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/386/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/386/tei>  .
+ rdfs:label "built in the name of the Virgin and the Forty Martyrs in Claudia, near the village of Sinjis, was first mentioned in history in 986. Ten metropolitans graduated from it. In 1257 the henchmen of Ahmad Ibn Ballās burned this monastery."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0986" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/386/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/386/tei> .

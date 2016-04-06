@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1825> a lawd:Place ;
-rdfs:label "Zāwīṯā"  ;
+ rdfs:label "Zāwīṯā" ;
  lawd:hasName [
-lawd:primaryForm "Zāwīṯā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1825/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1825/tei>  .
+ lawd:primaryForm "Zāwīṯā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1825/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1825/tei> .

@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/730> a lawd:Place ;
-rdfs:label "Albaq"  ;
+ rdfs:label "Albaq" ;
  lawd:hasName [
-lawd:primaryForm "Albaq"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/730/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/730/tei>  ;
-dcterms:relation <http://syriaca.org/place/2244>  .
+ lawd:primaryForm "Albaq"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/730/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/730/tei> ;
+ dcterms:relation <http://syriaca.org/place/2244> .

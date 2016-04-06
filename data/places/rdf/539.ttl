@@ -11,25 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/539> a lawd:Place ;
-rdfs:label "Karburan — ܟܦܪܒܘܪܐܢ"  ;
-dcterms:description "A village in ."  ;
-dcterms:temporal "1430"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Dargeçit>  ;
+ rdfs:label "Karburan — ܟܦܪܒܘܪܐܢ" ;
  lawd:hasName [
-lawd:primaryForm "Karburan"@en  ;];
+ lawd:primaryForm "Karburan"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܟܦܪܒܘܪܐܢ"@syr  ;];
+ lawd:primaryForm "ܟܦܪܒܘܪܐܢ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܟܦܰܪܒܘܪܰܐܢ"@syr-Syrj  ;];
+ lawd:variantForm "ܟܦܰܪܒܘܪܰܐܢ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "كربوران"@ar  ;];
+ lawd:variantForm "كربوران"@ar ;];
  lawd:hasName [
-lawd:variantForm "Kfarbūrān"@en  ;];
+ lawd:variantForm "Kfarbūrān"@en ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/539/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/539/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related "Ṭur ʿAbdin" ;
+ dcterms:description "A village in ." ;
+ dcterms:temporal "1430" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Dargeçit> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/539/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/539/tei> .

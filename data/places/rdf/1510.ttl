@@ -11,18 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1510> a lawd:Place ;
-rdfs:label "Bādiya — ܒܐܕܝܐ"  ;
-dcterms:description "A village perhaps near ."  ;
-dcterms:temporal "0806"  ;
+ rdfs:label "Bādiya — ܒܐܕܝܐ" ;
  lawd:hasName [
-lawd:primaryForm "Bādiya"@en  ;];
+ lawd:primaryForm "Bādiya"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܒܐܕܝܐ"@syr  ;];
+ lawd:primaryForm "ܒܐܕܝܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܒܰܐܕܝܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܒܰܐܕܝܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "بادية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Tagrit"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1510/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1510/tei>  .
+ lawd:variantForm "بادية"@ar ;];
+ skos:related "Tagrit" ;
+ dcterms:description "A village perhaps near ." ;
+ dcterms:temporal "0806" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1510/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1510/tei> .

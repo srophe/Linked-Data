@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/721> a lawd:Place ;
-rdfs:label "Mongolia"  ;
+ rdfs:label "Mongolia" ;
  lawd:hasName [
-lawd:primaryForm "Mongolia"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/721/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/721/tei>  .
+ lawd:primaryForm "Mongolia"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/721/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/721/tei> .

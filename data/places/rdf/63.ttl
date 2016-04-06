@@ -11,31 +11,34 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/63> a lawd:Place ;
-rdfs:label "Claudia — ܩܠܘܕܝܐ"  ;
-dcterms:description "A city southeast of Melitene."  ;
+ rdfs:label "Claudia — ܩܠܘܕܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Claudia"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Qlaudia"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܩܠܘܕܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܩܠܰܘܕܺܝܰܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "قلوذية"@ar ;];
+ dcterms:description "A city southeast of Melitene." ;
  dcterms:description [
-rdfs:label "ܚܶܣܢܳܐ ܕܩܰܪܝܒ ܗܘܐ ܠܡܺܝܠܝܛܝܢܝ ܐܶܣܬܚܦ ܘܰܗܦܰܟ ܒܢܳܝܗܝ ܚܰܣܢ ܒܰܪ ܩܚܛܒܗ ܫܢܰܬ 141 ܗܳܓܳܪܳܝܬܐ. ܘܫܰܚܠܦܗ ܠܰܐܬܪܐ ܒܰܫܡܗ. ܘܰܚܪܒ ܒܳܬܰܪ ܕܳܪܐ ܬܠܳܬܰܥܣܝܪܳܝܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܚܶܣܢܳܐ ܕܩܰܪܝܒ ܗܘܐ ܠܡܺܝܠܝܛܝܢܝ ܐܶܣܬܚܦ ܘܰܗܦܰܟ ܒܢܳܝܗܝ ܚܰܣܢ ܒܰܪ ܩܚܛܒܗ ܫܢܰܬ 141 ܗܳܓܳܪܳܝܬܐ. ܘܫܰܚܠܦܗ ܠܰܐܬܪܐ ܒܰܫܡܗ. ܘܰܚܪܒ ܒܳܬܰܪ ܕܳܪܐ ܬܠܳܬܰܥܣܝܪܳܝܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "حصن كان بقرب ملطية هدم فاعاد بناءه الحسن بن قحطبة سنة 141 هـ وحوله بلدة باسمه خربت بعد القرن الثالث عشر."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "حصن كان بقرب ملطية هدم فاعاد بناءه الحسن بن قحطبة سنة 141 هـ وحوله بلدة باسمه خربت بعد القرن الثالث عشر."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a citadel near Melitene, destroyed and rebuilt by al-Ḥasan Ibn Quḥṭuba in 141 A.H. Around the citadel was built a town bearing the same name, but it was laid to ruin after the thirteenth century."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0953"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Qlaudia_(West_Syrian_Diocese)>  ;
+ rdfs:label "a citadel near Melitene, destroyed and rebuilt by al-Ḥasan Ibn Quḥṭuba in 141 A.H. Around the citadel was built a town bearing the same name, but it was laid to ruin after the thirteenth century."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0953" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Qlaudia_(West_Syrian_Diocese)> ;
 geo:location [
-geo:lat "38.1666666"  ;
-geo:long "38.1666666"  ;];
- lawd:hasName [
-lawd:primaryForm "Claudia"@en  ;];
- lawd:hasName [
-lawd:variantForm "Qlaudia"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܩܠܘܕܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܩܠܰܘܕܺܝܰܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "قلوذية"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/63/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/63/tei>  .
+ geo:lat "38.1666666" ;
+ geo:long "38.6666666" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/63/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/63/tei> ;
+geo:location [
+ geo:lat "38.1666666" ;
+ geo:long "38.6666666" ;].

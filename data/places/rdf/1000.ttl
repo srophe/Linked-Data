@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1000> a lawd:Place ;
-rdfs:label "Beth Agre"  ;
+ rdfs:label "Beth Agre" ;
  lawd:hasName [
-lawd:primaryForm "Beth Agre"@en  ;];
+ lawd:primaryForm "Beth Agre"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Agre"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1000/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1000/tei>  .
+ lawd:variantForm "Beṯ Agre"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1000/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1000/tei> .

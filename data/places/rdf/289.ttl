@@ -11,31 +11,34 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/289> a lawd:Place ;
-rdfs:label "Scetis — ܐܣܩܝܛ"  ;
+ rdfs:label "Scetis — ܐܣܩܝܛ" ;
+ lawd:hasName [
+ lawd:primaryForm "Scetis"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܣܩܝܛ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܶܣܩܝܛ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "اسقيط"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Scete"@en ;];
  dcterms:description [
-rdfs:label "ܡܰܕܒܪܐ ܕܰܠܡܰܥܪܰܒ ܩܐܰܗܪܗ̈ ܡܳܬܰܐ ܗܘ ܕܥܶܢܘܳܝ̈ܐ ܒܡܶܨܪܝܢ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܰܕܒܪܐ ܕܰܠܡܰܥܪܰܒ ܩܐܰܗܪܗ̈ ܡܳܬܰܐ ܗܘ ܕܥܶܢܘܳܝ̈ܐ ܒܡܶܨܪܝܢ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "برية في غربي القاهرة كانت موطن النساك بمصر"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "برية في غربي القاهرة كانت موطن النساك بمصر"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a desert west of Cairo, once the abode of Egyptian ascetics."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0355"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/727232>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Wadi_El_Natrun>  ;
+ rdfs:label "a desert west of Cairo, once the abode of Egyptian ascetics."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0355" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/727232> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Wadi_El_Natrun> ;
 geo:location [
-geo:lat "30.75"  ;
-geo:long "30.75"  ;];
- lawd:hasName [
-lawd:primaryForm "Scetis"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܣܩܝܛ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܶܣܩܝܛ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "اسقيط"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Scete"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/289/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/289/tei>  .
+ geo:lat "30.75" ;
+ geo:long "30.25" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/289/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/289/tei> ;
+geo:location [
+ geo:lat "30.75" ;
+ geo:long "30.25" ;].

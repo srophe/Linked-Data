@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2523> a lawd:Place ;
-rdfs:label "Zaʿfaran"  ;
+ rdfs:label "Zaʿfaran" ;
  lawd:hasName [
-lawd:primaryForm "Zaʿfaran"@en  ;];
+ lawd:primaryForm "Zaʿfaran"@en ;];
  lawd:hasName [
-lawd:variantForm "Zaʿfarān (East Syrian)"@en  ;];
+ lawd:variantForm "Zaʿfarān (East Syrian)"@en ;];
  lawd:hasName [
-lawd:variantForm "Zafaran"@en-xsrp1  ;];
+ lawd:variantForm "Zafaran"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Za‘faran"@en-xsrp1  ;];
+ lawd:variantForm "Za‘faran"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Zafarān (East Syrian)"@en-xsrp1  ;];
+ lawd:variantForm "Zafarān (East Syrian)"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Za‘farān (East Syrian)"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2523/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2523/tei>  .
+ lawd:variantForm "Za‘farān (East Syrian)"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2523/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2523/tei> .

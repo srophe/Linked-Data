@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1413> a lawd:Place ;
-rdfs:label "Mallabarwān"  ;
+ rdfs:label "Mallabarwān" ;
  lawd:hasName [
-lawd:primaryForm "Mallabarwān"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1413/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1413/tei>  .
+ lawd:primaryForm "Mallabarwān"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1413/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1413/tei> .

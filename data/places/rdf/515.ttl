@@ -11,25 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/515> a lawd:Place ;
-rdfs:label "Arak — ܐܪܟ"  ;
-dcterms:description "A village on the desert road between and ."  ;
-dcterms:temporal "0075"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/668196>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Arak,_Syria>  ;
+ rdfs:label "Arak — ܐܪܟ" ;
+ lawd:hasName [
+ lawd:primaryForm "Arak"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܪܟ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ارك"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "أَرَك"@ar ;];
+ skos:related "Palmyra" ;
+ skos:related "Sukhna" ;
+ dcterms:description "A village on the desert road between and ." ;
+ dcterms:temporal "0075" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/668196> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Arak,_Syria> ;
 geo:location [
-geo:lat "34.671287"  ;
-geo:long "34.671287"  ;];
- lawd:hasName [
-lawd:primaryForm "Arak"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܪܟ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ارك"@ar  ;];
- lawd:hasName [
-lawd:variantForm "أَرَك"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Palmyra"  ;];
- lawd:hasName [
-lawd:variantForm "Sukhna"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/515/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/515/tei>  .
+ geo:lat "34.671287" ;
+ geo:long "38.582516" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/515/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/515/tei> ;
+geo:location [
+ geo:lat "34.671287" ;
+ geo:long "38.582516" ;].

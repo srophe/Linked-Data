@@ -11,25 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/560> a lawd:Place ;
-rdfs:label "al-Jabal al-Qāḥil — ܛܘܪܐ ܨܗܝܐ"  ;
-dcterms:description "A mountain near on which was the ."  ;
+ rdfs:label "al-Jabal al-Qāḥil — ܛܘܪܐ ܨܗܝܐ" ;
  lawd:hasName [
-lawd:primaryForm "al-Jabal al-Qāḥil"@en  ;];
+ lawd:primaryForm "al-Jabal al-Qāḥil"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܛܘܪܐ ܨܗܝܐ"@syr  ;];
+ lawd:primaryForm "ܛܘܪܐ ܨܗܝܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܛܘܪܐ ܨܗܝܳܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܛܘܪܐ ܨܗܝܳܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "الجبل القاحل"@ar  ;];
+ lawd:variantForm "الجبل القاحل"@ar ;];
  lawd:hasName [
-lawd:variantForm "Barren Mountain"@en  ;];
+ lawd:variantForm "Barren Mountain"@en ;];
  lawd:hasName [
-lawd:variantForm "Dayr al-Muallaq"@en-xsrp1  ;];
+ lawd:variantForm "Dayr al-Muallaq"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Dayr al-Mu‘allaq"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Balad"  ;];
- lawd:hasName [
-lawd:variantForm "Dayr al-Muʿallaq"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/560/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/560/tei>  .
+ lawd:variantForm "Dayr al-Mu‘allaq"@en-xsrp1 ;];
+ skos:related "Balad" ;
+ skos:related "Dayr al-Muʿallaq" ;
+ dcterms:description "A mountain near on which was the ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/560/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/560/tei> .

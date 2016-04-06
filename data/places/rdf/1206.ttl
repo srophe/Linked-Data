@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1206> a lawd:Place ;
-rdfs:label "Espen"  ;
+ rdfs:label "Espen" ;
  lawd:hasName [
-lawd:primaryForm "Espen"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1206/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1206/tei>  .
+ lawd:primaryForm "Espen"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1206/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1206/tei> .

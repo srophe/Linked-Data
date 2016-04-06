@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2395> a lawd:Place ;
-rdfs:label "Ṭamanon"  ;
+ rdfs:label "Ṭamanon" ;
  lawd:hasName [
-lawd:primaryForm "Ṭamanon"@en  ;];
+ lawd:primaryForm "Ṭamanon"@en ;];
  lawd:hasName [
-lawd:variantForm "Ṭamānōn"@en  ;];
+ lawd:variantForm "Ṭamānōn"@en ;];
  lawd:hasName [
-lawd:variantForm "Wasṭā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2395/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2395/tei>  .
+ lawd:variantForm "Wasṭā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2395/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2395/tei> .

@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/891> a lawd:Place ;
-rdfs:label "Alanesh"  ;
+ rdfs:label "Alanesh" ;
  lawd:hasName [
-lawd:primaryForm "Alanesh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/891/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/891/tei>  .
+ lawd:primaryForm "Alanesh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/891/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/891/tei> .

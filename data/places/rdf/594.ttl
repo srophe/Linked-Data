@@ -11,14 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/594> a lawd:Place ;
-rdfs:label "Jabal Bārīshā"  ;
-dcterms:description "A mountain in ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Harim_Mountains>  ;
+ rdfs:label "Jabal Bārīshā" ;
  lawd:hasName [
-lawd:primaryForm "Jabal Bārīshā"@en  ;];
+ lawd:primaryForm "Jabal Bārīshā"@en ;];
  lawd:hasName [
-lawd:variantForm "Jebel Baricha"@en  ;];
- lawd:hasName [
-lawd:variantForm "Syria"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/594/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/594/tei>  .
+ lawd:variantForm "Jebel Baricha"@en ;];
+ skos:related "Syria" ;
+ dcterms:description "A mountain in ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Harim_Mountains> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/594/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/594/tei> .

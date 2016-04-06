@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1254> a lawd:Place ;
-rdfs:label "Hachnabat"  ;
+ rdfs:label "Hachnabat" ;
  lawd:hasName [
-lawd:primaryForm "Hachnabat"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1254/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1254/tei>  .
+ lawd:primaryForm "Hachnabat"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1254/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1254/tei> .

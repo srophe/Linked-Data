@@ -11,18 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1484> a lawd:Place ;
-rdfs:label "Basila — ܒܐܣܝܠܐ"  ;
-dcterms:description "A village near ."  ;
-dcterms:temporal "1461"  ;
+ rdfs:label "Basila — ܒܐܣܝܠܐ" ;
  lawd:hasName [
-lawd:primaryForm "Basila"@en  ;];
+ lawd:primaryForm "Basila"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܒܐܣܝܠܐ"@syr  ;];
+ lawd:primaryForm "ܒܐܣܝܠܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܒܰܐܣܺܝܠܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܒܰܐܣܺܝܠܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "باسيلا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Mardin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1484/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1484/tei>  .
+ lawd:variantForm "باسيلا"@ar ;];
+ skos:related "Mardin" ;
+ dcterms:description "A village near ." ;
+ dcterms:temporal "1461" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1484/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1484/tei> .

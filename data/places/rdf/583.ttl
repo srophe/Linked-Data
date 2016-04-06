@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/583> a lawd:Place ;
-rdfs:label "Bohtan"  ;
-dcterms:description "A region of Kurdistan."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874488>  ;
+ rdfs:label "Bohtan" ;
  lawd:hasName [
-lawd:primaryForm "Bohtan"@en  ;];
+ lawd:primaryForm "Bohtan"@en ;];
  lawd:hasName [
-lawd:variantForm "Bohtān"@en  ;];
+ lawd:variantForm "Bohtān"@en ;];
  lawd:hasName [
-lawd:variantForm "Sherwāye"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/583/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/583/tei>  .
+ lawd:variantForm "Sherwāye"@en ;];
+ dcterms:description "A region of Kurdistan." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874488> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/583/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/583/tei> .

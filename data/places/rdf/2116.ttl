@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2116> a lawd:Place ;
-rdfs:label "Mar Yaʿqob of Qurana"  ;
+ rdfs:label "Mar Yaʿqob of Qurana" ;
  lawd:hasName [
-lawd:primaryForm "Mar Yaʿqob of Qurana"@en  ;];
+ lawd:primaryForm "Mar Yaʿqob of Qurana"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Yaʿqōb of Qūrānā"@en  ;];
+ lawd:variantForm "Mār Yaʿqōb of Qūrānā"@en ;];
  lawd:hasName [
-lawd:variantForm "Mar Yaqob of Qurana"@en-xsrp1  ;];
+ lawd:variantForm "Mar Yaqob of Qurana"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mar Ya‘qob of Qurana"@en-xsrp1  ;];
+ lawd:variantForm "Mar Ya‘qob of Qurana"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Yaqōb of Qūrānā"@en-xsrp1  ;];
+ lawd:variantForm "Mār Yaqōb of Qūrānā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Ya‘qōb of Qūrānā"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2116/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2116/tei>  .
+ lawd:variantForm "Mār Ya‘qōb of Qūrānā"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2116/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2116/tei> .

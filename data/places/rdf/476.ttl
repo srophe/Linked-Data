@@ -11,22 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/476> a lawd:Place ;
-rdfs:label "School of Nisibis — ܡܕܪܫܬܐ ܕܢܨܝܒܝܢ"  ;
+ rdfs:label "School of Nisibis — ܡܕܪܫܬܐ ܕܢܨܝܒܝܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "School of Nisibis"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܡܕܪܫܬܐ ܕܢܨܝܒܝܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܡܰܕܪܰܫܬܐ ܕܰܢܨܺܝܒܝܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "مدرسة نصيبين"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "School of Nisibin"@en ;];
  dcterms:description [
-rdfs:label "The School of Nisibis was an E.-Syr. institution of learning founded in part by refugees from the School of Edessa after the latter was forcibly closed by the religious and political authorities in 489, because it had become an exegetical circle of dyophysite Christians whose Antiochene theology was no longer welcome in a Roman Empire split by Christological controversy."@en  ;];
+ rdfs:label "The School of Nisibis was an E.-Syr. institution of learning founded in part by refugees from the School of Edessa after the latter was forcibly closed by the religious and political authorities in 489, because it had become an exegetical circle of dyophysite Christians whose Antiochene theology was no longer welcome in a Roman Empire split by Christological controversy."@en ;];
  dcterms:description [
-rdfs:label "401. Nisibis, School of"@en  ;];
-dcterms:temporal "0500"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/School_of_Nisibis>  ;
- lawd:hasName [
-lawd:primaryForm "School of Nisibis"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܡܕܪܫܬܐ ܕܢܨܝܒܝܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܡܰܕܪܰܫܬܐ ܕܰܢܨܺܝܒܝܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "مدرسة نصيبين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "School of Nisibin"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/476/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/476/tei>  .
+ rdfs:label "401. Nisibis, School of"@en ;];
+ dcterms:temporal "0500" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/School_of_Nisibis> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/476/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/476/tei> .

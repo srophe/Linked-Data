@@ -11,30 +11,33 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/18> a lawd:Place ;
-rdfs:label "Aleppo — ܚܠܒ"  ;
+ rdfs:label "Aleppo — ܚܠܒ" ;
+ lawd:hasName [
+ lawd:primaryForm "Aleppo"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Beroea"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܚܠܒ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܚܳܠܒ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "حلب"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "حَلَب"@ar ;];
  dcterms:description [
-rdfs:label "City in northern Syria and an important center of Christianity in the Middle East today as the seat of a total of nine bishoprics."@en  ;];
+ rdfs:label "City in northern Syria and an important center of Christianity in the Middle East today as the seat of a total of nine bishoprics."@en ;];
  dcterms:description [
-rdfs:label "28. Aleppo"@en  ;];
-dcterms:temporal "0640"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658409>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Aleppo>  ;
+ rdfs:label "28. Aleppo"@en ;];
+ dcterms:temporal "0640" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658409> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Aleppo> ;
 geo:location [
-geo:lat "36.21667"  ;
-geo:long "36.21667"  ;];
- lawd:hasName [
-lawd:primaryForm "Aleppo"@en  ;];
- lawd:hasName [
-lawd:variantForm "Beroea"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܚܠܒ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܚܳܠܒ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "حلب"@ar  ;];
- lawd:hasName [
-lawd:variantForm "حَلَب"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/18/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/18/tei>  ;
-dcterms:relation <http://syriaca.org/place/2245>  ;
-dcterms:relation <http://syriaca.org/place/2246>  .
+ geo:lat "36.21667" ;
+ geo:long "37.16667" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/18/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/18/tei> ;
+geo:location [
+ geo:lat "36.21667" ;
+ geo:long "37.16667" ;];
+ dcterms:relation <http://syriaca.org/place/2245> ;
+ dcterms:relation <http://syriaca.org/place/2246> .

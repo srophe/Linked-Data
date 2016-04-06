@@ -11,18 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1509> a lawd:Place ;
-rdfs:label "Tirminaz — ܬܪܡܢܙ"  ;
-dcterms:description "A place near ."  ;
-dcterms:temporal "0817"  ;
+ rdfs:label "Tirminaz — ܬܪܡܢܙ" ;
  lawd:hasName [
-lawd:primaryForm "Tirminaz"@en  ;];
+ lawd:primaryForm "Tirminaz"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܬܪܡܢܙ"@syr  ;];
+ lawd:primaryForm "ܬܪܡܢܙ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܬܰܪܡܢܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܬܰܪܡܢܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "ترمناز"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Cyrrhus"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1509/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1509/tei>  .
+ lawd:variantForm "ترمناز"@ar ;];
+ skos:related "Cyrrhus" ;
+ dcterms:description "A place near ." ;
+ dcterms:temporal "0817" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1509/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1509/tei> .

@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2291> a lawd:Place ;
-rdfs:label "Cranganore"  ;
+ rdfs:label "Cranganore" ;
  lawd:hasName [
-lawd:primaryForm "Cranganore"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2291/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2291/tei>  ;
-dcterms:relation <http://syriaca.org/place/810>  .
+ lawd:primaryForm "Cranganore"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2291/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2291/tei> ;
+ dcterms:relation <http://syriaca.org/place/810> .

@@ -11,17 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2377> a lawd:Place ;
-rdfs:label "Sinjar"  ;
+ rdfs:label "Sinjar" ;
  lawd:hasName [
-lawd:primaryForm "Sinjar"@en  ;];
+ lawd:primaryForm "Sinjar"@en ;];
  lawd:hasName [
-lawd:variantForm "Sinjār"@en  ;];
+ lawd:variantForm "Sinjār"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ ʿArabāye"@en  ;];
+ lawd:variantForm "Beṯ ʿArabāye"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Arabāye"@en-xsrp1  ;];
+ lawd:variantForm "Beṯ Arabāye"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Beṯ ‘Arabāye"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2377/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2377/tei>  ;
-dcterms:relation <http://syriaca.org/place/184>  .
+ lawd:variantForm "Beṯ ‘Arabāye"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2377/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2377/tei> ;
+ dcterms:relation <http://syriaca.org/place/184> .

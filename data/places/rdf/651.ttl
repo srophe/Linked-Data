@@ -11,14 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/651> a lawd:Place ;
-rdfs:label "Mount Zion"  ;
-dcterms:description "A hill in ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Mount_Zion>  ;
+ rdfs:label "Mount Zion" ;
  lawd:hasName [
-lawd:primaryForm "Mount Zion"@en  ;];
+ lawd:primaryForm "Mount Zion"@en ;];
  lawd:hasName [
-lawd:variantForm "صِهْيَوْن"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Jerusalem"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/651/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/651/tei>  .
+ lawd:variantForm "صِهْيَوْن"@ar ;];
+ skos:related "Jerusalem" ;
+ dcterms:description "A hill in ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Mount_Zion> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/651/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/651/tei> .

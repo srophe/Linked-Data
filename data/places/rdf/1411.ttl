@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1411> a lawd:Place ;
-rdfs:label "Mākītā"  ;
+ rdfs:label "Mākītā" ;
  lawd:hasName [
-lawd:primaryForm "Mākītā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1411/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1411/tei>  .
+ lawd:primaryForm "Mākītā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1411/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1411/tei> .

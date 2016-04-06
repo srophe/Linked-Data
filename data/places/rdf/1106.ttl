@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1106> a lawd:Place ;
-rdfs:label "Bōzān"  ;
+ rdfs:label "Bōzān" ;
  lawd:hasName [
-lawd:primaryForm "Bōzān"@en  ;];
+ lawd:primaryForm "Bōzān"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Bōzi"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1106/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1106/tei>  .
+ lawd:variantForm "Beṯ Bōzi"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1106/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1106/tei> .

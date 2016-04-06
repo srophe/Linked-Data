@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/393> a lawd:Place ;
-rdfs:label "Beth Malka — ܕܝܪܐ ܕܒܝܬ ܡܠܟܐ"  ;
+ rdfs:label "Beth Malka — ܕܝܪܐ ܕܒܝܬ ܡܠܟܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Beth Malka"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܒܝܬ ܡܠܟܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܒܶܝܬ ܡܰܠܟܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير بيث ملكي"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Beth Malke Monastery"@en ;];
  dcterms:description [
-rdfs:label "ܒܟܘܪܳܐ ܕܐܰܢܛܝܘܟܝܐ ܒܓܰܘܗ ܥܡܰܪ ܐܰܬܰܢܐܣܝܘܣ ܬܪܰܝܳܢܐ ܡܝܰܒܠ ܟܬܳܒ̈ܐ ܦܝܠܳܣܘܦܳܝ̈ܐ ܠܠܶܫܳܢܰܢ ܒܡܶܨܥܳܝ̈ܬܗ ܕܕܳܪܐ ܫܒܝܥܳܝܐ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܟܘܪܳܐ ܕܐܰܢܛܝܘܟܝܐ ܒܓܰܘܗ ܥܡܰܪ ܐܰܬܰܢܐܣܝܘܣ ܬܪܰܝܳܢܐ ܡܝܰܒܠ ܟܬܳܒ̈ܐ ܦܝܠܳܣܘܦܳܝ̈ܐ ܠܠܶܫܳܢܰܢ ܒܡܶܨܥܳܝ̈ܬܗ ܕܕܳܪܐ ܫܒܝܥܳܝܐ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في كورة انطاكية فيه اقام اثناسيوس الثاني ينقل الكتب الفلسفية الى لغتنا في اواسط القرن السابع."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في كورة انطاكية فيه اقام اثناسيوس الثاني ينقل الكتب الفلسفية الى لغتنا في اواسط القرن السابع."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "in the province of Antioch. It was in this monastery that Dionysius II resided in the middle of the seventh century and translated books of philosophy into our Syriac language."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0645"  ;
- lawd:hasName [
-lawd:primaryForm "Beth Malka"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܒܝܬ ܡܠܟܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܒܶܝܬ ܡܰܠܟܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير بيث ملكي"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Beth Malke Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/393/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/393/tei>  .
+ rdfs:label "in the province of Antioch. It was in this monastery that Dionysius II resided in the middle of the seventh century and translated books of philosophy into our Syriac language."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0645" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/393/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/393/tei> .

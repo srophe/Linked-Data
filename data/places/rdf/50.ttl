@@ -11,27 +11,30 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/50> a lawd:Place ;
-rdfs:label "Birtha — ܒܝܪܗܓܝܟ"  ;
-dcterms:description "A village on the Euphrates north of Mabbug and south of Samosata."  ;
-dcterms:temporal "0638"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658412>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Birecik>  ;
+ rdfs:label "Birtha — ܒܝܪܗܓܝܟ" ;
+ lawd:hasName [
+ lawd:primaryForm "Birtha"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Birecik"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܝܪܗܓܝܟ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܺܝܪܰܗܓܺܝܟ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "بيره جك"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Biricik"@en ;];
+ lawd:hasName [
+ lawd:variantForm "البيرة"@ar ;];
+ dcterms:description "A village on the Euphrates north of Mabbug and south of Samosata." ;
+ dcterms:temporal "0638" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658412> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Birecik> ;
 geo:location [
-geo:lat "37.02543"  ;
-geo:long "37.02543"  ;];
- lawd:hasName [
-lawd:primaryForm "Birtha"@en  ;];
- lawd:hasName [
-lawd:variantForm "Birecik"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܝܪܗܓܝܟ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܒܺܝܪܰܗܓܺܝܟ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "بيره جك"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Biricik"@en  ;];
- lawd:hasName [
-lawd:variantForm "البيرة"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/50/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/50/tei>  .
+ geo:lat "37.02543" ;
+ geo:long "37.97877" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/50/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/50/tei> ;
+geo:location [
+ geo:lat "37.02543" ;
+ geo:long "37.97877" ;].

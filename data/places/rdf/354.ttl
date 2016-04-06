@@ -11,30 +11,30 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/354> a lawd:Place ;
-rdfs:label "Dayr al-Dawāʾir — ܕܝܪܐ ܕܕܘܐܝܪ"  ;
+ rdfs:label "Dayr al-Dawāʾir — ܕܝܪܐ ܕܕܘܐܝܪ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dayr al-Dawāʾir"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܕܘܐܝܪ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܰܕܘܐܝܪ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير الدوائر"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Dawā'r (Circles) Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Dayr al-Dawāʾir"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Dayr al-Dawāʾir"@en-xsrp1 ;];
  dcterms:description [
-rdfs:label "ܒܟܘܪܐ ܕܐܰܢܛܝܘܟܺܝܰܐ. ܕܟܺܝܪ ܒܰܫܢܰܬ 1112 ܘܡܶܢܗ ܢܦܰܩ ܚܰܕ ܦܰܛܪܝܰܪܟܐ ܘܐܰܪܒܥܳܐ ܐܶܦܝܣܩ̈ܘܦܶܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܟܘܪܐ ܕܐܰܢܛܝܘܟܺܝܰܐ. ܕܟܺܝܪ ܒܰܫܢܰܬ 1112 ܘܡܶܢܗ ܢܦܰܩ ܚܰܕ ܦܰܛܪܝܰܪܟܐ ܘܐܰܪܒܥܳܐ ܐܶܦܝܣܩ̈ܘܦܶܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في كورة انطاكية ذكر سنة 1112 ومنه نشأ بطريرك واربعة اساقفة"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في كورة انطاكية ذكر سنة 1112 ومنه نشأ بطريرك واربعة اساقفة"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "in the province of Antioch, is first mentioned in history in 1112. From it came one Patriarch and four bishops."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1112"  ;
- lawd:hasName [
-lawd:primaryForm "Dayr al-Dawāʾir"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܕܘܐܝܪ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܰܕܘܐܝܪ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير الدوائر"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Dawā'r (Circles) Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Dayr al-Dawāʾir"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Dayr al-Dawāʾir"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/354/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/354/tei>  .
+ rdfs:label "in the province of Antioch, is first mentioned in history in 1112. From it came one Patriarch and four bishops."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1112" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/354/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/354/tei> .

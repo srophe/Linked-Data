@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1007> a lawd:Place ;
-rdfs:label "Beth ʿAwīre"  ;
+ rdfs:label "Beth ʿAwīre" ;
  lawd:hasName [
-lawd:primaryForm "Beth ʿAwīre"@en  ;];
+ lawd:primaryForm "Beth ʿAwīre"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ ʿAwīre"@en  ;];
+ lawd:variantForm "Beṯ ʿAwīre"@en ;];
  lawd:hasName [
-lawd:variantForm "Beth Awīre"@en-xsrp1  ;];
+ lawd:variantForm "Beth Awīre"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Beth ‘Awīre"@en-xsrp1  ;];
+ lawd:variantForm "Beth ‘Awīre"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Awīre"@en-xsrp1  ;];
+ lawd:variantForm "Beṯ Awīre"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Beṯ ‘Awīre"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1007/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1007/tei>  .
+ lawd:variantForm "Beṯ ‘Awīre"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1007/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1007/tei> .

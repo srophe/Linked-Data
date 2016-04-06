@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/451> a lawd:Place ;
-rdfs:label "Kūrnashā — ܟܘܪܢܫܐ"  ;
+ rdfs:label "Kūrnashā — ܟܘܪܢܫܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Kūrnashā"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܟܘܪܢܫܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܟܘܪܢܰܫܰܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "كورنشا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Kornasha"@en ;];
  dcterms:description [
-rdfs:label "ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܒܶܝܬ ܥܰܪ̈ܒܝܐ ܕܕܰܒܝܩܳܐ ܠܛܘܪܳܐ ܕܐܝܺܙܠܐ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܒܶܝܬ ܥܰܪ̈ܒܝܐ ܕܕܰܒܝܩܳܐ ܠܛܘܪܳܐ ܕܐܝܺܙܠܐ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "من قرى باعربايا الملاصقة لجبل الازل."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "من قرى باعربايا الملاصقة لجبل الازل."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village in the district of Baʿarbaya adjacent to the Izla Mountain."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1293"  ;
- lawd:hasName [
-lawd:primaryForm "Kūrnashā"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܟܘܪܢܫܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܟܘܪܢܰܫܰܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "كورنشا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Kornasha"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/451/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/451/tei>  .
+ rdfs:label "a village in the district of Baʿarbaya adjacent to the Izla Mountain."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1293" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/451/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/451/tei> .

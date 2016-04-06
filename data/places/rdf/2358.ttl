@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2358> a lawd:Place ;
-rdfs:label "Raikan"  ;
+ rdfs:label "Raikan" ;
  lawd:hasName [
-lawd:primaryForm "Raikan"@en  ;];
+ lawd:primaryForm "Raikan"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻRachni’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2358/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2358/tei>  ;
-dcterms:relation <http://syriaca.org/place/772>  .
+ lawd:variantForm "ʻRachni’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2358/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2358/tei> ;
+ dcterms:relation <http://syriaca.org/place/772> .

@@ -11,21 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1458> a lawd:Place ;
-rdfs:label "Philippopolis — ܦܝܠܝܦܘܠܝ"  ;
-dcterms:description "A city in Thrace."  ;
-dcterms:temporal "0523"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/216927>  ;
+ rdfs:label "Philippopolis — ܦܝܠܝܦܘܠܝ" ;
+ lawd:hasName [
+ lawd:primaryForm "Philippopolis"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܦܝܠܝܦܘܠܝ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܦܺܝܠܝܦܘܠܺܝ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "فيلبوبلي"@ar ;];
+ dcterms:description "A city in Thrace." ;
+ dcterms:temporal "0523" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/216927> ;
 geo:location [
-geo:lat "42.147439"  ;
-geo:long "42.147439"  ;];
- lawd:hasName [
-lawd:primaryForm "Philippopolis"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܦܝܠܝܦܘܠܝ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܦܺܝܠܝܦܘܠܺܝ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "فيلبوبلي"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1458/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1458/tei>  ;
-dcterms:relation <http://syriaca.org/place/158>  .
+ geo:lat "42.147439" ;
+ geo:long "24.749106" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1458/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1458/tei> ;
+geo:location [
+ geo:lat "42.147439" ;
+ geo:long "24.749106" ;];
+ dcterms:relation <http://syriaca.org/place/158> .

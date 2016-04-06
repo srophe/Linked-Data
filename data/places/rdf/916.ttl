@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/916> a lawd:Place ;
-rdfs:label "Ārōsh"  ;
+ rdfs:label "Ārōsh" ;
  lawd:hasName [
-lawd:primaryForm "Ārōsh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/916/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/916/tei>  .
+ lawd:primaryForm "Ārōsh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/916/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/916/tei> .

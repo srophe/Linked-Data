@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1356> a lawd:Place ;
-rdfs:label "Jemāne Taḥtaiṯā"  ;
+ rdfs:label "Jemāne Taḥtaiṯā" ;
  lawd:hasName [
-lawd:primaryForm "Jemāne Taḥtaiṯā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1356/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1356/tei>  .
+ lawd:primaryForm "Jemāne Taḥtaiṯā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1356/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1356/tei> .

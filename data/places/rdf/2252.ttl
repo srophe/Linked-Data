@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2252> a lawd:Place ;
-rdfs:label "Ankamaly"  ;
+ rdfs:label "Ankamaly" ;
  lawd:hasName [
-lawd:primaryForm "Ankamaly"@en  ;];
+ lawd:primaryForm "Ankamaly"@en ;];
  lawd:hasName [
-lawd:variantForm "Angamale"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2252/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2252/tei>  ;
-dcterms:relation <http://syriaca.org/place/666>  .
+ lawd:variantForm "Angamale"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2252/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2252/tei> ;
+ dcterms:relation <http://syriaca.org/place/666> .

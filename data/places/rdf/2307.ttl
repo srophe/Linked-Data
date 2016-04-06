@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2307> a lawd:Place ;
-rdfs:label "Gūgtāpāh"  ;
+ rdfs:label "Gūgtāpāh" ;
  lawd:hasName [
-lawd:primaryForm "Gūgtāpāh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2307/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2307/tei>  ;
-dcterms:relation <http://syriaca.org/place/1242>  .
+ lawd:primaryForm "Gūgtāpāh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2307/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2307/tei> ;
+ dcterms:relation <http://syriaca.org/place/1242> .

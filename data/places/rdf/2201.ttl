@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2201> a lawd:Place ;
-rdfs:label "Mart Meskinta"  ;
+ rdfs:label "Mart Meskinta" ;
  lawd:hasName [
-lawd:primaryForm "Mart Meskinta"@en  ;];
+ lawd:primaryForm "Mart Meskinta"@en ;];
  lawd:hasName [
-lawd:variantForm "Mart Meskintā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2201/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2201/tei>  .
+ lawd:variantForm "Mart Meskintā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2201/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2201/tei> .

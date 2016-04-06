@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1643> a lawd:Place ;
-rdfs:label "Rabanuk"  ;
+ rdfs:label "Rabanuk" ;
  lawd:hasName [
-lawd:primaryForm "Rabanuk"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1643/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1643/tei>  .
+ lawd:primaryForm "Rabanuk"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1643/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1643/tei> .

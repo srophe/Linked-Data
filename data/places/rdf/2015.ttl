@@ -11,20 +11,20 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2015> a lawd:Place ;
-rdfs:label "Mar Mikhaʾil"  ;
+ rdfs:label "Mar Mikhaʾil" ;
  lawd:hasName [
-lawd:primaryForm "Mar Mikhaʾil"@en  ;];
+ lawd:primaryForm "Mar Mikhaʾil"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Mīkhāʾīl"@en  ;];
+ lawd:variantForm "Mār Mīkhāʾīl"@en ;];
  lawd:hasName [
-lawd:variantForm "Mar Mikhaʾil"@en-xsrp1  ;];
+ lawd:variantForm "Mar Mikhaʾil"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mar Mikhaʾil"@en-xsrp1  ;];
+ lawd:variantForm "Mar Mikhaʾil"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Mīkhāʾīl"@en-xsrp1  ;];
+ lawd:variantForm "Mār Mīkhāʾīl"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Mīkhāʾīl"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2015/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2015/tei>  ;
-dcterms:relation <http://syriaca.org/place/2472>  ;
-dcterms:relation <http://syriaca.org/place/2014>  .
+ lawd:variantForm "Mār Mīkhāʾīl"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2015/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2015/tei> ;
+ dcterms:relation <http://syriaca.org/place/2472> ;
+ dcterms:relation <http://syriaca.org/place/2014> .

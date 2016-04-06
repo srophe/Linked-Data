@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1835> a lawd:Place ;
-rdfs:label "Zīwik"  ;
+ rdfs:label "Zīwik" ;
  lawd:hasName [
-lawd:primaryForm "Zīwik"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1835/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1835/tei>  .
+ lawd:primaryForm "Zīwik"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1835/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1835/tei> .

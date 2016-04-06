@@ -11,27 +11,29 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/279> a lawd:Place ;
-rdfs:label "Maʿlula"  ;
-dcterms:description "A village northeast of and southwest of Qara."  ;
-dcterms:temporal "1879"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/678273>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Ma'loula>  ;
+ rdfs:label "Maʿlula" ;
+ lawd:hasName [
+ lawd:primaryForm "Maʿlula"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Maalula"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Malula"@en ;];
+ lawd:hasName [
+ lawd:variantForm "معلولا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Malula"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ma‘lula"@en-xsrp1 ;];
+ skos:related "Damascus" ;
+ dcterms:description "A village northeast of and southwest of Qara." ;
+ dcterms:temporal "1879" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/678273> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Ma'loula> ;
 geo:location [
-geo:lat "33.843692"  ;
-geo:long "33.843692"  ;];
- lawd:hasName [
-lawd:primaryForm "Maʿlula"@en  ;];
- lawd:hasName [
-lawd:variantForm "Maalula"@en  ;];
- lawd:hasName [
-lawd:variantForm "Malula"@en  ;];
- lawd:hasName [
-lawd:variantForm "معلولا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Malula"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ma‘lula"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Damascus"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/279/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/279/tei>  .
+ geo:lat "33.843692" ;
+ geo:long "36.520816" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/279/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/279/tei> ;
+geo:location [
+ geo:lat "33.843692" ;
+ geo:long "36.520816" ;].

@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/747> a lawd:Place ;
-rdfs:label "Gawar"  ;
+ rdfs:label "Gawar" ;
  lawd:hasName [
-lawd:primaryForm "Gawar"@en  ;];
+ lawd:primaryForm "Gawar"@en ;];
  lawd:hasName [
-lawd:variantForm "Gāwār"@en  ;];
+ lawd:variantForm "Gāwār"@en ;];
  lawd:hasName [
-lawd:variantForm "‘Gur’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/747/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/747/tei>  ;
-dcterms:relation <http://syriaca.org/place/2302>  ;
-dcterms:relation <http://syriaca.org/place/2303>  .
+ lawd:variantForm "‘Gur’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/747/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/747/tei> ;
+ dcterms:relation <http://syriaca.org/place/2302> ;
+ dcterms:relation <http://syriaca.org/place/2303> .

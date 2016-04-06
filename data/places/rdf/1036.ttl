@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1036> a lawd:Place ;
-rdfs:label "Beth Kolke"  ;
+ rdfs:label "Beth Kolke" ;
  lawd:hasName [
-lawd:primaryForm "Beth Kolke"@en  ;];
+ lawd:primaryForm "Beth Kolke"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Kolke"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1036/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1036/tei>  .
+ lawd:variantForm "Beṯ Kolke"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1036/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1036/tei> .

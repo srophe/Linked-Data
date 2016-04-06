@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1648> a lawd:Place ;
-rdfs:label "Rāktānā"  ;
+ rdfs:label "Rāktānā" ;
  lawd:hasName [
-lawd:primaryForm "Rāktānā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1648/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1648/tei>  .
+ lawd:primaryForm "Rāktānā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1648/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1648/tei> .

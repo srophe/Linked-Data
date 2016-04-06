@@ -11,23 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2373> a lawd:Place ;
-rdfs:label "Shemsdīn"  ;
+ rdfs:label "Shemsdīn" ;
  lawd:hasName [
-lawd:primaryForm "Shemsdīn"@en  ;];
+ lawd:primaryForm "Shemsdīn"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻRustāqā, Ṭārōn, and Ūrmī’"@en  ;];
+ lawd:variantForm "ʻRustāqā, Ṭārōn, and Ūrmī’"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻSciabathan’"@en  ;];
+ lawd:variantForm "ʻSciabathan’"@en ;];
  lawd:hasName [
-lawd:variantForm "Shāpātan"@en  ;];
+ lawd:variantForm "Shāpātan"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻSepatkai’"@en  ;];
+ lawd:variantForm "ʻSepatkai’"@en ;];
  lawd:hasName [
-lawd:variantForm "Shāpāt"@en  ;];
+ lawd:variantForm "Shāpāt"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻShaptan’"@en  ;];
+ lawd:variantForm "ʻShaptan’"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻSolotam’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2373/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2373/tei>  ;
-dcterms:relation <http://syriaca.org/place/778>  .
+ lawd:variantForm "ʻSolotam’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2373/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2373/tei> ;
+ dcterms:relation <http://syriaca.org/place/778> .

@@ -11,16 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/597> a lawd:Place ;
-rdfs:label "Qalamun"  ;
-dcterms:description "A mountain in ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Qalamoun_Mountains>  ;
+ rdfs:label "Qalamun" ;
  lawd:hasName [
-lawd:primaryForm "Qalamun"@en  ;];
+ lawd:primaryForm "Qalamun"@en ;];
  lawd:hasName [
-lawd:variantForm "Jebel Qalamun"@en  ;];
+ lawd:variantForm "Jebel Qalamun"@en ;];
  lawd:hasName [
-lawd:variantForm "القَلَمون"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Lebanon"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/597/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/597/tei>  .
+ lawd:variantForm "القَلَمون"@ar ;];
+ skos:related "Lebanon" ;
+ dcterms:description "A mountain in ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Qalamoun_Mountains> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/597/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/597/tei> .

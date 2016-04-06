@@ -11,24 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/613> a lawd:Place ;
-rdfs:label "Mar Eliya"  ;
-dcterms:description "A monastery in the ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Dair_Mar_Elia>  ;
+ rdfs:label "Mar Eliya" ;
  lawd:hasName [
-lawd:primaryForm "Mar Eliya"@en  ;];
+ lawd:primaryForm "Mar Eliya"@en ;];
  lawd:hasName [
-lawd:variantForm "monastery of Mar Eliya"@en  ;];
+ lawd:variantForm "monastery of Mar Eliya"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Elīyā of Hirtā"@en  ;];
+ lawd:variantForm "Mār Elīyā of Hirtā"@en ;];
  lawd:hasName [
-lawd:variantForm "Dair Saʿīd"@en  ;];
+ lawd:variantForm "Dair Saʿīd"@en ;];
  lawd:hasName [
-lawd:variantForm "Dair Saīd"@en-xsrp1  ;];
+ lawd:variantForm "Dair Saīd"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Dair Sa‘īd"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Mosul region"  ;];
- lawd:hasName [
-lawd:variantForm "Dayr Ilyā"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/613/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/613/tei>  .
+ lawd:variantForm "Dair Sa‘īd"@en-xsrp1 ;];
+ skos:related "Mosul region" ;
+ skos:related "Dayr Ilyā" ;
+ dcterms:description "A monastery in the ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Dair_Mar_Elia> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/613/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/613/tei> .

@@ -11,29 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/491> a lawd:Place ;
-rdfs:label "Diyār Muḍar — ܐܬܪ̈ܘܬܐ ܕܡܨܪ"  ;
-dcterms:description "A region of Mesopotamia on the from to western Iraq."  ;
-dcterms:temporal "0700"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Diyar_Mudar>  ;
+ rdfs:label "Diyār Muḍar — ܐܬܪ̈ܘܬܐ ܕܡܨܪ" ;
  lawd:hasName [
-lawd:primaryForm "Diyār Muḍar"@en  ;];
+ lawd:primaryForm "Diyār Muḍar"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܐܬܪ̈ܘܬܐ ܕܡܨܪ"@syr  ;];
+ lawd:primaryForm "ܐܬܪ̈ܘܬܐ ܕܡܨܪ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܝܐܪ ܕܡܶܨܪ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܝܐܪ ܕܡܶܨܪ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "ܐܰܬܪ̈ܘܳܬܐ ܕܡܨܪ"@syr-Syrj  ;];
+ lawd:variantForm "ܐܰܬܪ̈ܘܳܬܐ ܕܡܨܪ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "ديار مضر"@ar  ;];
+ lawd:variantForm "ديار مضر"@ar ;];
  lawd:hasName [
-lawd:variantForm "Mudar territory"@en  ;];
+ lawd:variantForm "Mudar territory"@en ;];
  lawd:hasName [
-lawd:variantForm "Diyar Miṣr"@en  ;];
+ lawd:variantForm "Diyar Miṣr"@en ;];
  lawd:hasName [
-lawd:variantForm "ديار مُضر"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates"  ;];
- lawd:hasName [
-lawd:variantForm "Samosata"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/491/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/491/tei>  .
+ lawd:variantForm "ديار مُضر"@ar ;];
+ skos:related "Euphrates" ;
+ skos:related "Samosata" ;
+ dcterms:description "A region of Mesopotamia on the from to western Iraq." ;
+ dcterms:temporal "0700" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Diyar_Mudar> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/491/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/491/tei> .

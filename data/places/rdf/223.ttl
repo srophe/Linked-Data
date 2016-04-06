@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/223> a lawd:Place ;
-rdfs:label "Beth ʿAbe"  ;
+ rdfs:label "Beth ʿAbe" ;
+ lawd:hasName [
+ lawd:primaryForm "Beth ʿAbe"@en ;];
+ lawd:hasName [
+ lawd:variantForm "monastery of Bet Abhe"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Mār Yaʿqōb of Beṯ ʿĀbe"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Beth Abe"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Beth ‘Abe"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Mār Yaqōb of Beṯ Ābe"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Mār Ya‘qōb of Beṯ ‘Ābe"@en-xsrp1 ;];
  dcterms:description [
-rdfs:label "This famous monastery was founded in 595/6 by Yaʿqub, a monk of the 'Great Monastery' of Abraham of Kashkar (on the mountain of Izla), who originated from Lashom in Beth Garmai."@en  ;];
+ rdfs:label "This famous monastery was founded in 595/6 by Yaʿqub, a monk of the 'Great Monastery' of Abraham of Kashkar (on the mountain of Izla), who originated from Lashom in Beth Garmai."@en ;];
  dcterms:description [
-rdfs:label "96. Beth ʿAbe, Monastery of"@en  ;];
-dcterms:temporal "0596"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Beth_Abe_Monastery>  ;
- lawd:hasName [
-lawd:primaryForm "Beth ʿAbe"@en  ;];
- lawd:hasName [
-lawd:variantForm "monastery of Bet Abhe"@en  ;];
- lawd:hasName [
-lawd:variantForm "Mār Yaʿqōb of Beṯ ʿĀbe"@en  ;];
- lawd:hasName [
-lawd:variantForm "Beth Abe"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Beth ‘Abe"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Mār Yaqōb of Beṯ Ābe"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Mār Ya‘qōb of Beṯ ‘Ābe"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/223/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/223/tei>  .
+ rdfs:label "96. Beth ʿAbe, Monastery of"@en ;];
+ dcterms:temporal "0596" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Beth_Abe_Monastery> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/223/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/223/tei> .

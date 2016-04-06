@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1346> a lawd:Place ;
-rdfs:label "Inishk"  ;
+ rdfs:label "Inishk" ;
  lawd:hasName [
-lawd:primaryForm "Inishk"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1346/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1346/tei>  .
+ lawd:primaryForm "Inishk"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1346/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1346/tei> .

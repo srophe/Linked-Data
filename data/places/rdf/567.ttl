@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/567> a lawd:Place ;
-rdfs:label "al-Thaghr"  ;
-dcterms:description "The border area of northern Syria and Mesopotamia between the Byzantine Empire and the caliphate."  ;
-dcterms:temporal "0982"  ;
+ rdfs:label "al-Thaghr" ;
  lawd:hasName [
-lawd:primaryForm "al-Thaghr"@en  ;];
+ lawd:primaryForm "al-Thaghr"@en ;];
  lawd:hasName [
-lawd:variantForm "الثغر"@ar  ;];
+ lawd:variantForm "الثغر"@ar ;];
  lawd:hasName [
-lawd:variantForm "الثَغْر"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/567/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/567/tei>  .
+ lawd:variantForm "الثَغْر"@ar ;];
+ dcterms:description "The border area of northern Syria and Mesopotamia between the Byzantine Empire and the caliphate." ;
+ dcterms:temporal "0982" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/567/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/567/tei> .

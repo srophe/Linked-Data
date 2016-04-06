@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2253> a lawd:Place ;
-rdfs:label "Anzel"  ;
+ rdfs:label "Anzel" ;
  lawd:hasName [
-lawd:primaryForm "Anzel"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2253/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2253/tei>  ;
-dcterms:relation <http://syriaca.org/place/839>  .
+ lawd:primaryForm "Anzel"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2253/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2253/tei> ;
+ dcterms:relation <http://syriaca.org/place/839> .

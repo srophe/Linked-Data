@@ -11,18 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/536> a lawd:Place ;
-rdfs:label "Ālīn"  ;
-dcterms:description "A village in ."  ;
-dcterms:temporal "1943"  ;
+ rdfs:label "Ālīn" ;
  lawd:hasName [
-lawd:primaryForm "Ālīn"@en  ;];
+ lawd:primaryForm "Ālīn"@en ;];
  lawd:hasName [
-lawd:variantForm "آلين"@ar  ;];
+ lawd:variantForm "آلين"@ar ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/536/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/536/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related "Ṭur ʿAbdin" ;
+ dcterms:description "A village in ." ;
+ dcterms:temporal "1943" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/536/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/536/tei> .

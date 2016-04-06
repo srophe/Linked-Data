@@ -11,16 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/277> a lawd:Place ;
-rdfs:label "Mar Yaʿqub"  ;
-dcterms:description "A monastery beside the village of Qara."  ;
-dcterms:temporal "1100"  ;
+ rdfs:label "Mar Yaʿqub" ;
  lawd:hasName [
-lawd:primaryForm "Mar Yaʿqub"@en  ;];
+ lawd:primaryForm "Mar Yaʿqub"@en ;];
  lawd:hasName [
-lawd:variantForm "monastery of Mar Yakub"@en  ;];
+ lawd:variantForm "monastery of Mar Yakub"@en ;];
  lawd:hasName [
-lawd:variantForm "Mar Yaqub"@en-xsrp1  ;];
+ lawd:variantForm "Mar Yaqub"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mar Ya‘qub"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/277/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/277/tei>  .
+ lawd:variantForm "Mar Ya‘qub"@en-xsrp1 ;];
+ dcterms:description "A monastery beside the village of Qara." ;
+ dcterms:temporal "1100" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/277/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/277/tei> .

@@ -11,18 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/995> a lawd:Place ;
-rdfs:label "Antioch — ܐܢܛܝܘܟܝܐ"  ;
-dcterms:description "The region around the city of ."  ;
+ rdfs:label "Antioch — ܐܢܛܝܘܟܝܐ" ;
  lawd:hasName [
-lawd:primaryForm "Antioch"@en  ;];
+ lawd:primaryForm "Antioch"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܐܢܛܝܘܟܝܐ"@syr  ;];
+ lawd:primaryForm "ܐܢܛܝܘܟܝܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܐܰܢܛܝܘܟܝܰܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܐܰܢܛܝܘܟܝܰܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "كورة انطاكية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Antioch"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/995/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/995/tei>  ;
-dcterms:relation <http://syriaca.org/place/10>  .
+ lawd:variantForm "كورة انطاكية"@ar ;];
+ skos:related "Antioch" ;
+ dcterms:description "The region around the city of ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/995/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/995/tei> ;
+ dcterms:relation <http://syriaca.org/place/10> .

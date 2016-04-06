@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1081> a lawd:Place ;
-rdfs:label "Beth Ushnaya"  ;
+ rdfs:label "Beth Ushnaya" ;
  lawd:hasName [
-lawd:primaryForm "Beth Ushnaya"@en  ;];
+ lawd:primaryForm "Beth Ushnaya"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Ushnāyā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1081/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1081/tei>  .
+ lawd:variantForm "Beṯ Ushnāyā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1081/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1081/tei> .

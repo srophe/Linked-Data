@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1713> a lawd:Place ;
-rdfs:label "Shīrābād"  ;
+ rdfs:label "Shīrābād" ;
  lawd:hasName [
-lawd:primaryForm "Shīrābād"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1713/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1713/tei>  .
+ lawd:primaryForm "Shīrābād"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1713/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1713/tei> .

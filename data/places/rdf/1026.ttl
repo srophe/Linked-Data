@@ -11,16 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1026> a lawd:Place ;
-rdfs:label "Beth Gūrbāq"  ;
+ rdfs:label "Beth Gūrbāq" ;
  lawd:hasName [
-lawd:primaryForm "Beth Gūrbāq"@en  ;];
+ lawd:primaryForm "Beth Gūrbāq"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Gūrbāq"@en  ;];
+ lawd:variantForm "Beṯ Gūrbāq"@en ;];
  lawd:hasName [
-lawd:variantForm "Abū Gharbūʿa"@en  ;];
+ lawd:variantForm "Abū Gharbūʿa"@en ;];
  lawd:hasName [
-lawd:variantForm "Abū Gharbūa"@en-xsrp1  ;];
+ lawd:variantForm "Abū Gharbūa"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Abū Gharbū‘a"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1026/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1026/tei>  .
+ lawd:variantForm "Abū Gharbū‘a"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1026/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1026/tei> .

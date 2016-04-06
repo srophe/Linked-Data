@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1244> a lawd:Place ;
-rdfs:label "Gūlpāshān"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Gulpashan>  ;
+ rdfs:label "Gūlpāshān" ;
  lawd:hasName [
-lawd:primaryForm "Gūlpāshān"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1244/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1244/tei>  .
+ lawd:primaryForm "Gūlpāshān"@en ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Gulpashan> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1244/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1244/tei> .

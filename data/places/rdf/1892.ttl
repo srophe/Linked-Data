@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1892> a lawd:Place ;
-rdfs:label "Mar Brikha"  ;
+ rdfs:label "Mar Brikha" ;
  lawd:hasName [
-lawd:primaryForm "Mar Brikha"@en  ;];
+ lawd:primaryForm "Mar Brikha"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Brīkhā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1892/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1892/tei>  .
+ lawd:variantForm "Mār Brīkhā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1892/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1892/tei> .

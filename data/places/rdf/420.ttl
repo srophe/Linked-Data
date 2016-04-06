@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/420> a lawd:Place ;
-rdfs:label "Ṣalāḥiyya"  ;
+ rdfs:label "Ṣalāḥiyya" ;
+ lawd:hasName [
+ lawd:primaryForm "Ṣalāḥiyya"@en ;];
+ lawd:hasName [
+ lawd:variantForm "صلاحية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ṣalaḥiyya"@en ;];
  dcterms:description [
-rdfs:label "بلدة شرقي يربوز في ولاية ادنة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة شرقي يربوز في ولاية ادنة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town east of Yarbuz in the Adana province."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
- lawd:hasName [
-lawd:primaryForm "Ṣalāḥiyya"@en  ;];
- lawd:hasName [
-lawd:variantForm "صلاحية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ṣalaḥiyya"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/420/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/420/tei>  .
+ rdfs:label "a town east of Yarbuz in the Adana province."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/420/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/420/tei> .

@@ -11,44 +11,44 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/344> a lawd:Place ;
-rdfs:label "Dayro d-Boʿut — ܕܝܪܐ ܕܒܥܘܬ"  ;
+ rdfs:label "Dayro d-Boʿut — ܕܝܪܐ ܕܒܥܘܬ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dayro d-Boʿut"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܒܥܘܬ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܐ ܕܒܳܥܘܬ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܐ ܕܒܢ̈ܝ ܒܳܥܘܬ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير باعوث"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "دير بني باعوث"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Bāʿūth Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Banu Bāʿūth Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Dayro d-Bout"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Dayro d-Bo‘ut"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Bāūth Monastery"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Bā‘ūth Monastery"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Banu Bāūth Monastery"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Banu Bā‘ūth Monastery"@en-xsrp1 ;];
  dcterms:description [
-rdfs:label "ܒܰܫܒܳܒܘܬܗ̇ ܕܟܰܪܒܘܬ. ܐܶܬܥܗܰܕ ܫܢܰܬ 1057 ܘܒܗ ܐܶܬܢܰܦܩܘ ܐܰܪܒܥܳܐ ܐܶܦܝܣܩܘܦ̈ܐ. ܒܰܙܘܗܝ ܟܶܢܫܳܐ ܕܡܰܫܠܡ̈ܳܢܐ ܫܢܰܬ 1290 ܘܐܰܚܕܘܗܝ ܒܰܩܛܝܪܳܐ ܚܕܳܪ̈ܰܝ 1131"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܰܫܒܳܒܘܬܗ̇ ܕܟܰܪܒܘܬ. ܐܶܬܥܗܰܕ ܫܢܰܬ 1057 ܘܒܗ ܐܶܬܢܰܦܩܘ ܐܰܪܒܥܳܐ ܐܶܦܝܣܩܘܦ̈ܐ. ܒܰܙܘܗܝ ܟܶܢܫܳܐ ܕܡܰܫܠܡ̈ܳܢܐ ܫܢܰܬ 1290 ܘܐܰܚܕܘܗܝ ܒܰܩܛܝܪܳܐ ܚܕܳܪ̈ܰܝ 1131"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بجوار خربوت ذكر سنة 1057 وفيه تخرج اربعة اساقفة نهبته طائفة من المسلمين عام 1290 ثم اغتصبوه حوالي 1311"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بجوار خربوت ذكر سنة 1057 وفيه تخرج اربعة اساقفة نهبته طائفة من المسلمين عام 1290 ثم اغتصبوه حوالي 1311"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "near Kharput, first was mentioned in history in 1057. It produced four bishops. In 1290 it was ransacked by a group of Muslims and Muslims finally occupied it in 1311."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1057"  ;
- lawd:hasName [
-lawd:primaryForm "Dayro d-Boʿut"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܒܥܘܬ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܒܳܥܘܬ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܒܢ̈ܝ ܒܳܥܘܬ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير باعوث"@ar  ;];
- lawd:hasName [
-lawd:variantForm "دير بني باعوث"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Bāʿūth Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Banu Bāʿūth Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Dayro d-Bout"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Dayro d-Bo‘ut"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Bāūth Monastery"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Bā‘ūth Monastery"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Banu Bāūth Monastery"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Banu Bā‘ūth Monastery"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/344/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/344/tei>  .
+ rdfs:label "near Kharput, first was mentioned in history in 1057. It produced four bishops. In 1290 it was ransacked by a group of Muslims and Muslims finally occupied it in 1311."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1057" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/344/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/344/tei> .

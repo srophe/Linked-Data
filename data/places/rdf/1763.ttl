@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1763> a lawd:Place ;
-rdfs:label "Tel al-Hāṭe"  ;
+ rdfs:label "Tel al-Hāṭe" ;
  lawd:hasName [
-lawd:primaryForm "Tel al-Hāṭe"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1763/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1763/tei>  .
+ lawd:primaryForm "Tel al-Hāṭe"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1763/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1763/tei> .

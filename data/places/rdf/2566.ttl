@@ -11,21 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2566> a lawd:Place ;
-rdfs:label "Khabur — ܟܘܘܪܐ"  ;
-dcterms:description "A tributary of the that flows through ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/893928>  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874565>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Khabur_%28Tigris%29>  ;
+ rdfs:label "Khabur — ܟܘܘܪܐ" ;
  lawd:hasName [
-lawd:primaryForm "Khabur"@en  ;];
+ lawd:primaryForm "Khabur"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܟܘܘܪܐ"@syr  ;];
+ lawd:primaryForm "ܟܘܘܪܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܟ̣ܵܘܘܿܪܵܐ"@syr-Syrn  ;];
- lawd:hasName [
-lawd:variantForm "Tigris"  ;];
- lawd:hasName [
-lawd:variantForm "Zakho"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2566/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2566/tei>  ;
-dcterms:relation <http://syriaca.org/place/114>  .
+ lawd:variantForm "ܟ̣ܵܘܘܿܪܵܐ"@syr-Syrn ;];
+ skos:related "Tigris" ;
+ skos:related "Zakho" ;
+ dcterms:description "A tributary of the that flows through ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/893928> ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874565> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Khabur_%28Tigris%29> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2566/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2566/tei> ;
+ dcterms:relation <http://syriaca.org/place/114> .

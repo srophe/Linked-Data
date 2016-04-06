@@ -11,24 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/309> a lawd:Place ;
-rdfs:label "Taḥal — ܬܚܠ"  ;
-dcterms:description "A village of Beth Garmai."  ;
- dcterms:description [
-rdfs:label "ܩܪܝܬܳܐ ܕܚܰܪܝܒܐ ܒܰܐܬܪܐ ܕܒܶܝܬ ܓܰܪ̈ܡܰܝ ܕܒܐܽܘܚܕܳܢܐ ܕܟܰܪܟܽܘܟ ܒܥܪܐܩ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
- dcterms:description [
-rdfs:label "قرية مندثرة في ولاية باجرمي التي هي لواء كركوك في العراق"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
- dcterms:description [
-rdfs:label "an ancient village in the province of Bajermi (Beth Garmai), which is the Liwa of Kirkuk (in Iraq)."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0460"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Beth_Garmaï_(East_Syrian_Ecclesiastical_Province)#The_diocese_of_Tahal>  ;
+ rdfs:label "Taḥal — ܬܚܠ" ;
  lawd:hasName [
-lawd:primaryForm "Taḥal"@en  ;];
+ lawd:primaryForm "Taḥal"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܬܚܠ"@syr  ;];
+ lawd:primaryForm "ܬܚܠ"@syr ;];
  lawd:hasName [
-lawd:variantForm "تَحل"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/309/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/309/tei>  .
+ lawd:variantForm "تَحل"@ar ;];
+ dcterms:description "A village of Beth Garmai." ;
+ dcterms:description [
+ rdfs:label "ܩܪܝܬܳܐ ܕܚܰܪܝܒܐ ܒܰܐܬܪܐ ܕܒܶܝܬ ܓܰܪ̈ܡܰܝ ܕܒܐܽܘܚܕܳܢܐ ܕܟܰܪܟܽܘܟ ܒܥܪܐܩ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:description [
+ rdfs:label "قرية مندثرة في ولاية باجرمي التي هي لواء كركوك في العراق"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:description [
+ rdfs:label "an ancient village in the province of Bajermi (Beth Garmai), which is the Liwa of Kirkuk (in Iraq)."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0460" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Beth_Garmaï_(East_Syrian_Ecclesiastical_Province)#The_diocese_of_Tahal> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/309/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/309/tei> .

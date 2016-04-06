@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1421> a lawd:Place ;
-rdfs:label "Margā"  ;
+ rdfs:label "Margā" ;
  lawd:hasName [
-lawd:primaryForm "Margā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1421/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1421/tei>  .
+ lawd:primaryForm "Margā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1421/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1421/tei> .

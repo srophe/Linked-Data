@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1093> a lawd:Place ;
-rdfs:label "Bilejān"  ;
+ rdfs:label "Bilejān" ;
  lawd:hasName [
-lawd:primaryForm "Bilejān"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1093/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1093/tei>  .
+ lawd:primaryForm "Bilejān"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1093/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1093/tei> .

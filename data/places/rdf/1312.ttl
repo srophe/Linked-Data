@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1312> a lawd:Place ;
-rdfs:label "Ḥarāshik"  ;
+ rdfs:label "Ḥarāshik" ;
  lawd:hasName [
-lawd:primaryForm "Ḥarāshik"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1312/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1312/tei>  .
+ lawd:primaryForm "Ḥarāshik"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1312/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1312/tei> .

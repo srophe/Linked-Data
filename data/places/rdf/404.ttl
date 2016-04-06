@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/404> a lawd:Place ;
-rdfs:label "Ruḍwān — ܪܨܘܐܢ"  ;
+ rdfs:label "Ruḍwān — ܪܨܘܐܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Ruḍwān"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܪܨܘܐܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "رضوان"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Rudwan"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Raḍwān"@en ;];
  dcterms:description [
-rdfs:label "ܩܪܝܬܐ ܗܝ ܕܰܒܓܰܪܒܝ ܡܰܕܢܰܚ ܚܰܣܢ ܟܺܐܦܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܝܬܐ ܗܝ ܕܰܒܓܰܪܒܝ ܡܰܕܢܰܚ ܚܰܣܢ ܟܺܐܦܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية في شمالي شرقي حصن كيفا."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية في شمالي شرقي حصن كيفا."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village northeast of Ḥiṣn Kifa."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1852"  ;
- lawd:hasName [
-lawd:primaryForm "Ruḍwān"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܪܨܘܐܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "رضوان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Rudwan"@en  ;];
- lawd:hasName [
-lawd:variantForm "Raḍwān"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/404/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/404/tei>  .
+ rdfs:label "a village northeast of Ḥiṣn Kifa."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1852" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/404/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/404/tei> .

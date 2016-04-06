@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1400> a lawd:Place ;
-rdfs:label "Līzan"  ;
+ rdfs:label "Līzan" ;
  lawd:hasName [
-lawd:primaryForm "Līzan"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1400/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1400/tei>  .
+ lawd:primaryForm "Līzan"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1400/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1400/tei> .

@@ -11,32 +11,35 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/215> a lawd:Place ;
-rdfs:label "Emesa — ܚܡܨ"  ;
+ rdfs:label "Emesa — ܚܡܨ" ;
+ lawd:hasName [
+ lawd:primaryForm "Emesa"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Ḥimṣ"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܚܡܨ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܚܡܶܨ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "حمص"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ḥomṣ"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Homs"@en ;];
+ lawd:hasName [
+ lawd:variantForm "حِمْص"@ar ;];
  dcterms:description [
-rdfs:label "City in Syria."@en  ;];
+ rdfs:label "City in Syria."@en ;];
  dcterms:description [
-rdfs:label "259. Ḥimṣ"@en  ;];
-dcterms:temporal "0161"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/668261>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Homs>  ;
+ rdfs:label "259. Ḥimṣ"@en ;];
+ dcterms:temporal "0161" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/668261> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Homs> ;
 geo:location [
-geo:lat "34.730833"  ;
-geo:long "34.730833"  ;];
- lawd:hasName [
-lawd:primaryForm "Emesa"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ḥimṣ"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܚܡܨ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܚܡܶܨ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "حمص"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ḥomṣ"@en  ;];
- lawd:hasName [
-lawd:variantForm "Homs"@en  ;];
- lawd:hasName [
-lawd:variantForm "حِمْص"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/215/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/215/tei>  .
+ geo:lat "34.730833" ;
+ geo:long "36.709444" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/215/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/215/tei> ;
+geo:location [
+ geo:lat "34.730833" ;
+ geo:long "36.709444" ;].

@@ -11,18 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/550> a lawd:Place ;
-rdfs:label "Shagre — ܫܓܪ̈ܐ"  ;
-dcterms:description "A village near ."  ;
-dcterms:temporal "1943"  ;
+ rdfs:label "Shagre — ܫܓܪ̈ܐ" ;
  lawd:hasName [
-lawd:primaryForm "Shagre"@en  ;];
+ lawd:primaryForm "Shagre"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܫܓܪ̈ܐ"@syr  ;];
+ lawd:primaryForm "ܫܓܪ̈ܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "الشغر"@ar  ;];
+ lawd:variantForm "الشغر"@ar ;];
  lawd:hasName [
-lawd:variantForm "Shaghr"@en  ;];
- lawd:hasName [
-lawd:variantForm "Qlisuro"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/550/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/550/tei>  .
+ lawd:variantForm "Shaghr"@en ;];
+ skos:related "Qlisuro" ;
+ dcterms:description "A village near ." ;
+ dcterms:temporal "1943" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/550/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/550/tei> .

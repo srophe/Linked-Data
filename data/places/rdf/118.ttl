@@ -11,25 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/118> a lawd:Place ;
-rdfs:label "Laodicea — ܠܕܝܩܝܐ"  ;
-dcterms:description "A port city on the Syrian coast, west of ."  ;
-dcterms:temporal "-1000"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/668290>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Latakia>  ;
+ rdfs:label "Laodicea — ܠܕܝܩܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Laodicea"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܠܕܝܩܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܠܰܕܺܝܩܝܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "اللاذقية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "اللاذِقِيّة"@ar ;];
+ skos:related "Apamea" ;
+ dcterms:description "A port city on the Syrian coast, west of ." ;
+ dcterms:temporal "-1000" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/668290> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Latakia> ;
 geo:location [
-geo:lat "35.51667"  ;
-geo:long "35.51667"  ;];
- lawd:hasName [
-lawd:primaryForm "Laodicea"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܠܕܝܩܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܠܰܕܺܝܩܝܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "اللاذقية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "اللاذِقِيّة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Apamea"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/118/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/118/tei>  .
+ geo:lat "35.51667" ;
+ geo:long "35.78333" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/118/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/118/tei> ;
+geo:location [
+ geo:lat "35.51667" ;
+ geo:long "35.78333" ;].

@@ -11,33 +11,33 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/225> a lawd:Place ;
-rdfs:label "Mor Behnam — ܕܝܪܐ ܕܡܪܝ ܒܗܢܡ"  ;
+ rdfs:label "Mor Behnam — ܕܝܪܐ ܕܡܪܝ ܒܗܢܡ" ;
+ lawd:hasName [
+ lawd:primaryForm "Mor Behnam"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܒܗܢܡ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܒܶܗܢܰܡ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير مار بهنام"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Bahnam Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Monastery of Mar Behnam"@en ;];
  dcterms:description [
-rdfs:label "Situated ca. 36 km. southeast of Mosul, Dayro d-Mor Behnam contains the only full program of medieval church decoration that survives to this day in Iraq."@en  ;];
+ rdfs:label "Situated ca. 36 km. southeast of Mosul, Dayro d-Mor Behnam contains the only full program of medieval church decoration that survives to this day in Iraq."@en ;];
  dcterms:description [
-rdfs:label "91. Behnam, Dayro d-Mor"@en  ;];
+ rdfs:label "91. Behnam, Dayro d-Mor"@en ;];
  dcterms:description [
-rdfs:label "ܘܡܶܬܶܐܡܰܪ ܠܗ ܕܰܝܪܐ ܕܓܘܒܳܐ ܒܬܰܝܡܰܢ ܡܰܕܢܰܚ ܡܰܘܨܠ ܡܰܪܕܶܐ ܫܶܬ ܫܳܥܝ̈ܢ. ܐܶܫܬܰܬܐܣ ܒܫܘܪܳܝ ܕܳܪܳܐ ܚܡܝܫܳܝܳܐ. ܘܐܶܬܢܰܦܰܩܘ ܒܗ ܬܪܶܝܢ ܡܰܦܪܝܳܢ̈ܐ ܘܫܰܒܥܳܐ ܐܶܦܝܣܩܘܦ̈ܐ ܘܒܰܫܢܰܬ 1839 ܐܰܚܕܘܗܝ ܐܰܝܠܶܝܢ ܕܰܦܪܰܫܘ ܠܩܰܬܘܠܝܩܘܬܐ ܘܝܰܬܝܪ ܡܶܢ ܫܬܝܢ ܫܢܺܝ̈ܢ ܦܳܫ ܣܦܝܩ. ܘܝܰܘܡܳܢ ܥܰܡܝܪ ܗܘ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܘܡܶܬܶܐܡܰܪ ܠܗ ܕܰܝܪܐ ܕܓܘܒܳܐ ܒܬܰܝܡܰܢ ܡܰܕܢܰܚ ܡܰܘܨܠ ܡܰܪܕܶܐ ܫܶܬ ܫܳܥܝ̈ܢ. ܐܶܫܬܰܬܐܣ ܒܫܘܪܳܝ ܕܳܪܳܐ ܚܡܝܫܳܝܳܐ. ܘܐܶܬܢܰܦܰܩܘ ܒܗ ܬܪܶܝܢ ܡܰܦܪܝܳܢ̈ܐ ܘܫܰܒܥܳܐ ܐܶܦܝܣܩܘܦ̈ܐ ܘܒܰܫܢܰܬ 1839 ܐܰܚܕܘܗܝ ܐܰܝܠܶܝܢ ܕܰܦܪܰܫܘ ܠܩܰܬܘܠܝܩܘܬܐ ܘܝܰܬܝܪ ܡܶܢ ܫܬܝܢ ܫܢܺܝ̈ܢ ܦܳܫ ܣܦܝܩ. ܘܝܰܘܡܳܢ ܥܰܡܝܪ ܗܘ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "ويقال له دير الجبّ، جنوبي شرقي الموصل مسير ست ساعات عنها انشىء صدر القرن الخامس وتخرج فيه مفريانان وسبعة اساقفة وسنة 1839 تولته الفرقة المتكثلكة وامسى خاليا نيفاً وستين سنة وهو الآن آهل"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ويقال له دير الجبّ، جنوبي شرقي الموصل مسير ست ساعات عنها انشىء صدر القرن الخامس وتخرج فيه مفريانان وسبعة اساقفة وسنة 1839 تولته الفرقة المتكثلكة وامسى خاليا نيفاً وستين سنة وهو الآن آهل"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "also called the Pit Monastery, is situated about six hours’ journey southeast of Mosul. It was built in the beginning of the fifth century. From it graduated one Maphryono and seven bishops. In 1839, it was usurped by a group which seceded and joined the Catholic church. It was deserted for some sixty years, but is now populated."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1164"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Mar_Behnam_Monastery>  ;
- lawd:hasName [
-lawd:primaryForm "Mor Behnam"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܒܗܢܡ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܒܶܗܢܰܡ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير مار بهنام"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Bahnam Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Monastery of Mar Behnam"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/225/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/225/tei>  .
+ rdfs:label "also called the Pit Monastery, is situated about six hours’ journey southeast of Mosul. It was built in the beginning of the fifth century. From it graduated one Maphryono and seven bishops. In 1839, it was usurped by a group which seceded and joined the Catholic church. It was deserted for some sixty years, but is now populated."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1164" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Mar_Behnam_Monastery> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/225/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/225/tei> .

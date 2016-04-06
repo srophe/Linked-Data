@@ -11,15 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/811> a lawd:Place ;
-rdfs:label "Damietta"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/727235>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Damietta>  ;
+ rdfs:label "Damietta" ;
+ lawd:hasName [
+ lawd:primaryForm "Damietta"@en ;];
+ lawd:hasName [
+ lawd:variantForm "دمياط"@ar ;];
+ skos:exactMatch <http://pleiades.stoa.org/places/727235> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Damietta> ;
 geo:location [
-geo:lat "31.417068"  ;
-geo:long "31.417068"  ;];
- lawd:hasName [
-lawd:primaryForm "Damietta"@en  ;];
- lawd:hasName [
-lawd:variantForm "دمياط"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/811/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/811/tei>  .
+ geo:lat "31.417068" ;
+ geo:long "31.812588" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/811/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/811/tei> ;
+geo:location [
+ geo:lat "31.417068" ;
+ geo:long "31.812588" ;].

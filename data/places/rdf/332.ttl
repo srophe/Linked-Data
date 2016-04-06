@@ -11,27 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/332> a lawd:Place ;
-rdfs:label "Khābūrā — ܚܒܘܪܐ"  ;
+ rdfs:label "Khābūrā — ܚܒܘܪܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Khābūrā"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܚܒܘܪܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "خابورآء"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Khābārā"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Khābūr"@en ;];
+ lawd:hasName [
+ lawd:variantForm "خابوراء"@ar ;];
  dcterms:description [
-rdfs:label "ܗܝܺܓܡܘܽܢܺܘܬܐ ܪܘܝܺܚܬܳܐ ܘܐܰܬܪ̈ܘܳܬܐ ܣܰܓܝ̈ܐܐ ܕܥܰܠ ܢܗܰܪ ܚܰܒܘܪ ܒܶܝܬ ܪܝܫ ܥܰܝܢܳܐ ܘܰܦܪܳܬ ܕܒܰܐܪܥܳܐ ܕܰܓܙܝܺܪܬܐ ܙܟܳܐ ܥܠܶܝܗ̇ ܫܡܐ ܕܢܰܗܪܳܗ̇ ܘܐܶܬܒܰܝܬܝܰܬ ܠܗ. ܘܡܶܢ ܐܰܬܪ̈ܘܳܬܳܗ ܥܰܬܝܩ̈ܐ ܩܰܪܩܰܝܣܝܰܐ ܘܡܰܐܟܣܝܢ ܘܡܰܓܕܰܠ ܘܥܰܪܒܰܐܢ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܗܝܺܓܡܘܽܢܺܘܬܐ ܪܘܝܺܚܬܳܐ ܘܐܰܬܪ̈ܘܳܬܐ ܣܰܓܝ̈ܐܐ ܕܥܰܠ ܢܗܰܪ ܚܰܒܘܪ ܒܶܝܬ ܪܝܫ ܥܰܝܢܳܐ ܘܰܦܪܳܬ ܕܒܰܐܪܥܳܐ ܕܰܓܙܝܺܪܬܐ ܙܟܳܐ ܥܠܶܝܗ̇ ܫܡܐ ܕܢܰܗܪܳܗ̇ ܘܐܶܬܒܰܝܬܝܰܬ ܠܗ. ܘܡܶܢ ܐܰܬܪ̈ܘܳܬܳܗ ܥܰܬܝܩ̈ܐ ܩܰܪܩܰܝܣܝܰܐ ܘܡܰܐܟܣܝܢ ܘܡܰܓܕܰܠ ܘܥܰܪܒܰܐܢ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "ولاية واسعة وبلدان جمّة على نهر الخابور بين رأس عين والفرات من ارض الجزيرة غلب عليها اسم نهرها فنسبت اليه ومن بلادها القديمة قرقيسياء وماكسين والمجدل وعَربَان"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ولاية واسعة وبلدان جمّة على نهر الخابور بين رأس عين والفرات من ارض الجزيرة غلب عليها اسم نهرها فنسبت اليه ومن بلادها القديمة قرقيسياء وماكسين والمجدل وعَربَان"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a large territory containing many towns, extending between Rish ʿAyna and the Euphrates on the banks of the Khabur in al-Jazira, from which it derived its name. Among its ancient towns are Qarqīsiyyā, Macine, Majdal and ʿArbān.`"@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
- lawd:hasName [
-lawd:primaryForm "Khābūrā"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܚܒܘܪܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "خابورآء"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Khābārā"@en  ;];
- lawd:hasName [
-lawd:variantForm "Khābūr"@en  ;];
- lawd:hasName [
-lawd:variantForm "خابوراء"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/332/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/332/tei>  .
+ rdfs:label "a large territory containing many towns, extending between Rish ʿAyna and the Euphrates on the banks of the Khabur in al-Jazira, from which it derived its name. Among its ancient towns are Qarqīsiyyā, Macine, Majdal and ʿArbān.`"@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/332/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/332/tei> .

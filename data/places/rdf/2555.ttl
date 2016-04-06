@@ -11,14 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2555> a lawd:Place ;
-rdfs:label "Arzni"  ;
-dcterms:description "An Assyrian settlement north of in the province of Kotayk' in"  ;
-dcterms:temporal "1849"  ;
+ rdfs:label "Arzni" ;
  lawd:hasName [
-lawd:primaryForm "Arzni"@en  ;];
- lawd:hasName [
-lawd:variantForm "Erevan"  ;];
- lawd:hasName [
-lawd:variantForm "Armenia"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2555/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2555/tei>  .
+ lawd:primaryForm "Arzni"@en ;];
+ skos:related "Erevan" ;
+ skos:related "Armenia" ;
+ dcterms:description "An Assyrian settlement north of in the province of Kotayk' in" ;
+ dcterms:temporal "1849" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2555/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2555/tei> .

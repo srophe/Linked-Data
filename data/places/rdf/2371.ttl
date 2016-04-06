@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2371> a lawd:Place ;
-rdfs:label "Shāhrzūr"  ;
+ rdfs:label "Shāhrzūr" ;
  lawd:hasName [
-lawd:primaryForm "Shāhrzūr"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2371/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2371/tei>  .
+ lawd:primaryForm "Shāhrzūr"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2371/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2371/tei> .

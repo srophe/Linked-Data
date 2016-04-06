@@ -11,24 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2067> a lawd:Place ;
-rdfs:label "Mar Sabrishoʿ"  ;
+ rdfs:label "Mar Sabrishoʿ" ;
  lawd:hasName [
-lawd:primaryForm "Mar Sabrishoʿ"@en  ;];
+ lawd:primaryForm "Mar Sabrishoʿ"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Sabrīshōʿ"@en  ;];
+ lawd:variantForm "Mār Sabrīshōʿ"@en ;];
  lawd:hasName [
-lawd:variantForm "Mar Sabrisho"@en-xsrp1  ;];
+ lawd:variantForm "Mar Sabrisho"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mar Sabrisho‘"@en-xsrp1  ;];
+ lawd:variantForm "Mar Sabrisho‘"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Sabrīshō"@en-xsrp1  ;];
+ lawd:variantForm "Mār Sabrīshō"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Sabrīshō‘"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2067/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2067/tei>  ;
-dcterms:relation <http://syriaca.org/place/2487>  ;
-dcterms:relation <http://syriaca.org/place/1431>  ;
-dcterms:relation <http://syriaca.org/place/2063>  ;
-dcterms:relation <http://syriaca.org/place/2064>  ;
-dcterms:relation <http://syriaca.org/place/2065>  ;
-dcterms:relation <http://syriaca.org/place/2066>  .
+ lawd:variantForm "Mār Sabrīshō‘"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2067/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2067/tei> ;
+ dcterms:relation <http://syriaca.org/place/2487> ;
+ dcterms:relation <http://syriaca.org/place/1431> ;
+ dcterms:relation <http://syriaca.org/place/2063> ;
+ dcterms:relation <http://syriaca.org/place/2064> ;
+ dcterms:relation <http://syriaca.org/place/2065> ;
+ dcterms:relation <http://syriaca.org/place/2066> .

@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/251> a lawd:Place ;
-rdfs:label "Tkhuma"  ;
-dcterms:description "A region in the Hakkari mountains."  ;
-dcterms:temporal "2000"  ;
+ rdfs:label "Tkhuma" ;
  lawd:hasName [
-lawd:primaryForm "Tkhuma"@en  ;];
+ lawd:primaryForm "Tkhuma"@en ;];
  lawd:hasName [
-lawd:variantForm "Tḥūmā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/251/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/251/tei>  ;
-dcterms:relation <http://syriaca.org/place/2391>  .
+ lawd:variantForm "Tḥūmā"@en ;];
+ dcterms:description "A region in the Hakkari mountains." ;
+ dcterms:temporal "2000" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/251/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/251/tei> ;
+ dcterms:relation <http://syriaca.org/place/2391> .

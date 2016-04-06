@@ -11,16 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1460> a lawd:Place ;
-rdfs:label "Paphlagonia — ܒܦܠܐܓܘܢܝܐ"  ;
-dcterms:description "A Roman province in northern Anatolia"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/981542>  ;
+ rdfs:label "Paphlagonia — ܒܦܠܐܓܘܢܝܐ" ;
  lawd:hasName [
-lawd:primaryForm "Paphlagonia"@en  ;];
+ lawd:primaryForm "Paphlagonia"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܒܦܠܐܓܘܢܝܐ"@syr  ;];
+ lawd:primaryForm "ܒܦܠܐܓܘܢܝܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܒܰܦܠܐܓܽܘܢܺܝܰܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܒܰܦܠܐܓܽܘܢܺܝܰܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "بفلاغونية"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1460/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1460/tei>  .
+ lawd:variantForm "بفلاغونية"@ar ;];
+ dcterms:description "A Roman province in northern Anatolia" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/981542> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1460/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1460/tei> .

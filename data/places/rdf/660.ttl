@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/660> a lawd:Place ;
-rdfs:label "ʿAbdāsi"  ;
-dcterms:description "A diocese of the Church of the East in southeastern Iraq, whose bishop was a suffragan of the Metropolitan of Beth Aramaye."  ;
+ rdfs:label "ʿAbdāsi" ;
  lawd:hasName [
-lawd:primaryForm "ʿAbdāsi"@en  ;];
+ lawd:primaryForm "ʿAbdāsi"@en ;];
  lawd:hasName [
-lawd:variantForm "Abdāsi"@en-xsrp1  ;];
+ lawd:variantForm "Abdāsi"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Abdāsi"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/660/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/660/tei>  .
+ lawd:variantForm "‘Abdāsi"@en-xsrp1 ;];
+ dcterms:description "A diocese of the Church of the East in southeastern Iraq, whose bishop was a suffragan of the Metropolitan of Beth Aramaye." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/660/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/660/tei> .

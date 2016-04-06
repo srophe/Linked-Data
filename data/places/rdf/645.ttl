@@ -11,17 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/645> a lawd:Place ;
-rdfs:label "Tell Tuneinir"  ;
-dcterms:description "A village southeast of ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874762>  ;
+ rdfs:label "Tell Tuneinir" ;
+ lawd:hasName [
+ lawd:primaryForm "Tell Tuneinir"@en ;];
+ lawd:hasName [
+ lawd:variantForm "تنينير"@ar ;];
+ skos:related "al-Ḥasake" ;
+ dcterms:description "A village southeast of ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874762> ;
 geo:location [
-geo:lat "36.438598"  ;
-geo:long "36.438598"  ;];
- lawd:hasName [
-lawd:primaryForm "Tell Tuneinir"@en  ;];
- lawd:hasName [
-lawd:variantForm "تنينير"@ar  ;];
- lawd:hasName [
-lawd:variantForm "al-Ḥasake"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/645/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/645/tei>  .
+ geo:lat "36.438598" ;
+ geo:long "40.86652" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/645/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/645/tei> ;
+geo:location [
+ geo:lat "36.438598" ;
+ geo:long "40.86652" ;].

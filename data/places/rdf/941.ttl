@@ -11,19 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/941> a lawd:Place ;
-rdfs:label "ʿAyn Sifni"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Ain_Sifni>  ;
+ rdfs:label "ʿAyn Sifni" ;
  lawd:hasName [
-lawd:primaryForm "ʿAyn Sifni"@en  ;];
+ lawd:primaryForm "ʿAyn Sifni"@en ;];
  lawd:hasName [
-lawd:variantForm "ʿAïn Sifni"@en  ;];
+ lawd:variantForm "ʿAïn Sifni"@en ;];
  lawd:hasName [
-lawd:variantForm "Ayn Sifni"@en-xsrp1  ;];
+ lawd:variantForm "Ayn Sifni"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Ayn Sifni"@en-xsrp1  ;];
+ lawd:variantForm "‘Ayn Sifni"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Aïn Sifni"@en-xsrp1  ;];
+ lawd:variantForm "Aïn Sifni"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Aïn Sifni"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/941/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/941/tei>  .
+ lawd:variantForm "‘Aïn Sifni"@en-xsrp1 ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Ain_Sifni> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/941/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/941/tei> .

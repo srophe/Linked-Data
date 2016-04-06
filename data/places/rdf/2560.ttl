@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2560> a lawd:Place ;
-rdfs:label "Kaxovka"  ;
-dcterms:description "A city in the Ukraine with an Assyrian population since the 1990s."  ;
-dcterms:temporal "1991"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Kakhovka>  ;
+ rdfs:label "Kaxovka" ;
  lawd:hasName [
-lawd:primaryForm "Kaxovka"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2560/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2560/tei>  .
+ lawd:primaryForm "Kaxovka"@en ;];
+ dcterms:description "A city in the Ukraine with an Assyrian population since the 1990s." ;
+ dcterms:temporal "1991" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Kakhovka> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2560/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2560/tei> .

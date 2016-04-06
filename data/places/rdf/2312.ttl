@@ -11,15 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2312> a lawd:Place ;
-rdfs:label "Akhlat"  ;
+ rdfs:label "Akhlat" ;
  lawd:hasName [
-lawd:primaryForm "Akhlat"@en  ;];
+ lawd:primaryForm "Akhlat"@en ;];
  lawd:hasName [
-lawd:variantForm "Ḥalāt"@en  ;];
+ lawd:variantForm "Ḥalāt"@en ;];
  lawd:hasName [
-lawd:variantForm "Aḥlāṭ"@en  ;];
+ lawd:variantForm "Aḥlāṭ"@en ;];
  lawd:hasName [
-lawd:variantForm "Armenia"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2312/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2312/tei>  ;
-dcterms:relation <http://syriaca.org/place/17>  .
+ lawd:variantForm "Armenia"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2312/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2312/tei> ;
+ dcterms:relation <http://syriaca.org/place/17> .

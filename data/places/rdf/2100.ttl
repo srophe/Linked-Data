@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2100> a lawd:Place ;
-rdfs:label "Mar Ṭahmasgard"  ;
+ rdfs:label "Mar Ṭahmasgard" ;
  lawd:hasName [
-lawd:primaryForm "Mar Ṭahmasgard"@en  ;];
+ lawd:primaryForm "Mar Ṭahmasgard"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Ṭāhmasgard"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2100/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2100/tei>  .
+ lawd:variantForm "Mār Ṭāhmasgard"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2100/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2100/tei> .

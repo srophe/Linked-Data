@@ -11,24 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/535> a lawd:Place ;
-rdfs:label "Kandirib — ܟܢܕܝܪܝܒ"  ;
-dcterms:description "A village in ."  ;
-dcterms:temporal "1943"  ;
+ rdfs:label "Kandirib — ܟܢܕܝܪܝܒ" ;
  lawd:hasName [
-lawd:primaryForm "Kandirib"@en  ;];
+ lawd:primaryForm "Kandirib"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܟܢܕܝܪܝܒ"@syr  ;];
+ lawd:primaryForm "ܟܢܕܝܪܝܒ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܟܰܢܕܝܪܝܒ"@syr-Syrj  ;];
+ lawd:variantForm "ܟܰܢܕܝܪܝܒ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "كنديريب"@ar  ;];
+ lawd:variantForm "كنديريب"@ar ;];
  lawd:hasName [
-lawd:variantForm "Kandarib"@en  ;];
+ lawd:variantForm "Kandarib"@en ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/535/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/535/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related "Ṭur ʿAbdin" ;
+ dcterms:description "A village in ." ;
+ dcterms:temporal "1943" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/535/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/535/tei> .

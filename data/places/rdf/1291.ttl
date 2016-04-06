@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1291> a lawd:Place ;
-rdfs:label "Hūnek"  ;
+ rdfs:label "Hūnek" ;
  lawd:hasName [
-lawd:primaryForm "Hūnek"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1291/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1291/tei>  .
+ lawd:primaryForm "Hūnek"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1291/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1291/tei> .

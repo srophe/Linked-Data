@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1850> a lawd:Place ;
-rdfs:label "Chapel of Mary Magdalene"  ;
+ rdfs:label "Chapel of Mary Magdalene" ;
  lawd:hasName [
-lawd:primaryForm "Chapel of Mary Magdalene"@en  ;];
+ lawd:primaryForm "Chapel of Mary Magdalene"@en ;];
  lawd:hasName [
-lawd:variantForm "Chapel of the Crucifixion"@en  ;];
+ lawd:variantForm "Chapel of the Crucifixion"@en ;];
  lawd:hasName [
-lawd:variantForm "Church of the Holy Sepulchre"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1850/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1850/tei>  .
+ lawd:variantForm "Church of the Holy Sepulchre"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1850/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1850/tei> .

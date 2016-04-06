@@ -11,15 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/724> a lawd:Place ;
-rdfs:label "Siirt"  ;
+ rdfs:label "Siirt" ;
  lawd:hasName [
-lawd:primaryForm "Siirt"@en  ;];
+ lawd:primaryForm "Siirt"@en ;];
  lawd:hasName [
-lawd:variantForm "Seert"@en  ;];
+ lawd:variantForm "Seert"@en ;];
  lawd:hasName [
-lawd:variantForm "Arzun"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/724/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/724/tei>  ;
-dcterms:relation <http://syriaca.org/place/2365>  ;
-dcterms:relation <http://syriaca.org/place/2366>  ;
-dcterms:relation <http://syriaca.org/place/188>  .
+ lawd:variantForm "Arzun"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/724/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/724/tei> ;
+ dcterms:relation <http://syriaca.org/place/2365> ;
+ dcterms:relation <http://syriaca.org/place/2366> ;
+ dcterms:relation <http://syriaca.org/place/188> .

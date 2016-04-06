@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1900> a lawd:Place ;
-rdfs:label "Mar Ephrem"  ;
+ rdfs:label "Mar Ephrem" ;
  lawd:hasName [
-lawd:primaryForm "Mar Ephrem"@en  ;];
+ lawd:primaryForm "Mar Ephrem"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Ephrem"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1900/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1900/tei>  ;
-dcterms:relation <http://syriaca.org/place/2454>  ;
-dcterms:relation <http://syriaca.org/place/1899>  .
+ lawd:variantForm "Mār Ephrem"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1900/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1900/tei> ;
+ dcterms:relation <http://syriaca.org/place/2454> ;
+ dcterms:relation <http://syriaca.org/place/1899> .

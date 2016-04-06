@@ -11,25 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/484> a lawd:Place ;
-rdfs:label "Erzurum — ܐܪܙܪܘܡ"  ;
-dcterms:description "A city in northeastern ."  ;
-dcterms:temporal "0012"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874373>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Erzurum>  ;
+ rdfs:label "Erzurum — ܐܪܙܪܘܡ" ;
+ lawd:hasName [
+ lawd:primaryForm "Erzurum"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܪܙܪܘܡ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܰܪܙܪܽܘܡ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ارزروم"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "ارزن الروم"@ar ;];
+ skos:related "Anatolia" ;
+ dcterms:description "A city in northeastern ." ;
+ dcterms:temporal "0012" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874373> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Erzurum> ;
 geo:location [
-geo:lat "39.907739"  ;
-geo:long "39.907739"  ;];
- lawd:hasName [
-lawd:primaryForm "Erzurum"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܪܙܪܘܡ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܰܪܙܪܽܘܡ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ارزروم"@ar  ;];
- lawd:hasName [
-lawd:variantForm "ارزن الروم"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Anatolia"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/484/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/484/tei>  .
+ geo:lat "39.907739" ;
+ geo:long "41.276889" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/484/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/484/tei> ;
+geo:location [
+ geo:lat "39.907739" ;
+ geo:long "41.276889" ;].

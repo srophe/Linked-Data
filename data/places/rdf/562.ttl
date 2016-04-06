@@ -11,21 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/562> a lawd:Place ;
-rdfs:label "al-Jabal al-Mudkhin — ܛܘܪܐ ܡܬܢܢܐ"  ;
-dcterms:description "The hill outside of on which is the monastery of ."  ;
+ rdfs:label "al-Jabal al-Mudkhin — ܛܘܪܐ ܡܬܢܢܐ" ;
  lawd:hasName [
-lawd:primaryForm "al-Jabal al-Mudkhin"@en  ;];
+ lawd:primaryForm "al-Jabal al-Mudkhin"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܛܘܪܐ ܡܬܢܢܐ"@syr  ;];
+ lawd:primaryForm "ܛܘܪܐ ܡܬܢܢܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܛܘܪܐ ܡܬܰܢܳܢܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܛܘܪܐ ܡܬܰܢܳܢܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "الجبل المدخن"@ar  ;];
+ lawd:variantForm "الجبل المدخن"@ar ;];
  lawd:hasName [
-lawd:variantForm "Smoke Mountain"@en  ;];
- lawd:hasName [
-lawd:variantForm "Nabk"  ;];
- lawd:hasName [
-lawd:variantForm "Musa al-Ḥabashi"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/562/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/562/tei>  .
+ lawd:variantForm "Smoke Mountain"@en ;];
+ skos:related "Nabk" ;
+ skos:related "Musa al-Ḥabashi" ;
+ dcterms:description "The hill outside of on which is the monastery of ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/562/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/562/tei> .

@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/911> a lawd:Place ;
-rdfs:label "Argeb"  ;
+ rdfs:label "Argeb" ;
  lawd:hasName [
-lawd:primaryForm "Argeb"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/911/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/911/tei>  .
+ lawd:primaryForm "Argeb"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/911/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/911/tei> .

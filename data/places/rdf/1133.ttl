@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1133> a lawd:Place ;
-rdfs:label "Chiyānā"  ;
+ rdfs:label "Chiyānā" ;
  lawd:hasName [
-lawd:primaryForm "Chiyānā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1133/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1133/tei>  .
+ lawd:primaryForm "Chiyānā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1133/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1133/tei> .

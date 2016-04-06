@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/985> a lawd:Place ;
-rdfs:label "Bdīgar"  ;
+ rdfs:label "Bdīgar" ;
  lawd:hasName [
-lawd:primaryForm "Bdīgar"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/985/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/985/tei>  .
+ lawd:primaryForm "Bdīgar"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/985/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/985/tei> .

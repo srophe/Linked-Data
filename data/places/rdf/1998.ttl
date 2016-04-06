@@ -11,29 +11,29 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1998> a lawd:Place ;
-rdfs:label "Mar Ishaʿya"  ;
+ rdfs:label "Mar Ishaʿya" ;
  lawd:hasName [
-lawd:primaryForm "Mar Ishaʿya"@en  ;];
+ lawd:primaryForm "Mar Ishaʿya"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Ishaʿyā"@en  ;];
+ lawd:variantForm "Mār Ishaʿyā"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻFour Churches’"@en  ;];
+ lawd:variantForm "ʻFour Churches’"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Quriāqōs"@en  ;];
+ lawd:variantForm "Mār Quriāqōs"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Gīwārgīs"@en  ;];
+ lawd:variantForm "Mār Gīwārgīs"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Yōḥannān"@en  ;];
+ lawd:variantForm "Mār Yōḥannān"@en ;];
  lawd:hasName [
-lawd:variantForm "Mar Ishaya"@en-xsrp1  ;];
+ lawd:variantForm "Mar Ishaya"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mar Isha‘ya"@en-xsrp1  ;];
+ lawd:variantForm "Mar Isha‘ya"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Ishayā"@en-xsrp1  ;];
+ lawd:variantForm "Mār Ishayā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Isha‘yā"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1998/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1998/tei>  ;
-dcterms:relation <http://syriaca.org/place/1996>  ;
-dcterms:relation <http://syriaca.org/place/1997>  ;
-dcterms:relation <http://syriaca.org/place/1999>  .
+ lawd:variantForm "Mār Isha‘yā"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1998/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1998/tei> ;
+ dcterms:relation <http://syriaca.org/place/1996> ;
+ dcterms:relation <http://syriaca.org/place/1997> ;
+ dcterms:relation <http://syriaca.org/place/1999> .

@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1180> a lawd:Place ;
-rdfs:label "Apamene"  ;
-dcterms:description "The region around Apamea"  ;
+ rdfs:label "Apamene" ;
  lawd:hasName [
-lawd:primaryForm "Apamene"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1180/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1180/tei>  .
+ lawd:primaryForm "Apamene"@en ;];
+ dcterms:description "The region around Apamea" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1180/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1180/tei> .

@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2512> a lawd:Place ;
-rdfs:label "Monastery in the Lower Ṭiyari district"  ;
+ rdfs:label "Monastery in the Lower Ṭiyari district" ;
  lawd:hasName [
-lawd:primaryForm "Monastery in the Lower Ṭiyari district"@en  ;];
+ lawd:primaryForm "Monastery in the Lower Ṭiyari district"@en ;];
  lawd:hasName [
-lawd:variantForm "Name not known"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2512/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2512/tei>  .
+ lawd:variantForm "Name not known"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2512/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2512/tei> .

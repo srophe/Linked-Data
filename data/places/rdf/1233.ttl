@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1233> a lawd:Place ;
-rdfs:label "Birta"  ;
+ rdfs:label "Birta" ;
  lawd:hasName [
-lawd:primaryForm "Birta"@en  ;];
+ lawd:primaryForm "Birta"@en ;];
  lawd:hasName [
-lawd:variantForm "Birtā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1233/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1233/tei>  .
+ lawd:variantForm "Birtā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1233/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1233/tei> .

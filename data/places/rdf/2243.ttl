@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2243> a lawd:Place ;
-rdfs:label "Ahwaz"  ;
+ rdfs:label "Ahwaz" ;
  lawd:hasName [
-lawd:primaryForm "Ahwaz"@en  ;];
+ lawd:primaryForm "Ahwaz"@en ;];
  lawd:hasName [
-lawd:variantForm "Ahwaz (patriarchal vicariate)"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2243/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2243/tei>  .
+ lawd:variantForm "Ahwaz (patriarchal vicariate)"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2243/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2243/tei> .

@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1397> a lawd:Place ;
-rdfs:label "Kūsi"  ;
+ rdfs:label "Kūsi" ;
  lawd:hasName [
-lawd:primaryForm "Kūsi"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1397/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1397/tei>  .
+ lawd:primaryForm "Kūsi"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1397/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1397/tei> .

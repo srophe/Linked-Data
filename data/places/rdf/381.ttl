@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/381> a lawd:Place ;
-rdfs:label "Dayro da-Kfartebno — ܕܝܪܐ ܕܟܦܪܬܒܢܐ"  ;
+ rdfs:label "Dayro da-Kfartebno — ܕܝܪܐ ܕܟܦܪܬܒܢܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dayro da-Kfartebno"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܟܦܪܬܒܢܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܰܟܦܰܪܬܶܒܢܳܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير كفرتبنا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Kafrtina Monastery"@en ;];
  dcterms:description [
-rdfs:label "ܠܒܰܪ ܡܶܢ ܚܳܪܳܢ ܡܕܺܝܢܬܳܐ ܘܰܠܬܰܝܡܢܳܐ ܕܐܽܘܪܗܳܝ ܕܟܺܝܪ ܒܰܬܚܘ̈ܡܰܝ ܫܢܰܬ 710"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܠܒܰܪ ܡܶܢ ܚܳܪܳܢ ܡܕܺܝܢܬܳܐ ܘܰܠܬܰܝܡܢܳܐ ܕܐܽܘܪܗܳܝ ܕܟܺܝܪ ܒܰܬܚܘ̈ܡܰܝ ܫܢܰܬ 710"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بظاهر مدينة حران جنوبي الرها ذكر في حدود سنة 710."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بظاهر مدينة حران جنوبي الرها ذكر في حدود سنة 710."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "outside Ḥarran, south of Edessa, was mentioned by historians for the first time in 710."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0710"  ;
- lawd:hasName [
-lawd:primaryForm "Dayro da-Kfartebno"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܟܦܪܬܒܢܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܰܟܦܰܪܬܶܒܢܳܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير كفرتبنا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Kafrtina Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/381/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/381/tei>  .
+ rdfs:label "outside Ḥarran, south of Edessa, was mentioned by historians for the first time in 710."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0710" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/381/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/381/tei> .

@@ -11,26 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/607> a lawd:Place ;
-rdfs:label "Merv — ܡܪܘ"  ;
-dcterms:description "A city of ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/961873>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Merv>  ;
+ rdfs:label "Merv — ܡܪܘ" ;
+ lawd:hasName [
+ lawd:primaryForm "Merv"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܡܪܘ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܡܰܪܽܘ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "مرو"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Maru"@en ;];
+ lawd:hasName [
+ lawd:variantForm "مرو الشاهجان"@ar ;];
+ skos:related "Khurasan" ;
+ dcterms:description "A city of ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/961873> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Merv> ;
 geo:location [
-geo:lat "37.662778"  ;
-geo:long "37.662778"  ;];
- lawd:hasName [
-lawd:primaryForm "Merv"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܡܪܘ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܡܰܪܽܘ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "مرو"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Maru"@en  ;];
- lawd:hasName [
-lawd:variantForm "مرو الشاهجان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Khurasan"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/607/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/607/tei>  .
+ geo:lat "37.662778" ;
+ geo:long "62.1925" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/607/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/607/tei> ;
+geo:location [
+ geo:lat "37.662778" ;
+ geo:long "62.1925" ;].

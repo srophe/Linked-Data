@@ -11,25 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/114> a lawd:Place ;
-rdfs:label "Khabur — ܚܒܘܪ"  ;
-dcterms:description "A tributary of the that enters it at ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874565>  ;
-skos:exactMatch <http://pleiades.stoa.org/places/893928>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Khabur_River>  ;
+ rdfs:label "Khabur — ܚܒܘܪ" ;
  lawd:hasName [
-lawd:primaryForm "Khabur"@en  ;];
+ lawd:primaryForm "Khabur"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܚܒܘܪ"@syr  ;];
+ lawd:primaryForm "ܚܒܘܪ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܚܳܒܘܪ"@syr-Syrj  ;];
+ lawd:variantForm "ܚܳܒܘܪ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "الخابور"@ar  ;];
+ lawd:variantForm "الخابور"@ar ;];
  lawd:hasName [
-lawd:variantForm "Khabur River"@en  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates"  ;];
- lawd:hasName [
-lawd:variantForm "Circesium"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/114/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/114/tei>  ;
-dcterms:relation <http://syriaca.org/place/2566>  .
+ lawd:variantForm "Khabur River"@en ;];
+ skos:related "Euphrates" ;
+ skos:related "Circesium" ;
+ dcterms:description "A tributary of the that enters it at ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874565> ;
+ skos:exactMatch <http://pleiades.stoa.org/places/893928> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Khabur_River> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/114/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/114/tei> ;
+ dcterms:relation <http://syriaca.org/place/2566> .

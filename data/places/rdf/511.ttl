@@ -11,39 +11,39 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/511> a lawd:Place ;
-rdfs:label "Nizip — ܢܨܝܒܝܢ ܕܪ̈ܘܡܝܐ"  ;
-dcterms:description "A town west of the between and ."  ;
+ rdfs:label "Nizip — ܢܨܝܒܝܢ ܕܪ̈ܘܡܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Nizip"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܢܨܝܒܝܢ ܕܪ̈ܘܡܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܢܨܝܒܝܢ ܕܪ̈ܘܡܳܝܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "نصيبين الروم"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Byzantine Nisibin"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Aintab"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Aintab"@en-xsrp1 ;];
+ skos:related "Euphrates" ;
+ skos:related "ʿAintab" ;
+ skos:related "Birtha" ;
+ dcterms:description "A town west of the between and ." ;
  dcterms:description [
-rdfs:label "ونصيبين ايضا قرية على شاطئ الفرات غربي بيرهجك كانت تعرف بنصيبين الروم."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ونصيبين ايضا قرية على شاطئ الفرات غربي بيرهجك كانت تعرف بنصيبين الروم."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "Nisibin is also the name of a village on the west bank of the Euphrates, west of Biricik, formerly known as the Byzantine Nisibin."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0300"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658550>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Nizip>  ;
+ rdfs:label "Nisibin is also the name of a village on the west bank of the Euphrates, west of Biricik, formerly known as the Byzantine Nisibin."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0300" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658550> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Nizip> ;
 geo:location [
-geo:lat "37.009788"  ;
-geo:long "37.009788"  ;];
- lawd:hasName [
-lawd:primaryForm "Nizip"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܢܨܝܒܝܢ ܕܪ̈ܘܡܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܢܨܝܒܝܢ ܕܪ̈ܘܡܳܝܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "نصيبين الروم"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Byzantine Nisibin"@en  ;];
- lawd:hasName [
-lawd:variantForm "Aintab"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Aintab"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates"  ;];
- lawd:hasName [
-lawd:variantForm "ʿAintab"  ;];
- lawd:hasName [
-lawd:variantForm "Birtha"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/511/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/511/tei>  .
+ geo:lat "37.009788" ;
+ geo:long "37.788277" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/511/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/511/tei> ;
+geo:location [
+ geo:lat "37.009788" ;
+ geo:long "37.788277" ;].

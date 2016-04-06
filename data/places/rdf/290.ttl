@@ -11,33 +11,36 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/290> a lawd:Place ;
-rdfs:label "Aqsarāy — ܐܩܣܪܐܝ"  ;
+ rdfs:label "Aqsarāy — ܐܩܣܪܐܝ" ;
+ lawd:hasName [
+ lawd:primaryForm "Aqsarāy"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܩܣܪܐܝ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܰܩܣܰܪܰܐܝ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "آقسراي"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "اقصرا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Aksaray"@en ;];
  dcterms:description [
-rdfs:label "ܡܕܝܺܢܬܐ ܕܰܠܓܪܒܰܝ ܡܰܕܢܰܚ ܩܳܘܢܝܰܐ ܘܪܰܚܝ̣ܩܳܐ ܡܶܢܗ̇ 60 ܡܝ̈ܠܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܝܺܢܬܐ ܕܰܠܓܪܒܰܝ ܡܰܕܢܰܚ ܩܳܘܢܝܰܐ ܘܪܰܚܝ̣ܩܳܐ ܡܶܢܗ̇ 60 ܡܝ̈ܠܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة الى الجهة الشمالية الشرقية من مدينة قونية على مسافة 60 ميلاً منها"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة الى الجهة الشمالية الشرقية من مدينة قونية على مسافة 60 ميلاً منها"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town sixty miles northeast of Konya."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-0030"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/619164>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Aksaray>  ;
+ rdfs:label "a town sixty miles northeast of Konya."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-0030" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/619164> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Aksaray> ;
 geo:location [
-geo:lat "38.37335"  ;
-geo:long "38.37335"  ;];
- lawd:hasName [
-lawd:primaryForm "Aqsarāy"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܩܣܪܐܝ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܰܩܣܰܪܰܐܝ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "آقسراي"@ar  ;];
- lawd:hasName [
-lawd:variantForm "اقصرا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Aksaray"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/290/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/290/tei>  .
+ geo:lat "38.37335" ;
+ geo:long "34.028159" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/290/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/290/tei> ;
+geo:location [
+ geo:lat "38.37335" ;
+ geo:long "34.028159" ;].

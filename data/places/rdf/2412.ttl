@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2412> a lawd:Place ;
-rdfs:label "Zakho"  ;
+ rdfs:label "Zakho" ;
  lawd:hasName [
-lawd:primaryForm "Zakho"@en  ;];
+ lawd:primaryForm "Zakho"@en ;];
  lawd:hasName [
-lawd:variantForm "Zākhō"@en  ;];
+ lawd:variantForm "Zākhō"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻZuch’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2412/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2412/tei>  ;
-dcterms:relation <http://syriaca.org/place/208>  .
+ lawd:variantForm "ʻZuch’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2412/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2412/tei> ;
+ dcterms:relation <http://syriaca.org/place/208> .

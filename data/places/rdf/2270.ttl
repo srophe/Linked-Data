@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2270> a lawd:Place ;
-rdfs:label "ʻBaumar’"  ;
+ rdfs:label "ʻBaumar’" ;
  lawd:hasName [
-lawd:primaryForm "ʻBaumar’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2270/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2270/tei>  .
+ lawd:primaryForm "ʻBaumar’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2270/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2270/tei> .

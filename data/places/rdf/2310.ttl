@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2310> a lawd:Place ;
-rdfs:label "Hakkari"  ;
+ rdfs:label "Hakkari" ;
  lawd:hasName [
-lawd:primaryForm "Hakkari"@en  ;];
+ lawd:primaryForm "Hakkari"@en ;];
  lawd:hasName [
-lawd:variantForm "Hakkārī"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2310/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2310/tei>  ;
-dcterms:relation <http://syriaca.org/place/90>  .
+ lawd:variantForm "Hakkārī"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2310/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2310/tei> ;
+ dcterms:relation <http://syriaca.org/place/90> .

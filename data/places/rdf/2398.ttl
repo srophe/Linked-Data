@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2398> a lawd:Place ;
-rdfs:label "Ṭus"  ;
+ rdfs:label "Ṭus" ;
  lawd:hasName [
-lawd:primaryForm "Ṭus"@en  ;];
+ lawd:primaryForm "Ṭus"@en ;];
  lawd:hasName [
-lawd:variantForm "Ṭūs"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2398/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2398/tei>  .
+ lawd:variantForm "Ṭūs"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2398/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2398/tei> .

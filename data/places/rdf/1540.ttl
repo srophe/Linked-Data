@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1540> a lawd:Place ;
-rdfs:label "Mengesh"  ;
+ rdfs:label "Mengesh" ;
  lawd:hasName [
-lawd:primaryForm "Mengesh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1540/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1540/tei>  .
+ lawd:primaryForm "Mengesh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1540/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1540/tei> .

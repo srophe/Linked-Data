@@ -11,20 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/712> a lawd:Place ;
-rdfs:label "Gazarta"  ;
+ rdfs:label "Gazarta" ;
  lawd:hasName [
-lawd:primaryForm "Gazarta"@en  ;];
+ lawd:primaryForm "Gazarta"@en ;];
  lawd:hasName [
-lawd:variantForm "Gāzartā"@en  ;];
+ lawd:variantForm "Gāzartā"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Zabdaï"@en  ;];
+ lawd:variantForm "Beṯ Zabdaï"@en ;];
  lawd:hasName [
-lawd:variantForm "Qardū"@en  ;];
- lawd:hasName [
-lawd:variantForm "Upper Jazira"  ;];
- lawd:hasName [
-lawd:variantForm "Tigris"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/712/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/712/tei>  ;
-dcterms:relation <http://syriaca.org/place/88>  ;
-dcterms:relation <http://syriaca.org/place/2304>  .
+ lawd:variantForm "Qardū"@en ;];
+ skos:related "Upper Jazira" ;
+ skos:related "Tigris" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/712/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/712/tei> ;
+ dcterms:relation <http://syriaca.org/place/88> ;
+ dcterms:relation <http://syriaca.org/place/2304> .

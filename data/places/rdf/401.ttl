@@ -11,30 +11,29 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/401> a lawd:Place ;
-rdfs:label "Dunaysar — ܕܢܝܣܪ"  ;
+ rdfs:label "Dunaysar — ܕܢܝܣܪ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dunaysar"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܢܝܣܪ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "دُنَيسر"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "قوج حصار"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Koç Hisar"@en ;];
+ lawd:hasName [
+ lawd:variantForm "دُنيسر"@ar ;];
+ skos:related "Kızıltepe" ;
  dcterms:description [
-rdfs:label "ܠܬܰܝܡܢܗ ܡܰܥܪܒܳܝܐ ܕܡܰܪܕܝܢ ܒܰܝܢܳܬܗܝܢ ܬܪܶܝܢ ܦܰܪ̈ܣܚܐ ܒܕܳܪܐ ܕܰܬܠܳܬܰܥܣܪ ܡܕܝܢܬܳܐ ܗܘܳܬ ܪܒܬܐ. ܝܰܘܡܳܢܐ ܒܪܰܡ ܩܰܝܳܡܐ ܒܕܘܟܬܗ̇ ܩܰܣܛܪܐ ܕܡܶܬܶܐܡܰܪ ܠܗ ܩܶܙܶܠܬܰܦܰܗ ܗ̄ ܬܶܠܳܐ ܣܘܡܳܩܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܠܬܰܝܡܢܗ ܡܰܥܪܒܳܝܐ ܕܡܰܪܕܝܢ ܒܰܝܢܳܬܗܝܢ ܬܪܶܝܢ ܦܰܪ̈ܣܚܐ ܒܕܳܪܐ ܕܰܬܠܳܬܰܥܣܪ ܡܕܝܢܬܳܐ ܗܘܳܬ ܪܒܬܐ. ܝܰܘܡܳܢܐ ܒܪܰܡ ܩܰܝܳܡܐ ܒܕܘܟܬܗ̇ ܩܰܣܛܪܐ ܕܡܶܬܶܐܡܰܪ ܠܗ ܩܶܙܶܠܬܰܦܰܗ ܗ̄ ܬܶܠܳܐ ܣܘܡܳܩܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "جنوبي ماردين بينهما فرسخان كانت في القرن الثالث عشر بلدة عظيمة اما اليوم فهي قرية تسمى قوج حصار يجاورها قرية تل ارمن."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "جنوبي ماردين بينهما فرسخان كانت في القرن الثالث عشر بلدة عظيمة اما اليوم فهي قرية تسمى قوج حصار يجاورها قرية تل ارمن."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "situated south of Mardin, Dunaysar was a large town in the thirteenth century. Today it is a small village, called Koç Hisar, near Tell al-Arman."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1225"  ;
- lawd:hasName [
-lawd:primaryForm "Dunaysar"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܢܝܣܪ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "دُنَيسر"@ar  ;];
- lawd:hasName [
-lawd:variantForm "قوج حصار"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Koç Hisar"@en  ;];
- lawd:hasName [
-lawd:variantForm "دُنيسر"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Kızıltepe"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/401/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/401/tei>  .
+ rdfs:label "situated south of Mardin, Dunaysar was a large town in the thirteenth century. Today it is a small village, called Koç Hisar, near Tell al-Arman."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1225" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/401/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/401/tei> .

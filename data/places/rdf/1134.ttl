@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1134> a lawd:Place ;
-rdfs:label "Chūlchen"  ;
+ rdfs:label "Chūlchen" ;
  lawd:hasName [
-lawd:primaryForm "Chūlchen"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1134/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1134/tei>  .
+ lawd:primaryForm "Chūlchen"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1134/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1134/tei> .

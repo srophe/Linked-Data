@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2321> a lawd:Place ;
-rdfs:label "Jerusalem"  ;
+ rdfs:label "Jerusalem" ;
  lawd:hasName [
-lawd:primaryForm "Jerusalem"@en  ;];
+ lawd:primaryForm "Jerusalem"@en ;];
  lawd:hasName [
-lawd:variantForm "Jerusalem (West Syrian diocese)"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2321/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2321/tei>  ;
-dcterms:relation <http://syriaca.org/place/104>  ;
-dcterms:relation <http://syriaca.org/place/2320>  .
+ lawd:variantForm "Jerusalem (West Syrian diocese)"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2321/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2321/tei> ;
+ dcterms:relation <http://syriaca.org/place/104> ;
+ dcterms:relation <http://syriaca.org/place/2320> .

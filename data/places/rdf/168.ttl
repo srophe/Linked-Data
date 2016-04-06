@@ -11,33 +11,34 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/168> a lawd:Place ;
-rdfs:label "Rabban Hormizd — ܪܒܢ ܗܘܪܡܝܙܕ ܥܓ̰ܡܝܐ"  ;
+ rdfs:label "Rabban Hormizd — ܪܒܢ ܗܘܪܡܝܙܕ ܥܓ̰ܡܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Rabban Hormizd"@en ;];
+ lawd:hasName [
+ lawd:variantForm "monastery of Rabban Hormizd"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Rabban Hormizd the Persian"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܪܒܢ ܗܘܪܡܝܙܕ ܥܓ̰ܡܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܪܲܒ̇ܢ ܗܘܿܪܡܝܼܙܕ ܥܲܓ̰ܡܵܝܐ"@syr-Syrn ;];
+ lawd:hasName [
+ lawd:variantForm "Rabban Bar Edta"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Rabban Bar ‘Edta"@en-xsrp1 ;];
+ skos:related "Beth Lapaṭ" ;
+ skos:related "Rabban Bar ʿEdta" ;
  dcterms:description [
-rdfs:label "The Chaldean monastery of Rabban Hormizd, built upon a mountain ridge northeast of Alqosh in northern Iraq, is famous not only for its magnificent location and impressive buildings, but also for its central role in the history of the transmission of E.-Syr. literature and its importance in the struggles between the Chald. Church and the Ch. of E., to which the monastery originally belonged."@en  ;];
+ rdfs:label "The Chaldean monastery of Rabban Hormizd, built upon a mountain ridge northeast of Alqosh in northern Iraq, is famous not only for its magnificent location and impressive buildings, but also for its central role in the history of the transmission of E.-Syr. literature and its importance in the struggles between the Chald. Church and the Ch. of E., to which the monastery originally belonged."@en ;];
  dcterms:description [
-rdfs:label "264. Hormizd, Monastery of Rabban"@en  ;];
-dcterms:temporal "0700"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Rabban_Hormizd_Monastery>  ;
+ rdfs:label "264. Hormizd, Monastery of Rabban"@en ;];
+ dcterms:temporal "0700" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Rabban_Hormizd_Monastery> ;
 geo:location [
-geo:lat "36.749167"  ;
-geo:long "36.749167"  ;];
- lawd:hasName [
-lawd:primaryForm "Rabban Hormizd"@en  ;];
- lawd:hasName [
-lawd:variantForm "monastery of Rabban Hormizd"@en  ;];
- lawd:hasName [
-lawd:variantForm "Rabban Hormizd the Persian"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܪܒܢ ܗܘܪܡܝܙܕ ܥܓ̰ܡܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܪܲܒ̇ܢ ܗܘܿܪܡܝܼܙܕ ܥܲܓ̰ܡܵܝܐ"@syr-Syrn  ;];
- lawd:hasName [
-lawd:variantForm "Rabban Bar Edta"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Rabban Bar ‘Edta"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Beth Lapaṭ"  ;];
- lawd:hasName [
-lawd:variantForm "Rabban Bar ʿEdta"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/168/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/168/tei>  .
+ geo:lat "36.749167" ;
+ geo:long "43.114444" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/168/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/168/tei> ;
+geo:location [
+ geo:lat "36.749167" ;
+ geo:long "43.114444" ;].

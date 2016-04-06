@@ -11,14 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/246> a lawd:Place ;
-rdfs:label "Khosrowa"  ;
-dcterms:description "A village southwest of ."  ;
-dcterms:temporal "0697"  ;
+ rdfs:label "Khosrowa" ;
  lawd:hasName [
-lawd:primaryForm "Khosrowa"@en  ;];
+ lawd:primaryForm "Khosrowa"@en ;];
  lawd:hasName [
-lawd:variantForm "Khosrōwā"@en  ;];
- lawd:hasName [
-lawd:variantForm "Salmas"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/246/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/246/tei>  .
+ lawd:variantForm "Khosrōwā"@en ;];
+ skos:related "Salmas" ;
+ dcterms:description "A village southwest of ." ;
+ dcterms:temporal "0697" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/246/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/246/tei> .

@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/319> a lawd:Place ;
-rdfs:label "al-Jabal al-Muqaddas"  ;
+ rdfs:label "al-Jabal al-Muqaddas" ;
+ lawd:hasName [
+ lawd:primaryForm "al-Jabal al-Muqaddas"@en ;];
+ lawd:hasName [
+ lawd:variantForm "الجبل المقدس"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "The Holy Mountain"@en ;];
  dcterms:description [
-rdfs:label "شرقي الرها اشتهر بكثرة ادياره"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "شرقي الرها اشتهر بكثرة ادياره"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a mountain east of Edessa which became famous for its many monasteries."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
- lawd:hasName [
-lawd:primaryForm "al-Jabal al-Muqaddas"@en  ;];
- lawd:hasName [
-lawd:variantForm "الجبل المقدس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "The Holy Mountain"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/319/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/319/tei>  .
+ rdfs:label "a mountain east of Edessa which became famous for its many monasteries."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/319/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/319/tei> .

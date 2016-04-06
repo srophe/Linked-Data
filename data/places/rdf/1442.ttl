@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1442> a lawd:Place ;
-rdfs:label "Mata d-ʿUmra-Ḥatibet"  ;
+ rdfs:label "Mata d-ʿUmra-Ḥatibet" ;
  lawd:hasName [
-lawd:primaryForm "Mata d-ʿUmra-Ḥatibet"@en  ;];
+ lawd:primaryForm "Mata d-ʿUmra-Ḥatibet"@en ;];
  lawd:hasName [
-lawd:variantForm "Māṯā d’ʿŪmrā-Ḥātibet"@en  ;];
+ lawd:variantForm "Māṯā d’ʿŪmrā-Ḥātibet"@en ;];
  lawd:hasName [
-lawd:variantForm "Mata d-Umra-Ḥatibet"@en-xsrp1  ;];
+ lawd:variantForm "Mata d-Umra-Ḥatibet"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mata d-‘Umra-Ḥatibet"@en-xsrp1  ;];
+ lawd:variantForm "Mata d-‘Umra-Ḥatibet"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Māṯā d’Ūmrā-Ḥātibet"@en-xsrp1  ;];
+ lawd:variantForm "Māṯā d’Ūmrā-Ḥātibet"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Māṯā d’‘Ūmrā-Ḥātibet"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1442/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1442/tei>  .
+ lawd:variantForm "Māṯā d’‘Ūmrā-Ḥātibet"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1442/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1442/tei> .

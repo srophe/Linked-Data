@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1605> a lawd:Place ;
-rdfs:label "Poḥānīs"  ;
+ rdfs:label "Poḥānīs" ;
  lawd:hasName [
-lawd:primaryForm "Poḥānīs"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1605/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1605/tei>  .
+ lawd:primaryForm "Poḥānīs"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1605/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1605/tei> .

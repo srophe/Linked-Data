@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1679> a lawd:Place ;
-rdfs:label "Sarībajlūi"  ;
+ rdfs:label "Sarībajlūi" ;
  lawd:hasName [
-lawd:primaryForm "Sarībajlūi"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1679/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1679/tei>  .
+ lawd:primaryForm "Sarībajlūi"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1679/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1679/tei> .

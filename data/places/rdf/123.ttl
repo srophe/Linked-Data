@@ -11,30 +11,30 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/123> a lawd:Place ;
-rdfs:label "Maishan"  ;
-dcterms:description "A region of southern south of and northwest of ."  ;
-dcterms:temporal "0226"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/912905>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Maishan>  ;
+ rdfs:label "Maishan" ;
+ lawd:hasName [
+ lawd:primaryForm "Maishan"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Mesene"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Maishān"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Basra"@en ;];
+ lawd:hasName [
+ lawd:variantForm "مَيْسان"@ar ;];
+ skos:related "Iraq" ;
+ skos:related "Kashkar" ;
+ skos:related "Baṣra" ;
+ dcterms:description "A region of southern south of and northwest of ." ;
+ dcterms:temporal "0226" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/912905> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Maishan> ;
 geo:location [
-geo:lat "30.8093425"  ;
-geo:long "30.8093425"  ;];
- lawd:hasName [
-lawd:primaryForm "Maishan"@en  ;];
- lawd:hasName [
-lawd:variantForm "Mesene"@en  ;];
- lawd:hasName [
-lawd:variantForm "Maishān"@en  ;];
- lawd:hasName [
-lawd:variantForm "Basra"@en  ;];
- lawd:hasName [
-lawd:variantForm "مَيْسان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Iraq"  ;];
- lawd:hasName [
-lawd:variantForm "Kashkar"  ;];
- lawd:hasName [
-lawd:variantForm "Baṣra"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/123/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/123/tei>  ;
-dcterms:relation <http://syriaca.org/place/2339>  .
+ geo:lat "30.8093425" ;
+ geo:long "47.562804" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/123/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/123/tei> ;
+geo:location [
+ geo:lat "30.8093425" ;
+ geo:long "47.562804" ;];
+ dcterms:relation <http://syriaca.org/place/2339> .

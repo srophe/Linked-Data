@@ -11,17 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/555> a lawd:Place ;
-rdfs:label "Dayrkah"  ;
-dcterms:description "A village north of near which is the monastery of ."  ;
+ rdfs:label "Dayrkah" ;
  lawd:hasName [
-lawd:primaryForm "Dayrkah"@en  ;];
+ lawd:primaryForm "Dayrkah"@en ;];
  lawd:hasName [
-lawd:variantForm "ديركه"@ar  ;];
+ lawd:variantForm "ديركه"@ar ;];
  lawd:hasName [
-lawd:variantForm "Dairkah"@en  ;];
- lawd:hasName [
-lawd:variantForm "Mardin"  ;];
- lawd:hasName [
-lawd:variantForm "Mor Daniel of Jolsh"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/555/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/555/tei>  .
+ lawd:variantForm "Dairkah"@en ;];
+ skos:related "Mardin" ;
+ skos:related "Mor Daniel of Jolsh" ;
+ dcterms:description "A village north of near which is the monastery of ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/555/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/555/tei> .

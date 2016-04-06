@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2442> a lawd:Place ;
-rdfs:label "Mar ʻAbupus’"  ;
+ rdfs:label "Mar ʻAbupus’" ;
  lawd:hasName [
-lawd:primaryForm "Mar ʻAbupus’"@en  ;];
+ lawd:primaryForm "Mar ʻAbupus’"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār ʻAbupus’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2442/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2442/tei>  .
+ lawd:variantForm "Mār ʻAbupus’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2442/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2442/tei> .

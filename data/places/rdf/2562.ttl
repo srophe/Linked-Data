@@ -11,16 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2562> a lawd:Place ;
-rdfs:label "Mart Maryam"  ;
-dcterms:description "A church in"  ;
-dcterms:temporal "1875"  ;
+ rdfs:label "Mart Maryam" ;
  lawd:hasName [
-lawd:primaryForm "Mart Maryam"@en  ;];
+ lawd:primaryForm "Mart Maryam"@en ;];
  lawd:hasName [
-lawd:variantForm "Mart Mariam"@en  ;];
+ lawd:variantForm "Mart Mariam"@en ;];
  lawd:hasName [
-lawd:variantForm "St. Mary"@en  ;];
- lawd:hasName [
-lawd:variantForm "Arzni"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2562/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2562/tei>  .
+ lawd:variantForm "St. Mary"@en ;];
+ skos:related "Arzni" ;
+ dcterms:description "A church in" ;
+ dcterms:temporal "1875" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2562/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2562/tei> .

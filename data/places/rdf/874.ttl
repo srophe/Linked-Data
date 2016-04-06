@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/874> a lawd:Place ;
-rdfs:label "Sulṭāniyya"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Soltaniyeh>  ;
+ rdfs:label "Sulṭāniyya" ;
  lawd:hasName [
-lawd:primaryForm "Sulṭāniyya"@en  ;];
+ lawd:primaryForm "Sulṭāniyya"@en ;];
  lawd:hasName [
-lawd:variantForm "Sultaniyyeh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/874/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/874/tei>  .
+ lawd:variantForm "Sultaniyyeh"@en ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Soltaniyeh> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/874/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/874/tei> .

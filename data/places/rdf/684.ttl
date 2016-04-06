@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/684> a lawd:Place ;
-rdfs:label "ʿAyn Warqa"  ;
+ rdfs:label "ʿAyn Warqa" ;
  lawd:hasName [
-lawd:primaryForm "ʿAyn Warqa"@en  ;];
+ lawd:primaryForm "ʿAyn Warqa"@en ;];
  lawd:hasName [
-lawd:variantForm "Ayn Warqa"@en-xsrp1  ;];
+ lawd:variantForm "Ayn Warqa"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Ayn Warqa"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/684/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/684/tei>  .
+ lawd:variantForm "‘Ayn Warqa"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/684/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/684/tei> .

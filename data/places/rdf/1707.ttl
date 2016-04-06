@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1707> a lawd:Place ;
-rdfs:label "Shawrezā"  ;
+ rdfs:label "Shawrezā" ;
  lawd:hasName [
-lawd:primaryForm "Shawrezā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1707/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1707/tei>  .
+ lawd:primaryForm "Shawrezā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1707/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1707/tei> .

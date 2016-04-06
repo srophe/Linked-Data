@@ -11,53 +11,56 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/62> a lawd:Place ;
-rdfs:label "Circesium — ܩܪܩܝܣܝܘܢ"  ;
-dcterms:description "A city at the confluence of the Euphrates and the Khabur rivers."  ;
+ rdfs:label "Circesium — ܩܪܩܝܣܝܘܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Circesium"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܩܪܩܝܣܝܘܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܩܰܪܩܝܣܝܘܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܩܪܩܝܣܝܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܰܒܘܣܰܪܰܐܝ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܨܝܪܗ̈"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "قرقسيون"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "قرقيسياء"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "ابو سراي"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "بصيرة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Qarqisun"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Qarqisyya"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Abu Saray"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Busayra"@en ;];
+ lawd:hasName [
+ lawd:variantForm "قَرْقيْسِياء"@ar ;];
+ dcterms:description "A city at the confluence of the Euphrates and the Khabur rivers." ;
  dcterms:description [
-rdfs:label "ܐܰܬܪܐ ܗܘ ܕܥܰܠ ܢܗܰܪ ܢܒܘܪܐܝܟܐ ܕܢܳܣܶܟ ܒܰܦܪܳܬ. ܚܪܶܒ ܘܐܝܬ ܒܕܘܟܬܗ ܩܪܝܬܳܐ ܕܡܶܬܐܡܰܪ ܠܳܗ̇ ܐܰܒܘܣܰܪܰܐܝ (ܒܨܝܪܗ̈)"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܐ ܗܘ ܕܥܰܠ ܢܗܰܪ ܢܒܘܪܐܝܟܐ ܕܢܳܣܶܟ ܒܰܦܪܳܬ. ܚܪܶܒ ܘܐܝܬ ܒܕܘܟܬܗ ܩܪܝܬܳܐ ܕܡܶܬܐܡܰܪ ܠܳܗ̇ ܐܰܒܘܣܰܪܰܐܝ (ܒܨܝܪܗ̈)"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلد على نهر الخابور عند مصبه في الفرات خرب وفي موضعه قرية ابو سراي (بصيرة)."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلد على نهر الخابور عند مصبه في الفرات خرب وفي موضعه قرية ابو سراي (بصيرة)."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town near the place where the Khabur joins the Euphrates; it no longer exists. On its site lies the village of Abu Saray (Busayra)."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0363"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/893974>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Circesium>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Al-Busayrah>  ;
+ rdfs:label "a town near the place where the Khabur joins the Euphrates; it no longer exists. On its site lies the village of Abu Saray (Busayra)."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0363" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/893974> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Circesium> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Al-Busayrah> ;
 geo:location [
-geo:lat "35.15676"  ;
-geo:long "35.15676"  ;];
- lawd:hasName [
-lawd:primaryForm "Circesium"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܩܪܩܝܣܝܘܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܩܰܪܩܝܣܝܘܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܩܪܩܝܣܝܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܐܰܒܘܣܰܪܰܐܝ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܒܨܝܪܗ̈"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "قرقسيون"@ar  ;];
- lawd:hasName [
-lawd:variantForm "قرقيسياء"@ar  ;];
- lawd:hasName [
-lawd:variantForm "ابو سراي"@ar  ;];
- lawd:hasName [
-lawd:variantForm "بصيرة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Qarqisun"@en  ;];
- lawd:hasName [
-lawd:variantForm "Qarqisyya"@en  ;];
- lawd:hasName [
-lawd:variantForm "Abu Saray"@en  ;];
- lawd:hasName [
-lawd:variantForm "Busayra"@en  ;];
- lawd:hasName [
-lawd:variantForm "قَرْقيْسِياء"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/62/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/62/tei>  .
+ geo:lat "35.15676" ;
+ geo:long "40.42574" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/62/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/62/tei> ;
+geo:location [
+ geo:lat "35.15676" ;
+ geo:long "40.42574" ;].

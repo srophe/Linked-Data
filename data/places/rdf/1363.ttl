@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1363> a lawd:Place ;
-rdfs:label "Kafrā"  ;
+ rdfs:label "Kafrā" ;
  lawd:hasName [
-lawd:primaryForm "Kafrā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1363/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1363/tei>  .
+ lawd:primaryForm "Kafrā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1363/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1363/tei> .

@@ -11,15 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/758> a lawd:Place ;
-rdfs:label "Ishtazin"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Jilu>  ;
+ rdfs:label "Ishtazin" ;
  lawd:hasName [
-lawd:primaryForm "Ishtazin"@en  ;];
+ lawd:primaryForm "Ishtazin"@en ;];
  lawd:hasName [
-lawd:variantForm "Little Jīlū"@en  ;];
+ lawd:variantForm "Little Jīlū"@en ;];
  lawd:hasName [
-lawd:variantForm "Bnemāye"@en  ;];
+ lawd:variantForm "Bnemāye"@en ;];
  lawd:hasName [
-lawd:variantForm "Lesser Jīlū"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/758/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/758/tei>  .
+ lawd:variantForm "Lesser Jīlū"@en ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Jilu> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/758/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/758/tei> .

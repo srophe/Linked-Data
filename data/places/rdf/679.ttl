@@ -11,18 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/679> a lawd:Place ;
-rdfs:label "Awāna"  ;
-dcterms:description "A village in Iraq."  ;
-dcterms:temporal "0894"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/894139>  ;
+ rdfs:label "Awāna" ;
+ lawd:hasName [
+ lawd:primaryForm "Awāna"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Awānā"@en ;];
+ lawd:hasName [
+ lawd:variantForm "أَوانا"@ar ;];
+ dcterms:description "A village in Iraq." ;
+ dcterms:temporal "0894" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/894139> ;
 geo:location [
-geo:lat "33.853599"  ;
-geo:long "33.853599"  ;];
- lawd:hasName [
-lawd:primaryForm "Awāna"@en  ;];
- lawd:hasName [
-lawd:variantForm "Awānā"@en  ;];
- lawd:hasName [
-lawd:variantForm "أَوانا"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/679/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/679/tei>  .
+ geo:lat "33.853599" ;
+ geo:long "44.404396" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/679/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/679/tei> ;
+geo:location [
+ geo:lat "33.853599" ;
+ geo:long "44.404396" ;].

@@ -11,20 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1498> a lawd:Place ;
-rdfs:label "Dayr Mar Atūnūs — ܕܝܪܐ ܕܡܪܝ ܐܬܢܘܣ"  ;
-dcterms:description "An unlocated monastery, perhaps near ."  ;
-dcterms:temporal "0889"  ;
+ rdfs:label "Dayr Mar Atūnūs — ܕܝܪܐ ܕܡܪܝ ܐܬܢܘܣ" ;
  lawd:hasName [
-lawd:primaryForm "Dayr Mar Atūnūs"@en  ;];
+ lawd:primaryForm "Dayr Mar Atūnūs"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܐܬܢܘܣ"@syr  ;];
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܐܬܢܘܣ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܐܰܬܰܢܽܘܣ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܐܰܬܰܢܽܘܣ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "دير مار اتونوس"@ar  ;];
+ lawd:variantForm "دير مار اتونوس"@ar ;];
  lawd:hasName [
-lawd:variantForm "Monastery of Mar Athonos"@en  ;];
- lawd:hasName [
-lawd:variantForm "Melitene"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1498/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1498/tei>  .
+ lawd:variantForm "Monastery of Mar Athonos"@en ;];
+ skos:related "Melitene" ;
+ dcterms:description "An unlocated monastery, perhaps near ." ;
+ dcterms:temporal "0889" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1498/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1498/tei> .

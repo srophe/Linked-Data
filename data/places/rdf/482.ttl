@@ -11,26 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/482> a lawd:Place ;
-rdfs:label "Dayr al-Zor — ܕܝܪ ܐܠܙܘܪ"  ;
-dcterms:description "A city on the southeast of ."  ;
-dcterms:temporal "1867"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Deir_ez-Zor>  ;
+ rdfs:label "Dayr al-Zor — ܕܝܪ ܐܠܙܘܪ" ;
  lawd:hasName [
-lawd:primaryForm "Dayr al-Zor"@en  ;];
+ lawd:primaryForm "Dayr al-Zor"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܝܪ ܐܠܙܘܪ"@syr  ;];
+ lawd:primaryForm "ܕܝܪ ܐܠܙܘܪ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܰܝܪ ܐܠܙܘܪ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܰܝܪ ܐܠܙܘܪ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "دير الزور"@ar  ;];
+ lawd:variantForm "دير الزور"@ar ;];
  lawd:hasName [
-lawd:variantForm "Dayr al-Zur"@en  ;];
+ lawd:variantForm "Dayr al-Zur"@en ;];
  lawd:hasName [
-lawd:variantForm "Deir al-Zor"@en  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates"  ;];
- lawd:hasName [
-lawd:variantForm "al-Raqqa"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/482/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/482/tei>  ;
-dcterms:relation <http://syriaca.org/place/2296>  .
+ lawd:variantForm "Deir al-Zor"@en ;];
+ skos:related "Euphrates" ;
+ skos:related "al-Raqqa" ;
+ dcterms:description "A city on the southeast of ." ;
+ dcterms:temporal "1867" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Deir_ez-Zor> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/482/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/482/tei> ;
+ dcterms:relation <http://syriaca.org/place/2296> .

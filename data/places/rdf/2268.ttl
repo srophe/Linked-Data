@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2268> a lawd:Place ;
-rdfs:label "Balad"  ;
+ rdfs:label "Balad" ;
  lawd:hasName [
-lawd:primaryForm "Balad"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2268/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2268/tei>  ;
-dcterms:relation <http://syriaca.org/place/42>  .
+ lawd:primaryForm "Balad"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2268/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2268/tei> ;
+ dcterms:relation <http://syriaca.org/place/42> .

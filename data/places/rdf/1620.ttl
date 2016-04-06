@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1620> a lawd:Place ;
-rdfs:label "Qāshāfīr"  ;
+ rdfs:label "Qāshāfīr" ;
  lawd:hasName [
-lawd:primaryForm "Qāshāfīr"@en  ;];
+ lawd:primaryForm "Qāshāfīr"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Yaʿqōb"@en  ;];
+ lawd:variantForm "Mār Yaʿqōb"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Yaqōb"@en-xsrp1  ;];
+ lawd:variantForm "Mār Yaqōb"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Ya‘qōb"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1620/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1620/tei>  .
+ lawd:variantForm "Mār Ya‘qōb"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1620/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1620/tei> .

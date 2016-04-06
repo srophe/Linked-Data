@@ -11,22 +11,20 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/634> a lawd:Place ;
-rdfs:label "Qalʿat Najm"  ;
-dcterms:description "A medieval fortress on the near ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Qal'at_Najm>  ;
+ rdfs:label "Qalʿat Najm" ;
  lawd:hasName [
-lawd:primaryForm "Qalʿat Najm"@en  ;];
+ lawd:primaryForm "Qalʿat Najm"@en ;];
  lawd:hasName [
-lawd:variantForm "Qalat Naym"@en  ;];
+ lawd:variantForm "Qalat Naym"@en ;];
  lawd:hasName [
-lawd:variantForm "قلعة النجم"@ar  ;];
+ lawd:variantForm "قلعة النجم"@ar ;];
  lawd:hasName [
-lawd:variantForm "Qalat Najm"@en-xsrp1  ;];
+ lawd:variantForm "Qalat Najm"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Qal‘at Najm"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates"  ;];
- lawd:hasName [
-lawd:variantForm "Mabbug"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/634/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/634/tei>  .
+ lawd:variantForm "Qal‘at Najm"@en-xsrp1 ;];
+ skos:related "Euphrates" ;
+ skos:related "Mabbug" ;
+ dcterms:description "A medieval fortress on the near ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Qal'at_Najm> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/634/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/634/tei> .

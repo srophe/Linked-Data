@@ -11,40 +11,43 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/430> a lawd:Place ;
-rdfs:label "ʿArabān — ܥܪܒܐܢ"  ;
+ rdfs:label "ʿArabān — ܥܪܒܐܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "ʿArabān"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܥܪܒܐܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܥܰܪܒܐܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "عربان"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "ʿArbān"@en ;];
+ lawd:hasName [
+ lawd:variantForm "عَرَبان"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Arabān"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Arabān"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Arbān"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Arbān"@en-xsrp1 ;];
  dcterms:description [
-rdfs:label "ܐܬܪܐ ܕܰܒܚܳܒܘܪ ܗܘܐ ܒܰܐܪܥܳܐ ܕܓܳܙܰܪܬܐ ܒܣܶܦܬܗ ܡܰܥܪܒܳܝܬܐ. ܘܐܝܬܰܘܗܝ ܕܰܠܩܘܒܠܐ ܕܥܓܐܓܗ̈."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܬܪܐ ܕܰܒܚܳܒܘܪ ܗܘܐ ܒܰܐܪܥܳܐ ܕܓܳܙܰܪܬܐ ܒܣܶܦܬܗ ܡܰܥܪܒܳܝܬܐ. ܘܐܝܬܰܘܗܝ ܕܰܠܩܘܒܠܐ ܕܥܓܐܓܗ̈."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بليدة كانت بالخابور من ارض الجزيرة على ضفته الغربية وهي قرية مقابل العجاجة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بليدة كانت بالخابور من ارض الجزيرة على ضفته الغربية وهي قرية مقابل العجاجة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town on the west bank of the Khabur River in al-Jazira, opposite al-ʿAjjāja."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-0330"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874688>  ;
+ rdfs:label "a town on the west bank of the Khabur River in al-Jazira, opposite al-ʿAjjāja."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-0330" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874688> ;
 geo:location [
-geo:lat "36.244537"  ;
-geo:long "36.244537"  ;];
- lawd:hasName [
-lawd:primaryForm "ʿArabān"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܥܪܒܐܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܥܰܪܒܐܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "عربان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "ʿArbān"@en  ;];
- lawd:hasName [
-lawd:variantForm "عَرَبان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Arabān"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Arabān"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Arbān"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Arbān"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/430/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/430/tei>  .
+ geo:lat "36.244537" ;
+ geo:long "40.707477" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/430/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/430/tei> ;
+geo:location [
+ geo:lat "36.244537" ;
+ geo:long "40.707477" ;].

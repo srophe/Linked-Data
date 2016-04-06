@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2099> a lawd:Place ;
-rdfs:label "Mar Theodore"  ;
+ rdfs:label "Mar Theodore" ;
  lawd:hasName [
-lawd:primaryForm "Mar Theodore"@en  ;];
+ lawd:primaryForm "Mar Theodore"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Theodore (West Syrian)"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2099/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2099/tei>  .
+ lawd:variantForm "Mār Theodore (West Syrian)"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2099/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2099/tei> .

@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1586> a lawd:Place ;
-rdfs:label "Ōrwantūs"  ;
+ rdfs:label "Ōrwantūs" ;
  lawd:hasName [
-lawd:primaryForm "Ōrwantūs"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1586/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1586/tei>  .
+ lawd:primaryForm "Ōrwantūs"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1586/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1586/tei> .

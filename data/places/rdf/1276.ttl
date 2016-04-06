@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1276> a lawd:Place ;
-rdfs:label "Hattara"  ;
+ rdfs:label "Hattara" ;
  lawd:hasName [
-lawd:primaryForm "Hattara"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1276/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1276/tei>  .
+ lawd:primaryForm "Hattara"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1276/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1276/tei> .

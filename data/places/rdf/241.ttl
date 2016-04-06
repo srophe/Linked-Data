@@ -11,26 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/241> a lawd:Place ;
-rdfs:label "Habsenas — ܚܒܣܢܐܣ"  ;
-dcterms:description "A village in northwest of ."  ;
-dcterms:temporal "0657"  ;
+ rdfs:label "Habsenas — ܚܒܣܢܐܣ" ;
  lawd:hasName [
-lawd:primaryForm "Habsenas"@en  ;];
+ lawd:primaryForm "Habsenas"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܚܒܣܢܐܣ"@syr  ;];
+ lawd:primaryForm "ܚܒܣܢܐܣ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܚܰܒܣܢܰܐܣ"@syr-Syrj  ;];
+ lawd:variantForm "ܚܰܒܣܢܰܐܣ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "حبسناس"@ar  ;];
+ lawd:variantForm "حبسناس"@ar ;];
  lawd:hasName [
-lawd:variantForm "Habsnas"@en  ;];
+ lawd:variantForm "Habsnas"@en ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
- lawd:hasName [
-lawd:variantForm "Midyat"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/241/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/241/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related "Ṭur ʿAbdin" ;
+ skos:related "Midyat" ;
+ dcterms:description "A village in northwest of ." ;
+ dcterms:temporal "0657" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/241/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/241/tei> .

@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/340> a lawd:Place ;
-rdfs:label "Mor Eusebios of Kaprā d-Bartā — ܕܝܪܐ ܕܡܪܝ ܐܘܣܝܒ"  ;
+ rdfs:label "Mor Eusebios of Kaprā d-Bartā — ܕܝܪܐ ܕܡܪܝ ܐܘܣܝܒ" ;
+ lawd:hasName [
+ lawd:primaryForm "Mor Eusebios of Kaprā d-Bartā"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܐܘܣܝܒ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܐܘܣܝܒ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير مار اوسيب"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ousib Monastery"@en ;];
  dcterms:description [
-rdfs:label "ܒܟܰܦܪܐ ܕܒܝܺܪܬܳܐ ܒܟܘܪܳܐ ܕܐܘܦܰܐܡܝܐ ܐܶܬܒܢܝ ܒܡܰܐܬܳܐ ܚܡܝܫܳܝܬܐ ܘܐܶܬܥܗܕ ܫܢܰܬ 535"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܟܰܦܪܐ ܕܒܝܺܪܬܳܐ ܒܟܘܪܳܐ ܕܐܘܦܰܐܡܝܐ ܐܶܬܒܢܝ ܒܡܰܐܬܳܐ ܚܡܝܫܳܝܬܐ ܘܐܶܬܥܗܕ ܫܢܰܬ 535"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "فى كفر البيرة في كورة افامية انشىء في المئة الخامسة وورد ذكره عام 535"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "فى كفر البيرة في كورة افامية انشىء في المئة الخامسة وورد ذكره عام 535"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "in Kafr al-Bīra, in the province of Apamea. It was built in the fifth century, but received no mention by historians before 535."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0535"  ;
- lawd:hasName [
-lawd:primaryForm "Mor Eusebios of Kaprā d-Bartā"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܐܘܣܝܒ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܐܘܣܝܒ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير مار اوسيب"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ousib Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/340/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/340/tei>  .
+ rdfs:label "in Kafr al-Bīra, in the province of Apamea. It was built in the fifth century, but received no mention by historians before 535."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0535" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/340/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/340/tei> .

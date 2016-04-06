@@ -11,24 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/696> a lawd:Place ;
-rdfs:label "Maʿmūrat al-ʿAzīz"  ;
-dcterms:description "A vilayet of the Ottoman Empire created from a portion of Diyarbakir vilayet."  ;
-dcterms:temporal "1879"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Vilayet_of_Mamuret-ul-Aziz>  ;
+ rdfs:label "Maʿmūrat al-ʿAzīz" ;
  lawd:hasName [
-lawd:primaryForm "Maʿmūrat al-ʿAzīz"@en  ;];
+ lawd:primaryForm "Maʿmūrat al-ʿAzīz"@en ;];
  lawd:hasName [
-lawd:variantForm "معمورة العزيز"@ar  ;];
+ lawd:variantForm "معمورة العزيز"@ar ;];
  lawd:hasName [
-lawd:variantForm "Maʿmurat al-ʿAzīz"@en  ;];
+ lawd:variantForm "Maʿmurat al-ʿAzīz"@en ;];
  lawd:hasName [
-lawd:variantForm "Mamūrat al-Azīz"@en-xsrp1  ;];
+ lawd:variantForm "Mamūrat al-Azīz"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ma‘mūrat al-‘Azīz"@en-xsrp1  ;];
+ lawd:variantForm "Ma‘mūrat al-‘Azīz"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mamurat al-Azīz"@en-xsrp1  ;];
+ lawd:variantForm "Mamurat al-Azīz"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ma‘murat al-‘Azīz"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/696/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/696/tei>  ;
-dcterms:relation <http://syriaca.org/place/697>  .
+ lawd:variantForm "Ma‘murat al-‘Azīz"@en-xsrp1 ;];
+ dcterms:description "A vilayet of the Ottoman Empire created from a portion of Diyarbakir vilayet." ;
+ dcterms:temporal "1879" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Vilayet_of_Mamuret-ul-Aziz> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/696/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/696/tei> ;
+ dcterms:relation <http://syriaca.org/place/697> .

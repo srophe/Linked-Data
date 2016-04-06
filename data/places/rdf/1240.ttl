@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1240> a lawd:Place ;
-rdfs:label "Goyzhā"  ;
+ rdfs:label "Goyzhā" ;
  lawd:hasName [
-lawd:primaryForm "Goyzhā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1240/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1240/tei>  .
+ lawd:primaryForm "Goyzhā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1240/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1240/tei> .

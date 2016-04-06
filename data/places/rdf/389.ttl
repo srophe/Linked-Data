@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/389> a lawd:Place ;
-rdfs:label "Dayro d-Mariba — ܕܝܪܐ ܕܡܪܝܒܐ"  ;
+ rdfs:label "Dayro d-Mariba — ܕܝܪܐ ܕܡܪܝܒܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dayro d-Mariba"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝܒܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܡܰܪܝܒܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير مريبا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Murayba Monastery"@en ;];
  dcterms:description [
-rdfs:label "ܡܪܝܒܐ ܩܪܝܬܳܐ ܪܰܒܬܐ ܕܒܐܘܚܕܳܢܐ ܕܚܳܪܳܢ. ܗܘܐ ܡܶܢܗ ܬܪܶܝܢ ܐܶܦܝܣܩܘ̈ܦܐ ܒܦܶܠܓܐ ܩܰܕܡܳܝܐ ܕܡܰܐܬܳܐ ܬܫܝܥܳܝܬܐ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܪܝܒܐ ܩܪܝܬܳܐ ܪܰܒܬܐ ܕܒܐܘܚܕܳܢܐ ܕܚܳܪܳܢ. ܗܘܐ ܡܶܢܗ ܬܪܶܝܢ ܐܶܦܝܣܩܘ̈ܦܐ ܒܦܶܠܓܐ ܩܰܕܡܳܝܐ ܕܡܰܐܬܳܐ ܬܫܝܥܳܝܬܐ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "ومريبا قرية كبيرة من عمل حران، نشأ منه اسقفان في النصف الأول من المئة التاسعة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ومريبا قرية كبيرة من عمل حران، نشأ منه اسقفان في النصف الأول من المئة التاسعة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "Murayba is a big village in the province of Ḥarran. Two bishops graduated from its monastery in the first half of the ninth century."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0850"  ;
- lawd:hasName [
-lawd:primaryForm "Dayro d-Mariba"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝܒܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܡܰܪܝܒܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير مريبا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Murayba Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/389/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/389/tei>  .
+ rdfs:label "Murayba is a big village in the province of Ḥarran. Two bishops graduated from its monastery in the first half of the ninth century."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0850" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/389/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/389/tei> .

@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2011> a lawd:Place ;
-rdfs:label "Mar Mastirine"  ;
+ rdfs:label "Mar Mastirine" ;
  lawd:hasName [
-lawd:primaryForm "Mar Mastirine"@en  ;];
+ lawd:primaryForm "Mar Mastirine"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Mastirīne"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2011/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2011/tei>  .
+ lawd:variantForm "Mār Mastirīne"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2011/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2011/tei> .

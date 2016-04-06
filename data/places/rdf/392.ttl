@@ -11,34 +11,37 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/392> a lawd:Place ;
-rdfs:label "Mor Malke — ܕܝܪܐ ܕܡܪܝ ܡܠܟܐ"  ;
+ rdfs:label "Mor Malke — ܕܝܪܐ ܕܡܪܝ ܡܠܟܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Mor Malke"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܡܠܟܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܡܰܠܟܶܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير مار ملكي"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Malke Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "monastery of Mar Malkha"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Mār Malke"@en ;];
  dcterms:description [
-rdfs:label "ܒܛܘܪܥܰܒܕܝܢ ܒܶܝܬ ܩܘܪ̈ܝܳܐ ܕܐܰܪܟܰܚ ܘܒܶܝܬ ܕܶܒܶܐ. ܐܶܬܒܢܝ ܚܕܳܪ̈ܝ ܕܳܪܐ ܫܬܝܬܳܝܐ. ܘܰܗܘܐ ܟܘܪܣܝܳܐ ܐܶܦܝܣܩܘܦܳܝܐ ܒܕܳܪܐ ܕܐܰܪܒܰܥܣܪ. ܐܶܣܬܚܦ ܫܢܰܬ 1926 ܘܬܘܒ ܒܰܪ ܕܪܝܫ ܐܶܬܚܰܕܰܬ ܘܐܶܬܝܰܬܒ. ܢܰܦܶܩ ܥܣܪܐ ܐܶܦܝܣܩܘ̈ܦܐ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܛܘܪܥܰܒܕܝܢ ܒܶܝܬ ܩܘܪ̈ܝܳܐ ܕܐܰܪܟܰܚ ܘܒܶܝܬ ܕܶܒܶܐ. ܐܶܬܒܢܝ ܚܕܳܪ̈ܝ ܕܳܪܐ ܫܬܝܬܳܝܐ. ܘܰܗܘܐ ܟܘܪܣܝܳܐ ܐܶܦܝܣܩܘܦܳܝܐ ܒܕܳܪܐ ܕܐܰܪܒܰܥܣܪ. ܐܶܣܬܚܦ ܫܢܰܬ 1926 ܘܬܘܒ ܒܰܪ ܕܪܝܫ ܐܶܬܚܰܕܰܬ ܘܐܶܬܝܰܬܒ. ܢܰܦܶܩ ܥܣܪܐ ܐܶܦܝܣܩܘ̈ܦܐ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في طور عبدين بين قريتي انحل وبادبه بني حوالي القرن السادس وصار كرسيا اسقفيا في القرن الرابع عشر حتى دمر عام 1926 وخرج عشرة اساقفة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في طور عبدين بين قريتي انحل وبادبه بني حوالي القرن السادس وصار كرسيا اسقفيا في القرن الرابع عشر حتى دمر عام 1926 وخرج عشرة اساقفة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "in Tur ʿAbdin, near the villages of Arkaḥ and Badabbah. This monastery was built about the sixth century and became a bishopric see in the fourteenth century, but was finally destroyed in 1926. It produced ten bishops."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0600"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874582>  ;
+ rdfs:label "in Tur ʿAbdin, near the villages of Arkaḥ and Badabbah. This monastery was built about the sixth century and became a bishopric see in the fourteenth century, but was finally destroyed in 1926. It produced ten bishops."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0600" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874582> ;
 geo:location [
-geo:lat "37.231912"  ;
-geo:long "37.231912"  ;];
- lawd:hasName [
-lawd:primaryForm "Mor Malke"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܡܠܟܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܡܰܠܟܶܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير مار ملكي"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Malke Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "monastery of Mar Malkha"@en  ;];
- lawd:hasName [
-lawd:variantForm "Mār Malke"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/392/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/392/tei>  .
+ geo:lat "37.231912" ;
+ geo:long "41.411144" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/392/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/392/tei> ;
+geo:location [
+ geo:lat "37.231912" ;
+ geo:long "41.411144" ;].

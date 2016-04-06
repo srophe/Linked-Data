@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1576> a lawd:Place ;
-rdfs:label "Nerwā"  ;
+ rdfs:label "Nerwā" ;
  lawd:hasName [
-lawd:primaryForm "Nerwā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1576/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1576/tei>  ;
-dcterms:relation <http://syriaca.org/place/1575>  .
+ lawd:primaryForm "Nerwā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1576/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1576/tei> ;
+ dcterms:relation <http://syriaca.org/place/1575> .

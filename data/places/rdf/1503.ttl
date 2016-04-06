@@ -11,24 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1503> a lawd:Place ;
-rdfs:label "Shīḥā — ܫܝܚܐ"  ;
-dcterms:description "A village near ."  ;
-dcterms:temporal "0900"  ;
+ rdfs:label "Shīḥā — ܫܝܚܐ" ;
  lawd:hasName [
-lawd:primaryForm "Shīḥā"@en  ;];
+ lawd:primaryForm "Shīḥā"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܫܝܚܐ"@syr  ;];
+ lawd:primaryForm "ܫܝܚܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܫܺܝܚܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܫܺܝܚܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "شيحا"@ar  ;];
+ lawd:variantForm "شيحا"@ar ;];
  lawd:hasName [
-lawd:variantForm "شيح"@ar  ;];
+ lawd:variantForm "شيح"@ar ;];
  lawd:hasName [
-lawd:variantForm "Shiḥa"@en  ;];
+ lawd:variantForm "Shiḥa"@en ;];
  lawd:hasName [
-lawd:variantForm "الشِيْحة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Cyrrhus"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1503/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1503/tei>  .
+ lawd:variantForm "الشِيْحة"@ar ;];
+ skos:related "Cyrrhus" ;
+ dcterms:description "A village near ." ;
+ dcterms:temporal "0900" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1503/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1503/tei> .

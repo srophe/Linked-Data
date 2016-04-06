@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1098> a lawd:Place ;
-rdfs:label "Birkah"  ;
+ rdfs:label "Birkah" ;
  lawd:hasName [
-lawd:primaryForm "Birkah"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1098/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1098/tei>  .
+ lawd:primaryForm "Birkah"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1098/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1098/tei> .

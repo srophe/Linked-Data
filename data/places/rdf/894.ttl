@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/894> a lawd:Place ;
-rdfs:label "Ali Kōme"  ;
+ rdfs:label "Ali Kōme" ;
  lawd:hasName [
-lawd:primaryForm "Ali Kōme"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/894/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/894/tei>  .
+ lawd:primaryForm "Ali Kōme"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/894/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/894/tei> .

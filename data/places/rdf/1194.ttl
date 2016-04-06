@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1194> a lawd:Place ;
-rdfs:label "Ebrō"  ;
+ rdfs:label "Ebrō" ;
  lawd:hasName [
-lawd:primaryForm "Ebrō"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1194/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1194/tei>  .
+ lawd:primaryForm "Ebrō"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1194/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1194/tei> .

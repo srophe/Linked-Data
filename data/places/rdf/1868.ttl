@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1868> a lawd:Place ;
-rdfs:label "Mar Aḥa"  ;
+ rdfs:label "Mar Aḥa" ;
  lawd:hasName [
-lawd:primaryForm "Mar Aḥa"@en  ;];
+ lawd:primaryForm "Mar Aḥa"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Aḥḥā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1868/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1868/tei>  ;
-dcterms:relation <http://syriaca.org/place/126>  ;
-dcterms:relation <http://syriaca.org/place/1867>  .
+ lawd:variantForm "Mār Aḥḥā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1868/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1868/tei> ;
+ dcterms:relation <http://syriaca.org/place/126> ;
+ dcterms:relation <http://syriaca.org/place/1867> .

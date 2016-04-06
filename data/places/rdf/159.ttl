@@ -11,39 +11,36 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/159> a lawd:Place ;
-rdfs:label "Pyramos — ܓܝܚܘܢ"  ;
-dcterms:description "A river which flows near and past before emptying into the ."  ;
+ rdfs:label "Pyramos — ܓܝܚܘܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Pyramos"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Giḥun"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Ceyhan"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܓܝܚܘܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܓܺܝܚܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܓܝܺܚܘܽܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "جَيحان"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "جيحون"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "جَيْحان"@ar ;];
+ skos:related "Anazarbos" ;
+ skos:related "Mopsuestia" ;
+ skos:related "Mediterranean Sea" ;
+ dcterms:description "A river which flows near and past before emptying into the ." ;
  dcterms:description [
-rdfs:label "ܢܰܗܪܰܐ ܗܘ ܕܒܰܡܣܝܺܣܛܐ ܢܳܣܶܟ ܠܩܘܽܒܠܗ ܒܩܺܝܠܺܝܩܝܰܐ ܘܒܰܫܡܗ ܐܶܫܬܰܡܗܰܬ ܡܕܝܢܰܬ ܓܝܺܚܐܰܢ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܢܰܗܪܰܐ ܗܘ ܕܒܰܡܣܝܺܣܛܐ ܢܳܣܶܟ ܠܩܘܽܒܠܗ ܒܩܺܝܠܺܝܩܝܰܐ ܘܒܰܫܡܗ ܐܶܫܬܰܡܗܰܬ ܡܕܝܢܰܬ ܓܝܺܚܐܰܢ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "نهر بالمصيصة يصب بازآئها في قيليقية وباسمه سميت مدينة جيحان"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-skos:exactMatch <http://pleiades.stoa.org/places/658576>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Ceyhan_River>  ;
- lawd:hasName [
-lawd:primaryForm "Pyramos"@en  ;];
- lawd:hasName [
-lawd:variantForm "Giḥun"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ceyhan"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܓܝܚܘܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܓܺܝܚܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܓܝܺܚܘܽܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "جَيحان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "جيحون"@ar  ;];
- lawd:hasName [
-lawd:variantForm "جَيْحان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Anazarbos"  ;];
- lawd:hasName [
-lawd:variantForm "Mopsuestia"  ;];
- lawd:hasName [
-lawd:variantForm "Mediterranean Sea"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/159/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/159/tei>  .
+ rdfs:label "نهر بالمصيصة يصب بازآئها في قيليقية وباسمه سميت مدينة جيحان"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ skos:exactMatch <http://pleiades.stoa.org/places/658576> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Ceyhan_River> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/159/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/159/tei> .

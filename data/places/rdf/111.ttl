@@ -11,17 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/111> a lawd:Place ;
-rdfs:label "Kashkar"  ;
-dcterms:description "An ancient town in southern Iraq."  ;
-dcterms:temporal "0270"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/912880>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Kashkar>  ;
+ rdfs:label "Kashkar" ;
  lawd:hasName [
-lawd:primaryForm "Kashkar"@en  ;];
+ lawd:primaryForm "Kashkar"@en ;];
  lawd:hasName [
-lawd:variantForm "كَسْكر"@ar  ;];
- lawd:hasName [
-lawd:variantForm "al-Wāsiṭ"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/111/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/111/tei>  ;
-dcterms:relation <http://syriaca.org/place/2323>  .
+ lawd:variantForm "كَسْكر"@ar ;];
+ skos:related "al-Wāsiṭ" ;
+ dcterms:description "An ancient town in southern Iraq." ;
+ dcterms:temporal "0270" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/912880> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Kashkar> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/111/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/111/tei> ;
+ dcterms:relation <http://syriaca.org/place/2323> .

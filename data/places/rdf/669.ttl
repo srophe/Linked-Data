@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/669> a lawd:Place ;
-rdfs:label "Mar Aphnimaran"  ;
-dcterms:description "A monastery frequented by ."  ;
-dcterms:temporal "0800"  ;
+ rdfs:label "Mar Aphnimaran" ;
  lawd:hasName [
-lawd:primaryForm "Mar Aphnimaran"@en  ;];
+ lawd:primaryForm "Mar Aphnimaran"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Apnī-māran"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/669/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/669/tei>  .
+ lawd:variantForm "Mār Apnī-māran"@en ;];
+ dcterms:description "A monastery frequented by ." ;
+ dcterms:temporal "0800" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/669/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/669/tei> .

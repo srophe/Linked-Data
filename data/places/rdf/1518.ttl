@@ -11,20 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1518> a lawd:Place ;
-rdfs:label "Saqrā — ܣܩܪܐ"  ;
-dcterms:description "A village near the ."  ;
-dcterms:temporal "0700"  ;
+ rdfs:label "Saqrā — ܣܩܪܐ" ;
  lawd:hasName [
-lawd:primaryForm "Saqrā"@en  ;];
+ lawd:primaryForm "Saqrā"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܣܩܪܐ"@syr  ;];
+ lawd:primaryForm "ܣܩܪܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܣܰܩܪܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܣܰܩܪܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "سقرا"@ar  ;];
+ lawd:variantForm "سقرا"@ar ;];
  lawd:hasName [
-lawd:variantForm "Saqra"@en  ;];
- lawd:hasName [
-lawd:variantForm "Monastery of Qenneshre"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1518/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1518/tei>  .
+ lawd:variantForm "Saqra"@en ;];
+ skos:related "Monastery of Qenneshre" ;
+ dcterms:description "A village near the ." ;
+ dcterms:temporal "0700" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1518/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1518/tei> .

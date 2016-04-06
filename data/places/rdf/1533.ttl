@@ -11,22 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1533> a lawd:Place ;
-rdfs:label "Lycia — ܠܘܩܝܐ"  ;
-dcterms:description "A region of ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/638965>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Lycia>  ;
+ rdfs:label "Lycia — ܠܘܩܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Lycia"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܠܘܩܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܠܽܘܩܺܝܰܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "لوقيا"@ar ;];
+ skos:related "Asia Minor" ;
+ dcterms:description "A region of ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/638965> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Lycia> ;
 geo:location [
-geo:lat "36.512941"  ;
-geo:long "36.512941"  ;];
- lawd:hasName [
-lawd:primaryForm "Lycia"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܠܘܩܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܠܽܘܩܺܝܰܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "لوقيا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Asia Minor"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1533/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1533/tei>  .
+ geo:lat "36.512941" ;
+ geo:long "29.1282355" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1533/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1533/tei> ;
+geo:location [
+ geo:lat "36.512941" ;
+ geo:long "29.1282355" ;].

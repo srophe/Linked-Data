@@ -11,17 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/682> a lawd:Place ;
-rdfs:label "ʿAyn al-Tamr"  ;
-dcterms:description "A village near ."  ;
+ rdfs:label "ʿAyn al-Tamr" ;
  lawd:hasName [
-lawd:primaryForm "ʿAyn al-Tamr"@en  ;];
+ lawd:primaryForm "ʿAyn al-Tamr"@en ;];
  lawd:hasName [
-lawd:variantForm "عين التمر"@ar  ;];
+ lawd:variantForm "عين التمر"@ar ;];
  lawd:hasName [
-lawd:variantForm "Ayn al-Tamr"@en-xsrp1  ;];
+ lawd:variantForm "Ayn al-Tamr"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Ayn al-Tamr"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ḥirta"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/682/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/682/tei>  .
+ lawd:variantForm "‘Ayn al-Tamr"@en-xsrp1 ;];
+ skos:related "Ḥirta" ;
+ dcterms:description "A village near ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/682/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/682/tei> .

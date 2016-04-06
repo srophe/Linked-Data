@@ -11,35 +11,38 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/446> a lawd:Place ;
-rdfs:label "Kiliz — ܟܠܝܙ"  ;
+ rdfs:label "Kiliz — ܟܠܝܙ" ;
+ lawd:hasName [
+ lawd:primaryForm "Kiliz"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܟܠܝܙ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "كلز"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "كلس"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Killiz"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Kilis"@en ;];
+ lawd:hasName [
+ lawd:variantForm "كِلِز"@ar ;];
  dcterms:description [
-rdfs:label "ܐܰܬܪܰܐ ܗܘ ܕܰܠܓܰܪܒܝܳܐ ܕܚܳܠܒ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܰܐ ܗܘ ܕܰܠܓܰܪܒܝܳܐ ܕܚܳܠܒ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة من ولاية حلب شماليها."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة من ولاية حلب شماليها."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town in the northern part of the province of Aleppo."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0300"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658442>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Kilis>  ;
+ rdfs:label "a town in the northern part of the province of Aleppo."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0300" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658442> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Kilis> ;
 geo:location [
-geo:lat "36.716346"  ;
-geo:long "36.716346"  ;];
- lawd:hasName [
-lawd:primaryForm "Kiliz"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܟܠܝܙ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "كلز"@ar  ;];
- lawd:hasName [
-lawd:variantForm "كلس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Killiz"@en  ;];
- lawd:hasName [
-lawd:variantForm "Kilis"@en  ;];
- lawd:hasName [
-lawd:variantForm "كِلِز"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/446/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/446/tei>  .
+ geo:lat "36.716346" ;
+ geo:long "37.114125" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/446/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/446/tei> ;
+geo:location [
+ geo:lat "36.716346" ;
+ geo:long "37.114125" ;].

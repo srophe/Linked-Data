@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1218> a lawd:Place ;
-rdfs:label "Gār Kāhne"  ;
+ rdfs:label "Gār Kāhne" ;
  lawd:hasName [
-lawd:primaryForm "Gār Kāhne"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1218/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1218/tei>  .
+ lawd:primaryForm "Gār Kāhne"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1218/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1218/tei> .

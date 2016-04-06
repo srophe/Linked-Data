@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1543> a lawd:Place ;
-rdfs:label "Merge"  ;
+ rdfs:label "Merge" ;
  lawd:hasName [
-lawd:primaryForm "Merge"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1543/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1543/tei>  .
+ lawd:primaryForm "Merge"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1543/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1543/tei> .

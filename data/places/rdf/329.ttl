@@ -11,25 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/329> a lawd:Place ;
-rdfs:label "Ḥiṣn Baṭrīq — ܚܣܢ ܒܛܪܝܩ"  ;
+ rdfs:label "Ḥiṣn Baṭrīq — ܚܣܢ ܒܛܪܝܩ" ;
+ lawd:hasName [
+ lawd:primaryForm "Ḥiṣn Baṭrīq"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܚܣܢ ܒܛܪܝܩ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܚܣܢ ܒܰܛܪܝܩ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "حصن بطريق"@ar ;];
+ skos:related "Tel Baṭrīq" ;
  dcterms:description [
-rdfs:label "ܡܕܺܝܢܬܐ ܗܝ ܕܘܟܬܳܐ ܕܒܶܝܬ ܚܳܠܒ ܠܩܰܠܘܽܢܺܝܩܝ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܺܝܢܬܐ ܗܝ ܕܘܟܬܳܐ ܕܒܶܝܬ ܚܳܠܒ ܠܩܰܠܘܽܢܺܝܩܝ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "موضع وبلد كان بين حلب والرقة"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "موضع وبلد كان بين حلب والرقة"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town formerly located between Aleppo and al-Raqqa."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
- lawd:hasName [
-lawd:primaryForm "Ḥiṣn Baṭrīq"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܚܣܢ ܒܛܪܝܩ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܚܣܢ ܒܰܛܪܝܩ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "حصن بطريق"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Tel Baṭrīq"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/329/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/329/tei>  .
+ rdfs:label "a town formerly located between Aleppo and al-Raqqa."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/329/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/329/tei> .

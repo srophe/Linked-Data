@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1407> a lawd:Place ;
-rdfs:label "Magdal Debā"  ;
+ rdfs:label "Magdal Debā" ;
  lawd:hasName [
-lawd:primaryForm "Magdal Debā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1407/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1407/tei>  .
+ lawd:primaryForm "Magdal Debā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1407/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1407/tei> .

@@ -11,11 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/640> a lawd:Place ;
-rdfs:label "Ramla"  ;
-dcterms:description "A location southeast of ."  ;
+ rdfs:label "Ramla" ;
  lawd:hasName [
-lawd:primaryForm "Ramla"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ḥirta"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/640/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/640/tei>  .
+ lawd:primaryForm "Ramla"@en ;];
+ skos:related "Ḥirta" ;
+ dcterms:description "A location southeast of ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/640/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/640/tei> .

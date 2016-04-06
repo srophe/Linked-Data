@@ -11,22 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/568> a lawd:Place ;
-rdfs:label "Marj al-ʿAyn — ܡܪܓܐ ܕܥܝܢܐ"  ;
-dcterms:description "Near ."  ;
-dcterms:temporal "1943"  ;
+ rdfs:label "Marj al-ʿAyn — ܡܪܓܐ ܕܥܝܢܐ" ;
  lawd:hasName [
-lawd:primaryForm "Marj al-ʿAyn"@en  ;];
+ lawd:primaryForm "Marj al-ʿAyn"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܡܪܓܐ ܕܥܝܢܐ"@syr  ;];
+ lawd:primaryForm "ܡܪܓܐ ܕܥܝܢܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܡܰܪܓܐ ܕܥܰܝܢܳܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܡܰܪܓܐ ܕܥܰܝܢܳܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "مرج العين"@ar  ;];
+ lawd:variantForm "مرج العين"@ar ;];
  lawd:hasName [
-lawd:variantForm "Marj al-Ayn"@en-xsrp1  ;];
+ lawd:variantForm "Marj al-Ayn"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Marj al-‘Ayn"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Doliche"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/568/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/568/tei>  .
+ lawd:variantForm "Marj al-‘Ayn"@en-xsrp1 ;];
+ skos:related "Doliche" ;
+ dcterms:description "Near ." ;
+ dcterms:temporal "1943" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/568/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/568/tei> .

@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1355> a lawd:Place ;
-rdfs:label "Jemāne"  ;
+ rdfs:label "Jemāne" ;
  lawd:hasName [
-lawd:primaryForm "Jemāne"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1355/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1355/tei>  .
+ lawd:primaryForm "Jemāne"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1355/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1355/tei> .

@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/918> a lawd:Place ;
-rdfs:label "Artūk"  ;
+ rdfs:label "Artūk" ;
  lawd:hasName [
-lawd:primaryForm "Artūk"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/918/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/918/tei>  .
+ lawd:primaryForm "Artūk"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/918/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/918/tei> .

@@ -11,19 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1551> a lawd:Place ;
-rdfs:label "Mūrādʿālūi"  ;
+ rdfs:label "Mūrādʿālūi" ;
  lawd:hasName [
-lawd:primaryForm "Mūrādʿālūi"@en  ;];
+ lawd:primaryForm "Mūrādʿālūi"@en ;];
  lawd:hasName [
-lawd:variantForm "Mūrādʿālūi (i)"@en  ;];
+ lawd:variantForm "Mūrādʿālūi (i)"@en ;];
  lawd:hasName [
-lawd:variantForm "Mūrādālūi"@en-xsrp1  ;];
+ lawd:variantForm "Mūrādālūi"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mūrād‘ālūi"@en-xsrp1  ;];
+ lawd:variantForm "Mūrād‘ālūi"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mūrādālūi (i)"@en-xsrp1  ;];
+ lawd:variantForm "Mūrādālūi (i)"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mūrād‘ālūi (i)"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1551/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1551/tei>  ;
-dcterms:relation <http://syriaca.org/place/1552>  .
+ lawd:variantForm "Mūrād‘ālūi (i)"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1551/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1551/tei> ;
+ dcterms:relation <http://syriaca.org/place/1552> .

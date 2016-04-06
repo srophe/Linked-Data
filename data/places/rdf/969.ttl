@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/969> a lawd:Place ;
-rdfs:label "Barmīn"  ;
+ rdfs:label "Barmīn" ;
  lawd:hasName [
-lawd:primaryForm "Barmīn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/969/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/969/tei>  .
+ lawd:primaryForm "Barmīn"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/969/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/969/tei> .

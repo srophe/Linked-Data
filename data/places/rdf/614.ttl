@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/614> a lawd:Place ;
-rdfs:label "Mar Ishoʿyahb"  ;
+ rdfs:label "Mar Ishoʿyahb" ;
  lawd:hasName [
-lawd:primaryForm "Mar Ishoʿyahb"@en  ;];
+ lawd:primaryForm "Mar Ishoʿyahb"@en ;];
  lawd:hasName [
-lawd:variantForm "Monastery of Mar Ishoyahb"@en  ;];
+ lawd:variantForm "Monastery of Mar Ishoyahb"@en ;];
  lawd:hasName [
-lawd:variantForm "Mar Ishoyahb"@en-xsrp1  ;];
+ lawd:variantForm "Mar Ishoyahb"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mar Isho‘yahb"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/614/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/614/tei>  .
+ lawd:variantForm "Mar Isho‘yahb"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/614/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/614/tei> .

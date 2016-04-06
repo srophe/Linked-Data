@@ -11,15 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/798> a lawd:Place ;
-rdfs:label "Ardabīl"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/884119>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Ardabil>  ;
+ rdfs:label "Ardabīl" ;
+ lawd:hasName [
+ lawd:primaryForm "Ardabīl"@en ;];
+ lawd:hasName [
+ lawd:variantForm "أَرْدَبِيْل"@ar ;];
+ skos:exactMatch <http://pleiades.stoa.org/places/884119> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Ardabil> ;
 geo:location [
-geo:lat "38.24647"  ;
-geo:long "38.24647"  ;];
- lawd:hasName [
-lawd:primaryForm "Ardabīl"@en  ;];
- lawd:hasName [
-lawd:variantForm "أَرْدَبِيْل"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/798/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/798/tei>  .
+ geo:lat "38.24647" ;
+ geo:long "48.295051" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/798/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/798/tei> ;
+geo:location [
+ geo:lat "38.24647" ;
+ geo:long "48.295051" ;].

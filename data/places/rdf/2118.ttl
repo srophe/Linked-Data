@@ -11,21 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2118> a lawd:Place ;
-rdfs:label "Mar Yoḥannan"  ;
+ rdfs:label "Mar Yoḥannan" ;
  lawd:hasName [
-lawd:primaryForm "Mar Yoḥannan"@en  ;];
+ lawd:primaryForm "Mar Yoḥannan"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Yōḥannān"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2118/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2118/tei>  ;
-dcterms:relation <http://syriaca.org/place/2500>  ;
-dcterms:relation <http://syriaca.org/place/2501>  ;
-dcterms:relation <http://syriaca.org/place/2119>  ;
-dcterms:relation <http://syriaca.org/place/2120>  ;
-dcterms:relation <http://syriaca.org/place/2121>  ;
-dcterms:relation <http://syriaca.org/place/2122>  ;
-dcterms:relation <http://syriaca.org/place/2123>  ;
-dcterms:relation <http://syriaca.org/place/2124>  ;
-dcterms:relation <http://syriaca.org/place/2125>  ;
-dcterms:relation <http://syriaca.org/place/2126>  ;
-dcterms:relation <http://syriaca.org/place/2127>  .
+ lawd:variantForm "Mār Yōḥannān"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2118/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2118/tei> ;
+ dcterms:relation <http://syriaca.org/place/2500> ;
+ dcterms:relation <http://syriaca.org/place/2501> ;
+ dcterms:relation <http://syriaca.org/place/2119> ;
+ dcterms:relation <http://syriaca.org/place/2120> ;
+ dcterms:relation <http://syriaca.org/place/2121> ;
+ dcterms:relation <http://syriaca.org/place/2122> ;
+ dcterms:relation <http://syriaca.org/place/2123> ;
+ dcterms:relation <http://syriaca.org/place/2124> ;
+ dcterms:relation <http://syriaca.org/place/2125> ;
+ dcterms:relation <http://syriaca.org/place/2126> ;
+ dcterms:relation <http://syriaca.org/place/2127> .

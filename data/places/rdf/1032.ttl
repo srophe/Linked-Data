@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1032> a lawd:Place ;
-rdfs:label "Beth ʿIqtā"  ;
+ rdfs:label "Beth ʿIqtā" ;
  lawd:hasName [
-lawd:primaryForm "Beth ʿIqtā"@en  ;];
+ lawd:primaryForm "Beth ʿIqtā"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ ʿIqtā"@en  ;];
+ lawd:variantForm "Beṯ ʿIqtā"@en ;];
  lawd:hasName [
-lawd:variantForm "Beth Iqtā"@en-xsrp1  ;];
+ lawd:variantForm "Beth Iqtā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Beth ‘Iqtā"@en-xsrp1  ;];
+ lawd:variantForm "Beth ‘Iqtā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Iqtā"@en-xsrp1  ;];
+ lawd:variantForm "Beṯ Iqtā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Beṯ ‘Iqtā"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1032/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1032/tei>  .
+ lawd:variantForm "Beṯ ‘Iqtā"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1032/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1032/tei> .

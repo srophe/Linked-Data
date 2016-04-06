@@ -11,37 +11,36 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/657> a lawd:Place ;
-rdfs:label "Mor ʿAzozoʾil — ܕܝܪܐ ܕܡܪܝ ܥܙܙܐܝܠ"  ;
-dcterms:description "A monastery in the hills above ."  ;
+ rdfs:label "Mor ʿAzozoʾil — ܕܝܪܐ ܕܡܪܝ ܥܙܙܐܝܠ" ;
  lawd:hasName [
-lawd:primaryForm "Mor ʿAzozoʾil"@en  ;];
+ lawd:primaryForm "Mor ʿAzozoʾil"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܥܙܙܐܝܠ"@syr  ;];
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܥܙܙܐܝܠ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܥܙܳܙܳܐܝܠ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܥܙܳܙܳܐܝܠ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "دير مار عززائيل"@ar  ;];
+ lawd:variantForm "دير مار عززائيل"@ar ;];
  lawd:hasName [
-lawd:variantForm "Mor Azozoʾil"@en-xsrp1  ;];
+ lawd:variantForm "Mor Azozoʾil"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mor ‘Azozoʾil"@en-xsrp1  ;];
+ lawd:variantForm "Mor ‘Azozoʾil"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Dayr al-Zafarān"@en-xsrp1  ;];
+ lawd:variantForm "Dayr al-Zafarān"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Dayr al-Za‘farān"@en-xsrp1  ;];
+ lawd:variantForm "Dayr al-Za‘farān"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mor Azozoʾil"@en-xsrp1  ;];
+ lawd:variantForm "Mor Azozoʾil"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mor ’Azozoʾil"@en-xsrp1  ;];
+ lawd:variantForm "Mor ’Azozoʾil"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mor Azozoʾil"@en-xsrp1  ;];
+ lawd:variantForm "Mor Azozoʾil"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mor Azozoʾil"@en-xsrp1  ;];
+ lawd:variantForm "Mor Azozoʾil"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mor ‘Azozoʾil"@en-xsrp1  ;];
+ lawd:variantForm "Mor ‘Azozoʾil"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mor ‘Azozoʾil"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Dayr al-Zaʿfarān"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/657/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/657/tei>  .
+ lawd:variantForm "Mor ‘Azozoʾil"@en-xsrp1 ;];
+ skos:related "Dayr al-Zaʿfarān" ;
+ dcterms:description "A monastery in the hills above ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/657/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/657/tei> .

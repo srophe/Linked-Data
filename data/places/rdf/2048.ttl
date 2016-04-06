@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2048> a lawd:Place ;
-rdfs:label "Mar Quryaqos"  ;
+ rdfs:label "Mar Quryaqos" ;
  lawd:hasName [
-lawd:primaryForm "Mar Quryaqos"@en  ;];
+ lawd:primaryForm "Mar Quryaqos"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Quriāqōs"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2048/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2048/tei>  ;
-dcterms:relation <http://syriaca.org/place/2484>  ;
-dcterms:relation <http://syriaca.org/place/2485>  ;
-dcterms:relation <http://syriaca.org/place/1430>  ;
-dcterms:relation <http://syriaca.org/place/2035>  ;
-dcterms:relation <http://syriaca.org/place/2036>  ;
-dcterms:relation <http://syriaca.org/place/2037>  ;
-dcterms:relation <http://syriaca.org/place/2038>  ;
-dcterms:relation <http://syriaca.org/place/2039>  ;
-dcterms:relation <http://syriaca.org/place/2040>  ;
-dcterms:relation <http://syriaca.org/place/2041>  ;
-dcterms:relation <http://syriaca.org/place/2042>  ;
-dcterms:relation <http://syriaca.org/place/2043>  ;
-dcterms:relation <http://syriaca.org/place/2044>  ;
-dcterms:relation <http://syriaca.org/place/2045>  ;
-dcterms:relation <http://syriaca.org/place/2046>  ;
-dcterms:relation <http://syriaca.org/place/2047>  .
+ lawd:variantForm "Mār Quriāqōs"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2048/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2048/tei> ;
+ dcterms:relation <http://syriaca.org/place/2484> ;
+ dcterms:relation <http://syriaca.org/place/2485> ;
+ dcterms:relation <http://syriaca.org/place/1430> ;
+ dcterms:relation <http://syriaca.org/place/2035> ;
+ dcterms:relation <http://syriaca.org/place/2036> ;
+ dcterms:relation <http://syriaca.org/place/2037> ;
+ dcterms:relation <http://syriaca.org/place/2038> ;
+ dcterms:relation <http://syriaca.org/place/2039> ;
+ dcterms:relation <http://syriaca.org/place/2040> ;
+ dcterms:relation <http://syriaca.org/place/2041> ;
+ dcterms:relation <http://syriaca.org/place/2042> ;
+ dcterms:relation <http://syriaca.org/place/2043> ;
+ dcterms:relation <http://syriaca.org/place/2044> ;
+ dcterms:relation <http://syriaca.org/place/2045> ;
+ dcterms:relation <http://syriaca.org/place/2046> ;
+ dcterms:relation <http://syriaca.org/place/2047> .

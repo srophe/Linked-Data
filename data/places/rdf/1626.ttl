@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1626> a lawd:Place ;
-rdfs:label "Qīzīlʿāshīq"  ;
+ rdfs:label "Qīzīlʿāshīq" ;
  lawd:hasName [
-lawd:primaryForm "Qīzīlʿāshīq"@en  ;];
+ lawd:primaryForm "Qīzīlʿāshīq"@en ;];
  lawd:hasName [
-lawd:variantForm "Qīzīlāshīq"@en-xsrp1  ;];
+ lawd:variantForm "Qīzīlāshīq"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Qīzīl‘āshīq"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1626/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1626/tei>  .
+ lawd:variantForm "Qīzīl‘āshīq"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1626/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1626/tei> .

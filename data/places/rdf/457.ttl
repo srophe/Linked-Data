@@ -11,32 +11,32 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/457> a lawd:Place ;
-rdfs:label "Marga — ܡܪܓܐ"  ;
+ rdfs:label "Marga — ܡܪܓܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Marga"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܡܪܓܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "مرجا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "المرج"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Marj"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Margā (East Syrian diocese)"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Tellā and Barbellī"@en ;];
  dcterms:description [
-rdfs:label "ܦܢܺܝܬܐ ܕܰܒܓܰܪܒܰܝ ܡܰܕܢܰܚ ܡܘܨܠ ܡܶܢܩܕܺܝܡ ܪܘܣܬܩܳܐ ܪܰܒܐ ܗܘܳܬ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܦܢܺܝܬܐ ܕܰܒܓܰܪܒܰܝ ܡܰܕܢܰܚ ܡܘܨܠ ܡܶܢܩܕܺܝܡ ܪܘܣܬܩܳܐ ܪܰܒܐ ܗܘܳܬ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "ناحية في شمال شرقي الموصل كانت قديما رستاقا كبيرا."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ناحية في شمال شرقي الموصل كانت قديما رستاقا كبيرا."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a place northeast of Mosul, formerly a big province."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0790"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Marga_(East_Syrian_diocese)>  ;
- lawd:hasName [
-lawd:primaryForm "Marga"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܡܪܓܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "مرجا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "المرج"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Marj"@en  ;];
- lawd:hasName [
-lawd:variantForm "Margā (East Syrian diocese)"@en  ;];
- lawd:hasName [
-lawd:variantForm "Tellā and Barbellī"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/457/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/457/tei>  ;
-dcterms:relation <http://syriaca.org/place/2343>  .
+ rdfs:label "a place northeast of Mosul, formerly a big province."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0790" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Marga_(East_Syrian_diocese)> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/457/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/457/tei> ;
+ dcterms:relation <http://syriaca.org/place/2343> .

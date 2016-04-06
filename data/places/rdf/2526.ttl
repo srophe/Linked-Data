@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2526> a lawd:Place ;
-rdfs:label "Baradost"  ;
+ rdfs:label "Baradost" ;
  lawd:hasName [
-lawd:primaryForm "Baradost"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2526/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2526/tei>  .
+ lawd:primaryForm "Baradost"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2526/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2526/tei> .

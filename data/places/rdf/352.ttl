@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/352> a lawd:Place ;
-rdfs:label "Dayro da-Knushyo — ܕܝܪܐ ܕܟܢܘܫܝܐ"  ;
+ rdfs:label "Dayro da-Knushyo — ܕܝܪܐ ܕܟܢܘܫܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dayro da-Knushyo"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܟܢܘܫܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܰܟܢܘܫܝܳܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير خنوشيا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Khanushya Monastery"@en ;];
  dcterms:description [
-rdfs:label "ܒܛܘܪܳܐ ܕܫܺܝܓܘܪ ܕܟܺܝܪ ܒܡܶܨܥܳܝ̈ܬܗ̇ ܕܡܰܐܬܳܐ ܫܬܝܺܬܝܳܬܐ ܘܒܶܗ ܐܶܬܢܰܦܩ ܡܰܦܪܝܳܢܐ ܦܰܘܠܘܣ ܫܢܰܬ 722 ܘܕܰܝܪܳܝܐ ܕܰܘܝܕ ܒܰܪ ܦܰܘܠܳܘܣ ܒܪܺܝܫ ܕܳܪܳܐ ܬܫܝܥܳܝܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܛܘܪܳܐ ܕܫܺܝܓܘܪ ܕܟܺܝܪ ܒܡܶܨܥܳܝ̈ܬܗ̇ ܕܡܰܐܬܳܐ ܫܬܝܺܬܝܳܬܐ ܘܒܶܗ ܐܶܬܢܰܦܩ ܡܰܦܪܝܳܢܐ ܦܰܘܠܘܣ ܫܢܰܬ 722 ܘܕܰܝܪܳܝܐ ܕܰܘܝܕ ܒܰܪ ܦܰܘܠܳܘܣ ܒܪܺܝܫ ܕܳܪܳܐ ܬܫܝܥܳܝܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في جبل سنجار؛ ذكر في اواسط المئة السادسة وفيه تخرج المفريان بولس 722 والراهب داود بن بولس (صدر القرن التاسع)"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في جبل سنجار؛ ذكر في اواسط المئة السادسة وفيه تخرج المفريان بولس 722 والراهب داود بن بولس (صدر القرن التاسع)"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "in the mountain of Sinjar, is first mentioned in history in the sixth century. From it graduated Maphryono Paul in 722 and the monk David Bar Paul in the beginning of the ninth century."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0600"  ;
- lawd:hasName [
-lawd:primaryForm "Dayro da-Knushyo"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܟܢܘܫܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܰܟܢܘܫܝܳܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير خنوشيا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Khanushya Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/352/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/352/tei>  .
+ rdfs:label "in the mountain of Sinjar, is first mentioned in history in the sixth century. From it graduated Maphryono Paul in 722 and the monk David Bar Paul in the beginning of the ninth century."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0600" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/352/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/352/tei> .

@@ -11,27 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/514> a lawd:Place ;
-rdfs:label "Sukhna — ܣܟܢܗ"  ;
-dcterms:description "A town on the desert road between and ."  ;
-dcterms:temporal "0634"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/668178>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Al-Sukhnah>  ;
+ rdfs:label "Sukhna — ܣܟܢܗ" ;
+ lawd:hasName [
+ lawd:primaryForm "Sukhna"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܣܟܢܗ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܣܰܟܢܗ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "سخنة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "سُخْنة"@ar ;];
+ skos:related "Palmyra" ;
+ skos:related "Dayr al-Zor" ;
+ dcterms:description "A town on the desert road between and ." ;
+ dcterms:temporal "0634" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/668178> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Al-Sukhnah> ;
 geo:location [
-geo:lat "34.900877"  ;
-geo:long "34.900877"  ;];
- lawd:hasName [
-lawd:primaryForm "Sukhna"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܣܟܢܗ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܣܰܟܢܗ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "سخنة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "سُخْنة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Palmyra"  ;];
- lawd:hasName [
-lawd:variantForm "Dayr al-Zor"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/514/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/514/tei>  .
+ geo:lat "34.900877" ;
+ geo:long "38.882857" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/514/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/514/tei> ;
+geo:location [
+ geo:lat "34.900877" ;
+ geo:long "38.882857" ;].

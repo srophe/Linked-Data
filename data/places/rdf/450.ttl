@@ -11,27 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/450> a lawd:Place ;
-rdfs:label "Kurtam — ܟܘܪܬܘܡ"  ;
-dcterms:description "A village on the ."  ;
+ rdfs:label "Kurtam — ܟܘܪܬܘܡ" ;
+ lawd:hasName [
+ lawd:primaryForm "Kurtam"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܟܘܪܬܘܡ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "كورتم"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Qawartam"@en ;];
+ skos:related "Euphrates" ;
+ dcterms:description "A village on the ." ;
  dcterms:description [
-rdfs:label "ܩܪܺܝܬܳܐ ܗܘܳܬ ܥܰܠ ܦܪܳܬ. ܘܐܝܺܬܶܝܗ̇ ܡܳܬܳܐ ܕܩܰܕܝܫܳܐ ܝܰܥܩܘܒ ܕܰܣܪܘܓ ܡܰܠܦܳܢܐ 521"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܺܝܬܳܐ ܗܘܳܬ ܥܰܠ ܦܪܳܬ. ܘܐܝܺܬܶܝܗ̇ ܡܳܬܳܐ ܕܩܰܕܝܫܳܐ ܝܰܥܩܘܒ ܕܰܣܪܘܓ ܡܰܠܦܳܢܐ 521"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية كانت على الفرات وهي موطن القديس يعقوب السروجي الملفان 521 +."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية كانت على الفرات وهي موطن القديس يعقوب السروجي الملفان 521 +."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village on the Euphrates, the birthplace of Jacob of Sarug (d. 521)."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0460"  ;
- lawd:hasName [
-lawd:primaryForm "Kurtam"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܟܘܪܬܘܡ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "كورتم"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Qawartam"@en  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/450/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/450/tei>  .
+ rdfs:label "a village on the Euphrates, the birthplace of Jacob of Sarug (d. 521)."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0460" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/450/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/450/tei> .

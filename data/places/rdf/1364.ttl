@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1364> a lawd:Place ;
-rdfs:label "Kalati"  ;
+ rdfs:label "Kalati" ;
  lawd:hasName [
-lawd:primaryForm "Kalati"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1364/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1364/tei>  .
+ lawd:primaryForm "Kalati"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1364/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1364/tei> .

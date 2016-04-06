@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2256> a lawd:Place ;
-rdfs:label "Arzun"  ;
+ rdfs:label "Arzun" ;
  lawd:hasName [
-lawd:primaryForm "Arzun"@en  ;];
+ lawd:primaryForm "Arzun"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Dlīsh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2256/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2256/tei>  ;
-dcterms:relation <http://syriaca.org/place/285>  .
+ lawd:variantForm "Beṯ Dlīsh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2256/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2256/tei> ;
+ dcterms:relation <http://syriaca.org/place/285> .

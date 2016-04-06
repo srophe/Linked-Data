@@ -11,27 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/445> a lawd:Place ;
-rdfs:label "Kafrṭāb — ܟܦܪܛܐܒ"  ;
+ rdfs:label "Kafrṭāb — ܟܦܪܛܐܒ" ;
+ lawd:hasName [
+ lawd:primaryForm "Kafrṭāb"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܟܦܪܛܐܒ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܟܦܰܪܛܐܒ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "كفر طاب"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "كفرطاب"@ar ;];
  dcterms:description [
-rdfs:label "ܡܕܺܝܢܳܬܘܢܳܝ ܕܰܒܡܰܕܒܪܳܐ ܨܗܘܐ ܕܒܶܝܬ ܡܥܪܝܐ ܢܥܡܰܢ ܠܚܳܠܳܒ ܐܶܬܠܰܝܬܝ ܪܘܫܡܳܗ̇."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܺܝܢܳܬܘܢܳܝ ܕܰܒܡܰܕܒܪܳܐ ܨܗܘܐ ܕܒܶܝܬ ܡܥܪܝܐ ܢܥܡܰܢ ܠܚܳܠܳܒ ܐܶܬܠܰܝܬܝ ܪܘܫܡܳܗ̇."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة في برية معطشة بين معرة النعمان وحلب عفا رسمها."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة في برية معطشة بين معرة النعمان وحلب عفا رسمها."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "an ancient town in the Muʿaṭṭasha desert between Maʿarrat al-Nuʿmān and Aleppo."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1059"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Kfar_Tab_(West_Syrian_Diocese)>  ;
- lawd:hasName [
-lawd:primaryForm "Kafrṭāb"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܟܦܪܛܐܒ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܟܦܰܪܛܐܒ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "كفر طاب"@ar  ;];
- lawd:hasName [
-lawd:variantForm "كفرطاب"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/445/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/445/tei>  .
+ rdfs:label "an ancient town in the Muʿaṭṭasha desert between Maʿarrat al-Nuʿmān and Aleppo."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1059" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Kfar_Tab_(West_Syrian_Diocese)> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/445/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/445/tei> .

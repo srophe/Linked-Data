@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/731> a lawd:Place ;
-rdfs:label "Artushi"  ;
+ rdfs:label "Artushi" ;
  lawd:hasName [
-lawd:primaryForm "Artushi"@en  ;];
+ lawd:primaryForm "Artushi"@en ;];
  lawd:hasName [
-lawd:variantForm "Artushi Kurdish district"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/731/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/731/tei>  .
+ lawd:variantForm "Artushi Kurdish district"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/731/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/731/tei> .

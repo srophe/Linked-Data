@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1817> a lawd:Place ;
-rdfs:label "Zānālūi"  ;
+ rdfs:label "Zānālūi" ;
  lawd:hasName [
-lawd:primaryForm "Zānālūi"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1817/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1817/tei>  .
+ lawd:primaryForm "Zānālūi"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1817/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1817/tei> .

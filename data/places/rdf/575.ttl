@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/575> a lawd:Place ;
-rdfs:label "Ancient Near East"  ;
-dcterms:description "The region comprising the Fertile Crescent, Egypt, and Anatolia."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Ancient_Near_East>  ;
+ rdfs:label "Ancient Near East" ;
  lawd:hasName [
-lawd:primaryForm "Ancient Near East"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/575/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/575/tei>  .
+ lawd:primaryForm "Ancient Near East"@en ;];
+ dcterms:description "The region comprising the Fertile Crescent, Egypt, and Anatolia." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Ancient_Near_East> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/575/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/575/tei> .

@@ -11,43 +11,43 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/138> a lawd:Place ;
-rdfs:label "Mopsuestia — ܡܗܦܣܘܣܛܝܐ"  ;
-dcterms:description "A town of southwest of on the ."  ;
+ rdfs:label "Mopsuestia — ܡܗܦܣܘܣܛܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Mopsuestia"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܡܗܦܣܘܣܛܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܡܣܝܣܛܰܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "المصيصة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Maṣṣīṣa"@en ;];
+ lawd:hasName [
+ lawd:variantForm "ܡܲܗܦܣܘܼܣܛܝܼܵܐ"@syr-Syrn ;];
+ lawd:hasName [
+ lawd:variantForm "المَصِّيْصة"@ar ;];
+ skos:related "Cilicia II" ;
+ skos:related "Anazarbos" ;
+ skos:related "Pyramos river" ;
+ dcterms:description "A town of southwest of on the ." ;
  dcterms:description [
-rdfs:label "ܡܕܝܢܬܳܐ ܗܝ ܕܥܰܠ ܣܦܳܪ ܢܰܗܪܳܐ ܓܺܝܚܘܢ ܒܩܘܪܒܳܐ ܕܰܐܛܰܢܰܗ ܠܡܰܕܢܚܳܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܝܢܬܳܐ ܗܝ ܕܥܰܠ ܣܦܳܪ ܢܰܗܪܳܐ ܓܺܝܚܘܢ ܒܩܘܪܒܳܐ ܕܰܐܛܰܢܰܗ ܠܡܰܕܢܚܳܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة على شاطئ جيحان تقارب ادنة شرقا."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة على شاطئ جيحان تقارب ادنة شرقا."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town on the Jijan, just east of Adana."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0079"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658538>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Mopsuestia>  ;
+ rdfs:label "a town on the Jijan, just east of Adana."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0079" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658538> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Mopsuestia> ;
 geo:location [
-geo:lat "36.95"  ;
-geo:long "36.95"  ;];
- lawd:hasName [
-lawd:primaryForm "Mopsuestia"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܡܗܦܣܘܣܛܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܡܣܝܣܛܰܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "المصيصة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Maṣṣīṣa"@en  ;];
- lawd:hasName [
-lawd:variantForm "ܡܲܗܦܣܘܼܣܛܝܼܵܐ"@syr-Syrn  ;];
- lawd:hasName [
-lawd:variantForm "المَصِّيْصة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Cilicia II"  ;];
- lawd:hasName [
-lawd:variantForm "Anazarbos"  ;];
- lawd:hasName [
-lawd:variantForm "Pyramos river"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/138/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/138/tei>  ;
-dcterms:relation <http://syriaca.org/place/2345>  .
+ geo:lat "36.95" ;
+ geo:long "35.58333" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/138/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/138/tei> ;
+geo:location [
+ geo:lat "36.95" ;
+ geo:long "35.58333" ;];
+ dcterms:relation <http://syriaca.org/place/2345> .

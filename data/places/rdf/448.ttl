@@ -11,29 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/448> a lawd:Place ;
-rdfs:label "Kandanad — ܟܢܕܝܢܐܛ"  ;
-dcterms:description "A city on the in ."  ;
+ rdfs:label "Kandanad — ܟܢܕܝܢܐܛ" ;
+ lawd:hasName [
+ lawd:primaryForm "Kandanad"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܟܢܕܝܢܐܛ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܟܰܢܕܝܢܰܐܛ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "كنديناط"@ar ;];
+ skos:related "Malabar coast" ;
+ skos:related "India" ;
+ dcterms:description "A city on the in ." ;
  dcterms:description [
-rdfs:label "ܐܰܬܪܐ ܗܰܘ ܕܰܒܓܰܪܒܰܝ ܡܰܕܢܰܚ ܡܺܝܠܝܒܰܪ ܒܗܶܢܕܘ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܐ ܗܰܘ ܕܰܒܓܰܪܒܰܝ ܡܰܕܢܰܚ ܡܺܝܠܝܒܰܪ ܒܗܶܢܕܘ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة في الشمال الشرقي من ملبار الهند."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة في الشمال الشرقي من ملبار الهند."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town in the northeastern part of Malabar, in India."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1764"  ;
- lawd:hasName [
-lawd:primaryForm "Kandanad"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܟܢܕܝܢܐܛ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܟܰܢܕܝܢܰܐܛ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "كنديناط"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Malabar coast"  ;];
- lawd:hasName [
-lawd:variantForm "India"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/448/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/448/tei>  .
+ rdfs:label "a town in the northeastern part of Malabar, in India."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1764" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/448/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/448/tei> .

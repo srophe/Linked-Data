@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1728> a lawd:Place ;
-rdfs:label "Sīger"  ;
+ rdfs:label "Sīger" ;
  lawd:hasName [
-lawd:primaryForm "Sīger"@en  ;];
+ lawd:primaryForm "Sīger"@en ;];
  lawd:hasName [
-lawd:variantForm "Sīger (ii)"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1728/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1728/tei>  ;
-dcterms:relation <http://syriaca.org/place/1727>  .
+ lawd:variantForm "Sīger (ii)"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1728/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1728/tei> ;
+ dcterms:relation <http://syriaca.org/place/1727> .

@@ -11,18 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/584> a lawd:Place ;
-rdfs:label "Caeciliana"  ;
-dcterms:description "On the western bank of the northeast of ."  ;
-dcterms:temporal "0300"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658418>  ;
+ rdfs:label "Caeciliana" ;
+ lawd:hasName [
+ lawd:primaryForm "Caeciliana"@en ;];
+ skos:related "Euphrates" ;
+ skos:related "Mabbug" ;
+ dcterms:description "On the western bank of the northeast of ." ;
+ dcterms:temporal "0300" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658418> ;
 geo:location [
-geo:lat "36.655948"  ;
-geo:long "36.655948"  ;];
- lawd:hasName [
-lawd:primaryForm "Caeciliana"@en  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates"  ;];
- lawd:hasName [
-lawd:variantForm "Mabbug"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/584/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/584/tei>  .
+ geo:lat "36.655948" ;
+ geo:long "38.076558" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/584/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/584/tei> ;
+geo:location [
+ geo:lat "36.655948" ;
+ geo:long "38.076558" ;].

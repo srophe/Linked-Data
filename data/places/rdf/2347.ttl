@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2347> a lawd:Place ;
-rdfs:label "Nahrawan"  ;
+ rdfs:label "Nahrawan" ;
  lawd:hasName [
-lawd:primaryForm "Nahrawan"@en  ;];
+ lawd:primaryForm "Nahrawan"@en ;];
  lawd:hasName [
-lawd:variantForm "Nahrawān"@en  ;];
+ lawd:variantForm "Nahrawān"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻNarman’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2347/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2347/tei>  ;
-dcterms:relation <http://syriaca.org/place/1560>  .
+ lawd:variantForm "ʻNarman’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2347/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2347/tei> ;
+ dcterms:relation <http://syriaca.org/place/1560> .

@@ -11,19 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/693> a lawd:Place ;
-rdfs:label "Shaʿb — ܫܥܒ"  ;
-dcterms:description "A village south of ."  ;
+ rdfs:label "Shaʿb — ܫܥܒ" ;
  lawd:hasName [
-lawd:primaryForm "Shaʿb"@en  ;];
+ lawd:primaryForm "Shaʿb"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܫܥܒ"@syr  ;];
+ lawd:primaryForm "ܫܥܒ"@syr ;];
  lawd:hasName [
-lawd:variantForm "شعب"@ar  ;];
+ lawd:variantForm "شعب"@ar ;];
  lawd:hasName [
-lawd:variantForm "Shab"@en-xsrp1  ;];
+ lawd:variantForm "Shab"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Sha‘b"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Mardin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/693/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/693/tei>  .
+ lawd:variantForm "Sha‘b"@en-xsrp1 ;];
+ skos:related "Mardin" ;
+ dcterms:description "A village south of ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/693/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/693/tei> .

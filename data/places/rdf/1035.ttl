@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1035> a lawd:Place ;
-rdfs:label "Beth Kōlā"  ;
+ rdfs:label "Beth Kōlā" ;
  lawd:hasName [
-lawd:primaryForm "Beth Kōlā"@en  ;];
+ lawd:primaryForm "Beth Kōlā"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Kōlā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1035/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1035/tei>  .
+ lawd:variantForm "Beṯ Kōlā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1035/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1035/tei> .

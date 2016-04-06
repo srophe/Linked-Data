@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1257> a lawd:Place ;
-rdfs:label "Hakkadānā"  ;
+ rdfs:label "Hakkadānā" ;
  lawd:hasName [
-lawd:primaryForm "Hakkadānā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1257/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1257/tei>  .
+ lawd:primaryForm "Hakkadānā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1257/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1257/tei> .

@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1366> a lawd:Place ;
-rdfs:label "Kānūntā"  ;
+ rdfs:label "Kānūntā" ;
  lawd:hasName [
-lawd:primaryForm "Kānūntā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1366/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1366/tei>  .
+ lawd:primaryForm "Kānūntā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1366/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1366/tei> .

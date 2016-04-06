@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1107> a lawd:Place ;
-rdfs:label "Bozlū"  ;
+ rdfs:label "Bozlū" ;
  lawd:hasName [
-lawd:primaryForm "Bozlū"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1107/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1107/tei>  .
+ lawd:primaryForm "Bozlū"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1107/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1107/tei> .

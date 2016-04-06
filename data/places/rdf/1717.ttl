@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1717> a lawd:Place ;
-rdfs:label "Shmūnīnīs"  ;
+ rdfs:label "Shmūnīnīs" ;
  lawd:hasName [
-lawd:primaryForm "Shmūnīnīs"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1717/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1717/tei>  .
+ lawd:primaryForm "Shmūnīnīs"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1717/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1717/tei> .

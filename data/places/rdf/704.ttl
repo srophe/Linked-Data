@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/704> a lawd:Place ;
-rdfs:label "Beth Moksaye"  ;
+ rdfs:label "Beth Moksaye" ;
  lawd:hasName [
-lawd:primaryForm "Beth Moksaye"@en  ;];
+ lawd:primaryForm "Beth Moksaye"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Moksāye"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/704/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/704/tei>  .
+ lawd:variantForm "Beṯ Moksāye"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/704/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/704/tei> .

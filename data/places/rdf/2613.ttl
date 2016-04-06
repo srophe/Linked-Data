@@ -11,13 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2613> a lawd:Place ;
-rdfs:label "Mar Zaya"  ;
-dcterms:description "A church in"  ;
+ rdfs:label "Mar Zaya" ;
  lawd:hasName [
-lawd:primaryForm "Mar Zaya"@en  ;];
+ lawd:primaryForm "Mar Zaya"@en ;];
  lawd:hasName [
-lawd:variantForm "Marez"@en  ;];
- lawd:hasName [
-lawd:variantForm "Verin Dvin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2613/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2613/tei>  .
+ lawd:variantForm "Marez"@en ;];
+ skos:related "Verin Dvin" ;
+ dcterms:description "A church in" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2613/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2613/tei> .

@@ -11,22 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1487> a lawd:Place ;
-rdfs:label "St. Barbara — ܥܕܬܐ ܕܒܪܒܪܐ"  ;
-dcterms:description "A church in ."  ;
-dcterms:temporal "1227"  ;
+ rdfs:label "St. Barbara — ܥܕܬܐ ܕܒܪܒܪܐ" ;
  lawd:hasName [
-lawd:primaryForm "St. Barbara"@en  ;];
+ lawd:primaryForm "St. Barbara"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܥܕܬܐ ܕܒܪܒܪܐ"@syr  ;];
+ lawd:primaryForm "ܥܕܬܐ ܕܒܪܒܪܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܥܺܕܬܐ ܕܒܰܪܒܰܪܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܥܺܕܬܐ ܕܒܰܪܒܰܪܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "بيعة بربارة"@ar  ;];
+ lawd:variantForm "بيعة بربارة"@ar ;];
  lawd:hasName [
-lawd:variantForm "Church of Barbara"@en  ;];
- lawd:hasName [
-lawd:variantForm "Aleppo"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1487/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1487/tei>  ;
-dcterms:relation <http://syriaca.org/place/551>  ;
-dcterms:relation <http://syriaca.org/place/346>  .
+ lawd:variantForm "Church of Barbara"@en ;];
+ skos:related "Aleppo" ;
+ dcterms:description "A church in ." ;
+ dcterms:temporal "1227" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1487/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1487/tei> ;
+ dcterms:relation <http://syriaca.org/place/551> ;
+ dcterms:relation <http://syriaca.org/place/346> .

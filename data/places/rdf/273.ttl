@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/273> a lawd:Place ;
-rdfs:label "Marqab"  ;
-dcterms:description "A fortress overlooking the Mediterranean coastal road near Baniyas."  ;
-dcterms:temporal "1062"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Margat>  ;
+ rdfs:label "Marqab" ;
  lawd:hasName [
-lawd:primaryForm "Marqab"@en  ;];
+ lawd:primaryForm "Marqab"@en ;];
  lawd:hasName [
-lawd:variantForm "المَرْقب"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/273/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/273/tei>  .
+ lawd:variantForm "المَرْقب"@ar ;];
+ dcterms:description "A fortress overlooking the Mediterranean coastal road near Baniyas." ;
+ dcterms:temporal "1062" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Margat> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/273/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/273/tei> .

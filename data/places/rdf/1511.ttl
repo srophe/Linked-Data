@@ -11,22 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1511> a lawd:Place ;
-rdfs:label "Kfar Nabu — ܟܦܪ ܢܒܘ"  ;
-dcterms:description "A village near ."  ;
-dcterms:temporal "0785"  ;
+ rdfs:label "Kfar Nabu — ܟܦܪ ܢܒܘ" ;
  lawd:hasName [
-lawd:primaryForm "Kfar Nabu"@en  ;];
+ lawd:primaryForm "Kfar Nabu"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܟܦܪ ܢܒܘ"@syr  ;];
+ lawd:primaryForm "ܟܦܪ ܢܒܘ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܟܰܦܰܪ ܢܳܒܘܽ"@syr-Syrj  ;];
+ lawd:variantForm "ܟܰܦܰܪ ܢܳܒܘܽ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "كفر نبو"@ar  ;];
+ lawd:variantForm "كفر نبو"@ar ;];
  lawd:hasName [
-lawd:variantForm "Kafr Nabu"@en  ;];
+ lawd:variantForm "Kafr Nabu"@en ;];
  lawd:hasName [
-lawd:variantForm "كفرنبو"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Serugh"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1511/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1511/tei>  .
+ lawd:variantForm "كفرنبو"@ar ;];
+ skos:related "Serugh" ;
+ dcterms:description "A village near ." ;
+ dcterms:temporal "0785" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1511/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1511/tei> .

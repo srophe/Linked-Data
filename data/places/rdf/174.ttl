@@ -11,20 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/174> a lawd:Place ;
-rdfs:label "Seleucia"  ;
-dcterms:description "A port city of ."  ;
-dcterms:temporal "-0281"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/648771>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Silifke>  ;
+ rdfs:label "Seleucia" ;
+ lawd:hasName [
+ lawd:primaryForm "Seleucia"@en ;];
+ lawd:hasName [
+ lawd:variantForm "سَلِيقِية"@ar ;];
+ skos:related "Isauria" ;
+ dcterms:description "A port city of ." ;
+ dcterms:temporal "-0281" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/648771> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Silifke> ;
 geo:location [
-geo:lat "36.36667"  ;
-geo:long "36.36667"  ;];
- lawd:hasName [
-lawd:primaryForm "Seleucia"@en  ;];
- lawd:hasName [
-lawd:variantForm "سَلِيقِية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Isauria"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/174/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/174/tei>  ;
-dcterms:relation <http://syriaca.org/place/182>  .
+ geo:lat "36.36667" ;
+ geo:long "33.93333" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/174/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/174/tei> ;
+geo:location [
+ geo:lat "36.36667" ;
+ geo:long "33.93333" ;];
+ dcterms:relation <http://syriaca.org/place/182> .

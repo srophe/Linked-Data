@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/879> a lawd:Place ;
-rdfs:label "Wasṭān"  ;
+ rdfs:label "Wasṭān" ;
  lawd:hasName [
-lawd:primaryForm "Wasṭān"@en  ;];
+ lawd:primaryForm "Wasṭān"@en ;];
  lawd:hasName [
-lawd:variantForm "وسطان"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/879/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/879/tei>  .
+ lawd:variantForm "وسطان"@ar ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/879/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/879/tei> .

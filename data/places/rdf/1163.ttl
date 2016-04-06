@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1163> a lawd:Place ;
-rdfs:label "Dīdān"  ;
+ rdfs:label "Dīdān" ;
  lawd:hasName [
-lawd:primaryForm "Dīdān"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1163/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1163/tei>  .
+ lawd:primaryForm "Dīdān"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1163/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1163/tei> .

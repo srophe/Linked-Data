@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/349> a lawd:Place ;
-rdfs:label "Gubba Barraya — ܕܝܪܐ ܕܓܘܒܐ ܒܪܝܐ"  ;
+ rdfs:label "Gubba Barraya — ܕܝܪܐ ܕܓܘܒܐ ܒܪܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Gubba Barraya"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܓܘܒܐ ܒܪܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܓܘܒܳܐ ܒܰܪܳܝܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ديرالجبّ الخارجي البراني"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Gubba Baraya Monastery"@en ;];
  dcterms:description [
-rdfs:label "ܒܡܰܕܒܪܳܐ ܕܰܦܪܳܬ ܒܶܝܬ ܚܳܠܳܒ ܠܡܰܒܘܓ ܐܶܫܬܰܬܐܣ ܒܚܰܪܬܗ ܕܕܳܪܳܐ ܚܡܺܝܫܳܝܳܐ ܘܰܒܪܺܝܫܗ ܕܰܫܬܝܺܬܳܝܐ ܘܐܶܬܦܣܶܩ ܛܶܒܗ ܒܡܶܨܥܳܝ̈ܬܗ ܕܰܬܫܝܺܥܳܝܐ ܐܰܦܶܩ ܐܰܪܒܥܳܐ ܦܰܛܪܝܰܪ̈ܟܐ ܘܰܬܠܳܬܐ ܐܶܦܝ̈ܣܩܘܦܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܡܰܕܒܪܳܐ ܕܰܦܪܳܬ ܒܶܝܬ ܚܳܠܳܒ ܠܡܰܒܘܓ ܐܶܫܬܰܬܐܣ ܒܚܰܪܬܗ ܕܕܳܪܳܐ ܚܡܺܝܫܳܝܳܐ ܘܰܒܪܺܝܫܗ ܕܰܫܬܝܺܬܳܝܐ ܘܐܶܬܦܣܶܩ ܛܶܒܗ ܒܡܶܨܥܳܝ̈ܬܗ ܕܰܬܫܝܺܥܳܝܐ ܐܰܦܶܩ ܐܰܪܒܥܳܐ ܦܰܛܪܝܰܪ̈ܟܐ ܘܰܬܠܳܬܐ ܐܶܦܝ̈ܣܩܘܦܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في برية الفرات بين حلب ومنبج شيد بناؤه في سلخ القرن الخامس وصدر السادس وانقطع خبره اواسط التاسع انجب اربعة بطاركة وثلاثة اساقفة"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في برية الفرات بين حلب ومنبج شيد بناؤه في سلخ القرن الخامس وصدر السادس وانقطع خبره اواسط التاسع انجب اربعة بطاركة وثلاثة اساقفة"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "located in the Euphrates desert between Aleppo and Mabug, was built at the end of the fifth and the start of the sixth century. Nothing is known about it after the middle of the ninth century. It produced four patriarchs and three bishops."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0550"  ;
- lawd:hasName [
-lawd:primaryForm "Gubba Barraya"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܓܘܒܐ ܒܪܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܓܘܒܳܐ ܒܰܪܳܝܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ديرالجبّ الخارجي البراني"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Gubba Baraya Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/349/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/349/tei>  .
+ rdfs:label "located in the Euphrates desert between Aleppo and Mabug, was built at the end of the fifth and the start of the sixth century. Nothing is known about it after the middle of the ninth century. It produced four patriarchs and three bishops."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0550" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/349/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/349/tei> .

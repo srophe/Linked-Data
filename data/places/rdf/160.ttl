@@ -11,22 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/160> a lawd:Place ;
-rdfs:label "Qamishli — ܒܝܬ ܙ̈ܠܐ"  ;
-dcterms:description "A modern city just south of ."  ;
-dcterms:temporal "1926"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Qamishli>  ;
+ rdfs:label "Qamishli — ܒܝܬ ܙ̈ܠܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Qamishli"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܝܬ ܙ̈ܠܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܶܝܬ ܙ̈ܠܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "القامشلي"@ar ;];
+ skos:related "Nisibis" ;
+ dcterms:description "A modern city just south of ." ;
+ dcterms:temporal "1926" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Qamishli> ;
 geo:location [
-geo:lat "37.05"  ;
-geo:long "37.05"  ;];
- lawd:hasName [
-lawd:primaryForm "Qamishli"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܝܬ ܙ̈ܠܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܒܶܝܬ ܙ̈ܠܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "القامشلي"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Nisibis"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/160/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/160/tei>  .
+ geo:lat "37.05" ;
+ geo:long "41.216667" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/160/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/160/tei> ;
+geo:location [
+ geo:lat "37.05" ;
+ geo:long "41.216667" ;].

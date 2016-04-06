@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/478> a lawd:Place ;
-rdfs:label "Turfan"  ;
- dcterms:description [
-rdfs:label "German excavations (1904–7), conducted near Bulayıq, north of Turfan, brought to light numerous fragmentary mss. evidently from the library of an E.-Syr. monastery."@en  ;];
- dcterms:description [
-rdfs:label "566. Turfan, Syriac texts from"@en  ;];
-dcterms:temporal "0900"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Turpan>  ;
+ rdfs:label "Turfan" ;
  lawd:hasName [
-lawd:primaryForm "Turfan"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/478/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/478/tei>  .
+ lawd:primaryForm "Turfan"@en ;];
+ dcterms:description [
+ rdfs:label "German excavations (1904–7), conducted near Bulayıq, north of Turfan, brought to light numerous fragmentary mss. evidently from the library of an E.-Syr. monastery."@en ;];
+ dcterms:description [
+ rdfs:label "566. Turfan, Syriac texts from"@en ;];
+ dcterms:temporal "0900" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Turpan> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/478/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/478/tei> .

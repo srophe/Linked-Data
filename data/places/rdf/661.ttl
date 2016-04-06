@@ -11,19 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/661> a lawd:Place ;
-rdfs:label "Mar Gabriel and Mar Abraham"  ;
-dcterms:description "An important monastery near whose site has been incorporated into the modern city."  ;
+ rdfs:label "Mar Gabriel and Mar Abraham" ;
  lawd:hasName [
-lawd:primaryForm "Mar Gabriel and Mar Abraham"@en  ;];
+ lawd:primaryForm "Mar Gabriel and Mar Abraham"@en ;];
  lawd:hasName [
-lawd:variantForm "Mar Abraham"@en  ;];
+ lawd:variantForm "Mar Abraham"@en ;];
  lawd:hasName [
-lawd:variantForm "Upper Monastery"@en  ;];
+ lawd:variantForm "Upper Monastery"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Gabriel"@en  ;];
+ lawd:variantForm "Mār Gabriel"@en ;];
  lawd:hasName [
-lawd:variantForm "دير الأعلى"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Mosul"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/661/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/661/tei>  .
+ lawd:variantForm "دير الأعلى"@ar ;];
+ skos:related "Mosul" ;
+ dcterms:description "An important monastery near whose site has been incorporated into the modern city." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/661/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/661/tei> .

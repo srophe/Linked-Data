@@ -11,20 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/570> a lawd:Place ;
-rdfs:label "Bāb Allah — ܬܪܥ ܐܝܠ"  ;
-dcterms:description "A gate of ."  ;
-dcterms:temporal "1943"  ;
+ rdfs:label "Bāb Allah — ܬܪܥ ܐܝܠ" ;
  lawd:hasName [
-lawd:primaryForm "Bāb Allah"@en  ;];
+ lawd:primaryForm "Bāb Allah"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܬܪܥ ܐܝܠ"@syr  ;];
+ lawd:primaryForm "ܬܪܥ ܐܝܠ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܬܪܰܥ ܐܝܺܠ"@syr-Syrj  ;];
+ lawd:variantForm "ܬܪܰܥ ܐܝܺܠ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "باب الله"@ar  ;];
+ lawd:variantForm "باب الله"@ar ;];
  lawd:hasName [
-lawd:variantForm "Bab Allah"@en  ;];
- lawd:hasName [
-lawd:variantForm "Aleppo"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/570/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/570/tei>  .
+ lawd:variantForm "Bab Allah"@en ;];
+ skos:related "Aleppo" ;
+ dcterms:description "A gate of ." ;
+ dcterms:temporal "1943" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/570/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/570/tei> .

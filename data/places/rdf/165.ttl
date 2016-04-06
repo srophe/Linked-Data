@@ -11,23 +11,25 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/165> a lawd:Place ;
-rdfs:label "Sergiopolis"  ;
-dcterms:description "A town southwest of ."  ;
-dcterms:temporal "-0800"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/668354>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Resafa>  ;
+ rdfs:label "Sergiopolis" ;
+ lawd:hasName [
+ lawd:primaryForm "Sergiopolis"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Reṣafa"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Rusafa"@en ;];
+ lawd:hasName [
+ lawd:variantForm "رُصافة الشام"@ar ;];
+ skos:related "Kallinikos" ;
+ dcterms:description "A town southwest of ." ;
+ dcterms:temporal "-0800" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/668354> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Resafa> ;
 geo:location [
-geo:lat "35.616667"  ;
-geo:long "35.616667"  ;];
- lawd:hasName [
-lawd:primaryForm "Sergiopolis"@en  ;];
- lawd:hasName [
-lawd:variantForm "Reṣafa"@en  ;];
- lawd:hasName [
-lawd:variantForm "Rusafa"@en  ;];
- lawd:hasName [
-lawd:variantForm "رُصافة الشام"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Kallinikos"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/165/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/165/tei>  .
+ geo:lat "35.616667" ;
+ geo:long "38.75" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/165/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/165/tei> ;
+geo:location [
+ geo:lat "35.616667" ;
+ geo:long "38.75" ;].

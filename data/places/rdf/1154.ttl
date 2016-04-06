@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1154> a lawd:Place ;
-rdfs:label "Dehe"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Dehi,_Iraq>  ;
+ rdfs:label "Dehe" ;
  lawd:hasName [
-lawd:primaryForm "Dehe"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1154/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1154/tei>  .
+ lawd:primaryForm "Dehe"@en ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Dehi,_Iraq> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1154/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1154/tei> .

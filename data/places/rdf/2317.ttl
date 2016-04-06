@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2317> a lawd:Place ;
-rdfs:label "Ḥrbaṯ Glāl"  ;
+ rdfs:label "Ḥrbaṯ Glāl" ;
  lawd:hasName [
-lawd:primaryForm "Ḥrbaṯ Glāl"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2317/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2317/tei>  ;
-dcterms:relation <http://syriaca.org/place/1335>  .
+ lawd:primaryForm "Ḥrbaṯ Glāl"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2317/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2317/tei> ;
+ dcterms:relation <http://syriaca.org/place/1335> .

@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1545> a lawd:Place ;
-rdfs:label "Merkānīsh"  ;
+ rdfs:label "Merkānīsh" ;
  lawd:hasName [
-lawd:primaryForm "Merkānīsh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1545/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1545/tei>  .
+ lawd:primaryForm "Merkānīsh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1545/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1545/tei> .

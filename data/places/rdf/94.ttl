@@ -11,47 +11,48 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/94> a lawd:Place ;
-rdfs:label "Ḥiṣn Manṣūr — ܚܣܢ ܡܢܨܘܪ"  ;
-dcterms:description "A city north of and southwest of ."  ;
+ rdfs:label "Ḥiṣn Manṣūr — ܚܣܢ ܡܢܨܘܪ" ;
+ lawd:hasName [
+ lawd:primaryForm "Ḥiṣn Manṣūr"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Perrhe"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Hiṣn Manṣūr"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Adıyaman"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Parrin"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܚܣܢ ܡܢܨܘܪ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܚܰܣܰܢ ܡܰܢܨܘܪ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "حصن منصور"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Qala Rumayta"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Qal‘a Rumayta"@en-xsrp1 ;];
+ skos:related "Qalʿa Rumayta" ;
+ skos:related "Melitene" ;
+ dcterms:description "A city north of and southwest of ." ;
  dcterms:description [
-rdfs:label "ܡܕܝܰܢܬܐ ܗܝ ܕܰܒܓܰܪܒܰܝ ܫܰܡܝܫܰܛ ܠܡܰܥܪܒܳܐ ܕܰܦܪܳܬ ܕܡܶܬܶܐܡܰܪ ܠܗ̇ ܬܘܒ ܐܰܕܺܝܰܐܡܰܐܢ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܝܰܢܬܐ ܗܝ ܕܰܒܓܰܪܒܰܝ ܫܰܡܝܫܰܛ ܠܡܰܥܪܒܳܐ ܕܰܦܪܳܬ ܕܡܶܬܶܐܡܰܪ ܠܗ̇ ܬܘܒ ܐܰܕܺܝܰܐܡܰܐܢ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة شمالي سميساط في غربي الفرات يقال لها ايضاً اديمان"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة شمالي سميساط في غربي الفرات يقال لها ايضاً اديمان"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town north of Samosata on the west bank of the Euphrates; also called Adyaman."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0072"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658574>  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658568>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Adıyaman>  ;
+ rdfs:label "a town north of Samosata on the west bank of the Euphrates; also called Adyaman."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0072" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658574> ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658568> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Adıyaman> ;
 geo:location [
-geo:lat "37.75972"  ;
-geo:long "37.75972"  ;];
- lawd:hasName [
-lawd:primaryForm "Ḥiṣn Manṣūr"@en  ;];
- lawd:hasName [
-lawd:variantForm "Perrhe"@en  ;];
- lawd:hasName [
-lawd:variantForm "Hiṣn Manṣūr"@en  ;];
- lawd:hasName [
-lawd:variantForm "Adıyaman"@en  ;];
- lawd:hasName [
-lawd:variantForm "Parrin"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܚܣܢ ܡܢܨܘܪ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܚܰܣܰܢ ܡܰܢܨܘܪ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "حصن منصور"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Qala Rumayta"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qal‘a Rumayta"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qalʿa Rumayta"  ;];
- lawd:hasName [
-lawd:variantForm "Melitene"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/94/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/94/tei>  .
+ geo:lat "37.75972" ;
+ geo:long "38.27875" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/94/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/94/tei> ;
+geo:location [
+ geo:lat "37.75972" ;
+ geo:long "38.27875" ;].

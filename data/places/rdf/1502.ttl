@@ -11,24 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1502> a lawd:Place ;
-rdfs:label "Bīrqūm — ܒܝܪܩܘܡ"  ;
-dcterms:description "An unlocated monastery, perhaps near ."  ;
-dcterms:temporal "0855"  ;
+ rdfs:label "Bīrqūm — ܒܝܪܩܘܡ" ;
  lawd:hasName [
-lawd:primaryForm "Bīrqūm"@en  ;];
+ lawd:primaryForm "Bīrqūm"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܒܝܪܩܘܡ"@syr  ;];
+ lawd:primaryForm "ܒܝܪܩܘܡ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܒܺܝܪܩܽܘܡ"@syr-Syrj  ;];
+ lawd:variantForm "ܒܺܝܪܩܽܘܡ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "بيرقوم"@ar  ;];
+ lawd:variantForm "بيرقوم"@ar ;];
  lawd:hasName [
-lawd:variantForm "Monastery of Birqum"@en  ;];
+ lawd:variantForm "Monastery of Birqum"@en ;];
  lawd:hasName [
-lawd:variantForm "Ānah"@en-xsrp1  ;];
+ lawd:variantForm "Ānah"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Ānah"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "ʿĀnah"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1502/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1502/tei>  .
+ lawd:variantForm "‘Ānah"@en-xsrp1 ;];
+ skos:related "ʿĀnah" ;
+ dcterms:description "An unlocated monastery, perhaps near ." ;
+ dcterms:temporal "0855" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1502/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1502/tei> .

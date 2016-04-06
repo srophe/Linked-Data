@@ -11,33 +11,35 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/49> a lawd:Place ;
-rdfs:label "Beth Sbirino — ܒܝܬ ܣܒܝܪܝܢܐ"  ;
-dcterms:description "A village in ."  ;
-dcterms:temporal "0998"  ;
+ rdfs:label "Beth Sbirino — ܒܝܬ ܣܒܝܪܝܢܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Beth Sbirino"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Bsorino"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Bāsebrīna"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Beth Severianos"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܝܬ ܣܒܝܪܝܢܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܶܝܬ ܣܒܝܪܝܢܳܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "باسبرينة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Basibrina"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related "Ṭur ʿAbdin" ;
+ dcterms:description "A village in ." ;
+ dcterms:temporal "0998" ;
 geo:location [
-geo:lat "37.316667"  ;
-geo:long "37.316667"  ;];
- lawd:hasName [
-lawd:primaryForm "Beth Sbirino"@en  ;];
- lawd:hasName [
-lawd:variantForm "Bsorino"@en  ;];
- lawd:hasName [
-lawd:variantForm "Bāsebrīna"@en  ;];
- lawd:hasName [
-lawd:variantForm "Beth Severianos"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܝܬ ܣܒܝܪܝܢܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܒܶܝܬ ܣܒܝܪܝܢܳܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "باسبرينة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Basibrina"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/49/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/49/tei>  .
+ geo:lat "37.316667" ;
+ geo:long "41.616667" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/49/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/49/tei> ;
+geo:location [
+ geo:lat "37.316667" ;
+ geo:long "41.616667" ;].

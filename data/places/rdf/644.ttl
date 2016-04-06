@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/644> a lawd:Place ;
-rdfs:label "Tell Magara"  ;
-dcterms:description "A village in Mesopotamia."  ;
+ rdfs:label "Tell Magara" ;
  lawd:hasName [
-lawd:primaryForm "Tell Magara"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/644/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/644/tei>  .
+ lawd:primaryForm "Tell Magara"@en ;];
+ dcterms:description "A village in Mesopotamia." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/644/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/644/tei> .

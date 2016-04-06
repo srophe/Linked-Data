@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/56> a lawd:Place ;
-rdfs:label "Cilicia I"  ;
-dcterms:description "A Roman province of coastal Anatolia with its capital at Tarsos."  ;
-dcterms:temporal "0305"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/1001928>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Cilicia_(Roman_province)>  ;
+ rdfs:label "Cilicia I" ;
  lawd:hasName [
-lawd:primaryForm "Cilicia I"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/56/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/56/tei>  .
+ lawd:primaryForm "Cilicia I"@en ;];
+ dcterms:description "A Roman province of coastal Anatolia with its capital at Tarsos." ;
+ dcterms:temporal "0305" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/1001928> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Cilicia_(Roman_province)> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/56/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/56/tei> .

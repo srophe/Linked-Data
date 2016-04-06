@@ -11,16 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2092> a lawd:Place ;
-rdfs:label "Mar Ṣliba"  ;
+ rdfs:label "Mar Ṣliba" ;
  lawd:hasName [
-lawd:primaryForm "Mar Ṣliba"@en  ;];
+ lawd:primaryForm "Mar Ṣliba"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Ṣlībā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2092/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2092/tei>  ;
-dcterms:relation <http://syriaca.org/place/2090>  ;
-dcterms:relation <http://syriaca.org/place/2091>  ;
-dcterms:relation <http://syriaca.org/place/2093>  ;
-dcterms:relation <http://syriaca.org/place/2094>  ;
-dcterms:relation <http://syriaca.org/place/2097>  ;
-dcterms:relation <http://syriaca.org/place/2098>  .
+ lawd:variantForm "Mār Ṣlībā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2092/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2092/tei> ;
+ dcterms:relation <http://syriaca.org/place/2090> ;
+ dcterms:relation <http://syriaca.org/place/2091> ;
+ dcterms:relation <http://syriaca.org/place/2093> ;
+ dcterms:relation <http://syriaca.org/place/2094> ;
+ dcterms:relation <http://syriaca.org/place/2097> ;
+ dcterms:relation <http://syriaca.org/place/2098> .

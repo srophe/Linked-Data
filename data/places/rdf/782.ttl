@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/782> a lawd:Place ;
-rdfs:label "Sulduz"  ;
+ rdfs:label "Sulduz" ;
  lawd:hasName [
-lawd:primaryForm "Sulduz"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/782/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/782/tei>  ;
-dcterms:relation <http://syriaca.org/place/2379>  .
+ lawd:primaryForm "Sulduz"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/782/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/782/tei> ;
+ dcterms:relation <http://syriaca.org/place/2379> .

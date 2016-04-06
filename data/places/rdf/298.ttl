@@ -11,29 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/298> a lawd:Place ;
-rdfs:label "Baqufa — ܒܐܩܘܦܐ"  ;
+ rdfs:label "Baqufa — ܒܐܩܘܦܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Baqufa"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܐܩܘܦܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܐܩܘܦܰܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "باقوفا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Bāqūfā"@en ;];
+ skos:related "Baqufa" ;
  dcterms:description [
-rdfs:label "ܩܪܝܬܐ ܕܰܒܛܘܪܳܐ ܕܠܶܒܢܳܢ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܝܬܐ ܕܰܒܛܘܪܳܐ ܕܠܶܒܢܳܢ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية في جبل لبنان"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية في جبل لبنان"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village in the mountains of Lebanon."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1451"  ;
- lawd:hasName [
-lawd:primaryForm "Baqufa"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܐܩܘܦܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܒܐܩܘܦܰܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "باقوفا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Bāqūfā"@en  ;];
- lawd:hasName [
-lawd:variantForm "Baqufa"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/298/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/298/tei>  ;
-dcterms:relation <http://syriaca.org/place/2532>  .
+ rdfs:label "a village in the mountains of Lebanon."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1451" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/298/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/298/tei> ;
+ dcterms:relation <http://syriaca.org/place/2532> .

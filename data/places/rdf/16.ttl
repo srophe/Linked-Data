@@ -11,15 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/16> a lawd:Place ;
-rdfs:label "Aegeae"  ;
-dcterms:description "An ancient and medieval port on the coast of Cilicia."  ;
-dcterms:temporal "0130"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658368>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Ayas,_Adana>  ;
-geo:location [
-geo:lat "36.76901"  ;
-geo:long "36.76901"  ;];
+ rdfs:label "Aegeae" ;
  lawd:hasName [
-lawd:primaryForm "Aegeae"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/16/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/16/tei>  .
+ lawd:primaryForm "Aegeae"@en ;];
+ dcterms:description "An ancient and medieval port on the coast of Cilicia." ;
+ dcterms:temporal "0130" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658368> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Ayas,_Adana> ;
+geo:location [
+ geo:lat "36.76901" ;
+ geo:long "35.78768" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/16/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/16/tei> ;
+geo:location [
+ geo:lat "36.76901" ;
+ geo:long "35.78768" ;].

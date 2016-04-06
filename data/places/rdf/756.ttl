@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/756> a lawd:Place ;
-rdfs:label "Ḥōshāb"  ;
+ rdfs:label "Ḥōshāb" ;
  lawd:hasName [
-lawd:primaryForm "Ḥōshāb"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/756/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/756/tei>  ;
-dcterms:relation <http://syriaca.org/place/829>  .
+ lawd:primaryForm "Ḥōshāb"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/756/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/756/tei> ;
+ dcterms:relation <http://syriaca.org/place/829> .

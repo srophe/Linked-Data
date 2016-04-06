@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2140> a lawd:Place ;
-rdfs:label "Mart Barbara"  ;
+ rdfs:label "Mart Barbara" ;
  lawd:hasName [
-lawd:primaryForm "Mart Barbara"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2140/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2140/tei>  .
+ lawd:primaryForm "Mart Barbara"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2140/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2140/tei> .

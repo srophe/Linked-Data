@@ -11,25 +11,25 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2447> a lawd:Place ;
-rdfs:label "Mar ʿAbdishoʿ"  ;
+ rdfs:label "Mar ʿAbdishoʿ" ;
  lawd:hasName [
-lawd:primaryForm "Mar ʿAbdishoʿ"@en  ;];
+ lawd:primaryForm "Mar ʿAbdishoʿ"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār ʿAbdīshōʿ"@en  ;];
+ lawd:variantForm "Mār ʿAbdīshōʿ"@en ;];
  lawd:hasName [
-lawd:variantForm "Mar Abdisho"@en-xsrp1  ;];
+ lawd:variantForm "Mar Abdisho"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mar ‘Abdisho‘"@en-xsrp1  ;];
+ lawd:variantForm "Mar ‘Abdisho‘"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Abdīshō"@en-xsrp1  ;];
+ lawd:variantForm "Mār Abdīshō"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār ‘Abdīshō‘"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2447/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2447/tei>  ;
-dcterms:relation <http://syriaca.org/place/1877>  ;
-dcterms:relation <http://syriaca.org/place/1878>  ;
-dcterms:relation <http://syriaca.org/place/1879>  ;
-dcterms:relation <http://syriaca.org/place/1881>  ;
-dcterms:relation <http://syriaca.org/place/1882>  ;
-dcterms:relation <http://syriaca.org/place/1883>  ;
-dcterms:relation <http://syriaca.org/place/1884>  .
+ lawd:variantForm "Mār ‘Abdīshō‘"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2447/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2447/tei> ;
+ dcterms:relation <http://syriaca.org/place/1877> ;
+ dcterms:relation <http://syriaca.org/place/1878> ;
+ dcterms:relation <http://syriaca.org/place/1879> ;
+ dcterms:relation <http://syriaca.org/place/1881> ;
+ dcterms:relation <http://syriaca.org/place/1882> ;
+ dcterms:relation <http://syriaca.org/place/1883> ;
+ dcterms:relation <http://syriaca.org/place/1884> .

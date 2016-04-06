@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1600> a lawd:Place ;
-rdfs:label "Peshābūr"  ;
+ rdfs:label "Peshābūr" ;
  lawd:hasName [
-lawd:primaryForm "Peshābūr"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1600/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1600/tei>  .
+ lawd:primaryForm "Peshābūr"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1600/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1600/tei> .

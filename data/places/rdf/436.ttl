@@ -11,28 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/436> a lawd:Place ;
-rdfs:label "Fayrūza — ܦܝܪܘܙܗ"  ;
-dcterms:description "A village near ."  ;
+ rdfs:label "Fayrūza — ܦܝܪܘܙܗ" ;
+ lawd:hasName [
+ lawd:primaryForm "Fayrūza"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܦܝܪܘܙܗ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܦܰܝܪܘܙܗ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "فيروزه"@ar ;];
+ skos:related "Ḥimṣ" ;
+ dcterms:description "A village near ." ;
  dcterms:description [
-rdfs:label "ܡܶܢ ܩܘܪ̈ܝܐ ܕܰܚܡܶܨ ܠܡܰܕܢܚܳܐ ܡܝܰܬܒܳܐ ܒܣܘܪ̈ܝܝܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܶܢ ܩܘܪ̈ܝܐ ܕܰܚܡܶܨ ܠܡܰܕܢܚܳܐ ܡܝܰܬܒܳܐ ܒܣܘܪ̈ܝܝܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "من قرى حمص الآهلة بالسريان شرقيها."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "من قرى حمص الآهلة بالسريان شرقيها."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village north of Ḥomṣ, heavily populated by Syrians."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1916"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Fairouzeh>  ;
- lawd:hasName [
-lawd:primaryForm "Fayrūza"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܦܝܪܘܙܗ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܦܰܝܪܘܙܗ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "فيروزه"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ḥimṣ"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/436/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/436/tei>  .
+ rdfs:label "a village north of Ḥomṣ, heavily populated by Syrians."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1916" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Fairouzeh> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/436/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/436/tei> .

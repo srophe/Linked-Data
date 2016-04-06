@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/418> a lawd:Place ;
-rdfs:label "al-Ṣāliḥiyya — ܨܐܠܚܝܗ̇"  ;
+ rdfs:label "al-Ṣāliḥiyya — ܨܐܠܚܝܗ̇" ;
+ lawd:hasName [
+ lawd:primaryForm "al-Ṣāliḥiyya"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܨܐܠܚܝܗ̇"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܨܰܐܠܚܝܗ̇"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "الصالحية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Saliḥiyya"@en ;];
  dcterms:description [
-rdfs:label "ܩܪܝܬܳܐ ܗܝ ܕܒܩܘܪܒܳܐ ܕܐܘܪܗܳܝ ܘܩܰܕܡܳܝܐ ܕܬܰܚܡܗ̇ ܥܰܒܕ ܐܠܡܰܠܟ ܒܰܪ ܨܰܐܠܚ ܐܰܠܗܰܐܫܡܝ. ܟ݂ܰܐܠܕܝ ܕܶܝܢ ܐܶܡܪ ܒܩܘܪܒܐ ܕܪܰܩܗ̇ ܐܝܬ ܠܘܳܬܗ̇ ܒܰܛܝܐܣ ܘܕܰܝܪܳܐ ܕܡܳܪܝ ܙܰܟܰܝ ܩܰܕܡܳܝܐ ܕܫܰܟܠܠ ܩܨܪ̈ܝܗ̇ ܡܗܕܝ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܝܬܳܐ ܗܝ ܕܒܩܘܪܒܳܐ ܕܐܘܪܗܳܝ ܘܩܰܕܡܳܝܐ ܕܬܰܚܡܗ̇ ܥܰܒܕ ܐܠܡܰܠܟ ܒܰܪ ܨܰܐܠܚ ܐܰܠܗܰܐܫܡܝ. ܟ݂ܰܐܠܕܝ ܕܶܝܢ ܐܶܡܪ ܒܩܘܪܒܐ ܕܪܰܩܗ̇ ܐܝܬ ܠܘܳܬܗ̇ ܒܰܛܝܐܣ ܘܕܰܝܪܳܐ ܕܡܳܪܝ ܙܰܟܰܝ ܩܰܕܡܳܝܐ ܕܫܰܟܠܠ ܩܨܪ̈ܝܗ̇ ܡܗܕܝ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية قرب الرها اختطها عبد الملك بن صالح الهاشمي، وقال الخالدي قرب الرقة عندها بطياس ودير مار زكى؛ اول من احدث قصورها المهدي."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية قرب الرها اختطها عبد الملك بن صالح الهاشمي، وقال الخالدي قرب الرقة عندها بطياس ودير مار زكى؛ اول من احدث قصورها المهدي."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village near Edessa, established by ʿAbd al-Mālik Ibn Ṣāliḥ al-Hāshimi. Al-Khālidi states that it was near al-Raqqa, near Batyas and the Monastery of Mar Zakka. The first person to build palaces there was the Abbasid Caliph al-Mahdi."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
- lawd:hasName [
-lawd:primaryForm "al-Ṣāliḥiyya"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܨܐܠܚܝܗ̇"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܨܰܐܠܚܝܗ̇"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "الصالحية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Saliḥiyya"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/418/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/418/tei>  ;
-dcterms:relation <http://syriaca.org/place/419>  .
+ rdfs:label "a village near Edessa, established by ʿAbd al-Mālik Ibn Ṣāliḥ al-Hāshimi. Al-Khālidi states that it was near al-Raqqa, near Batyas and the Monastery of Mar Zakka. The first person to build palaces there was the Abbasid Caliph al-Mahdi."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/418/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/418/tei> ;
+ dcterms:relation <http://syriaca.org/place/419> .

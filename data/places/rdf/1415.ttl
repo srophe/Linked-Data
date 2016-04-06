@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1415> a lawd:Place ;
-rdfs:label "Mamartāyartūlā"  ;
+ rdfs:label "Mamartāyartūlā" ;
  lawd:hasName [
-lawd:primaryForm "Mamartāyartūlā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1415/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1415/tei>  .
+ lawd:primaryForm "Mamartāyartūlā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1415/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1415/tei> .

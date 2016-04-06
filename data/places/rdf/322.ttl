@@ -20,7 +20,7 @@
  lawd:variantForm "جوباس"@ar ;];
  lawd:hasName [
  lawd:variantForm "Jūbās"@en ;];
- skos:related "Melitene" ;
+ skos:related <http://syriaca.org/place/136> ;
  dcterms:description "A village near ." ;
  dcterms:description [
  rdfs:label "ܡܕܺܝܢܬܘܢܳܝܬܐ ܕܩܰܪܝܒܐ ܗܘܳܬ ܡܶܢ ܡܺܝܺܠܝܛܝܢܝ ܘܚܰܪܝ̣ܒܐ."@syr-Syrj ;

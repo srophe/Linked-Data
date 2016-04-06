@@ -26,9 +26,9 @@
  lawd:variantForm "ܡܲܗܦܣܘܼܣܛܝܼܵܐ"@syr-Syrn ;];
  lawd:hasName [
  lawd:variantForm "المَصِّيْصة"@ar ;];
- skos:related "Cilicia II" ;
- skos:related "Anazarbos" ;
- skos:related "Pyramos river" ;
+ skos:related <http://syriaca.org/place/57> ;
+ skos:related <http://syriaca.org/place/9> ;
+ skos:related <http://syriaca.org/place/159> ;
  dcterms:description "A town of southwest of on the ." ;
  dcterms:description [
  rdfs:label "ܡܕܝܢܬܳܐ ܗܝ ܕܥܰܠ ܣܦܳܪ ܢܰܗܪܳܐ ܓܺܝܚܘܢ ܒܩܘܪܒܳܐ ܕܰܐܛܰܢܰܗ ܠܡܰܕܢܚܳܐ."@syr-Syrj ;

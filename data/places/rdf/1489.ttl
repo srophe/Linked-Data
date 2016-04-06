@@ -26,8 +26,8 @@
  lawd:variantForm "Talafar"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Tal‘afar"@en-xsrp1 ;];
- skos:related "Sinjar" ;
- skos:related "Mosul" ;
+ skos:related <http://syriaca.org/place/184> ;
+ skos:related <http://syriaca.org/place/139> ;
  dcterms:description "A castle between and ." ;
  dcterms:temporal "1159" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874720> ;

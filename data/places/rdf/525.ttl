@@ -20,7 +20,7 @@
  lawd:variantForm "ܒܝܣܝܺܕܝܗ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "بيسيدية"@ar ;];
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A region of southwestern ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/981544> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Pisidia> ;

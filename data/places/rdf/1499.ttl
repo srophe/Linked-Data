@@ -22,7 +22,7 @@
  lawd:variantForm "بيت كيونا"@ar ;];
  lawd:hasName [
  lawd:variantForm "Beth Kiyona"@en ;];
- skos:related "Bārimmān" ;
+ skos:related <http://syriaca.org/place/295> ;
  dcterms:description "A village probably near ." ;
  dcterms:temporal "0863" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1499/html> ;

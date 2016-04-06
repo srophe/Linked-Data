@@ -14,7 +14,7 @@
  rdfs:label "Ramla" ;
  lawd:hasName [
  lawd:primaryForm "Ramla"@en ;];
- skos:related "Ḥirta" ;
+ skos:related <http://syriaca.org/place/219> ;
  dcterms:description "A location southeast of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/640/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/640/tei> .

@@ -24,8 +24,8 @@
  lawd:variantForm "Agel"@en ;];
  lawd:hasName [
  lawd:variantForm "انجل"@ar ;];
- skos:related "Tigris" ;
- skos:related "Amida" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A town on the northwest of ." ;
  dcterms:description [
  rdfs:label "ܡܕܺܝܢܬܘܽܢܳܝܬܐ ܕܰܠܓܰܪܒܰܝ ܐܳܡܺܝܕ."@syr-Syrj ;

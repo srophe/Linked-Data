@@ -28,7 +28,7 @@
  lawd:variantForm "Dayr Elijah"@en ;];
  lawd:hasName [
  lawd:variantForm "Çiftlik"@en ;];
- skos:related "Mar Eliya" ;
+ skos:related <http://syriaca.org/place/613> ;
  dcterms:description [
  rdfs:label "ܡܰܙܪܰܥܬܐ ܗܝ ܕܒܰܫܦܘܠܐ ܕܛܘܪܐ ܕܡܰܪܕܝܢ ܘܰܒܬܰܝܡܢܳܗ̇ ܐܶܬܩܰܪܝܰܬ ܒܫܶܡ ܡܳܪܝ ܐܠܝܐ. ܡܛܠ ܕܥܺܕܬܳܗ̇ ܒܓܰܘܗ̇ ܣܺܝܡܳܐ ܘܡܶܬܐܡܪ ܠܗ̇ ܬܘܪܟܳܐܝܬ ܓܶܦܬܠܶܟ"@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];

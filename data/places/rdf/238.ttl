@@ -26,8 +26,8 @@
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
- skos:related "Midyat" ;
+ skos:related <http://syriaca.org/place/221> ;
+ skos:related <http://syriaca.org/place/137> ;
  dcterms:description "A village in northwest of ." ;
  dcterms:description [
  rdfs:label "ܩܪܝܬܳܐ ܗܝ ܕܰܠܓܰܪܒܰܝ ܡܰܪܕܝܢ ܡܰܫܩܶܠ ܝܰܘܡܳܐ ܡܝܰܬܒܳܐ ܒܣܘܪ̈ܝܝܐ."@syr-Syrj ;

@@ -16,9 +16,9 @@
  lawd:primaryForm "Daiṣan"@en ;];
  lawd:hasName [
  lawd:variantForm "Skirtos"@en ;];
- skos:related "Euphrates" ;
- skos:related "Edessa" ;
- skos:related "Balikh" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/78> ;
+ skos:related <http://syriaca.org/place/43> ;
  dcterms:description "A tributary of the which flows south from ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/658602> ;
  foaf:primaryTopicOf <http://syriaca.org/place/191/html> ;

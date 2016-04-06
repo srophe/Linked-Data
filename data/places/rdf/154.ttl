@@ -14,8 +14,8 @@
  rdfs:label "Paneas" ;
  lawd:hasName [
  lawd:primaryForm "Paneas"@en ;];
- skos:related "Tyros" ;
- skos:related "Damascus" ;
+ skos:related <http://syriaca.org/place/195> ;
+ skos:related <http://syriaca.org/place/66> ;
  dcterms:description "A town east of and southwest of ." ;
  dcterms:temporal "-0003" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678324> ;

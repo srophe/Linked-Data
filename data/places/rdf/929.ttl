@@ -18,8 +18,8 @@
  lawd:variantForm "الأَهْوَاز"@ar ;];
  lawd:hasName [
  lawd:variantForm "خُوْزستان"@ar ;];
- skos:related "Tigris" ;
- skos:related "Persian Gulf" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/156> ;
  dcterms:description "A region east of the southern and north of the ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/912843> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Khuzestan_Plain> ;

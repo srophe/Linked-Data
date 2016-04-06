@@ -28,7 +28,7 @@
  lawd:variantForm "Atafiyya"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Atafiyya"@en-xsrp1 ;];
- skos:related "Ḥesno d-Kifo" ;
+ skos:related <http://syriaca.org/place/92> ;
  dcterms:description "A village near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/553/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/553/tei> .

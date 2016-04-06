@@ -28,7 +28,7 @@
  lawd:variantForm "Monastery of the Cross"@en ;];
  lawd:hasName [
  lawd:variantForm "Makhr Monastery"@en ;];
- skos:related "Defne" ;
+ skos:related <http://syriaca.org/place/553> ;
  dcterms:description "A monastery by ." ;
  dcterms:description [
  rdfs:label "ܕܺܝܕܺܝܥ ܝܰܘܡܳܢ ܕܰܝܪܐ ܕܡܰܟ݂ܰܪ ܗ̄ ܘܰܐܕܺܝ ܟܽܘܪܕܳܐܝܬ. ܕܰܝܪܳܐ ܙܥܘܽܪܐ ܒܓܶܒ ܕܶܦܢܗ ܩܪܺܝܬܐ ܒܐܽܘܪܚܐ ܕܚܰܣܢ ܟܺܐܦܐ. ܐܶܬܒܢܺܝ ܗܰܝܟܠܗ ܒܰܬܚܘ̈ܡܰܝ ܫܢܰܬ 770 ܚܪܶܒ ܒܰܩܪܳܒܐ ܕܰܥܒܰܪ ܒܩܶܛܠܐ ܕܐܰܚܪܳܝܐ ܕܕܰܝܪ̈ܳܝܰܘܗܝ ܩܳܡܘ ܡܢܗ ܬܠܬܐ ܐܶܦܝܣܩܘ̈ܦܐ."@syr-Syrj ;

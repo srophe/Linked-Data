@@ -16,8 +16,8 @@
  lawd:primaryForm "Shura"@en ;];
  lawd:hasName [
  lawd:variantForm "Sura"@en ;];
- skos:related "Euphrates" ;
- skos:related "Kallinikos" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/109> ;
  dcterms:description "A town on the west of ." ;
  dcterms:temporal "0640" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668376> ;

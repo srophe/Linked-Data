@@ -22,7 +22,7 @@
  lawd:variantForm "‘Beellawin'"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Be‘ellawin'"@en-xsrp1 ;];
- skos:related "Urmia" ;
+ skos:related <http://syriaca.org/place/206> ;
  dcterms:description "A village west of ." ;
  dcterms:temporal "1824" ;
  foaf:primaryTopicOf <http://syriaca.org/place/248/html> ;

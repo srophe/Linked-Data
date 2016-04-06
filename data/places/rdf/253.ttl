@@ -16,8 +16,8 @@
  lawd:primaryForm "Penek"@en ;];
  lawd:hasName [
  lawd:variantForm "فَنَك"@ar ;];
- skos:related "Tigris" ;
- skos:related "Gazarta" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/88> ;
  dcterms:description "A town on the northwest of ." ;
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874648> ;

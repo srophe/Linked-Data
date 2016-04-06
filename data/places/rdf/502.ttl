@@ -24,7 +24,7 @@
  lawd:variantForm "Ismit"@en ;];
  lawd:hasName [
  lawd:variantForm "Nicomedia"@en ;];
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "Ancient Nicomedia, a city in northwestern ." ;
  dcterms:temporal "-0711" ;
  skos:exactMatch <http://pleiades.stoa.org/places/511337> ;

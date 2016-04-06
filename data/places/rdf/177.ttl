@@ -16,7 +16,7 @@
  lawd:primaryForm "Salmas"@en ;];
  lawd:hasName [
  lawd:variantForm "سَلَماس"@ar ;];
- skos:related "Lake Urmia" ;
+ skos:related <http://syriaca.org/place/116> ;
  dcterms:description "A town northwest of ." ;
  dcterms:temporal "1281" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874671> ;

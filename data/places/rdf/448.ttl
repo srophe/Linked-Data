@@ -20,8 +20,8 @@
  lawd:variantForm "ܟܰܢܕܝܢܰܐܛ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "كنديناط"@ar ;];
- skos:related "Malabar coast" ;
- skos:related "India" ;
+ skos:related <http://syriaca.org/place/461> ;
+ skos:related <http://syriaca.org/place/500> ;
  dcterms:description "A city on the in ." ;
  dcterms:description [
  rdfs:label "ܐܰܬܪܐ ܗܰܘ ܕܰܒܓܰܪܒܰܝ ܡܰܕܢܰܚ ܡܺܝܠܝܒܰܪ ܒܗܶܢܕܘ."@syr-Syrj ;

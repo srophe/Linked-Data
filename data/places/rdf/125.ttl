@@ -20,7 +20,7 @@
  lawd:variantForm "Majdal"@en ;];
  lawd:hasName [
  lawd:variantForm "مِجْدَل"@ar ;];
- skos:related "Khabur River" ;
+ skos:related <http://syriaca.org/place/114> ;
  dcterms:description "A frontier town on the ." ;
  dcterms:description [
  rdfs:label "اسم بلدة مندرسة بالخابور الى جانبه كانت تحت رأس عين بمرحلة وذكر ياقوت شاعرا منها معاصرا له."@ar ;

@@ -18,8 +18,8 @@
  lawd:variantForm "ديركه"@ar ;];
  lawd:hasName [
  lawd:variantForm "Dairkah"@en ;];
- skos:related "Mardin" ;
- skos:related "Mor Daniel of Jolsh" ;
+ skos:related <http://syriaca.org/place/130> ;
+ skos:related <http://syriaca.org/place/353> ;
  dcterms:description "A village north of near which is the monastery of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/555/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/555/tei> .

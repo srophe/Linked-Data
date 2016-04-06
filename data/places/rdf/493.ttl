@@ -22,7 +22,7 @@
  lawd:variantForm "قطر الصوفنيين"@ar ;];
  lawd:hasName [
  lawd:variantForm "Sufniyyin province"@en ;];
- skos:related "Maypherqaṭ" ;
+ skos:related <http://syriaca.org/place/134> ;
  dcterms:description "A region north of ." ;
  dcterms:temporal "-0550" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874707> ;

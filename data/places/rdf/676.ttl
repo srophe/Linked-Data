@@ -16,7 +16,7 @@
  lawd:primaryForm "Dayr al-Askūl"@en ;];
  lawd:hasName [
  lawd:variantForm "دير الأَسْكُون"@ar ;];
- skos:related "Ḥirta" ;
+ skos:related <http://syriaca.org/place/219> ;
  dcterms:description "A monastery in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/676/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/676/tei> .

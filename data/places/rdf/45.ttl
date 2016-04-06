@@ -26,7 +26,7 @@
  lawd:variantForm "Batnan"@en ;];
  lawd:hasName [
  lawd:variantForm "بُطْنان"@ar ;];
- skos:related "Serugh" ;
+ skos:related <http://syriaca.org/place/48> ;
  dcterms:description "A town of ." ;
  dcterms:description [
  rdfs:label "ܡܕܺܝܢܬܐ ܥܰܬܝܩܬܳܐ ܕܰܒܩܘܪܒܳܐ ܕܰܣܪܘܓ ܗܘܬ."@syr-Syrj ;

@@ -22,7 +22,7 @@
  lawd:variantForm "البحر الاسود"@ar ;];
  lawd:hasName [
  lawd:variantForm "بحر بنْطُس"@ar ;];
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A large sea north of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/1224> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Black_Sea> ;

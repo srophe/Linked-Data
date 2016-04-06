@@ -18,7 +18,7 @@
  lawd:variantForm "monastery of Rabban Sapra"@en ;];
  lawd:hasName [
  lawd:variantForm "Rabban Saprā"@en ;];
- skos:related "Nisibis" ;
+ skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A monastery near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/618/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/618/tei> .

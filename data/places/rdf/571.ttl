@@ -22,9 +22,9 @@
  lawd:variantForm "دير مار باسوس"@ar ;];
  lawd:hasName [
  lawd:variantForm "Bāsūs Monastery"@en ;];
- skos:related "Ḥimṣ" ;
- skos:related "Mor Bosus" ;
- skos:related "Mor Bosus" ;
+ skos:related <http://syriaca.org/place/215> ;
+ skos:related <http://syriaca.org/place/343> ;
+ skos:related <http://syriaca.org/place/343> ;
  dcterms:description "A ruined monastery attested near" ;
  dcterms:temporal "0300" ;
  foaf:primaryTopicOf <http://syriaca.org/place/571/html> ;

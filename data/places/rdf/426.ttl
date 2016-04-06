@@ -26,7 +26,7 @@
  lawd:variantForm "Quṭrubul"@en ;];
  lawd:hasName [
  lawd:variantForm "قُطْرَبُّل"@ar ;];
- skos:related "Amid" ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A village near ." ;
  dcterms:description [
  rdfs:label "ܩܪܝܬܳܐ ܗܝ ܕܠܘܩܒܰܠ ܐܳܡܝܕ ܕܥܰܠ ܝܰܕ ܕܶܩܠܰܬ ܢܦܰܩܘ ܐܢܳܫ̈ܝܗ̇ ܣܘܪ̈ܝܳܝܐ ܫܢܰܬ 1928 ."@syr-Syrj ;

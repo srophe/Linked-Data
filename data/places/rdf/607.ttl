@@ -24,7 +24,7 @@
  lawd:variantForm "Maru"@en ;];
  lawd:hasName [
  lawd:variantForm "مرو الشاهجان"@ar ;];
- skos:related "Khurasan" ;
+ skos:related <http://syriaca.org/place/574> ;
  dcterms:description "A city of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/961873> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Merv> ;

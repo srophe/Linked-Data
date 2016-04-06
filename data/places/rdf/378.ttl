@@ -28,8 +28,8 @@
  lawd:variantForm "Qanqart Monastery"@en ;];
  lawd:hasName [
  lawd:variantForm "Qara Kelisa"@en ;];
- skos:related "Qanqart" ;
- skos:related "Amid" ;
+ skos:related <http://syriaca.org/place/565> ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A monastery near about 8 km. southwest of ." ;
  dcterms:description [
  rdfs:label "ܒܫܶܡ ܐܠܝܐ ܢܺܒܝܐ. ܠܒܰܪ ܡܶܢ ܐܳܡܝ̣ܕ ܗܘ ܡܰܪܕܶܐ ܫܳܥܐ ܘܦܶܠܓܳܐ ܠܘܳܬ ܩܰܢܩܪܰܬ ܩܪܝܬܳܐ ܕܟܺܝܪ ܫܢܰܬ 1050 ܘܚܰܕܶܬܘ ܒܶܢܝܳܢܰܘ̈ܗܝ ܡܝܟܳܐܝܠ ܪܰܒܐ ܫܢܬ 1173 ܘܐܝܓܢܰܐܛܝܘܣ ܫܟܪܐܠܠܗ ܫܢܰܬ 1730 ܘܐܶܬܓܰܙܝ ܡܶܢ ܐܢ̈ܫܰܘܗܝ ܒܫܘܪܳܝܐ ܕܡܰܐܬܐ ܬܫܰܥܣܝܪܳܝܬܐ. ܘܩܳܡܰܬ ܒܕܘܟܬܗ ܩܪܝܬܐ ܕܡܶܬܐܡܰܪ ܠܗ ܬܘܪܟܳܐܝܬ ܩܰܪܰܗ ܟܺܝܠܺܝܣܰܐ ܗܳܢܰܘ ܥܕܬܐ ܐܘܟܳܡܬܐ. ܡܶܛܠ ܐܘܟܳܡܘܬܐ ܕܐܰܬܪ̈ܘܳܬܐ ܗܳܢܘܢ ܘܰܥܕܰܡܐ ܠܝܰܘܡܳܢ ܩܳܝ̈ܡܝܢ ܚܰܪ̈ܒܬܳܗ̇"@syr-Syrj ;

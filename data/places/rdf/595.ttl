@@ -16,7 +16,7 @@
  lawd:primaryForm "Jabal al-Durūz"@en ;];
  lawd:hasName [
  lawd:variantForm "Jebel Druze"@en ;];
- skos:related "Syria" ;
+ skos:related <http://syriaca.org/place/486> ;
  dcterms:description "A mountain in ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/678042> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Jabal_al-Druze> ;

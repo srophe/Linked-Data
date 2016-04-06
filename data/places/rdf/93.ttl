@@ -18,8 +18,8 @@
  lawd:variantForm "Hatra"@en ;];
  lawd:hasName [
  lawd:variantForm "الحَضْر"@ar ;];
- skos:related "Nineveh" ;
- skos:related "Dura-Europos" ;
+ skos:related <http://syriaca.org/place/144> ;
+ skos:related <http://syriaca.org/place/77> ;
  dcterms:description "A Parthian city southwest of and northeast of ." ;
  dcterms:temporal "-0100" ;
  skos:exactMatch <http://pleiades.stoa.org/places/894004> ;

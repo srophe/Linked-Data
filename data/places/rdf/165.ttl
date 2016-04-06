@@ -20,7 +20,7 @@
  lawd:variantForm "Rusafa"@en ;];
  lawd:hasName [
  lawd:variantForm "رُصافة الشام"@ar ;];
- skos:related "Kallinikos" ;
+ skos:related <http://syriaca.org/place/109> ;
  dcterms:description "A town southwest of ." ;
  dcterms:temporal "-0800" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668354> ;

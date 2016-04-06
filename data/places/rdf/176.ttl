@@ -14,7 +14,7 @@
  rdfs:label "Syria II" ;
  lawd:hasName [
  lawd:primaryForm "Syria II"@en ;];
- skos:related "Apamea" ;
+ skos:related <http://syriaca.org/place/11> ;
  dcterms:description "A Roman province including ." ;
  dcterms:temporal "0420" ;
  skos:exactMatch <http://pleiades.stoa.org/places/1001933> ;

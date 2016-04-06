@@ -20,7 +20,7 @@
  lawd:variantForm "ܬܰܪܡܢܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "ترمناز"@ar ;];
- skos:related "Cyrrhus" ;
+ skos:related <http://syriaca.org/place/65> ;
  dcterms:description "A place near ." ;
  dcterms:temporal "0817" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1509/html> ;

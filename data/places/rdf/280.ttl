@@ -16,7 +16,7 @@
  lawd:primaryForm "Ṣaydnāyā"@en ;];
  lawd:hasName [
  lawd:variantForm "صيدنايا"@ar ;];
- skos:related "Damascus" ;
+ skos:related <http://syriaca.org/place/66> ;
  dcterms:description "A village north of and southwest of Maʿlula." ;
  dcterms:temporal "1700" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Saidnaya> ;

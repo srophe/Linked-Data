@@ -24,8 +24,8 @@
  lawd:variantForm "كفر البيرة"@ar ;];
  lawd:hasName [
  lawd:variantForm "Kafr al-Bīra"@en ;];
- skos:related "Apamea" ;
- skos:related "Mor Eusebios" ;
+ skos:related <http://syriaca.org/place/11> ;
+ skos:related <http://syriaca.org/place/340> ;
  dcterms:description "A village northwest of , known for its monastery of ." ;
  dcterms:temporal "0550" ;
  foaf:primaryTopicOf <http://syriaca.org/place/564/html> ;

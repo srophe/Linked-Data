@@ -28,7 +28,7 @@
  lawd:variantForm "Ānāt"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Ānāt"@en-xsrp1 ;];
- skos:related "ʿĀnāt" ;
+ skos:related <http://syriaca.org/place/665> ;
  dcterms:description [
  rdfs:label "ܐܰܬܪܐ ܗܘ ܕܰܠܡܰܥܪܒܳܐ ܕܰܦܪܳܬ. ܘܰܠܬܰܝܡܢܳܐ ܡܰܕܢܚܳܝܐ ܕܕܰܝܪ ܐܠܙܘܪ. ܡܶܢ ܐܰܬܪ̈ܘܬܐ ܕܥܪܰܐܩ."@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];

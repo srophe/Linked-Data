@@ -14,7 +14,7 @@
  rdfs:label "Kellis" ;
  lawd:hasName [
  lawd:primaryForm "Kellis"@en ;];
- skos:related "Egypt" ;
+ skos:related <http://syriaca.org/place/715> ;
  dcterms:description "A village in ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/776189> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kellis> ;

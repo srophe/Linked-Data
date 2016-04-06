@@ -20,7 +20,7 @@
  lawd:variantForm "ܦܰܝܪܘܙܗ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "فيروزه"@ar ;];
- skos:related "Ḥimṣ" ;
+ skos:related <http://syriaca.org/place/215> ;
  dcterms:description "A village near ." ;
  dcterms:description [
  rdfs:label "ܡܶܢ ܩܘܪ̈ܝܐ ܕܰܚܡܶܨ ܠܡܰܕܢܚܳܐ ܡܝܰܬܒܳܐ ܒܣܘܪ̈ܝܝܐ."@syr-Syrj ;

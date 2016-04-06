@@ -41,7 +41,7 @@
  lawd:hasName [
  lawd:variantForm "Ṭūr ‘Abdīn"@en-xsrp1 ;];
  dcterms:description [
- rdfs:label "Properly speaking, Ṭur ʿAbdin (‘Mountain of the servants’) does not include the whole province of Mardin in Turkey, but only the limestone plateau in the eastern part of it, between the river Tigris and Nisibis.""@en ;];
+ rdfs:label "Properly speaking, Ṭur ʿAbdin (‘Mountain of the servants’) does not include the whole province of Mardin in Turkey, but only the limestone plateau in the eastern part of it, between the river Tigris and Nisibis."@en ;];
  dcterms:description [
  rdfs:label "565. Ṭur ʿAbdin"@en ;];
  dcterms:description [

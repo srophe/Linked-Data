@@ -16,7 +16,7 @@
  lawd:primaryForm "Ascalon"@en ;];
  lawd:hasName [
  lawd:variantForm "عَسْقلان"@ar ;];
- skos:related "Gaza" ;
+ skos:related <http://syriaca.org/place/87> ;
  dcterms:description "A coastal city north of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/687839/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ashkelon> ;

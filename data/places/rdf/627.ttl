@@ -18,8 +18,8 @@
  lawd:variantForm "monastery of John Nahlaya"@en ;];
  lawd:hasName [
  lawd:variantForm "Mār Yōḥannān Nahlāyā"@en ;];
- skos:related "Bekinde" ;
- skos:related "Siirt" ;
+ skos:related <http://syriaca.org/place/990> ;
+ skos:related <http://syriaca.org/place/188> ;
  dcterms:description "A monastery near the village west of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/627/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/627/tei> .

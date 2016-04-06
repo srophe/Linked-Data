@@ -22,7 +22,7 @@
  lawd:variantForm "دير مار شربيل"@ar ;];
  lawd:hasName [
  lawd:variantForm "Sharbil Monastery"@en ;];
- skos:related "Midyat" ;
+ skos:related <http://syriaca.org/place/137> ;
  dcterms:description "A monastery near ." ;
  dcterms:description [
  rdfs:label "ܒܰܟܦܪ ܫܳܡܰܥ. ܥܰܗܕܗ ܡܰܟܬܰܒܙܰܒܢ̈ܐ ܒܰܫܢܰܬ 1210 ܥܕܰܡܳܐ ܠܰܐܚܪ̈ܳܝܬܗ ܕܕܳܪܐ ܫܬܰܥܣܝܺܪܳܝܐ. ܘܡܶܢܗ ܩܳܡ ܡܰܦܪܝܳܢܐ ܒܛܘܪܥܰܒܕܝܢ."@syr-Syrj ;

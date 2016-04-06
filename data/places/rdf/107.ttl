@@ -16,8 +16,8 @@
  lawd:primaryForm "Julamerk"@en ;];
  lawd:hasName [
  lawd:variantForm "Cölemerik"@en ;];
- skos:related "Hakkari mountains" ;
- skos:related "Greater Zab" ;
+ skos:related <http://syriaca.org/place/90> ;
+ skos:related <http://syriaca.org/place/204> ;
  dcterms:description "A town in the near the ." ;
  dcterms:temporal "-1000" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Hakkâri> ;

@@ -16,7 +16,7 @@
  lawd:primaryForm "Dayr Dayḥīs"@en ;];
  lawd:hasName [
  lawd:variantForm "Deir Dehes"@en ;];
- skos:related "Antioch" ;
+ skos:related <http://syriaca.org/place/10> ;
  dcterms:description "A monastery probably near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/588/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/588/tei> .

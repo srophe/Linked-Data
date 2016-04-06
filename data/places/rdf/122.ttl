@@ -32,8 +32,8 @@
  lawd:variantForm "Mambeg"@en ;];
  lawd:hasName [
  lawd:variantForm "مَنْبِج"@ar ;];
- skos:related "Aleppo" ;
- skos:related "Euphrates river" ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/82> ;
  dcterms:description "A city between and the ." ;
  dcterms:description [
  rdfs:label "ܡܕܝܢܬܳܐ ܗܘܳܬ ܪܰܒܬܐ ܕܒܐܘܚܕܳܢܳܐ ܕܚܳܠܳܒ ܠܓܰܪܒܰܝ ܡܰܕܢܚܳܗ̇ ܒܶܝܬ ܠܳܗ̇ ܠܰܦܪܳܬ ܐܝܬ ܬܠܳܬܐ ܦܪ̈ܣܚܶܐ ܝܰܘܡܳܢ ܩܰܣܛܪܰܐ ܗܘܳܬ."@syr-Syrj ;

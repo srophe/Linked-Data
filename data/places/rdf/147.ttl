@@ -24,9 +24,9 @@
  lawd:variantForm "Āṣī"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Āṣī"@en-xsrp1 ;];
- skos:related "Syria" ;
- skos:related "Emesa" ;
- skos:related "Antioch" ;
+ skos:related <http://syriaca.org/place/486> ;
+ skos:related <http://syriaca.org/place/215> ;
+ skos:related <http://syriaca.org/place/10> ;
  dcterms:description "A river of which runs from southwest of north to ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/658560> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Orontes_River> ;

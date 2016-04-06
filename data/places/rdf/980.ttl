@@ -12,7 +12,6 @@
 
 <http://syriaca.org/place/980> a lawd:Place ;
  rdfs:label "Bashosh" ;
- skos:related "Shosh" ;
  lawd:hasName [
  lawd:primaryForm "Bashosh"@en ;];
  lawd:hasName [

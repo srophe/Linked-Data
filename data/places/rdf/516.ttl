@@ -22,8 +22,8 @@
  lawd:variantForm "Aintab"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Aintab"@en-xsrp1 ;];
- skos:related "Adana" ;
- skos:related "ʿAintab" ;
+ skos:related <http://syriaca.org/place/15> ;
+ skos:related <http://syriaca.org/place/222> ;
  dcterms:description "A village between and ." ;
  dcterms:temporal "1900" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Yarpuz> ;

@@ -32,8 +32,8 @@
  lawd:variantForm "Qala Rumayta"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Qal‘a Rumayta"@en-xsrp1 ;];
- skos:related "Qalʿa Rumayta" ;
- skos:related "Melitene" ;
+ skos:related <http://syriaca.org/place/97> ;
+ skos:related <http://syriaca.org/place/136> ;
  dcterms:description "A city north of and southwest of ." ;
  dcterms:description [
  rdfs:label "ܡܕܝܰܢܬܐ ܗܝ ܕܰܒܓܰܪܒܰܝ ܫܰܡܝܫܰܛ ܠܡܰܥܪܒܳܐ ܕܰܦܪܳܬ ܕܡܶܬܶܐܡܰܪ ܠܗ̇ ܬܘܒ ܐܰܕܺܝܰܐܡܰܐܢ."@syr-Syrj ;

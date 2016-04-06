@@ -26,7 +26,7 @@
  lawd:variantForm "تيل"@ar ;];
  lawd:hasName [
  lawd:variantForm "Tell Arsenius"@en ;];
- skos:related "Euphrates" ;
+ skos:related <http://syriaca.org/place/82> ;
  dcterms:description "A Syrian Orthodox diocese on the river ." ;
  dcterms:description [
  rdfs:label "ܥܰܠ ܣܦܬ ܦܪܳܬ ܕܩܰܪܝܒܐ ܠܟܰܪܟܘܽܬ."@syr-Syrj ;

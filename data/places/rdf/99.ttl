@@ -20,8 +20,8 @@
  lawd:variantForm "ܐܺܝܣܘܪܺܝܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "ايسورية"@ar ;];
- skos:related "Anatolia" ;
- skos:related "Cyprus" ;
+ skos:related <http://syriaca.org/place/504> ;
+ skos:related <http://syriaca.org/place/714> ;
  dcterms:description "A Roman coastal province of south-central north of the island of ." ;
  dcterms:temporal "0325" ;
  skos:exactMatch <http://pleiades.stoa.org/places/982261> ;

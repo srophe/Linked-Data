@@ -20,8 +20,8 @@
  lawd:variantForm "Beṯ Zabdaï"@en ;];
  lawd:hasName [
  lawd:variantForm "Qardū"@en ;];
- skos:related "Upper Jazira" ;
- skos:related "Tigris" ;
+ skos:related <http://syriaca.org/place/321> ;
+ skos:related <http://syriaca.org/place/202> ;
  foaf:primaryTopicOf <http://syriaca.org/place/712/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/712/tei> ;
  dcterms:relation <http://syriaca.org/place/88> ;

@@ -24,8 +24,8 @@
  lawd:variantForm "طرسوس"@ar ;];
  lawd:hasName [
  lawd:variantForm "طَرَسون"@ar ;];
- skos:related "Cilicia I" ;
- skos:related "Adana" ;
+ skos:related <http://syriaca.org/place/56> ;
+ skos:related <http://syriaca.org/place/15> ;
  dcterms:description "A city in west of ." ;
  dcterms:temporal "-0401" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648789> ;

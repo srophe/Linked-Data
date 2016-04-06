@@ -14,8 +14,8 @@
  rdfs:label "Kottayam" ;
  lawd:hasName [
  lawd:primaryForm "Kottayam"@en ;];
- skos:related "Kerala" ;
- skos:related "India" ;
+ skos:related <http://syriaca.org/place/602> ;
+ skos:related <http://syriaca.org/place/500> ;
  dcterms:description "A city in in southern ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/50079> ;
 geo:location [

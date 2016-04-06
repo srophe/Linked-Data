@@ -22,8 +22,8 @@
  lawd:variantForm "سخنة"@ar ;];
  lawd:hasName [
  lawd:variantForm "سُخْنة"@ar ;];
- skos:related "Palmyra" ;
- skos:related "Dayr al-Zor" ;
+ skos:related <http://syriaca.org/place/153> ;
+ skos:related <http://syriaca.org/place/482> ;
  dcterms:description "A town on the desert road between and ." ;
  dcterms:temporal "0634" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668178> ;

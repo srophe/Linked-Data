@@ -22,7 +22,7 @@
  lawd:variantForm "Mār Gabriel"@en ;];
  lawd:hasName [
  lawd:variantForm "دير الأعلى"@ar ;];
- skos:related "Mosul" ;
+ skos:related <http://syriaca.org/place/139> ;
  dcterms:description "An important monastery near whose site has been incorporated into the modern city." ;
  foaf:primaryTopicOf <http://syriaca.org/place/661/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/661/tei> .

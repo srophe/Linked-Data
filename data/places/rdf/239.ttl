@@ -18,8 +18,8 @@
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
- skos:related "Midyat" ;
+ skos:related <http://syriaca.org/place/221> ;
+ skos:related <http://syriaca.org/place/137> ;
  dcterms:description "A village in north of ." ;
  dcterms:temporal "1941" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Arıca,_Gercüş> ;

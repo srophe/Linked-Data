@@ -18,7 +18,7 @@
  lawd:primaryForm "ܠܘܢܕܘܢ"@syr ;];
  lawd:hasName [
  lawd:variantForm "لندن"@ar ;];
- skos:related "United Kingdom" ;
+ skos:related <http://syriaca.org/place/700> ;
  dcterms:description "The capital city of the ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/79574> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/London> ;

@@ -30,7 +30,7 @@
  lawd:variantForm "Masarte"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ma‘sarte"@en-xsrp1 ;];
- skos:related "Mardin" ;
+ skos:related <http://syriaca.org/place/130> ;
  dcterms:description "A village near ." ;
  dcterms:description [
  rdfs:label "ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܡܰܪܕܝܢ ܡܰܪܕܶܐ ܫܶܬ ܫܳܥܝ̈ܢ ܠܓܰܪܒܝܗ̇."@syr-Syrj ;

@@ -24,7 +24,7 @@
  lawd:variantForm "Ibra"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Ibra"@en-xsrp1 ;];
- skos:related "Jūbās" ;
+ skos:related <http://syriaca.org/place/322> ;
  dcterms:description "A village near ." ;
  dcterms:temporal "1142" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1490/html> ;

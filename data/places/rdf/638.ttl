@@ -14,8 +14,8 @@
  rdfs:label "Qasr Serij" ;
  lawd:hasName [
  lawd:primaryForm "Qasr Serij"@en ;];
- skos:related "Mosul" ;
- skos:related "Nisibis" ;
+ skos:related <http://syriaca.org/place/139> ;
+ skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A ruined church on the road between and ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874655> ;
 geo:location [

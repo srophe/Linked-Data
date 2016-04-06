@@ -22,8 +22,8 @@
  lawd:variantForm "الخابور"@ar ;];
  lawd:hasName [
  lawd:variantForm "Khabur River"@en ;];
- skos:related "Euphrates" ;
- skos:related "Circesium" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/62> ;
  dcterms:description "A tributary of the that enters it at ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874565> ;
  skos:exactMatch <http://pleiades.stoa.org/places/893928> ;

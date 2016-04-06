@@ -16,7 +16,7 @@
  lawd:primaryForm "Jordan valley"@en ;];
  lawd:hasName [
  lawd:variantForm "الغَوْر"@ar ;];
- skos:related "Jordan River" ;
+ skos:related <http://syriaca.org/place/599> ;
  dcterms:description "The valley which contains the ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Jordan_Valley_(Middle_East)> ;
  foaf:primaryTopicOf <http://syriaca.org/place/600/html> ;

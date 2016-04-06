@@ -24,7 +24,7 @@
  lawd:variantForm "Koç Hisar"@en ;];
  lawd:hasName [
  lawd:variantForm "دُنيسر"@ar ;];
- skos:related "Kızıltepe" ;
+ skos:related <http://syriaca.org/place/490> ;
  dcterms:description [
  rdfs:label "ܠܬܰܝܡܢܗ ܡܰܥܪܒܳܝܐ ܕܡܰܪܕܝܢ ܒܰܝܢܳܬܗܝܢ ܬܪܶܝܢ ܦܰܪ̈ܣܚܐ ܒܕܳܪܐ ܕܰܬܠܳܬܰܥܣܪ ܡܕܝܢܬܳܐ ܗܘܳܬ ܪܒܬܐ. ܝܰܘܡܳܢܐ ܒܪܰܡ ܩܰܝܳܡܐ ܒܕܘܟܬܗ̇ ܩܰܣܛܪܐ ܕܡܶܬܶܐܡܰܪ ܠܗ ܩܶܙܶܠܬܰܦܰܗ ܗ̄ ܬܶܠܳܐ ܣܘܡܳܩܐ."@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];

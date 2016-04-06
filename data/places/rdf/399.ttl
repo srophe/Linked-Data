@@ -24,7 +24,7 @@
  lawd:variantForm "John Orti Monastery"@en ;];
  lawd:hasName [
  lawd:variantForm "Monastery of John the Iberian"@en ;];
- skos:related "Amid" ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A monastery north of ." ;
  dcterms:description [
  rdfs:label "ܒܢܳܝܗܝ ܗܳܢܐ ܥܢܘܳܝܐ ܒܰܫܒܳܒܘܬܗ̇ ܕܐܳܡܝܕ ܫܢܰܬ 590 ܐܰܦܩ ܬܠܳܬܐ ܐܶܦܝܣ̈ܩܘܦܐ ܗܰܘ ܕܶܝܢ ܕܛܰܒܝܒ ܒܗܘܢ ܝܘܚܰܢܢ ܕܐܶܦܣܘܣ ܘܠܐ ܦܓܰܥܢܢ ܒܛܶܐܒܐ ܥܠܰܘܗܝ ܒܳܬܰܪ ܫܢܰܬ 600 ."@syr-Syrj ;

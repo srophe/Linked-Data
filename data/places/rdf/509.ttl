@@ -22,8 +22,8 @@
  lawd:variantForm "واسط"@ar ;];
  lawd:hasName [
  lawd:variantForm "Wasit"@en ;];
- skos:related "Tigris" ;
- skos:related "Kashkar" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/111> ;
  dcterms:description "A city of southern Iraq on the west bank of the ." ;
  dcterms:temporal "0714" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Wasit,_Iraq> ;

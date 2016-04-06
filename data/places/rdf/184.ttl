@@ -30,8 +30,8 @@
  lawd:variantForm "Sinjār"@en ;];
  lawd:hasName [
  lawd:variantForm "سِنْجار"@ar ;];
- skos:related "Mosul" ;
- skos:related "Mount Sinjar" ;
+ skos:related <http://syriaca.org/place/139> ;
+ skos:related <http://syriaca.org/place/524> ;
  dcterms:description "A town west of and east of ." ;
  dcterms:description [
  rdfs:label "ܐܰܬܪܐ ܗܘ ܕܒܰܫܦܘܠܳܐ ܕܛܘܪܳܐ ܕܫܝܓܳܪ ܠܡܰܥܪܰܒ ܡܰܘܨܠ ܒܰܝܢܳܬܗܝܢ ܬܠܳܬܐ ܝܰܘܡܝ̈ܢ."@syr-Syrj ;

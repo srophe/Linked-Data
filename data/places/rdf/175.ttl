@@ -14,7 +14,7 @@
  rdfs:label "Syria I" ;
  lawd:hasName [
  lawd:primaryForm "Syria I"@en ;];
- skos:related "Antioch" ;
+ skos:related <http://syriaca.org/place/10> ;
  dcterms:description "A Roman province around ." ;
  dcterms:temporal "0420" ;
  skos:exactMatch <http://pleiades.stoa.org/places/1001932> ;

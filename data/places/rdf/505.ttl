@@ -20,7 +20,7 @@
  lawd:variantForm "شروان"@ar ;];
  lawd:hasName [
  lawd:variantForm "Sherwan"@en ;];
- skos:related "Siirt" ;
+ skos:related <http://syriaca.org/place/188> ;
  dcterms:description "A village northeast of ." ;
  dcterms:temporal "1943" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Şirvan> ;

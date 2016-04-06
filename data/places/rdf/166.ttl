@@ -16,7 +16,7 @@
  lawd:primaryForm "Roman Empire"@en ;];
  lawd:hasName [
  lawd:variantForm "Byzantine empire"@en ;];
- skos:related "Persian-Sasanian Empire" ;
+ skos:related <http://syriaca.org/place/150> ;
  dcterms:description "The empire west of the which endured in various forms until 1453." ;
  dcterms:temporal "-0027" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Roman_Empire> ;

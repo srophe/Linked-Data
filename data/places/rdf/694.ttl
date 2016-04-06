@@ -18,8 +18,8 @@
  lawd:primaryForm "ܣܒܐܪܛܗ"@syr ;];
  lawd:hasName [
  lawd:variantForm "ܣܒܰܐܪܛܰܗ"@syr-Syrj ;];
- skos:related "Anatolia" ;
- skos:related "Konia" ;
+ skos:related <http://syriaca.org/place/504> ;
+ skos:related <http://syriaca.org/place/440> ;
  dcterms:description "A town of western west of and north of Antalya." ;
  skos:exactMatch <http://pleiades.stoa.org/places/642531/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Isparta> ;

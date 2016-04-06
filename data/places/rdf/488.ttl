@@ -20,8 +20,8 @@
  lawd:variantForm "ܝܰܡܐ ܕܡܰܪܡܰܪܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "بحر مرمرة"@ar ;];
- skos:related "Black Sea" ;
- skos:related "Constantinople" ;
+ skos:related <http://syriaca.org/place/503> ;
+ skos:related <http://syriaca.org/place/586> ;
  dcterms:description "A small sea on the waterway between the and the Aegean, south of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/511381> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sea_of_Marmara> ;

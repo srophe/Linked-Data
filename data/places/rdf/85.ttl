@@ -16,8 +16,8 @@
  lawd:primaryForm "Gabala"@en ;];
  lawd:hasName [
  lawd:variantForm "جبلة"@ar ;];
- skos:related "Laodicea" ;
- skos:related "Apamea" ;
+ skos:related <http://syriaca.org/place/118> ;
+ skos:related <http://syriaca.org/place/11> ;
  dcterms:description "A city on the coast south-east of and west of ." ;
  dcterms:temporal "-0330" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668250> ;

@@ -22,7 +22,7 @@
  lawd:variantForm "Tesqōpā"@en ;];
  lawd:hasName [
  lawd:variantForm "تل أسقف"@ar ;];
- skos:related "Mosul" ;
+ skos:related <http://syriaca.org/place/139> ;
  dcterms:description "A large village in the plain of ." ;
  dcterms:temporal "1220" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tel_Isqof> ;

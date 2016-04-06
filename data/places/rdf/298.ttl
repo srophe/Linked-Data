@@ -22,7 +22,7 @@
  lawd:variantForm "باقوفا"@ar ;];
  lawd:hasName [
  lawd:variantForm "Bāqūfā"@en ;];
- skos:related "Baqufa" ;
+ skos:related <http://syriaca.org/place/2532> ;
  dcterms:description [
  rdfs:label "ܩܪܝܬܐ ܕܰܒܛܘܪܳܐ ܕܠܶܒܢܳܢ."@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];

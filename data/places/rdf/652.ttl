@@ -16,7 +16,7 @@
  lawd:primaryForm "Gusit"@en ;];
  lawd:hasName [
  lawd:variantForm "Gousit"@en ;];
- skos:related "Ḥimṣ" ;
+ skos:related <http://syriaca.org/place/215> ;
  dcterms:description "A village near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/652/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/652/tei> .

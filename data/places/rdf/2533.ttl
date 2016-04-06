@@ -14,7 +14,7 @@
  rdfs:label "Kilis" ;
  lawd:hasName [
  lawd:primaryForm "Kilis"@en ;];
- skos:related "Siirt" ;
+ skos:related <http://syriaca.org/place/188> ;
  dcterms:description "A village near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/2533/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2533/tei> .

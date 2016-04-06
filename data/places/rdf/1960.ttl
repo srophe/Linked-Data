@@ -14,7 +14,7 @@
  rdfs:label "Mylapore" ;
  lawd:hasName [
  lawd:primaryForm "Mylapore"@en ;];
- skos:related "India" ;
+ skos:related <http://syriaca.org/place/500> ;
  dcterms:description "A city in south-western where according to tradition the Apostle Thomas was martyred." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mylapore> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1960/html> ;

@@ -18,7 +18,7 @@
  lawd:variantForm "Vān"@en ;];
  lawd:hasName [
  lawd:variantForm "وان"@ar ;];
- skos:related "Lake Van" ;
+ skos:related <http://syriaca.org/place/117> ;
  dcterms:description "A city southeast of ." ;
  dcterms:temporal "-0465" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874771> ;

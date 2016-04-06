@@ -24,7 +24,7 @@
  lawd:variantForm "حدياب"@ar ;];
  lawd:hasName [
  lawd:variantForm "Ḥaḏyab"@en ;];
- skos:related "Arbela" ;
+ skos:related <http://syriaca.org/place/13> ;
  dcterms:description "A diocese of the Church of the East, centered around ." ;
  dcterms:temporal "0410" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Adiabene_(East_Syrian_Ecclesiastical_Province)> ;

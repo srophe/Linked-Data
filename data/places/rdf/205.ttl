@@ -22,9 +22,9 @@
  lawd:variantForm "Orim"@en ;];
  lawd:hasName [
  lawd:variantForm "أُوْرِم"@ar ;];
- skos:related "Euphrates" ;
- skos:related "Edessa" ;
- skos:related "Halfeti" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/78> ;
+ skos:related <http://syriaca.org/place/695> ;
  dcterms:description "A town on the west of ." ;
  dcterms:description [
  rdfs:label "ܥܠ ܣܶܦܰܬ ܦܪܳܬ ܠܘܳܬ ܫܰܡܺܝܫܬ ܕܚܰܪܝ̣ܒܐ."@syr-Syrj ;

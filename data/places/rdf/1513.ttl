@@ -22,7 +22,7 @@
  lawd:variantForm "دير الاثارب"@ar ;];
  lawd:hasName [
  lawd:variantForm "Monastery of Atharb"@en ;];
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "A monastery near ." ;
  dcterms:temporal "0727" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1513/html> ;

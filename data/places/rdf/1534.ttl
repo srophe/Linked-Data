@@ -22,7 +22,7 @@
  lawd:variantForm "رودس"@ar ;];
  lawd:hasName [
  lawd:variantForm "رُودِس"@ar ;];
- skos:related "Asia Minor" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "An island off the south-western coast of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/590031> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Rhodes> ;

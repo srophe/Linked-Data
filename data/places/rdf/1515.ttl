@@ -24,7 +24,7 @@
  lawd:variantForm "Baneb"@en ;];
  lawd:hasName [
  lawd:variantForm "إِنِّب"@ar ;];
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "A village northwest of ." ;
  dcterms:temporal "0725" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Inab> ;

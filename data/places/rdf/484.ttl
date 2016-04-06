@@ -22,7 +22,7 @@
  lawd:variantForm "ارزروم"@ar ;];
  lawd:hasName [
  lawd:variantForm "ارزن الروم"@ar ;];
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A city in northeastern ." ;
  dcterms:temporal "0012" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874373> ;

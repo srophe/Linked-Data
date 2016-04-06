@@ -16,7 +16,7 @@
  lawd:primaryForm "Ardashir Khurrah"@en ;];
  lawd:hasName [
  lawd:variantForm "أَرْدَشِيْر خُرَّه"@ar ;];
- skos:related "Fars" ;
+ skos:related <http://syriaca.org/place/84> ;
  dcterms:description "A city of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/922617> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Firuzabad,_Fars> ;

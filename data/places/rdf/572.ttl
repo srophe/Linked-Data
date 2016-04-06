@@ -20,7 +20,7 @@
  lawd:variantForm "ܐܰܠܟܣܰܢܕܰܪܝܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "الاسكندرية"@ar ;];
- skos:related "Egypt" ;
+ skos:related <http://syriaca.org/place/715> ;
  dcterms:description "A city in ." ;
  dcterms:temporal "-0331" ;
  skos:exactMatch <http://pleiades.stoa.org/places/727070> ;

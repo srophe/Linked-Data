@@ -16,7 +16,7 @@
  lawd:primaryForm "Arragan"@en ;];
  lawd:hasName [
  lawd:variantForm "أَرّجان"@ar ;];
- skos:related "Fars" ;
+ skos:related <http://syriaca.org/place/84> ;
  dcterms:description "A village in ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/912989> ;
 geo:location [

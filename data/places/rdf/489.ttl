@@ -22,8 +22,8 @@
  lawd:variantForm "مرسين"@ar ;];
  lawd:hasName [
  lawd:variantForm "Mersin"@en ;];
- skos:related "Mediterranean Sea" ;
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/135> ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A port city on the in southern ." ;
  dcterms:temporal "-0140" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648810> ;

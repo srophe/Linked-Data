@@ -24,7 +24,7 @@
  lawd:variantForm "Ayn Dābā"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Ayn Dābā"@en-xsrp1 ;];
- skos:related "Anazarba" ;
+ skos:related <http://syriaca.org/place/9> ;
  dcterms:description [
  rdfs:label "في كورة انطاكية مجهولة الموقع، موطن العلامة يعقوب الرهاوي."@ar ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];

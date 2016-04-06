@@ -20,7 +20,7 @@
  lawd:variantForm "ܡܝܺܠܝܒܰܪ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "ملبار"@ar ;];
- skos:related "India" ;
+ skos:related <http://syriaca.org/place/500> ;
  dcterms:description "A coastal region in southern ." ;
  dcterms:description [
  rdfs:label "ܩܠܝܡܰܐ ܗܘ ܕܰܒܬܝܡܰܢ ܡܰܥܪܰܒ ܐܰܬܪ̈ܰܘܳܬܐ ܕܗܶܢܕܘ ܥܰܠ ܝܰܕ ܐܘܩܝܰܐܢܘܣ ܗܶܢܕܘܳܝܳܐ ܕܐܳܚܶܕ ܠܬܰܪܬܶܝܢ ܐܰܡܝܪ̈ܘܳܬܐ ܕܟܺܘܓܝܺܢ ܘܰܬܪܰܐܘܢܟܘܪ"@syr-Syrj ;

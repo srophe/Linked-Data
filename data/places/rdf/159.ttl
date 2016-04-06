@@ -30,9 +30,9 @@
  lawd:variantForm "جيحون"@ar ;];
  lawd:hasName [
  lawd:variantForm "جَيْحان"@ar ;];
- skos:related "Anazarbos" ;
- skos:related "Mopsuestia" ;
- skos:related "Mediterranean Sea" ;
+ skos:related <http://syriaca.org/place/9> ;
+ skos:related <http://syriaca.org/place/138> ;
+ skos:related <http://syriaca.org/place/135> ;
  dcterms:description "A river which flows near and past before emptying into the ." ;
  dcterms:description [
  rdfs:label "ܢܰܗܪܰܐ ܗܘ ܕܒܰܡܣܝܺܣܛܐ ܢܳܣܶܟ ܠܩܘܽܒܠܗ ܒܩܺܝܠܺܝܩܝܰܐ ܘܒܰܫܡܗ ܐܶܫܬܰܡܗܰܬ ܡܕܝܢܰܬ ܓܝܺܚܐܰܢ."@syr-Syrj ;

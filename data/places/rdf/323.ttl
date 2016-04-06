@@ -22,7 +22,7 @@
  lawd:variantForm "Josya"@en ;];
  lawd:hasName [
  lawd:variantForm "جُوْسِية"@ar ;];
- skos:related "Emesa" ;
+ skos:related <http://syriaca.org/place/215> ;
  dcterms:description "A village near ." ;
  dcterms:description [
  rdfs:label "ܟܘܪܳܐ ܗܘܳܬ ܡܶܢ ܟܘܪ̈ܐ ܕܰܚܡܶܨ. ܕܪܰܚܝܩܐ ܡܶܢܗ̇ ܫܬܳܐ ܦܰܪ̈ܣܚܐ ܠܓܰܒܐ ܕܕܰܪܡܣܘܩ. ܒܶܝܬ ܛܘܪ̈ܝ ܠܶܒܢܳܢ ܘܰܣܢܝܪ ܘܝܰܘܡܳܢ ܩܪܺܝܬܐ ܐܝܺܬܝܗ̇ ܐܶܬܚܰܕܬܰܬ ܒܓܶܒ ܓܘܣܝܗ ܥܰܬܝܩܬܐ."@syr-Syrj ;

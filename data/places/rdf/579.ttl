@@ -16,7 +16,7 @@
  lawd:primaryForm "Bassīṭ"@en ;];
  lawd:hasName [
  lawd:variantForm "Bassit"@en ;];
- skos:related "Laodicea" ;
+ skos:related <http://syriaca.org/place/118> ;
  dcterms:description "A coastal town north of ." ;
  dcterms:temporal "-0600" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668340> ;

@@ -22,7 +22,7 @@
  lawd:variantForm "جبل الازل"@ar ;];
  lawd:hasName [
  lawd:variantForm "Izla Mountain"@en ;];
- skos:related "Nisibis" ;
+ skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A mountain north of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874530> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mount_Izla> ;

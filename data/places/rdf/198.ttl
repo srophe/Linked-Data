@@ -46,10 +46,10 @@
  lawd:variantForm "Τελεδᾶν"@el ;];
  lawd:hasName [
  lawd:variantForm "Teleda"@en ;];
- skos:related "Aleppo" ;
- skos:related "Monastery of Tell ʿAda" ;
- skos:related "Ḥama" ;
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/233> ;
+ skos:related <http://syriaca.org/place/91> ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "A village 48 km. west of known for the nearby ." ;
  dcterms:temporal "0457" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658614> ;

@@ -16,8 +16,8 @@
  lawd:primaryForm "Phoenice"@en ;];
  lawd:hasName [
  lawd:variantForm "Phoenicia"@en ;];
- skos:related "Tyros" ;
- skos:related "Tripolis" ;
+ skos:related <http://syriaca.org/place/195> ;
+ skos:related <http://syriaca.org/place/203> ;
  dcterms:description "A Roman province including the middle Levantine coast from north to ." ;
  dcterms:temporal "0200" ;
  skos:exactMatch <http://pleiades.stoa.org/places/991410> ;

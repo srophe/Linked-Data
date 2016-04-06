@@ -14,8 +14,8 @@
  rdfs:label "Cyprus" ;
  lawd:hasName [
  lawd:primaryForm "Cyprus"@en ;];
- skos:related "Roman Empire" ;
- skos:related "Cyprus" ;
+ skos:related <http://syriaca.org/place/166> ;
+ skos:related <http://syriaca.org/place/714> ;
  dcterms:description "A province of the , coinciding with the island of ." ;
  dcterms:temporal "0395" ;
  skos:exactMatch <http://pleiades.stoa.org/places/981516> ;

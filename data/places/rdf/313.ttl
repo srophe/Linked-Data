@@ -24,7 +24,7 @@
  lawd:variantForm "Tell Baṭriq"@en ;];
  lawd:hasName [
  lawd:variantForm "تل بطريق"@ar ;];
- skos:related "Ḥiṣn Baṭrīq" ;
+ skos:related <http://syriaca.org/place/329> ;
  dcterms:description [
  rdfs:label "ܕܘܟܬܳܐ ܗܝ ܕܰܒܦܶܢܝ̈ܬܳܐ ܕܡܝܠܝܛܝܢܝ."@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];

@@ -20,8 +20,8 @@
  lawd:variantForm "سينجس"@ar ;];
  lawd:hasName [
  lawd:variantForm "Sinjis"@en ;];
- skos:related "Claudia" ;
- skos:related "Dayro d-Modiq" ;
+ skos:related <http://syriaca.org/place/63> ;
+ skos:related <http://syriaca.org/place/386> ;
  dcterms:description "A village near , near which is the ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/558/html> ;

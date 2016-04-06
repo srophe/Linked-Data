@@ -16,7 +16,7 @@
  lawd:primaryForm "Babisqa"@en ;];
  lawd:hasName [
  lawd:variantForm "Babiska"@en ;];
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "A town southwest of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/658414/> ;
 geo:location [

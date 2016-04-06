@@ -26,7 +26,7 @@
  lawd:variantForm "Beth Naar"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Beth Na‘ar"@en-xsrp1 ;];
- skos:related "Edessa" ;
+ skos:related <http://syriaca.org/place/78> ;
  dcterms:description "A village near ." ;
  dcterms:temporal "0790" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1512/html> ;

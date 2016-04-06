@@ -22,9 +22,9 @@
  lawd:variantForm "ارض الشام"@ar ;];
  lawd:hasName [
  lawd:variantForm "الشَأم"@ar ;];
- skos:related "Euphrates River" ;
- skos:related "Mediterranean Sea" ;
- skos:related "Palestine" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/135> ;
+ skos:related <http://syriaca.org/place/698> ;
  dcterms:description "A historical region bounded on the north by the and the Taurus Mountains, on the west by the , on the east by the desert, and on the south by , which during the medieval period was considered the southernmost district of Syria." ;
  dcterms:temporal "-0200" ;
  skos:exactMatch <http://pleiades.stoa.org/places/1306> ;

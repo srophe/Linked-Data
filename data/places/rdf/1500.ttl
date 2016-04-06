@@ -22,7 +22,7 @@
  lawd:variantForm "دير الشهداء السبعة"@ar ;];
  lawd:hasName [
  lawd:variantForm "Monastery of the Seven Martyrs"@en ;];
- skos:related "Fārīn" ;
+ skos:related <http://syriaca.org/place/1501> ;
  dcterms:description "A monastery near ." ;
  dcterms:temporal "0861" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1500/html> ;

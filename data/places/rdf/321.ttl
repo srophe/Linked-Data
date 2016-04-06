@@ -36,8 +36,8 @@
  lawd:variantForm "Diyār Rabia"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Diyār Rabi‘a"@en-xsrp1 ;];
- skos:related "Gazarta" ;
- skos:related "Tigris" ;
+ skos:related <http://syriaca.org/place/712> ;
+ skos:related <http://syriaca.org/place/202> ;
  dcterms:description [
  rdfs:label "ܒܝܬ ܇ ܒܘܪܐ ܘܕܶܩܠܰܬ ܐܝܬܰܝܗܘܢ ܡܰܥܡܪ̈ܶܐ ܕܬܰܓܠܒܳܝ̈ܐ ܛܘܗܡܳܐ ܪܰܒܐ ܕܰܐܪ̈ܰܐܒܳܝܐ ܘܐܺܝܬܰܝܗܘܽܢ ܗܘܰܘ ܡܫܝܚ̈ܝܶܐ ܣܘܪ̈ܝܳܝܐ ܐܰܪ̈ܬܘܕܘܟܣܽܘ ܘܩܰܘܺܝܘ ܡܫܝܚܝ̈ܐ ܥܕܰܡܳܐ ܠܡܰܐܬܐ ܥܣܝܪܳܝܬܳܐ ܘܡܶܢ ܛܒ̈ܝܒܶܐ ܕܓܰܒܪ̈ܶܝܗ̇ ܓܰܝܐܬ ܒܪ ܓܘܬ ܕܺܝܕܺܝܥ ܐܰܟܛܠ ܦܘܺܐܝܛܳܐ ܕܢܰܦܝܩ ܫܡܗ ܚܕܳܪ̈ܰܝ ܫܢܰܬ 710 ܐܬܓܰܙܝܰܬ ܡܢ ܐܢܳܫ̈ܝܗ̇ ܒܕܳܪܳܐ ܕܐܰܪܒܰܥܣܪ ܐܶܬܝܰܬܒܬ ܚܕܳܪ̈ܰܝ ܫܢܰܬ 1921 ܘܐܶܬܚ̈ܕܰܬܝ ܒܗ̇ ܡܕܝܢ̈ܬܳܐ ܕܚܰܣܝܟܐ ܘܒܶܝܬܙ̈ܠܐ ܘܪܝܫ ܥܰܝܢܳܐ ܘܫܰܪܝ ܪܳܕܐ ܒܳܗ̇ ܫܘܽܟܠܠܐ."@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];

@@ -34,8 +34,8 @@
  lawd:variantForm "Maiperqāṭ"@en ;];
  lawd:hasName [
  lawd:variantForm "مَيّافارقِين"@ar ;];
- skos:related "Tigris" ;
- skos:related "Amida" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A city north of the and east of ." ;
  dcterms:description [
  rdfs:label "ܛܒܝܒܳܐ ܗܘܳܬ ܕܰܡܕܝܢ̈ܬܳܐ ܕܐܳܡܺܝܕ ܠܓܰܪܒܰܝ ܡܰܕܢܚܳܗ̇ ܘܝܰܘܡܳܢ ܩܰܣܛܪܰܐ ܗܝ̣."@syr-Syrj ;

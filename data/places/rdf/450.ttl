@@ -20,7 +20,7 @@
  lawd:variantForm "كورتم"@ar ;];
  lawd:hasName [
  lawd:variantForm "Qawartam"@en ;];
- skos:related "Euphrates" ;
+ skos:related <http://syriaca.org/place/82> ;
  dcterms:description "A village on the ." ;
  dcterms:description [
  rdfs:label "ܩܪܺܝܬܳܐ ܗܘܳܬ ܥܰܠ ܦܪܳܬ. ܘܐܝܺܬܶܝܗ̇ ܡܳܬܳܐ ܕܩܰܕܝܫܳܐ ܝܰܥܩܘܒ ܕܰܣܪܘܓ ܡܰܠܦܳܢܐ 521"@syr-Syrj ;

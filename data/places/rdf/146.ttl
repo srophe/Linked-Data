@@ -14,8 +14,8 @@
  rdfs:label "Olba" ;
  lawd:hasName [
  lawd:primaryForm "Olba"@en ;];
- skos:related "Isauria" ;
- skos:related "Seleucia" ;
+ skos:related <http://syriaca.org/place/99> ;
+ skos:related <http://syriaca.org/place/174> ;
  dcterms:description "A town of north of ." ;
  dcterms:temporal "0024" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648725> ;

@@ -14,7 +14,7 @@
  rdfs:label "Dibsi Faraj" ;
  lawd:hasName [
  lawd:primaryForm "Dibsi Faraj"@en ;];
- skos:related "Euphrates" ;
+ skos:related <http://syriaca.org/place/82> ;
  dcterms:description "A former village and archaeological site on the now beneath al-Assad Lake." ;
  skos:exactMatch <http://pleiades.stoa.org/places/668201> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Dibsi_Faraj> ;

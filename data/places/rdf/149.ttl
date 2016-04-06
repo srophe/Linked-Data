@@ -24,8 +24,8 @@
  lawd:variantForm "Palestine"@en ;];
  lawd:hasName [
  lawd:variantForm "Roman Palestine"@en ;];
- skos:related "Caesarea" ;
- skos:related "Jerusalem" ;
+ skos:related <http://syriaca.org/place/53> ;
+ skos:related <http://syriaca.org/place/104> ;
  dcterms:description "A Roman province including and ." ;
  dcterms:temporal "0135" ;
  skos:exactMatch <http://pleiades.stoa.org/places/991396> ;

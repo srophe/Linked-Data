@@ -18,9 +18,9 @@
  lawd:variantForm "Kochanes"@en ;];
  lawd:hasName [
  lawd:variantForm "Qūdshānīs"@en ;];
- skos:related "Hakkari mountains" ;
- skos:related "Greater Zab" ;
- skos:related "Julamerk" ;
+ skos:related <http://syriaca.org/place/90> ;
+ skos:related <http://syriaca.org/place/204> ;
+ skos:related <http://syriaca.org/place/107> ;
  dcterms:description "A town in the near the , northeast of ." ;
  dcterms:temporal "1607" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Konak,_Hakkari> ;

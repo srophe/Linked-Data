@@ -20,8 +20,8 @@
  lawd:variantForm "ܩܐܰܗܪܗ̈"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "القاهرة"@ar ;];
- skos:related "Nile" ;
- skos:related "Egypt" ;
+ skos:related <http://syriaca.org/place/629> ;
+ skos:related <http://syriaca.org/place/715> ;
  dcterms:description "A major city on the which served as a medieval and modern capital of ." ;
  dcterms:temporal "0969" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Cairo> ;

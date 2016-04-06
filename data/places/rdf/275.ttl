@@ -16,7 +16,7 @@
  lawd:primaryForm "Mar Elian"@en ;];
  lawd:hasName [
  lawd:variantForm "Monastery of Julian"@en ;];
- skos:related "al-Qaryatayn" ;
+ skos:related <http://syriaca.org/place/212> ;
  dcterms:description "A monastery outside ." ;
  dcterms:temporal "2011" ;
  foaf:primaryTopicOf <http://syriaca.org/place/275/html> ;

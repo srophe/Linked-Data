@@ -28,7 +28,7 @@
  lawd:variantForm "ܬܠܝܼܫܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "Deir Sem‘an"@en ;];
- skos:related "Syria" ;
+ skos:related <http://syriaca.org/place/486> ;
  dcterms:description "A village in ancient ." ;
  dcterms:temporal "0400" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658613> ;

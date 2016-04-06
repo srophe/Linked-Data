@@ -30,7 +30,7 @@
  lawd:variantForm "Amkābā"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Amkābā"@en-xsrp1 ;];
- skos:related "Arbela" ;
+ skos:related <http://syriaca.org/place/13> ;
  dcterms:description "A town northeast of ." ;
  dcterms:temporal "0925" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ankawa> ;

@@ -20,7 +20,7 @@
  lawd:variantForm "ܟܰܡܒܪܰܓ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "كمبرج"@ar ;];
- skos:related "England" ;
+ skos:related <http://syriaca.org/place/843> ;
  dcterms:description "A city of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/79436> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Cambridge> ;

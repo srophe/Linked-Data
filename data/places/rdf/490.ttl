@@ -24,8 +24,8 @@
  lawd:variantForm "Tell al-Arman"@en ;];
  lawd:hasName [
  lawd:variantForm "Tel Armen"@en ;];
- skos:related "Mardin" ;
- skos:related "Dunaysar" ;
+ skos:related <http://syriaca.org/place/130> ;
+ skos:related <http://syriaca.org/place/401> ;
  dcterms:description "A town south of near ." ;
  dcterms:temporal "0640" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874572> ;

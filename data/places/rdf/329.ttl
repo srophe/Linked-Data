@@ -20,7 +20,7 @@
  lawd:variantForm "ܚܣܢ ܒܰܛܪܝܩ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "حصن بطريق"@ar ;];
- skos:related "Tel Baṭrīq" ;
+ skos:related <http://syriaca.org/place/313> ;
  dcterms:description [
  rdfs:label "ܡܕܺܝܢܬܐ ܗܝ ܕܘܟܬܳܐ ܕܒܶܝܬ ܚܳܠܒ ܠܩܰܠܘܽܢܺܝܩܝ."@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];

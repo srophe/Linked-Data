@@ -24,7 +24,7 @@
  lawd:variantForm "Beth Arīf"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Beth ‘Arīf"@en-xsrp1 ;];
- skos:related "Jerusalem" ;
+ skos:related <http://syriaca.org/place/104> ;
  dcterms:description "A village near ." ;
  dcterms:temporal "1138" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Dayr_Tarif> ;

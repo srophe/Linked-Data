@@ -30,9 +30,9 @@
  lawd:variantForm "Ḥesnā d'Kīfā"@en ;];
  lawd:hasName [
  lawd:variantForm "Ḥiṣn Kayf"@en ;];
- skos:related "Tigris river" ;
- skos:related "Amida" ;
- skos:related "Gazarta" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/8> ;
+ skos:related <http://syriaca.org/place/88> ;
  dcterms:description "A city on the between and ." ;
  dcterms:description [
  rdfs:label "ܡܕܝܢܬܐ ܘܩܶܠܥܳܐ ܪܰܒܬܳܐ ܕܚܳܝܪܐ ܠܕܶܩܠܰܬ ܒܶܝܬ ܐܳܡܝܺܕ ܠܰܓܙܺܝܪܳܬܐ ܕܒܰܪ ܥܽܘܡܰܪ. ܗܘܳܬ ܒܰܙܒܰܢ ܐܶܡܳܐ ܕܰܡܕܝܢ̈ܬܳܐ ܠܚܰܕ ܦܶܪܥܐ ܕܡܰܠܟܘܬܳܐ ܐܰܝܘܒܳܝܬܐ ܥܕܰܡܳܐ ܠܪܺܝܫ ܡܰܐܬܳܐ ܥܣܝܪܳܝܬܳܐ. ܘܝܰܘܡܳܢ ܐܝܬܶܝܗ̇ ܩܪܺܝܬܳܐ."@syr-Syrj ;

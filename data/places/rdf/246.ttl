@@ -16,7 +16,7 @@
  lawd:primaryForm "Khosrowa"@en ;];
  lawd:hasName [
  lawd:variantForm "Khosrōwā"@en ;];
- skos:related "Salmas" ;
+ skos:related <http://syriaca.org/place/177> ;
  dcterms:description "A village southwest of ." ;
  dcterms:temporal "0697" ;
  foaf:primaryTopicOf <http://syriaca.org/place/246/html> ;

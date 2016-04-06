@@ -20,7 +20,7 @@
  lawd:variantForm "ܠܽܘܩܰܐܢܺܝܰܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "لوقانيا"@ar ;];
- skos:related "Asia Minor" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A region of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/648698> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Lycaonia> ;

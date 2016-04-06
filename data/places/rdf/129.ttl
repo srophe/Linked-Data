@@ -24,7 +24,7 @@
  lawd:variantForm "Marāghā"@en ;];
  lawd:hasName [
  lawd:variantForm "مَراغة"@ar ;];
- skos:related "Tabriz" ;
+ skos:related <http://syriaca.org/place/308> ;
  dcterms:description "A city south of ." ;
  dcterms:description [
  rdfs:label "ܐܰܬܪܐ ܕܰܛܒܺܝܒ ܒܰܡܕܝ̈ܢܳܬܐ ܕܰܐܕܘܪܒܰܝܓܰܐܢ ܠܬܰܝܡܢ ܬܶܒܪܝܙ ܘܰܠܡܰܕܢܚܐ ܕܝܰܡܬܐ ܕܐܘܪܡܺܝܐ."@syr-Syrj ;

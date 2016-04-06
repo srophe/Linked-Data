@@ -18,8 +18,8 @@
  lawd:variantForm "Aqra"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Aqra"@en-xsrp1 ;];
- skos:related "Arbela" ;
- skos:related "ʿAqra" ;
+ skos:related <http://syriaca.org/place/13> ;
+ skos:related <http://syriaca.org/place/25> ;
  dcterms:description "A town northeast of and east of ." ;
  dcterms:temporal "1832" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Rowanduz> ;

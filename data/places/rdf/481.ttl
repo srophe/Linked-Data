@@ -20,10 +20,10 @@
  lawd:variantForm "ܝܶܫܺܝܠ ܐܺܝܪܡܰܐܩ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "يشيل ايرماق"@ar ;];
- skos:related "Tokat" ;
- skos:related "Amāsiyya" ;
- skos:related "Black Sea" ;
- skos:related "Samsun" ;
+ skos:related <http://syriaca.org/place/510> ;
+ skos:related <http://syriaca.org/place/292> ;
+ skos:related <http://syriaca.org/place/503> ;
+ skos:related <http://syriaca.org/place/480> ;
  dcterms:description "A river which flows past and before emptying into the near ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/857171> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Yeşilırmak_River> ;

@@ -14,7 +14,7 @@
  rdfs:label "Dayr Qannubin" ;
  lawd:hasName [
  lawd:primaryForm "Dayr Qannubin"@en ;];
- skos:related "Ehden" ;
+ skos:related <http://syriaca.org/place/271> ;
  dcterms:description "An important Maronite monastery southeast of which was the residence of the Maronite patriarch from 1440 to 1823." ;
  dcterms:temporal "1445" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kadisha_Valley#The_Qannubin_Monastery> ;

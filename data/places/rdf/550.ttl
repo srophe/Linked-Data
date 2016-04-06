@@ -20,7 +20,7 @@
  lawd:variantForm "الشغر"@ar ;];
  lawd:hasName [
  lawd:variantForm "Shaghr"@en ;];
- skos:related "Qlisuro" ;
+ skos:related <http://syriaca.org/place/438> ;
  dcterms:description "A village near ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/550/html> ;

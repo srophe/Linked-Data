@@ -412,9 +412,9 @@ geo:location [
  lawd:variantForm "Orim"@en ;];
  lawd:hasName [
  lawd:variantForm "أُوْرِم"@ar ;];
- skos:related "Euphrates" ;
- skos:related "Edessa" ;
- skos:related "Halfeti" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/78> ;
+ skos:related <http://syriaca.org/place/695> ;
  dcterms:description "A town on the west of ." ;
  dcterms:description [
  rdfs:label "ܥܠ ܣܶܦܰܬ ܦܪܳܬ ܠܘܳܬ ܫܰܡܺܝܫܬ ܕܚܰܪܝ̣ܒܐ."@syr-Syrj ;
@@ -697,8 +697,8 @@ geo:location [
  lawd:variantForm "Great Zab"@en ;];
  lawd:hasName [
  lawd:variantForm "الزاب الأعلى"@ar ;];
- skos:related "Tigris" ;
- skos:related "Arbela" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/13> ;
  dcterms:description "A tributary of the which flows north of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/894183> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Great_Zab> ;
@@ -918,7 +918,7 @@ geo:location [
  lawd:variantForm "طرابلس"@ar ;];
  lawd:hasName [
  lawd:variantForm "اطرابُلس"@ar ;];
- skos:related "Beirut" ;
+ skos:related <http://syriaca.org/place/46> ;
  dcterms:description "A coastal city north of ." ;
  dcterms:temporal "-0800" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668394> ;
@@ -1402,8 +1402,8 @@ geo:location [
  lawd:variantForm "Viransehir"@en ;];
  lawd:hasName [
  lawd:variantForm "تل مَوْزَن"@ar ;];
- skos:related "Edessa" ;
- skos:related "Mardin" ;
+ skos:related <http://syriaca.org/place/78> ;
+ skos:related <http://syriaca.org/place/130> ;
  dcterms:description "A town east of and west of ." ;
  dcterms:description [
  rdfs:label "ܡܕܝܺܢܬܐ ܗܘܳܬ ܡܫܰܟܠܠܬܐ ܕܒܶܝܬ ܡܰܪܕܝܢ ܠܐܘܪܗܳܝ ܡܰܪܕܶܐ ܬܪܶܝܢ ܡܰܫ̈ܩܠܝܢ ܡܶܢ ܩܰܕܡܳܝܬܐ ܘܝܰܘܡܳܢ ܡܕܝܢܬܽܘܢܳܝܬܳܐ ܗܝ ܕܡܶܬܶܐܡܰܪ ܠܗ̇ ܘܶܝܪܰܐܢܫܰܗܝܪ."@syr-Syrj ;
@@ -1475,7 +1475,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1501" ;
 geo:location [
@@ -2138,10 +2138,10 @@ geo:location [
  lawd:variantForm "Τελεδᾶν"@el ;];
  lawd:hasName [
  lawd:variantForm "Teleda"@en ;];
- skos:related "Aleppo" ;
- skos:related "Monastery of Tell ʿAda" ;
- skos:related "Ḥama" ;
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/233> ;
+ skos:related <http://syriaca.org/place/91> ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "A village 48 km. west of known for the nearby ." ;
  dcterms:temporal "0457" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658614> ;
@@ -3283,7 +3283,7 @@ geo:location [
  rdfs:label "Mylapore" ;
  lawd:hasName [
  lawd:primaryForm "Mylapore"@en ;];
- skos:related "India" ;
+ skos:related <http://syriaca.org/place/500> ;
  dcterms:description "A city in south-western where according to tradition the Apostle Thomas was martyred." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mylapore> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1960/html> ;
@@ -3304,8 +3304,8 @@ geo:location [
  lawd:variantForm "طرسوس"@ar ;];
  lawd:hasName [
  lawd:variantForm "طَرَسون"@ar ;];
- skos:related "Cilicia I" ;
- skos:related "Adana" ;
+ skos:related <http://syriaca.org/place/56> ;
+ skos:related <http://syriaca.org/place/15> ;
  dcterms:description "A city in west of ." ;
  dcterms:temporal "-0401" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648789> ;
@@ -3464,8 +3464,8 @@ geo:location [
  lawd:variantForm "Tyre"@en ;];
  lawd:hasName [
  lawd:variantForm "صُوْر"@ar ;];
- skos:related "Mediterranean Sea" ;
- skos:related "Damascus" ;
+ skos:related <http://syriaca.org/place/135> ;
+ skos:related <http://syriaca.org/place/66> ;
  dcterms:description "An important port city of the eastern west of ." ;
  dcterms:temporal "-1300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678437> ;
@@ -3484,8 +3484,8 @@ geo:location [
  rdfs:label "Mart Maryam" ;
  lawd:hasName [
  lawd:primaryForm "Mart Maryam"@en ;];
- skos:related "Qārājālū" ;
- skos:related "Ābājālūi" ;
+ skos:related <http://syriaca.org/place/1614> ;
+ skos:related <http://syriaca.org/place/881> ;
  dcterms:description "A church serving both and ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/1949/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1949/tei> ;
@@ -3561,8 +3561,8 @@ geo:location [
  lawd:variantForm "Ālyābād"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Ālyābād"@en-xsrp1 ;];
- skos:related "Sāʿātlūi" ;
- skos:related "ʿĀlyābād" ;
+ skos:related <http://syriaca.org/place/1665> ;
+ skos:related <http://syriaca.org/place/944> ;
  dcterms:description "A church serving both and ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/1948/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1948/tei> ;
@@ -3575,8 +3575,8 @@ geo:location [
  rdfs:label "Kottayam" ;
  lawd:hasName [
  lawd:primaryForm "Kottayam"@en ;];
- skos:related "Kerala" ;
- skos:related "India" ;
+ skos:related <http://syriaca.org/place/602> ;
+ skos:related <http://syriaca.org/place/500> ;
  dcterms:description "A city in in southern ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/50079> ;
 geo:location [
@@ -4645,8 +4645,8 @@ geo:location [
  lawd:primaryForm "Mar Giwargis"@en ;];
  lawd:hasName [
  lawd:variantForm "Mār Giwārgīs"@en ;];
- skos:related "Dīzā" ;
- skos:related "Wazirābād" ;
+ skos:related <http://syriaca.org/place/1171> ;
+ skos:related <http://syriaca.org/place/1809> ;
  dcterms:description "A church serving both and ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/1930/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1930/tei> ;
@@ -5466,9 +5466,9 @@ geo:location [
  lawd:variantForm "Sulemaniyya"@en ;];
  lawd:hasName [
  lawd:variantForm "Suleimaniya"@en ;];
- skos:related "Iraq" ;
- skos:related "Kirkuk" ;
- skos:related "Erbil" ;
+ skos:related <http://syriaca.org/place/98> ;
+ skos:related <http://syriaca.org/place/108> ;
+ skos:related <http://syriaca.org/place/13> ;
  dcterms:description "A modern city in northern east of and southeast of ." ;
  dcterms:temporal "1784-11-14" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sulaymaniyah> ;
@@ -6118,9 +6118,9 @@ geo:location [
  lawd:primaryForm "Daiṣan"@en ;];
  lawd:hasName [
  lawd:variantForm "Skirtos"@en ;];
- skos:related "Euphrates" ;
- skos:related "Edessa" ;
- skos:related "Balikh" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/78> ;
+ skos:related <http://syriaca.org/place/43> ;
  dcterms:description "A tributary of the which flows south from ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/658602> ;
  foaf:primaryTopicOf <http://syriaca.org/place/191/html> ;
@@ -6376,7 +6376,7 @@ geo:location [
  lawd:variantForm "Sīs"@en ;];
  lawd:hasName [
  lawd:variantForm "سيسية"@ar ;];
- skos:related "Cilicia" ;
+ skos:related <http://syriaca.org/place/55> ;
  dcterms:description "A city in which was the capital of the Armenian Kingdom of Cilicia." ;
  dcterms:temporal "0325" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sis_(Armenian_Kingdom_of_Cilicia)> ;
@@ -6892,8 +6892,8 @@ geo:location [
  lawd:primaryForm "Sidon"@en ;];
  lawd:hasName [
  lawd:variantForm "صَيْداء"@ar ;];
- skos:related "Beirut" ;
- skos:related "Tyros" ;
+ skos:related <http://syriaca.org/place/46> ;
+ skos:related <http://syriaca.org/place/195> ;
  dcterms:description "A coastal city between and ." ;
  dcterms:temporal "-0950" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678393> ;
@@ -7190,8 +7190,8 @@ geo:location [
  lawd:primaryForm "Shura"@en ;];
  lawd:hasName [
  lawd:variantForm "Sura"@en ;];
- skos:related "Euphrates" ;
- skos:related "Kallinikos" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/109> ;
  dcterms:description "A town on the west of ." ;
  dcterms:temporal "0640" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668376> ;
@@ -7377,8 +7377,8 @@ geo:location [
  lawd:variantForm "Sinjār"@en ;];
  lawd:hasName [
  lawd:variantForm "سِنْجار"@ar ;];
- skos:related "Mosul" ;
- skos:related "Mount Sinjar" ;
+ skos:related <http://syriaca.org/place/139> ;
+ skos:related <http://syriaca.org/place/524> ;
  dcterms:description "A town west of and east of ." ;
  dcterms:description [
  rdfs:label "ܐܰܬܪܐ ܗܘ ܕܒܰܫܦܘܠܳܐ ܕܛܘܪܳܐ ܕܫܝܓܳܪ ܠܡܰܥܪܰܒ ܡܰܘܨܠ ܒܰܝܢܳܬܗܝܢ ܬܠܳܬܐ ܝܰܘܡܝ̈ܢ."@syr-Syrj ;
@@ -7490,7 +7490,7 @@ geo:location [
  lawd:primaryForm "Seleucia Pieria"@en ;];
  lawd:hasName [
  lawd:variantForm "سلوقية"@ar ;];
- skos:related "Antioch" ;
+ skos:related <http://syriaca.org/place/10> ;
  dcterms:description "A port city west of ." ;
  dcterms:temporal "-0281" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658483> ;
@@ -7837,8 +7837,8 @@ geo:location [
  lawd:primaryForm "Scythopolis"@en ;];
  lawd:hasName [
  lawd:variantForm "بَيْسان"@ar ;];
- skos:related "Jordan river" ;
- skos:related "Caesarea" ;
+ skos:related <http://syriaca.org/place/599> ;
+ skos:related <http://syriaca.org/place/53> ;
  dcterms:description "A city near the east of ." ;
  dcterms:temporal "-2000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678378> ;
@@ -7982,8 +7982,8 @@ geo:location [
  lawd:primaryForm "Sarephta"@en ;];
  lawd:hasName [
  lawd:variantForm "صَرَفَنْدة"@ar ;];
- skos:related "Sidon" ;
- skos:related "Tyros" ;
+ skos:related <http://syriaca.org/place/187> ;
+ skos:related <http://syriaca.org/place/195> ;
  dcterms:description "A coastal town between and ." ;
  dcterms:temporal "-1300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678374> ;
@@ -8080,7 +8080,7 @@ geo:location [
  rdfs:label "‘Tower of the Vine’" ;
  lawd:hasName [
  lawd:primaryForm "‘Tower of the Vine’"@en ;];
- skos:related "Rabban Hormizd monastery" ;
+ skos:related <http://syriaca.org/place/168> ;
  dcterms:description "A location half an hour away from ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/1781/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1781/tei> .
@@ -8106,8 +8106,8 @@ geo:location [
  lawd:variantForm "سميساط"@ar ;];
  lawd:hasName [
  lawd:variantForm "سُمَيْساط"@ar ;];
- skos:related "Euphrates" ;
- skos:related "Edessa" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/78> ;
  dcterms:description "A town on the northwest of ." ;
  dcterms:description [
  rdfs:label "ܐܰܬܪܐ ܗܘ ܕܰܠܡܰܥܪܒܗ ܕܰܦܪܳܬ ܘܰܠܓܰܪܒܝܗ ܕܐܘܪܗܳܝ."@syr-Syrj ;
@@ -8220,7 +8220,7 @@ geo:location [
  lawd:primaryForm "Salmas"@en ;];
  lawd:hasName [
  lawd:variantForm "سَلَماس"@ar ;];
- skos:related "Lake Urmia" ;
+ skos:related <http://syriaca.org/place/116> ;
  dcterms:description "A town northwest of ." ;
  dcterms:temporal "1281" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874671> ;
@@ -8323,7 +8323,7 @@ geo:location [
  rdfs:label "Syria II" ;
  lawd:hasName [
  lawd:primaryForm "Syria II"@en ;];
- skos:related "Apamea" ;
+ skos:related <http://syriaca.org/place/11> ;
  dcterms:description "A Roman province including ." ;
  dcterms:temporal "0420" ;
  skos:exactMatch <http://pleiades.stoa.org/places/1001933> ;
@@ -8418,7 +8418,7 @@ geo:location [
  rdfs:label "Syria I" ;
  lawd:hasName [
  lawd:primaryForm "Syria I"@en ;];
- skos:related "Antioch" ;
+ skos:related <http://syriaca.org/place/10> ;
  dcterms:description "A Roman province around ." ;
  dcterms:temporal "0420" ;
  skos:exactMatch <http://pleiades.stoa.org/places/1001932> ;
@@ -8517,7 +8517,7 @@ geo:location [
  lawd:primaryForm "Seleucia"@en ;];
  lawd:hasName [
  lawd:variantForm "سَلِيقِية"@ar ;];
- skos:related "Isauria" ;
+ skos:related <http://syriaca.org/place/99> ;
  dcterms:description "A port city of ." ;
  dcterms:temporal "-0281" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648771> ;
@@ -8620,7 +8620,7 @@ geo:location [
  lawd:primaryForm "Rhosos"@en ;];
  lawd:hasName [
  lawd:variantForm "رُوْسيس"@ar ;];
- skos:related "Antioch" ;
+ skos:related <http://syriaca.org/place/10> ;
  dcterms:description "A town northwest of on the Bay of Iskenderun." ;
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658585> ;
@@ -8779,7 +8779,7 @@ geo:location [
  lawd:variantForm "Raʾs al-‘Ayn"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Raʾs al-‘Ayn"@en-xsrp1 ;];
- skos:related "Resh ʿAyna" ;
+ skos:related <http://syriaca.org/place/1654> ;
  dcterms:description [
  rdfs:label "City on the Khabur, located in the eastern part of ancient Osrhoene and today straddling the Turkish-Syrian border, the Syrian part now bearing the name Raʾs al-ʿAyn and the Turkish part Ceylanpınar (earlier Resülayn)."@en ;];
  dcterms:description [
@@ -9094,8 +9094,8 @@ geo:location [
  lawd:primaryForm "Ram Hormizd"@en ;];
  lawd:hasName [
  lawd:variantForm "رامهرمز"@ar ;];
- skos:related "Hormizd Ardashir" ;
- skos:related "Persian Gulf" ;
+ skos:related <http://syriaca.org/place/96> ;
+ skos:related <http://syriaca.org/place/156> ;
  dcterms:description "A city east of and north of the ." ;
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/912926> ;
@@ -9207,8 +9207,8 @@ geo:location [
  lawd:variantForm "Rabban Bar Edta"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Rabban Bar ‘Edta"@en-xsrp1 ;];
- skos:related "Beth Lapaṭ" ;
- skos:related "Rabban Bar ʿEdta" ;
+ skos:related <http://syriaca.org/place/35> ;
+ skos:related <http://syriaca.org/place/167> ;
  dcterms:description [
  rdfs:label "The Chaldean monastery of Rabban Hormizd, built upon a mountain ridge northeast of Alqosh in northern Iraq, is famous not only for its magnificent location and impressive buildings, but also for its central role in the history of the transmission of E.-Syr. literature and its importance in the struggles between the Chald. Church and the Ch. of E., to which the monastery originally belonged."@en ;];
  dcterms:description [
@@ -9323,7 +9323,7 @@ geo:location [
  lawd:variantForm "Aqra"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Aqra"@en-xsrp1 ;];
- skos:related "ʿAqra" ;
+ skos:related <http://syriaca.org/place/25> ;
  dcterms:description "A monastery in the region of ." ;
  dcterms:temporal "0700" ;
  foaf:primaryTopicOf <http://syriaca.org/place/167/html> ;
@@ -9428,7 +9428,7 @@ geo:location [
  lawd:primaryForm "Roman Empire"@en ;];
  lawd:hasName [
  lawd:variantForm "Byzantine empire"@en ;];
- skos:related "Persian-Sasanian Empire" ;
+ skos:related <http://syriaca.org/place/150> ;
  dcterms:description "The empire west of the which endured in various forms until 1453." ;
  dcterms:temporal "-0027" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Roman_Empire> ;
@@ -9506,7 +9506,7 @@ geo:location [
  lawd:variantForm "Reshayna"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Resh‘ayna"@en-xsrp1 ;];
- skos:related "Reshʿayna" ;
+ skos:related <http://syriaca.org/place/172> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1654/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1654/tei> .
 
@@ -9555,7 +9555,7 @@ geo:location [
  lawd:variantForm "Rusafa"@en ;];
  lawd:hasName [
  lawd:variantForm "رُصافة الشام"@ar ;];
- skos:related "Kallinikos" ;
+ skos:related <http://syriaca.org/place/109> ;
  dcterms:description "A town southwest of ." ;
  dcterms:temporal "-0800" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668354> ;
@@ -9674,8 +9674,8 @@ geo:location [
  lawd:variantForm "Aqra"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Aqra"@en-xsrp1 ;];
- skos:related "Arbela" ;
- skos:related "ʿAqra" ;
+ skos:related <http://syriaca.org/place/13> ;
+ skos:related <http://syriaca.org/place/25> ;
  dcterms:description "A town northeast of and east of ." ;
  dcterms:temporal "1832" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Rowanduz> ;
@@ -9777,9 +9777,9 @@ geo:location [
  lawd:variantForm "Kochanes"@en ;];
  lawd:hasName [
  lawd:variantForm "Qūdshānīs"@en ;];
- skos:related "Hakkari mountains" ;
- skos:related "Greater Zab" ;
- skos:related "Julamerk" ;
+ skos:related <http://syriaca.org/place/90> ;
+ skos:related <http://syriaca.org/place/204> ;
+ skos:related <http://syriaca.org/place/107> ;
  dcterms:description "A town in the near the , northeast of ." ;
  dcterms:temporal "1607" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Konak,_Hakkari> ;
@@ -9901,8 +9901,8 @@ geo:location [
  lawd:variantForm "Qinneshrin"@en ;];
  lawd:hasName [
  lawd:variantForm "قِنَّسرين"@ar ;];
- skos:related "Aleppo" ;
- skos:related "Antioch" ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/10> ;
  dcterms:description "A city southwest of and east of ." ;
  dcterms:description [
  rdfs:label "كورة ومدينة مرحلة عن حلب بينها وبين حمص مندثرة."@ar ;
@@ -10118,7 +10118,7 @@ geo:location [
  lawd:variantForm "ܒܶܝܬ ܙ̈ܠܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "القامشلي"@ar ;];
- skos:related "Nisibis" ;
+ skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A modern city just south of ." ;
  dcterms:temporal "1926" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Qamishli> ;
@@ -10246,9 +10246,9 @@ geo:location [
  lawd:variantForm "جيحون"@ar ;];
  lawd:hasName [
  lawd:variantForm "جَيْحان"@ar ;];
- skos:related "Anazarbos" ;
- skos:related "Mopsuestia" ;
- skos:related "Mediterranean Sea" ;
+ skos:related <http://syriaca.org/place/9> ;
+ skos:related <http://syriaca.org/place/138> ;
+ skos:related <http://syriaca.org/place/135> ;
  dcterms:description "A river which flows near and past before emptying into the ." ;
  dcterms:description [
  rdfs:label "ܢܰܗܪܰܐ ܗܘ ܕܒܰܡܣܝܺܣܛܐ ܢܳܣܶܟ ܠܩܘܽܒܠܗ ܒܩܺܝܠܺܝܩܝܰܐ ܘܒܰܫܡܗ ܐܶܫܬܰܡܗܰܬ ܡܕܝܢܰܬ ܓܝܺܚܐܰܢ."@syr-Syrj ;
@@ -10344,8 +10344,8 @@ geo:location [
  lawd:primaryForm "Philippopolis"@en ;];
  lawd:hasName [
  lawd:variantForm "شهبة"@ar ;];
- skos:related "Tiberias" ;
- skos:related "Arabia" ;
+ skos:related <http://syriaca.org/place/201> ;
+ skos:related <http://syriaca.org/place/12> ;
  dcterms:description "A town east of in the Roman province of ." ;
  dcterms:temporal "0210" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678332> ;
@@ -10776,8 +10776,8 @@ geo:location [
  rdfs:label "Paneas" ;
  lawd:hasName [
  lawd:primaryForm "Paneas"@en ;];
- skos:related "Tyros" ;
- skos:related "Damascus" ;
+ skos:related <http://syriaca.org/place/195> ;
+ skos:related <http://syriaca.org/place/66> ;
  dcterms:description "A town east of and southwest of ." ;
  dcterms:temporal "-0003" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678324> ;
@@ -10840,9 +10840,9 @@ geo:location [
  lawd:variantForm "al-Madāʾin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "al-Madāʾin"@en-xsrp1 ;];
- skos:related "Ctesiphon" ;
- skos:related "Seleucia" ;
- skos:related "Kokhe" ;
+ skos:related <http://syriaca.org/place/58> ;
+ skos:related <http://syriaca.org/place/182> ;
+ skos:related <http://syriaca.org/place/475> ;
  dcterms:description "A group of settlements including , , and ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/1535/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1535/tei> .
@@ -10860,7 +10860,7 @@ geo:location [
  lawd:variantForm "رودس"@ar ;];
  lawd:hasName [
  lawd:variantForm "رُودِس"@ar ;];
- skos:related "Asia Minor" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "An island off the south-western coast of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/590031> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Rhodes> ;
@@ -10884,7 +10884,7 @@ geo:location [
  lawd:variantForm "ܠܽܘܩܺܝܰܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "لوقيا"@ar ;];
- skos:related "Asia Minor" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A region of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/638965> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Lycia> ;
@@ -10908,7 +10908,7 @@ geo:location [
  lawd:variantForm "ܠܽܘܩܰܐܢܺܝܰܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "لوقانيا"@ar ;];
- skos:related "Asia Minor" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A region of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/648698> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Lycaonia> ;
@@ -10932,7 +10932,7 @@ geo:location [
  lawd:variantForm "ܦܰܡܦܺܝܠܺܝܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "بمفيلية"@ar ;];
- skos:related "Asia Minor" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A region of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Pamphylia> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1531/html> ;
@@ -10964,8 +10964,8 @@ geo:location [
  lawd:primaryForm "Palmyra"@en ;];
  lawd:hasName [
  lawd:variantForm "تَدْمُر"@ar ;];
- skos:related "Emesa" ;
- skos:related "Dura-Europos" ;
+ skos:related <http://syriaca.org/place/215> ;
+ skos:related <http://syriaca.org/place/77> ;
  dcterms:description "A town between and ." ;
  dcterms:temporal "-1000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668331> ;
@@ -10991,7 +10991,7 @@ geo:location [
  lawd:variantForm "ܟܺܝܳܘ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "خيو"@ar ;];
- skos:related "Asia Minor" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "An island off the western coast of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/550497> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Chios> ;
@@ -11017,7 +11017,7 @@ geo:location [
  lawd:variantForm "دير الرهاويين"@ar ;];
  lawd:hasName [
  lawd:variantForm "Monastery of the Edessenes"@en ;];
- skos:related "Amid" ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A monastery in ." ;
  dcterms:temporal "0568" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1528/html> ;
@@ -11052,7 +11052,7 @@ geo:location [
  lawd:variantForm "ܠܘܽܕܺܝܰܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "لوديا"@ar ;];
- skos:related "Asia Minor" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A region of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/550701> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Lydia> ;
@@ -11076,7 +11076,7 @@ geo:location [
  lawd:variantForm "ܦܪܘܽܓܝܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "فروجيا"@ar ;];
- skos:related "Asia Minor" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A region of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/609502> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Phrygia> ;
@@ -11104,7 +11104,7 @@ geo:location [
  lawd:variantForm "Monastery of Ara Rabtha"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Monastery of Ar‘a Rabtha"@en-xsrp1 ;];
- skos:related "Ingila" ;
+ skos:related <http://syriaca.org/place/102> ;
  dcterms:description "A monastery at ." ;
  dcterms:temporal "0516" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1524/html> ;
@@ -11123,7 +11123,7 @@ geo:location [
  lawd:variantForm "افغانستان"@ar ;];
  lawd:hasName [
  lawd:variantForm "Αfghanistan"@en ;];
- skos:related "Central Asia" ;
+ skos:related <http://syriaca.org/place/585> ;
  dcterms:description "A region of ." ;
  dcterms:temporal "1530" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1523/html> ;
@@ -11142,7 +11142,7 @@ geo:location [
  lawd:variantForm "دير نردس"@ar ;];
  lawd:hasName [
  lawd:variantForm "Monastery of Nardes"@en ;];
- skos:related "Mosul" ;
+ skos:related <http://syriaca.org/place/139> ;
  dcterms:description "A monastery near ." ;
  dcterms:temporal "0628" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1522/html> ;
@@ -11159,7 +11159,7 @@ geo:location [
  lawd:variantForm "ܫܘܪܙܰܩ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "شورزق"@ar ;];
- skos:related "Beth Nuhadra" ;
+ skos:related <http://syriaca.org/place/1262> ;
  dcterms:description "A village of ." ;
  dcterms:temporal "0628" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1521/html> ;
@@ -11178,7 +11178,7 @@ geo:location [
  lawd:variantForm "هيكل مار يوحنا المعمدان"@ar ;];
  lawd:hasName [
  lawd:variantForm "Church of St. John the Baptist"@en ;];
- skos:related "Amid" ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A church probably in ." ;
  dcterms:temporal "0650" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1520/html> ;
@@ -11189,10 +11189,10 @@ geo:location [
  rdfs:label "Phoenice Libanensis" ;
  lawd:hasName [
  lawd:primaryForm "Phoenice Libanensis"@en ;];
- skos:related "Syria" ;
- skos:related "Phoenice" ;
- skos:related "Damascus" ;
- skos:related "Emesa" ;
+ skos:related <http://syriaca.org/place/486> ;
+ skos:related <http://syriaca.org/place/151> ;
+ skos:related <http://syriaca.org/place/66> ;
+ skos:related <http://syriaca.org/place/215> ;
  dcterms:description "A Roman province of inland bordering to the west and including and ." ;
  dcterms:temporal "0400" ;
  skos:exactMatch <http://pleiades.stoa.org/places/1001938> ;
@@ -11229,7 +11229,7 @@ geo:location [
  lawd:variantForm "سقرا"@ar ;];
  lawd:hasName [
  lawd:variantForm "Saqra"@en ;];
- skos:related "Monastery of Qenneshre" ;
+ skos:related <http://syriaca.org/place/230> ;
  dcterms:description "A village near the ." ;
  dcterms:temporal "0700" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1518/html> ;
@@ -11248,7 +11248,7 @@ geo:location [
  lawd:variantForm "Tesqōpā"@en ;];
  lawd:hasName [
  lawd:variantForm "تل أسقف"@ar ;];
- skos:related "Mosul" ;
+ skos:related <http://syriaca.org/place/139> ;
  dcterms:description "A large village in the plain of ." ;
  dcterms:temporal "1220" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tel_Isqof> ;
@@ -11288,7 +11288,7 @@ geo:location [
  lawd:variantForm "Baneb"@en ;];
  lawd:hasName [
  lawd:variantForm "إِنِّب"@ar ;];
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "A village northwest of ." ;
  dcterms:temporal "0725" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Inab> ;
@@ -11332,7 +11332,7 @@ geo:location [
  lawd:variantForm "دير الاثارب"@ar ;];
  lawd:hasName [
  lawd:variantForm "Monastery of Atharb"@en ;];
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "A monastery near ." ;
  dcterms:temporal "0727" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1513/html> ;
@@ -11355,7 +11355,7 @@ geo:location [
  lawd:variantForm "Beth Naar"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Beth Na‘ar"@en-xsrp1 ;];
- skos:related "Edessa" ;
+ skos:related <http://syriaca.org/place/78> ;
  dcterms:description "A village near ." ;
  dcterms:temporal "0790" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1512/html> ;
@@ -11376,7 +11376,7 @@ geo:location [
  lawd:variantForm "Kafr Nabu"@en ;];
  lawd:hasName [
  lawd:variantForm "كفرنبو"@ar ;];
- skos:related "Serugh" ;
+ skos:related <http://syriaca.org/place/48> ;
  dcterms:description "A village near ." ;
  dcterms:temporal "0785" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1511/html> ;
@@ -11393,7 +11393,7 @@ geo:location [
  lawd:variantForm "ܒܰܐܕܝܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "بادية"@ar ;];
- skos:related "Tagrit" ;
+ skos:related <http://syriaca.org/place/193> ;
  dcterms:description "A village perhaps near ." ;
  dcterms:temporal "0806" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1510/html> ;
@@ -11406,8 +11406,8 @@ geo:location [
  lawd:primaryForm "Phoenice"@en ;];
  lawd:hasName [
  lawd:variantForm "Phoenicia"@en ;];
- skos:related "Tyros" ;
- skos:related "Tripolis" ;
+ skos:related <http://syriaca.org/place/195> ;
+ skos:related <http://syriaca.org/place/203> ;
  dcterms:description "A Roman province including the middle Levantine coast from north to ." ;
  dcterms:temporal "0200" ;
  skos:exactMatch <http://pleiades.stoa.org/places/991410> ;
@@ -11426,7 +11426,7 @@ geo:location [
  lawd:variantForm "ܬܰܪܡܢܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "ترمناز"@ar ;];
- skos:related "Cyrrhus" ;
+ skos:related <http://syriaca.org/place/65> ;
  dcterms:description "A place near ." ;
  dcterms:temporal "0817" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1509/html> ;
@@ -11489,7 +11489,7 @@ geo:location [
  lawd:variantForm "دير مار يوحنا قورديس"@ar ;];
  lawd:hasName [
  lawd:variantForm "Monastery of Mar John Qurdis"@en ;];
- skos:related "Dara" ;
+ skos:related <http://syriaca.org/place/67> ;
  dcterms:description "A monastery in ." ;
  dcterms:temporal "0829" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1506/html> ;
@@ -11508,8 +11508,8 @@ geo:location [
  lawd:variantForm "بنشمش"@ar ;];
  lawd:hasName [
  lawd:variantForm "Benshams"@en ;];
- skos:related "Khabur river" ;
- skos:related "Jazira" ;
+ skos:related <http://syriaca.org/place/114> ;
+ skos:related <http://syriaca.org/place/321> ;
  dcterms:description "A place east of the in ." ;
  dcterms:temporal "0837" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1505/html> ;
@@ -11557,7 +11557,7 @@ geo:location [
  lawd:variantForm "Shiḥa"@en ;];
  lawd:hasName [
  lawd:variantForm "الشِيْحة"@ar ;];
- skos:related "Cyrrhus" ;
+ skos:related <http://syriaca.org/place/65> ;
  dcterms:description "A village near ." ;
  dcterms:temporal "0900" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1503/html> ;
@@ -11580,7 +11580,7 @@ geo:location [
  lawd:variantForm "Ānah"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Ānah"@en-xsrp1 ;];
- skos:related "ʿĀnah" ;
+ skos:related <http://syriaca.org/place/429> ;
  dcterms:description "An unlocated monastery, perhaps near ." ;
  dcterms:temporal "0855" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1502/html> ;
@@ -11615,7 +11615,7 @@ geo:location [
  lawd:variantForm "دير الشهداء السبعة"@ar ;];
  lawd:hasName [
  lawd:variantForm "Monastery of the Seven Martyrs"@en ;];
- skos:related "Fārīn" ;
+ skos:related <http://syriaca.org/place/1501> ;
  dcterms:description "A monastery near ." ;
  dcterms:temporal "0861" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1500/html> ;
@@ -11626,7 +11626,7 @@ geo:location [
  rdfs:label "Persian-Sasanian Empire" ;
  lawd:hasName [
  lawd:primaryForm "Persian-Sasanian Empire"@en ;];
- skos:related "Roman Empire" ;
+ skos:related <http://syriaca.org/place/166> ;
  dcterms:description "The empire east of the which lasted from 224 to 651 CE." ;
  dcterms:temporal "0224" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sassanid_Empire> ;
@@ -11673,7 +11673,7 @@ geo:location [
  lawd:variantForm "بيت كيونا"@ar ;];
  lawd:hasName [
  lawd:variantForm "Beth Kiyona"@en ;];
- skos:related "Bārimmān" ;
+ skos:related <http://syriaca.org/place/295> ;
  dcterms:description "A village probably near ." ;
  dcterms:temporal "0863" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1499/html> ;
@@ -11692,7 +11692,7 @@ geo:location [
  lawd:variantForm "دير مار اتونوس"@ar ;];
  lawd:hasName [
  lawd:variantForm "Monastery of Mar Athonos"@en ;];
- skos:related "Melitene" ;
+ skos:related <http://syriaca.org/place/136> ;
  dcterms:description "An unlocated monastery, perhaps near ." ;
  dcterms:temporal "0889" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1498/html> ;
@@ -11713,7 +11713,7 @@ geo:location [
  lawd:variantForm "al-Khaḍarāʾ"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "al-Khaḍarāʾ"@en-xsrp1 ;];
- skos:related "Tagrit" ;
+ skos:related <http://syriaca.org/place/193> ;
  dcterms:description "A church in ." ;
  dcterms:temporal "0925" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1497/html> ;
@@ -11734,7 +11734,7 @@ geo:location [
  lawd:variantForm "Umm Jafar"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Umm Ja‘far"@en-xsrp1 ;];
- skos:related "Baghdad" ;
+ skos:related <http://syriaca.org/place/41> ;
  dcterms:description "Part of the western side of ." ;
  dcterms:temporal "0925" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1496/html> ;
@@ -11751,7 +11751,7 @@ geo:location [
  lawd:variantForm "ܕܰܝܪܐ ܒܰܚܙܘܢܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "دير بيزونا"@ar ;];
- skos:related "Maypherqaṭ" ;
+ skos:related <http://syriaca.org/place/134> ;
  dcterms:description "An unlocated monastery, perhaps near ." ;
  dcterms:temporal "0945" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1495/html> ;
@@ -11770,7 +11770,7 @@ geo:location [
  lawd:variantForm "غايوس"@ar ;];
  lawd:hasName [
  lawd:variantForm "Gauis"@en ;];
- skos:related "Macedonia" ;
+ skos:related <http://syriaca.org/place/512> ;
  dcterms:description "A mountain in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/1494/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1494/tei> .
@@ -11808,7 +11808,7 @@ geo:location [
  lawd:variantForm "Adasiyya"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Adasiyya"@en-xsrp1 ;];
- skos:related "Jerusalem" ;
+ skos:related <http://syriaca.org/place/104> ;
  dcterms:description "A village near ." ;
  dcterms:temporal "1138" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1492/html> ;
@@ -11829,7 +11829,7 @@ geo:location [
  lawd:variantForm "Beth Arīf"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Beth ‘Arīf"@en-xsrp1 ;];
- skos:related "Jerusalem" ;
+ skos:related <http://syriaca.org/place/104> ;
  dcterms:description "A village near ." ;
  dcterms:temporal "1138" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Dayr_Tarif> ;
@@ -11852,7 +11852,7 @@ geo:location [
  lawd:variantForm "Ibra"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Ibra"@en-xsrp1 ;];
- skos:related "Jūbās" ;
+ skos:related <http://syriaca.org/place/322> ;
  dcterms:description "A village near ." ;
  dcterms:temporal "1142" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1490/html> ;
@@ -11873,8 +11873,8 @@ geo:location [
  lawd:variantForm "Palestine"@en ;];
  lawd:hasName [
  lawd:variantForm "Roman Palestine"@en ;];
- skos:related "Caesarea" ;
- skos:related "Jerusalem" ;
+ skos:related <http://syriaca.org/place/53> ;
+ skos:related <http://syriaca.org/place/104> ;
  dcterms:description "A Roman province including and ." ;
  dcterms:temporal "0135" ;
  skos:exactMatch <http://pleiades.stoa.org/places/991396> ;
@@ -11902,8 +11902,8 @@ geo:location [
  lawd:variantForm "Talafar"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Tal‘afar"@en-xsrp1 ;];
- skos:related "Sinjar" ;
- skos:related "Mosul" ;
+ skos:related <http://syriaca.org/place/184> ;
+ skos:related <http://syriaca.org/place/139> ;
  dcterms:description "A castle between and ." ;
  dcterms:temporal "1159" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874720> ;
@@ -11948,7 +11948,7 @@ geo:location [
  lawd:variantForm "بيعة بربارة"@ar ;];
  lawd:hasName [
  lawd:variantForm "Church of Barbara"@en ;];
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "A church in ." ;
  dcterms:temporal "1227" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1487/html> ;
@@ -11971,7 +11971,7 @@ geo:location [
  lawd:variantForm "Qala Rumayta"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Qal‘a Rumayta"@en-xsrp1 ;];
- skos:related "Qalʿa Rumayta" ;
+ skos:related <http://syriaca.org/place/97> ;
  dcterms:description "A church in ." ;
  dcterms:temporal "1235" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1486/html> ;
@@ -11988,7 +11988,7 @@ geo:location [
  lawd:variantForm "ܕܰܝܪܐ ܕܰܒܬܘܽܠܬܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "دير العذراء"@ar ;];
- skos:related "Sidus" ;
+ skos:related <http://syriaca.org/place/417> ;
  dcterms:description "A monastery near the village of ." ;
  dcterms:temporal "1299" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1485/html> ;
@@ -12005,7 +12005,7 @@ geo:location [
  lawd:variantForm "ܒܰܐܣܺܝܠܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "باسيلا"@ar ;];
- skos:related "Mardin" ;
+ skos:related <http://syriaca.org/place/130> ;
  dcterms:description "A village near ." ;
  dcterms:temporal "1461" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1484/html> ;
@@ -12318,9 +12318,9 @@ geo:location [
  lawd:variantForm "Āṣī"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Āṣī"@en-xsrp1 ;];
- skos:related "Syria" ;
- skos:related "Emesa" ;
- skos:related "Antioch" ;
+ skos:related <http://syriaca.org/place/486> ;
+ skos:related <http://syriaca.org/place/215> ;
+ skos:related <http://syriaca.org/place/10> ;
  dcterms:description "A river of which runs from southwest of north to ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/658560> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Orontes_River> ;
@@ -12437,7 +12437,7 @@ geo:location [
  lawd:variantForm "دير مار توما"@ar ;];
  lawd:hasName [
  lawd:variantForm "Monastery of St. Thomas"@en ;];
- skos:related "Seleucia Pieria" ;
+ skos:related <http://syriaca.org/place/183> ;
  dcterms:description "A monastery near the port of ." ;
  dcterms:temporal "0498" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658621> ;
@@ -12527,8 +12527,8 @@ geo:location [
  rdfs:label "Olba" ;
  lawd:hasName [
  lawd:primaryForm "Olba"@en ;];
- skos:related "Isauria" ;
- skos:related "Seleucia" ;
+ skos:related <http://syriaca.org/place/99> ;
+ skos:related <http://syriaca.org/place/174> ;
  dcterms:description "A town of north of ." ;
  dcterms:temporal "0024" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648725> ;
@@ -12690,8 +12690,8 @@ geo:location [
  lawd:variantForm "ما بين النهرين"@ar ;];
  lawd:hasName [
  lawd:variantForm "جزيرة اقور"@ar ;];
- skos:related "Tigris" ;
- skos:related "Euphrates" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/82> ;
  dcterms:description "The watershed of the and rivers, including southeastern Turkey, northeastern Syria, all of Iraq, and western Iran." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874602> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mesopotamia> ;
@@ -12745,7 +12745,7 @@ geo:location [
  rdfs:label "Osrhoene" ;
  lawd:hasName [
  lawd:primaryForm "Osrhoene"@en ;];
- skos:related "Edessa" ;
+ skos:related <http://syriaca.org/place/78> ;
  dcterms:description "A Roman province centered around ." ;
  dcterms:temporal "0244" ;
  skos:exactMatch <http://pleiades.stoa.org/places/991406> ;
@@ -13165,8 +13165,8 @@ geo:location [
  lawd:variantForm "النبك"@ar ;];
  lawd:hasName [
  lawd:variantForm "al-Nabak"@en ;];
- skos:related "Damascus" ;
- skos:related "al-Qaryatayn" ;
+ skos:related <http://syriaca.org/place/66> ;
+ skos:related <http://syriaca.org/place/212> ;
  dcterms:description "A town northeast of and southwest of ." ;
  dcterms:temporal "1185" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678085> ;
@@ -13436,8 +13436,8 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
- skos:related "Midyat" ;
+ skos:related <http://syriaca.org/place/221> ;
+ skos:related <http://syriaca.org/place/137> ;
  dcterms:description "A village in southeast of ." ;
  dcterms:temporal "1870" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Doğançay,_Mardin> ;
@@ -13519,7 +13519,7 @@ geo:location [
  lawd:variantForm "Maalṯā"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ma‘alṯā"@en-xsrp1 ;];
- skos:related "Beth Nuhadra" ;
+ skos:related <http://syriaca.org/place/1262> ;
  dcterms:description "A village of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/1402/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1402/tei> .
@@ -13549,8 +13549,8 @@ geo:location [
  lawd:variantForm "Çağçağ"@en ;];
  lawd:hasName [
  lawd:variantForm "الهِرماس"@ar ;];
- skos:related "Khabur river" ;
- skos:related "Nisibis" ;
+ skos:related <http://syriaca.org/place/114> ;
+ skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A tributary of the which flows past ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874509> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Jaghjagh_River> ;
@@ -13815,9 +13815,9 @@ geo:location [
  lawd:variantForm "ܡܲܗܦܣܘܼܣܛܝܼܵܐ"@syr-Syrn ;];
  lawd:hasName [
  lawd:variantForm "المَصِّيْصة"@ar ;];
- skos:related "Cilicia II" ;
- skos:related "Anazarbos" ;
- skos:related "Pyramos river" ;
+ skos:related <http://syriaca.org/place/57> ;
+ skos:related <http://syriaca.org/place/9> ;
+ skos:related <http://syriaca.org/place/159> ;
  dcterms:description "A town of southwest of on the ." ;
  dcterms:description [
  rdfs:label "ܡܕܝܢܬܳܐ ܗܝ ܕܥܰܠ ܣܦܳܪ ܢܰܗܪܳܐ ܓܺܝܚܘܢ ܒܩܘܪܒܳܐ ܕܰܐܛܰܢܰܗ ܠܡܰܕܢܚܳܐ."@syr-Syrj ;
@@ -14292,8 +14292,8 @@ geo:location [
  lawd:variantForm "Maiperqāṭ"@en ;];
  lawd:hasName [
  lawd:variantForm "مَيّافارقِين"@ar ;];
- skos:related "Tigris" ;
- skos:related "Amida" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A city north of the and east of ." ;
  dcterms:description [
  rdfs:label "ܛܒܝܒܳܐ ܗܘܳܬ ܕܰܡܕܝܢ̈ܬܳܐ ܕܐܳܡܺܝܕ ܠܓܰܪܒܰܝ ܡܰܕܢܚܳܗ̇ ܘܝܰܘܡܳܢ ܩܰܣܛܪܰܐ ܗܝ̣."@syr-Syrj ;
@@ -14490,8 +14490,8 @@ geo:location [
  lawd:primaryForm "Mariamme"@en ;];
  lawd:hasName [
  lawd:variantForm "مريمين"@ar ;];
- skos:related "Emesa" ;
- skos:related "Ḥama" ;
+ skos:related <http://syriaca.org/place/215> ;
+ skos:related <http://syriaca.org/place/91> ;
  dcterms:description "A town northwest of and southwest of ." ;
  dcterms:temporal "0079" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668308> ;
@@ -14692,7 +14692,7 @@ geo:location [
  lawd:variantForm "Mardīn"@en ;];
  lawd:hasName [
  lawd:variantForm "مارِدِين"@ar ;];
- skos:related "Marde" ;
+ skos:related <http://syriaca.org/place/762> ;
  dcterms:description [
  rdfs:label "City in upper Mesopotamia and important center of Syriac Christianity, especially for the Syr. Orth. Church as the city closest to Dayr al-Zaʿfarān, the seat of the patr. from 1293 until 1932."@en ;];
  dcterms:description [
@@ -14852,7 +14852,7 @@ geo:location [
  lawd:variantForm "Marāghā"@en ;];
  lawd:hasName [
  lawd:variantForm "مَراغة"@ar ;];
- skos:related "Tabriz" ;
+ skos:related <http://syriaca.org/place/308> ;
  dcterms:description "A city south of ." ;
  dcterms:description [
  rdfs:label "ܐܰܬܪܐ ܕܰܛܒܺܝܒ ܒܰܡܕܝ̈ܢܳܬܐ ܕܰܐܕܘܪܒܰܝܓܰܐܢ ܠܬܰܝܡܢ ܬܶܒܪܝܙ ܘܰܠܡܰܕܢܚܐ ܕܝܰܡܬܐ ܕܐܘܪܡܺܝܐ."@syr-Syrj ;
@@ -14969,7 +14969,7 @@ geo:location [
  lawd:variantForm "Mār Yōḥannān of Beṯ Garmaï and Ūkāmā"@en ;];
  lawd:hasName [
  lawd:variantForm "Kamūl"@en ;];
- skos:related "Gazarta" ;
+ skos:related <http://syriaca.org/place/88> ;
  dcterms:description "A monastery east of ." ;
  dcterms:temporal "0700" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874536> ;
@@ -15087,7 +15087,7 @@ geo:location [
  lawd:variantForm "Mār Yōnān"@en ;];
  lawd:hasName [
  lawd:variantForm "دير يونس"@ar ;];
- skos:related "Mosul" ;
+ skos:related <http://syriaca.org/place/139> ;
  dcterms:description "A monastery near ." ;
  dcterms:temporal "0800" ;
  foaf:primaryTopicOf <http://syriaca.org/place/127/html> ;
@@ -15192,7 +15192,7 @@ geo:location [
  lawd:variantForm "Zarnūqā"@en ;];
  lawd:hasName [
  lawd:variantForm "دير الزرنوق"@ar ;];
- skos:related "Gazarta" ;
+ skos:related <http://syriaca.org/place/88> ;
  dcterms:description "A monastery west of ." ;
  dcterms:temporal "0400" ;
  foaf:primaryTopicOf <http://syriaca.org/place/126/html> ;
@@ -15294,7 +15294,7 @@ geo:location [
  lawd:variantForm "Majdal"@en ;];
  lawd:hasName [
  lawd:variantForm "مِجْدَل"@ar ;];
- skos:related "Khabur River" ;
+ skos:related <http://syriaca.org/place/114> ;
  dcterms:description "A frontier town on the ." ;
  dcterms:description [
  rdfs:label "اسم بلدة مندرسة بالخابور الى جانبه كانت تحت رأس عين بمرحلة وذكر ياقوت شاعرا منها معاصرا له."@ar ;
@@ -15405,8 +15405,8 @@ geo:location [
  rdfs:label "Mesopotamia" ;
  lawd:hasName [
  lawd:primaryForm "Mesopotamia"@en ;];
- skos:related "Roman Empire" ;
- skos:related "Amida" ;
+ skos:related <http://syriaca.org/place/166> ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A province of the centered around ." ;
  dcterms:temporal "0200" ;
  skos:exactMatch <http://pleiades.stoa.org/places/981534> ;
@@ -15513,7 +15513,7 @@ geo:location [
  lawd:variantForm "Monastery of Yaqob the Recluse"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Monastery of Ya‘qob the Recluse"@en-xsrp1 ;];
- skos:related "Siirt" ;
+ skos:related <http://syriaca.org/place/188> ;
  dcterms:description "A monastery near ." ;
  dcterms:temporal "0998" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1230/html> ;
@@ -15532,9 +15532,9 @@ geo:location [
  lawd:variantForm "Basra"@en ;];
  lawd:hasName [
  lawd:variantForm "مَيْسان"@ar ;];
- skos:related "Iraq" ;
- skos:related "Kashkar" ;
- skos:related "Baṣra" ;
+ skos:related <http://syriaca.org/place/98> ;
+ skos:related <http://syriaca.org/place/111> ;
+ skos:related <http://syriaca.org/place/44> ;
  dcterms:description "A region of southern south of and northwest of ." ;
  dcterms:temporal "0226" ;
  skos:exactMatch <http://pleiades.stoa.org/places/912905> ;
@@ -15652,8 +15652,8 @@ geo:location [
  lawd:variantForm "Mambeg"@en ;];
  lawd:hasName [
  lawd:variantForm "مَنْبِج"@ar ;];
- skos:related "Aleppo" ;
- skos:related "Euphrates river" ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/82> ;
  dcterms:description "A city between and the ." ;
  dcterms:description [
  rdfs:label "ܡܕܝܢܬܳܐ ܗܘܳܬ ܪܰܒܬܐ ܕܒܐܘܚܕܳܢܳܐ ܕܚܳܠܳܒ ܠܓܰܪܒܰܝ ܡܰܕܢܚܳܗ̇ ܒܶܝܬ ܠܳܗ̇ ܠܰܦܪܳܬ ܐܝܬ ܬܠܳܬܐ ܦܪ̈ܣܚܶܐ ܝܰܘܡܳܢ ܩܰܣܛܪܰܐ ܗܘܳܬ."@syr-Syrj ;
@@ -15766,10 +15766,10 @@ geo:location [
  lawd:variantForm "Lower Zab"@en ;];
  lawd:hasName [
  lawd:variantForm "الزاب الأسفل"@ar ;];
- skos:related "Arbela" ;
- skos:related "Karka d-Beth Slokh" ;
- skos:related "Tigris" ;
- skos:related "Tagrit" ;
+ skos:related <http://syriaca.org/place/13> ;
+ skos:related <http://syriaca.org/place/108> ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/193> ;
  dcterms:description "A river which flows south of and north of and enters the above ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/894184> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Little_Zab> ;
@@ -15877,8 +15877,8 @@ geo:location [
  lawd:variantForm "Lāshōm"@en ;];
  lawd:hasName [
  lawd:variantForm "Lāshīn"@en ;];
- skos:related "Beth Garmai" ;
- skos:related "Karka d-Beth Slokh" ;
+ skos:related <http://syriaca.org/place/33> ;
+ skos:related <http://syriaca.org/place/108> ;
  dcterms:description "A town of south of ." ;
  dcterms:temporal "0410" ;
  skos:exactMatch <http://pleiades.stoa.org/places/894034> ;
@@ -15996,8 +15996,8 @@ geo:location [
  lawd:primaryForm "Larissa"@en ;];
  lawd:hasName [
  lawd:variantForm "شَيزر"@ar ;];
- skos:related "Orontes" ;
- skos:related "Ḥama" ;
+ skos:related <http://syriaca.org/place/147> ;
+ skos:related <http://syriaca.org/place/91> ;
  dcterms:description "A town on the northwest of ." ;
  dcterms:temporal "-1330" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668292> ;
@@ -16115,7 +16115,7 @@ geo:location [
  lawd:variantForm "اللاذقية"@ar ;];
  lawd:hasName [
  lawd:variantForm "اللاذِقِيّة"@ar ;];
- skos:related "Apamea" ;
+ skos:related <http://syriaca.org/place/11> ;
  dcterms:description "A port city on the Syrian coast, west of ." ;
  dcterms:temporal "-1000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668290> ;
@@ -16257,7 +16257,7 @@ geo:location [
  lawd:variantForm "بحيرة وان"@ar ;];
  lawd:hasName [
  lawd:variantForm "بُحَيْرة ارجيش"@ar ;];
- skos:related "Iraq" ;
+ skos:related <http://syriaca.org/place/98> ;
  dcterms:description "A lake in the mountains to the north of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Lake_Van> ;
  foaf:primaryTopicOf <http://syriaca.org/place/117/html> ;
@@ -16366,9 +16366,9 @@ geo:location [
  lawd:variantForm "Lake Urmiya"@en ;];
  lawd:hasName [
  lawd:variantForm "بُحَيْرة ارمية"@ar ;];
- skos:related "Iran" ;
- skos:related "Tabriz" ;
- skos:related "Lake Van" ;
+ skos:related <http://syriaca.org/place/526> ;
+ skos:related <http://syriaca.org/place/308> ;
+ skos:related <http://syriaca.org/place/117> ;
  dcterms:description "A lake in northern west of and southeast of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Lake_Urmia> ;
  foaf:primaryTopicOf <http://syriaca.org/place/116/html> ;
@@ -16569,8 +16569,8 @@ geo:location [
  lawd:variantForm "الخابور"@ar ;];
  lawd:hasName [
  lawd:variantForm "Khabur River"@en ;];
- skos:related "Euphrates" ;
- skos:related "Circesium" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/62> ;
  dcterms:description "A tributary of the that enters it at ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874565> ;
  skos:exactMatch <http://pleiades.stoa.org/places/893928> ;
@@ -16682,8 +16682,8 @@ geo:location [
  lawd:variantForm "Reshayna"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Resh‘ayna"@en-xsrp1 ;];
- skos:related "Mardin" ;
- skos:related "Reshʿayna" ;
+ skos:related <http://syriaca.org/place/130> ;
+ skos:related <http://syriaca.org/place/172> ;
  dcterms:description "A town of southwest of and northeast of ." ;
  dcterms:description [
  rdfs:label "ܡܕܝܢܬܳܐ ܗܘܳܬ ܒܶܝܬ ܕܳܪܳܐ ܠܪܺܝܫܥܰܝܢܳܐ ܒܬܰܝܡܰܢ ܡܰܥܪܰܒ ܘܗܳܫܳܐ ܩܪܝ̣ܬܳܐ ܗܝ"@syr-Syrj ;
@@ -16807,8 +16807,8 @@ geo:location [
  lawd:variantForm "Qala Rumayta"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Qal‘a Rumayta"@en-xsrp1 ;];
- skos:related "Qalʿa Rumayta" ;
- skos:related "Samosata" ;
+ skos:related <http://syriaca.org/place/97> ;
+ skos:related <http://syriaca.org/place/178> ;
  dcterms:description "A town north of and west of ." ;
  dcterms:description [
  rdfs:label "ܐܰܬܪܳܐ ܕܒܐܘܚܕܳܢܰܐ ܗܘ ܕܫܰܡܺܝܫܰܛ ܕܐܝܬ ܒܗ ܚܶܣܢܳܐ ܪܰܒܳܐ ܒܶܝܬ ܚܳܠܒ ܠܐܘܪܗܳܝ ܕܚܰܪܝܒ."@syr-Syrj ;
@@ -16859,8 +16859,8 @@ geo:location [
  lawd:primaryForm "ܓܠܟ"@syr ;];
  lawd:hasName [
  lawd:variantForm "ܓ̰ܲܠܸܟ̇"@syr-Syrn ;];
- skos:related "Khabur River" ;
- skos:related "Lower Ṭiyari" ;
+ skos:related <http://syriaca.org/place/2566> ;
+ skos:related <http://syriaca.org/place/761> ;
  dcterms:description "A village on the in the region." ;
  foaf:primaryTopicOf <http://syriaca.org/place/1116/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1116/tei> .
@@ -16920,7 +16920,7 @@ geo:location [
  lawd:primaryForm "Kashkar"@en ;];
  lawd:hasName [
  lawd:variantForm "كَسْكر"@ar ;];
- skos:related "al-Wāsiṭ" ;
+ skos:related <http://syriaca.org/place/509> ;
  dcterms:description "An ancient town in southern Iraq." ;
  dcterms:temporal "0270" ;
  skos:exactMatch <http://pleiades.stoa.org/places/912880> ;
@@ -17207,8 +17207,8 @@ geo:location [
  lawd:variantForm "al-Raqqa"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "al-Raqqa‘"@en-xsrp1 ;];
- skos:related "Euphrates" ;
- skos:related "Daiṣan" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/191> ;
  dcterms:description "A city on the where the enters it." ;
  dcterms:description [
  rdfs:label "ܡܕܝܢܬܳܐ ܗܘܳܬ ܪܰܒܬܳܐ ܒܩܘܪܒܳܐ ܕܰܦܪܳܬ ܘܡܶܬܰܐܡܪ ܠܗ̇ ܪܰܩܰܗ̈ ܘܝܰܘܡܳܢܐ ܗܘܳܬ ܡܕܝܢܬܳܘܢܺܝܬܳܐ ܕܕܳܡܝܳܐ ܠܰܩܪܺܝܬܳܐ."@syr-Syrj ;
@@ -17492,8 +17492,8 @@ geo:location [
  lawd:primaryForm "Julamerk"@en ;];
  lawd:hasName [
  lawd:variantForm "Cölemerik"@en ;];
- skos:related "Hakkari mountains" ;
- skos:related "Greater Zab" ;
+ skos:related <http://syriaca.org/place/90> ;
+ skos:related <http://syriaca.org/place/204> ;
  dcterms:description "A town in the near the ." ;
  dcterms:temporal "-1000" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Hakkâri> ;
@@ -17729,8 +17729,8 @@ geo:location [
  lawd:primaryForm "Jericho"@en ;];
  lawd:hasName [
  lawd:variantForm "أَرِيْحا"@ar ;];
- skos:related "Jordan river" ;
- skos:related "Jerusalem" ;
+ skos:related <http://syriaca.org/place/599> ;
+ skos:related <http://syriaca.org/place/104> ;
  dcterms:description "A town near the east of ." ;
  dcterms:temporal "-9000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/687917> ;
@@ -17998,8 +17998,8 @@ geo:location [
  rdfs:label "Irenopolis" ;
  lawd:hasName [
  lawd:primaryForm "Irenopolis"@en ;];
- skos:related "Cilicia II" ;
- skos:related "Anazarbos" ;
+ skos:related <http://syriaca.org/place/57> ;
+ skos:related <http://syriaca.org/place/9> ;
  dcterms:description "A town of east of ." ;
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658458> ;
@@ -18151,8 +18151,8 @@ geo:location [
  lawd:variantForm "Agel"@en ;];
  lawd:hasName [
  lawd:variantForm "انجل"@ar ;];
- skos:related "Tigris" ;
- skos:related "Amida" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A town on the northwest of ." ;
  dcterms:description [
  rdfs:label "ܡܕܺܝܢܬܘܽܢܳܝܬܐ ܕܰܠܓܰܪܒܰܝ ܐܳܡܺܝܕ."@syr-Syrj ;
@@ -18289,8 +18289,8 @@ geo:location [
  lawd:variantForm "Iabrouda"@en ;];
  lawd:hasName [
  lawd:variantForm "يبرود"@ar ;];
- skos:related "Damascus" ;
- skos:related "Emesa" ;
+ skos:related <http://syriaca.org/place/66> ;
+ skos:related <http://syriaca.org/place/215> ;
  dcterms:description "A town on the road between and ." ;
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678196> ;
@@ -18465,7 +18465,7 @@ geo:location [
  lawd:variantForm "جبل الازل"@ar ;];
  lawd:hasName [
  lawd:variantForm "Izla Mountain"@en ;];
- skos:related "Nisibis" ;
+ skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A mountain north of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874530> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mount_Izla> ;
@@ -18554,7 +18554,7 @@ geo:location [
  lawd:variantForm "ܐܰܢܛܝܘܟܝܰܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "كورة انطاكية"@ar ;];
- skos:related "Antioch" ;
+ skos:related <http://syriaca.org/place/10> ;
  dcterms:description "The region around the city of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/995/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/995/tei> ;
@@ -18632,8 +18632,8 @@ geo:location [
  lawd:variantForm "ܐܺܝܣܘܪܺܝܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "ايسورية"@ar ;];
- skos:related "Anatolia" ;
- skos:related "Cyprus" ;
+ skos:related <http://syriaca.org/place/504> ;
+ skos:related <http://syriaca.org/place/714> ;
  dcterms:description "A Roman coastal province of south-central north of the island of ." ;
  dcterms:temporal "0325" ;
  skos:exactMatch <http://pleiades.stoa.org/places/982261> ;
@@ -18724,7 +18724,6 @@ geo:location [
 
 <http://syriaca.org/place/980> a lawd:Place ;
  rdfs:label "Bashosh" ;
- skos:related "Shosh" ;
  lawd:hasName [
  lawd:primaryForm "Bashosh"@en ;];
  lawd:hasName [
@@ -18878,11 +18877,11 @@ geo:location [
  lawd:variantForm "Aintab"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Aintab"@en-xsrp1 ;];
- skos:related "Euphrates" ;
- skos:related "Edessa" ;
- skos:related "ʿAintab" ;
- skos:related "Zeugma" ;
- skos:related "Halfeti" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/78> ;
+ skos:related <http://syriaca.org/place/222> ;
+ skos:related <http://syriaca.org/place/209> ;
+ skos:related <http://syriaca.org/place/695> ;
  dcterms:description "A city on the west of and northeast of ." ;
  dcterms:description [
  rdfs:label "ܩܶܠܥܳܐ ܚܰܣܝܢܬܳܐ ܘܰܐܬܪܐ ܕܰܠܡܰܥܪܰܒ ܦܪܳܬ ܠܘܩܒܰܠ ܒܝܪܬܐ ܠܩܘܪܒܳܐ ܕܰܩܪܝܬܐ ܟ̣ܠܦܬܝ. ܘܡܶܫܬܰܡܗܐ ܗܘܳܬ ܩܶܠܥܳܐ ܕܙܘܓܡܐ. ܘܚܰܪܝܒܐ"@syr-Syrj ;
@@ -18994,8 +18993,8 @@ geo:location [
  lawd:primaryForm "Hormizd Ardashir"@en ;];
  lawd:hasName [
  lawd:variantForm "Ahwaz"@en ;];
- skos:related "Baṣra" ;
- skos:related "Shushtar" ;
+ skos:related <http://syriaca.org/place/44> ;
+ skos:related <http://syriaca.org/place/186> ;
  dcterms:description "A city of southeastern Mesopotamia between and ." ;
  dcterms:temporal "0271" ;
  skos:exactMatch <http://pleiades.stoa.org/places/912865> ;
@@ -19276,8 +19275,8 @@ geo:location [
  lawd:variantForm "Qala Rumayta"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Qal‘a Rumayta"@en-xsrp1 ;];
- skos:related "Qalʿa Rumayta" ;
- skos:related "Melitene" ;
+ skos:related <http://syriaca.org/place/97> ;
+ skos:related <http://syriaca.org/place/136> ;
  dcterms:description "A city north of and southwest of ." ;
  dcterms:description [
  rdfs:label "ܡܕܝܰܢܬܐ ܗܝ ܕܰܒܓܰܪܒܰܝ ܫܰܡܝܫܰܛ ܠܡܰܥܪܒܳܐ ܕܰܦܪܳܬ ܕܡܶܬܶܐܡܰܪ ܠܗ̇ ܬܘܒ ܐܰܕܺܝܰܐܡܰܐܢ."@syr-Syrj ;
@@ -19438,8 +19437,8 @@ geo:location [
  lawd:variantForm "Hatra"@en ;];
  lawd:hasName [
  lawd:variantForm "الحَضْر"@ar ;];
- skos:related "Nineveh" ;
- skos:related "Dura-Europos" ;
+ skos:related <http://syriaca.org/place/144> ;
+ skos:related <http://syriaca.org/place/77> ;
  dcterms:description "A Parthian city southwest of and northeast of ." ;
  dcterms:temporal "-0100" ;
  skos:exactMatch <http://pleiades.stoa.org/places/894004> ;
@@ -19462,8 +19461,8 @@ geo:location [
  lawd:variantForm "الأَهْوَاز"@ar ;];
  lawd:hasName [
  lawd:variantForm "خُوْزستان"@ar ;];
- skos:related "Tigris" ;
- skos:related "Persian Gulf" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/156> ;
  dcterms:description "A region east of the southern and north of the ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/912843> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Khuzestan_Plain> ;
@@ -19501,7 +19500,7 @@ geo:location [
  rdfs:label "Arsham" ;
  lawd:hasName [
  lawd:primaryForm "Arsham"@en ;];
- skos:related "Arsham" ;
+ skos:related <http://syriaca.org/place/305> ;
  foaf:primaryTopicOf <http://syriaca.org/place/925/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/925/tei> .
 
@@ -19570,9 +19569,9 @@ geo:location [
  lawd:variantForm "Ḥesnā d'Kīfā"@en ;];
  lawd:hasName [
  lawd:variantForm "Ḥiṣn Kayf"@en ;];
- skos:related "Tigris river" ;
- skos:related "Amida" ;
- skos:related "Gazarta" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/8> ;
+ skos:related <http://syriaca.org/place/88> ;
  dcterms:description "A city on the between and ." ;
  dcterms:description [
  rdfs:label "ܡܕܝܢܬܐ ܘܩܶܠܥܳܐ ܪܰܒܬܳܐ ܕܚܳܝܪܐ ܠܕܶܩܠܰܬ ܒܶܝܬ ܐܳܡܝܺܕ ܠܰܓܙܺܝܪܳܬܐ ܕܒܰܪ ܥܽܘܡܰܪ. ܗܘܳܬ ܒܰܙܒܰܢ ܐܶܡܳܐ ܕܰܡܕܝܢ̈ܬܳܐ ܠܚܰܕ ܦܶܪܥܐ ܕܡܰܠܟܘܬܳܐ ܐܰܝܘܒܳܝܬܐ ܥܕܰܡܳܐ ܠܪܺܝܫ ܡܰܐܬܳܐ ܥܣܝܪܳܝܬܳܐ. ܘܝܰܘܡܳܢ ܐܝܬܶܝܗ̇ ܩܪܺܝܬܳܐ."@syr-Syrj ;
@@ -19692,8 +19691,8 @@ geo:location [
  lawd:variantForm "Hamah"@en ;];
  lawd:hasName [
  lawd:variantForm "حَماة"@ar ;];
- skos:related "Orontes river" ;
- skos:related "Emesa" ;
+ skos:related <http://syriaca.org/place/147> ;
+ skos:related <http://syriaca.org/place/215> ;
  dcterms:description "A city on the north of ." ;
  dcterms:temporal "-0835" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668182> ;
@@ -19996,9 +19995,9 @@ geo:location [
  lawd:variantForm "Aintab"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Aintab"@en-xsrp1 ;];
- skos:related "Pyramos river" ;
- skos:related "ʿAyn Zarba" ;
- skos:related "ʿAintab" ;
+ skos:related <http://syriaca.org/place/159> ;
+ skos:related <http://syriaca.org/place/9> ;
+ skos:related <http://syriaca.org/place/222> ;
  dcterms:description "A city near the northeast of and northwest of ." ;
  dcterms:description [
  rdfs:label "ܘܐܝܬܶܝܗ̇ ܓܰܪܡܰܐܢܝܩܝ ܥܰܬܝܩܬܐ ܡܕܝܺܢܬܐ ܕܰܒܓܰܪܒܝ ܚܳܠܳܒ ܘܰܒܬܝܡܢܳܐ ܕܣܺܝܘܐܰܣ"@syr-Syrj ;
@@ -20131,9 +20130,9 @@ geo:location [
  lawd:variantForm "Jazirat Ibn Umar"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Jazirat Ibn ‘Umar"@en-xsrp1 ;];
- skos:related "Tigris river" ;
- skos:related "Amida" ;
- skos:related "Mosul" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/8> ;
+ skos:related <http://syriaca.org/place/139> ;
  dcterms:description "A city on the between and ." ;
  dcterms:description [
  rdfs:label "ܡܕܺܝܢܬܘܢܝܬܳܐ ܗܝ ܕܥܰܠ ܕܶܩܠܰܬ ܒܶܝܬ ܐܳܡܝܕ ܠܡܰܘܨܠ."@syr-Syrj ;
@@ -20208,8 +20207,8 @@ geo:location [
  rdfs:label "Trichur" ;
  lawd:hasName [
  lawd:primaryForm "Trichur"@en ;];
- skos:related "Kerala" ;
- skos:related "India" ;
+ skos:related <http://syriaca.org/place/602> ;
+ skos:related <http://syriaca.org/place/500> ;
  dcterms:description "A city in in southern ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Thrissur> ;
  foaf:primaryTopicOf <http://syriaca.org/place/876/html> ;
@@ -20291,8 +20290,8 @@ geo:location [
  lawd:variantForm "Gazza"@en ;];
  lawd:hasName [
  lawd:variantForm "الغَزَّة"@ar ;];
- skos:related "Mediterranean Sea" ;
- skos:related "Mayuma" ;
+ skos:related <http://syriaca.org/place/135> ;
+ skos:related <http://syriaca.org/place/456> ;
  dcterms:description "A city near the coast of the southeastern ." ;
  dcterms:temporal "-1200" ;
  skos:exactMatch <http://pleiades.stoa.org/places/687902> ;
@@ -20450,9 +20449,9 @@ geo:location [
  lawd:variantForm "Karkar"@en ;];
  lawd:hasName [
  lawd:variantForm "كَرْكر"@ar ;];
- skos:related "Euphrates" ;
- skos:related "Melitene" ;
- skos:related "Amida" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/136> ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A city near the between and ." ;
  dcterms:description [
  rdfs:label "ܚܶܣܢܰܐ ܗܘ ܘܰܡܕܝܢܬܐ ܒܩܘܪܒܳܐ ܕܡܝܺܠܝܺܛܝܢܝ ܒܶܝܬ ܫܰܡܝܫܰܛ ܠܚܰܣܢ ܙܝܰܐܕ ܠܡܰܥܪܒܳܐ ܕܰܦܪܳܬ. ܚܶܪܒܰܬ."@syr-Syrj ;
@@ -20580,8 +20579,8 @@ geo:location [
  lawd:primaryForm "Gabala"@en ;];
  lawd:hasName [
  lawd:variantForm "جبلة"@ar ;];
- skos:related "Laodicea" ;
- skos:related "Apamea" ;
+ skos:related <http://syriaca.org/place/118> ;
+ skos:related <http://syriaca.org/place/11> ;
  dcterms:description "A city on the coast south-east of and west of ." ;
  dcterms:temporal "-0330" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668250> ;
@@ -20640,7 +20639,7 @@ geo:location [
  rdfs:label "Cambridge" ;
  lawd:hasName [
  lawd:primaryForm "Cambridge"@en ;];
- skos:related "Massachusetts" ;
+ skos:related <http://syriaca.org/place/845> ;
  dcterms:description "A city of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Cambridge,_Massachusetts> ;
  foaf:primaryTopicOf <http://syriaca.org/place/846/html> ;
@@ -20652,7 +20651,7 @@ geo:location [
  rdfs:label "Massachussetts" ;
  lawd:hasName [
  lawd:primaryForm "Massachussetts"@en ;];
- skos:related "United States of America" ;
+ skos:related <http://syriaca.org/place/573> ;
  dcterms:description "A state of the ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Massachusetts> ;
  foaf:primaryTopicOf <http://syriaca.org/place/845/html> ;
@@ -20669,7 +20668,7 @@ geo:location [
  lawd:variantForm "ܟܰܡܒܪܰܓ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "كمبرج"@ar ;];
- skos:related "England" ;
+ skos:related <http://syriaca.org/place/843> ;
  dcterms:description "A city of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/79436> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Cambridge> ;
@@ -20688,8 +20687,8 @@ geo:location [
  rdfs:label "England" ;
  lawd:hasName [
  lawd:primaryForm "England"@en ;];
- skos:related "United Kingdom" ;
- skos:related "London" ;
+ skos:related <http://syriaca.org/place/700> ;
+ skos:related <http://syriaca.org/place/701> ;
  dcterms:description "A component kingdom of the whose capital is at ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/England> ;
  foaf:primaryTopicOf <http://syriaca.org/place/843/html> ;
@@ -20716,7 +20715,7 @@ geo:location [
  lawd:variantForm "ܢܺܝܽܘܓܰܪܙܺܝ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "نيوجرزي"@ar ;];
- skos:related "United States of America" ;
+ skos:related <http://syriaca.org/place/573> ;
  dcterms:description "A state of the ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/New_Jersey> ;
  foaf:primaryTopicOf <http://syriaca.org/place/841/html> ;
@@ -20783,7 +20782,7 @@ geo:location [
  lawd:primaryForm "Kuplana"@en ;];
  lawd:hasName [
  lawd:variantForm "Kuplānā"@en ;];
- skos:related "Adiabene" ;
+ skos:related <http://syriaca.org/place/995> ;
  dcterms:description "A town in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/837/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/837/tei> .
@@ -20858,9 +20857,9 @@ geo:location [
  lawd:variantForm "جرابلس"@ar ;];
  lawd:hasName [
  lawd:variantForm "Jarābulus"@en ;];
- skos:related "Euphrates" ;
- skos:related "Mabbug" ;
- skos:related "Birtha" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/122> ;
+ skos:related <http://syriaca.org/place/50> ;
  dcterms:description "A city on the north of and south of" ;
  dcterms:description [
  rdfs:label "ܘܐܝܬܶܝܗ̇ ܐܘܪܘܦܘܣ ܥܰܬܝܺܩܬܐ ܕܰܠܡܰܥܪܰܒ ܦܪܳܬ ܘܰܠܓܰܪܒܰܝ ܡܰܒܘܓ."@syr-Syrj ;
@@ -20902,7 +20901,7 @@ geo:location [
  lawd:variantForm "Hezza"@en ;];
  lawd:hasName [
  lawd:variantForm "Ḥezzō"@en ;];
- skos:related "Ḥesno d-Kifo" ;
+ skos:related <http://syriaca.org/place/92> ;
  dcterms:description "A town near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/828/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/828/tei> .
@@ -20982,7 +20981,7 @@ geo:location [
  rdfs:label "Goa" ;
  lawd:hasName [
  lawd:primaryForm "Goa"@en ;];
- skos:related "India" ;
+ skos:related <http://syriaca.org/place/500> ;
  dcterms:description "An important early modern city in western , the main city of a Portuguese enclave from the 16th to the 18th centuries." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Old_Goa> ;
  foaf:primaryTopicOf <http://syriaca.org/place/822/html> ;
@@ -21467,7 +21466,7 @@ geo:location [
  rdfs:label "Tigris Valley" ;
  lawd:hasName [
  lawd:primaryForm "Tigris Valley"@en ;];
- skos:related "Tigris river" ;
+ skos:related <http://syriaca.org/place/202> ;
  dcterms:description "The valley of the ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/786/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/786/tei> .
@@ -21549,15 +21548,15 @@ geo:location [
  lawd:variantForm "الرُّهاء"@ar ;];
  lawd:hasName [
  lawd:variantForm "أَذاسا"@ar ;];
- skos:related "Mesopotamia" ;
- skos:related "Osrhoene" ;
- skos:related "Aleppo" ;
- skos:related "Aleppo" ;
- skos:related "Daiṣan" ;
- skos:related "Roman Empire" ;
- skos:related "Ottoman Empire" ;
- skos:related "Aleppo" ;
- skos:related "Balikh" ;
+ skos:related <http://syriaca.org/place/124> ;
+ skos:related <http://syriaca.org/place/145> ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/191> ;
+ skos:related <http://syriaca.org/place/166> ;
+ skos:related <http://syriaca.org/place/631> ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/43> ;
  dcterms:description "A city of , the capital of the ancient kingdom of , modern Urfa." ;
  dcterms:description [
  rdfs:label "183. Edessa"@en ;];
@@ -21791,7 +21790,7 @@ geo:location [
  rdfs:label "Marde" ;
  lawd:hasName [
  lawd:primaryForm "Marde"@en ;];
- skos:related "Mardin" ;
+ skos:related <http://syriaca.org/place/130> ;
  foaf:primaryTopicOf <http://syriaca.org/place/762/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/762/tei> .
 
@@ -22478,7 +22477,7 @@ geo:location [
  rdfs:label "Coromandel" ;
  lawd:hasName [
  lawd:primaryForm "Coromandel"@en ;];
- skos:related "India" ;
+ skos:related <http://syriaca.org/place/500> ;
  dcterms:description "A coastal region in southern ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Coromandel_Coast> ;
  foaf:primaryTopicOf <http://syriaca.org/place/713/html> ;
@@ -22495,8 +22494,8 @@ geo:location [
  lawd:variantForm "Beṯ Zabdaï"@en ;];
  lawd:hasName [
  lawd:variantForm "Qardū"@en ;];
- skos:related "Upper Jazira" ;
- skos:related "Tigris" ;
+ skos:related <http://syriaca.org/place/321> ;
+ skos:related <http://syriaca.org/place/202> ;
  foaf:primaryTopicOf <http://syriaca.org/place/712/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/712/tei> ;
  dcterms:relation <http://syriaca.org/place/88> ;
@@ -22669,8 +22668,8 @@ geo:location [
  rdfs:label "British Library" ;
  lawd:hasName [
  lawd:primaryForm "British Library"@en ;];
- skos:related "United Kingdom" ;
- skos:related "London" ;
+ skos:related <http://syriaca.org/place/700> ;
+ skos:related <http://syriaca.org/place/701> ;
  dcterms:description "The national library of the , located in ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/British_Library> ;
  foaf:primaryTopicOf <http://syriaca.org/place/702/html> ;
@@ -22685,7 +22684,7 @@ geo:location [
  lawd:primaryForm "ܠܘܢܕܘܢ"@syr ;];
  lawd:hasName [
  lawd:variantForm "لندن"@ar ;];
- skos:related "United Kingdom" ;
+ skos:related <http://syriaca.org/place/700> ;
  dcterms:description "The capital city of the ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/79574> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/London> ;
@@ -22811,8 +22810,8 @@ geo:location [
  lawd:variantForm "Mamūrat al-Azīz"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ma‘mūrat al-‘Azīz"@en-xsrp1 ;];
- skos:related "Malatya" ;
- skos:related "Amid" ;
+ skos:related <http://syriaca.org/place/136> ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A town northeast of and northwest of ." ;
  dcterms:temporal "1834" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Elâzığ> ;
@@ -22857,10 +22856,10 @@ geo:location [
  lawd:variantForm "Qala Rumayta"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Qal‘a Rumayta"@en-xsrp1 ;];
- skos:related "Euphrates" ;
- skos:related "Edessa" ;
- skos:related "Qalʿa Rumayta" ;
- skos:related "Urima" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/78> ;
+ skos:related <http://syriaca.org/place/97> ;
+ skos:related <http://syriaca.org/place/205> ;
  dcterms:description "A village on the west of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Halfeti> ;
  foaf:primaryTopicOf <http://syriaca.org/place/695/html> ;
@@ -22875,8 +22874,8 @@ geo:location [
  lawd:primaryForm "ܣܒܐܪܛܗ"@syr ;];
  lawd:hasName [
  lawd:variantForm "ܣܒܰܐܪܛܰܗ"@syr-Syrj ;];
- skos:related "Anatolia" ;
- skos:related "Konia" ;
+ skos:related <http://syriaca.org/place/504> ;
+ skos:related <http://syriaca.org/place/440> ;
  dcterms:description "A town of western west of and north of Antalya." ;
  skos:exactMatch <http://pleiades.stoa.org/places/642531/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Isparta> ;
@@ -22896,7 +22895,7 @@ geo:location [
  lawd:variantForm "Shab"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Sha‘b"@en-xsrp1 ;];
- skos:related "Mardin" ;
+ skos:related <http://syriaca.org/place/130> ;
  dcterms:description "A village south of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/693/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/693/tei> .
@@ -22912,8 +22911,8 @@ geo:location [
  lawd:variantForm "ܥܕܬܐ ܕܡܳܪܝ ܩܘܙܡܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "بيعة مار قزما"@ar ;];
- skos:related "Ṭuro Briko" ;
- skos:related "Edessa" ;
+ skos:related <http://syriaca.org/placeName/318> ;
+ skos:related <http://syriaca.org/place/78> ;
  dcterms:description "A church in the outside of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/692/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/692/tei> .
@@ -22931,7 +22930,7 @@ geo:location [
  lawd:variantForm "السواد"@ar ;];
  lawd:hasName [
  lawd:variantForm "southern Iraq"@en ;];
- skos:related "Iraq" ;
+ skos:related <http://syriaca.org/place/98> ;
  dcterms:description "A fertile region in southern ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sawad> ;
  foaf:primaryTopicOf <http://syriaca.org/place/691/html> ;
@@ -22950,7 +22949,7 @@ geo:location [
  lawd:variantForm "جيحان"@ar ;];
  lawd:hasName [
  lawd:variantForm "Jīhān"@en ;];
- skos:related "Ceyhan River" ;
+ skos:related <http://syriaca.org/place/159> ;
  dcterms:description "A town on the ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ceyhan> ;
  foaf:primaryTopicOf <http://syriaca.org/place/690/html> ;
@@ -22999,7 +22998,7 @@ geo:location [
  rdfs:label "ܐܰܘ ܕܰܝܪܳܐ ܕܡܳܪܝ ܚܰܢܰܢܝܳܐ ܐܶܫܬܰܬܰܐܣ ܒܚܰܪܬܗ ܕܕܳܪܳܐ ܪܒܺܝܥܳܝܳܐ ) ܘܫܰܟܠܠܶܗ ܡܳܪܝ ܚܰܢܰܢܝܳܐ ܡܝܛܪܘܦܘܠܝܛܳܐ ܕܡܰܪܕܝܢ ܒܶܝܬ 793 - 800 ܒܡܰܕܢܰܚ ܡܶܪܕܳܐ ܫܳܥܬܐ ܡܶܢܳܗ̇. ܕܰܝܪܰܐ ܗܘ ܪܰܒܐ ܕܥܰܡܝܪ ܘܰܡܝܰܬܰܒ ܗܘܳܐ ܒܶܝܬ ܟܘܪܣܝܳܐ ܠܦܰܛܪܝܰܪܟܘܬܐ ܡܶܢ ܫܢܰܬ 1293 - 1933 ܝܰܬܝܪ ܡܶܢ ܫܶܬܡܳܐܐ ܫܢ̈ܝܺܢ. ܘܐܰܦܶܩ ܚܰܕ ܘܥܶܣܪܝܢ ܦܰܛܪܝܰܪ̈ܟܐ ܘܬܶܫܥܳܐ ܡܰܦܪ̈ܝܳܢܐ ܘܡܳܐܐ ܘܥܶܣܪܳܐ ܐܶܦܝܣܩܘ̈ܦܐ. ܘܒܰܫܢܰܬ 1917 ܦܪܰܣܢܰܢ ܡܟܰܬܒܰܙܰܒܢܗ ܕܰܡܫܰܡܠܰܝ ܘܰܪܫܝܺܡ ( ܢܰܙܗܗ̈ ܐܠܐܕܗܰܐܢ ) ܘܚܳܝܪܝܺܢ ܥܠܰܘܗܝ ܠܓܰܪܒܝܳܐ ܬܠܳܬܐ ܕܰܝܪ̈ܐ ܙܥܘܪ̈ܐ ܕܰܝܪܐ ܕܢܶܦܛܳܐ ܘܕܰܝܪܐ ܕܡܳܪܝ ܥܙܳܙܳܐܝܠ ܘܰܡܝܰܬܒ ܗܘܐ ܒܟܶܢܫܳܐ ܕܕܰܝܪ̈ܳܝܶܐ ܒܶܝܬ ܫܢܰܬ 1500 - 1600 ܘܕܰܝܪܳܐ ܕܡܳܪܝ ܝܰܥܩܘܒ ܡܰܠܦܳܢܐ ܕܰܕܟܺܝܪ ܠܰܙܒܰܢܬܐ ܩܰܕܡܳܝܬܐ ܫܢܰܬ 1165 ܘܰܥܕܰܡܳܐ ܠܗܳܫܳܐ ܥܰܡܝܪ ܘܰܚܒܝ̈ܫܳܝܳܬܐ ܕܡܳܪܝ ܒܶܗܢܰܡ ( ܘܡܳܪܝ ܝܰܘܣܦ ) ܕܰܥܡܰܪܘ ܒܗܶܝܢ ܐܢܳܫ̈ܝܢ ܥܢܘ̈ܝܐ ܥܕܰܡܳܐ ܠܡܶܨܥܳܝ̈ܬܗ ܕܕܳܪܐ ܕܰܫܒܰܥܣܪ ܘܐܶܬܢܰܦܰܩܘ ܒܗܶܝܢ ܐܶܦܝܣܩܘ̈ܦܐ."@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
- rdfs:label "او دير مار حنانيا وهو مطران ماردين الذي وطّد اركانه سنة 793-800 على انقاض قلعة ودير قديم شرقي ماردين مسير ساعة عنها. وهو دير كبير عامر آهل، صار كرسياً للبطاركة من سنة 1293 نيفاً وستمائة سنة، انجب واحداً وعشرين بطريركاً وتسعة مفارنة ومئة وعشرة اساقفة. وسنة 1917 عملنا ونشرنا تاريخه الضافي الموسوم "بنزهة الاذهان" ويطل عليه شمالاً ثلاثة اديار صغيرة متجاورة وهي دير مار عززائيل وكان آهلاً برهط من الرهبان بين سنة 1500-1600 ودير مار يعقوب الملفان وذكر لأول مرة سنة 1165 ولا يزال عامراً، وصومعة مار بهنام وقطنها نفر من النساك حتى اواسط القرن السابع عشر وتخرج في كل منها نفر من الاساقفة"@ar ;
+ rdfs:label "او دير مار حنانيا وهو مطران ماردين الذي وطّد اركانه سنة 793-800 على انقاض قلعة ودير قديم شرقي ماردين مسير ساعة عنها. وهو دير كبير عامر آهل، صار كرسياً للبطاركة من سنة 1293 نيفاً وستمائة سنة، انجب واحداً وعشرين بطريركاً وتسعة مفارنة ومئة وعشرة اساقفة. وسنة 1917 عملنا ونشرنا تاريخه الضافي الموسوم بنزهة الاذهان ويطل عليه شمالاً ثلاثة اديار صغيرة متجاورة وهي دير مار عززائيل وكان آهلاً برهط من الرهبان بين سنة 1500-1600 ودير مار يعقوب الملفان وذكر لأول مرة سنة 1165 ولا يزال عامراً، وصومعة مار بهنام وقطنها نفر من النساك حتى اواسط القرن السابع عشر وتخرج في كل منها نفر من الاساقفة"@ar ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
  rdfs:label "or St. Ḥananya Monastery, was built by Ḥananya, metropolitan of Mardin, between 793 and 800 on the site of an old monastery north of Mardin. This great and populous monastery in 1293 became the Patriarchal see for some six hundred years. It claims twenty-one Patriarchs, nine Maphryonos and 110 bishops. In 1917 we published its detailed history, entitled Nuzhat al-Adhhān (The Excursion of Minds). In its immediate neighborhood there are three small monasteries close together:"@en ;
@@ -23033,7 +23032,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/688/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/688/tei> .
@@ -23045,7 +23044,7 @@ geo:location [
  lawd:primaryForm "Babisqa"@en ;];
  lawd:hasName [
  lawd:variantForm "Babiska"@en ;];
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "A town southwest of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/658414/> ;
 geo:location [
@@ -23064,7 +23063,7 @@ geo:location [
  lawd:primaryForm "Bāb Tūmā"@en ;];
  lawd:hasName [
  lawd:variantForm "باب تُوماء"@ar ;];
- skos:related "Damascus" ;
+ skos:related <http://syriaca.org/place/66> ;
  dcterms:description "A gate of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Bab_Tuma> ;
  foaf:primaryTopicOf <http://syriaca.org/place/686/html> ;
@@ -23119,7 +23118,7 @@ geo:location [
  lawd:variantForm "Abū Gharbūa"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Abū Gharbū‘a"@en-xsrp1 ;];
- skos:related "Amid" ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A village near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/683/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/683/tei> ;
@@ -23136,7 +23135,7 @@ geo:location [
  lawd:variantForm "Ayn al-Tamr"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Ayn al-Tamr"@en-xsrp1 ;];
- skos:related "Ḥirta" ;
+ skos:related <http://syriaca.org/place/219> ;
  dcterms:description "A village near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/682/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/682/tei> .
@@ -23154,7 +23153,7 @@ geo:location [
  lawd:variantForm "Maalta"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ma‘alta"@en-xsrp1 ;];
- skos:related "Maʿalta" ;
+ skos:related <http://syriaca.org/place/1402> ;
  dcterms:description "A village near in Mesopotamia." ;
  foaf:primaryTopicOf <http://syriaca.org/place/681/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/681/tei> .
@@ -23263,7 +23262,7 @@ geo:location [
  lawd:primaryForm "Dayr al-Askūl"@en ;];
  lawd:hasName [
  lawd:variantForm "دير الأَسْكُون"@ar ;];
- skos:related "Ḥirta" ;
+ skos:related <http://syriaca.org/place/219> ;
  dcterms:description "A monastery in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/676/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/676/tei> .
@@ -23289,7 +23288,7 @@ geo:location [
  lawd:primaryForm "Ascalon"@en ;];
  lawd:hasName [
  lawd:variantForm "عَسْقلان"@ar ;];
- skos:related "Gaza" ;
+ skos:related <http://syriaca.org/place/87> ;
  dcterms:description "A coastal city north of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/687839/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ashkelon> ;
@@ -23307,7 +23306,7 @@ geo:location [
  rdfs:label "Arzanene" ;
  lawd:hasName [
  lawd:primaryForm "Arzanene"@en ;];
- skos:related "Lake Van" ;
+ skos:related <http://syriaca.org/place/117> ;
  dcterms:description "A region west and a bit south of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874367/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Arzanene> ;
@@ -23327,7 +23326,7 @@ geo:location [
  lawd:primaryForm "Arragan"@en ;];
  lawd:hasName [
  lawd:variantForm "أَرّجان"@ar ;];
- skos:related "Fars" ;
+ skos:related <http://syriaca.org/place/84> ;
  dcterms:description "A village in ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/912989> ;
 geo:location [
@@ -23346,7 +23345,7 @@ geo:location [
  lawd:primaryForm "Ardashir Khurrah"@en ;];
  lawd:hasName [
  lawd:variantForm "أَرْدَشِيْر خُرَّه"@ar ;];
- skos:related "Fars" ;
+ skos:related <http://syriaca.org/place/84> ;
  dcterms:description "A city of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/922617> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Firuzabad,_Fars> ;
@@ -23420,8 +23419,8 @@ geo:location [
  rdfs:label "St. Antony" ;
  lawd:hasName [
  lawd:primaryForm "St. Antony"@en ;];
- skos:related "Egypt" ;
- skos:related "Cairo" ;
+ skos:related <http://syriaca.org/place/715> ;
+ skos:related <http://syriaca.org/place/521> ;
  dcterms:description "A monastery in , 334 km southeast of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Monastery_of_Saint_Anthony> ;
  foaf:primaryTopicOf <http://syriaca.org/place/668/html> ;
@@ -23432,7 +23431,7 @@ geo:location [
  rdfs:label "Monastery of the Antonines" ;
  lawd:hasName [
  lawd:primaryForm "Monastery of the Antonines"@en ;];
- skos:related "the Enaton" ;
+ skos:related <http://syriaca.org/place/473> ;
  dcterms:description "A monastery in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/667/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/667/tei> .
@@ -23442,8 +23441,8 @@ geo:location [
  rdfs:label "Ankamaly" ;
  lawd:hasName [
  lawd:primaryForm "Ankamaly"@en ;];
- skos:related "Kerala" ;
- skos:related "India" ;
+ skos:related <http://syriaca.org/place/602> ;
+ skos:related <http://syriaca.org/place/500> ;
  dcterms:description "A city in in southern ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Angamaly> ;
  foaf:primaryTopicOf <http://syriaca.org/place/666/html> ;
@@ -23463,8 +23462,8 @@ geo:location [
  lawd:variantForm "Ānah"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Ānah"@en-xsrp1 ;];
- skos:related "Amida" ;
- skos:related "ʿĀnah" ;
+ skos:related <http://syriaca.org/place/8> ;
+ skos:related <http://syriaca.org/place/429> ;
  dcterms:description "A village in the region of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/665/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/665/tei> .
@@ -23478,7 +23477,7 @@ geo:location [
  lawd:variantForm "Āmūda"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Āmūda"@en-xsrp1 ;];
- skos:related "Qamishli" ;
+ skos:related <http://syriaca.org/place/160> ;
  dcterms:description "A town west of with a Syriac Orthodox school." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874318> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Amuda> ;
@@ -23500,7 +23499,7 @@ geo:location [
  lawd:variantForm "Alexandretta"@en ;];
  lawd:hasName [
  lawd:variantForm "إسكندرونة"@ar ;];
- skos:related "Antioch" ;
+ skos:related <http://syriaca.org/place/10> ;
  dcterms:description "A coastal city north of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/658371/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/İskenderun> ;
@@ -23522,7 +23521,7 @@ geo:location [
  lawd:variantForm "Dayr al-Adas"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Dayr al-‘Adas"@en-xsrp1 ;];
- skos:related "Jerusalem" ;
+ skos:related <http://syriaca.org/place/104> ;
  dcterms:description "A monastery in founded in 1532 by ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/662/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/662/tei> .
@@ -23540,7 +23539,7 @@ geo:location [
  lawd:variantForm "Mār Gabriel"@en ;];
  lawd:hasName [
  lawd:variantForm "دير الأعلى"@ar ;];
- skos:related "Mosul" ;
+ skos:related <http://syriaca.org/place/139> ;
  dcterms:description "An important monastery near whose site has been incorporated into the modern city." ;
  foaf:primaryTopicOf <http://syriaca.org/place/661/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/661/tei> .
@@ -23594,7 +23593,7 @@ geo:location [
  rdfs:label "Abba Ṣliba" ;
  lawd:hasName [
  lawd:primaryForm "Abba Ṣliba"@en ;];
- skos:related "Beth Nuhadra" ;
+ skos:related <http://syriaca.org/place/1262> ;
  dcterms:description "A monastery in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/659/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/659/tei> .
@@ -23618,8 +23617,8 @@ geo:location [
  lawd:variantForm "Dayr al-Zafarān"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Dayr al-Za‘farān"@en-xsrp1 ;];
- skos:related "Dayr al-Zaʿfarān" ;
- skos:related "Dayr al-Zaʿfarān" ;
+ skos:related <http://syriaca.org/place/69> ;
+ skos:related <http://syriaca.org/place/69> ;
  dcterms:description "A hermitage in the hills above ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/658/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/658/tei> .
@@ -23655,7 +23654,7 @@ geo:location [
  lawd:variantForm "Mor ‘Azozoʾil"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Mor ‘Azozoʾil"@en-xsrp1 ;];
- skos:related "Dayr al-Zaʿfarān" ;
+ skos:related <http://syriaca.org/place/69> ;
  dcterms:description "A monastery in the hills above ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/657/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/657/tei> .
@@ -23694,8 +23693,8 @@ geo:location [
  rdfs:label "Mihraqan Qadaq" ;
  lawd:hasName [
  lawd:primaryForm "Mihraqan Qadaq"@en ;];
- skos:related "Sasanian Empire" ;
- skos:related "Khuzistan" ;
+ skos:related <http://syriaca.org/place/150> ;
+ skos:related <http://syriaca.org/place/929> ;
  dcterms:description "A province of the located in northern ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/903083> ;
 geo:location [
@@ -23716,7 +23715,7 @@ geo:location [
  lawd:variantForm "Maarrat al-Numān"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ma‘arrat al-Nu‘mān"@en-xsrp1 ;];
- skos:related "Maʿarrat al-Nuʿmān" ;
+ skos:related <http://syriaca.org/place/499> ;
  dcterms:description "A settlement west of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/668266> ;
 geo:location [
@@ -23735,7 +23734,7 @@ geo:location [
  lawd:primaryForm "Gusit"@en ;];
  lawd:hasName [
  lawd:variantForm "Gousit"@en ;];
- skos:related "Ḥimṣ" ;
+ skos:related <http://syriaca.org/place/215> ;
  dcterms:description "A village near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/652/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/652/tei> .
@@ -23747,7 +23746,7 @@ geo:location [
  lawd:primaryForm "Mount Zion"@en ;];
  lawd:hasName [
  lawd:variantForm "صِهْيَوْن"@ar ;];
- skos:related "Jerusalem" ;
+ skos:related <http://syriaca.org/place/104> ;
  dcterms:description "A hill in ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mount_Zion> ;
  foaf:primaryTopicOf <http://syriaca.org/place/651/html> ;
@@ -23758,7 +23757,7 @@ geo:location [
  rdfs:label "Uzbekistan" ;
  lawd:hasName [
  lawd:primaryForm "Uzbekistan"@en ;];
- skos:related "Central Asia" ;
+ skos:related <http://syriaca.org/place/585> ;
  dcterms:description "A country in ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Uzbekistan> ;
  foaf:primaryTopicOf <http://syriaca.org/place/650/html> ;
@@ -23795,7 +23794,7 @@ geo:location [
  rdfs:label "Urgut" ;
  lawd:hasName [
  lawd:primaryForm "Urgut"@en ;];
- skos:related "Uzbekistan" ;
+ skos:related <http://syriaca.org/place/650> ;
  dcterms:description "A town in where Syriac inscriptions have been found." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Urgut> ;
  foaf:primaryTopicOf <http://syriaca.org/place/649/html> ;
@@ -23806,7 +23805,7 @@ geo:location [
  rdfs:label "Turkey" ;
  lawd:hasName [
  lawd:primaryForm "Turkey"@en ;];
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A modern country whose territory includes all of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Turkey> ;
  foaf:primaryTopicOf <http://syriaca.org/place/648/html> ;
@@ -23819,7 +23818,7 @@ geo:location [
  lawd:primaryForm "Turkestan"@en ;];
  lawd:hasName [
  lawd:variantForm "تركستان"@ar ;];
- skos:related "Central Asia" ;
+ skos:related <http://syriaca.org/place/585> ;
  dcterms:description "A region in ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Turkestan> ;
  foaf:primaryTopicOf <http://syriaca.org/place/647/html> ;
@@ -23832,8 +23831,8 @@ geo:location [
  lawd:primaryForm "Tibet"@en ;];
  lawd:hasName [
  lawd:variantForm "تُبت"@ar ;];
- skos:related "India" ;
- skos:related "China" ;
+ skos:related <http://syriaca.org/place/500> ;
+ skos:related <http://syriaca.org/place/472> ;
  dcterms:description "A mountainous region northeast of and west of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tibet> ;
  foaf:primaryTopicOf <http://syriaca.org/place/646/html> ;
@@ -23846,7 +23845,7 @@ geo:location [
  lawd:primaryForm "Tell Tuneinir"@en ;];
  lawd:hasName [
  lawd:variantForm "تنينير"@ar ;];
- skos:related "al-Ḥasake" ;
+ skos:related <http://syriaca.org/place/213> ;
  dcterms:description "A village southeast of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874762> ;
 geo:location [
@@ -23872,8 +23871,8 @@ geo:location [
  rdfs:label "Sumatar Harabesi" ;
  lawd:hasName [
  lawd:primaryForm "Sumatar Harabesi"@en ;];
- skos:related "Edessa" ;
- skos:related "Ḥarran" ;
+ skos:related <http://syriaca.org/place/78> ;
+ skos:related <http://syriaca.org/place/216> ;
  dcterms:description "A ruined village between and ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sumatar_Harabesi> ;
  foaf:primaryTopicOf <http://syriaca.org/place/643/html> ;
@@ -23901,8 +23900,8 @@ geo:location [
  lawd:primaryForm "ܪܘܡܝ"@syr ;];
  lawd:hasName [
  lawd:variantForm "رومية"@ar ;];
- skos:related "Italy" ;
- skos:related "Roman Empire" ;
+ skos:related <http://syriaca.org/place/592> ;
+ skos:related <http://syriaca.org/place/166> ;
  dcterms:description "The capital city of and formerly the capital of the ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/423025> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Rome> ;
@@ -23921,7 +23920,7 @@ geo:location [
  rdfs:label "Ramla" ;
  lawd:hasName [
  lawd:primaryForm "Ramla"@en ;];
- skos:related "Ḥirta" ;
+ skos:related <http://syriaca.org/place/219> ;
  dcterms:description "A location southeast of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/640/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/640/tei> .
@@ -23966,8 +23965,8 @@ geo:location [
  rdfs:label "Qasr Serij" ;
  lawd:hasName [
  lawd:primaryForm "Qasr Serij"@en ;];
- skos:related "Mosul" ;
- skos:related "Nisibis" ;
+ skos:related <http://syriaca.org/place/139> ;
+ skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A ruined church on the road between and ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874655> ;
 geo:location [
@@ -23986,7 +23985,7 @@ geo:location [
  lawd:primaryForm "Qardu"@en ;];
  lawd:hasName [
  lawd:variantForm "الجوديّ"@ar ;];
- skos:related "Gazarta" ;
+ skos:related <http://syriaca.org/place/88> ;
  dcterms:description "A mountain east of , proposed as a site for the landing of Noah's ark." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mount_Judi> ;
  foaf:primaryTopicOf <http://syriaca.org/place/637/html> ;
@@ -23998,7 +23997,7 @@ geo:location [
  rdfs:label "Qara Quzaq" ;
  lawd:hasName [
  lawd:primaryForm "Qara Quzaq"@en ;];
- skos:related "Euphrates" ;
+ skos:related <http://syriaca.org/place/82> ;
  dcterms:description "An ancient city on the ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/636/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/636/tei> .
@@ -24022,7 +24021,7 @@ geo:location [
  lawd:variantForm "Qalāt Simān"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Qal‘āt Sim‘ān"@en-xsrp1 ;];
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "The monastery of St. Simeon Stylites west of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/658606/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Church_of_Saint_Simeon_Stylites> ;
@@ -24048,8 +24047,8 @@ geo:location [
  lawd:variantForm "Qalat Najm"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Qal‘at Najm"@en-xsrp1 ;];
- skos:related "Euphrates" ;
- skos:related "Mabbug" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/122> ;
  dcterms:description "A medieval fortress on the near ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Qal'at_Najm> ;
  foaf:primaryTopicOf <http://syriaca.org/place/634/html> ;
@@ -24076,7 +24075,7 @@ geo:location [
  lawd:primaryForm "Parthian Empire"@en ;];
  lawd:hasName [
  lawd:variantForm "Parthia"@en ;];
- skos:related "Sasanian Empire" ;
+ skos:related <http://syriaca.org/place/150> ;
  dcterms:description "An ancient Persian empire which was succeeded by the ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/952097> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Parthian_Empire> ;
@@ -24090,7 +24089,7 @@ geo:location [
  lawd:primaryForm "Ottoman Empire"@en ;];
  lawd:hasName [
  lawd:variantForm "Ottoman empire"@en ;];
- skos:related "Constantinople" ;
+ skos:related <http://syriaca.org/place/586> ;
  dcterms:description "An early modern Empire with its capital for most of its existence at ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ottoman_Empire> ;
  foaf:primaryTopicOf <http://syriaca.org/place/631/html> ;
@@ -24111,7 +24110,7 @@ geo:location [
  lawd:variantForm "Nuba"@en ;];
  lawd:hasName [
  lawd:variantForm "نُوْبة"@ar ;];
- skos:related "Egypt" ;
+ skos:related <http://syriaca.org/place/715> ;
  dcterms:description "A region of northeastern Africa, south of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Nubia> ;
  foaf:primaryTopicOf <http://syriaca.org/place/630/html> ;
@@ -24158,7 +24157,7 @@ geo:location [
  lawd:primaryForm "Nile"@en ;];
  lawd:hasName [
  lawd:variantForm "النِّيل"@ar ;];
- skos:related "Egypt" ;
+ skos:related <http://syriaca.org/place/715> ;
  dcterms:description "The major river of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/727172/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Nile> ;
@@ -24190,8 +24189,8 @@ geo:location [
  lawd:variantForm "monastery of John Nahlaya"@en ;];
  lawd:hasName [
  lawd:variantForm "Mār Yōḥannān Nahlāyā"@en ;];
- skos:related "Bekinde" ;
- skos:related "Siirt" ;
+ skos:related <http://syriaca.org/place/990> ;
+ skos:related <http://syriaca.org/place/188> ;
  dcterms:description "A monastery near the village west of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/627/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/627/tei> .
@@ -24205,7 +24204,7 @@ geo:location [
  lawd:variantForm "monastery of Isaac of Nineveh"@en ;];
  lawd:hasName [
  lawd:variantForm "Mār Isaac of Nineveh"@en ;];
- skos:related "Gazarta" ;
+ skos:related <http://syriaca.org/place/88> ;
  dcterms:description "A monastery near the Dūshā river northeast of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/626/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/626/tei> .
@@ -24217,7 +24216,7 @@ geo:location [
  lawd:primaryForm "Gabrona and Shmona"@en ;];
  lawd:hasName [
  lawd:variantForm "monastery of Gabrona and Shmona"@en ;];
- skos:related "Nisibis" ;
+ skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A monastery probably near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/625/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/625/tei> .
@@ -24237,7 +24236,7 @@ geo:location [
  lawd:variantForm "Gangara"@en ;];
  lawd:hasName [
  lawd:variantForm "Gangre"@en ;];
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A city in north-central ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/844926> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Çankırı> ;
@@ -24261,7 +24260,7 @@ geo:location [
  lawd:variantForm "ܐܶܦܶܣܘܣ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "افسس"@ar ;];
- skos:related "Asia Minor" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A city in western ." ;
  dcterms:temporal "-0500" ;
  skos:exactMatch <http://pleiades.stoa.org/places/599612> ;
@@ -24314,7 +24313,7 @@ geo:location [
  lawd:variantForm "Nicea"@en ;];
  lawd:hasName [
  lawd:variantForm "نِيْقِية"@ar ;];
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A city in northwestern ." ;
  dcterms:temporal "0325" ;
  skos:exactMatch <http://pleiades.stoa.org/places/511268> ;
@@ -24336,7 +24335,7 @@ geo:location [
  lawd:primaryForm "Zobar"@en ;];
  lawd:hasName [
  lawd:variantForm "monastery of Zobar"@en ;];
- skos:related "Melitene" ;
+ skos:related <http://syriaca.org/place/136> ;
  dcterms:description "A monastery near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/620/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/620/tei> .
@@ -24404,7 +24403,7 @@ geo:location [
  lawd:primaryForm "Rabban Shabur"@en ;];
  lawd:hasName [
  lawd:variantForm "monastery of Rabban Shapur"@en ;];
- skos:related "Shushtar" ;
+ skos:related <http://syriaca.org/place/186> ;
  dcterms:description "A monastery near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/619/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/619/tei> .
@@ -24418,7 +24417,7 @@ geo:location [
  lawd:variantForm "monastery of Rabban Sapra"@en ;];
  lawd:hasName [
  lawd:variantForm "Rabban Saprā"@en ;];
- skos:related "Nisibis" ;
+ skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A monastery near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/618/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/618/tei> .
@@ -24432,8 +24431,8 @@ geo:location [
  lawd:variantForm "monastery of Our Lady of Saydnayai"@en ;];
  lawd:hasName [
  lawd:variantForm "monastery of Saydnaya"@en ;];
- skos:related "Ṣaydnāyā" ;
- skos:related "Damascus" ;
+ skos:related <http://syriaca.org/place/280> ;
+ skos:related <http://syriaca.org/place/66> ;
  dcterms:description "A monastery outside north of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Convent_of_Our_Lady_of_Saidnaya> ;
  foaf:primaryTopicOf <http://syriaca.org/place/617/html> ;
@@ -24450,7 +24449,7 @@ geo:location [
  lawd:variantForm "Mār Yōḥannān of Dailām"@en ;];
  lawd:hasName [
  lawd:variantForm "Mqūrtāyā"@en ;];
- skos:related "Qaraqosh" ;
+ skos:related <http://syriaca.org/place/262> ;
  dcterms:description "A monastery north of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Monastery_of_Saint_John_of_Dailam> ;
  foaf:primaryTopicOf <http://syriaca.org/place/616/html> ;
@@ -24465,7 +24464,7 @@ geo:location [
  lawd:variantForm "St. Maron"@en ;];
  lawd:hasName [
  lawd:variantForm "monastery of Mar Maroun"@en ;];
- skos:related "Apamea" ;
+ skos:related <http://syriaca.org/place/11> ;
  dcterms:description "A monastery in the area of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Deir_Mar_Maroun> ;
  foaf:primaryTopicOf <http://syriaca.org/place/615/html> ;
@@ -24500,8 +24499,8 @@ geo:location [
  lawd:variantForm "Dair Saīd"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Dair Sa‘īd"@en-xsrp1 ;];
- skos:related "Mosul region" ;
- skos:related "Dayr Ilyā" ;
+ skos:related <http://syriaca.org/place/722> ;
+ skos:related <http://syriaca.org/place/403> ;
  dcterms:description "A monastery in the ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Dair_Mar_Elia> ;
  foaf:primaryTopicOf <http://syriaca.org/place/613/html> ;
@@ -24514,7 +24513,7 @@ geo:location [
  lawd:primaryForm "Yoḥannan of Qanqal"@en ;];
  lawd:hasName [
  lawd:variantForm "monastery of John of Qanqal"@en ;];
- skos:related "Nisibis" ;
+ skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A monastery probably near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/612/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/612/tei> .
@@ -24536,7 +24535,7 @@ geo:location [
  lawd:variantForm "Mār Sabrīshō"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Mār Sabrīshō‘"@en-xsrp1 ;];
- skos:related "Erbil" ;
+ skos:related <http://syriaca.org/place/13> ;
  dcterms:description "A monastery outside ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/611/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/611/tei> .
@@ -24550,7 +24549,7 @@ geo:location [
  lawd:variantForm "Bar Qaiti"@en ;];
  lawd:hasName [
  lawd:variantForm "monastery of Barqita"@en ;];
- skos:related "Sinjar" ;
+ skos:related <http://syriaca.org/place/184> ;
  dcterms:description "A monastery in the region of , whose monks wrote a letter to Catholicos Sabrishoʿ in 598." ;
  foaf:primaryTopicOf <http://syriaca.org/place/610/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/610/tei> .
@@ -24587,7 +24586,7 @@ geo:location [
  lawd:primaryForm "Babai of Nisibis"@en ;];
  lawd:hasName [
  lawd:variantForm "monastery of Babai of Nisibis"@en ;];
- skos:related "Nisibis" ;
+ skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A monastery probably near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/609/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/609/tei> .
@@ -24599,7 +24598,7 @@ geo:location [
  lawd:primaryForm "Mlīkh"@en ;];
  lawd:hasName [
  lawd:variantForm "Mlikh"@en ;];
- skos:related "Lebanon" ;
+ skos:related <http://syriaca.org/place/487> ;
  dcterms:description "A village in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/608/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/608/tei> .
@@ -24619,7 +24618,7 @@ geo:location [
  lawd:variantForm "Maru"@en ;];
  lawd:hasName [
  lawd:variantForm "مرو الشاهجان"@ar ;];
- skos:related "Khurasan" ;
+ skos:related <http://syriaca.org/place/574> ;
  dcterms:description "A city of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/961873> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Merv> ;
@@ -24657,7 +24656,7 @@ geo:location [
  rdfs:label "Kirghizia" ;
  lawd:hasName [
  lawd:primaryForm "Kirghizia"@en ;];
- skos:related "Central Asia" ;
+ skos:related <http://syriaca.org/place/585> ;
  dcterms:description "A mountainous region of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kirghizia> ;
  foaf:primaryTopicOf <http://syriaca.org/place/604/html> ;
@@ -24678,7 +24677,7 @@ geo:location [
  lawd:variantForm "Khorasan"@en ;];
  lawd:hasName [
  lawd:variantForm "Khorasān"@en ;];
- skos:related "Caspian Sea" ;
+ skos:related <http://syriaca.org/place/61> ;
  dcterms:description "A region east and somewhat south of the ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Greater_Khorasan> ;
  foaf:primaryTopicOf <http://syriaca.org/place/603/html> ;
@@ -24689,7 +24688,7 @@ geo:location [
  rdfs:label "Kerala" ;
  lawd:hasName [
  lawd:primaryForm "Kerala"@en ;];
- skos:related "Kottayam" ;
+ skos:related <http://syriaca.org/place/1947> ;
  dcterms:description "A state of the nation of India, officially created in 1956." ;
  dcterms:temporal "1956-11-01" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kerala> ;
@@ -24701,7 +24700,7 @@ geo:location [
  rdfs:label "Kellis" ;
  lawd:hasName [
  lawd:primaryForm "Kellis"@en ;];
- skos:related "Egypt" ;
+ skos:related <http://syriaca.org/place/715> ;
  dcterms:description "A village in ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/776189> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kellis> ;
@@ -24721,7 +24720,7 @@ geo:location [
  lawd:primaryForm "Jordan valley"@en ;];
  lawd:hasName [
  lawd:variantForm "الغَوْر"@ar ;];
- skos:related "Jordan River" ;
+ skos:related <http://syriaca.org/place/599> ;
  dcterms:description "The valley which contains the ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Jordan_Valley_(Middle_East)> ;
  foaf:primaryTopicOf <http://syriaca.org/place/600/html> ;
@@ -24784,7 +24783,7 @@ geo:location [
  lawd:variantForm "حدياب"@ar ;];
  lawd:hasName [
  lawd:variantForm "Ḥaḏyab"@en ;];
- skos:related "Arbela" ;
+ skos:related <http://syriaca.org/place/13> ;
  dcterms:description "A diocese of the Church of the East, centered around ." ;
  dcterms:temporal "0410" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Adiabene_(East_Syrian_Ecclesiastical_Province)> ;
@@ -24817,7 +24816,7 @@ geo:location [
  lawd:primaryForm "Jabal Rīḥāna"@en ;];
  lawd:hasName [
  lawd:variantForm "Jebel Rihane"@en ;];
- skos:related "Mlīkh" ;
+ skos:related <http://syriaca.org/place/608> ;
  dcterms:description "The mountain where the village is located." ;
  foaf:primaryTopicOf <http://syriaca.org/place/598/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/598/tei> .
@@ -24831,7 +24830,7 @@ geo:location [
  lawd:variantForm "Jebel Qalamun"@en ;];
  lawd:hasName [
  lawd:variantForm "القَلَمون"@ar ;];
- skos:related "Lebanon" ;
+ skos:related <http://syriaca.org/place/487> ;
  dcterms:description "A mountain in ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Qalamoun_Mountains> ;
  foaf:primaryTopicOf <http://syriaca.org/place/597/html> ;
@@ -24844,7 +24843,7 @@ geo:location [
  lawd:primaryForm "Jabal Ḥalqa"@en ;];
  lawd:hasName [
  lawd:variantForm "Jebel Halaqa"@en ;];
- skos:related "Syria" ;
+ skos:related <http://syriaca.org/place/486> ;
  dcterms:description "A mountain in ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Harim_Mountains> ;
  foaf:primaryTopicOf <http://syriaca.org/place/596/html> ;
@@ -24857,7 +24856,7 @@ geo:location [
  lawd:primaryForm "Jabal al-Durūz"@en ;];
  lawd:hasName [
  lawd:variantForm "Jebel Druze"@en ;];
- skos:related "Syria" ;
+ skos:related <http://syriaca.org/place/486> ;
  dcterms:description "A mountain in ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/678042> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Jabal_al-Druze> ;
@@ -24877,7 +24876,7 @@ geo:location [
  lawd:primaryForm "Jabal Bārīshā"@en ;];
  lawd:hasName [
  lawd:variantForm "Jebel Baricha"@en ;];
- skos:related "Syria" ;
+ skos:related <http://syriaca.org/place/486> ;
  dcterms:description "A mountain in ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Harim_Mountains> ;
  foaf:primaryTopicOf <http://syriaca.org/place/594/html> ;
@@ -24902,7 +24901,7 @@ geo:location [
  lawd:primaryForm "ܐܝܛܐܠܝ"@syr ;];
  lawd:hasName [
  lawd:variantForm "ايطاليا"@ar ;];
- skos:related "Europe" ;
+ skos:related <http://syriaca.org/place/591> ;
  dcterms:description "A Mediterranean nation in southern ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/1052> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Italy> ;
@@ -24953,8 +24952,8 @@ geo:location [
  rdfs:label "Cyprus" ;
  lawd:hasName [
  lawd:primaryForm "Cyprus"@en ;];
- skos:related "Roman Empire" ;
- skos:related "Cyprus" ;
+ skos:related <http://syriaca.org/place/166> ;
+ skos:related <http://syriaca.org/place/714> ;
  dcterms:description "A province of the , coinciding with the island of ." ;
  dcterms:temporal "0395" ;
  skos:exactMatch <http://pleiades.stoa.org/places/981516> ;
@@ -24969,7 +24968,7 @@ geo:location [
  rdfs:label "Dibsi Faraj" ;
  lawd:hasName [
  lawd:primaryForm "Dibsi Faraj"@en ;];
- skos:related "Euphrates" ;
+ skos:related <http://syriaca.org/place/82> ;
  dcterms:description "A former village and archaeological site on the now beneath al-Assad Lake." ;
  skos:exactMatch <http://pleiades.stoa.org/places/668201> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Dibsi_Faraj> ;
@@ -24989,7 +24988,7 @@ geo:location [
  lawd:primaryForm "Dayr Dayḥīs"@en ;];
  lawd:hasName [
  lawd:variantForm "Deir Dehes"@en ;];
- skos:related "Antioch" ;
+ skos:related <http://syriaca.org/place/10> ;
  dcterms:description "A monastery probably near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/588/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/588/tei> .
@@ -25003,7 +25002,7 @@ geo:location [
  lawd:variantForm "Deir al-Rum"@en ;];
  lawd:hasName [
  lawd:variantForm "دير الروم"@ar ;];
- skos:related "Baghdad" ;
+ skos:related <http://syriaca.org/place/41> ;
  dcterms:description "A quarter of ." ;
  dcterms:temporal "0892" ;
  foaf:primaryTopicOf <http://syriaca.org/place/587/html> ;
@@ -25054,8 +25053,8 @@ geo:location [
  rdfs:label "Caeciliana" ;
  lawd:hasName [
  lawd:primaryForm "Caeciliana"@en ;];
- skos:related "Euphrates" ;
- skos:related "Mabbug" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/122> ;
  dcterms:description "On the western bank of the northeast of ." ;
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658418> ;
@@ -25097,7 +25096,7 @@ geo:location [
  lawd:variantForm "Bet Zagba"@en ;];
  lawd:hasName [
  lawd:primaryForm "ܒܝܬ ܙܓܒܐ"@syr ;];
- skos:related "Apamea" ;
+ skos:related <http://syriaca.org/place/11> ;
  dcterms:description "The site of the monastery where the Rabbula Gospels were copied, probably located north of ." ;
  dcterms:temporal "0568" ;
  foaf:primaryTopicOf <http://syriaca.org/place/582/html> ;
@@ -25162,7 +25161,7 @@ geo:location [
  lawd:primaryForm "Bassīṭ"@en ;];
  lawd:hasName [
  lawd:variantForm "Bassit"@en ;];
- skos:related "Laodicea" ;
+ skos:related <http://syriaca.org/place/118> ;
  dcterms:description "A coastal town north of ." ;
  dcterms:temporal "-0600" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668340> ;
@@ -25210,7 +25209,7 @@ geo:location [
  lawd:variantForm "Baalbak"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ba‘albak"@en-xsrp1 ;];
- skos:related "Lebanon" ;
+ skos:related <http://syriaca.org/place/487> ;
  dcterms:description "A city in ." ;
  dcterms:temporal "-0334" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678179> ;
@@ -25260,7 +25259,7 @@ geo:location [
  lawd:primaryForm "Anasartha"@en ;];
  lawd:hasName [
  lawd:variantForm "خناصرة"@ar ;];
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "A Roman village southeast of ." ;
  dcterms:temporal "0426" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668187> ;
@@ -25302,7 +25301,7 @@ geo:location [
  lawd:variantForm "ܐܰܠܟܣܰܢܕܰܪܝܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "الاسكندرية"@ar ;];
- skos:related "Egypt" ;
+ skos:related <http://syriaca.org/place/715> ;
  dcterms:description "A city in ." ;
  dcterms:temporal "-0331" ;
  skos:exactMatch <http://pleiades.stoa.org/places/727070> ;
@@ -25329,9 +25328,9 @@ geo:location [
  lawd:variantForm "دير مار باسوس"@ar ;];
  lawd:hasName [
  lawd:variantForm "Bāsūs Monastery"@en ;];
- skos:related "Ḥimṣ" ;
- skos:related "Mor Bosus" ;
- skos:related "Mor Bosus" ;
+ skos:related <http://syriaca.org/place/215> ;
+ skos:related <http://syriaca.org/place/343> ;
+ skos:related <http://syriaca.org/place/343> ;
  dcterms:description "A ruined monastery attested near" ;
  dcterms:temporal "0300" ;
  foaf:primaryTopicOf <http://syriaca.org/place/571/html> ;
@@ -25351,7 +25350,7 @@ geo:location [
  lawd:variantForm "باب الله"@ar ;];
  lawd:hasName [
  lawd:variantForm "Bab Allah"@en ;];
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "A gate of ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/570/html> ;
@@ -25392,7 +25391,7 @@ geo:location [
  lawd:variantForm "Tell Ada monastery"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Tell ‘Ada monastery"@en-xsrp1 ;];
- skos:related "Tell ʿAda monastery" ;
+ skos:related <http://syriaca.org/place/233> ;
  dcterms:description "A mountain north of ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mount_Simeon> ;
  foaf:primaryTopicOf <http://syriaca.org/place/569/html> ;
@@ -25413,7 +25412,7 @@ geo:location [
  lawd:variantForm "Marj al-Ayn"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Marj al-‘Ayn"@en-xsrp1 ;];
- skos:related "Doliche" ;
+ skos:related <http://syriaca.org/place/75> ;
  dcterms:description "Near ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/568/html> ;
@@ -25450,7 +25449,7 @@ geo:location [
  lawd:variantForm "قره كليسا"@ar ;];
  lawd:hasName [
  lawd:variantForm "Qara Kelisa"@en ;];
- skos:related "Amid" ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A village near ." ;
  dcterms:temporal "1850" ;
  foaf:primaryTopicOf <http://syriaca.org/place/565/html> ;
@@ -25471,8 +25470,8 @@ geo:location [
  lawd:variantForm "كفر البيرة"@ar ;];
  lawd:hasName [
  lawd:variantForm "Kafr al-Bīra"@en ;];
- skos:related "Apamea" ;
- skos:related "Mor Eusebios" ;
+ skos:related <http://syriaca.org/place/11> ;
+ skos:related <http://syriaca.org/place/340> ;
  dcterms:description "A village northwest of , known for its monastery of ." ;
  dcterms:temporal "0550" ;
  foaf:primaryTopicOf <http://syriaca.org/place/564/html> ;
@@ -25516,8 +25515,8 @@ geo:location [
  lawd:variantForm "الجبل المدخن"@ar ;];
  lawd:hasName [
  lawd:variantForm "Smoke Mountain"@en ;];
- skos:related "Nabk" ;
- skos:related "Musa al-Ḥabashi" ;
+ skos:related <http://syriaca.org/place/143> ;
+ skos:related <http://syriaca.org/place/228> ;
  dcterms:description "The hill outside of on which is the monastery of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/562/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/562/tei> .
@@ -25535,7 +25534,7 @@ geo:location [
  lawd:variantForm "مريبا"@ar ;];
  lawd:hasName [
  lawd:variantForm "Murayba"@en ;];
- skos:related "Ḥarran" ;
+ skos:related <http://syriaca.org/place/216> ;
  dcterms:description "A village near ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/561/html> ;
@@ -25558,8 +25557,8 @@ geo:location [
  lawd:variantForm "Dayr al-Muallaq"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Dayr al-Mu‘allaq"@en-xsrp1 ;];
- skos:related "Balad" ;
- skos:related "Dayr al-Muʿallaq" ;
+ skos:related <http://syriaca.org/place/42> ;
+ skos:related <http://syriaca.org/place/391> ;
  dcterms:description "A mountain near on which was the ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/560/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/560/tei> .
@@ -25589,7 +25588,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1918" ;
  foaf:primaryTopicOf <http://syriaca.org/place/559/html> ;
@@ -25606,8 +25605,8 @@ geo:location [
  lawd:variantForm "سينجس"@ar ;];
  lawd:hasName [
  lawd:variantForm "Sinjis"@en ;];
- skos:related "Claudia" ;
- skos:related "Dayro d-Modiq" ;
+ skos:related <http://syriaca.org/place/63> ;
+ skos:related <http://syriaca.org/place/386> ;
  dcterms:description "A village near , near which is the ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/558/html> ;
@@ -25634,7 +25633,7 @@ geo:location [
  lawd:variantForm "Bab al-Āmūd"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Bab al-‘Āmūd"@en-xsrp1 ;];
- skos:related "Jerusalem" ;
+ skos:related <http://syriaca.org/place/104> ;
  dcterms:description "A district of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/557/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/557/tei> .
@@ -25656,7 +25655,7 @@ geo:location [
  lawd:variantForm "monastery of John the Arab"@en ;];
  lawd:hasName [
  lawd:variantForm "Mār Yōḥannān the Arab"@en ;];
- skos:related "Mar Awgen" ;
+ skos:related <http://syriaca.org/place/339> ;
  dcterms:description "A monastery near the monastery of ." ;
  dcterms:temporal "1271" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874586> ;
@@ -25678,8 +25677,8 @@ geo:location [
  lawd:variantForm "ديركه"@ar ;];
  lawd:hasName [
  lawd:variantForm "Dairkah"@en ;];
- skos:related "Mardin" ;
- skos:related "Mor Daniel of Jolsh" ;
+ skos:related <http://syriaca.org/place/130> ;
+ skos:related <http://syriaca.org/place/353> ;
  dcterms:description "A village north of near which is the monastery of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/555/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/555/tei> .
@@ -25695,8 +25694,8 @@ geo:location [
  lawd:variantForm "المتينية"@ar ;];
  lawd:hasName [
  lawd:variantForm "Matīniyya"@en ;];
- skos:related "Mardin" ;
- skos:related "Mor Daniel of Jolsh" ;
+ skos:related <http://syriaca.org/place/130> ;
+ skos:related <http://syriaca.org/place/353> ;
  dcterms:description "The mountain north of on which is built the monastery of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/554/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/554/tei> .
@@ -25720,7 +25719,7 @@ geo:location [
  lawd:variantForm "Atafiyya"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Atafiyya"@en-xsrp1 ;];
- skos:related "Ḥesno d-Kifo" ;
+ skos:related <http://syriaca.org/place/92> ;
  dcterms:description "A village near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/553/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/553/tei> .
@@ -25756,9 +25755,9 @@ geo:location [
  lawd:variantForm "دير القديسة بربارة"@ar ;];
  lawd:hasName [
  lawd:variantForm "Barbara Monastery"@en ;];
- skos:related "St. Barbara" ;
- skos:related "St. Barbara" ;
- dcterms:description "A second "St. Barbara" monastery mentioned by Barsoum in his description of ." ;
+ skos:related <http://syriaca.org/place/346> ;
+ skos:related <http://syriaca.org/place/346> ;
+ dcterms:description "A second St. Barbara monastery mentioned by Barsoum in his description of ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/551/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/551/tei> ;
@@ -25776,7 +25775,7 @@ geo:location [
  lawd:variantForm "الشغر"@ar ;];
  lawd:hasName [
  lawd:variantForm "Shaghr"@en ;];
- skos:related "Qlisuro" ;
+ skos:related <http://syriaca.org/place/438> ;
  dcterms:description "A village near ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/550/html> ;
@@ -25821,7 +25820,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/549/html> ;
@@ -25844,7 +25843,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/548/html> ;
@@ -25867,7 +25866,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/547/html> ;
@@ -25888,7 +25887,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/546/html> ;
@@ -25909,7 +25908,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/545/html> ;
@@ -25934,7 +25933,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/544/html> ;
@@ -25955,7 +25954,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/543/html> ;
@@ -25976,7 +25975,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/542/html> ;
@@ -25999,7 +25998,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/541/html> ;
@@ -26020,7 +26019,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1415" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Taşköy,_Nusaybin> ;
@@ -26062,7 +26061,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1430" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Dargeçit> ;
@@ -26084,7 +26083,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1431" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/İzbırak,_Mardin> ;
@@ -26110,7 +26109,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "0640" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Alagöz,_Mardin> ;
@@ -26128,7 +26127,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/536/html> ;
@@ -26151,7 +26150,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/535/html> ;
@@ -26178,7 +26177,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:description [
  rdfs:label "Alternate spelling in Sharbil Monastery desc. - TAC"@en ;
@@ -26204,7 +26203,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/533/html> ;
@@ -26227,7 +26226,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "0934" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Altıntaş,_Mardin> ;
@@ -26251,7 +26250,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/531/html> ;
@@ -26351,7 +26350,7 @@ geo:location [
  lawd:variantForm "Ḥiṣn Maslama Ibn Abd al-Malik"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ḥiṣn Maslama Ibn ‘Abd al-Malik"@en-xsrp1 ;];
- skos:related "Tell Maḥre" ;
+ skos:related <http://syriaca.org/place/314> ;
  dcterms:description "Not far from ." ;
  dcterms:temporal "1225" ;
  foaf:primaryTopicOf <http://syriaca.org/place/527/html> ;
@@ -26372,8 +26371,8 @@ geo:location [
  lawd:variantForm "Iran"@en ;];
  lawd:hasName [
  lawd:variantForm "فارس"@ar ;];
- skos:related "Caspian Sea" ;
- skos:related "Persian Gulf" ;
+ skos:related <http://syriaca.org/place/61> ;
+ skos:related <http://syriaca.org/place/156> ;
  dcterms:description "A large plateau region stretching from the to the ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Iran> ;
  foaf:primaryTopicOf <http://syriaca.org/place/526/html> ;
@@ -26390,7 +26389,7 @@ geo:location [
  lawd:variantForm "ܒܝܣܝܺܕܝܗ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "بيسيدية"@ar ;];
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A region of southwestern ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/981544> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Pisidia> ;
@@ -26461,9 +26460,9 @@ geo:location [
  lawd:variantForm "سلمان باك"@ar ;];
  lawd:hasName [
  lawd:variantForm "Salman Pak"@en ;];
- skos:related "Tigris" ;
- skos:related "Baghdad" ;
- skos:related "Ctesiphon" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/41> ;
+ skos:related <http://syriaca.org/place/58> ;
  dcterms:description "A modern city on the south of which partially overlaps the ancient city of ." ;
  dcterms:temporal "1943" ;
  skos:exactMatch <http://pleiades.stoa.org/places/893947> ;
@@ -26488,8 +26487,8 @@ geo:location [
  lawd:variantForm "ܩܐܰܗܪܗ̈"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "القاهرة"@ar ;];
- skos:related "Nile" ;
- skos:related "Egypt" ;
+ skos:related <http://syriaca.org/place/629> ;
+ skos:related <http://syriaca.org/place/715> ;
  dcterms:description "A major city on the which served as a medieval and modern capital of ." ;
  dcterms:temporal "0969" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Cairo> ;
@@ -26514,7 +26513,7 @@ geo:location [
  lawd:variantForm "Mamūrat al-Azīz"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ma‘mūrat al-‘Azīz"@en-xsrp1 ;];
- skos:related "Maʿmūrat al-ʿAzīz" ;
+ skos:related <http://syriaca.org/place/697> ;
  dcterms:description "A town east of ." ;
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874383> ;
@@ -26569,7 +26568,7 @@ geo:location [
  lawd:variantForm "Batyas"@en ;];
  lawd:hasName [
  lawd:variantForm "بِطْياس"@ar ;];
- skos:related "al-Raqqa" ;
+ skos:related <http://syriaca.org/place/109> ;
  dcterms:description "Near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/519/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/519/tei> .
@@ -26609,7 +26608,7 @@ geo:location [
  lawd:variantForm "Ghūta"@en ;];
  lawd:hasName [
  lawd:variantForm "الغْوْطة"@ar ;];
- skos:related "Damascus" ;
+ skos:related <http://syriaca.org/place/66> ;
  dcterms:description "The fertile farmland surrounding ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ghouta> ;
  foaf:primaryTopicOf <http://syriaca.org/place/517/html> ;
@@ -26628,8 +26627,8 @@ geo:location [
  lawd:variantForm "Aintab"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Aintab"@en-xsrp1 ;];
- skos:related "Adana" ;
- skos:related "ʿAintab" ;
+ skos:related <http://syriaca.org/place/15> ;
+ skos:related <http://syriaca.org/place/222> ;
  dcterms:description "A village between and ." ;
  dcterms:temporal "1900" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Yarpuz> ;
@@ -26647,8 +26646,8 @@ geo:location [
  lawd:variantForm "ارك"@ar ;];
  lawd:hasName [
  lawd:variantForm "أَرَك"@ar ;];
- skos:related "Palmyra" ;
- skos:related "Sukhna" ;
+ skos:related <http://syriaca.org/place/153> ;
+ skos:related <http://syriaca.org/place/514> ;
  dcterms:description "A village on the desert road between and ." ;
  dcterms:temporal "0075" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668196> ;
@@ -26675,8 +26674,8 @@ geo:location [
  lawd:variantForm "سخنة"@ar ;];
  lawd:hasName [
  lawd:variantForm "سُخْنة"@ar ;];
- skos:related "Palmyra" ;
- skos:related "Dayr al-Zor" ;
+ skos:related <http://syriaca.org/place/153> ;
+ skos:related <http://syriaca.org/place/482> ;
  dcterms:description "A town on the desert road between and ." ;
  dcterms:temporal "0634" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668178> ;
@@ -26701,7 +26700,7 @@ geo:location [
  lawd:variantForm "ܨܰܘܪܳܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "الصور"@ar ;];
- skos:related "Mardin" ;
+ skos:related <http://syriaca.org/place/130> ;
  dcterms:description "A district near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/513/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/513/tei> .
@@ -26748,9 +26747,9 @@ geo:location [
  lawd:variantForm "Aintab"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Aintab"@en-xsrp1 ;];
- skos:related "Euphrates" ;
- skos:related "ʿAintab" ;
- skos:related "Birtha" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/222> ;
+ skos:related <http://syriaca.org/place/50> ;
  dcterms:description "A town west of the between and ." ;
  dcterms:description [
  rdfs:label "ونصيبين ايضا قرية على شاطئ الفرات غربي بيرهجك كانت تعرف بنصيبين الروم."@ar ;
@@ -26783,7 +26782,7 @@ geo:location [
  lawd:variantForm "توقات"@ar ;];
  lawd:hasName [
  lawd:variantForm "تَوْقات"@ar ;];
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A city of north-central ." ;
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/857105> ;
@@ -26810,8 +26809,8 @@ geo:location [
  lawd:variantForm "واسط"@ar ;];
  lawd:hasName [
  lawd:variantForm "Wasit"@en ;];
- skos:related "Tigris" ;
- skos:related "Kashkar" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/111> ;
  dcterms:description "A city of southern Iraq on the west bank of the ." ;
  dcterms:temporal "0714" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Wasit,_Iraq> ;
@@ -26852,8 +26851,8 @@ geo:location [
  lawd:variantForm "ܟܽܘܓܝܺܢ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "كوجين"@ar ;];
- skos:related "Kerala" ;
- skos:related "India" ;
+ skos:related <http://syriaca.org/place/602> ;
+ skos:related <http://syriaca.org/place/500> ;
  dcterms:description "A city in in southern ." ;
  dcterms:temporal "1433" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kochi> ;
@@ -26872,7 +26871,7 @@ geo:location [
  lawd:variantForm "ܬܪܰܐܘܢܟܘܪ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "تراونكور"@ar ;];
- skos:related "India" ;
+ skos:related <http://syriaca.org/place/500> ;
  dcterms:description "A region in southern ." ;
  dcterms:temporal "1739" ;
  skos:exactMatch <http://pleiades.stoa.org/places/50205> ;
@@ -26891,7 +26890,7 @@ geo:location [
  lawd:variantForm "شروان"@ar ;];
  lawd:hasName [
  lawd:variantForm "Sherwan"@en ;];
- skos:related "Siirt" ;
+ skos:related <http://syriaca.org/place/188> ;
  dcterms:description "A village northeast of ." ;
  dcterms:temporal "1943" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Şirvan> ;
@@ -26933,7 +26932,7 @@ geo:location [
  lawd:variantForm "البحر الاسود"@ar ;];
  lawd:hasName [
  lawd:variantForm "بحر بنْطُس"@ar ;];
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A large sea north of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/1224> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Black_Sea> ;
@@ -26961,7 +26960,7 @@ geo:location [
  lawd:variantForm "Ismit"@en ;];
  lawd:hasName [
  lawd:variantForm "Nicomedia"@en ;];
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "Ancient Nicomedia, a city in northwestern ." ;
  dcterms:temporal "-0711" ;
  skos:exactMatch <http://pleiades.stoa.org/places/511337> ;
@@ -26991,7 +26990,7 @@ geo:location [
  lawd:variantForm "Macine"@en ;];
  lawd:hasName [
  lawd:variantForm "ماكِسِين"@ar ;];
- skos:related "Khābūrā district" ;
+ skos:related <http://syriaca.org/place/332> ;
  dcterms:description "A town of the ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/501/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/501/tei> .
@@ -27124,8 +27123,8 @@ geo:location [
  lawd:variantForm "Maarrat al-Numān"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ma‘arrat al-Nu‘mān"@en-xsrp1 ;];
- skos:related "Maʿarrat al-Nuʿmān" ;
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/498> ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description "A desert area between and ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/498/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/498/tei> .
@@ -27187,8 +27186,8 @@ geo:location [
  lawd:variantForm "النجف"@ar ;];
  lawd:hasName [
  lawd:variantForm "النَجَف"@ar ;];
- skos:related "Euphrates" ;
- skos:related "Baghdad" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/41> ;
  dcterms:description "A city on the south of ." ;
  dcterms:temporal "1600" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Najaf> ;
@@ -27212,7 +27211,7 @@ geo:location [
  lawd:variantForm "Ankara"@en ;];
  lawd:hasName [
  lawd:variantForm "أَنْقِرة"@ar ;];
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A city of central ." ;
  dcterms:temporal "-1000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/619103> ;
@@ -27239,7 +27238,7 @@ geo:location [
  lawd:variantForm "قطر الصوفنيين"@ar ;];
  lawd:hasName [
  lawd:variantForm "Sufniyyin province"@en ;];
- skos:related "Maypherqaṭ" ;
+ skos:related <http://syriaca.org/place/134> ;
  dcterms:description "A region north of ." ;
  dcterms:temporal "-0550" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874707> ;
@@ -27282,8 +27281,8 @@ geo:location [
  lawd:variantForm "Diyar Miṣr"@en ;];
  lawd:hasName [
  lawd:variantForm "ديار مُضر"@ar ;];
- skos:related "Euphrates" ;
- skos:related "Samosata" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/178> ;
  dcterms:description "A region of Mesopotamia on the from to western Iraq." ;
  dcterms:temporal "0700" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Diyar_Mudar> ;
@@ -27305,8 +27304,8 @@ geo:location [
  lawd:variantForm "Tell al-Arman"@en ;];
  lawd:hasName [
  lawd:variantForm "Tel Armen"@en ;];
- skos:related "Mardin" ;
- skos:related "Dunaysar" ;
+ skos:related <http://syriaca.org/place/130> ;
+ skos:related <http://syriaca.org/place/401> ;
  dcterms:description "A town south of near ." ;
  dcterms:temporal "0640" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874572> ;
@@ -27343,7 +27342,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "0998" ;
 geo:location [
@@ -27368,8 +27367,8 @@ geo:location [
  lawd:variantForm "مرسين"@ar ;];
  lawd:hasName [
  lawd:variantForm "Mersin"@en ;];
- skos:related "Mediterranean Sea" ;
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/135> ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A port city on the in southern ." ;
  dcterms:temporal "-0140" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648810> ;
@@ -27394,8 +27393,8 @@ geo:location [
  lawd:variantForm "ܝܰܡܐ ܕܡܰܪܡܰܪܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "بحر مرمرة"@ar ;];
- skos:related "Black Sea" ;
- skos:related "Constantinople" ;
+ skos:related <http://syriaca.org/place/503> ;
+ skos:related <http://syriaca.org/place/586> ;
  dcterms:description "A small sea on the waterway between the and the Aegean, south of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/511381> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sea_of_Marmara> ;
@@ -27421,7 +27420,7 @@ geo:location [
  lawd:variantForm "لبنان"@ar ;];
  lawd:hasName [
  lawd:variantForm "لُبنان"@ar ;];
- skos:related "Mediterranean Sea" ;
+ skos:related <http://syriaca.org/place/135> ;
  dcterms:description "A mountainous region in the central Levantine coast of the ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/678267> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Lebanon> ;
@@ -27447,9 +27446,9 @@ geo:location [
  lawd:variantForm "ارض الشام"@ar ;];
  lawd:hasName [
  lawd:variantForm "الشَأم"@ar ;];
- skos:related "Euphrates River" ;
- skos:related "Mediterranean Sea" ;
- skos:related "Palestine" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/135> ;
+ skos:related <http://syriaca.org/place/698> ;
  dcterms:description "A historical region bounded on the north by the and the Taurus Mountains, on the west by the , on the east by the desert, and on the south by , which during the medieval period was considered the southernmost district of Syria." ;
  dcterms:temporal "-0200" ;
  skos:exactMatch <http://pleiades.stoa.org/places/1306> ;
@@ -27472,7 +27471,7 @@ geo:location [
  lawd:variantForm "Khuser Creek"@en ;];
  lawd:hasName [
  lawd:variantForm "خَوْسر"@ar ;];
- skos:related "Tigris" ;
+ skos:related <http://syriaca.org/place/202> ;
  dcterms:description "A tributary of the in northern Iraq." ;
  foaf:primaryTopicOf <http://syriaca.org/place/485/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/485/tei> .
@@ -27490,7 +27489,7 @@ geo:location [
  lawd:variantForm "ارزروم"@ar ;];
  lawd:hasName [
  lawd:variantForm "ارزن الروم"@ar ;];
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A city in northeastern ." ;
  dcterms:temporal "0012" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874373> ;
@@ -27517,7 +27516,7 @@ geo:location [
  lawd:variantForm "al-Ajjāja"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "al-‘Ajjāja"@en-xsrp1 ;];
- skos:related "Khabur River" ;
+ skos:related <http://syriaca.org/place/114> ;
  dcterms:description "A site east of the in Mesopotamia." ;
  foaf:primaryTopicOf <http://syriaca.org/place/483/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/483/tei> .
@@ -27537,8 +27536,8 @@ geo:location [
  lawd:variantForm "Dayr al-Zur"@en ;];
  lawd:hasName [
  lawd:variantForm "Deir al-Zor"@en ;];
- skos:related "Euphrates" ;
- skos:related "al-Raqqa" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/109> ;
  dcterms:description "A city on the southeast of ." ;
  dcterms:temporal "1867" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Deir_ez-Zor> ;
@@ -27557,10 +27556,10 @@ geo:location [
  lawd:variantForm "ܝܶܫܺܝܠ ܐܺܝܪܡܰܐܩ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "يشيل ايرماق"@ar ;];
- skos:related "Tokat" ;
- skos:related "Amāsiyya" ;
- skos:related "Black Sea" ;
- skos:related "Samsun" ;
+ skos:related <http://syriaca.org/place/510> ;
+ skos:related <http://syriaca.org/place/292> ;
+ skos:related <http://syriaca.org/place/503> ;
+ skos:related <http://syriaca.org/place/480> ;
  dcterms:description "A river which flows past and before emptying into the near ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/857171> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Yeşilırmak_River> ;
@@ -27584,8 +27583,8 @@ geo:location [
  lawd:variantForm "ܨܰܐܡܨܘܽܢ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "سمسون"@ar ;];
- skos:related "Black Sea" ;
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/503> ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A port city on the in northern central ." ;
  dcterms:temporal "-0047" ;
  skos:exactMatch <http://pleiades.stoa.org/places/857024> ;
@@ -27839,7 +27838,7 @@ geo:location [
  lawd:variantForm "Dayr al-Zafarān"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Dayr al-Za‘farān"@en-xsrp1 ;];
- skos:related "Dayr al-Zaʿfarān" ;
+ skos:related <http://syriaca.org/place/69> ;
  dcterms:description "A monastery in ." ;
  dcterms:description [
  rdfs:label "first mentioned in history in 1165 and still active."@en ;
@@ -28126,7 +28125,7 @@ geo:location [
  lawd:variantForm "ܡܝܺܠܝܒܰܪ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "ملبار"@ar ;];
- skos:related "India" ;
+ skos:related <http://syriaca.org/place/500> ;
  dcterms:description "A coastal region in southern ." ;
  dcterms:description [
  rdfs:label "ܩܠܝܡܰܐ ܗܘ ܕܰܒܬܝܡܰܢ ܡܰܥܪܰܒ ܐܰܬܪ̈ܰܘܳܬܐ ܕܗܶܢܕܘ ܥܰܠ ܝܰܕ ܐܘܩܝܰܐܢܘܣ ܗܶܢܕܘܳܝܳܐ ܕܐܳܚܶܕ ܠܬܰܪܬܶܝܢ ܐܰܡܝܪ̈ܘܳܬܐ ܕܟܺܘܓܝܺܢ ܘܰܬܪܰܐܘܢܟܘܪ"@syr-Syrj ;
@@ -28164,7 +28163,7 @@ geo:location [
  lawd:variantForm "Masarte"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ma‘sarte"@en-xsrp1 ;];
- skos:related "Mardin" ;
+ skos:related <http://syriaca.org/place/130> ;
  dcterms:description "A village near ." ;
  dcterms:description [
  rdfs:label "ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܡܰܪܕܝܢ ܡܰܪܕܶܐ ܫܶܬ ܫܳܥܝ̈ܢ ܠܓܰܪܒܝܗ̇."@syr-Syrj ;
@@ -28318,8 +28317,8 @@ geo:location [
  lawd:variantForm "ܡܰܐܝܘܡܰܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "مايوما"@ar ;];
- skos:related "Gaza" ;
- skos:related "Gaza" ;
+ skos:related <http://syriaca.org/place/87> ;
+ skos:related <http://syriaca.org/place/87> ;
  dcterms:description "The port city of ." ;
  dcterms:description [
  rdfs:label "ܠܡܺܐܢܳܐ ܚܰܪܝܒܳܐ ܒܩܘܪܒܳܐ ܕܥܰܙܐ ܥܰܠ ܝܰܕ ܝܰܡܳܐ ܡܶܨܥܳܝܐ."@syr-Syrj ;
@@ -28493,7 +28492,7 @@ geo:location [
  lawd:variantForm "كورتم"@ar ;];
  lawd:hasName [
  lawd:variantForm "Qawartam"@en ;];
- skos:related "Euphrates" ;
+ skos:related <http://syriaca.org/place/82> ;
  dcterms:description "A village on the ." ;
  dcterms:description [
  rdfs:label "ܩܪܺܝܬܳܐ ܗܘܳܬ ܥܰܠ ܦܪܳܬ. ܘܐܝܺܬܶܝܗ̇ ܡܳܬܳܐ ܕܩܰܕܝܫܳܐ ܝܰܥܩܘܒ ܕܰܣܪܘܓ ܡܰܠܦܳܢܐ 521"@syr-Syrj ;
@@ -28525,7 +28524,7 @@ geo:location [
  lawd:variantForm "Batnan"@en ;];
  lawd:hasName [
  lawd:variantForm "بُطْنان"@ar ;];
- skos:related "Serugh" ;
+ skos:related <http://syriaca.org/place/48> ;
  dcterms:description "A town of ." ;
  dcterms:description [
  rdfs:label "ܡܕܺܝܢܬܐ ܥܰܬܝܩܬܳܐ ܕܰܒܩܘܪܒܳܐ ܕܰܣܪܘܓ ܗܘܬ."@syr-Syrj ;
@@ -28590,8 +28589,8 @@ geo:location [
  lawd:variantForm "ܟܰܢܕܝܢܰܐܛ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "كنديناط"@ar ;];
- skos:related "Malabar coast" ;
- skos:related "India" ;
+ skos:related <http://syriaca.org/place/461> ;
+ skos:related <http://syriaca.org/place/500> ;
  dcterms:description "A city on the in ." ;
  dcterms:description [
  rdfs:label "ܐܰܬܪܐ ܗܰܘ ܕܰܒܓܰܪܒܰܝ ܡܰܕܢܰܚ ܡܺܝܠܝܒܰܪ ܒܗܶܢܕܘ."@syr-Syrj ;
@@ -28758,7 +28757,7 @@ geo:location [
  lawd:variantForm "Kabiya"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ka‘biya"@en-xsrp1 ;];
- skos:related "Amid" ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A village near ." ;
  dcterms:description [
  rdfs:label "ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܐܳܡܝܕ ܕܰܡܝܰܬܒܳܐ ܗܘܳܬ ܒܣܘܪ̈ܝܳܝܐ ܐܶܣܬܰܚܦܰܬ ܒܰܩܪܳܒܐ ܕܰܥܒܰܪ."@syr-Syrj ;
@@ -28960,7 +28959,7 @@ geo:location [
  lawd:variantForm "ܦܰܝܪܘܙܗ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "فيروزه"@ar ;];
- skos:related "Ḥimṣ" ;
+ skos:related <http://syriaca.org/place/215> ;
  dcterms:description "A village near ." ;
  dcterms:description [
  rdfs:label "ܡܶܢ ܩܘܪ̈ܝܐ ܕܰܚܡܶܨ ܠܡܰܕܢܚܳܐ ܡܝܰܬܒܳܐ ܒܣܘܪ̈ܝܝܐ."@syr-Syrj ;
@@ -29015,7 +29014,7 @@ geo:location [
  lawd:variantForm "Ayn Dābā"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Ayn Dābā"@en-xsrp1 ;];
- skos:related "Anazarba" ;
+ skos:related <http://syriaca.org/place/9> ;
  dcterms:description [
  rdfs:label "في كورة انطاكية مجهولة الموقع، موطن العلامة يعقوب الرهاوي."@ar ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
@@ -29186,7 +29185,7 @@ geo:location [
  lawd:variantForm "Balikh river"@en ;];
  lawd:hasName [
  lawd:variantForm "البليخ"@ar ;];
- skos:related "Daysan" ;
+ skos:related <http://syriaca.org/place/191> ;
  dcterms:description "A tributary of the Euphrates that enters it at al-Raqqa." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Balikh_River> ;
  foaf:primaryTopicOf <http://syriaca.org/place/43/html> ;
@@ -29211,7 +29210,7 @@ geo:location [
  lawd:variantForm "Ānāt"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Ānāt"@en-xsrp1 ;];
- skos:related "ʿĀnāt" ;
+ skos:related <http://syriaca.org/place/665> ;
  dcterms:description [
  rdfs:label "ܐܰܬܪܐ ܗܘ ܕܰܠܡܰܥܪܒܳܐ ܕܰܦܪܳܬ. ܘܰܠܬܰܝܡܢܳܐ ܡܰܕܢܚܳܝܐ ܕܕܰܝܪ ܐܠܙܘܪ. ܡܶܢ ܐܰܬܪ̈ܘܬܐ ܕܥܪܰܐܩ."@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
@@ -29248,7 +29247,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/428/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/428/tei> .
@@ -29316,7 +29315,7 @@ geo:location [
  lawd:variantForm "Quṭrubul"@en ;];
  lawd:hasName [
  lawd:variantForm "قُطْرَبُّل"@ar ;];
- skos:related "Amid" ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A village near ." ;
  dcterms:description [
  rdfs:label "ܩܪܝܬܳܐ ܗܝ ܕܠܘܩܒܰܠ ܐܳܡܝܕ ܕܥܰܠ ܝܰܕ ܕܶܩܠܰܬ ܢܦܰܩܘ ܐܢܳܫ̈ܝܗ̇ ܣܘܪ̈ܝܳܝܐ ܫܢܰܬ 1928 ."@syr-Syrj ;
@@ -29424,7 +29423,7 @@ geo:location [
  lawd:variantForm "قالوق"@ar ;];
  lawd:hasName [
  lawd:variantForm "Qālūq"@en ;];
- skos:related "Mardin" ;
+ skos:related <http://syriaca.org/place/130> ;
  dcterms:description "A village near ." ;
  dcterms:description [
  rdfs:label "ܩܪܝܬܳܐ ܗܝ ܕܒܐܘܚܕܳܢܳܐ ܕܨܰܘܪܳܐ ܘܰܡܝܰܬܒܳܐ ܗܘܳܬ ܒܣܘܪ̈ܝܳܝܶܐ ܒܡܶܨܥܝ̈ܬܗ ܕܕܳܪܐ ܕܝ̄ܙ"@syr-Syrj ;
@@ -29920,7 +29919,7 @@ geo:location [
  lawd:variantForm "زرجل"@ar ;];
  lawd:hasName [
  lawd:variantForm "Zarjal"@en ;];
- skos:related "Ḥesno d-Kifo" ;
+ skos:related <http://syriaca.org/place/92> ;
  dcterms:description "A village near ." ;
  dcterms:description [
  rdfs:label "ܩܪܝܬܳܐ ܪܰܒܬܐ ܕܰܒܒܶܝܬ ܫܺܐܪ̈ܳܝܐ ܕܒܐܘܚܕܳܢܳܐ ܕܰܣܥܶܪܬ."@syr-Syrj ;
@@ -30079,7 +30078,7 @@ geo:location [
  lawd:variantForm "Dayr Elijah"@en ;];
  lawd:hasName [
  lawd:variantForm "Çiftlik"@en ;];
- skos:related "Mar Eliya" ;
+ skos:related <http://syriaca.org/place/613> ;
  dcterms:description [
  rdfs:label "ܡܰܙܪܰܥܬܐ ܗܝ ܕܒܰܫܦܘܠܐ ܕܛܘܪܐ ܕܡܰܪܕܝܢ ܘܰܒܬܰܝܡܢܳܗ̇ ܐܶܬܩܰܪܝܰܬ ܒܫܶܡ ܡܳܪܝ ܐܠܝܐ. ܡܛܠ ܕܥܺܕܬܳܗ̇ ܒܓܰܘܗ̇ ܣܺܝܡܳܐ ܘܡܶܬܐܡܪ ܠܗ̇ ܬܘܪܟܳܐܝܬ ܓܶܦܬܠܶܟ"@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
@@ -30134,7 +30133,7 @@ geo:location [
  lawd:variantForm "Koç Hisar"@en ;];
  lawd:hasName [
  lawd:variantForm "دُنيسر"@ar ;];
- skos:related "Kızıltepe" ;
+ skos:related <http://syriaca.org/place/490> ;
  dcterms:description [
  rdfs:label "ܠܬܰܝܡܢܗ ܡܰܥܪܒܳܝܐ ܕܡܰܪܕܝܢ ܒܰܝܢܳܬܗܝܢ ܬܪܶܝܢ ܦܰܪ̈ܣܚܐ ܒܕܳܪܐ ܕܰܬܠܳܬܰܥܣܪ ܡܕܝܢܬܳܐ ܗܘܳܬ ܪܒܬܐ. ܝܰܘܡܳܢܐ ܒܪܰܡ ܩܰܝܳܡܐ ܒܕܘܟܬܗ̇ ܩܰܣܛܪܐ ܕܡܶܬܶܐܡܰܪ ܠܗ ܩܶܙܶܠܬܰܦܰܗ ܗ̄ ܬܶܠܳܐ ܣܘܡܳܩܐ."@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
@@ -30241,7 +30240,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:description [
  rdfs:label "ܐܰܬܪܐ ܘܩܶܠܥܳܐ ܕܰܠܓܰܪܒܝ ܡܰܕܢܰܚ ܡܰܪܕܝܢ ܡܰܪܕܶܐ ܝܰܘܡܳܐ"@syr-Syrj ;
@@ -30279,7 +30278,7 @@ geo:location [
  lawd:variantForm "John Orti Monastery"@en ;];
  lawd:hasName [
  lawd:variantForm "Monastery of John the Iberian"@en ;];
- skos:related "Amid" ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A monastery north of ." ;
  dcterms:description [
  rdfs:label "ܒܢܳܝܗܝ ܗܳܢܐ ܥܢܘܳܝܐ ܒܰܫܒܳܒܘܬܗ̇ ܕܐܳܡܝܕ ܫܢܰܬ 590 ܐܰܦܩ ܬܠܳܬܐ ܐܶܦܝܣ̈ܩܘܦܐ ܗܰܘ ܕܶܝܢ ܕܛܰܒܝܒ ܒܗܘܢ ܝܘܚܰܢܢ ܕܐܶܦܣܘܣ ܘܠܐ ܦܓܰܥܢܢ ܒܛܶܐܒܐ ܥܠܰܘܗܝ ܒܳܬܰܪ ܫܢܰܬ 600 ."@syr-Syrj ;
@@ -30367,7 +30366,7 @@ geo:location [
  lawd:variantForm "Mor Yaqub"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Mor Ya‘qub"@en-xsrp1 ;];
- skos:related "Kaysum" ;
+ skos:related <http://syriaca.org/place/112> ;
  dcterms:description "A monastery in ." ;
  dcterms:description [
  rdfs:label "ܒܩܘܪܒܐ ܕܟܰܝܫܘܡ ܕܟܝܪ ܒܡܰܟܬܰܒ̈ܙܰܒܢܐ ܒܰܐܚܪ̈ܝܳܬܗ ܕܕܳܪܐ ܫܒܝܥܳܝܐ. ܘܗܘܐ ܡܢܗ ܥܶܣܪܐ ܐܶܦܝܣ̈ܩܘܦܐ ܡܢ ܫܢܰܬ 810 - 925"@syr-Syrj ;
@@ -30556,7 +30555,7 @@ geo:location [
  lawd:variantForm "Muallaq Monastery"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Mu‘allaq Monastery"@en-xsrp1 ;];
- skos:related "Balad" ;
+ skos:related <http://syriaca.org/place/42> ;
  dcterms:description "A monastery near ." ;
  dcterms:description [
  rdfs:label "ܒܫܶܡ ܥܢܘܳܝ̈ܐ ܣܰܪܓܝܣ ܘܰܙܥܘܪܐ ܘܒܳܥܘܬ ܥܰܠ ܪܳܡܬܐ ܕܛܘܪܐ ܨܗܝܳܐ ܠܥܶܠ ܡܶܢ ܒܳܠܕ ܡܕܝܢܬܐ ܒܰܬܠܳܬܐ ܦܪ̈ܣܚܝܢ ܒܶܝܬ ܠܗ̇ ܠܫܝܓܳܪ ܠܡܰܥܪܰܒ ܡܰܘܨܠ ܘܡܶܣܬܒܰܪ ܒܶܢܝܳܢܗ ܒܡܰܐܬܐ ܚܡܝܫܝܬܐ ܐܰܦܩ ܚܰܕ ܡܰܦܪܝܳܢܐ ܘܐܢܳܫ̈ܝܢ ܐܶܦܝܣܩܘ̈ܦܐ. ܘܰܗܘܐ ܟܘܪܣܝܳܐ ܐܶܦܝܣܩܘܦܳܝܐ ܡܶܢ ܫܢܰܬ 1167 - 1345 ܟܶܢ ܐܶܬܛܫܝ ܛܶܒܗ. ܘܐܶܬܠܰܝܬܝܰܬ ܕܘܟܬܗ"@syr-Syrj ;
@@ -30565,7 +30564,7 @@ geo:location [
  rdfs:label "باسم النساك سرجيس وزعورا وباعوث على قلة الجبل القاحل فوق مدينة بلد بثلاثة فراسخ بينها وبين سنجار غربي الموصل، يظن بناؤه في المئة الخامسة، انجب مفريانا وبعض اساقفة وصار كرسيا اسقفيا منذ سنة 1167 الى 1345 ثم انطمس خبره وعفا اثره."@ar ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
- rdfs:label "is thought to have been built in the fifth century in the name of the ascetics Sergius, Zura and Bāʿūth, on the crest of the Barren Mountain above Balad, three leagues from Sinjar, west of Mosul. It produced one Maphryono and some bishops and was a bishopric see from 1167 to 1345, after which it became deserted. [See "Rihla ila Athar Dayr al-Muʿallaq" ("A Trip to the Ruins of al-Muallaq Monastery"), Al-Mashriq 3: 7 (1951), 214-220. Although this article is unsigned, it was written by the late Bishop Gregorius Bulos Bahnam, (d. 1969), while he was still a monk in Mosul. This translator was among the group which visited the monastery with Rev. Bahnam (tr.)]."@en ;
+ rdfs:label "is thought to have been built in the fifth century in the name of the ascetics Sergius, Zura and Bāʿūth, on the crest of the Barren Mountain above Balad, three leagues from Sinjar, west of Mosul. It produced one Maphryono and some bishops and was a bishopric see from 1167 to 1345, after which it became deserted. [See Rihla ila Athar Dayr al-Muʿallaq (A Trip to the Ruins of al-Muallaq Monastery), Al-Mashriq 3: 7 (1951), 214-220. Although this article is unsigned, it was written by the late Bishop Gregorius Bulos Bahnam, (d. 1969), while he was still a monk in Mosul. This translator was among the group which visited the monastery with Rev. Bahnam (tr.)]."@en ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "0500" ;
  foaf:primaryTopicOf <http://syriaca.org/place/391/html> ;
@@ -30611,7 +30610,7 @@ geo:location [
  lawd:variantForm "بازبدي"@ar ;];
  lawd:hasName [
  lawd:variantForm "Bazabdi"@en ;];
- skos:related "Tigris" ;
+ skos:related <http://syriaca.org/place/202> ;
  dcterms:description "A diocese of the Church of the East on the upper ." ;
  dcterms:temporal "0497" ;
  foaf:primaryTopicOf <http://syriaca.org/place/39/html> ;
@@ -30934,7 +30933,7 @@ geo:location [
  rdfs:label "Beth Raziqaye" ;
  lawd:hasName [
  lawd:primaryForm "Beth Raziqaye"@en ;];
- skos:related "Caspian Sea" ;
+ skos:related <http://syriaca.org/place/61> ;
  dcterms:description "A diocese of the Church of the East, south of the ." ;
  dcterms:temporal "0410" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Rai_(East_Syrian_Ecclesiastical_Province)> ;
@@ -30991,8 +30990,8 @@ geo:location [
  lawd:variantForm "Qanqart Monastery"@en ;];
  lawd:hasName [
  lawd:variantForm "Qara Kelisa"@en ;];
- skos:related "Qanqart" ;
- skos:related "Amid" ;
+ skos:related <http://syriaca.org/place/565> ;
+ skos:related <http://syriaca.org/place/8> ;
  dcterms:description "A monastery near about 8 km. southwest of ." ;
  dcterms:description [
  rdfs:label "ܒܫܶܡ ܐܠܝܐ ܢܺܒܝܐ. ܠܒܰܪ ܡܶܢ ܐܳܡܝ̣ܕ ܗܘ ܡܰܪܕܶܐ ܫܳܥܐ ܘܦܶܠܓܳܐ ܠܘܳܬ ܩܰܢܩܪܰܬ ܩܪܝܬܳܐ ܕܟܺܝܪ ܫܢܰܬ 1050 ܘܚܰܕܶܬܘ ܒܶܢܝܳܢܰܘ̈ܗܝ ܡܝܟܳܐܝܠ ܪܰܒܐ ܫܢܬ 1173 ܘܐܝܓܢܰܐܛܝܘܣ ܫܟܪܐܠܠܗ ܫܢܰܬ 1730 ܘܐܶܬܓܰܙܝ ܡܶܢ ܐܢ̈ܫܰܘܗܝ ܒܫܘܪܳܝܐ ܕܡܰܐܬܐ ܬܫܰܥܣܝܪܳܝܬܐ. ܘܩܳܡܰܬ ܒܕܘܟܬܗ ܩܪܝܬܐ ܕܡܶܬܐܡܰܪ ܠܗ ܬܘܪܟܳܐܝܬ ܩܰܪܰܗ ܟܺܝܠܺܝܣܰܐ ܗܳܢܰܘ ܥܕܬܐ ܐܘܟܳܡܬܐ. ܡܶܛܠ ܐܘܟܳܡܘܬܐ ܕܐܰܬܪ̈ܘܳܬܐ ܗܳܢܘܢ ܘܰܥܕܰܡܐ ܠܝܰܘܡܳܢ ܩܳܝ̈ܡܝܢ ܚܰܪ̈ܒܬܳܗ̇"@syr-Syrj ;
@@ -31142,7 +31141,7 @@ geo:location [
  lawd:variantForm "Fsīltā Monastery"@en ;];
  lawd:hasName [
  lawd:variantForm "Quarry Monastery"@en ;];
- skos:related "Tella" ;
+ skos:related <http://syriaca.org/place/200> ;
  dcterms:description "A monastery near ." ;
  dcterms:description [
  rdfs:label "ܐܰܘܟܝܬ ܓܠܺܝܦܐ ܠܒܰܪ ܡܶܢ ܬܶܠ ܡܰܘܙܠܰܬ ܡܕܝܢܬܐ. ܐܶܫܬܰܬܐܣ ܒܡܰܐܬܳܐ ܚܡܝܫܳܝܬܳܐ ܘܐܰܦܩ ܚܰܡܫܐ ܐܶܦܝܣܩܘܦ̈ܐ ܘܰܫܠܺܝܘ ܛܶܒܰܘ̈ܗܝ ܫܢܰܬ 880 ."@syr-Syrj ;
@@ -31203,7 +31202,7 @@ geo:location [
  lawd:variantForm "دير العمود"@ar ;];
  lawd:hasName [
  lawd:variantForm "Pillar Monastery"@en ;];
- skos:related "Kallinikos" ;
+ skos:related <http://syriaca.org/place/109> ;
  dcterms:description "A monastery near ." ;
  dcterms:description [
  rdfs:label "ܒܰܡܕܝܢܬܰ ܩܰܠܘܢܝܩܝ ܥܠ ܣܶܦܬܐ ܣܶܡܳܠܝܬܐ ܕܰܦܪܳܬ ܩܳܡܰܬ ܒܫܘܽܟܠܳܠܗ ܩܰܝܣܰܪܬܐ ܬܶܐܘܕܳܘܪܰܐ ܫܢܰܬ 548 ܘܦܰܬܝܘܗܝ ܕܰܝܪ̈ܝܐ ܫܢܰܬ 635 ܥܰܕܰܪ ܠܥܕܬܐ ܒܚܰܕ ܦܰܛܪܝܰܪܟܐ ܘܰܒܥܶܣܪܐ ܐܶܦܝܣܩܘ̈ܦܐ ܥܕܰܡܐ ܠܰܫܢܰܬ 965 ."@syr-Syrj ;
@@ -31352,7 +31351,7 @@ geo:location [
  lawd:variantForm "Monastery of the Cross"@en ;];
  lawd:hasName [
  lawd:variantForm "Makhr Monastery"@en ;];
- skos:related "Defne" ;
+ skos:related <http://syriaca.org/place/553> ;
  dcterms:description "A monastery by ." ;
  dcterms:description [
  rdfs:label "ܕܺܝܕܺܝܥ ܝܰܘܡܳܢ ܕܰܝܪܐ ܕܡܰܟ݂ܰܪ ܗ̄ ܘܰܐܕܺܝ ܟܽܘܪܕܳܐܝܬ. ܕܰܝܪܳܐ ܙܥܘܽܪܐ ܒܓܶܒ ܕܶܦܢܗ ܩܪܺܝܬܐ ܒܐܽܘܪܚܐ ܕܚܰܣܢ ܟܺܐܦܐ. ܐܶܬܒܢܺܝ ܗܰܝܟܠܗ ܒܰܬܚܘ̈ܡܰܝ ܫܢܰܬ 770 ܚܪܶܒ ܒܰܩܪܳܒܐ ܕܰܥܒܰܪ ܒܩܶܛܠܐ ܕܐܰܚܪܳܝܐ ܕܕܰܝܪ̈ܳܝܰܘܗܝ ܩܳܡܘ ܡܢܗ ܬܠܬܐ ܐܶܦܝܣܩܘ̈ܦܐ."@syr-Syrj ;
@@ -31459,7 +31458,7 @@ geo:location [
  lawd:variantForm "دير مار شربيل"@ar ;];
  lawd:hasName [
  lawd:variantForm "Sharbil Monastery"@en ;];
- skos:related "Midyat" ;
+ skos:related <http://syriaca.org/place/137> ;
  dcterms:description "A monastery near ." ;
  dcterms:description [
  rdfs:label "ܒܰܟܦܪ ܫܳܡܰܥ. ܥܰܗܕܗ ܡܰܟܬܰܒܙܰܒܢ̈ܐ ܒܰܫܢܰܬ 1210 ܥܕܰܡܳܐ ܠܰܐܚܪ̈ܳܝܬܗ ܕܕܳܪܐ ܫܬܰܥܣܝܺܪܳܝܐ. ܘܡܶܢܗ ܩܳܡ ܡܰܦܪܝܳܢܐ ܒܛܘܪܥܰܒܕܝܢ."@syr-Syrj ;
@@ -31699,7 +31698,7 @@ geo:location [
  lawd:variantForm "Tell Bi'a"@en ;];
  lawd:hasName [
  lawd:variantForm "دير زَكّى"@ar ;];
- skos:related "Kallinikos" ;
+ skos:related <http://syriaca.org/place/109> ;
  dcterms:description "A monastery near ." ;
  dcterms:description [
  rdfs:label "ܒܩܰܠܘܢܝܩܝ ܒܓܶܒ ܢܗܰܪ ܒܰܐܠܚ. ܕܰܝܪܐ ܕܢܰܦܝ̣ܩ ܫܡܗ ܘܒܶܗ ܐܶܬܥܰܢܘܝ̣ ܝܘܚܰܢܢ ܕܬܶܠܐ ܫܢܰܬ 508 ܘܐܶܬܢܰܦܩ ܝܘܚܰܢܢ ܪܒܝܥܳܝܳܐ ܘܐܰܪܒܥܳܐ ܘܥܶܣܪܝܢ ܐܶܦܝܣܩܘܦ̈ܐ ܥܕܰܡܐ ܠܰܫܢܰܬ 954 ܫܪܳܐ ܒܗ ܒܚܰܕ ܝܽܘܡ ܗܰܐܪܘܢ ܪܰܫܝܕ ܘܰܒܣܶܡ ܠܗ ܘܰܥܒܰܕ ܛܳܒ̈ܬܐ ܠܐܢܳܫ̈ܰܘܗܝ."@syr-Syrj ;
@@ -31851,7 +31850,7 @@ geo:location [
  lawd:variantForm "Ḥananya Monastery"@en ;];
  lawd:hasName [
  lawd:variantForm "monastery of Mar Hanina"@en ;];
- skos:related "Kallinikos" ;
+ skos:related <http://syriaca.org/place/109> ;
  dcterms:description "A monastery near ." ;
  dcterms:description [
  rdfs:label "ܘܰܟܒܰܪ ܡܶܬܒܰܝܬܶܐ ܠܚܰܢܝܢܳܐ ܥܢܘܳܝܐ 500 ܒܶܗ ܐܶܬܬܣܪܰܚ ܦܶܛܪܘܣ ܬܠܝܬܳܝܐ ܫܢܰܬ 581."@syr-Syrj ;
@@ -31974,8 +31973,8 @@ geo:location [
  lawd:variantForm "Tarīl Monastery"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Tar‘īl Monastery"@en-xsrp1 ;];
- skos:related "Aleppo" ;
- skos:related "Euphrates" ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/82> ;
  dcterms:description "A monastery between and the ." ;
  dcterms:description [
  rdfs:label "ܡܝܰܬܰܒ ܗܘܳܬ ܒܕܘܟܬܐ ܕܩܰܪܝܒܳܐ ܠܚܳܠܳܒ ܠܓܰܒܳܐ ܕܬܰܪܥܳܐ ܕܺܝܕܝܥ ܬܪܰܥ ܐܝܺܠ ܒܰܫܡܗ ܣܘܪܝܳܝܳܐ. ܐܶܬܥܰܠܝ ܒܶܢܝܳܢܗ ܒܕܳܪܳܐ ܫܬܝܬܳܝܐ. ܘܒܗ ܐܶܣܬܰܦܰܪ ܬܳܐܘܡܰܐ ܚܰܪܩܶܠܳܝܳܐ ܡܳܪܳܐ ܕܡܰܦܰܩܬܐ ܚܰܪܩܶܠܳܝܬܳܐ ܘܥܰܕܰܪ ܠܥܺܕܬܳܐ ܒܰܬܪܶܝܢ ܦܰܛܪܝܰܪ̈ܟܶܐ ܘܚܰܡܫܰܥܣܪ ܐܶܦܝܣܩܘ̈ܦܐ ܘܒܰܫܢܰܬ 975 ܐܶܬܦܣܶܩܘ ܛܶܒܰܘ̈ܗܝ"@syr-Syrj ;
@@ -32029,8 +32028,8 @@ geo:location [
  lawd:variantForm "دير القديسة بربارة"@ar ;];
  lawd:hasName [
  lawd:variantForm "Barbara Monastery"@en ;];
- skos:related "Edessa" ;
- skos:related "St. Barbara" ;
+ skos:related <http://syriaca.org/place/78> ;
+ skos:related <http://syriaca.org/place/551> ;
  dcterms:description "A monastery near ." ;
  dcterms:description [
  rdfs:label "ܒܛܘܪܳܐ ܕܐܘܪܗܳܝ ܐܶܫܬܰܬܰܐܣ ܗܰܘ ܕܰܝܪܳܐ ܐܚܪܺܢܳܐ ܒܗ ܒܰܫܡܳܐ ܒܫܘܪܳܝ ܕܳܪܳܐ ܚܡܝܫܳܝܳܐ. ܘܐܶܬܕܰܟܪܳܗ̇ ܡܰܟܬܰܒܙܰܒܢ̈ܐ ܥܕܰܡܐ ܠܰܫܢܰܬ 1191 ܘܒܗ ܐܶܬܢܰܦܩ ܒܰܣܝܺܠܝܘܣ ܦܐܪܣ ܡܝܺܛܪܘܦܘܠܝܛܳܐ ܕܐܘܪܗܳܝ 1204."@syr-Syrj ;
@@ -32139,8 +32138,8 @@ geo:location [
  lawd:variantForm "Bāsūs Monastery"@en ;];
  lawd:hasName [
  lawd:variantForm "monastery of Mar Bassus"@en ;];
- skos:related "Mor Bosus" ;
- skos:related "Mor Bosus" ;
+ skos:related <http://syriaca.org/place/571> ;
+ skos:related <http://syriaca.org/place/571> ;
  dcterms:description [
  rdfs:label "ܒܩܘܪܒܳܐ ܕܚܰܐܪܡ ܒܶܝܬ ܐܘܦܘܡܺܝܰܐ ܠܰܚܡܶܨ ܕܰܝܪܐ ܫܒܝܚܳܐ. ܝܺܨܶܦ ܕܒܶܢܝܳܢܗ ܡܶܛܠ ܐܰܠܳܗܐ ܪܝܫܳܢܐ ܦܶܛܪܘܣ ܒܰܪ ܝܰܘܣܦ ܚܶܡܨܳܝܐ ܣܘܪܝܳܝܳܐ ܐܰܝܟ ܫܢܰܬ 480 ܘܫܰܟܶܢ ܠܗ ܫܘ̈ܟܢܐ ܕܡܰܪܕܶܝܢ ܥܰܠ ܐܢܳܫ̈ܘܗܝ ܙܝܳܢܬܗܘܢ. ܘܡܰܛܝ ܡܶܢܝܳܢ ܕܰܝܪ̈ܳܝܰܘܗܝ ܒܕܳܪܳܐ ܕܒܳܬܪ ܫܬܳܐ ܐܰܠܦܝ̈ܢ ܘܰܬܠܳܬܡܐܐ ܘܥܰܡܝܪ ܗܘܳܐ ܥܕܰܡܐ ܠܰܫܢܰܬ 830 ܘܐܶܬܢܰܦܰܩܘ ܒܗ 3 ܐܶܦܝܣܩܘܦ̈ܐ."@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
@@ -32206,7 +32205,7 @@ geo:location [
  lawd:variantForm "ܕܝܪܐ ܕܛܘܒܢܐ ܡܪܝ ܐܷܘܣܻܝܒܽܘܢܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "ܕܝܪܐ ܕܛܘܒܢܐ ܡܪܝ ܐܷܘܣܷܒܻܝܢܰܐ"@syr-Syrj ;];
- skos:related "Tell ʿAda" ;
+ skos:related <http://syriaca.org/place/233> ;
  dcterms:description [
  rdfs:label "ܒܩܘܪܒܳܐ ܕܬܰܠܥܕܰܐ ܩܪܺܝܬܳܐ ܒܟܘܪܳܐ ܕܐܰܢܛܝܘܟܺܝܰܐ ܒܢܰܐܘܗܝ ܬܪܝܢ ܥܢܘ̈ܝܶܐ ܡܝܰܬܪ̈ܐ ܡܳܪܝ ܐܘܣܝܒܘܢܶܐ ܘܗܽܘܝܘ ܐܘܣܰܐܒܝܺܘܣ ܪܰܒܳܐ. ܘܐܰܡܝܐܢ ܗܰܘ ܕܫܰܬܶܐܣ ܡܰܕܪܰܫܬܳܐ ܠܡܰܠܦܘܬ ܦܺܝܠܳܣܘܦܘܬܐ ܗܳܝ ܡܶܢ ܚܕܳܪ̈ܰܝ 340 ܘܒܶܗ ܐܶܣܬܰܦܪ ܡܳܪܝ ܫܶܡܥܘܢ ܕܐܶܣܛܘܢܗ ܒܫܘܪܳܝܳܐ ܘܡܰܛܝ ܡܶܢܝܳܢ ܕܰܝܪ̈ܳܝܘܗܝ ܫܢܰܬ 409 ܡܐܐ ܘܥܶܣܪܝܢ ܐܰܦܶܩ ܝܘܚܰܢܢ ܬܠܝܬܳܝܐ ܘܰܬܪܶܝܢ ܐܶܦܝܣܩܘܦ̈ܐ ܒܡܰܐܬܳܐ ܕܰܬܫܥ."@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
@@ -32303,7 +32302,7 @@ geo:location [
  lawd:variantForm "monastery of Mar Awgen"@en ;];
  lawd:hasName [
  lawd:variantForm "Mār Awgin"@en ;];
- skos:related "Nisibis" ;
+ skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A monastery north of ." ;
  dcterms:description [
  rdfs:label "ܒܰܫܦܘܠܳܐ ܕܛܘܪܳܐ ܕܐܝܺܙܠܐ ܗ̇ܘ ܕܚܳܐܰܪ ܠܰܢܨܝܒܝܢ ܐܶܫܬܰܬܐܣ ܒܡܰܐܬܐ ܪܒܝܥܳܝܬܐ ܐܰܘ ܒܪܺܝܫܐ ܕܰܚܡܝܫܳܝܬܐ ܘܐܶܫܬܰܚܠܦܘ ܙܰܒ̈ܢܐ ܥܠܰܘܗܝ ܘܐܶܫܬܰܠܛܘ ܥܠܰܘܗܝ ܢܰܣܛܘܪ̈ܝܰܢܘ ܙܰܒܢܳܐ ܢܰܓܝܪܐ ܘܰܗܦܟ ܠܘܳܬܢ ܒܰܐܚܪ̈ܝܬܗ̇ ܕܡܰܐܬܐ ܕܰܬܡܳܢܰܥܶܣܪ̈ܐ ܢܦܰܩܘ ܡܶܢܗ ܬܪܶܝܢ ܐܶܦܝܣܩܘܦ̈ܐ ܘܰܥܕܰܡܐ ܠܗܳܫܐ ܥܰܡܝܪ ܘܰܫܟܝܺܚ ܒܗ ܕܰܝܪܳܝܐ ܚܰܕ."@syr-Syrj ;
@@ -32524,7 +32523,7 @@ geo:location [
  lawd:variantForm "الحَفر"@ar ;];
  lawd:hasName [
  lawd:variantForm "Ḥafar"@en ;];
- skos:related "Ṣadad" ;
+ skos:related <http://syriaca.org/place/276> ;
  dcterms:description "A village 7 km south of ." ;
  dcterms:description [
  rdfs:label "ܚܕܳܐ ܗܝ ܡܶܢ ܩܘܽܪ̈ܝܳܐ ܕܰܚܡܶܨ. ܡܰܪܕܐ ܫܳܥܬܐ ܡܶܢ ܨܰܕܕ ܠܬܰܝܡܢܗ̇."@syr-Syrj ;
@@ -32615,7 +32614,7 @@ geo:location [
  lawd:variantForm "ܚܣܢ ܒܰܛܪܝܩ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "حصن بطريق"@ar ;];
- skos:related "Tel Baṭrīq" ;
+ skos:related <http://syriaca.org/place/313> ;
  dcterms:description [
  rdfs:label "ܡܕܺܝܢܬܐ ܗܝ ܕܘܟܬܳܐ ܕܒܶܝܬ ܚܳܠܒ ܠܩܰܠܘܽܢܺܝܩܝ."@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
@@ -32759,7 +32758,7 @@ geo:location [
  lawd:variantForm "Josya"@en ;];
  lawd:hasName [
  lawd:variantForm "جُوْسِية"@ar ;];
- skos:related "Emesa" ;
+ skos:related <http://syriaca.org/place/215> ;
  dcterms:description "A village near ." ;
  dcterms:description [
  rdfs:label "ܟܘܪܳܐ ܗܘܳܬ ܡܶܢ ܟܘܪ̈ܐ ܕܰܚܡܶܨ. ܕܪܰܚܝܩܐ ܡܶܢܗ̇ ܫܬܳܐ ܦܰܪ̈ܣܚܐ ܠܓܰܒܐ ܕܕܰܪܡܣܘܩ. ܒܶܝܬ ܛܘܪ̈ܝ ܠܶܒܢܳܢ ܘܰܣܢܝܪ ܘܝܰܘܡܳܢ ܩܪܺܝܬܐ ܐܝܺܬܝܗ̇ ܐܶܬܚܰܕܬܰܬ ܒܓܶܒ ܓܘܣܝܗ ܥܰܬܝܩܬܐ."@syr-Syrj ;
@@ -32785,7 +32784,7 @@ geo:location [
  lawd:variantForm "جوباس"@ar ;];
  lawd:hasName [
  lawd:variantForm "Jūbās"@en ;];
- skos:related "Melitene" ;
+ skos:related <http://syriaca.org/place/136> ;
  dcterms:description "A village near ." ;
  dcterms:description [
  rdfs:label "ܡܕܺܝܢܬܘܢܳܝܬܐ ܕܩܰܪܝܒܐ ܗܘܳܬ ܡܶܢ ܡܺܝܺܠܝܛܝܢܝ ܘܚܰܪܝ̣ܒܐ."@syr-Syrj ;
@@ -32827,8 +32826,8 @@ geo:location [
  lawd:variantForm "Diyār Rabia"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Diyār Rabi‘a"@en-xsrp1 ;];
- skos:related "Gazarta" ;
- skos:related "Tigris" ;
+ skos:related <http://syriaca.org/place/712> ;
+ skos:related <http://syriaca.org/place/202> ;
  dcterms:description [
  rdfs:label "ܒܝܬ ܇ ܒܘܪܐ ܘܕܶܩܠܰܬ ܐܝܬܰܝܗܘܢ ܡܰܥܡܪ̈ܶܐ ܕܬܰܓܠܒܳܝ̈ܐ ܛܘܗܡܳܐ ܪܰܒܐ ܕܰܐܪ̈ܰܐܒܳܝܐ ܘܐܺܝܬܰܝܗܘܽܢ ܗܘܰܘ ܡܫܝܚ̈ܝܶܐ ܣܘܪ̈ܝܳܝܐ ܐܰܪ̈ܬܘܕܘܟܣܽܘ ܘܩܰܘܺܝܘ ܡܫܝܚܝ̈ܐ ܥܕܰܡܳܐ ܠܡܰܐܬܐ ܥܣܝܪܳܝܬܳܐ ܘܡܶܢ ܛܒ̈ܝܒܶܐ ܕܓܰܒܪ̈ܶܝܗ̇ ܓܰܝܐܬ ܒܪ ܓܘܬ ܕܺܝܕܺܝܥ ܐܰܟܛܠ ܦܘܺܐܝܛܳܐ ܕܢܰܦܝܩ ܫܡܗ ܚܕܳܪ̈ܰܝ ܫܢܰܬ 710 ܐܬܓܰܙܝܰܬ ܡܢ ܐܢܳܫ̈ܝܗ̇ ܒܕܳܪܳܐ ܕܐܰܪܒܰܥܣܪ ܐܶܬܝܰܬܒܬ ܚܕܳܪ̈ܰܝ ܫܢܰܬ 1921 ܘܐܶܬܚ̈ܕܰܬܝ ܒܗ̇ ܡܕܝܢ̈ܬܳܐ ܕܚܰܣܝܟܐ ܘܒܶܝܬܙ̈ܠܐ ܘܪܝܫ ܥܰܝܢܳܐ ܘܫܰܪܝ ܪܳܕܐ ܒܳܗ̇ ܫܘܽܟܠܠܐ."@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
@@ -33074,7 +33073,7 @@ geo:location [
  lawd:variantForm "Tell Baṭriq"@en ;];
  lawd:hasName [
  lawd:variantForm "تل بطريق"@ar ;];
- skos:related "Ḥiṣn Baṭrīq" ;
+ skos:related <http://syriaca.org/place/329> ;
  dcterms:description [
  rdfs:label "ܕܘܟܬܳܐ ܗܝ ܕܰܒܦܶܢܝ̈ܬܳܐ ܕܡܝܠܝܛܝܢܝ."@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
@@ -33140,7 +33139,7 @@ geo:location [
  lawd:variantForm "تيل"@ar ;];
  lawd:hasName [
  lawd:variantForm "Tell Arsenius"@en ;];
- skos:related "Euphrates" ;
+ skos:related <http://syriaca.org/place/82> ;
  dcterms:description "A Syrian Orthodox diocese on the river ." ;
  dcterms:description [
  rdfs:label "ܥܰܠ ܣܦܬ ܦܪܳܬ ܕܩܰܪܝܒܐ ܠܟܰܪܟܘܽܬ."@syr-Syrj ;
@@ -33308,7 +33307,7 @@ geo:location [
  lawd:variantForm "بيث شاهاق"@ar ;];
  lawd:hasName [
  lawd:variantForm "Beth Shāhāq"@en ;];
- skos:related "Nineveh" ;
+ skos:related <http://syriaca.org/place/144> ;
  dcterms:description "A village near ." ;
  dcterms:description [
  rdfs:label "ܦܢܺܝܬܐ ܥܰܬܺܝܩܬܐ ܕܒܐܘܚܕܳܢܐ ܕܡܘܨܠ. ܚܰܪܝܒܐ."@syr-Syrj ;
@@ -33360,7 +33359,7 @@ geo:location [
  lawd:variantForm "ܒܶܝܬ ܐܰܪܩܡ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "بيث ارشم"@ar ;];
- skos:related "Arsham" ;
+ skos:related <http://syriaca.org/place/925> ;
  dcterms:description [
  rdfs:label "ܐܰܬܪܐ ܕܩܰܪܝܒ ܠܰܡܕܝܢ̈ܬܐ (ܣܠܝܩ ܘܩܰܛܝܣܦܘܢ) ܠܬܰܝܡܢܗ̇ ܕܒܓܕܕ ܘܠܐ ܝܺܕܝܺܥܐ ܕܘܟܬܗ̇."@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
@@ -33591,7 +33590,7 @@ geo:location [
  lawd:variantForm "باقوفا"@ar ;];
  lawd:hasName [
  lawd:variantForm "Bāqūfā"@en ;];
- skos:related "Baqufa" ;
+ skos:related <http://syriaca.org/place/2532> ;
  dcterms:description [
  rdfs:label "ܩܪܝܬܐ ܕܰܒܛܘܪܳܐ ܕܠܶܒܢܳܢ."@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
@@ -33816,7 +33815,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1050" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Gülgöze,_Mardin> ;
@@ -33948,7 +33947,7 @@ geo:location [
  lawd:variantForm "Kabiya"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ka‘biya"@en-xsrp1 ;];
- skos:related "Kaʿbiya" ;
+ skos:related <http://syriaca.org/place/442> ;
  dcterms:description [
  rdfs:label "ܡܕܺܝܢܬܐ ܕܥܠ ܣܦܳܪ̈ܝ ܦܪܳܬ ܠܡܰܕܢܰܚ ܒܰܐܠܘ ܘܰܠܡܰܥܪܰܒ ܟܰܪܒܘܬ"@syr-Syrj ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
@@ -34068,7 +34067,7 @@ geo:location [
  lawd:primaryForm "Baradā"@en ;];
  lawd:hasName [
  lawd:variantForm "بَرَدَى"@ar ;];
- skos:related "Damascus" ;
+ skos:related <http://syriaca.org/place/66> ;
  dcterms:description "The river which flows past ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/678095> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Barada> ;
@@ -34090,8 +34089,8 @@ geo:location [
  lawd:variantForm "Maarrat Ṣaydnāyā"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ma‘arrat Ṣaydnāyā"@en-xsrp1 ;];
- skos:related "Ṣaydnāyā" ;
- skos:related "Damascus" ;
+ skos:related <http://syriaca.org/place/280> ;
+ skos:related <http://syriaca.org/place/66> ;
  dcterms:description "A village outside north of , a residence of the Syriac Orthodox patriarch." ;
  dcterms:temporal "1996" ;
  foaf:primaryTopicOf <http://syriaca.org/place/281/html> ;
@@ -34104,7 +34103,7 @@ geo:location [
  lawd:primaryForm "Ṣaydnāyā"@en ;];
  lawd:hasName [
  lawd:variantForm "صيدنايا"@ar ;];
- skos:related "Damascus" ;
+ skos:related <http://syriaca.org/place/66> ;
  dcterms:description "A village north of and southwest of Maʿlula." ;
  dcterms:temporal "1700" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Saidnaya> ;
@@ -34139,7 +34138,7 @@ geo:location [
  lawd:variantForm "Malula"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ma‘lula"@en-xsrp1 ;];
- skos:related "Damascus" ;
+ skos:related <http://syriaca.org/place/66> ;
  dcterms:description "A village northeast of and southwest of Qara." ;
  dcterms:temporal "1879" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678273> ;
@@ -34196,8 +34195,8 @@ geo:location [
  lawd:primaryForm "Ṣadad"@en ;];
  lawd:hasName [
  lawd:variantForm "صدد"@ar ;];
- skos:related "Qara" ;
- skos:related "al-Qaryatayn" ;
+ skos:related <http://syriaca.org/place/161> ;
+ skos:related <http://syriaca.org/place/212> ;
  dcterms:description "A town northeast of and west of ." ;
  dcterms:description [
  rdfs:label "بليدة قديمة جنوبي شرقي حمص على طريق دمشق مرحلة يوم عنها آهلة بنحو من اربعة آلاف نفس من السريان."@ar ;
@@ -34217,7 +34216,7 @@ geo:location [
  lawd:primaryForm "Mar Elian"@en ;];
  lawd:hasName [
  lawd:variantForm "Monastery of Julian"@en ;];
- skos:related "al-Qaryatayn" ;
+ skos:related <http://syriaca.org/place/212> ;
  dcterms:description "A monastery outside ." ;
  dcterms:temporal "2011" ;
  foaf:primaryTopicOf <http://syriaca.org/place/275/html> ;
@@ -34244,7 +34243,7 @@ geo:location [
  lawd:primaryForm "Crac des Chevaliers"@en ;];
  lawd:hasName [
  lawd:variantForm "حصن الاكراد"@ar ;];
- skos:related "Ḥimṣ" ;
+ skos:related <http://syriaca.org/place/215> ;
  dcterms:description "A Crusader fortress west of ." ;
  dcterms:temporal "1030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/587486981> ;
@@ -34265,7 +34264,7 @@ geo:location [
  lawd:primaryForm "Ehden"@en ;];
  lawd:hasName [
  lawd:variantForm "Ahden"@en ;];
- skos:related "Amyūn" ;
+ skos:related <http://syriaca.org/place/269> ;
  dcterms:description "A town east of ." ;
  dcterms:temporal "1283" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ehden> ;
@@ -34277,7 +34276,7 @@ geo:location [
  rdfs:label "Dayr Qannubin" ;
  lawd:hasName [
  lawd:primaryForm "Dayr Qannubin"@en ;];
- skos:related "Ehden" ;
+ skos:related <http://syriaca.org/place/271> ;
  dcterms:description "An important Maronite monastery southeast of which was the residence of the Maronite patriarch from 1440 to 1823." ;
  dcterms:temporal "1445" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kadisha_Valley#The_Qannubin_Monastery> ;
@@ -34366,8 +34365,8 @@ geo:location [
  lawd:variantForm "ܒܰܛܪܘܢ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "البترون"@ar ;];
- skos:related "Tripoli" ;
- skos:related "Jubail" ;
+ skos:related <http://syriaca.org/place/203> ;
+ skos:related <http://syriaca.org/place/52> ;
  dcterms:description "A coastal town between and ." ;
  dcterms:temporal "0024" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668214> ;
@@ -34469,7 +34468,7 @@ geo:location [
  lawd:primaryForm "Mar Zaya"@en ;];
  lawd:hasName [
  lawd:variantForm "Marez"@en ;];
- skos:related "Verin Dvin" ;
+ skos:related <http://syriaca.org/place/2553> ;
  dcterms:description "A church in" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2613/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2613/tei> .
@@ -34479,7 +34478,7 @@ geo:location [
  rdfs:label "Urmia" ;
  lawd:hasName [
  lawd:primaryForm "Urmia"@en ;];
- skos:related "Russia" ;
+ skos:related <http://syriaca.org/place/529> ;
  dcterms:description "An Assyrian settlement in the Krasnodar region of southwestern" ;
  dcterms:temporal "1924" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2612/html> ;
@@ -34506,7 +34505,7 @@ geo:location [
  lawd:variantForm "Amkābā"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Amkābā"@en-xsrp1 ;];
- skos:related "Arbela" ;
+ skos:related <http://syriaca.org/place/13> ;
  dcterms:description "A town northeast of ." ;
  dcterms:temporal "0925" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ankawa> ;
@@ -34579,8 +34578,8 @@ geo:location [
  lawd:variantForm "Khāzir"@en ;];
  lawd:hasName [
  lawd:variantForm "خازر"@ar ;];
- skos:related "Greater Zab" ;
- skos:related "Karamlish" ;
+ skos:related <http://syriaca.org/place/204> ;
+ skos:related <http://syriaca.org/place/110> ;
  dcterms:description "A tributary of the which flows east of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874406> ;
 geo:location [
@@ -34607,7 +34606,7 @@ geo:location [
  lawd:variantForm "Beth Mar John of Beth Zagba"@en ;];
  lawd:hasName [
  lawd:primaryForm "ܒܝܬ ܡܪܝ ܝܘܚܢܢ ܕܒܝܬ ܙܓܒܐ"@syr ;];
- skos:related "Apamea" ;
+ skos:related <http://syriaca.org/place/11> ;
  dcterms:description "The monastery where the Rabbula Gospels were copied, probably located north of ." ;
  dcterms:temporal "0568" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2578/html> ;
@@ -34638,7 +34637,7 @@ geo:location [
  rdfs:label "Michigan" ;
  lawd:hasName [
  lawd:primaryForm "Michigan"@en ;];
- skos:related "United States of America" ;
+ skos:related <http://syriaca.org/place/573> ;
  dcterms:description "A state in the ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/2570/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2570/tei> .
@@ -34661,7 +34660,7 @@ geo:location [
  rdfs:label "Kalamazoo" ;
  lawd:hasName [
  lawd:primaryForm "Kalamazoo"@en ;];
- skos:related "Michigan" ;
+ skos:related <http://syriaca.org/place/2570> ;
  dcterms:description "A city in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/2569/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2569/tei> .
@@ -34675,7 +34674,7 @@ geo:location [
  lawd:primaryForm "ܕܝܪܗ ܕܡܪܝܣ ܒܪ ܒܪܥܬܘܢ"@syr ;];
  lawd:hasName [
  lawd:variantForm "Maris bar Barathon"@en ;];
- skos:related "Telneshe" ;
+ skos:related <http://syriaca.org/place/2567> ;
  dcterms:description "A monastery in named after the chief of that village." ;
  dcterms:temporal "0400" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2568/html> ;
@@ -34700,7 +34699,7 @@ geo:location [
  lawd:variantForm "ܬܠܝܼܫܐ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "Deir Sem‘an"@en ;];
- skos:related "Syria" ;
+ skos:related <http://syriaca.org/place/486> ;
  dcterms:description "A village in ancient ." ;
  dcterms:temporal "0400" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658613> ;
@@ -34716,8 +34715,8 @@ geo:location [
  lawd:primaryForm "ܟܘܘܪܐ"@syr ;];
  lawd:hasName [
  lawd:variantForm "ܟ̣ܵܘܘܿܪܵܐ"@syr-Syrn ;];
- skos:related "Tigris" ;
- skos:related "Zakho" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/208> ;
  dcterms:description "A tributary of the that flows through ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/893928> ;
  skos:exactMatch <http://pleiades.stoa.org/places/874565> ;
@@ -34735,7 +34734,7 @@ geo:location [
  lawd:variantForm "Holy Apostle Thomas"@en ;];
  lawd:hasName [
  lawd:variantForm "Urmi-Church"@en ;];
- skos:related "Verin Dvin" ;
+ skos:related <http://syriaca.org/place/2553> ;
  dcterms:description "A church in" ;
  dcterms:temporal "1828" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2564/html> ;
@@ -34752,7 +34751,7 @@ geo:location [
  lawd:variantForm "St. Kirik and St. Yulita"@en ;];
  lawd:hasName [
  lawd:variantForm "St. Cyril"@en ;];
- skos:related "Dimitrov" ;
+ skos:related <http://syriaca.org/place/2552> ;
  dcterms:description "A church in" ;
  dcterms:temporal "1840" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2563/html> ;
@@ -34767,7 +34766,7 @@ geo:location [
  lawd:variantForm "Mart Mariam"@en ;];
  lawd:hasName [
  lawd:variantForm "St. Mary"@en ;];
- skos:related "Arzni" ;
+ skos:related <http://syriaca.org/place/2555> ;
  dcterms:description "A church in" ;
  dcterms:temporal "1875" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2562/html> ;
@@ -34778,7 +34777,7 @@ geo:location [
  rdfs:label "Getašen" ;
  lawd:hasName [
  lawd:primaryForm "Getašen"@en ;];
- skos:related "Arzni" ;
+ skos:related <http://syriaca.org/place/2555> ;
  dcterms:description "A quarter of" ;
  dcterms:temporal "2013" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2561/html> ;
@@ -34813,7 +34812,7 @@ geo:location [
  rdfs:label "Atlakandeh" ;
  lawd:hasName [
  lawd:primaryForm "Atlakandeh"@en ;];
- skos:related "Urmia" ;
+ skos:related <http://syriaca.org/place/206> ;
  dcterms:description "An Assyrian village near" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2559/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2559/tei> .
@@ -34825,7 +34824,7 @@ geo:location [
  lawd:primaryForm "Urmia"@en ;];
  lawd:hasName [
  lawd:variantForm "Arazdayan"@en ;];
- skos:related "Armenia" ;
+ skos:related <http://syriaca.org/place/576> ;
  dcterms:description "An Assyrian settlement in" ;
  dcterms:temporal "1877" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2558/html> ;
@@ -34846,7 +34845,7 @@ geo:location [
  rdfs:label "Gel" ;
  lawd:hasName [
  lawd:primaryForm "Gel"@en ;];
- skos:related "Armenia" ;
+ skos:related <http://syriaca.org/place/576> ;
  dcterms:description "An Assyrian settlement in Eastern Ararat province of" ;
  dcterms:temporal "1859" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2556/html> ;
@@ -34857,8 +34856,8 @@ geo:location [
  rdfs:label "Arzni" ;
  lawd:hasName [
  lawd:primaryForm "Arzni"@en ;];
- skos:related "Erevan" ;
- skos:related "Armenia" ;
+ skos:related <http://syriaca.org/place/817> ;
+ skos:related <http://syriaca.org/place/576> ;
  dcterms:description "An Assyrian settlement north of in the province of Kotayk' in" ;
  dcterms:temporal "1849" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2555/html> ;
@@ -34871,7 +34870,7 @@ geo:location [
  lawd:primaryForm "Nor Artagers"@en ;];
  lawd:hasName [
  lawd:variantForm "P'ok'r Šahriyar"@en ;];
- skos:related "Armenia" ;
+ skos:related <http://syriaca.org/place/576> ;
  dcterms:description "An Assyrian settlement in the Armavir province of" ;
  dcterms:temporal "1849" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2554/html> ;
@@ -34884,8 +34883,8 @@ geo:location [
  lawd:primaryForm "Verin Dvin"@en ;];
  lawd:hasName [
  lawd:variantForm "Dvin-Aysor"@en ;];
- skos:related "Armenia" ;
- skos:related "Erevan" ;
+ skos:related <http://syriaca.org/place/576> ;
+ skos:related <http://syriaca.org/place/817> ;
  dcterms:description "An Assyrian settlement in southwest of" ;
  dcterms:temporal "1849" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2553/html> ;
@@ -34900,8 +34899,8 @@ geo:location [
  lawd:variantForm "Koylasar"@en ;];
  lawd:hasName [
  lawd:variantForm "Łuylasar"@en ;];
- skos:related "Armenia" ;
- skos:related "Erevan" ;
+ skos:related <http://syriaca.org/place/576> ;
+ skos:related <http://syriaca.org/place/817> ;
  dcterms:description "An Assyrian settlement in southeast of" ;
  dcterms:temporal "1839" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2552/html> ;
@@ -34926,7 +34925,7 @@ geo:location [
  rdfs:label "Liverpool" ;
  lawd:hasName [
  lawd:primaryForm "Liverpool"@en ;];
- skos:related "England" ;
+ skos:related <http://syriaca.org/place/843> ;
  dcterms:description "A city in ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Liverpool> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2548/html> ;
@@ -34981,7 +34980,7 @@ geo:location [
  rdfs:label "Kilis" ;
  lawd:hasName [
  lawd:primaryForm "Kilis"@en ;];
- skos:related "Siirt" ;
+ skos:related <http://syriaca.org/place/188> ;
  dcterms:description "A village near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/2533/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2533/tei> .
@@ -34991,7 +34990,7 @@ geo:location [
  rdfs:label "Baqufa" ;
  lawd:hasName [
  lawd:primaryForm "Baqufa"@en ;];
- skos:related "Baqufa" ;
+ skos:related <http://syriaca.org/place/298> ;
  dcterms:description "A city in Iraq." ;
  dcterms:temporal "1867" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2532/html> ;
@@ -35031,8 +35030,8 @@ geo:location [
  lawd:primaryForm "Penek"@en ;];
  lawd:hasName [
  lawd:variantForm "فَنَك"@ar ;];
- skos:related "Tigris" ;
- skos:related "Gazarta" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/88> ;
  dcterms:description "A town on the northwest of ." ;
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874648> ;
@@ -35424,7 +35423,7 @@ geo:location [
  lawd:variantForm "‘Mār Yōḥannān and Mār Īshōsabrān’"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Mār Yōḥannān and Mār Īshō‘sabrān’"@en-xsrp1 ;];
- skos:related "Lālish" ;
+ skos:related <http://syriaca.org/place/1399> ;
  dcterms:description "The main Yezidi shrine in , which according to a Syriac text forged in the 19th century was originally a monastery." ;
  foaf:primaryTopicOf <http://syriaca.org/place/2504/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2504/tei> .
@@ -35508,7 +35507,7 @@ geo:location [
  lawd:variantForm "Pilgāwār"@en ;];
  lawd:hasName [
  lawd:variantForm "Ṭārōn"@en ;];
- skos:related "Lake Urmia" ;
+ skos:related <http://syriaca.org/place/116> ;
  dcterms:description "A region west of ." ;
  dcterms:temporal "2000" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Targawar> ;
@@ -35738,7 +35737,7 @@ geo:location [
  rdfs:label "Ardishai" ;
  lawd:hasName [
  lawd:primaryForm "Ardishai"@en ;];
- skos:related "Urmia" ;
+ skos:related <http://syriaca.org/place/206> ;
  dcterms:description "A village southeast of ." ;
  dcterms:temporal "1810" ;
  foaf:primaryTopicOf <http://syriaca.org/place/249/html> ;
@@ -35921,7 +35920,7 @@ geo:location [
  lawd:variantForm "‘Beellawin'"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "‘Be‘ellawin'"@en-xsrp1 ;];
- skos:related "Urmia" ;
+ skos:related <http://syriaca.org/place/206> ;
  dcterms:description "A village west of ." ;
  dcterms:temporal "1824" ;
  foaf:primaryTopicOf <http://syriaca.org/place/248/html> ;
@@ -35940,7 +35939,7 @@ geo:location [
  lawd:variantForm "Dayr al-Atīqa"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Dayr al-‘Atīqa"@en-xsrp1 ;];
- skos:related "Baghdad" ;
+ skos:related <http://syriaca.org/place/41> ;
  dcterms:description "A monastery in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/2479/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2479/tei> ;
@@ -36004,10 +36003,10 @@ geo:location [
  lawd:variantForm "Monastery of the Ark"@en ;];
  lawd:hasName [
  lawd:variantForm "دير ابون"@ar ;];
- skos:related "Dairek" ;
- skos:related "Mount Qardu" ;
- skos:related "Jabal Jūdi," ;
- skos:related "the village of Dairek" ;
+ skos:related <http://syriaca.org/place/1141> ;
+ skos:related <http://syriaca.org/place/637> ;
+ skos:related <http://syriaca.org/place/637> ;
+ skos:related <http://syriaca.org/place/1141> ;
  dcterms:description "A monastery east of on , near the traditional site for the landing of Noah's Ark." ;
  foaf:primaryTopicOf <http://syriaca.org/place/2475/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2475/tei> ;
@@ -36109,8 +36108,8 @@ geo:location [
  lawd:variantForm "Gāwīlan"@en ;];
  lawd:hasName [
  lawd:variantForm "Anzel"@en ;];
- skos:related "Urmia" ;
- skos:related "Salmas" ;
+ skos:related <http://syriaca.org/place/206> ;
+ skos:related <http://syriaca.org/place/177> ;
  dcterms:description "A village north of and southeast of ." ;
  dcterms:temporal "1735" ;
  foaf:primaryTopicOf <http://syriaca.org/place/247/html> ;
@@ -36325,7 +36324,7 @@ geo:location [
  lawd:primaryForm "Khosrowa"@en ;];
  lawd:hasName [
  lawd:variantForm "Khosrōwā"@en ;];
- skos:related "Salmas" ;
+ skos:related <http://syriaca.org/place/177> ;
  dcterms:description "A village southwest of ." ;
  dcterms:temporal "0697" ;
  foaf:primaryTopicOf <http://syriaca.org/place/246/html> ;
@@ -36571,8 +36570,8 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
- skos:related "Midyat" ;
+ skos:related <http://syriaca.org/place/221> ;
+ skos:related <http://syriaca.org/place/137> ;
  dcterms:description "A village in south of ." ;
  dcterms:temporal "1900" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Elbeğendi> ;
@@ -36737,8 +36736,8 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
- skos:related "Midyat" ;
+ skos:related <http://syriaca.org/place/221> ;
+ skos:related <http://syriaca.org/place/137> ;
  dcterms:description "A village in southeast of ." ;
  dcterms:temporal "0397" ;
  foaf:primaryTopicOf <http://syriaca.org/place/244/html> ;
@@ -36879,8 +36878,8 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
- skos:related "Midyat" ;
+ skos:related <http://syriaca.org/place/221> ;
+ skos:related <http://syriaca.org/place/137> ;
  dcterms:description "A village in southeast of ." ;
  dcterms:temporal "0925" ;
  foaf:primaryTopicOf <http://syriaca.org/place/243/html> ;
@@ -37035,8 +37034,8 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
- skos:related "Midyat" ;
+ skos:related <http://syriaca.org/place/221> ;
+ skos:related <http://syriaca.org/place/137> ;
  dcterms:description "A village in northeast of ." ;
  dcterms:temporal "1207" ;
  foaf:primaryTopicOf <http://syriaca.org/place/242/html> ;
@@ -37166,8 +37165,8 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
- skos:related "Midyat" ;
+ skos:related <http://syriaca.org/place/221> ;
+ skos:related <http://syriaca.org/place/137> ;
  dcterms:description "A village in northwest of ." ;
  dcterms:temporal "0657" ;
  foaf:primaryTopicOf <http://syriaca.org/place/241/html> ;
@@ -37302,8 +37301,8 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
- skos:related "Midyat" ;
+ skos:related <http://syriaca.org/place/221> ;
+ skos:related <http://syriaca.org/place/137> ;
  dcterms:description "A village in northeast of ." ;
  dcterms:temporal "1943" ;
  foaf:primaryTopicOf <http://syriaca.org/place/240/html> ;
@@ -37332,7 +37331,7 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "0734" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Yemişli,_Midyat> ;
@@ -37460,8 +37459,8 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
- skos:related "Midyat" ;
+ skos:related <http://syriaca.org/place/221> ;
+ skos:related <http://syriaca.org/place/137> ;
  dcterms:description "A village in north of ." ;
  dcterms:temporal "1941" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Arıca,_Gercüş> ;
@@ -37585,8 +37584,8 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
- skos:related "Midyat" ;
+ skos:related <http://syriaca.org/place/221> ;
+ skos:related <http://syriaca.org/place/137> ;
  dcterms:description "A village in northwest of ." ;
  dcterms:description [
  rdfs:label "ܩܪܝܬܳܐ ܗܝ ܕܰܠܓܰܪܒܰܝ ܡܰܪܕܝܢ ܡܰܫܩܶܠ ܝܰܘܡܳܐ ܡܝܰܬܒܳܐ ܒܣܘܪ̈ܝܝܐ."@syr-Syrj ;
@@ -37729,8 +37728,8 @@ geo:location [
  rdfs:label "Bokhtan" ;
  lawd:hasName [
  lawd:primaryForm "Bokhtan"@en ;];
- skos:related "Tigris" ;
- skos:related "Siirt" ;
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/188> ;
  dcterms:description "A tributary of the which flows near ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874545> ;
  foaf:primaryTopicOf <http://syriaca.org/place/237/html> ;
@@ -38230,8 +38229,8 @@ geo:location [
  lawd:variantForm "Talada Monastery"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Tal‘ada Monastery"@en-xsrp1 ;];
- skos:related "Ḥama" ;
- skos:related "Aleppo" ;
+ skos:related <http://syriaca.org/place/91> ;
+ skos:related <http://syriaca.org/place/18> ;
  dcterms:description [
  rdfs:label "The Monastery of Tell ʿAda, also known as the ‘Great Monastery’, is located just over 48 km. from Aleppo; 1500 m. north of the present village of Tell ʿAda."@en ;];
  dcterms:description [
@@ -39772,8 +39771,8 @@ geo:location [
  lawd:variantForm "Qala Rumayta"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Qal‘a Rumayta"@en-xsrp1 ;];
- skos:related "Aleppo" ;
- skos:related "Qalʿa Rumayta" ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/97> ;
  dcterms:description "A city north of and southwest of ." ;
  dcterms:temporal "0600" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Gaziantep> ;
@@ -40108,7 +40107,7 @@ geo:location [
  lawd:hasName [
  lawd:variantForm "Ṭūr ‘Abdīn"@en-xsrp1 ;];
  dcterms:description [
- rdfs:label "Properly speaking, Ṭur ʿAbdin (‘Mountain of the servants’) does not include the whole province of Mardin in Turkey, but only the limestone plateau in the eastern part of it, between the river Tigris and Nisibis.""@en ;];
+ rdfs:label "Properly speaking, Ṭur ʿAbdin (‘Mountain of the servants’) does not include the whole province of Mardin in Turkey, but only the limestone plateau in the eastern part of it, between the river Tigris and Nisibis."@en ;];
  dcterms:description [
  rdfs:label "565. Ṭur ʿAbdin"@en ;];
  dcterms:description [
@@ -42145,8 +42144,8 @@ geo:location [
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
- skos:related "Midyat" ;
+ skos:related <http://syriaca.org/place/221> ;
+ skos:related <http://syriaca.org/place/137> ;
  dcterms:description "A village in northeast of ." ;
  dcterms:temporal "0640" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874496> ;
@@ -44120,7 +44119,7 @@ geo:location [
  lawd:variantForm "Hawran"@en ;];
  lawd:hasName [
  lawd:variantForm "حَوران"@ar ;];
- skos:related "Damascus" ;
+ skos:related <http://syriaca.org/place/66> ;
  dcterms:description "A region south of and east of the Sea of Galilee." ;
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678041> ;
@@ -44289,8 +44288,8 @@ geo:location [
  lawd:variantForm "Reshayna"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Resh‘ayna"@en-xsrp1 ;];
- skos:related "Mardin" ;
- skos:related "Reshʿayna" ;
+ skos:related <http://syriaca.org/place/130> ;
+ skos:related <http://syriaca.org/place/172> ;
  dcterms:description "A city south of and southeast of ." ;
  dcterms:temporal "1907" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874742> ;
@@ -44510,8 +44509,8 @@ geo:location [
  lawd:variantForm "القريتين"@ar ;];
  lawd:hasName [
  lawd:variantForm "القريتان"@ar ;];
- skos:related "Damascus" ;
- skos:related "Ḥimṣ" ;
+ skos:related <http://syriaca.org/place/66> ;
+ skos:related <http://syriaca.org/place/215> ;
  dcterms:description "A town northeast of and southeast of ." ;
  dcterms:description [
  rdfs:label "ܐܰܬܪܰܐ ܗܘ ܕܒܐܘܚܕܳܢܐ ܕܰܚܡܶܨ ܡܰܪܕܶܐ ܬܪܶܝܢ ܝܰܘܡܝ̈ܢ ܒܐܘܪܚܳܐ ܕܡܰܕܒܪܐ ܕܒܶܝܬ ܠܗ̇ ܘܰܠܣܰܟܢܗ ܘܐܪܟ."@syr-Syrj ;
@@ -45047,8 +45046,8 @@ geo:location [
  lawd:variantForm "زوغما"@ar ;];
  lawd:hasName [
  lawd:variantForm "Zughma"@en ;];
- skos:related "Euphrates" ;
- skos:related "Edessa" ;
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/78> ;
  dcterms:description "A town on the west of ." ;
  dcterms:temporal "-0281" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658636> ;
@@ -45267,8 +45266,8 @@ geo:location [
  lawd:primaryForm "Zakho"@en ;];
  lawd:hasName [
  lawd:variantForm "Zākhō"@en ;];
- skos:related "Mosul" ;
- skos:related "Gazarta" ;
+ skos:related <http://syriaca.org/place/139> ;
+ skos:related <http://syriaca.org/place/88> ;
  dcterms:description "A city northwest of and southeast of ." ;
  dcterms:temporal "1779" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Zakho> ;
@@ -45445,7 +45444,7 @@ geo:location [
  lawd:variantForm "Vān"@en ;];
  lawd:hasName [
  lawd:variantForm "وان"@ar ;];
- skos:related "Lake Van" ;
+ skos:related <http://syriaca.org/place/117> ;
  dcterms:description "A city southeast of ." ;
  dcterms:temporal "-0465" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874771> ;

@@ -36,15 +36,15 @@
  lawd:variantForm "الرُّهاء"@ar ;];
  lawd:hasName [
  lawd:variantForm "أَذاسا"@ar ;];
- skos:related "Mesopotamia" ;
- skos:related "Osrhoene" ;
- skos:related "Aleppo" ;
- skos:related "Aleppo" ;
- skos:related "Daiṣan" ;
- skos:related "Roman Empire" ;
- skos:related "Ottoman Empire" ;
- skos:related "Aleppo" ;
- skos:related "Balikh" ;
+ skos:related <http://syriaca.org/place/124> ;
+ skos:related <http://syriaca.org/place/145> ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/191> ;
+ skos:related <http://syriaca.org/place/166> ;
+ skos:related <http://syriaca.org/place/631> ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/43> ;
  dcterms:description "A city of , the capital of the ancient kingdom of , modern Urfa." ;
  dcterms:description [
  rdfs:label "183. Edessa"@en ;];

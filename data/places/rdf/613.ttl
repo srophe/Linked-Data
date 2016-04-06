@@ -24,8 +24,8 @@
  lawd:variantForm "Dair Saīd"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Dair Sa‘īd"@en-xsrp1 ;];
- skos:related "Mosul region" ;
- skos:related "Dayr Ilyā" ;
+ skos:related <http://syriaca.org/place/722> ;
+ skos:related <http://syriaca.org/place/403> ;
  dcterms:description "A monastery in the ." ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Dair_Mar_Elia> ;
  foaf:primaryTopicOf <http://syriaca.org/place/613/html> ;

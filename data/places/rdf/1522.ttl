@@ -22,7 +22,7 @@
  lawd:variantForm "دير نردس"@ar ;];
  lawd:hasName [
  lawd:variantForm "Monastery of Nardes"@en ;];
- skos:related "Mosul" ;
+ skos:related <http://syriaca.org/place/139> ;
  dcterms:description "A monastery near ." ;
  dcterms:temporal "0628" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1522/html> ;

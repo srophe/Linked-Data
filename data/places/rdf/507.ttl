@@ -22,8 +22,8 @@
  lawd:variantForm "ܟܽܘܓܝܺܢ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "كوجين"@ar ;];
- skos:related "Kerala" ;
- skos:related "India" ;
+ skos:related <http://syriaca.org/place/602> ;
+ skos:related <http://syriaca.org/place/500> ;
  dcterms:description "A city in in southern ." ;
  dcterms:temporal "1433" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kochi> ;

@@ -32,7 +32,7 @@
  lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
  lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
- skos:related "Ṭur ʿAbdin" ;
+ skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "0734" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Yemişli,_Midyat> ;

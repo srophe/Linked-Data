@@ -16,7 +16,7 @@
  lawd:primaryForm "Gabrona and Shmona"@en ;];
  lawd:hasName [
  lawd:variantForm "monastery of Gabrona and Shmona"@en ;];
- skos:related "Nisibis" ;
+ skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A monastery probably near ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/625/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/625/tei> .

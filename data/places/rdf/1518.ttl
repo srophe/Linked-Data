@@ -22,7 +22,7 @@
  lawd:variantForm "سقرا"@ar ;];
  lawd:hasName [
  lawd:variantForm "Saqra"@en ;];
- skos:related "Monastery of Qenneshre" ;
+ skos:related <http://syriaca.org/place/230> ;
  dcterms:description "A village near the ." ;
  dcterms:temporal "0700" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1518/html> ;

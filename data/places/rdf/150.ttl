@@ -14,7 +14,7 @@
  rdfs:label "Persian-Sasanian Empire" ;
  lawd:hasName [
  lawd:primaryForm "Persian-Sasanian Empire"@en ;];
- skos:related "Roman Empire" ;
+ skos:related <http://syriaca.org/place/166> ;
  dcterms:description "The empire east of the which lasted from 224 to 651 CE." ;
  dcterms:temporal "0224" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sassanid_Empire> ;

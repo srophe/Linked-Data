@@ -26,7 +26,7 @@
  lawd:variantForm "Mardīn"@en ;];
  lawd:hasName [
  lawd:variantForm "مارِدِين"@ar ;];
- skos:related "Marde" ;
+ skos:related <http://syriaca.org/place/762> ;
  dcterms:description [
  rdfs:label "City in upper Mesopotamia and important center of Syriac Christianity, especially for the Syr. Orth. Church as the city closest to Dayr al-Zaʿfarān, the seat of the patr. from 1293 until 1932."@en ;];
  dcterms:description [

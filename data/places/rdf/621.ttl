@@ -24,7 +24,7 @@
  lawd:variantForm "Nicea"@en ;];
  lawd:hasName [
  lawd:variantForm "نِيْقِية"@ar ;];
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A city in northwestern ." ;
  dcterms:temporal "0325" ;
  skos:exactMatch <http://pleiades.stoa.org/places/511268> ;

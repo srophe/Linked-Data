@@ -20,8 +20,8 @@
  lawd:variantForm "ܨܰܐܡܨܘܽܢ"@syr-Syrj ;];
  lawd:hasName [
  lawd:variantForm "سمسون"@ar ;];
- skos:related "Black Sea" ;
- skos:related "Anatolia" ;
+ skos:related <http://syriaca.org/place/503> ;
+ skos:related <http://syriaca.org/place/504> ;
  dcterms:description "A port city on the in northern central ." ;
  dcterms:temporal "-0047" ;
  skos:exactMatch <http://pleiades.stoa.org/places/857024> ;

@@ -14,8 +14,8 @@
  rdfs:label "Mihraqan Qadaq" ;
  lawd:hasName [
  lawd:primaryForm "Mihraqan Qadaq"@en ;];
- skos:related "Sasanian Empire" ;
- skos:related "Khuzistan" ;
+ skos:related <http://syriaca.org/place/150> ;
+ skos:related <http://syriaca.org/place/929> ;
  dcterms:description "A province of the located in northern ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/903083> ;
 geo:location [

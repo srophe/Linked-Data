@@ -22,7 +22,7 @@
  lawd:variantForm "Zarnūqā"@en ;];
  lawd:hasName [
  lawd:variantForm "دير الزرنوق"@ar ;];
- skos:related "Gazarta" ;
+ skos:related <http://syriaca.org/place/88> ;
  dcterms:description "A monastery west of ." ;
  dcterms:temporal "0400" ;
  foaf:primaryTopicOf <http://syriaca.org/place/126/html> ;

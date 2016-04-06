@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/812> a lawd:Place ;
-rdfs:label "Daquqa"  ;
-dcterms:description "A town in Beth Garmai."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Daquq>  ;
+ rdfs:label "Daquqa" ;
  lawd:hasName [
-lawd:primaryForm "Daquqa"@en  ;];
+ lawd:primaryForm "Daquqa"@en ;];
  lawd:hasName [
-lawd:variantForm "Dāqūqā"@en  ;];
+ lawd:variantForm "Dāqūqā"@en ;];
  lawd:hasName [
-lawd:variantForm "دَقُوقاء"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/812/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/812/tei>  .
+ lawd:variantForm "دَقُوقاء"@ar ;];
+ dcterms:description "A town in Beth Garmai." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Daquq> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/812/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/812/tei> .

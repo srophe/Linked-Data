@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/981> a lawd:Place ;
-rdfs:label "Bāsh Qāl"  ;
+ rdfs:label "Bāsh Qāl" ;
  lawd:hasName [
-lawd:primaryForm "Bāsh Qāl"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/981/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/981/tei>  .
+ lawd:primaryForm "Bāsh Qāl"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/981/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/981/tei> .

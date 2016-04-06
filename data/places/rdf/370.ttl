@@ -11,34 +11,34 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/370> a lawd:Place ;
-rdfs:label "Dayr ʿArnīsh — ܕܝܪܐ ܕܥܘܪܢܝܣ"  ;
+ rdfs:label "Dayr ʿArnīsh — ܕܝܪܐ ܕܥܘܪܢܝܣ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dayr ʿArnīsh"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܥܘܪܢܝܣ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܠܘܪܕܢܣ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير عرنيش"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "ʿArnīsh Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Dayr Arnīsh"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Dayr ‘Arnīsh"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Arnīsh Monastery"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Arnīsh Monastery"@en-xsrp1 ;];
  dcterms:description [
-rdfs:label "ܕܒܰܦܢܝܬ ܟܺܝܫܘܡ ܘܪܰܥܒܰܐܢ ܐܰܚܕܗ ܟܘܪܢܝܓ ܐܰܪܡܢܳܝܐ ܒܝܫ ܬܰܪܥܝܬܐ ܘܫܰܢܶܩ ܠܕܰܝܪ̈ܳܝܰܘܗܝ ܘܰܛܪܰܕ ܐܶܢܘܽܢ. ܘܥܰܒܕܗ ܩܶܠܥܐ ܫܢܰܬ 1114 ܟܢ ܐܰܗܦܟܘܽܗܝ ܕܰܝܪ̈ܝܐ ܘܢܰܦܩ ܫܬܳܐ ܐܶܦܝܣܩܘ̈ܦܐ ܥܕܰܡܐ ܠܰܫܢܬ 965"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܕܒܰܦܢܝܬ ܟܺܝܫܘܡ ܘܪܰܥܒܰܐܢ ܐܰܚܕܗ ܟܘܪܢܝܓ ܐܰܪܡܢܳܝܐ ܒܝܫ ܬܰܪܥܝܬܐ ܘܫܰܢܶܩ ܠܕܰܝܪ̈ܳܝܰܘܗܝ ܘܰܛܪܰܕ ܐܶܢܘܽܢ. ܘܥܰܒܕܗ ܩܶܠܥܐ ܫܢܰܬ 1114 ܟܢ ܐܰܗܦܟܘܽܗܝ ܕܰܝܪ̈ܝܐ ܘܢܰܦܩ ܫܬܳܐ ܐܶܦܝܣܩܘ̈ܦܐ ܥܕܰܡܐ ܠܰܫܢܬ 965"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في ناحية كيسوم ورعبان، اغتصبه كورتيج الارمني الخبيث الطوية ونكل برهبانه وطردهم وجعله قلعة عام 1114 ثم استعاده الرهبان وخرج ستة اساقفة من سنة 1095 الى 1132."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في ناحية كيسوم ورعبان، اغتصبه كورتيج الارمني الخبيث الطوية ونكل برهبانه وطردهم وجعله قلعة عام 1114 ثم استعاده الرهبان وخرج ستة اساقفة من سنة 1095 الى 1132."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "in the vicinity of Kesum and Raʿbān, was usurped by the wicked Gurtij the Armenian, who persecuted and expelled its monks, converting it into a citadel in 1114, but the monks were able to regain it. Between 1095 and 1132, six bishops graduated from it."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1095"  ;
- lawd:hasName [
-lawd:primaryForm "Dayr ʿArnīsh"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܥܘܪܢܝܣ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܠܘܪܕܢܣ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير عرنيش"@ar  ;];
- lawd:hasName [
-lawd:variantForm "ʿArnīsh Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Dayr Arnīsh"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Dayr ‘Arnīsh"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Arnīsh Monastery"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Arnīsh Monastery"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/370/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/370/tei>  .
+ rdfs:label "in the vicinity of Kesum and Raʿbān, was usurped by the wicked Gurtij the Armenian, who persecuted and expelled its monks, converting it into a citadel in 1114, but the monks were able to regain it. Between 1095 and 1132, six bishops graduated from it."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1095" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/370/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/370/tei> .

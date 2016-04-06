@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1091> a lawd:Place ;
-rdfs:label "Bezwāge"  ;
+ rdfs:label "Bezwāge" ;
  lawd:hasName [
-lawd:primaryForm "Bezwāge"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1091/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1091/tei>  .
+ lawd:primaryForm "Bezwāge"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1091/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1091/tei> .

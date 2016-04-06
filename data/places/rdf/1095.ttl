@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1095> a lawd:Place ;
-rdfs:label "Billi"  ;
+ rdfs:label "Billi" ;
  lawd:hasName [
-lawd:primaryForm "Billi"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1095/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1095/tei>  .
+ lawd:primaryForm "Billi"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1095/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1095/tei> .

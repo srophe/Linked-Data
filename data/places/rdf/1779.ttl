@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1779> a lawd:Place ;
-rdfs:label "Tīs"  ;
+ rdfs:label "Tīs" ;
  lawd:hasName [
-lawd:primaryForm "Tīs"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1779/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1779/tei>  .
+ lawd:primaryForm "Tīs"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1779/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1779/tei> .

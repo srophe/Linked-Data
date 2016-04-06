@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1650> a lawd:Place ;
-rdfs:label "Rawma"  ;
+ rdfs:label "Rawma" ;
  lawd:hasName [
-lawd:primaryForm "Rawma"@en  ;];
+ lawd:primaryForm "Rawma"@en ;];
  lawd:hasName [
-lawd:variantForm "Rawmā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1650/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1650/tei>  .
+ lawd:variantForm "Rawmā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1650/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1650/tei> .

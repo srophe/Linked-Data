@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1709> a lawd:Place ;
-rdfs:label "Shemlikan"  ;
+ rdfs:label "Shemlikan" ;
  lawd:hasName [
-lawd:primaryForm "Shemlikan"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1709/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1709/tei>  .
+ lawd:primaryForm "Shemlikan"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1709/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1709/tei> .

@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1160> a lawd:Place ;
-rdfs:label "Deleb"  ;
+ rdfs:label "Deleb" ;
  lawd:hasName [
-lawd:primaryForm "Deleb"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1160/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1160/tei>  .
+ lawd:primaryForm "Deleb"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1160/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1160/tei> .

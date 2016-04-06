@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1372> a lawd:Place ;
-rdfs:label "Kārwansārā"  ;
+ rdfs:label "Kārwansārā" ;
  lawd:hasName [
-lawd:primaryForm "Kārwansārā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1372/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1372/tei>  .
+ lawd:primaryForm "Kārwansārā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1372/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1372/tei> .

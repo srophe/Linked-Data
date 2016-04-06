@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1239> a lawd:Place ;
-rdfs:label "Gōrgōran"  ;
+ rdfs:label "Gōrgōran" ;
  lawd:hasName [
-lawd:primaryForm "Gōrgōran"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1239/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1239/tei>  .
+ lawd:primaryForm "Gōrgōran"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1239/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1239/tei> .

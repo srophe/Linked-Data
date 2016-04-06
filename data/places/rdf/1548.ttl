@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1548> a lawd:Place ;
-rdfs:label "Minyānīsh"  ;
+ rdfs:label "Minyānīsh" ;
  lawd:hasName [
-lawd:primaryForm "Minyānīsh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1548/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1548/tei>  .
+ lawd:primaryForm "Minyānīsh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1548/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1548/tei> .

@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2440> a lawd:Place ;
-rdfs:label "Mar Abraham the Mede"  ;
+ rdfs:label "Mar Abraham the Mede" ;
  lawd:hasName [
-lawd:primaryForm "Mar Abraham the Mede"@en  ;];
+ lawd:primaryForm "Mar Abraham the Mede"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Abraham the Mede"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2440/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2440/tei>  .
+ lawd:variantForm "Mār Abraham the Mede"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2440/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2440/tei> .

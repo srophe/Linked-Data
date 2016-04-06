@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1316> a lawd:Place ;
-rdfs:label "Ḥardālānīs"  ;
+ rdfs:label "Ḥardālānīs" ;
  lawd:hasName [
-lawd:primaryForm "Ḥardālānīs"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1316/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1316/tei>  .
+ lawd:primaryForm "Ḥardālānīs"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1316/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1316/tei> .

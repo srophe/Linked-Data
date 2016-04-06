@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1813> a lawd:Place ;
-rdfs:label "Yāhūshāpāt"  ;
+ rdfs:label "Yāhūshāpāt" ;
  lawd:hasName [
-lawd:primaryForm "Yāhūshāpāt"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1813/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1813/tei>  .
+ lawd:primaryForm "Yāhūshāpāt"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1813/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1813/tei> .

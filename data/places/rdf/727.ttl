@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/727> a lawd:Place ;
-rdfs:label "Tangut"  ;
+ rdfs:label "Tangut" ;
  lawd:hasName [
-lawd:primaryForm "Tangut"@en  ;];
+ lawd:primaryForm "Tangut"@en ;];
  lawd:hasName [
-lawd:variantForm "Tangūt"@en  ;];
+ lawd:variantForm "Tangūt"@en ;];
  lawd:hasName [
-lawd:variantForm "تنكُت"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/727/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/727/tei>  ;
-dcterms:relation <http://syriaca.org/place/2385>  .
+ lawd:variantForm "تنكُت"@ar ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/727/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/727/tei> ;
+ dcterms:relation <http://syriaca.org/place/2385> .

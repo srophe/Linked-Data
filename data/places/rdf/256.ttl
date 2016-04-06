@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/256> a lawd:Place ;
-rdfs:label "Ārādn"  ;
-dcterms:description "A city in northern Iraq."  ;
-dcterms:temporal "1571"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Araden>  ;
+ rdfs:label "Ārādn" ;
  lawd:hasName [
-lawd:primaryForm "Ārādn"@en  ;];
+ lawd:primaryForm "Ārādn"@en ;];
  lawd:hasName [
-lawd:variantForm "Arāden"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/256/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/256/tei>  .
+ lawd:variantForm "Arāden"@en ;];
+ dcterms:description "A city in northern Iraq." ;
+ dcterms:temporal "1571" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Araden> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/256/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/256/tei> .

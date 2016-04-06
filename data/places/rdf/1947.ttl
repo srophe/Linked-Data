@@ -11,17 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1947> a lawd:Place ;
-rdfs:label "Kottayam"  ;
-dcterms:description "A city in in southern ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/50079>  ;
+ rdfs:label "Kottayam" ;
+ lawd:hasName [
+ lawd:primaryForm "Kottayam"@en ;];
+ skos:related "Kerala" ;
+ skos:related "India" ;
+ dcterms:description "A city in in southern ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/50079> ;
 geo:location [
-geo:lat "9.586011"  ;
-geo:long "9.586011"  ;];
- lawd:hasName [
-lawd:primaryForm "Kottayam"@en  ;];
- lawd:hasName [
-lawd:variantForm "Kerala"  ;];
- lawd:hasName [
-lawd:variantForm "India"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1947/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1947/tei>  .
+ geo:lat "9.586011" ;
+ geo:long "76.521245" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1947/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1947/tei> ;
+geo:location [
+ geo:lat "9.586011" ;
+ geo:long "76.521245" ;].

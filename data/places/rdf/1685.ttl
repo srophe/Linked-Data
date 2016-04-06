@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1685> a lawd:Place ;
-rdfs:label "Sat"  ;
+ rdfs:label "Sat" ;
  lawd:hasName [
-lawd:primaryForm "Sat"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1685/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1685/tei>  ;
-dcterms:relation <http://syriaca.org/place/2364>  .
+ lawd:primaryForm "Sat"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1685/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1685/tei> ;
+ dcterms:relation <http://syriaca.org/place/2364> .

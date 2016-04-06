@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2220> a lawd:Place ;
-rdfs:label "Mart Shmuni and the Bnay Shmuni"  ;
+ rdfs:label "Mart Shmuni and the Bnay Shmuni" ;
  lawd:hasName [
-lawd:primaryForm "Mart Shmuni and the Bnay Shmuni"@en  ;];
+ lawd:primaryForm "Mart Shmuni and the Bnay Shmuni"@en ;];
  lawd:hasName [
-lawd:variantForm "Mart Shmūni and the Beni Shmūni"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2220/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2220/tei>  .
+ lawd:variantForm "Mart Shmūni and the Beni Shmūni"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2220/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2220/tei> .

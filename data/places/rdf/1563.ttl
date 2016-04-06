@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1563> a lawd:Place ;
-rdfs:label "Nakchivan Tepe"  ;
+ rdfs:label "Nakchivan Tepe" ;
  lawd:hasName [
-lawd:primaryForm "Nakchivan Tepe"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1563/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1563/tei>  .
+ lawd:primaryForm "Nakchivan Tepe"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1563/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1563/tei> .

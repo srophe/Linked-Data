@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/959> a lawd:Place ;
-rdfs:label "Bāim Qaʿlā"  ;
+ rdfs:label "Bāim Qaʿlā" ;
  lawd:hasName [
-lawd:primaryForm "Bāim Qaʿlā"@en  ;];
+ lawd:primaryForm "Bāim Qaʿlā"@en ;];
  lawd:hasName [
-lawd:variantForm "Bāim Qalā"@en-xsrp1  ;];
+ lawd:variantForm "Bāim Qalā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Bāim Qa‘lā"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/959/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/959/tei>  .
+ lawd:variantForm "Bāim Qa‘lā"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/959/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/959/tei> .

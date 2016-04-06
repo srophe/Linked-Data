@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1256> a lawd:Place ;
-rdfs:label "Haki"  ;
+ rdfs:label "Haki" ;
  lawd:hasName [
-lawd:primaryForm "Haki"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1256/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1256/tei>  .
+ lawd:primaryForm "Haki"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1256/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1256/tei> .

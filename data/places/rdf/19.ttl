@@ -11,24 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/19> a lawd:Place ;
-rdfs:label "Alqosh — ܐܠܩܘܫ"  ;
+ rdfs:label "Alqosh — ܐܠܩܘܫ" ;
+ lawd:hasName [
+ lawd:primaryForm "Alqosh"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Alqōsh"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܠܩܘܫ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܲܠܩܘܿܫ"@syr-Syrn ;];
  dcterms:description [
-rdfs:label "Town 40 km. north of Mosul in Iraq."@en  ;];
+ rdfs:label "Town 40 km. north of Mosul in Iraq."@en ;];
  dcterms:description [
-rdfs:label "30. Alqosh"@en  ;];
-dcterms:temporal "-0750"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Alqosh>  ;
+ rdfs:label "30. Alqosh"@en ;];
+ dcterms:temporal "-0750" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Alqosh> ;
 geo:location [
-geo:lat "36.735278"  ;
-geo:long "36.735278"  ;];
- lawd:hasName [
-lawd:primaryForm "Alqosh"@en  ;];
- lawd:hasName [
-lawd:variantForm "Alqōsh"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܠܩܘܫ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܲܠܩܘܿܫ"@syr-Syrn  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/19/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/19/tei>  ;
-dcterms:relation <http://syriaca.org/place/2247>  .
+ geo:lat "36.735278" ;
+ geo:long "43.096389" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/19/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/19/tei> ;
+geo:location [
+ geo:lat "36.735278" ;
+ geo:long "43.096389" ;];
+ dcterms:relation <http://syriaca.org/place/2247> .

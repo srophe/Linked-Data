@@ -11,36 +11,39 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/228> a lawd:Place ;
-rdfs:label "Musa al-Ḥabashi — ܕܝܪܐ ܕܡܪܝ ܡܘܫܐ ܟܘܫܝܐ"  ;
+ rdfs:label "Musa al-Ḥabashi — ܕܝܪܐ ܕܡܪܝ ܡܘܫܐ ܟܘܫܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Musa al-Ḥabashi"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܡܘܫܐ ܟܘܫܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܡܘܫܶܐ ܟܘܫܳܝܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير مار موسى الحبشي"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Moses the Abyssinian Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "monastery of Mar Musa al-Habashi"@en ;];
  dcterms:description [
-rdfs:label "The Monastery of Moses the Ethiopian is perched on top of a steep, rocky promontory that juts out of a deep gully between two cliffs in the high region south of Nabk."@en  ;];
+ rdfs:label "The Monastery of Moses the Ethiopian is perched on top of a steep, rocky promontory that juts out of a deep gully between two cliffs in the high region south of Nabk."@en ;];
  dcterms:description [
-rdfs:label "383. Mūsā al-Ḥabashī, Dayr Mār"@en  ;];
+ rdfs:label "383. Mūsā al-Ḥabashī, Dayr Mār"@en ;];
  dcterms:description [
-rdfs:label "ܒܛܘܪܐ ܡܬܰܢܳܢܐ ܡܰܪܕܶܐ ܫܳܥܐ ܘܦܶܠܓܳܐ ܡܶܢ ܐܰܬܪܐ ܕܢܰܒܟ. ܐܶܬܒܢܝ ܒܫܘܪܝܐ ܕܕܳܪܐ ܫܬܝܬܳܝܐ ܘܐܶܬܚܰܕܬ ܫܢܰܬ 1559 ܘܰܗܘܐ ܟܘܪܣܝܳܐ ܐܶܦܝܣܩܘܦܳܝܐ ܒܰܐܚܪ̈ܳܝܬܗ ܕܕܳܪܐ ܕܝ̄ܕ ܘܐܶܬܢܰܦܩ ܒܗ ܬܪܶܝܢ ܦܰܛܪܝܪ̈ܟܶܐ ܘܥܶܣܪܝܢ ܐܶܦܝܣܩܘܦܶܐ ܘܰܡܝܰܬܰܒ ܗܘܐ ܥܕܰܡܐ ܠܰܫܢܰܬ 1832 ܘܐܶܬܬܚܶܕ ܡܶܢܰܢ ܒܚܰܝܠܐ ܡܕܰܒܪܳܢܝܐ ܘܰܗܘܐ ܣܦܝܩ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܛܘܪܐ ܡܬܰܢܳܢܐ ܡܰܪܕܶܐ ܫܳܥܐ ܘܦܶܠܓܳܐ ܡܶܢ ܐܰܬܪܐ ܕܢܰܒܟ. ܐܶܬܒܢܝ ܒܫܘܪܝܐ ܕܕܳܪܐ ܫܬܝܬܳܝܐ ܘܐܶܬܚܰܕܬ ܫܢܰܬ 1559 ܘܰܗܘܐ ܟܘܪܣܝܳܐ ܐܶܦܝܣܩܘܦܳܝܐ ܒܰܐܚܪ̈ܳܝܬܗ ܕܕܳܪܐ ܕܝ̄ܕ ܘܐܶܬܢܰܦܩ ܒܗ ܬܪܶܝܢ ܦܰܛܪܝܪ̈ܟܶܐ ܘܥܶܣܪܝܢ ܐܶܦܝܣܩܘܦܶܐ ܘܰܡܝܰܬܰܒ ܗܘܐ ܥܕܰܡܐ ܠܰܫܢܰܬ 1832 ܘܐܶܬܬܚܶܕ ܡܶܢܰܢ ܒܚܰܝܠܐ ܡܕܰܒܪܳܢܝܐ ܘܰܗܘܐ ܣܦܝܩ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في الجبل المدخن مسيرة ساعة ونصف عن بلدة النبك، رفع بناؤه اوائل القرن السادس وجدد عام 1556 وصار كرسيا اسقفيا اواخر القرن الرابع عشر وتخرج فيها بطريركان وعشرون اسقفا ولم يزل آهلا حتى سنة 1832 ثم اغتصب منا بنفوذ سياسي وامسى خاليا."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في الجبل المدخن مسيرة ساعة ونصف عن بلدة النبك، رفع بناؤه اوائل القرن السادس وجدد عام 1556 وصار كرسيا اسقفيا اواخر القرن الرابع عشر وتخرج فيها بطريركان وعشرون اسقفا ولم يزل آهلا حتى سنة 1832 ثم اغتصب منا بنفوذ سياسي وامسى خاليا."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "in the Smoke Mountain, an hour and a half from the town of al-Nabak in Syria. This monastery was built in the sixth century and renovated in 1556. It became a metropolitan see at the end of the fourteenth century. It was inhabited until 1832, when it was usurped from us (by the seceding faction which joined the Church of Rome) through political influence and later was deserted. Two Patriarchs and twenty bishops graduated from it."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0600"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Monastery_of_Saint_Moses_the_Abyssinian>  ;
+ rdfs:label "in the Smoke Mountain, an hour and a half from the town of al-Nabak in Syria. This monastery was built in the sixth century and renovated in 1556. It became a metropolitan see at the end of the fourteenth century. It was inhabited until 1832, when it was usurped from us (by the seceding faction which joined the Church of Rome) through political influence and later was deserted. Two Patriarchs and twenty bishops graduated from it."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0600" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Monastery_of_Saint_Moses_the_Abyssinian> ;
 geo:location [
-geo:lat "34.021667"  ;
-geo:long "34.021667"  ;];
- lawd:hasName [
-lawd:primaryForm "Musa al-Ḥabashi"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܡܘܫܐ ܟܘܫܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܡܘܫܶܐ ܟܘܫܳܝܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير مار موسى الحبشي"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Moses the Abyssinian Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "monastery of Mar Musa al-Habashi"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/228/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/228/tei>  .
+ geo:lat "34.021667" ;
+ geo:long "36.842222" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/228/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/228/tei> ;
+geo:location [
+ geo:lat "34.021667" ;
+ geo:long "36.842222" ;].

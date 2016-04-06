@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1705> a lawd:Place ;
-rdfs:label "Shārīnīs"  ;
+ rdfs:label "Shārīnīs" ;
  lawd:hasName [
-lawd:primaryForm "Shārīnīs"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1705/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1705/tei>  .
+ lawd:primaryForm "Shārīnīs"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1705/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1705/tei> .

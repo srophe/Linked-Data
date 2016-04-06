@@ -11,17 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1116> a lawd:Place ;
-rdfs:label "Challūk — ܓܠܟ"  ;
-dcterms:description "A village on the in the region."  ;
+ rdfs:label "Challūk — ܓܠܟ" ;
  lawd:hasName [
-lawd:primaryForm "Challūk"@en  ;];
+ lawd:primaryForm "Challūk"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܓܠܟ"@syr  ;];
+ lawd:primaryForm "ܓܠܟ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܓ̰ܲܠܸܟ̇"@syr-Syrn  ;];
- lawd:hasName [
-lawd:variantForm "Khabur River"  ;];
- lawd:hasName [
-lawd:variantForm "Lower Ṭiyari"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1116/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1116/tei>  .
+ lawd:variantForm "ܓ̰ܲܠܸܟ̇"@syr-Syrn ;];
+ skos:related "Khabur River" ;
+ skos:related "Lower Ṭiyari" ;
+ dcterms:description "A village on the in the region." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1116/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1116/tei> .

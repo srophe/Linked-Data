@@ -11,20 +11,20 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1805> a lawd:Place ;
-rdfs:label "ʿUmra"  ;
+ rdfs:label "ʿUmra" ;
  lawd:hasName [
-lawd:primaryForm "ʿUmra"@en  ;];
+ lawd:primaryForm "ʿUmra"@en ;];
  lawd:hasName [
-lawd:variantForm "ʿŪmrā"@en  ;];
+ lawd:variantForm "ʿŪmrā"@en ;];
  lawd:hasName [
-lawd:variantForm "Deir Shīsh"@en  ;];
+ lawd:variantForm "Deir Shīsh"@en ;];
  lawd:hasName [
-lawd:variantForm "Umra"@en-xsrp1  ;];
+ lawd:variantForm "Umra"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Umra"@en-xsrp1  ;];
+ lawd:variantForm "‘Umra"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ūmrā"@en-xsrp1  ;];
+ lawd:variantForm "Ūmrā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Ūmrā"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1805/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1805/tei>  .
+ lawd:variantForm "‘Ūmrā"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1805/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1805/tei> .

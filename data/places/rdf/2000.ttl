@@ -11,19 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2000> a lawd:Place ;
-rdfs:label "Mar Ishoʿ"  ;
+ rdfs:label "Mar Ishoʿ" ;
  lawd:hasName [
-lawd:primaryForm "Mar Ishoʿ"@en  ;];
+ lawd:primaryForm "Mar Ishoʿ"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Īshōʿ"@en  ;];
+ lawd:variantForm "Mār Īshōʿ"@en ;];
  lawd:hasName [
-lawd:variantForm "Mar Isho"@en-xsrp1  ;];
+ lawd:variantForm "Mar Isho"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mar Isho‘"@en-xsrp1  ;];
+ lawd:variantForm "Mar Isho‘"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Īshō"@en-xsrp1  ;];
+ lawd:variantForm "Mār Īshō"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Īshō‘"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2000/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2000/tei>  ;
-dcterms:relation <http://syriaca.org/place/2001>  .
+ lawd:variantForm "Mār Īshō‘"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2000/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2000/tei> ;
+ dcterms:relation <http://syriaca.org/place/2001> .

@@ -11,27 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/453> a lawd:Place ;
-rdfs:label "Kūndār — ܟܘܢܕܐܪ"  ;
+ rdfs:label "Kūndār — ܟܘܢܕܐܪ" ;
+ lawd:hasName [
+ lawd:primaryForm "Kūndār"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܟܘܢܕܐܪ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܟܘܢܕܰܐܪ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "كوندار"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Kondar"@en ;];
  dcterms:description [
-rdfs:label "ܟܒܰܪ ܟܰܐܢܕܝܪܝ ܐܰܬܪܳܐ ܕܰܠܓܰܪܒܰܝ ܐܰܙܡܝܪ ܒܩܘܪܒܳܐ ܕܝܰܡܳܐ ܐܘܟܳܡܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܟܒܰܪ ܟܰܐܢܕܝܪܝ ܐܰܬܪܳܐ ܕܰܠܓܰܪܒܰܝ ܐܰܙܡܝܪ ܒܩܘܪܒܳܐ ܕܝܰܡܳܐ ܐܘܟܳܡܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "لعلها كانديري بلدة شمالي أزميد بقرب البحر الاسود."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "لعلها كانديري بلدة شمالي أزميد بقرب البحر الاسود."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "perhaps Kandiri, north of Ismit, near the Black Sea."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1295"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Kandıra>  ;
- lawd:hasName [
-lawd:primaryForm "Kūndār"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܟܘܢܕܐܪ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܟܘܢܕܰܐܪ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "كوندار"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Kondar"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/453/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/453/tei>  .
+ rdfs:label "perhaps Kandiri, north of Ismit, near the Black Sea."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1295" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Kandıra> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/453/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/453/tei> .

@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1069> a lawd:Place ;
-rdfs:label "Beth Shmiyāye"  ;
+ rdfs:label "Beth Shmiyāye" ;
  lawd:hasName [
-lawd:primaryForm "Beth Shmiyāye"@en  ;];
+ lawd:primaryForm "Beth Shmiyāye"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Shmiyāye"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1069/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1069/tei>  .
+ lawd:variantForm "Beṯ Shmiyāye"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1069/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1069/tei> .

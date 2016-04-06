@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1396> a lawd:Place ;
-rdfs:label "Kūlyā"  ;
+ rdfs:label "Kūlyā" ;
  lawd:hasName [
-lawd:primaryForm "Kūlyā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1396/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1396/tei>  .
+ lawd:primaryForm "Kūlyā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1396/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1396/tei> .

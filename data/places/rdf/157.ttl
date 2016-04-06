@@ -11,21 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/157> a lawd:Place ;
-rdfs:label "Petra — ܦܐܛܪܐ"  ;
-dcterms:description "A town south of the Dead Sea."  ;
-dcterms:temporal "-0060"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/697725>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Petra>  ;
+ rdfs:label "Petra — ܦܐܛܪܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Petra"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܦܐܛܪܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܦܰܐܛܪܰܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "باطرا"@ar ;];
+ dcterms:description "A town south of the Dead Sea." ;
+ dcterms:temporal "-0060" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/697725> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Petra> ;
 geo:location [
-geo:lat "30.32861"  ;
-geo:long "30.32861"  ;];
- lawd:hasName [
-lawd:primaryForm "Petra"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܦܐܛܪܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܦܰܐܛܪܰܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "باطرا"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/157/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/157/tei>  .
+ geo:lat "30.32861" ;
+ geo:long "35.44194" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/157/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/157/tei> ;
+geo:location [
+ geo:lat "30.32861" ;
+ geo:long "35.44194" ;].

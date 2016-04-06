@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/972> a lawd:Place ;
-rdfs:label "Barwes"  ;
+ rdfs:label "Barwes" ;
  lawd:hasName [
-lawd:primaryForm "Barwes"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/972/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/972/tei>  .
+ lawd:primaryForm "Barwes"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/972/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/972/tei> .

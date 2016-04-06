@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2247> a lawd:Place ;
-rdfs:label "Alqosh"  ;
+ rdfs:label "Alqosh" ;
  lawd:hasName [
-lawd:primaryForm "Alqosh"@en  ;];
+ lawd:primaryForm "Alqosh"@en ;];
  lawd:hasName [
-lawd:variantForm "Alqōsh"@en  ;];
+ lawd:variantForm "Alqōsh"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻAchusc’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2247/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2247/tei>  ;
-dcterms:relation <http://syriaca.org/place/19>  .
+ lawd:variantForm "ʻAchusc’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2247/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2247/tei> ;
+ dcterms:relation <http://syriaca.org/place/19> .

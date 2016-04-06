@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/766> a lawd:Place ;
-rdfs:label "Naḥla d-Malka"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Nahla,_Iraq>  ;
+ rdfs:label "Naḥla d-Malka" ;
  lawd:hasName [
-lawd:primaryForm "Naḥla d-Malka"@en  ;];
+ lawd:primaryForm "Naḥla d-Malka"@en ;];
  lawd:hasName [
-lawd:variantForm "Naḥlā d'Malkā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/766/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/766/tei>  .
+ lawd:variantForm "Naḥlā d'Malkā"@en ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Nahla,_Iraq> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/766/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/766/tei> .

@@ -11,34 +11,37 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/182> a lawd:Place ;
-rdfs:label "Seleucia — ܣܠܝܩ"  ;
+ rdfs:label "Seleucia — ܣܠܝܩ" ;
+ lawd:hasName [
+ lawd:primaryForm "Seleucia"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܣܠܝܩ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܣܠܝܺܩ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "سليق"@ar ;];
  dcterms:description [
-rdfs:label "Located on the Tigris, south of modern Baghdad."@en  ;];
+ rdfs:label "Located on the Tigris, south of modern Baghdad."@en ;];
  dcterms:description [
-rdfs:label "483. Seleucia-Ctesiphon"@en  ;];
+ rdfs:label "483. Seleucia-Ctesiphon"@en ;];
  dcterms:description [
-rdfs:label "ܬܰܪܬܝܢ ܡܕܝ̈ܢܳܢ ܕܒܰܚܕ̈ܕܐ ܣܒܝܣ̈ܢ ܘܡܶܬܩܰܪ̈ܝܳܢ ܡܕܝ̈ܢܳܬܐ ܐܶܡܐ ܕܰܡܕܝ̈ܢܬܳܐ ܕܦܳܪ̈ܣܳܝܐ ܣܰܐܣܰܐܢܳܝ̈ܐ ܠܬܰܝܡܢܳܗ̇ ܕܒܓܕܕ ܡܰܪܕܶܐ ܫܶܬ ܫܳܥܝ̈ܢ ܘܰܚܪܶܒ̈ܝ ܒܫܘܪܳܝ ܫܘܠܛܳܢܐ ܕܥܰܪ̈ܒܝܐ ܘܰܒܓܰܢܒܗܝܢ ܝܰܘܡܳܢ ܩܪܝܬܳܐ ܕܣܰܠܡܰܐܢ ܒܰܐܟ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܬܰܪܬܝܢ ܡܕܝ̈ܢܳܢ ܕܒܰܚܕ̈ܕܐ ܣܒܝܣ̈ܢ ܘܡܶܬܩܰܪ̈ܝܳܢ ܡܕܝ̈ܢܳܬܐ ܐܶܡܐ ܕܰܡܕܝ̈ܢܬܳܐ ܕܦܳܪ̈ܣܳܝܐ ܣܰܐܣܰܐܢܳܝ̈ܐ ܠܬܰܝܡܢܳܗ̇ ܕܒܓܕܕ ܡܰܪܕܶܐ ܫܶܬ ܫܳܥܝ̈ܢ ܘܰܚܪܶܒ̈ܝ ܒܫܘܪܳܝ ܫܘܠܛܳܢܐ ܕܥܰܪ̈ܒܝܐ ܘܰܒܓܰܢܒܗܝܢ ܝܰܘܡܳܢ ܩܪܝܬܳܐ ܕܣܰܠܡܰܐܢ ܒܰܐܟ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينتان متصلتان سميتا بالمدائن عاصمة الفرس الساسانيين، جنوبي بغداد مسيرة ست ساعات، خربتا في صدر الفتح العربي وبجانبهما اليوم قرية سلمان باك."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينتان متصلتان سميتا بالمدائن عاصمة الفرس الساسانيين، جنوبي بغداد مسيرة ست ساعات، خربتا في صدر الفتح العربي وبجانبهما اليوم قرية سلمان باك."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "two connected cities. They were the capital of the Sassanids, situated about six hours journey south of Baghdad. Both these cities were destroyed at the beginning of the Arab conquest. Near their site is the present village of Salman Pak."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-0300"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/894084>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Seleucia>  ;
+ rdfs:label "two connected cities. They were the capital of the Sassanids, situated about six hours journey south of Baghdad. Both these cities were destroyed at the beginning of the Arab conquest. Near their site is the present village of Salman Pak."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-0300" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/894084> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Seleucia> ;
 geo:location [
-geo:lat "33.094444"  ;
-geo:long "33.094444"  ;];
- lawd:hasName [
-lawd:primaryForm "Seleucia"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܣܠܝܩ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܣܠܝܺܩ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "سليق"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/182/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/182/tei>  ;
-dcterms:relation <http://syriaca.org/place/174>  .
+ geo:lat "33.094444" ;
+ geo:long "44.522222" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/182/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/182/tei> ;
+geo:location [
+ geo:lat "33.094444" ;
+ geo:long "44.522222" ;];
+ dcterms:relation <http://syriaca.org/place/174> .

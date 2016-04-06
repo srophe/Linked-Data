@@ -11,25 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/532> a lawd:Place ;
-rdfs:label "Kfarze — ܟܦܪܙܗ"  ;
-dcterms:description "A village in ."  ;
-dcterms:temporal "0934"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Altıntaş,_Mardin>  ;
+ rdfs:label "Kfarze — ܟܦܪܙܗ" ;
  lawd:hasName [
-lawd:primaryForm "Kfarze"@en  ;];
+ lawd:primaryForm "Kfarze"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܟܦܪܙܗ"@syr  ;];
+ lawd:primaryForm "ܟܦܪܙܗ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܟܦܰܪܙܗ"@syr-Syrj  ;];
+ lawd:variantForm "ܟܦܰܪܙܗ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "كفرزي"@ar  ;];
+ lawd:variantForm "كفرزي"@ar ;];
  lawd:hasName [
-lawd:variantForm "Kafarze"@en  ;];
+ lawd:variantForm "Kafarze"@en ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/532/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/532/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related "Ṭur ʿAbdin" ;
+ dcterms:description "A village in ." ;
+ dcterms:temporal "0934" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Altıntaş,_Mardin> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/532/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/532/tei> .

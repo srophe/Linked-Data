@@ -11,19 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/863> a lawd:Place ;
-rdfs:label "Paris — ܦܐܪܝܣ"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/109126>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Paris>  ;
+ rdfs:label "Paris — ܦܐܪܝܣ" ;
+ lawd:hasName [
+ lawd:primaryForm "Paris"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܦܐܪܝܣ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܦܰܐܪܺܝܣ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "باريس"@ar ;];
+ skos:exactMatch <http://pleiades.stoa.org/places/109126> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Paris> ;
 geo:location [
-geo:lat "48.852964"  ;
-geo:long "48.852964"  ;];
- lawd:hasName [
-lawd:primaryForm "Paris"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܦܐܪܝܣ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܦܰܐܪܺܝܣ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "باريس"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/863/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/863/tei>  .
+ geo:lat "48.852964" ;
+ geo:long "2.349952" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/863/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/863/tei> ;
+geo:location [
+ geo:lat "48.852964" ;
+ geo:long "2.349952" ;].

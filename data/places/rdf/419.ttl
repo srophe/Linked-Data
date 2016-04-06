@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/419> a lawd:Place ;
-rdfs:label "al-Ṣāliḥiyya — ܨܐܠܚܝܗ"  ;
+ rdfs:label "al-Ṣāliḥiyya — ܨܐܠܚܝܗ" ;
+ lawd:hasName [
+ lawd:primaryForm "al-Ṣāliḥiyya"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܨܐܠܚܝܗ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܨܰܐܠܚܝܗ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "الصالحية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ṣaliḥiyya"@en ;];
  dcterms:description [
-rdfs:label "܆ܩܪܝܬܐ ܗܝ ܪܰܒܬܐ ܕܒܰܫܦܘܠܐ ܕܛܘܪܳܐ ܕܩܰܐܣܒܘܢ ܕܰܒܥܳܒܐ ܕܕܰܪܡܣܘܩ ܘܐܶܬܚܰܝܕܰܬ ܠܗ̇"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "܆ܩܪܝܬܐ ܗܝ ܪܰܒܬܐ ܕܒܰܫܦܘܠܐ ܕܛܘܪܳܐ ܕܩܰܐܣܒܘܢ ܕܰܒܥܳܒܐ ܕܕܰܪܡܣܘܩ ܘܐܶܬܚܰܝܕܰܬ ܠܗ̇"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية كبيرة كانت في لحف جبل قاسيون من غوطة دمشق وقد اتصلت بها."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية كبيرة كانت في لحف جبل قاسيون من غوطة دمشق وقد اتصلت بها."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a large village which was situated in the Ghūta of Damascus, at the foot of Qasyun Mountain. It has now become part of Damascus."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
- lawd:hasName [
-lawd:primaryForm "al-Ṣāliḥiyya"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܨܐܠܚܝܗ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܨܰܐܠܚܝܗ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "الصالحية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ṣaliḥiyya"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/419/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/419/tei>  ;
-dcterms:relation <http://syriaca.org/place/418>  .
+ rdfs:label "a large village which was situated in the Ghūta of Damascus, at the foot of Qasyun Mountain. It has now become part of Damascus."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/419/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/419/tei> ;
+ dcterms:relation <http://syriaca.org/place/418> .

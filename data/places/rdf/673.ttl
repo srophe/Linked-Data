@@ -11,16 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/673> a lawd:Place ;
-rdfs:label "Arzanene"  ;
-dcterms:description "A region west and a bit south of ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874367/>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Arzanene>  ;
+ rdfs:label "Arzanene" ;
+ lawd:hasName [
+ lawd:primaryForm "Arzanene"@en ;];
+ skos:related "Lake Van" ;
+ dcterms:description "A region west and a bit south of ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874367/> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Arzanene> ;
 geo:location [
-geo:lat "38.5"  ;
-geo:long "38.5"  ;];
- lawd:hasName [
-lawd:primaryForm "Arzanene"@en  ;];
- lawd:hasName [
-lawd:variantForm "Lake Van"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/673/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/673/tei>  .
+ geo:lat "38.5" ;
+ geo:long "41.5" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/673/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/673/tei> ;
+geo:location [
+ geo:lat "38.5" ;
+ geo:long "41.5" ;].

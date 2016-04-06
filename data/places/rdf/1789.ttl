@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1789> a lawd:Place ;
-rdfs:label "Ṭalana"  ;
+ rdfs:label "Ṭalana" ;
  lawd:hasName [
-lawd:primaryForm "Ṭalana"@en  ;];
+ lawd:primaryForm "Ṭalana"@en ;];
  lawd:hasName [
-lawd:variantForm "Ṭalānā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1789/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1789/tei>  ;
-dcterms:relation <http://syriaca.org/place/788>  ;
-dcterms:relation <http://syriaca.org/place/1790>  ;
-dcterms:relation <http://syriaca.org/place/1791>  .
+ lawd:variantForm "Ṭalānā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1789/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1789/tei> ;
+ dcterms:relation <http://syriaca.org/place/788> ;
+ dcterms:relation <http://syriaca.org/place/1790> ;
+ dcterms:relation <http://syriaca.org/place/1791> .

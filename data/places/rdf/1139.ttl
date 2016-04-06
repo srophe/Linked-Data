@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1139> a lawd:Place ;
-rdfs:label "Dagbagi"  ;
+ rdfs:label "Dagbagi" ;
  lawd:hasName [
-lawd:primaryForm "Dagbagi"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1139/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1139/tei>  .
+ lawd:primaryForm "Dagbagi"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1139/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1139/tei> .

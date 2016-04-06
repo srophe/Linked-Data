@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/999> a lawd:Place ;
-rdfs:label "Betmā"  ;
+ rdfs:label "Betmā" ;
  lawd:hasName [
-lawd:primaryForm "Betmā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/999/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/999/tei>  .
+ lawd:primaryForm "Betmā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/999/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/999/tei> .

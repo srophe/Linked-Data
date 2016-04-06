@@ -11,40 +11,43 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/467> a lawd:Place ;
-rdfs:label "al-Hattākh — ܗܬܐܟ"  ;
+ rdfs:label "al-Hattākh — ܗܬܐܟ" ;
+ lawd:hasName [
+ lawd:primaryForm "al-Hattākh"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܗܬܐܟ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܗܰܬܰܐܟ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܰܢܛܰܐܟ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "الهتاخ"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "انطاخ"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Hattākh"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Antakh"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Ḥattāḥ"@en ;];
+ lawd:hasName [
+ lawd:variantForm "الهَتّاخ"@ar ;];
  dcterms:description [
-rdfs:label "ܩܶܠܥܳܐ ܘܐܰܬܪܳܐ ܕܰܒܓܰܪܒܰܝ ܡܝܺܦܰܪܩܰܛ ܒܰܐܬܪܳܐ ܕܨܘܦܢܳܝ̈ܐ ܡܫܰܡܗܝܢ ܠܳܗ̇ ܐܢܳܫ̈ܐ ܐܰܢܛܰܐܟ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܶܠܥܳܐ ܘܐܰܬܪܳܐ ܕܰܒܓܰܪܒܰܝ ܡܝܺܦܰܪܩܰܛ ܒܰܐܬܪܳܐ ܕܨܘܦܢܳܝ̈ܐ ܡܫܰܡܗܝܢ ܠܳܗ̇ ܐܢܳܫ̈ܐ ܐܰܢܛܰܐܟ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قلعة وبليدة شمالي ميافرقين في قطر الصوفنيين تسميها العامة انطاخ."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قلعة وبليدة شمالي ميافرقين في قطر الصوفنيين تسميها العامة انطاخ."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a citadel and a small town north of Miyapharqin, in the Sufniyyin province; popularly called Antakh."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0640"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874372>  ;
+ rdfs:label "a citadel and a small town north of Miyapharqin, in the Sufniyyin province; popularly called Antakh."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0640" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874372> ;
 geo:location [
-geo:lat "38.347032"  ;
-geo:long "38.347032"  ;];
- lawd:hasName [
-lawd:primaryForm "al-Hattākh"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܗܬܐܟ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܗܰܬܰܐܟ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܐܰܢܛܰܐܟ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "الهتاخ"@ar  ;];
- lawd:hasName [
-lawd:variantForm "انطاخ"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Hattākh"@en  ;];
- lawd:hasName [
-lawd:variantForm "Antakh"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ḥattāḥ"@en  ;];
- lawd:hasName [
-lawd:variantForm "الهَتّاخ"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/467/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/467/tei>  .
+ geo:lat "38.347032" ;
+ geo:long "40.752181" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/467/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/467/tei> ;
+geo:location [
+ geo:lat "38.347032" ;
+ geo:long "40.752181" ;].

@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1610> a lawd:Place ;
-rdfs:label "Qalōgā"  ;
+ rdfs:label "Qalōgā" ;
  lawd:hasName [
-lawd:primaryForm "Qalōgā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1610/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1610/tei>  .
+ lawd:primaryForm "Qalōgā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1610/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1610/tei> .

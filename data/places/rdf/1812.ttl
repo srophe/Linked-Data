@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1812> a lawd:Place ;
-rdfs:label "Yāghmūralūi"  ;
+ rdfs:label "Yāghmūralūi" ;
  lawd:hasName [
-lawd:primaryForm "Yāghmūralūi"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1812/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1812/tei>  .
+ lawd:primaryForm "Yāghmūralūi"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1812/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1812/tei> .

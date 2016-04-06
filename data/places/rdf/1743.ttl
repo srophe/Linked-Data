@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1743> a lawd:Place ;
-rdfs:label "Sūsnāwā"  ;
+ rdfs:label "Sūsnāwā" ;
  lawd:hasName [
-lawd:primaryForm "Sūsnāwā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1743/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1743/tei>  .
+ lawd:primaryForm "Sūsnāwā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1743/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1743/tei> .

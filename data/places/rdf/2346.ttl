@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2346> a lawd:Place ;
-rdfs:label "Mosul"  ;
+ rdfs:label "Mosul" ;
  lawd:hasName [
-lawd:primaryForm "Mosul"@en  ;];
+ lawd:primaryForm "Mosul"@en ;];
  lawd:hasName [
-lawd:variantForm "Āṯōr"@en  ;];
+ lawd:variantForm "Āṯōr"@en ;];
  lawd:hasName [
-lawd:variantForm "Nineveh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2346/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2346/tei>  ;
-dcterms:relation <http://syriaca.org/place/722>  ;
-dcterms:relation <http://syriaca.org/place/139>  .
+ lawd:variantForm "Nineveh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2346/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2346/tei> ;
+ dcterms:relation <http://syriaca.org/place/722> ;
+ dcterms:relation <http://syriaca.org/place/139> .

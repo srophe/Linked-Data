@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1632> a lawd:Place ;
-rdfs:label "Qōṭrānīs"  ;
+ rdfs:label "Qōṭrānīs" ;
  lawd:hasName [
-lawd:primaryForm "Qōṭrānīs"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1632/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1632/tei>  .
+ lawd:primaryForm "Qōṭrānīs"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1632/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1632/tei> .

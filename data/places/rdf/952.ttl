@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/952> a lawd:Place ;
-rdfs:label "Bābārūd"  ;
+ rdfs:label "Bābārūd" ;
  lawd:hasName [
-lawd:primaryForm "Bābārūd"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/952/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/952/tei>  .
+ lawd:primaryForm "Bābārūd"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/952/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/952/tei> .

@@ -11,43 +11,46 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/31> a lawd:Place ;
-rdfs:label "Beth ʿArbaye — ܒܐܥܪ̈ܒܐܝܐ"  ;
+ rdfs:label "Beth ʿArbaye — ܒܐܥܪ̈ܒܐܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Beth ʿArbaye"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܐܥܪ̈ܒܐܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "باعربايا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Baʿarbāyā"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Bet Arabaye"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Beth Arbaye"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Beth ‘Arbaye"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Baarbāyā"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ba‘arbāyā"@en-xsrp1 ;];
  dcterms:description [
-rdfs:label "Ecclesiastical province extending from Beth Zabdai northward, Balad southward, and Nisibis westward, the latter being its capital city."@en  ;];
+ rdfs:label "Ecclesiastical province extending from Beth Zabdai northward, Balad southward, and Nisibis westward, the latter being its capital city."@en ;];
  dcterms:description [
-rdfs:label "98. Beth ʿArbaye"@en  ;];
+ rdfs:label "98. Beth ʿArbaye"@en ;];
  dcterms:description [
-rdfs:label "ܩܠܺܝܡܐ ܙܥܽܘܪܐ ܕܒܶܝܬ ܢܨܺܝܒܺܝܢ ܠܡܰܘܨܠ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܠܺܝܡܐ ܙܥܽܘܪܐ ܕܒܶܝܬ ܢܨܺܝܒܺܝܢ ܠܡܰܘܨܠ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "اقليم صغير كان بين نصيبين والموصل"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "اقليم صغير كان بين نصيبين والموصل"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a small territory between Nisibin and Sinjar."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0559"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874340>  ;
+ rdfs:label "a small territory between Nisibin and Sinjar."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0559" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874340> ;
 geo:location [
-geo:lat "36.5"  ;
-geo:long "36.5"  ;];
- lawd:hasName [
-lawd:primaryForm "Beth ʿArbaye"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܐܥܪ̈ܒܐܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "باعربايا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Baʿarbāyā"@en  ;];
- lawd:hasName [
-lawd:variantForm "Bet Arabaye"@en  ;];
- lawd:hasName [
-lawd:variantForm "Beth Arbaye"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Beth ‘Arbaye"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Baarbāyā"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ba‘arbāyā"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/31/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/31/tei>  ;
-dcterms:relation <http://syriaca.org/place/710>  .
+ geo:lat "36.5" ;
+ geo:long "41.5" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/31/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/31/tei> ;
+geo:location [
+ geo:lat "36.5" ;
+ geo:long "41.5" ;];
+ dcterms:relation <http://syriaca.org/place/710> .

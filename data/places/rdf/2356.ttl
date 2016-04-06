@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2356> a lawd:Place ;
-rdfs:label "Qarta"  ;
+ rdfs:label "Qarta" ;
  lawd:hasName [
-lawd:primaryForm "Qarta"@en  ;];
+ lawd:primaryForm "Qarta"@en ;];
  lawd:hasName [
-lawd:variantForm "Qartā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2356/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2356/tei>  .
+ lawd:variantForm "Qartā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2356/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2356/tei> .

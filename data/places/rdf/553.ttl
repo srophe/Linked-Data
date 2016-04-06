@@ -11,25 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/553> a lawd:Place ;
-rdfs:label "Defne — ܕܦܢܗ"  ;
-dcterms:description "A village near ."  ;
+ rdfs:label "Defne — ܕܦܢܗ" ;
  lawd:hasName [
-lawd:primaryForm "Defne"@en  ;];
+ lawd:primaryForm "Defne"@en ;];
  lawd:hasName [
-lawd:variantForm "ʿAtafiyya"@en  ;];
+ lawd:variantForm "ʿAtafiyya"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܦܢܗ"@syr  ;];
+ lawd:primaryForm "ܕܦܢܗ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܶܦܢܗ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܶܦܢܗ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "دفنة"@ar  ;];
+ lawd:variantForm "دفنة"@ar ;];
  lawd:hasName [
-lawd:variantForm "Dafna"@en  ;];
+ lawd:variantForm "Dafna"@en ;];
  lawd:hasName [
-lawd:variantForm "Atafiyya"@en-xsrp1  ;];
+ lawd:variantForm "Atafiyya"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Atafiyya"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ḥesno d-Kifo"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/553/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/553/tei>  .
+ lawd:variantForm "‘Atafiyya"@en-xsrp1 ;];
+ skos:related "Ḥesno d-Kifo" ;
+ dcterms:description "A village near ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/553/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/553/tei> .

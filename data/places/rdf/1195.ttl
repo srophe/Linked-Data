@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1195> a lawd:Place ;
-rdfs:label "Eḥṭas"  ;
+ rdfs:label "Eḥṭas" ;
  lawd:hasName [
-lawd:primaryForm "Eḥṭas"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1195/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1195/tei>  .
+ lawd:primaryForm "Eḥṭas"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1195/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1195/tei> .

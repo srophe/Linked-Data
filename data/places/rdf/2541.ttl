@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2541> a lawd:Place ;
-rdfs:label "Bonn"  ;
-dcterms:description "A city in Germany."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/108818>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Bonn>  ;
+ rdfs:label "Bonn" ;
  lawd:hasName [
-lawd:primaryForm "Bonn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2541/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2541/tei>  .
+ lawd:primaryForm "Bonn"@en ;];
+ dcterms:description "A city in Germany." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/108818> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Bonn> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2541/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2541/tei> .

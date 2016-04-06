@@ -11,19 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1453> a lawd:Place ;
-rdfs:label "Mor Abrohom — ܕܝܪܐ ܕܡܪܝ ܐܒܪܗܡ"  ;
-dcterms:description "A monastery of unknown location where Rabbula of Edessa was a monk."  ;
-dcterms:temporal "0411"  ;
+ rdfs:label "Mor Abrohom — ܕܝܪܐ ܕܡܪܝ ܐܒܪܗܡ" ;
  lawd:hasName [
-lawd:primaryForm "Mor Abrohom"@en  ;];
+ lawd:primaryForm "Mor Abrohom"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܐܒܪܗܡ"@syr  ;];
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܐܒܪܗܡ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܐܰܒܪܳܗܳܡ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܐܰܒܪܳܗܳܡ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "مار ابرهيم"@ar  ;];
+ lawd:variantForm "مار ابرهيم"@ar ;];
  lawd:hasName [
-lawd:variantForm "Mar Abraham"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1453/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1453/tei>  ;
-dcterms:relation <http://syriaca.org/place/1530>  .
+ lawd:variantForm "Mar Abraham"@en ;];
+ dcterms:description "A monastery of unknown location where Rabbula of Edessa was a monk." ;
+ dcterms:temporal "0411" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1453/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1453/tei> ;
+ dcterms:relation <http://syriaca.org/place/1530> .

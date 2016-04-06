@@ -11,23 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/101> a lawd:Place ;
-rdfs:label "Yabrud"  ;
-dcterms:description "A town on the road between and ."  ;
-dcterms:temporal "0300"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/678196>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Yabrud>  ;
+ rdfs:label "Yabrud" ;
+ lawd:hasName [
+ lawd:primaryForm "Yabrud"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Iabrouda"@en ;];
+ lawd:hasName [
+ lawd:variantForm "يبرود"@ar ;];
+ skos:related "Damascus" ;
+ skos:related "Emesa" ;
+ dcterms:description "A town on the road between and ." ;
+ dcterms:temporal "0300" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/678196> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Yabrud> ;
 geo:location [
-geo:lat "33.97223"  ;
-geo:long "33.97223"  ;];
- lawd:hasName [
-lawd:primaryForm "Yabrud"@en  ;];
- lawd:hasName [
-lawd:variantForm "Iabrouda"@en  ;];
- lawd:hasName [
-lawd:variantForm "يبرود"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Damascus"  ;];
- lawd:hasName [
-lawd:variantForm "Emesa"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/101/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/101/tei>  .
+ geo:lat "33.97223" ;
+ geo:long "36.63115" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/101/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/101/tei> ;
+geo:location [
+ geo:lat "33.97223" ;
+ geo:long "36.63115" ;].

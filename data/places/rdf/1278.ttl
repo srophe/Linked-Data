@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1278> a lawd:Place ;
-rdfs:label "Hawsheshur"  ;
+ rdfs:label "Hawsheshur" ;
  lawd:hasName [
-lawd:primaryForm "Hawsheshur"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1278/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1278/tei>  .
+ lawd:primaryForm "Hawsheshur"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1278/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1278/tei> .

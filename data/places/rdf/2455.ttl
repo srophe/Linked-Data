@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2455> a lawd:Place ;
-rdfs:label "Mar Ezekiel"  ;
+ rdfs:label "Mar Ezekiel" ;
  lawd:hasName [
-lawd:primaryForm "Mar Ezekiel"@en  ;];
+ lawd:primaryForm "Mar Ezekiel"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Ezekiel"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2455/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2455/tei>  ;
-dcterms:relation <http://syriaca.org/place/2456>  ;
-dcterms:relation <http://syriaca.org/place/1901>  .
+ lawd:variantForm "Mār Ezekiel"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2455/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2455/tei> ;
+ dcterms:relation <http://syriaca.org/place/2456> ;
+ dcterms:relation <http://syriaca.org/place/1901> .

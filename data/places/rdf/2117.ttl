@@ -11,19 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2117> a lawd:Place ;
-rdfs:label "Mar Yaʿqob the Recluse"  ;
+ rdfs:label "Mar Yaʿqob the Recluse" ;
  lawd:hasName [
-lawd:primaryForm "Mar Yaʿqob the Recluse"@en  ;];
+ lawd:primaryForm "Mar Yaʿqob the Recluse"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Yaʿqōb the Recluse"@en  ;];
+ lawd:variantForm "Mār Yaʿqōb the Recluse"@en ;];
  lawd:hasName [
-lawd:variantForm "Mar Yaqob the Recluse"@en-xsrp1  ;];
+ lawd:variantForm "Mar Yaqob the Recluse"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mar Ya‘qob the Recluse"@en-xsrp1  ;];
+ lawd:variantForm "Mar Ya‘qob the Recluse"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Yaqōb the Recluse"@en-xsrp1  ;];
+ lawd:variantForm "Mār Yaqōb the Recluse"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Ya‘qōb the Recluse"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2117/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2117/tei>  ;
-dcterms:relation <http://syriaca.org/place/2497>  .
+ lawd:variantForm "Mār Ya‘qōb the Recluse"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2117/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2117/tei> ;
+ dcterms:relation <http://syriaca.org/place/2497> .

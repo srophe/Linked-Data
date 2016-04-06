@@ -11,36 +11,38 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/29> a lawd:Place ;
-rdfs:label "ʿAynwardo — ܥܝܢܘܪܕܐ"  ;
-dcterms:description "A village in ."  ;
-dcterms:temporal "1050"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Gülgöze,_Mardin>  ;
+ rdfs:label "ʿAynwardo — ܥܝܢܘܪܕܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "ʿAynwardo"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܥܝܢܘܪܕܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܥܰܝܢܘܪܕ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "عينورد"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "ʿAynward"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Aynwardo"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Aynwardo"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Aynward"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Aynward"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related "Ṭur ʿAbdin" ;
+ dcterms:description "A village in ." ;
+ dcterms:temporal "1050" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Gülgöze,_Mardin> ;
 geo:location [
-geo:lat "37.408611"  ;
-geo:long "37.408611"  ;];
- lawd:hasName [
-lawd:primaryForm "ʿAynwardo"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܥܝܢܘܪܕܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܥܰܝܢܘܪܕ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "عينورد"@ar  ;];
- lawd:hasName [
-lawd:variantForm "ʿAynward"@en  ;];
- lawd:hasName [
-lawd:variantForm "Aynwardo"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Aynwardo"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Aynward"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Aynward"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/29/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/29/tei>  .
+ geo:lat "37.408611" ;
+ geo:long "41.485556" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/29/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/29/tei> ;
+geo:location [
+ geo:lat "37.408611" ;
+ geo:long "41.485556" ;].

@@ -11,19 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/505> a lawd:Place ;
-rdfs:label "Širwān — ܫܝܪܘܢ"  ;
-dcterms:description "A village northeast of ."  ;
-dcterms:temporal "1943"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Şirvan>  ;
+ rdfs:label "Širwān — ܫܝܪܘܢ" ;
  lawd:hasName [
-lawd:primaryForm "Širwān"@en  ;];
+ lawd:primaryForm "Širwān"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܫܝܪܘܢ"@syr  ;];
+ lawd:primaryForm "ܫܝܪܘܢ"@syr ;];
  lawd:hasName [
-lawd:variantForm "شروان"@ar  ;];
+ lawd:variantForm "شروان"@ar ;];
  lawd:hasName [
-lawd:variantForm "Sherwan"@en  ;];
- lawd:hasName [
-lawd:variantForm "Siirt"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/505/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/505/tei>  .
+ lawd:variantForm "Sherwan"@en ;];
+ skos:related "Siirt" ;
+ dcterms:description "A village northeast of ." ;
+ dcterms:temporal "1943" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Şirvan> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/505/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/505/tei> .

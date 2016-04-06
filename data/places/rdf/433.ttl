@@ -11,28 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/433> a lawd:Place ;
-rdfs:label "ʿUrbish — ܥܘܪܒܝܫ"  ;
+ rdfs:label "ʿUrbish — ܥܘܪܒܝܫ" ;
+ lawd:hasName [
+ lawd:primaryForm "ʿUrbish"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܥܘܪܒܝܫ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܥܘܪܒܺܝܫ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "عوربيش"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Urbish"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Urbish"@en-xsrp1 ;];
  dcterms:description [
-rdfs:label "ܩܪܝܬܳܐ ܪܰܒܬܳܐ ܕܒܐܘܚܕܳܢܳܐ ܕܓܰܪܓܰܪ. ܡܝܰܬܒܳܐ ܗܘܳܬ ܒܣܘܪ̈ܝܳܝܐ ܥܕܰܡܐ ܠܙܰܒܢܐ ܕܩܪܝܒ ܠܢ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܝܬܳܐ ܪܰܒܬܳܐ ܕܒܐܘܚܕܳܢܳܐ ܕܓܰܪܓܰܪ. ܡܝܰܬܒܳܐ ܗܘܳܬ ܒܣܘܪ̈ܝܳܝܐ ܥܕܰܡܐ ܠܙܰܒܢܐ ܕܩܪܝܒ ܠܢ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية كبيرة من عمل كركر كانت آهلة بالسريان حتى الوقت القريب منا."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية كبيرة من عمل كركر كانت آهلة بالسريان حتى الوقت القريب منا."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a big village in Karkar, inhabited by Syrians until recent times."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1943"  ;
- lawd:hasName [
-lawd:primaryForm "ʿUrbish"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܥܘܪܒܝܫ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܥܘܪܒܺܝܫ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "عوربيش"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Urbish"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Urbish"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/433/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/433/tei>  .
+ rdfs:label "a big village in Karkar, inhabited by Syrians until recent times."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1943" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/433/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/433/tei> .

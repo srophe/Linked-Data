@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/856> a lawd:Place ;
-rdfs:label "Münster"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Münster>  ;
+ rdfs:label "Münster" ;
  lawd:hasName [
-lawd:primaryForm "Münster"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/856/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/856/tei>  .
+ lawd:primaryForm "Münster"@en ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Münster> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/856/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/856/tei> .

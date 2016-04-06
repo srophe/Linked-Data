@@ -11,25 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/710> a lawd:Place ;
-rdfs:label "Beth ʿArbaye"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874340>  ;
+ rdfs:label "Beth ʿArbaye" ;
+ lawd:hasName [
+ lawd:primaryForm "Beth ʿArbaye"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Beṯ ʿArabāye"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Sinjār"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Beth Arbaye"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Beth ‘Arbaye"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Beṯ Arabāye"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Beṯ ‘Arabāye"@en-xsrp1 ;];
+ skos:exactMatch <http://pleiades.stoa.org/places/874340> ;
 geo:location [
-geo:lat "36.5"  ;
-geo:long "36.5"  ;];
- lawd:hasName [
-lawd:primaryForm "Beth ʿArbaye"@en  ;];
- lawd:hasName [
-lawd:variantForm "Beṯ ʿArabāye"@en  ;];
- lawd:hasName [
-lawd:variantForm "Sinjār"@en  ;];
- lawd:hasName [
-lawd:variantForm "Beth Arbaye"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Beth ‘Arbaye"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Beṯ Arabāye"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Beṯ ‘Arabāye"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/710/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/710/tei>  ;
-dcterms:relation <http://syriaca.org/place/31>  .
+ geo:lat "36.5" ;
+ geo:long "41.5" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/710/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/710/tei> ;
+geo:location [
+ geo:lat "36.5" ;
+ geo:long "41.5" ;];
+ dcterms:relation <http://syriaca.org/place/31> .

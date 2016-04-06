@@ -11,28 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/331> a lawd:Place ;
-rdfs:label "al-Ḥafar — ܚܦܪ"  ;
-dcterms:description "A village 7 km south of ."  ;
+ rdfs:label "al-Ḥafar — ܚܦܪ" ;
+ lawd:hasName [
+ lawd:primaryForm "al-Ḥafar"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܚܦܪ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܚܰܦܪ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "الحَفر"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ḥafar"@en ;];
+ skos:related "Ṣadad" ;
+ dcterms:description "A village 7 km south of ." ;
  dcterms:description [
-rdfs:label "ܚܕܳܐ ܗܝ ܡܶܢ ܩܘܽܪ̈ܝܳܐ ܕܰܚܡܶܨ. ܡܰܪܕܐ ܫܳܥܬܐ ܡܶܢ ܨܰܕܕ ܠܬܰܝܡܢܗ̇."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܚܕܳܐ ܗܝ ܡܶܢ ܩܘܽܪ̈ܝܳܐ ܕܰܚܡܶܨ. ܡܰܪܕܐ ܫܳܥܬܐ ܡܶܢ ܨܰܕܕ ܠܬܰܝܡܢܗ̇."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "من قرى حمص مسير ساعة عن صدد جنوبيها"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "من قرى حمص مسير ساعة عن صدد جنوبيها"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village in the province of Ḥomṣ, an hour journey south of Ṣadad."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
- lawd:hasName [
-lawd:primaryForm "al-Ḥafar"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܚܦܪ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܚܰܦܪ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "الحَفر"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ḥafar"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ṣadad"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/331/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/331/tei>  .
+ rdfs:label "a village in the province of Ḥomṣ, an hour journey south of Ṣadad."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/331/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/331/tei> .

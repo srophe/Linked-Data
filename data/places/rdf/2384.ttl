@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2384> a lawd:Place ;
-rdfs:label "ʻTallescani’"  ;
+ rdfs:label "ʻTallescani’" ;
  lawd:hasName [
-lawd:primaryForm "ʻTallescani’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2384/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2384/tei>  .
+ lawd:primaryForm "ʻTallescani’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2384/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2384/tei> .

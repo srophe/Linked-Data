@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1672> a lawd:Place ;
-rdfs:label "Sāqerran"  ;
+ rdfs:label "Sāqerran" ;
  lawd:hasName [
-lawd:primaryForm "Sāqerran"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1672/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1672/tei>  .
+ lawd:primaryForm "Sāqerran"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1672/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1672/tei> .

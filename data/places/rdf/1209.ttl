@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1209> a lawd:Place ;
-rdfs:label "Fakīrā"  ;
+ rdfs:label "Fakīrā" ;
  lawd:hasName [
-lawd:primaryForm "Fakīrā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1209/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1209/tei>  .
+ lawd:primaryForm "Fakīrā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1209/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1209/tei> .

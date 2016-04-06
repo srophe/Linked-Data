@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/858> a lawd:Place ;
-rdfs:label "Neri"  ;
+ rdfs:label "Neri" ;
  lawd:hasName [
-lawd:primaryForm "Neri"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/858/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/858/tei>  ;
-dcterms:relation <http://syriaca.org/place/2348>  .
+ lawd:primaryForm "Neri"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/858/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/858/tei> ;
+ dcterms:relation <http://syriaca.org/place/2348> .

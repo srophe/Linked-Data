@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/997> a lawd:Place ;
-rdfs:label "Bespīn"  ;
+ rdfs:label "Bespīn" ;
  lawd:hasName [
-lawd:primaryForm "Bespīn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/997/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/997/tei>  .
+ lawd:primaryForm "Bespīn"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/997/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/997/tei> .

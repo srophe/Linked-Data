@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/787> a lawd:Place ;
-rdfs:label "Ṭal"  ;
+ rdfs:label "Ṭal" ;
  lawd:hasName [
-lawd:primaryForm "Ṭal"@en  ;];
+ lawd:primaryForm "Ṭal"@en ;];
  lawd:hasName [
-lawd:variantForm "Tal"@en  ;];
+ lawd:variantForm "Tal"@en ;];
  lawd:hasName [
-lawd:variantForm "Ṭāl"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/787/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/787/tei>  ;
-dcterms:relation <http://syriaca.org/place/2394>  ;
-dcterms:relation <http://syriaca.org/place/1788>  .
+ lawd:variantForm "Ṭāl"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/787/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/787/tei> ;
+ dcterms:relation <http://syriaca.org/place/2394> ;
+ dcterms:relation <http://syriaca.org/place/1788> .

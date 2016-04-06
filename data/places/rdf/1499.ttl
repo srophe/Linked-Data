@@ -11,20 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1499> a lawd:Place ;
-rdfs:label "Beth Kiyūnā — ܒܝܬ ܟܢܘܢ̈ܐ"  ;
-dcterms:description "A village probably near ."  ;
-dcterms:temporal "0863"  ;
+ rdfs:label "Beth Kiyūnā — ܒܝܬ ܟܢܘܢ̈ܐ" ;
  lawd:hasName [
-lawd:primaryForm "Beth Kiyūnā"@en  ;];
+ lawd:primaryForm "Beth Kiyūnā"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܒܝܬ ܟܢܘܢ̈ܐ"@syr  ;];
+ lawd:primaryForm "ܒܝܬ ܟܢܘܢ̈ܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܒܶܝܬ ܟܝܽܘܢ̈ܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܒܶܝܬ ܟܝܽܘܢ̈ܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "بيت كيونا"@ar  ;];
+ lawd:variantForm "بيت كيونا"@ar ;];
  lawd:hasName [
-lawd:variantForm "Beth Kiyona"@en  ;];
- lawd:hasName [
-lawd:variantForm "Bārimmān"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1499/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1499/tei>  .
+ lawd:variantForm "Beth Kiyona"@en ;];
+ skos:related "Bārimmān" ;
+ dcterms:description "A village probably near ." ;
+ dcterms:temporal "0863" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1499/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1499/tei> .

@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1158> a lawd:Place ;
-rdfs:label "Dayr Rabban"  ;
+ rdfs:label "Dayr Rabban" ;
  lawd:hasName [
-lawd:primaryForm "Dayr Rabban"@en  ;];
+ lawd:primaryForm "Dayr Rabban"@en ;];
  lawd:hasName [
-lawd:variantForm "Deir Rabban"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1158/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1158/tei>  .
+ lawd:variantForm "Deir Rabban"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1158/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1158/tei> .

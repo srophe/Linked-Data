@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1357> a lawd:Place ;
-rdfs:label "Jemiata"  ;
+ rdfs:label "Jemiata" ;
  lawd:hasName [
-lawd:primaryForm "Jemiata"@en  ;];
+ lawd:primaryForm "Jemiata"@en ;];
  lawd:hasName [
-lawd:variantForm "Jemiāṯā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1357/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1357/tei>  .
+ lawd:variantForm "Jemiāṯā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1357/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1357/tei> .

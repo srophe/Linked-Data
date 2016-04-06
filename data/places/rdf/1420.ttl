@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1420> a lawd:Place ;
-rdfs:label "Marānīsh"  ;
+ rdfs:label "Marānīsh" ;
  lawd:hasName [
-lawd:primaryForm "Marānīsh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1420/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1420/tei>  .
+ lawd:primaryForm "Marānīsh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1420/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1420/tei> .

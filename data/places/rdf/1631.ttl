@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1631> a lawd:Place ;
-rdfs:label "Qoryā"  ;
+ rdfs:label "Qoryā" ;
  lawd:hasName [
-lawd:primaryForm "Qoryā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1631/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1631/tei>  .
+ lawd:primaryForm "Qoryā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1631/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1631/tei> .

@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1101> a lawd:Place ;
-rdfs:label "Bīterne"  ;
+ rdfs:label "Bīterne" ;
  lawd:hasName [
-lawd:primaryForm "Bīterne"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1101/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1101/tei>  .
+ lawd:primaryForm "Bīterne"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1101/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1101/tei> .

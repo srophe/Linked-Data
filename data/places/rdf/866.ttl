@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/866> a lawd:Place ;
-rdfs:label "Sauj Bulak"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Mahabad>  ;
+ rdfs:label "Sauj Bulak" ;
  lawd:hasName [
-lawd:primaryForm "Sauj Bulak"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/866/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/866/tei>  .
+ lawd:primaryForm "Sauj Bulak"@en ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Mahabad> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/866/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/866/tei> .

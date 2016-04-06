@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1117> a lawd:Place ;
-rdfs:label "Chāmākī"  ;
+ rdfs:label "Chāmākī" ;
  lawd:hasName [
-lawd:primaryForm "Chāmākī"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1117/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1117/tei>  .
+ lawd:primaryForm "Chāmākī"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1117/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1117/tei> .

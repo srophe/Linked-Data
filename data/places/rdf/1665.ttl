@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1665> a lawd:Place ;
-rdfs:label "Sāʿātlūi"  ;
+ rdfs:label "Sāʿātlūi" ;
  lawd:hasName [
-lawd:primaryForm "Sāʿātlūi"@en  ;];
+ lawd:primaryForm "Sāʿātlūi"@en ;];
  lawd:hasName [
-lawd:variantForm "Sāātlūi"@en-xsrp1  ;];
+ lawd:variantForm "Sāātlūi"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Sā‘ātlūi"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1665/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1665/tei>  .
+ lawd:variantForm "Sā‘ātlūi"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1665/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1665/tei> .

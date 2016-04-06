@@ -11,20 +11,20 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/703> a lawd:Place ;
-rdfs:label "ʿAmadiyya"  ;
+ rdfs:label "ʿAmadiyya" ;
  lawd:hasName [
-lawd:primaryForm "ʿAmadiyya"@en  ;];
+ lawd:primaryForm "ʿAmadiyya"@en ;];
  lawd:hasName [
-lawd:variantForm "ʿAmādīyā"@en  ;];
+ lawd:variantForm "ʿAmādīyā"@en ;];
  lawd:hasName [
-lawd:variantForm "Amadiyya"@en-xsrp1  ;];
+ lawd:variantForm "Amadiyya"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Amadiyya"@en-xsrp1  ;];
+ lawd:variantForm "‘Amadiyya"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Amādīyā"@en-xsrp1  ;];
+ lawd:variantForm "Amādīyā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Amādīyā"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/703/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/703/tei>  ;
-dcterms:relation <http://syriaca.org/place/20>  ;
-dcterms:relation <http://syriaca.org/place/2263>  .
+ lawd:variantForm "‘Amādīyā"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/703/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/703/tei> ;
+ dcterms:relation <http://syriaca.org/place/20> ;
+ dcterms:relation <http://syriaca.org/place/2263> .

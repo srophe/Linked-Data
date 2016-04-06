@@ -11,15 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2505> a lawd:Place ;
-rdfs:label "Mar Yonan"  ;
+ rdfs:label "Mar Yonan" ;
  lawd:hasName [
-lawd:primaryForm "Mar Yonan"@en  ;];
+ lawd:primaryForm "Mar Yonan"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Yōnān"@en  ;];
+ lawd:variantForm "Mār Yōnān"@en ;];
  lawd:hasName [
-lawd:variantForm "دير مريونان"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2505/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2505/tei>  ;
-dcterms:relation <http://syriaca.org/place/2506>  ;
-dcterms:relation <http://syriaca.org/place/2129>  ;
-dcterms:relation <http://syriaca.org/place/2130>  .
+ lawd:variantForm "دير مريونان"@ar ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2505/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2505/tei> ;
+ dcterms:relation <http://syriaca.org/place/2506> ;
+ dcterms:relation <http://syriaca.org/place/2129> ;
+ dcterms:relation <http://syriaca.org/place/2130> .

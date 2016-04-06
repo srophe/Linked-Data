@@ -11,20 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/117> a lawd:Place ;
-rdfs:label "Lake Van — ܝܡܬܐ ܕܘܐܢ"  ;
-dcterms:description "A lake in the mountains to the north of ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Lake_Van>  ;
+ rdfs:label "Lake Van — ܝܡܬܐ ܕܘܐܢ" ;
  lawd:hasName [
-lawd:primaryForm "Lake Van"@en  ;];
+ lawd:primaryForm "Lake Van"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܝܡܬܐ ܕܘܐܢ"@syr  ;];
+ lawd:primaryForm "ܝܡܬܐ ܕܘܐܢ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܝܰܡܬܐ ܕܘܰܐܢ"@syr-Syrj  ;];
+ lawd:variantForm "ܝܰܡܬܐ ܕܘܰܐܢ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "بحيرة وان"@ar  ;];
+ lawd:variantForm "بحيرة وان"@ar ;];
  lawd:hasName [
-lawd:variantForm "بُحَيْرة ارجيش"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Iraq"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/117/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/117/tei>  .
+ lawd:variantForm "بُحَيْرة ارجيش"@ar ;];
+ skos:related "Iraq" ;
+ dcterms:description "A lake in the mountains to the north of ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Lake_Van> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/117/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/117/tei> .

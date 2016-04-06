@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1183> a lawd:Place ;
-rdfs:label "Dōdi Jor"  ;
+ rdfs:label "Dōdi Jor" ;
  lawd:hasName [
-lawd:primaryForm "Dōdi Jor"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1183/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1183/tei>  .
+ lawd:primaryForm "Dōdi Jor"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1183/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1183/tei> .

@@ -11,15 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/717> a lawd:Place ;
-rdfs:label "Beth Aramaye"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/893958>  ;
+ rdfs:label "Beth Aramaye" ;
+ lawd:hasName [
+ lawd:primaryForm "Beth Aramaye"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Beṯ Aramāye"@en ;];
+ skos:exactMatch <http://pleiades.stoa.org/places/893958> ;
 geo:location [
-geo:lat "32.5"  ;
-geo:long "32.5"  ;];
- lawd:hasName [
-lawd:primaryForm "Beth Aramaye"@en  ;];
- lawd:hasName [
-lawd:variantForm "Beṯ Aramāye"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/717/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/717/tei>  ;
-dcterms:relation <http://syriaca.org/place/32>  .
+ geo:lat "32.5" ;
+ geo:long "44.5" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/717/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/717/tei> ;
+geo:location [
+ geo:lat "32.5" ;
+ geo:long "44.5" ;];
+ dcterms:relation <http://syriaca.org/place/32> .

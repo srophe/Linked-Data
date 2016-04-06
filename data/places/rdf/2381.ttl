@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2381> a lawd:Place ;
-rdfs:label "Susa"  ;
+ rdfs:label "Susa" ;
  lawd:hasName [
-lawd:primaryForm "Susa"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2381/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2381/tei>  ;
-dcterms:relation <http://syriaca.org/place/415>  .
+ lawd:primaryForm "Susa"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2381/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2381/tei> ;
+ dcterms:relation <http://syriaca.org/place/415> .

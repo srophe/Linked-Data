@@ -11,15 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/275> a lawd:Place ;
-rdfs:label "Mar Elian"  ;
-dcterms:description "A monastery outside ."  ;
-dcterms:temporal "2011"  ;
+ rdfs:label "Mar Elian" ;
  lawd:hasName [
-lawd:primaryForm "Mar Elian"@en  ;];
+ lawd:primaryForm "Mar Elian"@en ;];
  lawd:hasName [
-lawd:variantForm "Monastery of Julian"@en  ;];
- lawd:hasName [
-lawd:variantForm "al-Qaryatayn"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/275/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/275/tei>  ;
-dcterms:relation <http://syriaca.org/place/992>  .
+ lawd:variantForm "Monastery of Julian"@en ;];
+ skos:related "al-Qaryatayn" ;
+ dcterms:description "A monastery outside ." ;
+ dcterms:temporal "2011" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/275/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/275/tei> ;
+ dcterms:relation <http://syriaca.org/place/992> .

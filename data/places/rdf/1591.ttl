@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1591> a lawd:Place ;
-rdfs:label "Paqabajlūi"  ;
+ rdfs:label "Paqabajlūi" ;
  lawd:hasName [
-lawd:primaryForm "Paqabajlūi"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1591/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1591/tei>  .
+ lawd:primaryForm "Paqabajlūi"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1591/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1591/tei> .

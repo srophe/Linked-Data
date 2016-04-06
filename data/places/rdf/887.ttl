@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/887> a lawd:Place ;
-rdfs:label "Aḥwānīs"  ;
+ rdfs:label "Aḥwānīs" ;
  lawd:hasName [
-lawd:primaryForm "Aḥwānīs"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/887/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/887/tei>  .
+ lawd:primaryForm "Aḥwānīs"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/887/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/887/tei> .

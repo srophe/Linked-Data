@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/819> a lawd:Place ;
-rdfs:label "Famagusta"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Famagusta>  ;
+ rdfs:label "Famagusta" ;
  lawd:hasName [
-lawd:primaryForm "Famagusta"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/819/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/819/tei>  .
+ lawd:primaryForm "Famagusta"@en ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Famagusta> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/819/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/819/tei> .

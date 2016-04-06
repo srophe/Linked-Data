@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1166> a lawd:Place ;
-rdfs:label "Dilmār"  ;
+ rdfs:label "Dilmār" ;
  lawd:hasName [
-lawd:primaryForm "Dilmār"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1166/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1166/tei>  .
+ lawd:primaryForm "Dilmār"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1166/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1166/tei> .

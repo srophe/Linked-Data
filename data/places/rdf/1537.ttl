@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1537> a lawd:Place ;
-rdfs:label "Medhī"  ;
+ rdfs:label "Medhī" ;
  lawd:hasName [
-lawd:primaryForm "Medhī"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1537/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1537/tei>  .
+ lawd:primaryForm "Medhī"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1537/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1537/tei> .

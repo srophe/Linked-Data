@@ -11,31 +11,31 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1951> a lawd:Place ;
-rdfs:label "Dār al-Duwaydār ʿAlāʾ al-Dīn"  ;
-dcterms:description "A residence of the Catholicos of the Church of the East."  ;
+ rdfs:label "Dār al-Duwaydār ʿAlāʾ al-Dīn" ;
  lawd:hasName [
-lawd:primaryForm "Dār al-Duwaydār ʿAlāʾ al-Dīn"@en  ;];
+ lawd:primaryForm "Dār al-Duwaydār ʿAlāʾ al-Dīn"@en ;];
  lawd:hasName [
-lawd:variantForm "Palace of Duwaidar ʿAlā al-Dīn"@en  ;];
+ lawd:variantForm "Palace of Duwaidar ʿAlā al-Dīn"@en ;];
  lawd:hasName [
-lawd:variantForm "Dār al-Duwaydār Alāʾ al-Dīn"@en-xsrp1  ;];
+ lawd:variantForm "Dār al-Duwaydār Alāʾ al-Dīn"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Dār al-Duwaydār ‘Alāʾ al-Dīn"@en-xsrp1  ;];
+ lawd:variantForm "Dār al-Duwaydār ‘Alāʾ al-Dīn"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Palace of Duwaidar Alā al-Dīn"@en-xsrp1  ;];
+ lawd:variantForm "Palace of Duwaidar Alā al-Dīn"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Palace of Duwaidar ‘Alā al-Dīn"@en-xsrp1  ;];
+ lawd:variantForm "Palace of Duwaidar ‘Alā al-Dīn"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Dār al-Duwaydār Alāʾ al-Dīn"@en-xsrp1  ;];
+ lawd:variantForm "Dār al-Duwaydār Alāʾ al-Dīn"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Dār al-Duwaydār ’Alāʾ al-Dīn"@en-xsrp1  ;];
+ lawd:variantForm "Dār al-Duwaydār ’Alāʾ al-Dīn"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Dār al-Duwaydār Alāʾ al-Dīn"@en-xsrp1  ;];
+ lawd:variantForm "Dār al-Duwaydār Alāʾ al-Dīn"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Dār al-Duwaydār Alāʾ al-Dīn"@en-xsrp1  ;];
+ lawd:variantForm "Dār al-Duwaydār Alāʾ al-Dīn"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Dār al-Duwaydār ‘Alāʾ al-Dīn"@en-xsrp1  ;];
+ lawd:variantForm "Dār al-Duwaydār ‘Alāʾ al-Dīn"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Dār al-Duwaydār ‘Alāʾ al-Dīn"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1951/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1951/tei>  .
+ lawd:variantForm "Dār al-Duwaydār ‘Alāʾ al-Dīn"@en-xsrp1 ;];
+ dcterms:description "A residence of the Catholicos of the Church of the East." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1951/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1951/tei> .

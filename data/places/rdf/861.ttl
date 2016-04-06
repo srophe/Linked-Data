@@ -11,15 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/861> a lawd:Place ;
-rdfs:label "Oxford — ܐܟܣܦܘܪܕ"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Oxford>  ;
+ rdfs:label "Oxford — ܐܟܣܦܘܪܕ" ;
  lawd:hasName [
-lawd:primaryForm "Oxford"@en  ;];
+ lawd:primaryForm "Oxford"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܐܟܣܦܘܪܕ"@syr  ;];
+ lawd:primaryForm "ܐܟܣܦܘܪܕ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܐܳܟܣܦܽܘܪܕ"@syr-Syrj  ;];
+ lawd:variantForm "ܐܳܟܣܦܽܘܪܕ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "اكسفرد"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/861/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/861/tei>  .
+ lawd:variantForm "اكسفرد"@ar ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Oxford> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/861/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/861/tei> .

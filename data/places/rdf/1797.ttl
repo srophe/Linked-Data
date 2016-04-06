@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1797> a lawd:Place ;
-rdfs:label "Ūchwār"  ;
+ rdfs:label "Ūchwār" ;
  lawd:hasName [
-lawd:primaryForm "Ūchwār"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1797/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1797/tei>  .
+ lawd:primaryForm "Ūchwār"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1797/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1797/tei> .

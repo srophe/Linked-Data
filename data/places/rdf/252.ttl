@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/252> a lawd:Place ;
-rdfs:label "Ṭiyari"  ;
-dcterms:description "A region in the Hakkari mountains."  ;
-dcterms:temporal "2000"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Tyari>  ;
+ rdfs:label "Ṭiyari" ;
  lawd:hasName [
-lawd:primaryForm "Ṭiyari"@en  ;];
+ lawd:primaryForm "Ṭiyari"@en ;];
  lawd:hasName [
-lawd:variantForm "Tyare"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/252/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/252/tei>  ;
-dcterms:relation <http://syriaca.org/place/2397>  .
+ lawd:variantForm "Tyare"@en ;];
+ dcterms:description "A region in the Hakkari mountains." ;
+ dcterms:temporal "2000" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Tyari> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/252/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/252/tei> ;
+ dcterms:relation <http://syriaca.org/place/2397> .

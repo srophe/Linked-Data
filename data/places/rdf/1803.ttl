@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1803> a lawd:Place ;
-rdfs:label "Ūwāsū"  ;
+ rdfs:label "Ūwāsū" ;
  lawd:hasName [
-lawd:primaryForm "Ūwāsū"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1803/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1803/tei>  .
+ lawd:primaryForm "Ūwāsū"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1803/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1803/tei> .

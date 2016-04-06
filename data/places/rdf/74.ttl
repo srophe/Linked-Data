@@ -11,14 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/74> a lawd:Place ;
-rdfs:label "Diocaesarea"  ;
-dcterms:description "A Roman town in the province of Isauria."  ;
-dcterms:temporal "-0030"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/648623>  ;
-geo:location [
-geo:lat "36.5786"  ;
-geo:long "36.5786"  ;];
+ rdfs:label "Diocaesarea" ;
  lawd:hasName [
-lawd:primaryForm "Diocaesarea"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/74/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/74/tei>  .
+ lawd:primaryForm "Diocaesarea"@en ;];
+ dcterms:description "A Roman town in the province of Isauria." ;
+ dcterms:temporal "-0030" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/648623> ;
+geo:location [
+ geo:lat "36.5786" ;
+ geo:long "33.91464" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/74/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/74/tei> ;
+geo:location [
+ geo:lat "36.5786" ;
+ geo:long "33.91464" ;].

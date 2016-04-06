@@ -11,21 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/187> a lawd:Place ;
-rdfs:label "Sidon"  ;
-dcterms:description "A coastal city between and ."  ;
-dcterms:temporal "-0950"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/678393>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Sidon>  ;
+ rdfs:label "Sidon" ;
+ lawd:hasName [
+ lawd:primaryForm "Sidon"@en ;];
+ lawd:hasName [
+ lawd:variantForm "صَيْداء"@ar ;];
+ skos:related "Beirut" ;
+ skos:related "Tyros" ;
+ dcterms:description "A coastal city between and ." ;
+ dcterms:temporal "-0950" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/678393> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Sidon> ;
 geo:location [
-geo:lat "33.56056"  ;
-geo:long "33.56056"  ;];
- lawd:hasName [
-lawd:primaryForm "Sidon"@en  ;];
- lawd:hasName [
-lawd:variantForm "صَيْداء"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Beirut"  ;];
- lawd:hasName [
-lawd:variantForm "Tyros"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/187/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/187/tei>  .
+ geo:lat "33.56056" ;
+ geo:long "35.39806" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/187/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/187/tei> ;
+geo:location [
+ geo:lat "33.56056" ;
+ geo:long "35.39806" ;].

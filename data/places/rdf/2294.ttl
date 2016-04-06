@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2294> a lawd:Place ;
-rdfs:label "Damascus"  ;
+ rdfs:label "Damascus" ;
  lawd:hasName [
-lawd:primaryForm "Damascus"@en  ;];
+ lawd:primaryForm "Damascus"@en ;];
  lawd:hasName [
-lawd:variantForm "Damascus (diocese and metropolitan province)"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2294/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2294/tei>  ;
-dcterms:relation <http://syriaca.org/place/66>  ;
-dcterms:relation <http://syriaca.org/place/2295>  .
+ lawd:variantForm "Damascus (diocese and metropolitan province)"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2294/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2294/tei> ;
+ dcterms:relation <http://syriaca.org/place/66> ;
+ dcterms:relation <http://syriaca.org/place/2295> .

@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1253> a lawd:Place ;
-rdfs:label "Gwezid"  ;
+ rdfs:label "Gwezid" ;
  lawd:hasName [
-lawd:primaryForm "Gwezid"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1253/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1253/tei>  .
+ lawd:primaryForm "Gwezid"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1253/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1253/tei> .

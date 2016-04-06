@@ -11,18 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1521> a lawd:Place ;
-rdfs:label "Shawarzaq — ܫܘܪܙܩ"  ;
-dcterms:description "A village of ."  ;
-dcterms:temporal "0628"  ;
+ rdfs:label "Shawarzaq — ܫܘܪܙܩ" ;
  lawd:hasName [
-lawd:primaryForm "Shawarzaq"@en  ;];
+ lawd:primaryForm "Shawarzaq"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܫܘܪܙܩ"@syr  ;];
+ lawd:primaryForm "ܫܘܪܙܩ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܫܘܪܙܰܩ"@syr-Syrj  ;];
+ lawd:variantForm "ܫܘܪܙܰܩ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "شورزق"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Beth Nuhadra"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1521/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1521/tei>  .
+ lawd:variantForm "شورزق"@ar ;];
+ skos:related "Beth Nuhadra" ;
+ dcterms:description "A village of ." ;
+ dcterms:temporal "0628" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1521/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1521/tei> .

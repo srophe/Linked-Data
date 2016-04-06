@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/768> a lawd:Place ;
-rdfs:label "Parshīn"  ;
+ rdfs:label "Parshīn" ;
  lawd:hasName [
-lawd:primaryForm "Parshīn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/768/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/768/tei>  .
+ lawd:primaryForm "Parshīn"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/768/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/768/tei> .

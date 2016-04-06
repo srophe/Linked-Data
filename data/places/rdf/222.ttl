@@ -11,28 +11,29 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/222> a lawd:Place ;
-rdfs:label "ʿAintab"  ;
-dcterms:description "A city north of and southwest of ."  ;
-dcterms:temporal "0600"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Gaziantep>  ;
+ rdfs:label "ʿAintab" ;
+ lawd:hasName [
+ lawd:primaryForm "ʿAintab"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Gaziantep"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Aintab"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Aintab"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Qala Rumayta"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Qal‘a Rumayta"@en-xsrp1 ;];
+ skos:related "Aleppo" ;
+ skos:related "Qalʿa Rumayta" ;
+ dcterms:description "A city north of and southwest of ." ;
+ dcterms:temporal "0600" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Gaziantep> ;
 geo:location [
-geo:lat "37.066667"  ;
-geo:long "37.066667"  ;];
- lawd:hasName [
-lawd:primaryForm "ʿAintab"@en  ;];
- lawd:hasName [
-lawd:variantForm "Gaziantep"@en  ;];
- lawd:hasName [
-lawd:variantForm "Aintab"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Aintab"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qala Rumayta"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qal‘a Rumayta"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Aleppo"  ;];
- lawd:hasName [
-lawd:variantForm "Qalʿa Rumayta"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/222/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/222/tei>  .
+ geo:lat "37.066667" ;
+ geo:long "37.383333" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/222/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/222/tei> ;
+geo:location [
+ geo:lat "37.066667" ;
+ geo:long "37.383333" ;].

@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1658> a lawd:Place ;
-rdfs:label "Robarīyā"  ;
+ rdfs:label "Robarīyā" ;
  lawd:hasName [
-lawd:primaryForm "Robarīyā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1658/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1658/tei>  .
+ lawd:primaryForm "Robarīyā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1658/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1658/tei> .

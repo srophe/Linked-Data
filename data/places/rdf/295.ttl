@@ -11,30 +11,30 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/295> a lawd:Place ;
-rdfs:label "Bārimmān — ܒܐܪܡܐܢ"  ;
+ rdfs:label "Bārimmān — ܒܐܪܡܐܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Bārimmān"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܐܪܡܐܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܰܐܪܡܰܐܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "بارمّان"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "بارمّا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Baremmān"@en ;];
+ lawd:hasName [
+ lawd:variantForm "بارِمّا"@ar ;];
  dcterms:description [
-rdfs:label "ܩܪܺܝܬܐ ܕܰܠܡܰܕܢܚܐ ܕܕܶܩܠܳܬ ܚܳܙܶܐ ܐܢܬ ܚܰܪܒ̈ܬܗ̇ ܡܰܪܕܶܐ ܕܚܰܡܫ ܫܢ̈ܝܢ (ܫܥ̈ܝܢ) ܠܡܰܕܢܚ ܓܰܪܒܰܝ ܡܰܘܨܠ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܺܝܬܐ ܕܰܠܡܰܕܢܚܐ ܕܕܶܩܠܳܬ ܚܳܙܶܐ ܐܢܬ ܚܰܪܒ̈ܬܗ̇ ܡܰܪܕܶܐ ܕܚܰܡܫ ܫܢ̈ܝܢ (ܫܥ̈ܝܢ) ܠܡܰܕܢܚ ܓܰܪܒܰܝ ܡܰܘܨܠ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية في شرقي دجلة تجد اطلالها مسافة خمس ساعات شرقي شمالي الموصل"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية في شرقي دجلة تجد اطلالها مسافة خمس ساعات شرقي شمالي الموصل"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village on the Tigris, now in ruins, five hours journey northeast of Mosul."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0863"  ;
- lawd:hasName [
-lawd:primaryForm "Bārimmān"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܐܪܡܐܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܒܰܐܪܡܰܐܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "بارمّان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "بارمّا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Baremmān"@en  ;];
- lawd:hasName [
-lawd:variantForm "بارِمّا"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/295/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/295/tei>  .
+ rdfs:label "a village on the Tigris, now in ruins, five hours journey northeast of Mosul."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0863" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/295/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/295/tei> .

@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/28> a lawd:Place ;
-rdfs:label "Arsanias"  ;
-dcterms:description "A river of eastern Anatolia which flows from north of Lake Van into the Euphrates above Melitene."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874355>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Murat_River>  ;
+ rdfs:label "Arsanias" ;
  lawd:hasName [
-lawd:primaryForm "Arsanias"@en  ;];
+ lawd:primaryForm "Arsanias"@en ;];
  lawd:hasName [
-lawd:variantForm "أَرْسَناس"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/28/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/28/tei>  .
+ lawd:variantForm "أَرْسَناس"@ar ;];
+ dcterms:description "A river of eastern Anatolia which flows from north of Lake Van into the Euphrates above Melitene." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874355> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Murat_River> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/28/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/28/tei> .

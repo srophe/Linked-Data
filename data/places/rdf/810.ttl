@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/810> a lawd:Place ;
-rdfs:label "Cranganore"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Kodungallur>  ;
+ rdfs:label "Cranganore" ;
  lawd:hasName [
-lawd:primaryForm "Cranganore"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/810/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/810/tei>  ;
-dcterms:relation <http://syriaca.org/place/2291>  .
+ lawd:primaryForm "Cranganore"@en ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Kodungallur> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/810/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/810/tei> ;
+ dcterms:relation <http://syriaca.org/place/2291> .

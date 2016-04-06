@@ -11,13 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/854> a lawd:Place ;
-rdfs:label "Milan"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/383706>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Milan>  ;
-geo:location [
-geo:lat "45.463746"  ;
-geo:long "45.463746"  ;];
+ rdfs:label "Milan" ;
  lawd:hasName [
-lawd:primaryForm "Milan"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/854/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/854/tei>  .
+ lawd:primaryForm "Milan"@en ;];
+ skos:exactMatch <http://pleiades.stoa.org/places/383706> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Milan> ;
+geo:location [
+ geo:lat "45.463746" ;
+ geo:long "9.18806" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/854/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/854/tei> ;
+geo:location [
+ geo:lat "45.463746" ;
+ geo:long "9.18806" ;].

@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1588> a lawd:Place ;
-rdfs:label "Ōzān"  ;
+ rdfs:label "Ōzān" ;
  lawd:hasName [
-lawd:primaryForm "Ōzān"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1588/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1588/tei>  .
+ lawd:primaryForm "Ōzān"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1588/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1588/tei> .

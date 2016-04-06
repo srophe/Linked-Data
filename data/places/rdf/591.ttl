@@ -11,16 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/591> a lawd:Place ;
-rdfs:label "Europe — ܐܘܪܝܦܝ"  ;
-dcterms:description "A continent west of Asia and north of Africa."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Europe>  ;
+ rdfs:label "Europe — ܐܘܪܝܦܝ" ;
  lawd:hasName [
-lawd:primaryForm "Europe"@en  ;];
+ lawd:primaryForm "Europe"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܐܘܪܝܦܝ"@syr  ;];
+ lawd:primaryForm "ܐܘܪܝܦܝ"@syr ;];
  lawd:hasName [
-lawd:variantForm "اوروبا"@ar  ;];
+ lawd:variantForm "اوروبا"@ar ;];
  lawd:hasName [
-lawd:variantForm "أَوْرَفِّي"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/591/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/591/tei>  .
+ lawd:variantForm "أَوْرَفِّي"@ar ;];
+ dcterms:description "A continent west of Asia and north of Africa." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Europe> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/591/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/591/tei> .

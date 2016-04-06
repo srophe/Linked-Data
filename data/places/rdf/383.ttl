@@ -11,27 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/383> a lawd:Place ;
-rdfs:label "Mor Giwargis — ܕܝܪܐ ܕܡܪܝ ܓܘܪܓܝܣ"  ;
+ rdfs:label "Mor Giwargis — ܕܝܪܐ ܕܡܪܝ ܓܘܪܓܝܣ" ;
+ lawd:hasName [
+ lawd:primaryForm "Mor Giwargis"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܓܘܪܓܝܣ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܓܶܘܪܓܝܣ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير مار كوركيس"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "George Monastery"@en ;];
  dcterms:description [
-rdfs:label "ܒܢܰܚܠܐ ܕܫܥܒ ܩܪܺܝܬܐ ܠܬܰܝܡܢܳܗ̇ ܕܡܶܪܕܝܢ ܫܰܟܠܠܗ ܝܘܚܰܢܢ ܡܝܛܪܘܦܘܠܝܛܐ ܕܡܪܕܝܢ ܒܡܶܨܥܳܝ̈ܬܗ̇ ܕܡܰܐܬܐ ܕܝ̄ܒ ܆ ܘܐܶܬܢܰܦܰܩ ܒܗ ܚܰܕ ܐܶܦܝܣܩܘܦܐ ܘܥܰܡܝܪ ܗܘܐ ܫܢܰܬ 1332"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܢܰܚܠܐ ܕܫܥܒ ܩܪܺܝܬܐ ܠܬܰܝܡܢܳܗ̇ ܕܡܶܪܕܝܢ ܫܰܟܠܠܗ ܝܘܚܰܢܢ ܡܝܛܪܘܦܘܠܝܛܐ ܕܡܪܕܝܢ ܒܡܶܨܥܳܝ̈ܬܗ̇ ܕܡܰܐܬܐ ܕܝ̄ܒ ܆ ܘܐܶܬܢܰܦܰܩ ܒܗ ܚܰܕ ܐܶܦܝܣܩܘܦܐ ܘܥܰܡܝܪ ܗܘܐ ܫܢܰܬ 1332"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في وادي قرية شعب جنوبي ماردين، رمه يوحنا مطران ماردين اواسط المئة الثانية عشرة وتخرج فيه اسقف وكان عامرا سنة 1332."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في وادي قرية شعب جنوبي ماردين، رمه يوحنا مطران ماردين اواسط المئة الثانية عشرة وتخرج فيه اسقف وكان عامرا سنة 1332."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "located in a valley south of Mardin, was renovated by John, metropolitan of Mardin, in the middle of the twelfth century and remained active until 1332. It produced one bishop."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1165"  ;
- lawd:hasName [
-lawd:primaryForm "Mor Giwargis"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܓܘܪܓܝܣ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܓܶܘܪܓܝܣ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير مار كوركيس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "George Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/383/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/383/tei>  ;
-dcterms:relation <http://syriaca.org/place/382>  .
+ rdfs:label "located in a valley south of Mardin, was renovated by John, metropolitan of Mardin, in the middle of the twelfth century and remained active until 1332. It produced one bishop."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1165" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/383/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/383/tei> ;
+ dcterms:relation <http://syriaca.org/place/382> .

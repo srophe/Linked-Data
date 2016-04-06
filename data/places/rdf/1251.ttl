@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1251> a lawd:Place ;
-rdfs:label "Gweri Ātel"  ;
+ rdfs:label "Gweri Ātel" ;
  lawd:hasName [
-lawd:primaryForm "Gweri Ātel"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1251/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1251/tei>  .
+ lawd:primaryForm "Gweri Ātel"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1251/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1251/tei> .

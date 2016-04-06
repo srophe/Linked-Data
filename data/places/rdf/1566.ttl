@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1566> a lawd:Place ;
-rdfs:label "Narā"  ;
+ rdfs:label "Narā" ;
  lawd:hasName [
-lawd:primaryForm "Narā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1566/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1566/tei>  .
+ lawd:primaryForm "Narā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1566/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1566/tei> .

@@ -11,29 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/323> a lawd:Place ;
-rdfs:label "Jūsiya — ܓܘܣܝܗ"  ;
-dcterms:description "A village near ."  ;
+ rdfs:label "Jūsiya — ܓܘܣܝܗ" ;
+ lawd:hasName [
+ lawd:primaryForm "Jūsiya"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܓܘܣܝܗ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "جوسية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Josya"@en ;];
+ lawd:hasName [
+ lawd:variantForm "جُوْسِية"@ar ;];
+ skos:related "Emesa" ;
+ dcterms:description "A village near ." ;
  dcterms:description [
-rdfs:label "ܟܘܪܳܐ ܗܘܳܬ ܡܶܢ ܟܘܪ̈ܐ ܕܰܚܡܶܨ. ܕܪܰܚܝܩܐ ܡܶܢܗ̇ ܫܬܳܐ ܦܰܪ̈ܣܚܐ ܠܓܰܒܐ ܕܕܰܪܡܣܘܩ. ܒܶܝܬ ܛܘܪ̈ܝ ܠܶܒܢܳܢ ܘܰܣܢܝܪ ܘܝܰܘܡܳܢ ܩܪܺܝܬܐ ܐܝܺܬܝܗ̇ ܐܶܬܚܰܕܬܰܬ ܒܓܶܒ ܓܘܣܝܗ ܥܰܬܝܩܬܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܟܘܪܳܐ ܗܘܳܬ ܡܶܢ ܟܘܪ̈ܐ ܕܰܚܡܶܨ. ܕܪܰܚܝܩܐ ܡܶܢܗ̇ ܫܬܳܐ ܦܰܪ̈ܣܚܐ ܠܓܰܒܐ ܕܕܰܪܡܣܘܩ. ܒܶܝܬ ܛܘܪ̈ܝ ܠܶܒܢܳܢ ܘܰܣܢܝܪ ܘܝܰܘܡܳܢ ܩܪܺܝܬܐ ܐܝܺܬܝܗ̇ ܐܶܬܚܰܕܬܰܬ ܒܓܶܒ ܓܘܣܝܗ ܥܰܬܝܩܬܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "كورة كانت من كور حمص على ستة فراسخ منها من جهة دمشق بين جبلي لبنان وسنير؛ وهي في وقتنا قرية استحدثت بجوار مدينة جوسية القديمة"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "كورة كانت من كور حمص على ستة فراسخ منها من جهة دمشق بين جبلي لبنان وسنير؛ وهي في وقتنا قرية استحدثت بجوار مدينة جوسية القديمة"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a district about six leagues from Ḥomṣ, towards Damascus,situated between the mountains of Lebanon and Sinnir. Today it is a small village, recently built near the ruins of ancient Josya."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0600"  ;
- lawd:hasName [
-lawd:primaryForm "Jūsiya"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܓܘܣܝܗ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "جوسية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Josya"@en  ;];
- lawd:hasName [
-lawd:variantForm "جُوْسِية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Emesa"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/323/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/323/tei>  .
+ rdfs:label "a district about six leagues from Ḥomṣ, towards Damascus,situated between the mountains of Lebanon and Sinnir. Today it is a small village, recently built near the ruins of ancient Josya."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0600" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/323/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/323/tei> .

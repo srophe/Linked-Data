@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1649> a lawd:Place ;
-rdfs:label "Ramūran"  ;
+ rdfs:label "Ramūran" ;
  lawd:hasName [
-lawd:primaryForm "Ramūran"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1649/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1649/tei>  .
+ lawd:primaryForm "Ramūran"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1649/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1649/tei> .

@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1076> a lawd:Place ;
-rdfs:label "Beth Tannūrā"  ;
+ rdfs:label "Beth Tannūrā" ;
  lawd:hasName [
-lawd:primaryForm "Beth Tannūrā"@en  ;];
+ lawd:primaryForm "Beth Tannūrā"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Tannūrā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1076/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1076/tei>  .
+ lawd:variantForm "Beṯ Tannūrā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1076/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1076/tei> .

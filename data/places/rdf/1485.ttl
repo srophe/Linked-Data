@@ -11,18 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1485> a lawd:Place ;
-rdfs:label "Monastery of the Virgin — ܕܝܪܐ ܕܒܬܘܠܬܐ"  ;
-dcterms:description "A monastery near the village of ."  ;
-dcterms:temporal "1299"  ;
+ rdfs:label "Monastery of the Virgin — ܕܝܪܐ ܕܒܬܘܠܬܐ" ;
  lawd:hasName [
-lawd:primaryForm "Monastery of the Virgin"@en  ;];
+ lawd:primaryForm "Monastery of the Virgin"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܒܬܘܠܬܐ"@syr  ;];
+ lawd:primaryForm "ܕܝܪܐ ܕܒܬܘܠܬܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܰܒܬܘܽܠܬܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܰܝܪܐ ܕܰܒܬܘܽܠܬܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "دير العذراء"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Sidus"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1485/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1485/tei>  .
+ lawd:variantForm "دير العذراء"@ar ;];
+ skos:related "Sidus" ;
+ dcterms:description "A monastery near the village of ." ;
+ dcterms:temporal "1299" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1485/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1485/tei> .

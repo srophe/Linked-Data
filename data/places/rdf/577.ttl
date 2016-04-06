@@ -11,27 +11,29 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/577> a lawd:Place ;
-rdfs:label "Baʿalbak"  ;
-dcterms:description "A city in ."  ;
-dcterms:temporal "-0334"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/678179>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Baalbek>  ;
+ rdfs:label "Baʿalbak" ;
+ lawd:hasName [
+ lawd:primaryForm "Baʿalbak"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Baalbek"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Heliopolis"@en ;];
+ lawd:hasName [
+ lawd:variantForm "بَعْلَبك"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Baalbak"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ba‘albak"@en-xsrp1 ;];
+ skos:related "Lebanon" ;
+ dcterms:description "A city in ." ;
+ dcterms:temporal "-0334" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/678179> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Baalbek> ;
 geo:location [
-geo:lat "34.006664"  ;
-geo:long "34.006664"  ;];
- lawd:hasName [
-lawd:primaryForm "Baʿalbak"@en  ;];
- lawd:hasName [
-lawd:variantForm "Baalbek"@en  ;];
- lawd:hasName [
-lawd:variantForm "Heliopolis"@en  ;];
- lawd:hasName [
-lawd:variantForm "بَعْلَبك"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Baalbak"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ba‘albak"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Lebanon"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/577/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/577/tei>  .
+ geo:lat "34.006664" ;
+ geo:long "36.203685" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/577/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/577/tei> ;
+geo:location [
+ geo:lat "34.006664" ;
+ geo:long "36.203685" ;].

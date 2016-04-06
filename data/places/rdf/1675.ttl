@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1675> a lawd:Place ;
-rdfs:label "Sārāspīdōn"  ;
+ rdfs:label "Sārāspīdōn" ;
  lawd:hasName [
-lawd:primaryForm "Sārāspīdōn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1675/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1675/tei>  .
+ lawd:primaryForm "Sārāspīdōn"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1675/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1675/tei> .

@@ -11,13 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/608> a lawd:Place ;
-rdfs:label "Mlīkh"  ;
-dcterms:description "A village in ."  ;
+ rdfs:label "Mlīkh" ;
  lawd:hasName [
-lawd:primaryForm "Mlīkh"@en  ;];
+ lawd:primaryForm "Mlīkh"@en ;];
  lawd:hasName [
-lawd:variantForm "Mlikh"@en  ;];
- lawd:hasName [
-lawd:variantForm "Lebanon"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/608/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/608/tei>  .
+ lawd:variantForm "Mlikh"@en ;];
+ skos:related "Lebanon" ;
+ dcterms:description "A village in ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/608/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/608/tei> .

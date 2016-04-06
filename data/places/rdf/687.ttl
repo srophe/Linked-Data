@@ -11,17 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/687> a lawd:Place ;
-rdfs:label "Babisqa"  ;
-dcterms:description "A town southwest of ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658414/>  ;
+ rdfs:label "Babisqa" ;
+ lawd:hasName [
+ lawd:primaryForm "Babisqa"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Babiska"@en ;];
+ skos:related "Aleppo" ;
+ dcterms:description "A town southwest of ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658414/> ;
 geo:location [
-geo:lat "36.214962"  ;
-geo:long "36.214962"  ;];
- lawd:hasName [
-lawd:primaryForm "Babisqa"@en  ;];
- lawd:hasName [
-lawd:variantForm "Babiska"@en  ;];
- lawd:hasName [
-lawd:variantForm "Aleppo"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/687/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/687/tei>  .
+ geo:lat "36.214962" ;
+ geo:long "36.696916" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/687/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/687/tei> ;
+geo:location [
+ geo:lat "36.214962" ;
+ geo:long "36.696916" ;].

@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1742> a lawd:Place ;
-rdfs:label "Sursīre"  ;
+ rdfs:label "Sursīre" ;
  lawd:hasName [
-lawd:primaryForm "Sursīre"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1742/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1742/tei>  .
+ lawd:primaryForm "Sursīre"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1742/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1742/tei> .

@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2375> a lawd:Place ;
-rdfs:label "Shirawa"  ;
+ rdfs:label "Shirawa" ;
  lawd:hasName [
-lawd:primaryForm "Shirawa"@en  ;];
+ lawd:primaryForm "Shirawa"@en ;];
  lawd:hasName [
-lawd:variantForm "Shirāwā"@en  ;];
+ lawd:variantForm "Shirāwā"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻSirava’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2375/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2375/tei>  .
+ lawd:variantForm "ʻSirava’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2375/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2375/tei> .

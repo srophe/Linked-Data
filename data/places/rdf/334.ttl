@@ -11,22 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/334> a lawd:Place ;
-rdfs:label "Dāwlū — ܕܐܘܠܘ"  ;
- dcterms:description [
-rdfs:label "ܡܕܝܢܬܘܢܝܬܐ ܗܝ ܕܰܠܓܰܪܒܰܝ ܡܰܥܪܰܒ ܡܰܪܣܺܝܢ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
- dcterms:description [
-rdfs:label "بليدة شمالي غربي مرسين"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
- dcterms:description [
-rdfs:label "a small town northwest of Mersin."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1295"  ;
+ rdfs:label "Dāwlū — ܕܐܘܠܘ" ;
  lawd:hasName [
-lawd:primaryForm "Dāwlū"@en  ;];
+ lawd:primaryForm "Dāwlū"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܐܘܠܘ"@syr  ;];
+ lawd:primaryForm "ܕܐܘܠܘ"@syr ;];
  lawd:hasName [
-lawd:variantForm "داولو"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/334/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/334/tei>  .
+ lawd:variantForm "داولو"@ar ;];
+ dcterms:description [
+ rdfs:label "ܡܕܝܢܬܘܢܝܬܐ ܗܝ ܕܰܠܓܰܪܒܰܝ ܡܰܥܪܰܒ ܡܰܪܣܺܝܢ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:description [
+ rdfs:label "بليدة شمالي غربي مرسين"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:description [
+ rdfs:label "a small town northwest of Mersin."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1295" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/334/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/334/tei> .

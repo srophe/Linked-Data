@@ -11,27 +11,30 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/586> a lawd:Place ;
-rdfs:label "Constantinople — ܩܘܣܛܢܛܝܢܘܦܘܠܝܣ"  ;
-dcterms:description "The capital of the Byzantine Empire."  ;
-dcterms:temporal "0330"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/520998>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Constantinople>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Istanbul>  ;
+ rdfs:label "Constantinople — ܩܘܣܛܢܛܝܢܘܦܘܠܝܣ" ;
+ lawd:hasName [
+ lawd:primaryForm "Constantinople"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܩܘܣܛܢܛܝܢܘܦܘܠܝܣ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܩܘܣܛܰܢܛܝܢܘܦܳܘܠܝܣ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "القسطنطينية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "قسطنطينية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "اصطنْبُوْل"@ar ;];
+ dcterms:description "The capital of the Byzantine Empire." ;
+ dcterms:temporal "0330" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/520998> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Constantinople> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Istanbul> ;
 geo:location [
-geo:lat "41.008548"  ;
-geo:long "41.008548"  ;];
- lawd:hasName [
-lawd:primaryForm "Constantinople"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܩܘܣܛܢܛܝܢܘܦܘܠܝܣ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܩܘܣܛܰܢܛܝܢܘܦܳܘܠܝܣ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "القسطنطينية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "قسطنطينية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "اصطنْبُوْل"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/586/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/586/tei>  ;
-dcterms:relation <http://syriaca.org/place/2290>  .
+ geo:lat "41.008548" ;
+ geo:long "28.979938" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/586/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/586/tei> ;
+geo:location [
+ geo:lat "41.008548" ;
+ geo:long "28.979938" ;];
+ dcterms:relation <http://syriaca.org/place/2290> .

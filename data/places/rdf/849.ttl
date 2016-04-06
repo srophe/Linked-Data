@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/849> a lawd:Place ;
-rdfs:label "Louvain"  ;
-dcterms:description "A city in Belgium."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Leuven>  ;
+ rdfs:label "Louvain" ;
  lawd:hasName [
-lawd:primaryForm "Louvain"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/849/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/849/tei>  .
+ lawd:primaryForm "Louvain"@en ;];
+ dcterms:description "A city in Belgium." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Leuven> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/849/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/849/tei> .

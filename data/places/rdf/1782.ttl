@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1782> a lawd:Place ;
-rdfs:label "Tubaw"  ;
+ rdfs:label "Tubaw" ;
  lawd:hasName [
-lawd:primaryForm "Tubaw"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1782/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1782/tei>  .
+ lawd:primaryForm "Tubaw"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1782/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1782/tei> .

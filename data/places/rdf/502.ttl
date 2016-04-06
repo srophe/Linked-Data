@@ -11,28 +11,30 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/502> a lawd:Place ;
-rdfs:label "Izmīd — ܐܙܡܝܕ"  ;
-dcterms:description "Ancient Nicomedia, a city in northwestern ."  ;
-dcterms:temporal "-0711"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/511337>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/İzmit>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Nicomedia>  ;
+ rdfs:label "Izmīd — ܐܙܡܝܕ" ;
+ lawd:hasName [
+ lawd:primaryForm "Izmīd"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܙܡܝܕ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܰܙܡܝܪ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ازميد"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ismit"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Nicomedia"@en ;];
+ skos:related "Anatolia" ;
+ dcterms:description "Ancient Nicomedia, a city in northwestern ." ;
+ dcterms:temporal "-0711" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/511337> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/İzmit> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Nicomedia> ;
 geo:location [
-geo:lat "40.76445"  ;
-geo:long "40.76445"  ;];
- lawd:hasName [
-lawd:primaryForm "Izmīd"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܙܡܝܕ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܰܙܡܝܪ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ازميد"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ismit"@en  ;];
- lawd:hasName [
-lawd:variantForm "Nicomedia"@en  ;];
- lawd:hasName [
-lawd:variantForm "Anatolia"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/502/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/502/tei>  .
+ geo:lat "40.76445" ;
+ geo:long "29.923486" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/502/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/502/tei> ;
+geo:location [
+ geo:lat "40.76445" ;
+ geo:long "29.923486" ;].

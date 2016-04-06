@@ -11,35 +11,38 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/136> a lawd:Place ;
-rdfs:label "Melitene — ܡܝܠܝܛܝܢܝ"  ;
+ rdfs:label "Melitene — ܡܝܠܝܛܝܢܝ" ;
+ lawd:hasName [
+ lawd:primaryForm "Melitene"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Malatya"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܡܝܠܝܛܝܢܝ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ملطية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "مَلَطْية"@ar ;];
  dcterms:description [
-rdfs:label "City in eastern Anatolia, located near the right bank of the Euphrates and to the north of the main range of the Eastern Taurus."@en  ;];
+ rdfs:label "City in eastern Anatolia, located near the right bank of the Euphrates and to the north of the main range of the Eastern Taurus."@en ;];
  dcterms:description [
-rdfs:label "367. Melitene"@en  ;];
+ rdfs:label "367. Melitene"@en ;];
  dcterms:description [
-rdfs:label "ܡܕܝܢܬܳܐ ܗܝ ܪܰܒܬܳܐ ܘܰܛܒܝܒܳܐ ܗܘܳܬ ܕܕܘܟܬܳܗ̇ ܩܰܪܝܒܳܐ ܗܝ ܠܢܰܗܪܳܐ ܕܰܦܪܳܬ ܥܰܠ ܣܶܦܬܗ ܕܝܰܡܝܢܳܐ. ܡܶܢ ܐܶܡܗ̈ܬܳܐ ܕܰܡܕܝܢ̈ܬܳܐ ܕܣܘܪ̈ܝܝܶܐ ܐܝܬ ܗܘܳܐ ܠܗܘܢ ܒܳܗ̇ ܫܶܬ ܘܚܰܡܫܝܢ ܥܕ̈ܬܳܐ 1049 ܘܡܳܬܳܐ ܗܝ ܕܰܓܒܰܝ̈ܐ ܕܪ̈ܝܫܳܢܐ ܕܝܰܕܘܥ̈ܬܳܢܰܝܗܘܢ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܝܢܬܳܐ ܗܝ ܪܰܒܬܳܐ ܘܰܛܒܝܒܳܐ ܗܘܳܬ ܕܕܘܟܬܳܗ̇ ܩܰܪܝܒܳܐ ܗܝ ܠܢܰܗܪܳܐ ܕܰܦܪܳܬ ܥܰܠ ܣܶܦܬܗ ܕܝܰܡܝܢܳܐ. ܡܶܢ ܐܶܡܗ̈ܬܳܐ ܕܰܡܕܝܢ̈ܬܳܐ ܕܣܘܪ̈ܝܝܶܐ ܐܝܬ ܗܘܳܐ ܠܗܘܢ ܒܳܗ̇ ܫܶܬ ܘܚܰܡܫܝܢ ܥܕ̈ܬܳܐ 1049 ܘܡܳܬܳܐ ܗܝ ܕܰܓܒܰܝ̈ܐ ܕܪ̈ܝܫܳܢܐ ܕܝܰܕܘܥ̈ܬܳܢܰܝܗܘܢ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة في ولاية معمورة العزيز كانت مشهورة عظيمة مذكورة واقعة قريبا من نهر الفرات على الضفة اليمنى منه، من امهات مدن السريان كان لهم فيها ست وخمسون بيعة سنة 1049 م. وهي موطن نخبة من اقطاب علمائهم وائمتهم امست اليوم بليدة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة في ولاية معمورة العزيز كانت مشهورة عظيمة مذكورة واقعة قريبا من نهر الفرات على الضفة اليمنى منه، من امهات مدن السريان كان لهم فيها ست وخمسون بيعة سنة 1049 م. وهي موطن نخبة من اقطاب علمائهم وائمتهم امست اليوم بليدة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a city in the province of Maʿmurat al-ʿAzīz, near the Euphrates. In the past it was large and famous. It was one of the largest centers of the Syrians, who in 1049 had fifty-six churches there. It was also the birthplace of a number of Syrian learned men. Today it is a small town. (See the biography of Christodolus by Michael, Coptic bishop of Tinnis [d. 1069], in Assemani’s “Confession of the Fathers,” Bibliotheca Orientalis, 2: 145-152, and in the Coptic Patriarchal Library)."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-0712"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/629040>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Malatya>  ;
+ rdfs:label "a city in the province of Maʿmurat al-ʿAzīz, near the Euphrates. In the past it was large and famous. It was one of the largest centers of the Syrians, who in 1049 had fifty-six churches there. It was also the birthplace of a number of Syrian learned men. Today it is a small town. (See the biography of Christodolus by Michael, Coptic bishop of Tinnis [d. 1069], in Assemani’s “Confession of the Fathers,” Bibliotheca Orientalis, 2: 145-152, and in the Coptic Patriarchal Library)."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-0712" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/629040> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Malatya> ;
 geo:location [
-geo:lat "38.34767"  ;
-geo:long "38.34767"  ;];
- lawd:hasName [
-lawd:primaryForm "Melitene"@en  ;];
- lawd:hasName [
-lawd:variantForm "Malatya"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܡܝܠܝܛܝܢܝ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ملطية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "مَلَطْية"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/136/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/136/tei>  .
+ geo:lat "38.34767" ;
+ geo:long "38.31463" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/136/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/136/tei> ;
+geo:location [
+ geo:lat "38.34767" ;
+ geo:long "38.31463" ;].

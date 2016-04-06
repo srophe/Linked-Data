@@ -11,33 +11,36 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/284> a lawd:Place ;
-rdfs:label "Erzincan — ܐܪܙܢܓܐܢ"  ;
+ rdfs:label "Erzincan — ܐܪܙܢܓܐܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Erzincan"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܪܙܢܓܐܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܰܪܙܶܢܓܰܐܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ارزنجان"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Arzenjān"@en ;];
+ lawd:hasName [
+ lawd:variantForm "أَرْزَنْجان"@ar ;];
  dcterms:description [
-rdfs:label "ܡܕܝܺܢܬܐ ܕܰܒܬܰܝܡܢܐ ܡܰܥܪܒܳܝܐ ܕܐܰܪܙܪܽܘܡ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܝܺܢܬܐ ܕܰܒܬܰܝܡܢܐ ܡܰܥܪܒܳܝܐ ܕܐܰܪܙܪܽܘܡ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة من ولاية ارزروم في جنوبيها الغربي واهلها يقولون ارزنكان"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة من ولاية ارزروم في جنوبيها الغربي واهلها يقولون ارزنكان"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town southwest of the province of Erzurum. The natives call it Erzincan."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1254"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874467>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Erzincan>  ;
+ rdfs:label "a town southwest of the province of Erzurum. The natives call it Erzincan."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1254" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874467> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Erzincan> ;
 geo:location [
-geo:lat "39.75"  ;
-geo:long "39.75"  ;];
- lawd:hasName [
-lawd:primaryForm "Erzincan"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܪܙܢܓܐܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܰܪܙܶܢܓܰܐܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ارزنجان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Arzenjān"@en  ;];
- lawd:hasName [
-lawd:variantForm "أَرْزَنْجان"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/284/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/284/tei>  .
+ geo:lat "39.75" ;
+ geo:long "39.5" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/284/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/284/tei> ;
+geo:location [
+ geo:lat "39.75" ;
+ geo:long "39.5" ;].

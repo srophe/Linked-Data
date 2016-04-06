@@ -11,25 +11,25 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/36> a lawd:Place ;
-rdfs:label "Beth Nuhadra"  ;
+ rdfs:label "Beth Nuhadra" ;
+ lawd:hasName [
+ lawd:primaryForm "Beth Nuhadra"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Ba-nuhadra"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Benuhadra"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Ba-hadra"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Bet Nuhadre"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Beṯ Nūhaḏrā (East Syrian diocese)"@en ;];
  dcterms:description [
-rdfs:label "An E.-Syr. bishopric seat the heartland of which was the region extending from the small Khabur river to the Tigris, including the area of modern Zakho and part of Dehok."@en  ;];
+ rdfs:label "An E.-Syr. bishopric seat the heartland of which was the region extending from the small Khabur river to the Tigris, including the area of modern Zakho and part of Dehok."@en ;];
  dcterms:description [
-rdfs:label "101. Beth Nuhadra"@en  ;];
-dcterms:temporal "0410"  ;
- lawd:hasName [
-lawd:primaryForm "Beth Nuhadra"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ba-nuhadra"@en  ;];
- lawd:hasName [
-lawd:variantForm "Benuhadra"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ba-hadra"@en  ;];
- lawd:hasName [
-lawd:variantForm "Bet Nuhadre"@en  ;];
- lawd:hasName [
-lawd:variantForm "Beṯ Nūhaḏrā (East Syrian diocese)"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/36/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/36/tei>  ;
-dcterms:relation <http://syriaca.org/place/1262>  ;
-dcterms:relation <http://syriaca.org/place/2279>  .
+ rdfs:label "101. Beth Nuhadra"@en ;];
+ dcterms:temporal "0410" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/36/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/36/tei> ;
+ dcterms:relation <http://syriaca.org/place/1262> ;
+ dcterms:relation <http://syriaca.org/place/2279> .

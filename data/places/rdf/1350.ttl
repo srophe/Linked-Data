@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1350> a lawd:Place ;
-rdfs:label "Īsīrā"  ;
+ rdfs:label "Īsīrā" ;
  lawd:hasName [
-lawd:primaryForm "Īsīrā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1350/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1350/tei>  .
+ lawd:primaryForm "Īsīrā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1350/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1350/tei> .

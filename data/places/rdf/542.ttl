@@ -11,22 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/542> a lawd:Place ;
-rdfs:label "Tamars — ܬܡܪܙ"  ;
-dcterms:description "A village in ."  ;
-dcterms:temporal "1943"  ;
+ rdfs:label "Tamars — ܬܡܪܙ" ;
  lawd:hasName [
-lawd:primaryForm "Tamars"@en  ;];
+ lawd:primaryForm "Tamars"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܬܡܪܙ"@syr  ;];
+ lawd:primaryForm "ܬܡܪܙ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܬܰܡܰܪܙ"@syr-Syrj  ;];
+ lawd:variantForm "ܬܰܡܰܪܙ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "تمرس"@ar  ;];
+ lawd:variantForm "تمرس"@ar ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/542/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/542/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related "Ṭur ʿAbdin" ;
+ dcterms:description "A village in ." ;
+ dcterms:temporal "1943" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/542/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/542/tei> .

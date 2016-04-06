@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1130> a lawd:Place ;
-rdfs:label "Chichaqlūi"  ;
+ rdfs:label "Chichaqlūi" ;
  lawd:hasName [
-lawd:primaryForm "Chichaqlūi"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1130/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1130/tei>  .
+ lawd:primaryForm "Chichaqlūi"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1130/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1130/tei> .

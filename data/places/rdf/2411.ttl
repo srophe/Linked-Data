@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2411> a lawd:Place ;
-rdfs:label "Wasṭan"  ;
+ rdfs:label "Wasṭan" ;
  lawd:hasName [
-lawd:primaryForm "Wasṭan"@en  ;];
+ lawd:primaryForm "Wasṭan"@en ;];
  lawd:hasName [
-lawd:variantForm "Wasṭān"@en  ;];
+ lawd:variantForm "Wasṭān"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻVasthan’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2411/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2411/tei>  ;
-dcterms:relation <http://syriaca.org/place/793>  .
+ lawd:variantForm "ʻVasthan’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2411/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2411/tei> ;
+ dcterms:relation <http://syriaca.org/place/793> .

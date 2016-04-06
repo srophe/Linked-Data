@@ -11,15 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/271> a lawd:Place ;
-rdfs:label "Ehden"  ;
-dcterms:description "A town east of ."  ;
-dcterms:temporal "1283"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Ehden>  ;
+ rdfs:label "Ehden" ;
  lawd:hasName [
-lawd:primaryForm "Ehden"@en  ;];
+ lawd:primaryForm "Ehden"@en ;];
  lawd:hasName [
-lawd:variantForm "Ahden"@en  ;];
- lawd:hasName [
-lawd:variantForm "Amyūn"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/271/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/271/tei>  .
+ lawd:variantForm "Ahden"@en ;];
+ skos:related "Amyūn" ;
+ dcterms:description "A town east of ." ;
+ dcterms:temporal "1283" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Ehden> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/271/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/271/tei> .

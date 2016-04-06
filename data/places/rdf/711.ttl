@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/711> a lawd:Place ;
-rdfs:label "Beth Lapaṭ"  ;
+ rdfs:label "Beth Lapaṭ" ;
  lawd:hasName [
-lawd:primaryForm "Beth Lapaṭ"@en  ;];
+ lawd:primaryForm "Beth Lapaṭ"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Lapaṭ"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/711/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/711/tei>  ;
-dcterms:relation <http://syriaca.org/place/35>  .
+ lawd:variantForm "Beṯ Lapaṭ"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/711/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/711/tei> ;
+ dcterms:relation <http://syriaca.org/place/35> .

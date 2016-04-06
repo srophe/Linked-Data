@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1754> a lawd:Place ;
-rdfs:label "Tal Jeri"  ;
+ rdfs:label "Tal Jeri" ;
  lawd:hasName [
-lawd:primaryForm "Tal Jeri"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1754/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1754/tei>  .
+ lawd:primaryForm "Tal Jeri"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1754/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1754/tei> .

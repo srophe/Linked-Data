@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1393> a lawd:Place ;
-rdfs:label "Kuilavar"  ;
+ rdfs:label "Kuilavar" ;
  lawd:hasName [
-lawd:primaryForm "Kuilavar"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1393/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1393/tei>  .
+ lawd:primaryForm "Kuilavar"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1393/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1393/tei> .

@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1150> a lawd:Place ;
-rdfs:label "Dārōn"  ;
+ rdfs:label "Dārōn" ;
  lawd:hasName [
-lawd:primaryForm "Dārōn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1150/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1150/tei>  .
+ lawd:primaryForm "Dārōn"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1150/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1150/tei> .

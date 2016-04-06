@@ -11,28 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/294> a lawd:Place ;
-rdfs:label "Bājabbāra — ܒܝܬ ܓܢܒܪ̈ܐ"  ;
+ rdfs:label "Bājabbāra — ܒܝܬ ܓܢܒܪ̈ܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Bājabbāra"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܝܬ ܓܢܒܪ̈ܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܐܓܒܐܪܗ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܶܝܬ ܓܰܢܒܳܪ̈ܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "باجبّارة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Bajabbara"@en ;];
  dcterms:description [
-rdfs:label "ܩܪܺܝܬܳܐ ܗܝ ܕܥܰܠ ܢܰܗܪܘܣܐ ܕܟܘܣܪ ܕܰܠܡܕܢܚܐ ܕܡܰܘܨܰܠ ܚܰܪܝܒܐ ܒܡܶܨܥܳܝ̈ܬܗ ܕܕܳܪܐ ܕܝܓ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܺܝܬܳܐ ܗܝ ܕܥܰܠ ܢܰܗܪܘܣܐ ܕܟܘܣܪ ܕܰܠܡܕܢܚܐ ܕܡܰܘܨܰܠ ܚܰܪܝܒܐ ܒܡܶܨܥܳܝ̈ܬܗ ܕܕܳܪܐ ܕܝܓ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية مندثرة في شرقي الموصل على نهير الخوسر خربت اواسط المئة الثالثة عشرة"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية مندثرة في شرقي الموصل على نهير الخوسر خربت اواسط المئة الثالثة عشرة"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village north of Mosul on the Khuser Creek, ruined in the middle of the thirteenth century."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1225"  ;
- lawd:hasName [
-lawd:primaryForm "Bājabbāra"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܝܬ ܓܢܒܪ̈ܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܒܐܓܒܐܪܗ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܒܶܝܬ ܓܰܢܒܳܪ̈ܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "باجبّارة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Bajabbara"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/294/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/294/tei>  .
+ rdfs:label "a village north of Mosul on the Khuser Creek, ruined in the middle of the thirteenth century."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1225" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/294/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/294/tei> .

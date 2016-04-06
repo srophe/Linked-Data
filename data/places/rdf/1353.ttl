@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1353> a lawd:Place ;
-rdfs:label "Jāmālābād"  ;
+ rdfs:label "Jāmālābād" ;
  lawd:hasName [
-lawd:primaryForm "Jāmālābād"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1353/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1353/tei>  .
+ lawd:primaryForm "Jāmālābād"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1353/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1353/tei> .

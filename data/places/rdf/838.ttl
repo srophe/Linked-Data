@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/838> a lawd:Place ;
-rdfs:label "Kut"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Kut>  ;
+ rdfs:label "Kut" ;
  lawd:hasName [
-lawd:primaryForm "Kut"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/838/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/838/tei>  .
+ lawd:primaryForm "Kut"@en ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Kut> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/838/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/838/tei> .

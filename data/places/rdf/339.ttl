@@ -11,39 +11,41 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/339> a lawd:Place ;
-rdfs:label "Mar Awgen — ܕܝܪܐ ܕܡܪܝ ܐܘܓܝܢ"  ;
-dcterms:description "A monastery north of ."  ;
+ rdfs:label "Mar Awgen — ܕܝܪܐ ܕܡܪܝ ܐܘܓܝܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Mar Awgen"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܐܘܓܝܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܐܰܘܓܝܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير مار اوجين"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Eugene Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "monastery of Mar Awgen"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Mār Awgin"@en ;];
+ skos:related "Nisibis" ;
+ dcterms:description "A monastery north of ." ;
  dcterms:description [
-rdfs:label "ܒܰܫܦܘܠܳܐ ܕܛܘܪܳܐ ܕܐܝܺܙܠܐ ܗ̇ܘ ܕܚܳܐܰܪ ܠܰܢܨܝܒܝܢ ܐܶܫܬܰܬܐܣ ܒܡܰܐܬܐ ܪܒܝܥܳܝܬܐ ܐܰܘ ܒܪܺܝܫܐ ܕܰܚܡܝܫܳܝܬܐ ܘܐܶܫܬܰܚܠܦܘ ܙܰܒ̈ܢܐ ܥܠܰܘܗܝ ܘܐܶܫܬܰܠܛܘ ܥܠܰܘܗܝ ܢܰܣܛܘܪ̈ܝܰܢܘ ܙܰܒܢܳܐ ܢܰܓܝܪܐ ܘܰܗܦܟ ܠܘܳܬܢ ܒܰܐܚܪ̈ܝܬܗ̇ ܕܡܰܐܬܐ ܕܰܬܡܳܢܰܥܶܣܪ̈ܐ ܢܦܰܩܘ ܡܶܢܗ ܬܪܶܝܢ ܐܶܦܝܣܩܘܦ̈ܐ ܘܰܥܕܰܡܐ ܠܗܳܫܐ ܥܰܡܝܪ ܘܰܫܟܝܺܚ ܒܗ ܕܰܝܪܳܝܐ ܚܰܕ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܰܫܦܘܠܳܐ ܕܛܘܪܳܐ ܕܐܝܺܙܠܐ ܗ̇ܘ ܕܚܳܐܰܪ ܠܰܢܨܝܒܝܢ ܐܶܫܬܰܬܐܣ ܒܡܰܐܬܐ ܪܒܝܥܳܝܬܐ ܐܰܘ ܒܪܺܝܫܐ ܕܰܚܡܝܫܳܝܬܐ ܘܐܶܫܬܰܚܠܦܘ ܙܰܒ̈ܢܐ ܥܠܰܘܗܝ ܘܐܶܫܬܰܠܛܘ ܥܠܰܘܗܝ ܢܰܣܛܘܪ̈ܝܰܢܘ ܙܰܒܢܳܐ ܢܰܓܝܪܐ ܘܰܗܦܟ ܠܘܳܬܢ ܒܰܐܚܪ̈ܝܬܗ̇ ܕܡܰܐܬܐ ܕܰܬܡܳܢܰܥܶܣܪ̈ܐ ܢܦܰܩܘ ܡܶܢܗ ܬܪܶܝܢ ܐܶܦܝܣܩܘܦ̈ܐ ܘܰܥܕܰܡܐ ܠܗܳܫܐ ܥܰܡܝܪ ܘܰܫܟܝܺܚ ܒܗ ܕܰܝܪܳܝܐ ܚܰܕ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في سفح جبل الإزل المطلّ على نصيبين شيد بناؤه اواخر المئة الرابعة او صدر الخامسة، وتقلبت به الاحوال فاستولى عليه النساطرة دهراً مديداً ثم عاد الينا اواخر المئة الثامنة عشرة. نشأ منه اسقفان ولم يزل عامراً يقطنه راهب واحد"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في سفح جبل الإزل المطلّ على نصيبين شيد بناؤه اواخر المئة الرابعة او صدر الخامسة، وتقلبت به الاحوال فاستولى عليه النساطرة دهراً مديداً ثم عاد الينا اواخر المئة الثامنة عشرة. نشأ منه اسقفان ولم يزل عامراً يقطنه راهب واحد"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "at the foot of the Izla mountain, which overlooks Nisibin. Built at the end of the fourth or the start of the fifth century, it suffered many vicissitudes. The Nestorians held it for a long time, but we regained it at the end of the eighteenth century. It produced two bishops. At present it is inhabited by only one monk."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0600"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874579>  ;
+ rdfs:label "at the foot of the Izla mountain, which overlooks Nisibin. Built at the end of the fourth or the start of the fifth century, it suffered many vicissitudes. The Nestorians held it for a long time, but we regained it at the end of the eighteenth century. It produced two bishops. At present it is inhabited by only one monk."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0600" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874579> ;
 geo:location [
-geo:lat "37.187038"  ;
-geo:long "37.187038"  ;];
- lawd:hasName [
-lawd:primaryForm "Mar Awgen"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܐܘܓܝܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܐܰܘܓܝܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير مار اوجين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Eugene Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "monastery of Mar Awgen"@en  ;];
- lawd:hasName [
-lawd:variantForm "Mār Awgin"@en  ;];
- lawd:hasName [
-lawd:variantForm "Nisibis"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/339/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/339/tei>  ;
-dcterms:relation <http://syriaca.org/place/1871>  ;
-dcterms:relation <http://syriaca.org/place/1872>  .
+ geo:lat "37.187038" ;
+ geo:long "41.409741" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/339/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/339/tei> ;
+geo:location [
+ geo:lat "37.187038" ;
+ geo:long "41.409741" ;];
+ dcterms:relation <http://syriaca.org/place/1871> ;
+ dcterms:relation <http://syriaca.org/place/1872> .

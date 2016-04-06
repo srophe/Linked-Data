@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/961> a lawd:Place ;
-rdfs:label "Baitūṯā"  ;
+ rdfs:label "Baitūṯā" ;
  lawd:hasName [
-lawd:primaryForm "Baitūṯā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/961/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/961/tei>  .
+ lawd:primaryForm "Baitūṯā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/961/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/961/tei> .

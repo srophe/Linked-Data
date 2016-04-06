@@ -11,14 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/81> a lawd:Place ;
-rdfs:label "Epiphanea"  ;
-dcterms:description "A Roman town in Cilicia II near the head of the Gulf of Iskenderun."  ;
-dcterms:temporal "-0330"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658556>  ;
-geo:location [
-geo:lat "36.95506"  ;
-geo:long "36.95506"  ;];
+ rdfs:label "Epiphanea" ;
  lawd:hasName [
-lawd:primaryForm "Epiphanea"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/81/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/81/tei>  .
+ lawd:primaryForm "Epiphanea"@en ;];
+ dcterms:description "A Roman town in Cilicia II near the head of the Gulf of Iskenderun." ;
+ dcterms:temporal "-0330" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658556> ;
+geo:location [
+ geo:lat "36.95506" ;
+ geo:long "36.19971" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/81/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/81/tei> ;
+geo:location [
+ geo:lat "36.95506" ;
+ geo:long "36.19971" ;].

@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1656> a lawd:Place ;
-rdfs:label "Resha d-Nahra"  ;
+ rdfs:label "Resha d-Nahra" ;
  lawd:hasName [
-lawd:primaryForm "Resha d-Nahra"@en  ;];
+ lawd:primaryForm "Resha d-Nahra"@en ;];
  lawd:hasName [
-lawd:variantForm "Reshā d'Nahrā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1656/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1656/tei>  ;
-dcterms:relation <http://syriaca.org/place/1655>  .
+ lawd:variantForm "Reshā d'Nahrā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1656/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1656/tei> ;
+ dcterms:relation <http://syriaca.org/place/1655> .

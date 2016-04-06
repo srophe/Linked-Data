@@ -11,27 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/537> a lawd:Place ;
-rdfs:label "Beth Qustan — ܒܝܬ ܩܣܝܢܐ"  ;
-dcterms:description "A village in ."  ;
-dcterms:temporal "0640"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Alagöz,_Mardin>  ;
+ rdfs:label "Beth Qustan — ܒܝܬ ܩܣܝܢܐ" ;
  lawd:hasName [
-lawd:primaryForm "Beth Qustan"@en  ;];
+ lawd:primaryForm "Beth Qustan"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܒܝܬ ܩܣܝܢܐ"@syr  ;];
+ lawd:primaryForm "ܒܝܬ ܩܣܝܢܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܒܶܝܬ ܩܶܣܝܳܢܳܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܒܶܝܬ ܩܶܣܝܳܢܳܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "باقسيان"@ar  ;];
+ lawd:variantForm "باقسيان"@ar ;];
  lawd:hasName [
-lawd:variantForm "Baqsyan"@en  ;];
+ lawd:variantForm "Baqsyan"@en ;];
  lawd:hasName [
-lawd:variantForm "Bet Qustan"@en  ;];
+ lawd:variantForm "Bet Qustan"@en ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/537/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/537/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related "Ṭur ʿAbdin" ;
+ dcterms:description "A village in ." ;
+ dcterms:temporal "0640" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Alagöz,_Mardin> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/537/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/537/tei> .

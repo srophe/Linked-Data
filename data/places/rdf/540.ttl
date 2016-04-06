@@ -11,23 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/540> a lawd:Place ;
-rdfs:label "Arbo — ܐܪܒܘ"  ;
-dcterms:description "A village in ."  ;
-dcterms:temporal "1415"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Taşköy,_Nusaybin>  ;
+ rdfs:label "Arbo — ܐܪܒܘ" ;
  lawd:hasName [
-lawd:primaryForm "Arbo"@en  ;];
+ lawd:primaryForm "Arbo"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܐܪܒܘ"@syr  ;];
+ lawd:primaryForm "ܐܪܒܘ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܐܰܪܒܳܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܐܰܪܒܳܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "اربو"@ar  ;];
+ lawd:variantForm "اربو"@ar ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/540/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/540/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related "Ṭur ʿAbdin" ;
+ dcterms:description "A village in ." ;
+ dcterms:temporal "1415" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Taşköy,_Nusaybin> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/540/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/540/tei> .

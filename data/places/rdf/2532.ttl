@@ -11,13 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2532> a lawd:Place ;
-rdfs:label "Baqufa"  ;
-dcterms:description "A city in Iraq."  ;
-dcterms:temporal "1867"  ;
+ rdfs:label "Baqufa" ;
  lawd:hasName [
-lawd:primaryForm "Baqufa"@en  ;];
- lawd:hasName [
-lawd:variantForm "Baqufa"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2532/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2532/tei>  ;
-dcterms:relation <http://syriaca.org/place/298>  .
+ lawd:primaryForm "Baqufa"@en ;];
+ skos:related "Baqufa" ;
+ dcterms:description "A city in Iraq." ;
+ dcterms:temporal "1867" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2532/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2532/tei> ;
+ dcterms:relation <http://syriaca.org/place/298> .

@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1062> a lawd:Place ;
-rdfs:label "Beth Saḥraye"  ;
+ rdfs:label "Beth Saḥraye" ;
  lawd:hasName [
-lawd:primaryForm "Beth Saḥraye"@en  ;];
+ lawd:primaryForm "Beth Saḥraye"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Saḥrāye"@en  ;];
+ lawd:variantForm "Beṯ Saḥrāye"@en ;];
  lawd:hasName [
-lawd:variantForm "Bā Sahrā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1062/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1062/tei>  .
+ lawd:variantForm "Bā Sahrā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1062/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1062/tei> .

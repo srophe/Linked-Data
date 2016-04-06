@@ -11,17 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1950> a lawd:Place ;
-rdfs:label "Darta d-Romaye"  ;
-dcterms:description "A residence of the Catholicos of the Church of the East."  ;
+ rdfs:label "Darta d-Romaye" ;
  lawd:hasName [
-lawd:primaryForm "Darta d-Romaye"@en  ;];
+ lawd:primaryForm "Darta d-Romaye"@en ;];
  lawd:hasName [
-lawd:variantForm "Greek Palace"@en  ;];
+ lawd:variantForm "Greek Palace"@en ;];
  lawd:hasName [
-lawd:variantForm "Dartā d'Rōmāye"@en  ;];
+ lawd:variantForm "Dartā d'Rōmāye"@en ;];
  lawd:hasName [
-lawd:variantForm "Dār al-Rūm"@en  ;];
+ lawd:variantForm "Dār al-Rūm"@en ;];
  lawd:hasName [
-lawd:variantForm "دير الروم"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1950/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1950/tei>  .
+ lawd:variantForm "دير الروم"@ar ;];
+ dcterms:description "A residence of the Catholicos of the Church of the East." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1950/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1950/tei> .

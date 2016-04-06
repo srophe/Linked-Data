@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2376> a lawd:Place ;
-rdfs:label "Shushtar"  ;
+ rdfs:label "Shushtar" ;
  lawd:hasName [
-lawd:primaryForm "Shushtar"@en  ;];
+ lawd:primaryForm "Shushtar"@en ;];
  lawd:hasName [
-lawd:variantForm "Shūshter"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2376/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2376/tei>  ;
-dcterms:relation <http://syriaca.org/place/186>  .
+ lawd:variantForm "Shūshter"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2376/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2376/tei> ;
+ dcterms:relation <http://syriaca.org/place/186> .

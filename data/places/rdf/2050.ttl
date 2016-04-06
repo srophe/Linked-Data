@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2050> a lawd:Place ;
-rdfs:label "Mar Quryaqos and Mar Zaddiqa"  ;
+ rdfs:label "Mar Quryaqos and Mar Zaddiqa" ;
  lawd:hasName [
-lawd:primaryForm "Mar Quryaqos and Mar Zaddiqa"@en  ;];
+ lawd:primaryForm "Mar Quryaqos and Mar Zaddiqa"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Quriāqōs and Mār Zaddīqā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2050/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2050/tei>  .
+ lawd:variantForm "Mār Quriāqōs and Mār Zaddīqā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2050/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2050/tei> .

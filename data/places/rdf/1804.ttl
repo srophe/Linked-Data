@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1804> a lawd:Place ;
-rdfs:label "ʿŪlāman"  ;
+ rdfs:label "ʿŪlāman" ;
  lawd:hasName [
-lawd:primaryForm "ʿŪlāman"@en  ;];
+ lawd:primaryForm "ʿŪlāman"@en ;];
  lawd:hasName [
-lawd:variantForm "Ūlāman"@en-xsrp1  ;];
+ lawd:variantForm "Ūlāman"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Ūlāman"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1804/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1804/tei>  .
+ lawd:variantForm "‘Ūlāman"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1804/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1804/tei> .

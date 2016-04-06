@@ -11,21 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/84> a lawd:Place ;
-rdfs:label "Fars"  ;
+ rdfs:label "Fars" ;
+ lawd:hasName [
+ lawd:primaryForm "Fars"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Fārs"@en ;];
+ lawd:hasName [
+ lawd:variantForm "فارس"@ar ;];
  dcterms:description [
-rdfs:label "A region in southwestern Iran, often identified as the heartland of the Iranian people."@en  ;];
+ rdfs:label "A region in southwestern Iran, often identified as the heartland of the Iranian people."@en ;];
  dcterms:description [
-rdfs:label "209. Fars"@en  ;];
-dcterms:temporal "-0300"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/922698>  ;
+ rdfs:label "209. Fars"@en ;];
+ dcterms:temporal "-0300" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/922698> ;
 geo:location [
-geo:lat "30.5"  ;
-geo:long "30.5"  ;];
- lawd:hasName [
-lawd:primaryForm "Fars"@en  ;];
- lawd:hasName [
-lawd:variantForm "Fārs"@en  ;];
- lawd:hasName [
-lawd:variantForm "فارس"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/84/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/84/tei>  .
+ geo:lat "30.5" ;
+ geo:long "51.5" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/84/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/84/tei> ;
+geo:location [
+ geo:lat "30.5" ;
+ geo:long "51.5" ;].

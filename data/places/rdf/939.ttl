@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/939> a lawd:Place ;
-rdfs:label "ʿAyn Barqe"  ;
+ rdfs:label "ʿAyn Barqe" ;
  lawd:hasName [
-lawd:primaryForm "ʿAyn Barqe"@en  ;];
+ lawd:primaryForm "ʿAyn Barqe"@en ;];
  lawd:hasName [
-lawd:variantForm "ʿAïn Barqe"@en  ;];
+ lawd:variantForm "ʿAïn Barqe"@en ;];
  lawd:hasName [
-lawd:variantForm "Ayn Barqe"@en-xsrp1  ;];
+ lawd:variantForm "Ayn Barqe"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Ayn Barqe"@en-xsrp1  ;];
+ lawd:variantForm "‘Ayn Barqe"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Aïn Barqe"@en-xsrp1  ;];
+ lawd:variantForm "Aïn Barqe"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Aïn Barqe"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/939/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/939/tei>  .
+ lawd:variantForm "‘Aïn Barqe"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/939/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/939/tei> .

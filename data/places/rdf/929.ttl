@@ -11,19 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/929> a lawd:Place ;
-rdfs:label "Khuzistan"  ;
-dcterms:description "A region east of the southern and north of the ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/912843>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Khuzestan_Plain>  ;
+ rdfs:label "Khuzistan" ;
  lawd:hasName [
-lawd:primaryForm "Khuzistan"@en  ;];
+ lawd:primaryForm "Khuzistan"@en ;];
  lawd:hasName [
-lawd:variantForm "الأَهْوَاز"@ar  ;];
+ lawd:variantForm "الأَهْوَاز"@ar ;];
  lawd:hasName [
-lawd:variantForm "خُوْزستان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Tigris"  ;];
- lawd:hasName [
-lawd:variantForm "Persian Gulf"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/929/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/929/tei>  .
+ lawd:variantForm "خُوْزستان"@ar ;];
+ skos:related "Tigris" ;
+ skos:related "Persian Gulf" ;
+ dcterms:description "A region east of the southern and north of the ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/912843> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Khuzestan_Plain> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/929/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/929/tei> .

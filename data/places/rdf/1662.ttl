@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1662> a lawd:Place ;
-rdfs:label "Rūshan"  ;
+ rdfs:label "Rūshan" ;
  lawd:hasName [
-lawd:primaryForm "Rūshan"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1662/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1662/tei>  .
+ lawd:primaryForm "Rūshan"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1662/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1662/tei> .

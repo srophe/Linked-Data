@@ -11,27 +11,29 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/214> a lawd:Place ;
-rdfs:label "Ḥawrān — ܚܘܪܢ"  ;
-dcterms:description "A region south of and east of the Sea of Galilee."  ;
-dcterms:temporal "-0030"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/678041>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Hauran>  ;
+ rdfs:label "Ḥawrān — ܚܘܪܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Ḥawrān"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܚܘܪܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܚܰܘܪܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "حوران"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Hawran"@en ;];
+ lawd:hasName [
+ lawd:variantForm "حَوران"@ar ;];
+ skos:related "Damascus" ;
+ dcterms:description "A region south of and east of the Sea of Galilee." ;
+ dcterms:temporal "-0030" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/678041> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Hauran> ;
 geo:location [
-geo:lat "32.75"  ;
-geo:long "32.75"  ;];
- lawd:hasName [
-lawd:primaryForm "Ḥawrān"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܚܘܪܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܚܰܘܪܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "حوران"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Hawran"@en  ;];
- lawd:hasName [
-lawd:variantForm "حَوران"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Damascus"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/214/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/214/tei>  .
+ geo:lat "32.75" ;
+ geo:long "36.25" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/214/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/214/tei> ;
+geo:location [
+ geo:lat "32.75" ;
+ geo:long "36.25" ;].

@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2314> a lawd:Place ;
-rdfs:label "Ḥesno d-Kifo"  ;
+ rdfs:label "Ḥesno d-Kifo" ;
  lawd:hasName [
-lawd:primaryForm "Ḥesno d-Kifo"@en  ;];
+ lawd:primaryForm "Ḥesno d-Kifo"@en ;];
  lawd:hasName [
-lawd:variantForm "Ḥesnā d'Kīfā"@en  ;];
+ lawd:variantForm "Ḥesnā d'Kīfā"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻAzzen’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2314/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2314/tei>  ;
-dcterms:relation <http://syriaca.org/place/92>  .
+ lawd:variantForm "ʻAzzen’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2314/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2314/tei> ;
+ dcterms:relation <http://syriaca.org/place/92> .

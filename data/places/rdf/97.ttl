@@ -11,55 +11,53 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/97> a lawd:Place ;
-rdfs:label "Qalʿa Rumayta — ܩܠܥܐ ܪܘܡܝܬܐ"  ;
-dcterms:description "A city on the west of and northeast of ."  ;
+ rdfs:label "Qalʿa Rumayta — ܩܠܥܐ ܪܘܡܝܬܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Qalʿa Rumayta"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Hṙomklay"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܩܠܥܐ ܪܘܡܝܬܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܩܶܠܥܳܐ ܪܘܡܳܝܬܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "قلعة الروم"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Qalʿat al-Rum"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Qala Rumayta"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Qal‘a Rumayta"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Qalat al-Rum"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Qal‘at al-Rum"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Aintab"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Aintab"@en-xsrp1 ;];
+ skos:related "Euphrates" ;
+ skos:related "Edessa" ;
+ skos:related "ʿAintab" ;
+ skos:related "Zeugma" ;
+ skos:related "Halfeti" ;
+ dcterms:description "A city on the west of and northeast of ." ;
  dcterms:description [
-rdfs:label "ܩܶܠܥܳܐ ܚܰܣܝܢܬܳܐ ܘܰܐܬܪܐ ܕܰܠܡܰܥܪܰܒ ܦܪܳܬ ܠܘܩܒܰܠ ܒܝܪܬܐ ܠܩܘܪܒܳܐ ܕܰܩܪܝܬܐ ܟ̣ܠܦܬܝ. ܘܡܶܫܬܰܡܗܐ ܗܘܳܬ ܩܶܠܥܳܐ ܕܙܘܓܡܐ. ܘܚܰܪܝܒܐ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܶܠܥܳܐ ܚܰܣܝܢܬܳܐ ܘܰܐܬܪܐ ܕܰܠܡܰܥܪܰܒ ܦܪܳܬ ܠܘܩܒܰܠ ܒܝܪܬܐ ܠܩܘܪܒܳܐ ܕܰܩܪܝܬܐ ܟ̣ܠܦܬܝ. ܘܡܶܫܬܰܡܗܐ ܗܘܳܬ ܩܶܠܥܳܐ ܕܙܘܓܡܐ. ܘܚܰܪܝܒܐ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قلعة حصينة وبلد غربي الفرات مقابل البيرة بالقرب من قرية خلفتي وكان اسم القلعة زوغما، خربة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قلعة حصينة وبلد غربي الفرات مقابل البيرة بالقرب من قرية خلفتي وكان اسم القلعة زوغما، خربة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "an ancient fortified citadel and town west of the Euphrates, opposite al-Bīra. The name of the citadel was Zughma."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1203"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Rumkale>  ;
+ rdfs:label "an ancient fortified citadel and town west of the Euphrates, opposite al-Bīra. The name of the citadel was Zughma."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1203" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Rumkale> ;
 geo:location [
-geo:lat "37.270778"  ;
-geo:long "37.270778"  ;];
- lawd:hasName [
-lawd:primaryForm "Qalʿa Rumayta"@en  ;];
- lawd:hasName [
-lawd:variantForm "Hṙomklay"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܩܠܥܐ ܪܘܡܝܬܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܩܶܠܥܳܐ ܪܘܡܳܝܬܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "قلعة الروم"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Qalʿat al-Rum"@en  ;];
- lawd:hasName [
-lawd:variantForm "Qala Rumayta"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qal‘a Rumayta"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qalat al-Rum"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qal‘at al-Rum"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Aintab"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Aintab"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates"  ;];
- lawd:hasName [
-lawd:variantForm "Edessa"  ;];
- lawd:hasName [
-lawd:variantForm "ʿAintab"  ;];
- lawd:hasName [
-lawd:variantForm "Zeugma"  ;];
- lawd:hasName [
-lawd:variantForm "Halfeti"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/97/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/97/tei>  .
+ geo:lat "37.270778" ;
+ geo:long "37.837917" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/97/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/97/tei> ;
+geo:location [
+ geo:lat "37.270778" ;
+ geo:long "37.837917" ;].

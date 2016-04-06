@@ -11,26 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/697> a lawd:Place ;
-rdfs:label "Maʿmūrat al-ʿAzīz — ܐܠܥܙܝܓ"  ;
-dcterms:description "A town northeast of and northwest of ."  ;
-dcterms:temporal "1834"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Elâzığ>  ;
+ rdfs:label "Maʿmūrat al-ʿAzīz — ܐܠܥܙܝܓ" ;
  lawd:hasName [
-lawd:primaryForm "Maʿmūrat al-ʿAzīz"@en  ;];
+ lawd:primaryForm "Maʿmūrat al-ʿAzīz"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܐܠܥܙܝܓ"@syr  ;];
+ lawd:primaryForm "ܐܠܥܙܝܓ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܐܰܠܥܰܙܝܺܓ"@syr-Syrj  ;];
+ lawd:variantForm "ܐܰܠܥܰܙܝܺܓ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "معمورة العزيز"@ar  ;];
+ lawd:variantForm "معمورة العزيز"@ar ;];
  lawd:hasName [
-lawd:variantForm "Mamūrat al-Azīz"@en-xsrp1  ;];
+ lawd:variantForm "Mamūrat al-Azīz"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ma‘mūrat al-‘Azīz"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Malatya"  ;];
- lawd:hasName [
-lawd:variantForm "Amid"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/697/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/697/tei>  ;
-dcterms:relation <http://syriaca.org/place/696>  .
+ lawd:variantForm "Ma‘mūrat al-‘Azīz"@en-xsrp1 ;];
+ skos:related "Malatya" ;
+ skos:related "Amid" ;
+ dcterms:description "A town northeast of and northwest of ." ;
+ dcterms:temporal "1834" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Elâzığ> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/697/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/697/tei> ;
+ dcterms:relation <http://syriaca.org/place/696> .

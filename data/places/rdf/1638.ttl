@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1638> a lawd:Place ;
-rdfs:label "Qūrnābād"  ;
+ rdfs:label "Qūrnābād" ;
  lawd:hasName [
-lawd:primaryForm "Qūrnābād"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1638/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1638/tei>  .
+ lawd:primaryForm "Qūrnābād"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1638/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1638/tei> .

@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/315> a lawd:Place ;
-rdfs:label "Tel Qubbe — ܬܠܩܘܒ̈ܐ"  ;
+ rdfs:label "Tel Qubbe — ܬܠܩܘܒ̈ܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Tel Qubbe"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܬܠܩܘܒ̈ܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܬܶܠܩܘܒ̈ܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "تل قباب"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Tell Qbab"@en ;];
  dcterms:description [
-rdfs:label "ܩܪܝܬܐ ܕܒܐܘܚܕܳܢܳܐ ܕܡܶܪܕܳܐ ܥܰܡܺܝܪܐ ܗܘܬ ܒܡܰܐܬܳܐ ܕܝ̄ܓ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܝܬܐ ܕܒܐܘܚܕܳܢܳܐ ܕܡܶܪܕܳܐ ܥܰܡܺܝܪܐ ܗܘܬ ܒܡܰܐܬܳܐ ܕܝ̄ܓ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية من اعمال ماردين كانت آهلة في المئة الثالثة عشرة"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية من اعمال ماردين كانت آهلة في المئة الثالثة عشرة"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village near Mardin; it had a substantial population in the thirteenth century."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1300"  ;
- lawd:hasName [
-lawd:primaryForm "Tel Qubbe"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܬܠܩܘܒ̈ܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܬܶܠܩܘܒ̈ܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "تل قباب"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Tell Qbab"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/315/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/315/tei>  .
+ rdfs:label "a village near Mardin; it had a substantial population in the thirteenth century."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1300" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/315/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/315/tei> .

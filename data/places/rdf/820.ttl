@@ -11,19 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/820> a lawd:Place ;
-rdfs:label "Florence — ܦܠܘܪܢܣܐ"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/413138>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Florence>  ;
+ rdfs:label "Florence — ܦܠܘܪܢܣܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Florence"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܦܠܘܪܢܣܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܦܠܽܘܪܰܢܣܰܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "فلورنسا"@ar ;];
+ skos:exactMatch <http://pleiades.stoa.org/places/413138> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Florence> ;
 geo:location [
-geo:lat "43.768755"  ;
-geo:long "43.768755"  ;];
- lawd:hasName [
-lawd:primaryForm "Florence"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܦܠܘܪܢܣܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܦܠܽܘܪܰܢܣܰܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "فلورنسا"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/820/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/820/tei>  .
+ geo:lat "43.768755" ;
+ geo:long "11.256929" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/820/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/820/tei> ;
+geo:location [
+ geo:lat "43.768755" ;
+ geo:long "11.256929" ;].

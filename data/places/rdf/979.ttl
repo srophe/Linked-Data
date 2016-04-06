@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/979> a lawd:Place ;
-rdfs:label "Bāshirgā"  ;
+ rdfs:label "Bāshirgā" ;
  lawd:hasName [
-lawd:primaryForm "Bāshirgā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/979/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/979/tei>  .
+ lawd:primaryForm "Bāshirgā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/979/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/979/tei> .

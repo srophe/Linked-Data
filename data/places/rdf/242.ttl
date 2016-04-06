@@ -11,32 +11,30 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/242> a lawd:Place ;
-rdfs:label "ʿArdnas — ܥܪܢܐܣ"  ;
-dcterms:description "A village in northeast of ."  ;
-dcterms:temporal "1207"  ;
+ rdfs:label "ʿArdnas — ܥܪܢܐܣ" ;
  lawd:hasName [
-lawd:primaryForm "ʿArdnas"@en  ;];
+ lawd:primaryForm "ʿArdnas"@en ;];
  lawd:hasName [
-lawd:variantForm "Arnas"@en  ;];
+ lawd:variantForm "Arnas"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܥܪܢܐܣ"@syr  ;];
+ lawd:primaryForm "ܥܪܢܐܣ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܥܰܪܢܰܐܣ"@syr-Syrj  ;];
+ lawd:variantForm "ܥܰܪܢܰܐܣ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "عرناس"@ar  ;];
+ lawd:variantForm "عرناس"@ar ;];
  lawd:hasName [
-lawd:variantForm "Urnus"@en  ;];
+ lawd:variantForm "Urnus"@en ;];
  lawd:hasName [
-lawd:variantForm "Ardnas"@en-xsrp1  ;];
+ lawd:variantForm "Ardnas"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Ardnas"@en-xsrp1  ;];
+ lawd:variantForm "‘Ardnas"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
- lawd:hasName [
-lawd:variantForm "Midyat"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/242/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/242/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related "Ṭur ʿAbdin" ;
+ skos:related "Midyat" ;
+ dcterms:description "A village in northeast of ." ;
+ dcterms:temporal "1207" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/242/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/242/tei> .

@@ -11,27 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/374> a lawd:Place ;
-rdfs:label "Phesilta — ܕܝܪܐ ܕܦܣܝܠܬܐ"  ;
+ rdfs:label "Phesilta — ܕܝܪܐ ܕܦܣܝܠܬܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Phesilta"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܦܣܝܠܬܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܰܦܣܝܠܬܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير فسيلتا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Fsīltā Monastery"@en ;];
  dcterms:description [
-rdfs:label "ܒܩܘܪܒܳܐ ܕܐܰܢܛܝܘܟܺܝܰܐ ܕܟܺܝܪ ܒܕܳܪܐ ܫܬܺܝܬܝܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܩܘܪܒܳܐ ܕܐܰܢܛܝܘܟܺܝܰܐ ܕܟܺܝܪ ܒܕܳܪܐ ܫܬܺܝܬܝܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بقرب انطاكية ورد ذكره في القرن السادس."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بقرب انطاكية ورد ذكره في القرن السادس."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "near Antioch, was first mentioned in history in the sixth century."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0600"  ;
- lawd:hasName [
-lawd:primaryForm "Phesilta"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܦܣܝܠܬܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܰܦܣܝܠܬܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير فسيلتا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Fsīltā Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/374/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/374/tei>  ;
-dcterms:relation <http://syriaca.org/place/373>  .
+ rdfs:label "near Antioch, was first mentioned in history in the sixth century."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0600" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/374/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/374/tei> ;
+ dcterms:relation <http://syriaca.org/place/373> .

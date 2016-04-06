@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/232> a lawd:Place ;
-rdfs:label "Sharfeh"  ;
- dcterms:description [
-rdfs:label "The name refers to the tip of a height dominating the towns of Darʿūn and Ḥarīṣa, located some 25 km. to the northeast of Beirut."@en  ;];
- dcterms:description [
-rdfs:label "496. Sharfeh"@en  ;];
-dcterms:temporal "1786"  ;
+ rdfs:label "Sharfeh" ;
  lawd:hasName [
-lawd:primaryForm "Sharfeh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/232/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/232/tei>  .
+ lawd:primaryForm "Sharfeh"@en ;];
+ dcterms:description [
+ rdfs:label "The name refers to the tip of a height dominating the towns of Darʿūn and Ḥarīṣa, located some 25 km. to the northeast of Beirut."@en ;];
+ dcterms:description [
+ rdfs:label "496. Sharfeh"@en ;];
+ dcterms:temporal "1786" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/232/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/232/tei> .

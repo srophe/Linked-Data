@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1272> a lawd:Place ;
-rdfs:label "Haṣār"  ;
+ rdfs:label "Haṣār" ;
  lawd:hasName [
-lawd:primaryForm "Haṣār"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1272/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1272/tei>  ;
-dcterms:relation <http://syriaca.org/place/1273>  ;
-dcterms:relation <http://syriaca.org/place/1274>  .
+ lawd:primaryForm "Haṣār"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1272/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1272/tei> ;
+ dcterms:relation <http://syriaca.org/place/1273> ;
+ dcterms:relation <http://syriaca.org/place/1274> .

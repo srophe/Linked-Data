@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1387> a lawd:Place ;
-rdfs:label "Kitmis"  ;
+ rdfs:label "Kitmis" ;
  lawd:hasName [
-lawd:primaryForm "Kitmis"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1387/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1387/tei>  .
+ lawd:primaryForm "Kitmis"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1387/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1387/tei> .

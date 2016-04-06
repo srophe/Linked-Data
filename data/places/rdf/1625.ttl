@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1625> a lawd:Place ;
-rdfs:label "Qelayata"  ;
+ rdfs:label "Qelayata" ;
  lawd:hasName [
-lawd:primaryForm "Qelayata"@en  ;];
+ lawd:primaryForm "Qelayata"@en ;];
  lawd:hasName [
-lawd:variantForm "Qelāyāṯā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1625/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1625/tei>  .
+ lawd:variantForm "Qelāyāṯā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1625/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1625/tei> .

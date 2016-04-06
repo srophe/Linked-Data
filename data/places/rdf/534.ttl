@@ -11,31 +11,30 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/534> a lawd:Place ;
-rdfs:label "Kfar Shomiʿ — ܟܦܪܫܡܥ"  ;
-dcterms:description "A village in ."  ;
+ rdfs:label "Kfar Shomiʿ — ܟܦܪܫܡܥ" ;
+ lawd:hasName [
+ lawd:primaryForm "Kfar Shomiʿ"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܟܦܪܫܡܥ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܟܦܰܪܫܳܡܥ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "كفر شامع"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Kafrshami"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Kfar Shomi"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Kfar Shomi‘"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related "Ṭur ʿAbdin" ;
+ dcterms:description "A village in ." ;
  dcterms:description [
-rdfs:label "Alternate spelling in Sharbil Monastery desc. - TAC"@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1943"  ;
- lawd:hasName [
-lawd:primaryForm "Kfar Shomiʿ"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܟܦܪܫܡܥ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܟܦܰܪܫܳܡܥ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "كفر شامع"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Kafrshami"@en  ;];
- lawd:hasName [
-lawd:variantForm "Kfar Shomi"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Kfar Shomi‘"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/534/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/534/tei>  .
+ rdfs:label "Alternate spelling in Sharbil Monastery desc. - TAC"@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1943" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/534/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/534/tei> .

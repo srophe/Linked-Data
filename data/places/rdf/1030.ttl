@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1030> a lawd:Place ;
-rdfs:label "Beth Ḥlāpe"  ;
+ rdfs:label "Beth Ḥlāpe" ;
  lawd:hasName [
-lawd:primaryForm "Beth Ḥlāpe"@en  ;];
+ lawd:primaryForm "Beth Ḥlāpe"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Ḥlāpe"@en  ;];
+ lawd:variantForm "Beṯ Ḥlāpe"@en ;];
  lawd:hasName [
-lawd:variantForm "Ḥelapt"@en  ;];
+ lawd:variantForm "Ḥelapt"@en ;];
  lawd:hasName [
-lawd:variantForm "Ḥelaft"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1030/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1030/tei>  .
+ lawd:variantForm "Ḥelaft"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1030/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1030/tei> .

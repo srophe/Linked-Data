@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1403> a lawd:Place ;
-rdfs:label "Maʿarrīn"  ;
+ rdfs:label "Maʿarrīn" ;
  lawd:hasName [
-lawd:primaryForm "Maʿarrīn"@en  ;];
+ lawd:primaryForm "Maʿarrīn"@en ;];
  lawd:hasName [
-lawd:variantForm "Maarrīn"@en-xsrp1  ;];
+ lawd:variantForm "Maarrīn"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ma‘arrīn"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1403/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1403/tei>  .
+ lawd:variantForm "Ma‘arrīn"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1403/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1403/tei> .

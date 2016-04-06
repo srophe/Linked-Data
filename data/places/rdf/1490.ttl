@@ -11,22 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1490> a lawd:Place ;
-rdfs:label "ʿIbra — ܥܒܪܐ"  ;
-dcterms:description "A village near ."  ;
-dcterms:temporal "1142"  ;
+ rdfs:label "ʿIbra — ܥܒܪܐ" ;
  lawd:hasName [
-lawd:primaryForm "ʿIbra"@en  ;];
+ lawd:primaryForm "ʿIbra"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܥܒܪܐ"@syr  ;];
+ lawd:primaryForm "ܥܒܪܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܥܶܒܪܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܥܶܒܪܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "عبرا"@ar  ;];
+ lawd:variantForm "عبرا"@ar ;];
  lawd:hasName [
-lawd:variantForm "Ibra"@en-xsrp1  ;];
+ lawd:variantForm "Ibra"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Ibra"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Jūbās"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1490/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1490/tei>  .
+ lawd:variantForm "‘Ibra"@en-xsrp1 ;];
+ skos:related "Jūbās" ;
+ dcterms:description "A village near ." ;
+ dcterms:temporal "1142" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1490/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1490/tei> .

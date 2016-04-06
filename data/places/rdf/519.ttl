@@ -11,21 +11,20 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/519> a lawd:Place ;
-rdfs:label "Baṭyās — ܒܛܝܐܣ"  ;
-dcterms:description "Near ."  ;
+ rdfs:label "Baṭyās — ܒܛܝܐܣ" ;
  lawd:hasName [
-lawd:primaryForm "Baṭyās"@en  ;];
+ lawd:primaryForm "Baṭyās"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܒܛܝܐܣ"@syr  ;];
+ lawd:primaryForm "ܒܛܝܐܣ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܒܰܛܝܐܣ"@syr-Syrj  ;];
+ lawd:variantForm "ܒܰܛܝܐܣ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "بطياس"@ar  ;];
+ lawd:variantForm "بطياس"@ar ;];
  lawd:hasName [
-lawd:variantForm "Batyas"@en  ;];
+ lawd:variantForm "Batyas"@en ;];
  lawd:hasName [
-lawd:variantForm "بِطْياس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "al-Raqqa"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/519/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/519/tei>  .
+ lawd:variantForm "بِطْياس"@ar ;];
+ skos:related "al-Raqqa" ;
+ dcterms:description "Near ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/519/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/519/tei> .

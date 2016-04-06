@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1692> a lawd:Place ;
-rdfs:label "Serātā"  ;
+ rdfs:label "Serātā" ;
  lawd:hasName [
-lawd:primaryForm "Serātā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1692/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1692/tei>  .
+ lawd:primaryForm "Serātā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1692/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1692/tei> .

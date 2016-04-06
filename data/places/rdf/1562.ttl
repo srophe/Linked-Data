@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1562> a lawd:Place ;
-rdfs:label "Nairdūshā"  ;
+ rdfs:label "Nairdūshā" ;
  lawd:hasName [
-lawd:primaryForm "Nairdūshā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1562/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1562/tei>  .
+ lawd:primaryForm "Nairdūshā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1562/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1562/tei> .

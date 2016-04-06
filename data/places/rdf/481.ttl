@@ -11,28 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/481> a lawd:Place ;
-rdfs:label "Yeşil Irmak — ܝܫܝܠ ܐܝܪܡܐܩ"  ;
-dcterms:description "A river which flows past and before emptying into the near ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/857171>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Yeşilırmak_River>  ;
+ rdfs:label "Yeşil Irmak — ܝܫܝܠ ܐܝܪܡܐܩ" ;
+ lawd:hasName [
+ lawd:primaryForm "Yeşil Irmak"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܝܫܝܠ ܐܝܪܡܐܩ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܝܶܫܺܝܠ ܐܺܝܪܡܰܐܩ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "يشيل ايرماق"@ar ;];
+ skos:related "Tokat" ;
+ skos:related "Amāsiyya" ;
+ skos:related "Black Sea" ;
+ skos:related "Samsun" ;
+ dcterms:description "A river which flows past and before emptying into the near ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/857171> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Yeşilırmak_River> ;
 geo:location [
-geo:lat "41.1802622"  ;
-geo:long "41.1802622"  ;];
- lawd:hasName [
-lawd:primaryForm "Yeşil Irmak"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܝܫܝܠ ܐܝܪܡܐܩ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܝܶܫܺܝܠ ܐܺܝܪܡܰܐܩ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "يشيل ايرماق"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Tokat"  ;];
- lawd:hasName [
-lawd:variantForm "Amāsiyya"  ;];
- lawd:hasName [
-lawd:variantForm "Black Sea"  ;];
- lawd:hasName [
-lawd:variantForm "Samsun"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/481/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/481/tei>  .
+ geo:lat "41.1802622" ;
+ geo:long "36.7190803" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/481/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/481/tei> ;
+geo:location [
+ geo:lat "41.1802622" ;
+ geo:long "36.7190803" ;].

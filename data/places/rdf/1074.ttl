@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1074> a lawd:Place ;
-rdfs:label "Beth Takshūr"  ;
+ rdfs:label "Beth Takshūr" ;
  lawd:hasName [
-lawd:primaryForm "Beth Takshūr"@en  ;];
+ lawd:primaryForm "Beth Takshūr"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Takshūr"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1074/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1074/tei>  .
+ lawd:variantForm "Beṯ Takshūr"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1074/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1074/tei> .

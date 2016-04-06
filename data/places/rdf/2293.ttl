@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2293> a lawd:Place ;
-rdfs:label "Dabarīnōs"  ;
+ rdfs:label "Dabarīnōs" ;
  lawd:hasName [
-lawd:primaryForm "Dabarīnōs"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2293/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2293/tei>  .
+ lawd:primaryForm "Dabarīnōs"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2293/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2293/tei> .

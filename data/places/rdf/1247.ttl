@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1247> a lawd:Place ;
-rdfs:label "Guppā"  ;
+ rdfs:label "Guppā" ;
  lawd:hasName [
-lawd:primaryForm "Guppā"@en  ;];
+ lawd:primaryForm "Guppā"@en ;];
  lawd:hasName [
-lawd:variantForm "Gapītā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1247/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1247/tei>  .
+ lawd:variantForm "Gapītā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1247/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1247/tei> .

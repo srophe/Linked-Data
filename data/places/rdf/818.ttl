@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/818> a lawd:Place ;
-rdfs:label "Eshnūq"  ;
+ rdfs:label "Eshnūq" ;
  lawd:hasName [
-lawd:primaryForm "Eshnūq"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/818/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/818/tei>  ;
-dcterms:relation <http://syriaca.org/place/743>  .
+ lawd:primaryForm "Eshnūq"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/818/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/818/tei> ;
+ dcterms:relation <http://syriaca.org/place/743> .

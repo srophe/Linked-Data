@@ -11,32 +11,32 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/72> a lawd:Place ;
-rdfs:label "Dayro d-Mor Yaʿqub — ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ ܚܒܝܫܝܐ"  ;
-dcterms:description "A monastery near Ṣalaḥ in Ṭur ʿAbdin, seat of the Syrian Orthodox patriarchate of Ṭur ʿAbdin from 1365."  ;
+ rdfs:label "Dayro d-Mor Yaʿqub — ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ ܚܒܝܫܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dayro d-Mor Yaʿqub"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ ܚܒܝܫܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܝܰܥܩܘܒ ܚܒܝܫܝܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير مار يعقوب الحبيس"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Jacob the Solitary Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Dayro d-Mor Yaqub"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Dayro d-Mor Ya‘qub"@en-xsrp1 ;];
+ dcterms:description "A monastery near Ṣalaḥ in Ṭur ʿAbdin, seat of the Syrian Orthodox patriarchate of Ṭur ʿAbdin from 1365." ;
  dcterms:description [
-rdfs:label "ܒܓܶܢܒ ܨܰܠܚ ܩܪܝܬܐ ܕܰܒܛܘܪܥܰܒܕܝܢ. ܕܰܝܪܐ ܗܘ ܪܰܒܐ ܒܢܳܝܗܝ ܥܢܘܳܝܐ ܡܳܪܝ ܝܰܥܩܘܒ ܩܕܳܡ ܫܢܰܬ 419 ܘܐܶܬܒܢܝ ܗܰܝܟܠܗ ܚܕܳܪ 770 . ܗܘܐ ܟܘܪܣܝܳܐ ܕܦܰܛܪܝܰܪܟܐ ܕܛܘܪܥܰܒܕܝܢ ܫܢܰܬ 1365 ܐܶܬܢܰܦܰܩܘ ܒܗ ܬܪܶܝܢ ܦܰܛܪܝܰܪ̈ܟܶܐ ܘܚܰܕ ܡܰܦܪܝܳܢܐ ܘܫܰܒܥܐ ܐܶܦܝܣ̈ܩܘܦܶܐ ܘܰܥܕܰܡܐ ܠܝܰܘܡܢ ܥܰܡܝܪ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܓܶܢܒ ܨܰܠܚ ܩܪܝܬܐ ܕܰܒܛܘܪܥܰܒܕܝܢ. ܕܰܝܪܐ ܗܘ ܪܰܒܐ ܒܢܳܝܗܝ ܥܢܘܳܝܐ ܡܳܪܝ ܝܰܥܩܘܒ ܩܕܳܡ ܫܢܰܬ 419 ܘܐܶܬܒܢܝ ܗܰܝܟܠܗ ܚܕܳܪ 770 . ܗܘܐ ܟܘܪܣܝܳܐ ܕܦܰܛܪܝܰܪܟܐ ܕܛܘܪܥܰܒܕܝܢ ܫܢܰܬ 1365 ܐܶܬܢܰܦܰܩܘ ܒܗ ܬܪܶܝܢ ܦܰܛܪܝܰܪ̈ܟܶܐ ܘܚܰܕ ܡܰܦܪܝܳܢܐ ܘܫܰܒܥܐ ܐܶܦܝܣ̈ܩܘܦܶܐ ܘܰܥܕܰܡܐ ܠܝܰܘܡܢ ܥܰܡܝܪ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بجانب قرية صلح في طور عبدين دير كبير انشأه مار يعقوب الناسك قبيل سنة 419 وبني هيكله حول 770، صار كرسيا لبطاركة طور عبدين عام 1365 تخرج فيه بطركان ومفريان وسبعة اساقفة لا يزال عامرا."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بجانب قرية صلح في طور عبدين دير كبير انشأه مار يعقوب الناسك قبيل سنة 419 وبني هيكله حول 770، صار كرسيا لبطاركة طور عبدين عام 1365 تخرج فيه بطركان ومفريان وسبعة اساقفة لا يزال عامرا."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "near the village of Ṣalaḥ in Tur ʿAbdin, is a big monastery built by St. Jacob the ascetic shortly before 419. Its nave, however, was not built until 770. This monastery became the see of the patriarchs of Tur ʿAbdin in 1365. Two Patriarchs, a Maphryono and seven bishops graduated from it. It is still inhabited."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0419"  ;
- lawd:hasName [
-lawd:primaryForm "Dayro d-Mor Yaʿqub"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ ܚܒܝܫܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܝܰܥܩܘܒ ܚܒܝܫܝܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير مار يعقوب الحبيس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Jacob the Solitary Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Dayro d-Mor Yaqub"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Dayro d-Mor Ya‘qub"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/72/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/72/tei>  ;
-dcterms:relation <http://syriaca.org/place/470>  .
+ rdfs:label "near the village of Ṣalaḥ in Tur ʿAbdin, is a big monastery built by St. Jacob the ascetic shortly before 419. Its nave, however, was not built until 770. This monastery became the see of the patriarchs of Tur ʿAbdin in 1365. Two Patriarchs, a Maphryono and seven bishops graduated from it. It is still inhabited."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0419" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/72/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/72/tei> ;
+ dcterms:relation <http://syriaca.org/place/470> .

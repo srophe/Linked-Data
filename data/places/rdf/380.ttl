@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/380> a lawd:Place ;
-rdfs:label "Dayr Kāsliyud — ܕܝܪܐ ܕܟܣܠܝܘܕ"  ;
+ rdfs:label "Dayr Kāsliyud — ܕܝܪܐ ܕܟܣܠܝܘܕ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dayr Kāsliyud"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܟܣܠܝܘܕ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܟܣܠܝܘܕ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير كاسليود"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Kasliyud Monastery"@en ;];
  dcterms:description [
-rdfs:label "ܒܐܽܘܚܕܳܢܐ ܕܓܰܪܡܰܐܢܺܝܩܝ (ܡܪܥܫ) ܐܶܬܢܰܦܰܩ ܒܗ ܐܰܪܒܥܐ ܐܶܦܝܣܩܘ̈ܦܐ ܡܶܢ ܫܢܰܬ 1100 - 1200"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܐܽܘܚܕܳܢܐ ܕܓܰܪܡܰܐܢܺܝܩܝ (ܡܪܥܫ) ܐܶܬܢܰܦܰܩ ܒܗ ܐܰܪܒܥܐ ܐܶܦܝܣܩܘ̈ܦܐ ܡܶܢ ܫܢܰܬ 1100 - 1200"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في ولاية مرعش تخرج فيه اربعة اساقفة من سنة 1100 الى 1200."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في ولاية مرعش تخرج فيه اربعة اساقفة من سنة 1100 الى 1200."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "in the province of Marʿash. Between 1100 and 1200 four bishops graduated from it."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1100"  ;
- lawd:hasName [
-lawd:primaryForm "Dayr Kāsliyud"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܟܣܠܝܘܕ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܟܣܠܝܘܕ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير كاسليود"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Kasliyud Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/380/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/380/tei>  .
+ rdfs:label "in the province of Marʿash. Between 1100 and 1200 four bishops graduated from it."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1100" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/380/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/380/tei> .

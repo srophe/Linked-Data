@@ -11,17 +11,20 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/27> a lawd:Place ;
-rdfs:label "Arethusa"  ;
-dcterms:description "A Hellenistic city near Apamea, now called al-Rastan."  ;
-dcterms:temporal "-0281"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/668199>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Al-Rastan>  ;
+ rdfs:label "Arethusa" ;
+ lawd:hasName [
+ lawd:primaryForm "Arethusa"@en ;];
+ lawd:hasName [
+ lawd:variantForm "الرَّسْتَن"@ar ;];
+ dcterms:description "A Hellenistic city near Apamea, now called al-Rastan." ;
+ dcterms:temporal "-0281" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/668199> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Al-Rastan> ;
 geo:location [
-geo:lat "34.96017"  ;
-geo:long "34.96017"  ;];
- lawd:hasName [
-lawd:primaryForm "Arethusa"@en  ;];
- lawd:hasName [
-lawd:variantForm "الرَّسْتَن"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/27/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/27/tei>  .
+ geo:lat "34.96017" ;
+ geo:long "36.73511" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/27/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/27/tei> ;
+geo:location [
+ geo:lat "34.96017" ;
+ geo:long "36.73511" ;].

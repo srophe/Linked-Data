@@ -11,13 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/837> a lawd:Place ;
-rdfs:label "Kuplana"  ;
-dcterms:description "A town in ."  ;
+ rdfs:label "Kuplana" ;
  lawd:hasName [
-lawd:primaryForm "Kuplana"@en  ;];
+ lawd:primaryForm "Kuplana"@en ;];
  lawd:hasName [
-lawd:variantForm "Kuplānā"@en  ;];
- lawd:hasName [
-lawd:variantForm "Adiabene"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/837/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/837/tei>  .
+ lawd:variantForm "Kuplānā"@en ;];
+ skos:related "Adiabene" ;
+ dcterms:description "A town in ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/837/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/837/tei> .

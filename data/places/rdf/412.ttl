@@ -11,28 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/412> a lawd:Place ;
-rdfs:label "Semqe — ܣܡܩ̈ܐ"  ;
+ rdfs:label "Semqe — ܣܡܩ̈ܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Semqe"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܣܡܩ̈ܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܣܡܩ̈ܝ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "سمقا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "سمقي"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Semqa"@en ;];
  dcterms:description [
-rdfs:label "ܡܶܢ ܩܘܪ̈ܝܘܐ ܕܐܳܡܝܕ ܠܡܰܕܢܰܚ ܓܰܪܒܰܝ ܕܝܠܳܗ̇ܳ ܡܰܪܕܶܐ ܬܰܪܬܝܢ ܫܳܥܝ̈ܢ ܘܰܟܒܰܪ ܗܝ ܡܬܶܩܰܪܝܳܐ ܝܰܘܡܢ ܣܘܡܰܐܩܠܝ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܶܢ ܩܘܪ̈ܝܘܐ ܕܐܳܡܝܕ ܠܡܰܕܢܰܚ ܓܰܪܒܰܝ ܕܝܠܳܗ̇ܳ ܡܰܪܕܶܐ ܬܰܪܬܝܢ ܫܳܥܝ̈ܢ ܘܰܟܒܰܪ ܗܝ ܡܬܶܩܰܪܝܳܐ ܝܰܘܡܢ ܣܘܡܰܐܩܠܝ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "من قرى ديار بكر ولعلها المسماة سوماقلي في شرقها الشمالي مسافة ساعتين عنها."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "من قرى ديار بكر ولعلها المسماة سوماقلي في شرقها الشمالي مسافة ساعتين عنها."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village two hours journey northeast of Diyarbakr. It may be the village called Summaqli."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0500"  ;
- lawd:hasName [
-lawd:primaryForm "Semqe"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܣܡܩ̈ܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܣܡܩ̈ܝ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "سمقا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "سمقي"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Semqa"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/412/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/412/tei>  .
+ rdfs:label "a village two hours journey northeast of Diyarbakr. It may be the village called Summaqli."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0500" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/412/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/412/tei> .

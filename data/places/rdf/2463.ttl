@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2463> a lawd:Place ;
-rdfs:label "Mar Ḥnanishoʿ"  ;
+ rdfs:label "Mar Ḥnanishoʿ" ;
  lawd:hasName [
-lawd:primaryForm "Mar Ḥnanishoʿ"@en  ;];
+ lawd:primaryForm "Mar Ḥnanishoʿ"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Ḥnānīshōʿ"@en  ;];
+ lawd:variantForm "Mār Ḥnānīshōʿ"@en ;];
  lawd:hasName [
-lawd:variantForm "Mar Ḥnanisho"@en-xsrp1  ;];
+ lawd:variantForm "Mar Ḥnanisho"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mar Ḥnanisho‘"@en-xsrp1  ;];
+ lawd:variantForm "Mar Ḥnanisho‘"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Ḥnānīshō"@en-xsrp1  ;];
+ lawd:variantForm "Mār Ḥnānīshō"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Ḥnānīshō‘"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2463/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2463/tei>  .
+ lawd:variantForm "Mār Ḥnānīshō‘"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2463/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2463/tei> .

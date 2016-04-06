@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/306> a lawd:Place ;
-rdfs:label "Beth Botin — ܒܝܬ ܒܬܝ̈ܢ"  ;
+ rdfs:label "Beth Botin — ܒܝܬ ܒܬܝ̈ܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Beth Botin"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܝܬ ܒܬܝ̈ܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܶܝܬ ܒܳܬܺܝ̈ܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "بيث باتين"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Beth Bātīn"@en ;];
  dcterms:description [
-rdfs:label "ܩܪܝܬܐ ܕܚܰܪܝܒܐ ܠܒܰܪ ܡܶܢ ܚܳܪܳܢ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܝܬܐ ܕܚܰܪܝܒܐ ܠܒܰܪ ܡܶܢ ܚܳܪܳܢ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية دارسة بظاهر حرّان"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية دارسة بظاهر حرّان"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "an extinct town outside Ḥarran."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0794"  ;
- lawd:hasName [
-lawd:primaryForm "Beth Botin"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܝܬ ܒܬܝ̈ܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܒܶܝܬ ܒܳܬܺܝ̈ܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "بيث باتين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Beth Bātīn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/306/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/306/tei>  .
+ rdfs:label "an extinct town outside Ḥarran."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0794" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/306/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/306/tei> .

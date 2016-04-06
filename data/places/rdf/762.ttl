@@ -11,10 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/762> a lawd:Place ;
-rdfs:label "Marde"  ;
+ rdfs:label "Marde" ;
  lawd:hasName [
-lawd:primaryForm "Marde"@en  ;];
- lawd:hasName [
-lawd:variantForm "Mardin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/762/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/762/tei>  .
+ lawd:primaryForm "Marde"@en ;];
+ skos:related "Mardin" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/762/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/762/tei> .

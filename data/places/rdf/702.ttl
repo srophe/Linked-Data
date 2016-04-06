@@ -11,14 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/702> a lawd:Place ;
-rdfs:label "British Library"  ;
-dcterms:description "The national library of the , located in ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/British_Library>  ;
+ rdfs:label "British Library" ;
  lawd:hasName [
-lawd:primaryForm "British Library"@en  ;];
- lawd:hasName [
-lawd:variantForm "United Kingdom"  ;];
- lawd:hasName [
-lawd:variantForm "London"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/702/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/702/tei>  .
+ lawd:primaryForm "British Library"@en ;];
+ skos:related "United Kingdom" ;
+ skos:related "London" ;
+ dcterms:description "The national library of the , located in ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/British_Library> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/702/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/702/tei> .

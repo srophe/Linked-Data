@@ -11,22 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/153> a lawd:Place ;
-rdfs:label "Palmyra"  ;
-dcterms:description "A town between and ."  ;
-dcterms:temporal "-1000"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/668331>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Palmyra>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Tadmur>  ;
+ rdfs:label "Palmyra" ;
+ lawd:hasName [
+ lawd:primaryForm "Palmyra"@en ;];
+ lawd:hasName [
+ lawd:variantForm "تَدْمُر"@ar ;];
+ skos:related "Emesa" ;
+ skos:related "Dura-Europos" ;
+ dcterms:description "A town between and ." ;
+ dcterms:temporal "-1000" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/668331> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Palmyra> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Tadmur> ;
 geo:location [
-geo:lat "34.56"  ;
-geo:long "34.56"  ;];
- lawd:hasName [
-lawd:primaryForm "Palmyra"@en  ;];
- lawd:hasName [
-lawd:variantForm "تَدْمُر"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Emesa"  ;];
- lawd:hasName [
-lawd:variantForm "Dura-Europos"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/153/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/153/tei>  .
+ geo:lat "34.56" ;
+ geo:long "38.26722" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/153/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/153/tei> ;
+geo:location [
+ geo:lat "34.56" ;
+ geo:long "38.26722" ;].

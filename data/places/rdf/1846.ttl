@@ -11,17 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1846> a lawd:Place ;
-rdfs:label "Bnay Shmuni"  ;
+ rdfs:label "Bnay Shmuni" ;
  lawd:hasName [
-lawd:primaryForm "Bnay Shmuni"@en  ;];
+ lawd:primaryForm "Bnay Shmuni"@en ;];
  lawd:hasName [
-lawd:variantForm "Beni Shmūni"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1846/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1846/tei>  ;
-dcterms:relation <http://syriaca.org/place/1842>  ;
-dcterms:relation <http://syriaca.org/place/1843>  ;
-dcterms:relation <http://syriaca.org/place/1844>  ;
-dcterms:relation <http://syriaca.org/place/1845>  ;
-dcterms:relation <http://syriaca.org/place/1847>  ;
-dcterms:relation <http://syriaca.org/place/1848>  ;
-dcterms:relation <http://syriaca.org/place/1849>  .
+ lawd:variantForm "Beni Shmūni"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1846/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1846/tei> ;
+ dcterms:relation <http://syriaca.org/place/1842> ;
+ dcterms:relation <http://syriaca.org/place/1843> ;
+ dcterms:relation <http://syriaca.org/place/1844> ;
+ dcterms:relation <http://syriaca.org/place/1845> ;
+ dcterms:relation <http://syriaca.org/place/1847> ;
+ dcterms:relation <http://syriaca.org/place/1848> ;
+ dcterms:relation <http://syriaca.org/place/1849> .

@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/915> a lawd:Place ;
-rdfs:label "Armūṭā"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Armota>  ;
+ rdfs:label "Armūṭā" ;
  lawd:hasName [
-lawd:primaryForm "Armūṭā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/915/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/915/tei>  .
+ lawd:primaryForm "Armūṭā"@en ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Armota> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/915/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/915/tei> .

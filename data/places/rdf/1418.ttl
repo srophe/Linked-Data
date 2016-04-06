@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1418> a lawd:Place ;
-rdfs:label "Mānūnan"  ;
+ rdfs:label "Mānūnan" ;
  lawd:hasName [
-lawd:primaryForm "Mānūnan"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1418/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1418/tei>  .
+ lawd:primaryForm "Mānūnan"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1418/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1418/tei> .

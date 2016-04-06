@@ -11,28 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/320> a lawd:Place ;
-rdfs:label "al-Jabbūl — ܓܒܘܠܐ"  ;
+ rdfs:label "al-Jabbūl — ܓܒܘܠܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "al-Jabbūl"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܓܒܘܠܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܓܰܒܘܠܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "الجبّول"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Gabbul"@en ;];
+ lawd:hasName [
+ lawd:variantForm "الجَبّوْل"@ar ;];
  dcterms:description [
-rdfs:label "ܩܪܺܝܬܳܐ ܕܰܒܡܰܕܢܚܳܗ̇ ܕܚܳܠܒ ܕܪܰܚܝܩܳܐ ܡܶܢܗ̇ ܐܟ ܡܰܫܩܠܐ ܪܰܒܐ ܘܩܰܪܝܒܳܐ ܠܰܦܪܳܬ ܘܡܶܢܳܗ̇ ܡܶܬܬܰܘܒܠ ܡܶܠܚܳܐ ܠܟܠ ܦܢܺܝܬܳܗ̇ ܕܚܳܠܳܒ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܺܝܬܳܐ ܕܰܒܡܰܕܢܚܳܗ̇ ܕܚܳܠܒ ܕܪܰܚܝܩܳܐ ܡܶܢܗ̇ ܐܟ ܡܰܫܩܠܐ ܪܰܒܐ ܘܩܰܪܝܒܳܐ ܠܰܦܪܳܬ ܘܡܶܢܳܗ̇ ܡܶܬܬܰܘܒܠ ܡܶܠܚܳܐ ܠܟܠ ܦܢܺܝܬܳܗ̇ ܕܚܳܠܳܒ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية شرقي حلب على نحو مرحلة كبيرة منها بالقرب من الفرات ومنها ينقل الملح الى سائر اعمال حلب"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية شرقي حلب على نحو مرحلة كبيرة منها بالقرب من الفرات ومنها ينقل الملح الى سائر اعمال حلب"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town north of Aleppo, near the Euphrates, from which salt was brought to the province of Aleppo."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0595"  ;
- lawd:hasName [
-lawd:primaryForm "al-Jabbūl"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܓܒܘܠܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܓܰܒܘܠܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "الجبّول"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Gabbul"@en  ;];
- lawd:hasName [
-lawd:variantForm "الجَبّوْل"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/320/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/320/tei>  .
+ rdfs:label "a town north of Aleppo, near the Euphrates, from which salt was brought to the province of Aleppo."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0595" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/320/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/320/tei> .

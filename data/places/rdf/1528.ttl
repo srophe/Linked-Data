@@ -11,20 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1528> a lawd:Place ;
-rdfs:label "Dayro d-Urhoye — ܕܝܪܐ ܕܐܘܪ̈ܗܝܐ"  ;
-dcterms:description "A monastery in ."  ;
-dcterms:temporal "0568"  ;
+ rdfs:label "Dayro d-Urhoye — ܕܝܪܐ ܕܐܘܪ̈ܗܝܐ" ;
  lawd:hasName [
-lawd:primaryForm "Dayro d-Urhoye"@en  ;];
+ lawd:primaryForm "Dayro d-Urhoye"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܐܘܪ̈ܗܝܐ"@syr  ;];
+ lawd:primaryForm "ܕܝܪܐ ܕܐܘܪ̈ܗܝܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܐܘܪ̈ܗܳܝܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܰܝܪܐ ܕܐܘܪ̈ܗܳܝܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "دير الرهاويين"@ar  ;];
+ lawd:variantForm "دير الرهاويين"@ar ;];
  lawd:hasName [
-lawd:variantForm "Monastery of the Edessenes"@en  ;];
- lawd:hasName [
-lawd:variantForm "Amid"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1528/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1528/tei>  .
+ lawd:variantForm "Monastery of the Edessenes"@en ;];
+ skos:related "Amid" ;
+ dcterms:description "A monastery in ." ;
+ dcterms:temporal "0568" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1528/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1528/tei> .

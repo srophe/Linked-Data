@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1841> a lawd:Place ;
-rdfs:label "Asbag"  ;
+ rdfs:label "Asbag" ;
  lawd:hasName [
-lawd:primaryForm "Asbag"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1841/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1841/tei>  .
+ lawd:primaryForm "Asbag"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1841/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1841/tei> .

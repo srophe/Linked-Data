@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1178> a lawd:Place ;
-rdfs:label "North Africa"  ;
-dcterms:description "The region north of the Sahara desert."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/North_Africa>  ;
+ rdfs:label "North Africa" ;
  lawd:hasName [
-lawd:primaryForm "North Africa"@en  ;];
+ lawd:primaryForm "North Africa"@en ;];
  lawd:hasName [
-lawd:variantForm "إِفريقية"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1178/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1178/tei>  .
+ lawd:variantForm "إِفريقية"@ar ;];
+ dcterms:description "The region north of the Sahara desert." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/North_Africa> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1178/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1178/tei> .

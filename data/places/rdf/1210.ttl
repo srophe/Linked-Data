@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1210> a lawd:Place ;
-rdfs:label "Findik"  ;
+ rdfs:label "Findik" ;
  lawd:hasName [
-lawd:primaryForm "Findik"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1210/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1210/tei>  .
+ lawd:primaryForm "Findik"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1210/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1210/tei> .

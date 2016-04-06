@@ -11,25 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/571> a lawd:Place ;
-rdfs:label "Mor Bosus — ܐܘܦܘܡܝܐ"  ;
-dcterms:description "A ruined monastery attested near"  ;
-dcterms:temporal "0300"  ;
+ rdfs:label "Mor Bosus — ܐܘܦܘܡܝܐ" ;
  lawd:hasName [
-lawd:primaryForm "Mor Bosus"@en  ;];
+ lawd:primaryForm "Mor Bosus"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܒܣܘܣ"@syr  ;];
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܒܣܘܣ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܒܳܣܘܣ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܒܳܣܘܣ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "دير مار باسوس"@ar  ;];
+ lawd:variantForm "دير مار باسوس"@ar ;];
  lawd:hasName [
-lawd:variantForm "Bāsūs Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ḥimṣ"  ;];
- lawd:hasName [
-lawd:variantForm "Mor Bosus"  ;];
- lawd:hasName [
-lawd:variantForm "Mor Bosus"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/571/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/571/tei>  ;
-dcterms:relation <http://syriaca.org/place/343>  .
+ lawd:variantForm "Bāsūs Monastery"@en ;];
+ skos:related "Ḥimṣ" ;
+ skos:related "Mor Bosus" ;
+ skos:related "Mor Bosus" ;
+ dcterms:description "A ruined monastery attested near" ;
+ dcterms:temporal "0300" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/571/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/571/tei> ;
+ dcterms:relation <http://syriaca.org/place/343> .

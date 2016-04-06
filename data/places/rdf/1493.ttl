@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1493> a lawd:Place ;
-rdfs:label "Dayr Abdūkūs — ܕܝܪܐ ܕܐܒܕܘܟܘܣ"  ;
-dcterms:description "A Greek monastery where was imprisoned in the 11th century."  ;
-dcterms:temporal "1063"  ;
+ rdfs:label "Dayr Abdūkūs — ܕܝܪܐ ܕܐܒܕܘܟܘܣ" ;
  lawd:hasName [
-lawd:primaryForm "Dayr Abdūkūs"@en  ;];
+ lawd:primaryForm "Dayr Abdūkūs"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܐܒܕܘܟܘܣ"@syr  ;];
+ lawd:primaryForm "ܕܝܪܐ ܕܐܒܕܘܟܘܣ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܐܰܒܕܽܘܟܳܘܣ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܰܝܪܐ ܕܐܰܒܕܽܘܟܳܘܣ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "دير ابدوكوس"@ar  ;];
+ lawd:variantForm "دير ابدوكوس"@ar ;];
  lawd:hasName [
-lawd:variantForm "Monastery of Ebdocos"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1493/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1493/tei>  .
+ lawd:variantForm "Monastery of Ebdocos"@en ;];
+ dcterms:description "A Greek monastery where was imprisoned in the 11th century." ;
+ dcterms:temporal "1063" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1493/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1493/tei> .

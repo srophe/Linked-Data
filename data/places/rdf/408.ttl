@@ -11,30 +11,29 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/408> a lawd:Place ;
-rdfs:label "Zargel — ܙܪܓܠ"  ;
-dcterms:description "A village near ."  ;
+ rdfs:label "Zargel — ܙܪܓܠ" ;
+ lawd:hasName [
+ lawd:primaryForm "Zargel"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܙܪܓܠ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܙܰܪܓܠ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "زرجل"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Zarjal"@en ;];
+ skos:related "Ḥesno d-Kifo" ;
+ dcterms:description "A village near ." ;
  dcterms:description [
-rdfs:label "ܩܪܝܬܳܐ ܪܰܒܬܐ ܕܰܒܒܶܝܬ ܫܺܐܪ̈ܳܝܐ ܕܒܐܘܚܕܳܢܳܐ ܕܰܣܥܶܪܬ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܝܬܳܐ ܪܰܒܬܐ ܕܰܒܒܶܝܬ ܫܺܐܪ̈ܳܝܐ ܕܒܐܘܚܕܳܢܳܐ ܕܰܣܥܶܪܬ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية كبيرة في البشيرية من عمل ديار بكر."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية كبيرة في البشيرية من عمل ديار بكر."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a large village in al-Bushayriyya, in the province of Diyarbakir."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1481"  ;
- lawd:hasName [
-lawd:primaryForm "Zargel"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܙܪܓܠ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܙܰܪܓܠ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "زرجل"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Zarjal"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ḥesno d-Kifo"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/408/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/408/tei>  ;
-dcterms:relation <http://syriaca.org/place/2413>  .
+ rdfs:label "a large village in al-Bushayriyya, in the province of Diyarbakir."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1481" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/408/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/408/tei> ;
+ dcterms:relation <http://syriaca.org/place/2413> .

@@ -11,27 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1535> a lawd:Place ;
-rdfs:label "al-Madāʾin"  ;
-dcterms:description "A group of settlements including , , and ."  ;
+ rdfs:label "al-Madāʾin" ;
  lawd:hasName [
-lawd:primaryForm "al-Madāʾin"@en  ;];
+ lawd:primaryForm "al-Madāʾin"@en ;];
  lawd:hasName [
-lawd:variantForm "Madain"@en  ;];
+ lawd:variantForm "Madain"@en ;];
  lawd:hasName [
-lawd:variantForm "Mahoza"@en  ;];
+ lawd:variantForm "Mahoza"@en ;];
  lawd:hasName [
-lawd:variantForm "al-Madain"@en  ;];
+ lawd:variantForm "al-Madain"@en ;];
  lawd:hasName [
-lawd:variantForm "المدائن"@ar  ;];
+ lawd:variantForm "المدائن"@ar ;];
  lawd:hasName [
-lawd:variantForm "al-Madāʾin"@en-xsrp1  ;];
+ lawd:variantForm "al-Madāʾin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "al-Madāʾin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ctesiphon"  ;];
- lawd:hasName [
-lawd:variantForm "Seleucia"  ;];
- lawd:hasName [
-lawd:variantForm "Kokhe"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1535/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1535/tei>  .
+ lawd:variantForm "al-Madāʾin"@en-xsrp1 ;];
+ skos:related "Ctesiphon" ;
+ skos:related "Seleucia" ;
+ skos:related "Kokhe" ;
+ dcterms:description "A group of settlements including , , and ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1535/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1535/tei> .

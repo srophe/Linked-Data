@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1135> a lawd:Place ;
-rdfs:label "Chūpūl"  ;
+ rdfs:label "Chūpūl" ;
  lawd:hasName [
-lawd:primaryForm "Chūpūl"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1135/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1135/tei>  .
+ lawd:primaryForm "Chūpūl"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1135/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1135/tei> .

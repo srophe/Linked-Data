@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/924> a lawd:Place ;
-rdfs:label "Ālmālik"  ;
+ rdfs:label "Ālmālik" ;
  lawd:hasName [
-lawd:primaryForm "Ālmālik"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/924/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/924/tei>  .
+ lawd:primaryForm "Ālmālik"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/924/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/924/tei> .

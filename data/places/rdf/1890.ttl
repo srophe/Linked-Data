@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1890> a lawd:Place ;
-rdfs:label "Mar Babai"  ;
+ rdfs:label "Mar Babai" ;
  lawd:hasName [
-lawd:primaryForm "Mar Babai"@en  ;];
+ lawd:primaryForm "Mar Babai"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Babaï"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1890/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1890/tei>  .
+ lawd:variantForm "Mār Babaï"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1890/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1890/tei> .

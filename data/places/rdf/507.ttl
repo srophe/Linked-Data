@@ -11,24 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/507> a lawd:Place ;
-rdfs:label "Cochin — ܟܘܓܝܢ"  ;
-dcterms:description "A city in in southern ."  ;
-dcterms:temporal "1433"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Kochi>  ;
+ rdfs:label "Cochin — ܟܘܓܝܢ" ;
  lawd:hasName [
-lawd:primaryForm "Cochin"@en  ;];
+ lawd:primaryForm "Cochin"@en ;];
  lawd:hasName [
-lawd:variantForm "Kochi"@en  ;];
+ lawd:variantForm "Kochi"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܟܘܓܝܢ"@syr  ;];
+ lawd:primaryForm "ܟܘܓܝܢ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܟܽܘܓܝܺܢ"@syr-Syrj  ;];
+ lawd:variantForm "ܟܽܘܓܝܺܢ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "كوجين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Kerala"  ;];
- lawd:hasName [
-lawd:variantForm "India"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/507/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/507/tei>  ;
-dcterms:relation <http://syriaca.org/place/2289>  .
+ lawd:variantForm "كوجين"@ar ;];
+ skos:related "Kerala" ;
+ skos:related "India" ;
+ dcterms:description "A city in in southern ." ;
+ dcterms:temporal "1433" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Kochi> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/507/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/507/tei> ;
+ dcterms:relation <http://syriaca.org/place/2289> .

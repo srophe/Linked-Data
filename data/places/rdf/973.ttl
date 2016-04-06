@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/973> a lawd:Place ;
-rdfs:label "Barzāḥe"  ;
+ rdfs:label "Barzāḥe" ;
  lawd:hasName [
-lawd:primaryForm "Barzāḥe"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/973/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/973/tei>  .
+ lawd:primaryForm "Barzāḥe"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/973/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/973/tei> .

@@ -11,19 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2336> a lawd:Place ;
-rdfs:label "Maʿdan"  ;
+ rdfs:label "Maʿdan" ;
  lawd:hasName [
-lawd:primaryForm "Maʿdan"@en  ;];
+ lawd:primaryForm "Maʿdan"@en ;];
  lawd:hasName [
-lawd:variantForm "Maʿdan (West Syrian diocese)"@en  ;];
+ lawd:variantForm "Maʿdan (West Syrian diocese)"@en ;];
  lawd:hasName [
-lawd:variantForm "Madan"@en-xsrp1  ;];
+ lawd:variantForm "Madan"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ma‘dan"@en-xsrp1  ;];
+ lawd:variantForm "Ma‘dan"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Madan (West Syrian diocese)"@en-xsrp1  ;];
+ lawd:variantForm "Madan (West Syrian diocese)"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ma‘dan (West Syrian diocese)"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2336/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2336/tei>  ;
-dcterms:relation <http://syriaca.org/place/459>  .
+ lawd:variantForm "Ma‘dan (West Syrian diocese)"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2336/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2336/tei> ;
+ dcterms:relation <http://syriaca.org/place/459> .

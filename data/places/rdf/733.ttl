@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/733> a lawd:Place ;
-rdfs:label "Baranduz"  ;
+ rdfs:label "Baranduz" ;
  lawd:hasName [
-lawd:primaryForm "Baranduz"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/733/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/733/tei>  ;
-dcterms:relation <http://syriaca.org/place/964>  .
+ lawd:primaryForm "Baranduz"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/733/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/733/tei> ;
+ dcterms:relation <http://syriaca.org/place/964> .

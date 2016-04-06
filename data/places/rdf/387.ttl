@@ -11,28 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/387> a lawd:Place ;
-rdfs:label "Mary Magdalene — ܕܝܪܐ ܕܡܓܕܠܝܬܐ"  ;
+ rdfs:label "Mary Magdalene — ܕܝܪܐ ܕܡܓܕܠܝܬܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Mary Magdalene"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Mary Magdelene"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܓܕܠܝܬܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܐ ܕܡܰܓܕܠܳܝܬܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير المجدلية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Magdalene Monastery"@en ;];
  dcterms:description [
-rdfs:label "ܒܐܘܪܫܠܶܡ ܒܡܰܫܪܝܬܐ ܕܬܰܪܥܐ ܕܥܰܡܘܼܕܐ. ܕܝܪܐ ܥܰܬܝܩܐ ܕܟܺܝܪ ܫܢܰܬ 1000 ܘܐܝܬܰܘܗܝ ܗܘܐ ܟܘܪܣܝܳܐ ܕܡܝܛܪܘܦܘܠܝܛܘܬܐ ܘܐܝܬ ܗܘܳܐ ܒܗ ܫܢܰܬ 1235 ܫܰܒܥܝܢ ܕܰܝܪ̈ܝܐ ܘܐܶܬܢܰܦܩܘ ܒܗ ܐܰܪܒܥܐ ܡܝܛܪ̈ܘܦܘܠܝܛܐ ܐܰܚܕܘܗܝ ܐܢܳܫܝ̈ܢ ܡܰܫܠܡܳܢ̈ܐ ܒܚܰܝܠܐ ܕܡܰܡܐܠܝܟ ܒܕܳܪܐ ܕܐܰܪܒܥܣܪ ܟܶܢ ܥܰܒܕܘܗܝ ܠܗܘܢ ܡܰܕܪܰܫܬܐ ܒܫܶܡ ܡܰܝܡܘܢܝܗ. ܩܰܘܝ̣ ܡܶܢܗ ܐܳܬܘ̈ܬ ܚܰܪ̈ܒܳܬܐ ܥܕܰܡܐ ܠܡܶܨܥܝ̈ܬܗ ܕܕܳܪܐ ܕܰܥܒܪ. ܒܳܬܰܪܟܢ ܐܶܬܠܰܝܬܝܰܬ ܕܘܟܬܗ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܐܘܪܫܠܶܡ ܒܡܰܫܪܝܬܐ ܕܬܰܪܥܐ ܕܥܰܡܘܼܕܐ. ܕܝܪܐ ܥܰܬܝܩܐ ܕܟܺܝܪ ܫܢܰܬ 1000 ܘܐܝܬܰܘܗܝ ܗܘܐ ܟܘܪܣܝܳܐ ܕܡܝܛܪܘܦܘܠܝܛܘܬܐ ܘܐܝܬ ܗܘܳܐ ܒܗ ܫܢܰܬ 1235 ܫܰܒܥܝܢ ܕܰܝܪ̈ܝܐ ܘܐܶܬܢܰܦܩܘ ܒܗ ܐܰܪܒܥܐ ܡܝܛܪ̈ܘܦܘܠܝܛܐ ܐܰܚܕܘܗܝ ܐܢܳܫܝ̈ܢ ܡܰܫܠܡܳܢ̈ܐ ܒܚܰܝܠܐ ܕܡܰܡܐܠܝܟ ܒܕܳܪܐ ܕܐܰܪܒܥܣܪ ܟܶܢ ܥܰܒܕܘܗܝ ܠܗܘܢ ܡܰܕܪܰܫܬܐ ܒܫܶܡ ܡܰܝܡܘܢܝܗ. ܩܰܘܝ̣ ܡܶܢܗ ܐܳܬܘ̈ܬ ܚܰܪ̈ܒܳܬܐ ܥܕܰܡܐ ܠܡܶܨܥܝ̈ܬܗ ܕܕܳܪܐ ܕܰܥܒܪ. ܒܳܬܰܪܟܢ ܐܶܬܠܰܝܬܝܰܬ ܕܘܟܬܗ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "باورشليم في حي باب العمود، دير قديم ذكر سنة 1000 وكان كرسي المطرانية وحوى عام 1235 سبعين راهبا وتخرج فيه اربعة مطارنة، اغتصبه قوم من المسلمين بنفوذ المماليك في القرن الرابع عشر ثم جعلوه مدرسة لهم باسم الميمونية، بقيت منه اطلال ظاهرة الى اواسط القرن الماضي ثم عفا اثره."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "باورشليم في حي باب العمود، دير قديم ذكر سنة 1000 وكان كرسي المطرانية وحوى عام 1235 سبعين راهبا وتخرج فيه اربعة مطارنة، اغتصبه قوم من المسلمين بنفوذ المماليك في القرن الرابع عشر ثم جعلوه مدرسة لهم باسم الميمونية، بقيت منه اطلال ظاهرة الى اواسط القرن الماضي ثم عفا اثره."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "in the Bab al-ʿĀmūd district of Jerusalem, is an old monastery, first mentioned in history in 1000. It was the seat of the metropolitan of Jerusalem. In 1235, it housed seventy monks. Four metropolitans graduated from it. In the fourteenth century it was usurped by a group of Muslims, with the help of the Mamluks; they then converted it into a school called al-Maymūna. Parts of its ruins were still to be seen until the last century, but they no longer exist."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1000"  ;
- lawd:hasName [
-lawd:primaryForm "Mary Magdalene"@en  ;];
- lawd:hasName [
-lawd:variantForm "Mary Magdelene"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܓܕܠܝܬܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܡܰܓܕܠܳܝܬܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير المجدلية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Magdalene Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/387/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/387/tei>  .
+ rdfs:label "in the Bab al-ʿĀmūd district of Jerusalem, is an old monastery, first mentioned in history in 1000. It was the seat of the metropolitan of Jerusalem. In 1235, it housed seventy monks. Four metropolitans graduated from it. In the fourteenth century it was usurped by a group of Muslims, with the help of the Mamluks; they then converted it into a school called al-Maymūna. Parts of its ruins were still to be seen until the last century, but they no longer exist."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1000" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/387/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/387/tei> .

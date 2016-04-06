@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1856> a lawd:Place ;
-rdfs:label "Maʿanyō"  ;
+ rdfs:label "Maʿanyō" ;
  lawd:hasName [
-lawd:primaryForm "Maʿanyō"@en  ;];
+ lawd:primaryForm "Maʿanyō"@en ;];
  lawd:hasName [
-lawd:variantForm "Maanyō"@en-xsrp1  ;];
+ lawd:variantForm "Maanyō"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ma‘anyō"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1856/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1856/tei>  .
+ lawd:variantForm "Ma‘anyō"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1856/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1856/tei> .

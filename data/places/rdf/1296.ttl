@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1296> a lawd:Place ;
-rdfs:label "Ḥabbushtā"  ;
+ rdfs:label "Ḥabbushtā" ;
  lawd:hasName [
-lawd:primaryForm "Ḥabbushtā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1296/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1296/tei>  .
+ lawd:primaryForm "Ḥabbushtā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1296/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1296/tei> .

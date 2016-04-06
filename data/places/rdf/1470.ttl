@@ -11,24 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1470> a lawd:Place ;
-rdfs:label "Dayro d-Qadisho Shemʿun — ܕܝܪܐ ܕܩܕܝܫܐ ܫܡܥܘܢ"  ;
-dcterms:description "An unlocated monastery"  ;
-dcterms:temporal "0538"  ;
+ rdfs:label "Dayro d-Qadisho Shemʿun — ܕܝܪܐ ܕܩܕܝܫܐ ܫܡܥܘܢ" ;
  lawd:hasName [
-lawd:primaryForm "Dayro d-Qadisho Shemʿun"@en  ;];
+ lawd:primaryForm "Dayro d-Qadisho Shemʿun"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܩܕܝܫܐ ܫܡܥܘܢ"@syr  ;];
+ lawd:primaryForm "ܕܝܪܐ ܕܩܕܝܫܐ ܫܡܥܘܢ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܩܰܕܝܫܐ ܫܶܡܥܘܢ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܰܝܪܐ ܕܩܰܕܝܫܐ ܫܶܡܥܘܢ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "دير القديس سمعان"@ar  ;];
+ lawd:variantForm "دير القديس سمعان"@ar ;];
  lawd:hasName [
-lawd:variantForm "Monastery of St. Simon"@en  ;];
+ lawd:variantForm "Monastery of St. Simon"@en ;];
  lawd:hasName [
-lawd:variantForm "دير سِمعان"@ar  ;];
+ lawd:variantForm "دير سِمعان"@ar ;];
  lawd:hasName [
-lawd:variantForm "Dayro d-Qadisho Shemun"@en-xsrp1  ;];
+ lawd:variantForm "Dayro d-Qadisho Shemun"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Dayro d-Qadisho Shem‘un"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1470/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1470/tei>  .
+ lawd:variantForm "Dayro d-Qadisho Shem‘un"@en-xsrp1 ;];
+ dcterms:description "An unlocated monastery" ;
+ dcterms:temporal "0538" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1470/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1470/tei> .

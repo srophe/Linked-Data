@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2418> a lawd:Place ;
-rdfs:label "Abdon"  ;
+ rdfs:label "Abdon" ;
  lawd:hasName [
-lawd:primaryForm "Abdon"@en  ;];
+ lawd:primaryForm "Abdon"@en ;];
  lawd:hasName [
-lawd:variantForm "Abdōn"@en  ;];
+ lawd:variantForm "Abdōn"@en ;];
  lawd:hasName [
-lawd:variantForm "دير عبدون"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2418/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2418/tei>  .
+ lawd:variantForm "دير عبدون"@ar ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2418/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2418/tei> .

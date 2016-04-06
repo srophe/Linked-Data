@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1170> a lawd:Place ;
-rdfs:label "Dīzā"  ;
+ rdfs:label "Dīzā" ;
  lawd:hasName [
-lawd:primaryForm "Dīzā"@en  ;];
+ lawd:primaryForm "Dīzā"@en ;];
  lawd:hasName [
-lawd:variantForm "Dīzā (i)"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1170/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1170/tei>  ;
-dcterms:relation <http://syriaca.org/place/1171>  ;
-dcterms:relation <http://syriaca.org/place/1172>  .
+ lawd:variantForm "Dīzā (i)"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1170/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1170/tei> ;
+ dcterms:relation <http://syriaca.org/place/1171> ;
+ dcterms:relation <http://syriaca.org/place/1172> .

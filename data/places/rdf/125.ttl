@@ -11,29 +11,31 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/125> a lawd:Place ;
-rdfs:label "Magdal"  ;
-dcterms:description "A frontier town on the ."  ;
+ rdfs:label "Magdal" ;
+ lawd:hasName [
+ lawd:primaryForm "Magdal"@en ;];
+ lawd:hasName [
+ lawd:variantForm "مجدل"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Majdal"@en ;];
+ lawd:hasName [
+ lawd:variantForm "مِجْدَل"@ar ;];
+ skos:related "Khabur River" ;
+ dcterms:description "A frontier town on the ." ;
  dcterms:description [
-rdfs:label "اسم بلدة مندرسة بالخابور الى جانبه كانت تحت رأس عين بمرحلة وذكر ياقوت شاعرا منها معاصرا له."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "اسم بلدة مندرسة بالخابور الى جانبه كانت تحت رأس عين بمرحلة وذكر ياقوت شاعرا منها معاصرا له."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "an ancient town near the river Khabur, below Rish ʿAyna. Yaqut al-Ḥamawi mentions a contemporary poet from this village."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-0600"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/893991>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Dūr-Katlimmu>  ;
+ rdfs:label "an ancient town near the river Khabur, below Rish ʿAyna. Yaqut al-Ḥamawi mentions a contemporary poet from this village."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-0600" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/893991> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Dūr-Katlimmu> ;
 geo:location [
-geo:lat "35.65633"  ;
-geo:long "35.65633"  ;];
- lawd:hasName [
-lawd:primaryForm "Magdal"@en  ;];
- lawd:hasName [
-lawd:variantForm "مجدل"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Majdal"@en  ;];
- lawd:hasName [
-lawd:variantForm "مِجْدَل"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Khabur River"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/125/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/125/tei>  .
+ geo:lat "35.65633" ;
+ geo:long "40.7443" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/125/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/125/tei> ;
+geo:location [
+ geo:lat "35.65633" ;
+ geo:long "40.7443" ;].

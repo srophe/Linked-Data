@@ -11,24 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/564> a lawd:Place ;
-rdfs:label "Kaprā d-Bartā — ܟܦܪܐ ܕܒܝܪܬܐ"  ;
-dcterms:description "A village northwest of , known for its monastery of ."  ;
-dcterms:temporal "0550"  ;
+ rdfs:label "Kaprā d-Bartā — ܟܦܪܐ ܕܒܝܪܬܐ" ;
  lawd:hasName [
-lawd:primaryForm "Kaprā d-Bartā"@en  ;];
+ lawd:primaryForm "Kaprā d-Bartā"@en ;];
  lawd:hasName [
-lawd:variantForm "Kaprā d-Birtā"@en  ;];
+ lawd:variantForm "Kaprā d-Birtā"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܟܦܪܐ ܕܒܝܪܬܐ"@syr  ;];
+ lawd:primaryForm "ܟܦܪܐ ܕܒܝܪܬܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܟܰܦܪܐ ܕܒܝܺܪܬܳܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܟܰܦܪܐ ܕܒܝܺܪܬܳܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "كفر البيرة"@ar  ;];
+ lawd:variantForm "كفر البيرة"@ar ;];
  lawd:hasName [
-lawd:variantForm "Kafr al-Bīra"@en  ;];
- lawd:hasName [
-lawd:variantForm "Apamea"  ;];
- lawd:hasName [
-lawd:variantForm "Mor Eusebios"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/564/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/564/tei>  .
+ lawd:variantForm "Kafr al-Bīra"@en ;];
+ skos:related "Apamea" ;
+ skos:related "Mor Eusebios" ;
+ dcterms:description "A village northwest of , known for its monastery of ." ;
+ dcterms:temporal "0550" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/564/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/564/tei> .

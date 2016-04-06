@@ -11,19 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/579> a lawd:Place ;
-rdfs:label "Bassīṭ"  ;
-dcterms:description "A coastal town north of ."  ;
-dcterms:temporal "-0600"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/668340>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Ras_al-Bassit>  ;
+ rdfs:label "Bassīṭ" ;
+ lawd:hasName [
+ lawd:primaryForm "Bassīṭ"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Bassit"@en ;];
+ skos:related "Laodicea" ;
+ dcterms:description "A coastal town north of ." ;
+ dcterms:temporal "-0600" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/668340> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Ras_al-Bassit> ;
 geo:location [
-geo:lat "35.847777"  ;
-geo:long "35.847777"  ;];
- lawd:hasName [
-lawd:primaryForm "Bassīṭ"@en  ;];
- lawd:hasName [
-lawd:variantForm "Bassit"@en  ;];
- lawd:hasName [
-lawd:variantForm "Laodicea"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/579/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/579/tei>  .
+ geo:lat "35.847777" ;
+ geo:long "35.824785" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/579/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/579/tei> ;
+geo:location [
+ geo:lat "35.847777" ;
+ geo:long "35.824785" ;].

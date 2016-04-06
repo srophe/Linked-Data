@@ -11,28 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/358> a lawd:Place ;
-rdfs:label "Zuqnin — ܕܝܪܐ ܕܙܘܩܢ̈ܝܢ"  ;
+ rdfs:label "Zuqnin — ܕܝܪܐ ܕܙܘܩܢ̈ܝܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Zuqnin"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܙܘܩܢ̈ܝܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܙܘܩܢ̈ܝܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير زوقنين"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Zuqnīn Monastery"@en ;];
  dcterms:description [
-rdfs:label "ܠܒܰܪ ܡܶܢ ܐܳܡܝܕ ܕܰܝܪܳܐ ܪܰܒܐ ܘܰܛܒܝܒܳܐ. ܢܦܰܩ ܡܶܢܗ ܐܝܘܰܐܢܝܣ ܩܰܕܡܳܝܐ 755 ܘܐܰܪܒܰܥܣܰܪ ܐܶܦܝܣܩܘ̈ܦܶܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܠܒܰܪ ܡܶܢ ܐܳܡܝܕ ܕܰܝܪܳܐ ܪܰܒܐ ܘܰܛܒܝܒܳܐ. ܢܦܰܩ ܡܶܢܗ ܐܝܘܰܐܢܝܣ ܩܰܕܡܳܝܐ 755 ܘܐܰܪܒܰܥܣܰܪ ܐܶܦܝܣܩܘ̈ܦܶܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بظاهر ديار بكر دير عظيم مشهور نشأ منه اياونيس الاول 755+ واربعة عشر اسقفاً"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بظاهر ديار بكر دير عظيم مشهور نشأ منه اياونيس الاول 755+ واربعة عشر اسقفاً"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "outside Diyarbakir, is a famous, great monastery. Patriarch John I (d. 775) and fourteen bishops graduated from it."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0568"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/876742>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Zuqnin_Monastery>  ;
- lawd:hasName [
-lawd:primaryForm "Zuqnin"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܙܘܩܢ̈ܝܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܙܘܩܢ̈ܝܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير زوقنين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Zuqnīn Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/358/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/358/tei>  .
+ rdfs:label "outside Diyarbakir, is a famous, great monastery. Patriarch John I (d. 775) and fourteen bishops graduated from it."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0568" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/876742> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Zuqnin_Monastery> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/358/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/358/tei> .

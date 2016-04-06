@@ -11,22 +11,25 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/61> a lawd:Place ;
-rdfs:label "Caspian Sea — ܝܡܐ ܕܩܙܒܝܢ"  ;
-dcterms:description "A large inland sea north of Iran and east of Adharbayjān."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/884130>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Caspian_Sea>  ;
+ rdfs:label "Caspian Sea — ܝܡܐ ܕܩܙܒܝܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Caspian Sea"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܝܡܐ ܕܩܙܒܝܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܝܰܡܐ ܕܩܳܙܒܝܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "بحر قزبين"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "بحر الخَزَر"@ar ;];
+ dcterms:description "A large inland sea north of Iran and east of Adharbayjān." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/884130> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Caspian_Sea> ;
 geo:location [
-geo:lat "38.5"  ;
-geo:long "38.5"  ;];
- lawd:hasName [
-lawd:primaryForm "Caspian Sea"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܝܡܐ ܕܩܙܒܝܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܝܰܡܐ ܕܩܳܙܒܝܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "بحر قزبين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "بحر الخَزَر"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/61/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/61/tei>  .
+ geo:lat "38.5" ;
+ geo:long "50.5" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/61/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/61/tei> ;
+geo:location [
+ geo:lat "38.5" ;
+ geo:long "50.5" ;].

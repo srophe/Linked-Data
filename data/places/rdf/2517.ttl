@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2517> a lawd:Place ;
-rdfs:label "Rabban Yawsep"  ;
-dcterms:temporal "0894"  ;
+ rdfs:label "Rabban Yawsep" ;
  lawd:hasName [
-lawd:primaryForm "Rabban Yawsep"@en  ;];
+ lawd:primaryForm "Rabban Yawsep"@en ;];
  lawd:hasName [
-lawd:variantForm "Rabban Joseph"@en  ;];
+ lawd:variantForm "Rabban Joseph"@en ;];
  lawd:hasName [
-lawd:variantForm "دير ابي يوسف"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2517/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2517/tei>  .
+ lawd:variantForm "دير ابي يوسف"@ar ;];
+ dcterms:temporal "0894" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2517/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2517/tei> .

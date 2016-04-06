@@ -11,36 +11,35 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/429> a lawd:Place ;
-rdfs:label "ʿĀnah — ܥܐܢܐ"  ;
+ rdfs:label "ʿĀnah — ܥܐܢܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "ʿĀnah"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܥܐܢܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܥܰܐܢܰܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "عانة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ānah"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Ānah"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ānāt"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Ānāt"@en-xsrp1 ;];
+ skos:related "ʿĀnāt" ;
  dcterms:description [
-rdfs:label "ܐܰܬܪܐ ܗܘ ܕܰܠܡܰܥܪܒܳܐ ܕܰܦܪܳܬ. ܘܰܠܬܰܝܡܢܳܐ ܡܰܕܢܚܳܝܐ ܕܕܰܝܪ ܐܠܙܘܪ. ܡܶܢ ܐܰܬܪ̈ܘܬܐ ܕܥܪܰܐܩ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܐ ܗܘ ܕܰܠܡܰܥܪܒܳܐ ܕܰܦܪܳܬ. ܘܰܠܬܰܝܡܢܳܐ ܡܰܕܢܚܳܝܐ ܕܕܰܝܪ ܐܠܙܘܪ. ܡܶܢ ܐܰܬܪ̈ܘܬܐ ܕܥܪܰܐܩ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلد غربي الفرات جنوبي شرقي دير الزور من بلاد العراق."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلد غربي الفرات جنوبي شرقي دير الزور من بلاد العراق."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town in Iraq, west of the Euphrates and southeast of Dayr al-Zur."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-0885"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/893936>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Anah>  ;
- lawd:hasName [
-lawd:primaryForm "ʿĀnah"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܥܐܢܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܥܰܐܢܰܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "عانة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ānah"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Ānah"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ānāt"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Ānāt"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "ʿĀnāt"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/429/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/429/tei>  .
+ rdfs:label "a town in Iraq, west of the Euphrates and southeast of Dayr al-Zur."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-0885" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/893936> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Anah> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/429/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/429/tei> .

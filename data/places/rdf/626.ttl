@@ -11,15 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/626> a lawd:Place ;
-rdfs:label "Isḥaq of Nineveh"  ;
-dcterms:description "A monastery near the Dūshā river northeast of ."  ;
+ rdfs:label "Isḥaq of Nineveh" ;
  lawd:hasName [
-lawd:primaryForm "Isḥaq of Nineveh"@en  ;];
+ lawd:primaryForm "Isḥaq of Nineveh"@en ;];
  lawd:hasName [
-lawd:variantForm "monastery of Isaac of Nineveh"@en  ;];
+ lawd:variantForm "monastery of Isaac of Nineveh"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Isaac of Nineveh"@en  ;];
- lawd:hasName [
-lawd:variantForm "Gazarta"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/626/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/626/tei>  .
+ lawd:variantForm "Mār Isaac of Nineveh"@en ;];
+ skos:related "Gazarta" ;
+ dcterms:description "A monastery near the Dūshā river northeast of ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/626/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/626/tei> .

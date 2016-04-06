@@ -11,17 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/497> a lawd:Place ;
-rdfs:label "Sanīr — ܣܢܝܪ"  ;
-dcterms:description "A mountain in southwestern Syria."  ;
+ rdfs:label "Sanīr — ܣܢܝܪ" ;
  lawd:hasName [
-lawd:primaryForm "Sanīr"@en  ;];
+ lawd:primaryForm "Sanīr"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܣܢܝܪ"@syr  ;];
+ lawd:primaryForm "ܣܢܝܪ"@syr ;];
  lawd:hasName [
-lawd:variantForm "سنير"@ar  ;];
+ lawd:variantForm "سنير"@ar ;];
  lawd:hasName [
-lawd:variantForm "Sinnir"@en  ;];
+ lawd:variantForm "Sinnir"@en ;];
  lawd:hasName [
-lawd:variantForm "سَنِير"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/497/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/497/tei>  .
+ lawd:variantForm "سَنِير"@ar ;];
+ dcterms:description "A mountain in southwestern Syria." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/497/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/497/tei> .

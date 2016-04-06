@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2401> a lawd:Place ;
-rdfs:label "ʻUpper Urmi’"  ;
+ rdfs:label "ʻUpper Urmi’" ;
  lawd:hasName [
-lawd:primaryForm "ʻUpper Urmi’"@en  ;];
+ lawd:primaryForm "ʻUpper Urmi’"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻUpper Ūrmī’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2401/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2401/tei>  .
+ lawd:variantForm "ʻUpper Ūrmī’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2401/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2401/tei> .

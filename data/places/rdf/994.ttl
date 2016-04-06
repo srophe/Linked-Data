@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/994> a lawd:Place ;
-rdfs:label "Bardishok"  ;
+ rdfs:label "Bardishok" ;
  lawd:hasName [
-lawd:primaryForm "Bardishok"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/994/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/994/tei>  .
+ lawd:primaryForm "Bardishok"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/994/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/994/tei> .

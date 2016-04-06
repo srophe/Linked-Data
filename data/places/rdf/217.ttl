@@ -11,30 +11,31 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/217> a lawd:Place ;
-rdfs:label "Ḥaḥ — ܚܐܚ"  ;
-dcterms:description "A village in northeast of ."  ;
-dcterms:temporal "0640"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874496>  ;
+ rdfs:label "Ḥaḥ — ܚܐܚ" ;
+ lawd:hasName [
+ lawd:primaryForm "Ḥaḥ"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܚܐܚ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܚܰܐܚ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "حاح"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Hāḥ"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related "Ṭur ʿAbdin" ;
+ skos:related "Midyat" ;
+ dcterms:description "A village in northeast of ." ;
+ dcterms:temporal "0640" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874496> ;
 geo:location [
-geo:lat "37.500035"  ;
-geo:long "37.500035"  ;];
- lawd:hasName [
-lawd:primaryForm "Ḥaḥ"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܚܐܚ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܚܰܐܚ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "حاح"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Hāḥ"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
- lawd:hasName [
-lawd:variantForm "Midyat"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/217/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/217/tei>  .
+ geo:lat "37.500035" ;
+ geo:long "41.468078" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/217/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/217/tei> ;
+geo:location [
+ geo:lat "37.500035" ;
+ geo:long "41.468078" ;].

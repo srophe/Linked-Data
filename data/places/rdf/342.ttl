@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/342> a lawd:Place ;
-rdfs:label "Barid — ܕܝܪܐ ܕܒܐܪܝܕ"  ;
+ rdfs:label "Barid — ܕܝܪܐ ܕܒܐܪܝܕ" ;
+ lawd:hasName [
+ lawd:primaryForm "Barid"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܒܐܪܝܕ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܐ ܕܒܰܐܪܝܕ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير البارد"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Bārid Monastery"@en ;];
  dcterms:description [
-rdfs:label "ܫܰܬܐܣܶܗ ܦܰܛܪܝܰܪܟܐ ܝܘܚܰܢܢ ܫܒܝܥܳܝܳܐ ܒܰܐܬܪ̈ܘܬܳܐ ܕܡܝܠܝܺܛܝܢܝ ܫܢܰܬ 969 ܘܒܶܗ ܥܡܰܪ ܘܰܥܢܰܕ. ܘܕܰܝܪܳܐ ܗܘܳܐ ܪܰܒܐ ܛܰܝܶܒ ܚܰܕ ܦܰܛܪܝܰܪܟܐ ܘܚܰܕ ܡܰܦܪܝܳܢܐ ܘܚܰܕ ܡܺܝܛܪܘܦܘܠܝܛܳܐ ܘܰܬܡܳܢܰܥܣܪ ܐܶܦܝܣܩܘܦ̈ܐ ܘܠܐ ܚܙܰܝܢܰܢ ܠܗ ܥܘܗܕܳܢܐ ܒܳܬܰܪ ܫܢܰܬ 1343"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܫܰܬܐܣܶܗ ܦܰܛܪܝܰܪܟܐ ܝܘܚܰܢܢ ܫܒܝܥܳܝܳܐ ܒܰܐܬܪ̈ܘܬܳܐ ܕܡܝܠܝܺܛܝܢܝ ܫܢܰܬ 969 ܘܒܶܗ ܥܡܰܪ ܘܰܥܢܰܕ. ܘܕܰܝܪܳܐ ܗܘܳܐ ܪܰܒܐ ܛܰܝܶܒ ܚܰܕ ܦܰܛܪܝܰܪܟܐ ܘܚܰܕ ܡܰܦܪܝܳܢܐ ܘܚܰܕ ܡܺܝܛܪܘܦܘܠܝܛܳܐ ܘܰܬܡܳܢܰܥܣܪ ܐܶܦܝܣܩܘܦ̈ܐ ܘܠܐ ܚܙܰܝܢܰܢ ܠܗ ܥܘܗܕܳܢܐ ܒܳܬܰܪ ܫܢܰܬ 1343"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "انشأه البطريرك يوحنا السابع في ديار ملطية عام 969 وفيه اقام وتوفي. وكان ديراً فخماً انجب بطرياركاً و مفرياناً وثمانية عشر اسقفاً ومطراناً؛ ولم نقف له على ذكر بعد سنة 1243"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "انشأه البطريرك يوحنا السابع في ديار ملطية عام 969 وفيه اقام وتوفي. وكان ديراً فخماً انجب بطرياركاً و مفرياناً وثمانية عشر اسقفاً ومطراناً؛ ولم نقف له على ذكر بعد سنة 1243"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "was built in the province of Melitene in 969 by the Patriarch John VII, who lived and died there. A magnificent monastery, it produced one Patriarch, one Maphryono and eighteen bishops and metropolitans. We find no mention of it after 1213."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0969"  ;
- lawd:hasName [
-lawd:primaryForm "Barid"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܒܐܪܝܕ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܒܰܐܪܝܕ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير البارد"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Bārid Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/342/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/342/tei>  .
+ rdfs:label "was built in the province of Melitene in 969 by the Patriarch John VII, who lived and died there. A magnificent monastery, it produced one Patriarch, one Maphryono and eighteen bishops and metropolitans. We find no mention of it after 1213."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0969" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/342/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/342/tei> .

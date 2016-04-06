@@ -11,22 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/441> a lawd:Place ;
-rdfs:label "Qawim — ܩܘܝܡ"  ;
- dcterms:description [
-rdfs:label "ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܡܰܪܕܝܢ ܕܰܚܪ̈ܶܒܝ ܘܥܰܡܝܪܐ ܗܘܳܬ ܫܢܰܬ 1635 ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
- dcterms:description [
-rdfs:label "من قرى ماردين الداثرة كانت عامرة عام 1635."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
- dcterms:description [
-rdfs:label "a village in the vicinity of Mardin, inhabited until 1635."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1635"  ;
+ rdfs:label "Qawim — ܩܘܝܡ" ;
  lawd:hasName [
-lawd:primaryForm "Qawim"@en  ;];
+ lawd:primaryForm "Qawim"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܩܘܝܡ"@syr  ;];
+ lawd:primaryForm "ܩܘܝܡ"@syr ;];
  lawd:hasName [
-lawd:variantForm "قويم"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/441/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/441/tei>  .
+ lawd:variantForm "قويم"@ar ;];
+ dcterms:description [
+ rdfs:label "ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܡܰܪܕܝܢ ܕܰܚܪ̈ܶܒܝ ܘܥܰܡܝܪܐ ܗܘܳܬ ܫܢܰܬ 1635 ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:description [
+ rdfs:label "من قرى ماردين الداثرة كانت عامرة عام 1635."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:description [
+ rdfs:label "a village in the vicinity of Mardin, inhabited until 1635."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1635" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/441/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/441/tei> .

@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2324> a lawd:Place ;
-rdfs:label "Kaṭai"  ;
+ rdfs:label "Kaṭai" ;
  lawd:hasName [
-lawd:primaryForm "Kaṭai"@en  ;];
+ lawd:primaryForm "Kaṭai"@en ;];
  lawd:hasName [
-lawd:variantForm "Ōng"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2324/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2324/tei>  .
+ lawd:variantForm "Ōng"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2324/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2324/tei> .

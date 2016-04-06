@@ -11,50 +11,53 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/8> a lawd:Place ;
-rdfs:label "Amida — ܐܡܝܕ"  ;
+ rdfs:label "Amida — ܐܡܝܕ" ;
+ lawd:hasName [
+ lawd:primaryForm "Amida"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Amid"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Diyarbakır"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Omid"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܡܝܕ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܳܡܝ̣ܕ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܝܰܐܪܒܟܶܪ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "آمد"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "ديار بكر"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Diyarbakir"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Āmid"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Diyārbakr"@en ;];
  dcterms:description [
-rdfs:label "City in upper Mesopotamia."@en  ;];
+ rdfs:label "City in upper Mesopotamia."@en ;];
  dcterms:description [
-rdfs:label "32. Amid"@en  ;];
+ rdfs:label "32. Amid"@en ;];
  dcterms:description [
-rdfs:label "ܡܕܺܝܢܬܐ ܚܰܣܝ̣ܢܬܐ ܕܕܶܩܠܰܬ ܚܳܕܰܪ ܠܣܘܓܐܗ̇."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܺܝܢܬܐ ܚܰܣܝ̣ܢܬܐ ܕܕܶܩܠܰܬ ܚܳܕܰܪ ܠܣܘܓܐܗ̇."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة قديمة حصينة دجلة محيطة باكثرها"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة قديمة حصينة دجلة محيطة باكثرها"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "an ancient fortified city, virtually surrounded by the Tigris."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0324"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874298>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Amida_(Mesopotamia)>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Diyarbakır>  ;
+ rdfs:label "an ancient fortified city, virtually surrounded by the Tigris."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0324" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874298> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Amida_(Mesopotamia)> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Diyarbakır> ;
 geo:location [
-geo:lat "37.981944"  ;
-geo:long "37.981944"  ;];
- lawd:hasName [
-lawd:primaryForm "Amida"@en  ;];
- lawd:hasName [
-lawd:variantForm "Amid"@en  ;];
- lawd:hasName [
-lawd:variantForm "Diyarbakır"@en  ;];
- lawd:hasName [
-lawd:variantForm "Omid"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܡܝܕ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܳܡܝ̣ܕ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܕܝܰܐܪܒܟܶܪ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "آمد"@ar  ;];
- lawd:hasName [
-lawd:variantForm "ديار بكر"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Diyarbakir"@en  ;];
- lawd:hasName [
-lawd:variantForm "Āmid"@en  ;];
- lawd:hasName [
-lawd:variantForm "Diyārbakr"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/8/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/8/tei>  .
+ geo:lat "37.981944" ;
+ geo:long "40.210556" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/8/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/8/tei> ;
+geo:location [
+ geo:lat "37.981944" ;
+ geo:long "40.210556" ;].

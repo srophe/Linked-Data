@@ -11,22 +11,25 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1477> a lawd:Place ;
-rdfs:label "Meloe — ܡܝܠܘܐ"  ;
-dcterms:description "A city of Isauria."  ;
-dcterms:temporal "0538"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/648707>  ;
+ rdfs:label "Meloe — ܡܝܠܘܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Meloe"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܡܝܠܘܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܡܺܝܠܘܰܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ميلوا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Miloe"@en ;];
+ dcterms:description "A city of Isauria." ;
+ dcterms:temporal "0538" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/648707> ;
 geo:location [
-geo:lat "36.759213"  ;
-geo:long "36.759213"  ;];
- lawd:hasName [
-lawd:primaryForm "Meloe"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܡܝܠܘܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܡܺܝܠܘܰܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ميلوا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Miloe"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1477/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1477/tei>  .
+ geo:lat "36.759213" ;
+ geo:long "33.349677" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1477/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1477/tei> ;
+geo:location [
+ geo:lat "36.759213" ;
+ geo:long "33.349677" ;].

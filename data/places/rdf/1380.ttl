@@ -11,25 +11,25 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1380> a lawd:Place ;
-rdfs:label "Kfar ʿUzail — ܟܦܪ ܥܘܙܝܠ"  ;
-dcterms:temporal "0708"  ;
+ rdfs:label "Kfar ʿUzail — ܟܦܪ ܥܘܙܝܠ" ;
  lawd:hasName [
-lawd:primaryForm "Kfar ʿUzail"@en  ;];
+ lawd:primaryForm "Kfar ʿUzail"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܟܦܪ ܥܘܙܝܠ"@syr  ;];
+ lawd:primaryForm "ܟܦܪ ܥܘܙܝܠ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܟܰܦܪ ܥܽܘܙܝܠ"@syr-Syrj  ;];
+ lawd:variantForm "ܟܰܦܪ ܥܽܘܙܝܠ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "كفر عوزيل"@ar  ;];
+ lawd:variantForm "كفر عوزيل"@ar ;];
  lawd:hasName [
-lawd:variantForm "Kafr ʿŪzīl"@en  ;];
+ lawd:variantForm "Kafr ʿŪzīl"@en ;];
  lawd:hasName [
-lawd:variantForm "Kfar Uzail"@en-xsrp1  ;];
+ lawd:variantForm "Kfar Uzail"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Kfar ‘Uzail"@en-xsrp1  ;];
+ lawd:variantForm "Kfar ‘Uzail"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Kafr Ūzīl"@en-xsrp1  ;];
+ lawd:variantForm "Kafr Ūzīl"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Kafr ‘Ūzīl"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1380/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1380/tei>  .
+ lawd:variantForm "Kafr ‘Ūzīl"@en-xsrp1 ;];
+ dcterms:temporal "0708" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1380/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1380/tei> .

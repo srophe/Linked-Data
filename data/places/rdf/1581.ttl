@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1581> a lawd:Place ;
-rdfs:label "Oramar"  ;
+ rdfs:label "Oramar" ;
  lawd:hasName [
-lawd:primaryForm "Oramar"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1581/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1581/tei>  .
+ lawd:primaryForm "Oramar"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1581/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1581/tei> .

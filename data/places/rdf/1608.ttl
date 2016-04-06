@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1608> a lawd:Place ;
-rdfs:label "Qādiyan"  ;
+ rdfs:label "Qādiyan" ;
  lawd:hasName [
-lawd:primaryForm "Qādiyan"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1608/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1608/tei>  .
+ lawd:primaryForm "Qādiyan"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1608/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1608/tei> .

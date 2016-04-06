@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1023> a lawd:Place ;
-rdfs:label "Beth Garde"  ;
+ rdfs:label "Beth Garde" ;
  lawd:hasName [
-lawd:primaryForm "Beth Garde"@en  ;];
+ lawd:primaryForm "Beth Garde"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Garde"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1023/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1023/tei>  .
+ lawd:variantForm "Beṯ Garde"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1023/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1023/tei> .

@@ -11,16 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2531> a lawd:Place ;
-rdfs:label "Gomel and Marga — ܓܘܡܠ ܘܡܪܓܐ"  ;
-dcterms:description "A Syrian Orthodox diocese."  ;
-dcterms:temporal "0628"  ;
+ rdfs:label "Gomel and Marga — ܓܘܡܠ ܘܡܪܓܐ" ;
  lawd:hasName [
-lawd:primaryForm "Gomel and Marga"@en  ;];
+ lawd:primaryForm "Gomel and Marga"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܓܘܡܠ ܘܡܪܓܐ"@syr  ;];
+ lawd:primaryForm "ܓܘܡܠ ܘܡܪܓܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܓܘܡܠ ܘܡܰܪܰܓܰܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܓܘܡܠ ܘܡܰܪܰܓܰܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "جومل والمرج"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2531/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2531/tei>  .
+ lawd:variantForm "جومل والمرج"@ar ;];
+ dcterms:description "A Syrian Orthodox diocese." ;
+ dcterms:temporal "0628" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2531/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2531/tei> .

@@ -11,29 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/307> a lawd:Place ;
-rdfs:label "Beth Shahaq — ܒܝܬ ܫܗܐܩ"  ;
-dcterms:description "A village near ."  ;
+ rdfs:label "Beth Shahaq — ܒܝܬ ܫܗܐܩ" ;
+ lawd:hasName [
+ lawd:primaryForm "Beth Shahaq"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܝܬ ܫܗܐܩ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܶܝܬ ܫܰܗܐܩ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "بيث شاهاق"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Beth Shāhāq"@en ;];
+ skos:related "Nineveh" ;
+ dcterms:description "A village near ." ;
  dcterms:description [
-rdfs:label "ܦܢܺܝܬܐ ܥܰܬܺܝܩܬܐ ܕܒܐܘܚܕܳܢܐ ܕܡܘܨܠ. ܚܰܪܝܒܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܦܢܺܝܬܐ ܥܰܬܺܝܩܬܐ ܕܒܐܘܚܕܳܢܐ ܕܡܘܨܠ. ܚܰܪܝܒܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "ناحية قديمة من اعمال الموصل مندرسة"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ناحية قديمة من اعمال الموصل مندرسة"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "an ancient town in the province of Mosul."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0630"  ;
- lawd:hasName [
-lawd:primaryForm "Beth Shahaq"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܝܬ ܫܗܐܩ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܒܶܝܬ ܫܰܗܐܩ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "بيث شاهاق"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Beth Shāhāq"@en  ;];
- lawd:hasName [
-lawd:variantForm "Nineveh"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/307/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/307/tei>  .
+ rdfs:label "an ancient town in the province of Mosul."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0630" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/307/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/307/tei> .

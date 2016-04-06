@@ -11,16 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2491> a lawd:Place ;
-rdfs:label "Mar Shalliṭa"  ;
+ rdfs:label "Mar Shalliṭa" ;
  lawd:hasName [
-lawd:primaryForm "Mar Shalliṭa"@en  ;];
+ lawd:primaryForm "Mar Shalliṭa"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Shallīṭā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2491/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2491/tei>  ;
-dcterms:relation <http://syriaca.org/place/2073>  ;
-dcterms:relation <http://syriaca.org/place/2074>  ;
-dcterms:relation <http://syriaca.org/place/2075>  ;
-dcterms:relation <http://syriaca.org/place/2076>  ;
-dcterms:relation <http://syriaca.org/place/2077>  ;
-dcterms:relation <http://syriaca.org/place/2078>  .
+ lawd:variantForm "Mār Shallīṭā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2491/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2491/tei> ;
+ dcterms:relation <http://syriaca.org/place/2073> ;
+ dcterms:relation <http://syriaca.org/place/2074> ;
+ dcterms:relation <http://syriaca.org/place/2075> ;
+ dcterms:relation <http://syriaca.org/place/2076> ;
+ dcterms:relation <http://syriaca.org/place/2077> ;
+ dcterms:relation <http://syriaca.org/place/2078> .

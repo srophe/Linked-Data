@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2515> a lawd:Place ;
-rdfs:label "Rabban Cyprian"  ;
+ rdfs:label "Rabban Cyprian" ;
  lawd:hasName [
-lawd:primaryForm "Rabban Cyprian"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2515/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2515/tei>  .
+ lawd:primaryForm "Rabban Cyprian"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2515/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2515/tei> .

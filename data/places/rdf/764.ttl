@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/764> a lawd:Place ;
-rdfs:label "Mūkūs"  ;
+ rdfs:label "Mūkūs" ;
  lawd:hasName [
-lawd:primaryForm "Mūkūs"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/764/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/764/tei>  .
+ lawd:primaryForm "Mūkūs"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/764/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/764/tei> .

@@ -11,14 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/237> a lawd:Place ;
-rdfs:label "Bokhtan"  ;
-dcterms:description "A tributary of the which flows near ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874545>  ;
+ rdfs:label "Bokhtan" ;
  lawd:hasName [
-lawd:primaryForm "Bokhtan"@en  ;];
- lawd:hasName [
-lawd:variantForm "Tigris"  ;];
- lawd:hasName [
-lawd:variantForm "Siirt"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/237/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/237/tei>  .
+ lawd:primaryForm "Bokhtan"@en ;];
+ skos:related "Tigris" ;
+ skos:related "Siirt" ;
+ dcterms:description "A tributary of the which flows near ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874545> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/237/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/237/tei> .

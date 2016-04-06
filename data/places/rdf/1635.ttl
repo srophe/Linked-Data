@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1635> a lawd:Place ;
-rdfs:label "Qurana"  ;
-dcterms:description "A village in Tergawar."  ;
+ rdfs:label "Qurana" ;
  lawd:hasName [
-lawd:primaryForm "Qurana"@en  ;];
+ lawd:primaryForm "Qurana"@en ;];
  lawd:hasName [
-lawd:variantForm "Qūrānā (i)"@en  ;];
+ lawd:variantForm "Qūrānā (i)"@en ;];
  lawd:hasName [
-lawd:variantForm "Qūrānā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1635/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1635/tei>  .
+ lawd:variantForm "Qūrānā"@en ;];
+ dcterms:description "A village in Tergawar." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1635/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1635/tei> .

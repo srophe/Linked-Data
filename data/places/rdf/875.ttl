@@ -11,16 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/875> a lawd:Place ;
-rdfs:label "Tehran"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/599986393>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Tehran>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Tehran>  ;
+ rdfs:label "Tehran" ;
  lawd:hasName [
-lawd:primaryForm "Tehran"@en  ;];
+ lawd:primaryForm "Tehran"@en ;];
  lawd:hasName [
-lawd:variantForm "Teheran"@en  ;];
+ lawd:variantForm "Teheran"@en ;];
  lawd:hasName [
-lawd:variantForm "طِهْران"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/875/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/875/tei>  ;
-dcterms:relation <http://syriaca.org/place/2387>  .
+ lawd:variantForm "طِهْران"@ar ;];
+ skos:exactMatch <http://pleiades.stoa.org/places/599986393> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Tehran> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Tehran> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/875/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/875/tei> ;
+ dcterms:relation <http://syriaca.org/place/2387> .

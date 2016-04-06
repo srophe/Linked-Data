@@ -11,29 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/363> a lawd:Place ;
-rdfs:label "Mor Sharbel — ܕܝܪܐ ܕܡܪܝ ܫܪܒܠ"  ;
-dcterms:description "A monastery near ."  ;
+ rdfs:label "Mor Sharbel — ܕܝܪܐ ܕܡܪܝ ܫܪܒܠ" ;
+ lawd:hasName [
+ lawd:primaryForm "Mor Sharbel"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܫܪܒܠ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܫܰܪܒܶܠ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير مار شربيل"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Sharbil Monastery"@en ;];
+ skos:related "Midyat" ;
+ dcterms:description "A monastery near ." ;
  dcterms:description [
-rdfs:label "ܒܰܟܦܪ ܫܳܡܰܥ. ܥܰܗܕܗ ܡܰܟܬܰܒܙܰܒܢ̈ܐ ܒܰܫܢܰܬ 1210 ܥܕܰܡܳܐ ܠܰܐܚܪ̈ܳܝܬܗ ܕܕܳܪܐ ܫܬܰܥܣܝܺܪܳܝܐ. ܘܡܶܢܗ ܩܳܡ ܡܰܦܪܝܳܢܐ ܒܛܘܪܥܰܒܕܝܢ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܰܟܦܪ ܫܳܡܰܥ. ܥܰܗܕܗ ܡܰܟܬܰܒܙܰܒܢ̈ܐ ܒܰܫܢܰܬ 1210 ܥܕܰܡܳܐ ܠܰܐܚܪ̈ܳܝܬܗ ܕܕܳܪܐ ܫܬܰܥܣܝܺܪܳܝܐ. ܘܡܶܢܗ ܩܳܡ ܡܰܦܪܝܳܢܐ ܒܛܘܪܥܰܒܕܝܢ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في كفر شامع ذكره التاريخ عام 1210 حتى اواخر القرن السادس عشر ومنه نشأ مفريان بطور عبدين"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في كفر شامع ذكره التاريخ عام 1210 حتى اواخر القرن السادس عشر ومنه نشأ مفريان بطور عبدين"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "in Kafr Shami in Tur ʿAbdin, was first mentioned in history in 1210 and must have remained in existence until the end of the sixteenth century. It produced one Maphryono."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1210"  ;
- lawd:hasName [
-lawd:primaryForm "Mor Sharbel"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܫܪܒܠ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܫܰܪܒܶܠ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير مار شربيل"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Sharbil Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Midyat"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/363/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/363/tei>  .
+ rdfs:label "in Kafr Shami in Tur ʿAbdin, was first mentioned in history in 1210 and must have remained in existence until the end of the sixteenth century. It produced one Maphryono."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1210" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/363/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/363/tei> .

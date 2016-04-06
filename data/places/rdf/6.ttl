@@ -11,23 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/6> a lawd:Place ;
-rdfs:label "Ḥadyab"  ;
-dcterms:description "A diocese of the Church of the East, centered around ."  ;
-dcterms:temporal "0410"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Adiabene_(East_Syrian_Ecclesiastical_Province)>  ;
+ rdfs:label "Ḥadyab" ;
  lawd:hasName [
-lawd:primaryForm "Ḥadyab"@en  ;];
+ lawd:primaryForm "Ḥadyab"@en ;];
  lawd:hasName [
-lawd:variantForm "Adiabene"@en  ;];
+ lawd:variantForm "Adiabene"@en ;];
  lawd:hasName [
-lawd:variantForm "ܚܕܝܐܒ"@syr  ;];
+ lawd:variantForm "ܚܕܝܐܒ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܚܶܕܝܰܐܒ"@syr-Syrj  ;];
+ lawd:variantForm "ܚܶܕܝܰܐܒ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "حدياب"@ar  ;];
+ lawd:variantForm "حدياب"@ar ;];
  lawd:hasName [
-lawd:variantForm "Ḥaḏyab"@en  ;];
- lawd:hasName [
-lawd:variantForm "Arbela"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/6/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/6/tei>  .
+ lawd:variantForm "Ḥaḏyab"@en ;];
+ skos:related "Arbela" ;
+ dcterms:description "A diocese of the Church of the East, centered around ." ;
+ dcterms:temporal "0410" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Adiabene_(East_Syrian_Ecclesiastical_Province)> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/6/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/6/tei> .

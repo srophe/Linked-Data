@@ -11,30 +11,33 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/288> a lawd:Place ;
-rdfs:label "Isfis — ܐܣܦܣ"  ;
+ rdfs:label "Isfis — ܐܣܦܣ" ;
+ lawd:hasName [
+ lawd:primaryForm "Isfis"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܣܦܣ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܶܣܦܶܣ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "إِسفِس"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Isfes"@en ;];
  dcterms:description [
-rdfs:label "ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܒܶܝܬ ܙܰܒܕܰܝ ܕܪܰܚܝܩܐ ܡܶܢ ܐܰܙܰܟ ܡܰܪܕܶܐ ܫܳܥܬܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܒܶܝܬ ܙܰܒܕܰܝ ܕܪܰܚܝܩܐ ܡܶܢ ܐܰܙܰܟ ܡܰܪܕܶܐ ܫܳܥܬܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "من قرى بازبدي مسافة ساعة عن آزخ"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "من قرى بازبدي مسافة ساعة عن آزخ"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village in the province of Bazabdi, one hour journey from Azekh."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0640"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874508>  ;
+ rdfs:label "a village in the province of Bazabdi, one hour journey from Azekh."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0640" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874508> ;
 geo:location [
-geo:lat "37.407482"  ;
-geo:long "37.407482"  ;];
- lawd:hasName [
-lawd:primaryForm "Isfis"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܣܦܣ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܶܣܦܶܣ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "إِسفِس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Isfes"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/288/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/288/tei>  .
+ geo:lat "37.407482" ;
+ geo:long "41.889894" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/288/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/288/tei> ;
+geo:location [
+ geo:lat "37.407482" ;
+ geo:long "41.889894" ;].

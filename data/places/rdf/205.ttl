@@ -11,37 +11,37 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/205> a lawd:Place ;
-rdfs:label "Urima — ܐܘܪܝܡ"  ;
-dcterms:description "A town on the west of ."  ;
+ rdfs:label "Urima — ܐܘܪܝܡ" ;
+ lawd:hasName [
+ lawd:primaryForm "Urima"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܘܪܝܡ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "اوريم"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Orim"@en ;];
+ lawd:hasName [
+ lawd:variantForm "أُوْرِم"@ar ;];
+ skos:related "Euphrates" ;
+ skos:related "Edessa" ;
+ skos:related "Halfeti" ;
+ dcterms:description "A town on the west of ." ;
  dcterms:description [
-rdfs:label "ܥܠ ܣܶܦܰܬ ܦܪܳܬ ܠܘܳܬ ܫܰܡܺܝܫܬ ܕܚܰܪܝ̣ܒܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܥܠ ܣܶܦܰܬ ܦܪܳܬ ܠܘܳܬ ܫܰܡܺܝܫܬ ܕܚܰܪܝ̣ܒܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "على ضفة الفرات عند سميساط خربة"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "على ضفة الفرات عند سميساط خربة"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a ruined town on the Euphrates, near Samosata."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-0030"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658562>  ;
+ rdfs:label "a ruined town on the Euphrates, near Samosata."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-0030" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658562> ;
 geo:location [
-geo:lat "37.110367"  ;
-geo:long "37.110367"  ;];
- lawd:hasName [
-lawd:primaryForm "Urima"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܘܪܝܡ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "اوريم"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Orim"@en  ;];
- lawd:hasName [
-lawd:variantForm "أُوْرِم"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates"  ;];
- lawd:hasName [
-lawd:variantForm "Edessa"  ;];
- lawd:hasName [
-lawd:variantForm "Halfeti"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/205/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/205/tei>  .
+ geo:lat "37.110367" ;
+ geo:long "37.86555" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/205/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/205/tei> ;
+geo:location [
+ geo:lat "37.110367" ;
+ geo:long "37.86555" ;].

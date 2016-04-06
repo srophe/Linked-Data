@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1336> a lawd:Place ;
-rdfs:label "Ḥrbaṯ Nespā"  ;
+ rdfs:label "Ḥrbaṯ Nespā" ;
  lawd:hasName [
-lawd:primaryForm "Ḥrbaṯ Nespā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1336/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1336/tei>  .
+ lawd:primaryForm "Ḥrbaṯ Nespā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1336/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1336/tei> .

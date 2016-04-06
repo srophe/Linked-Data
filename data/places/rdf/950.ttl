@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/950> a lawd:Place ;
-rdfs:label "ʿArmūṭāghāj"  ;
+ rdfs:label "ʿArmūṭāghāj" ;
  lawd:hasName [
-lawd:primaryForm "ʿArmūṭāghāj"@en  ;];
+ lawd:primaryForm "ʿArmūṭāghāj"@en ;];
  lawd:hasName [
-lawd:variantForm "Armūṭāghāj"@en-xsrp1  ;];
+ lawd:variantForm "Armūṭāghāj"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Armūṭāghāj"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/950/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/950/tei>  ;
-dcterms:relation <http://syriaca.org/place/2266>  .
+ lawd:variantForm "‘Armūṭāghāj"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/950/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/950/tei> ;
+ dcterms:relation <http://syriaca.org/place/2266> .

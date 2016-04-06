@@ -11,19 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1530> a lawd:Place ;
-rdfs:label "Mor Abrohom — ܕܝܪܗ ܕܐܒܪܗܡ"  ;
-dcterms:description "A monastery of unknown location where was detained."  ;
-dcterms:temporal "0581"  ;
+ rdfs:label "Mor Abrohom — ܕܝܪܗ ܕܐܒܪܗܡ" ;
  lawd:hasName [
-lawd:primaryForm "Mor Abrohom"@en  ;];
+ lawd:primaryForm "Mor Abrohom"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܝܪܗ ܕܐܒܪܗܡ"@syr  ;];
+ lawd:primaryForm "ܕܝܪܗ ܕܐܒܪܗܡ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܰܝܪܗ ܕܐܰܒܪܳܗܡ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܰܝܪܗ ܕܐܰܒܪܳܗܡ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "دير ابرهيم"@ar  ;];
+ lawd:variantForm "دير ابرهيم"@ar ;];
  lawd:hasName [
-lawd:variantForm "Monastery of Abraham"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1530/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1530/tei>  ;
-dcterms:relation <http://syriaca.org/place/1453>  .
+ lawd:variantForm "Monastery of Abraham"@en ;];
+ dcterms:description "A monastery of unknown location where was detained." ;
+ dcterms:temporal "0581" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1530/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1530/tei> ;
+ dcterms:relation <http://syriaca.org/place/1453> .

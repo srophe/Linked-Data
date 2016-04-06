@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1371> a lawd:Place ;
-rdfs:label "Kārūkṯā"  ;
+ rdfs:label "Kārūkṯā" ;
  lawd:hasName [
-lawd:primaryForm "Kārūkṯā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1371/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1371/tei>  .
+ lawd:primaryForm "Kārūkṯā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1371/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1371/tei> .

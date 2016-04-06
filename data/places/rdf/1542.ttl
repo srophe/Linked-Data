@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1542> a lawd:Place ;
-rdfs:label "Mer"  ;
+ rdfs:label "Mer" ;
  lawd:hasName [
-lawd:primaryForm "Mer"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1542/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1542/tei>  .
+ lawd:primaryForm "Mer"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1542/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1542/tei> .

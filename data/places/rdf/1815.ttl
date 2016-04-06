@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1815> a lawd:Place ;
-rdfs:label "Yardā"  ;
+ rdfs:label "Yardā" ;
  lawd:hasName [
-lawd:primaryForm "Yardā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1815/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1815/tei>  .
+ lawd:primaryForm "Yardā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1815/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1815/tei> .

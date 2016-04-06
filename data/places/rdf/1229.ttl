@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1229> a lawd:Place ;
-rdfs:label "Gissā"  ;
+ rdfs:label "Gissā" ;
  lawd:hasName [
-lawd:primaryForm "Gissā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1229/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1229/tei>  .
+ lawd:primaryForm "Gissā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1229/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1229/tei> .

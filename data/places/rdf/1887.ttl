@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1887> a lawd:Place ;
-rdfs:label "Mar ʿAzziza"  ;
+ rdfs:label "Mar ʿAzziza" ;
  lawd:hasName [
-lawd:primaryForm "Mar ʿAzziza"@en  ;];
+ lawd:primaryForm "Mar ʿAzziza"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār ʿAzīzā"@en  ;];
+ lawd:variantForm "Mār ʿAzīzā"@en ;];
  lawd:hasName [
-lawd:variantForm "Mar Azziza"@en-xsrp1  ;];
+ lawd:variantForm "Mar Azziza"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mar ‘Azziza"@en-xsrp1  ;];
+ lawd:variantForm "Mar ‘Azziza"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Azīzā"@en-xsrp1  ;];
+ lawd:variantForm "Mār Azīzā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār ‘Azīzā"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1887/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1887/tei>  .
+ lawd:variantForm "Mār ‘Azīzā"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1887/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1887/tei> .

@@ -11,16 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/587> a lawd:Place ;
-rdfs:label "Dayr al-Rūm"  ;
-dcterms:description "A quarter of ."  ;
-dcterms:temporal "0892"  ;
+ rdfs:label "Dayr al-Rūm" ;
  lawd:hasName [
-lawd:primaryForm "Dayr al-Rūm"@en  ;];
+ lawd:primaryForm "Dayr al-Rūm"@en ;];
  lawd:hasName [
-lawd:variantForm "Deir al-Rum"@en  ;];
+ lawd:variantForm "Deir al-Rum"@en ;];
  lawd:hasName [
-lawd:variantForm "دير الروم"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Baghdad"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/587/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/587/tei>  .
+ lawd:variantForm "دير الروم"@ar ;];
+ skos:related "Baghdad" ;
+ dcterms:description "A quarter of ." ;
+ dcterms:temporal "0892" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/587/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/587/tei> .

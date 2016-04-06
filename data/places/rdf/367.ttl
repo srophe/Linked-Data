@@ -11,36 +11,35 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/367> a lawd:Place ;
-rdfs:label "Dayr al-Ṣalīb — ܕܝܪܐ ܕܨܠܝܒܐ"  ;
-dcterms:description "A monastery by ."  ;
+ rdfs:label "Dayr al-Ṣalīb — ܕܝܪܐ ܕܨܠܝܒܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dayr al-Ṣalīb"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܨܠܝܒܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܰܨܠܝܒܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܐ ܕܡܰܟ̣ܰܪ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير الصليب"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "دير مَخَر"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Monastery of the Cross"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Makhr Monastery"@en ;];
+ skos:related "Defne" ;
+ dcterms:description "A monastery by ." ;
  dcterms:description [
-rdfs:label "ܕܺܝܕܺܝܥ ܝܰܘܡܳܢ ܕܰܝܪܐ ܕܡܰܟ݂ܰܪ ܗ̄ ܘܰܐܕܺܝ ܟܽܘܪܕܳܐܝܬ. ܕܰܝܪܳܐ ܙܥܘܽܪܐ ܒܓܶܒ ܕܶܦܢܗ ܩܪܺܝܬܐ ܒܐܽܘܪܚܐ ܕܚܰܣܢ ܟܺܐܦܐ. ܐܶܬܒܢܺܝ ܗܰܝܟܠܗ ܒܰܬܚܘ̈ܡܰܝ ܫܢܰܬ 770 ܚܪܶܒ ܒܰܩܪܳܒܐ ܕܰܥܒܰܪ ܒܩܶܛܠܐ ܕܐܰܚܪܳܝܐ ܕܕܰܝܪ̈ܳܝܰܘܗܝ ܩܳܡܘ ܡܢܗ ܬܠܬܐ ܐܶܦܝܣܩܘ̈ܦܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܕܺܝܕܺܝܥ ܝܰܘܡܳܢ ܕܰܝܪܐ ܕܡܰܟ݂ܰܪ ܗ̄ ܘܰܐܕܺܝ ܟܽܘܪܕܳܐܝܬ. ܕܰܝܪܳܐ ܙܥܘܽܪܐ ܒܓܶܒ ܕܶܦܢܗ ܩܪܺܝܬܐ ܒܐܽܘܪܚܐ ܕܚܰܣܢ ܟܺܐܦܐ. ܐܶܬܒܢܺܝ ܗܰܝܟܠܗ ܒܰܬܚܘ̈ܡܰܝ ܫܢܰܬ 770 ܚܪܶܒ ܒܰܩܪܳܒܐ ܕܰܥܒܰܪ ܒܩܶܛܠܐ ܕܐܰܚܪܳܝܐ ܕܕܰܝܪ̈ܳܝܰܘܗܝ ܩܳܡܘ ܡܢܗ ܬܠܬܐ ܐܶܦܝܣܩܘ̈ܦܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "المعروف اليوم بدير مَخَر اي الوادي بالكردية، دير صغير بجانب قرية دفنة في طريق حصن كيفا بنى هيكله في حدود سنة 770 اندثر في الحرب الماضية بقتل آخر رهبانه، نشأ منه ثلاثة اساقفة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "المعروف اليوم بدير مَخَر اي الوادي بالكردية، دير صغير بجانب قرية دفنة في طريق حصن كيفا بنى هيكله في حدود سنة 770 اندثر في الحرب الماضية بقتل آخر رهبانه، نشأ منه ثلاثة اساقفة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a small monastery near the village of Dafna on the way to Ḥiṣn Kifa, now called Makhr or Wadi in Kurdish. Its church, built in 770, was destroyed in World War I and the last of its monks was killed. Three bishops graduated from it."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0770"  ;
- lawd:hasName [
-lawd:primaryForm "Dayr al-Ṣalīb"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܨܠܝܒܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܰܨܠܝܒܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܡܰܟ̣ܰܪ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير الصليب"@ar  ;];
- lawd:hasName [
-lawd:variantForm "دير مَخَر"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Monastery of the Cross"@en  ;];
- lawd:hasName [
-lawd:variantForm "Makhr Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Defne"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/367/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/367/tei>  ;
-dcterms:relation <http://syriaca.org/place/68>  .
+ rdfs:label "a small monastery near the village of Dafna on the way to Ḥiṣn Kifa, now called Makhr or Wadi in Kurdish. Its church, built in 770, was destroyed in World War I and the last of its monks was killed. Three bishops graduated from it."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0770" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/367/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/367/tei> ;
+ dcterms:relation <http://syriaca.org/place/68> .

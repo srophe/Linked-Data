@@ -11,39 +11,42 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/60> a lawd:Place ;
-rdfs:label "Caesarea — ܩܣܪܝܐ"  ;
-dcterms:description "A city in Cappadocia, modern Kayseri."  ;
+ rdfs:label "Caesarea — ܩܣܪܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Caesarea"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܩܣܪܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܩܶܣܰܪܝܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܩܰܝܣܰܪ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "قيسارية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "قيصرية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "قيسر"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Kayseri"@en ;];
+ dcterms:description "A city in Cappadocia, modern Kayseri." ;
  dcterms:description [
-rdfs:label "ܡܕܝܢܬܳܐ ܗܝ ܕܰܒܬܰܝܡܢܳܐ ܡܰܕܢܚܳܝܐ ܕܰܐܢܩܘܪܰܐ ܘܡܶܬܩܰܪܝܳܐ ܝܰܘܡܳܢ ܩܰܝܣܰܪ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܝܢܬܳܐ ܗܝ ܕܰܒܬܰܝܡܢܳܐ ܡܰܕܢܚܳܝܐ ܕܰܐܢܩܘܪܰܐ ܘܡܶܬܩܰܪܝܳܐ ܝܰܘܡܳܢ ܩܰܝܣܰܪ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة في الجنوب الشرقي من انقرة تعرف الآن بقيسر."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة في الجنوب الشرقي من انقرة تعرف الآن بقيسر."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town southeast of Ankara, known today as Kayseri."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-0316"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/629035>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Kayseri>  ;
+ rdfs:label "a town southeast of Ankara, known today as Kayseri."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-0316" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/629035> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Kayseri> ;
 geo:location [
-geo:lat "38.73333"  ;
-geo:long "38.73333"  ;];
- lawd:hasName [
-lawd:primaryForm "Caesarea"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܩܣܪܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܩܶܣܰܪܝܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܩܰܝܣܰܪ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "قيسارية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "قيصرية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "قيسر"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Kayseri"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/60/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/60/tei>  ;
-dcterms:relation <http://syriaca.org/place/53>  .
+ geo:lat "38.73333" ;
+ geo:long "35.48333" ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/60/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/60/tei> ;
+geo:location [
+ geo:lat "38.73333" ;
+ geo:long "35.48333" ;];
+ dcterms:relation <http://syriaca.org/place/53> .

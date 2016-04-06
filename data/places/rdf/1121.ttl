@@ -11,10 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1121> a lawd:Place ;
-rdfs:label "Chambā d-Ḥassō"  ;
+ rdfs:label "Chambā d-Ḥassō" ;
  lawd:hasName [
-lawd:primaryForm "Chambā d-Ḥassō"@en  ;];
+ lawd:primaryForm "Chambā d-Ḥassō"@en ;];
  lawd:hasName [
-lawd:variantForm "Chambā d'Ḥassō"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1121/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1121/tei>  .
+ lawd:variantForm "Chambā d'Ḥassō"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1121/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1121/tei> .

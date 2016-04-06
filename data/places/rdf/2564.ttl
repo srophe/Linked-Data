@@ -11,16 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2564> a lawd:Place ;
-rdfs:label "Mar Toma"  ;
-dcterms:description "A church in"  ;
-dcterms:temporal "1828"  ;
+ rdfs:label "Mar Toma" ;
  lawd:hasName [
-lawd:primaryForm "Mar Toma"@en  ;];
+ lawd:primaryForm "Mar Toma"@en ;];
  lawd:hasName [
-lawd:variantForm "Holy Apostle Thomas"@en  ;];
+ lawd:variantForm "Holy Apostle Thomas"@en ;];
  lawd:hasName [
-lawd:variantForm "Urmi-Church"@en  ;];
- lawd:hasName [
-lawd:variantForm "Verin Dvin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2564/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2564/tei>  .
+ lawd:variantForm "Urmi-Church"@en ;];
+ skos:related "Verin Dvin" ;
+ dcterms:description "A church in" ;
+ dcterms:temporal "1828" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2564/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2564/tei> .

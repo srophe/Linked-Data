@@ -11,27 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/297> a lawd:Place ;
-rdfs:label "Bāṣikhrā — ܒܐܨܟܪܝܐ"  ;
+ rdfs:label "Bāṣikhrā — ܒܐܨܟܪܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Bāṣikhrā"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܐܨܟܪܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܐܙܟܪܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "باصخرا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "باصخرايا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Baṣekhrā"@en ;];
  dcterms:description [
-rdfs:label "ܩܪܺܝܬܘܽܢܳܝܬܐ ܕܰܠܡܰܕܢܰܚ ܒܰܪܛܠܗ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܺܝܬܘܽܢܳܝܬܐ ܕܰܠܡܰܕܢܰܚ ܒܰܪܛܠܗ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية صغيرة شرقي برطُلّي"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية صغيرة شرقي برطُلّي"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a small village east of Barṭelli (in Iraq)."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
- lawd:hasName [
-lawd:primaryForm "Bāṣikhrā"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܐܨܟܪܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܒܐܙܟܪܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "باصخرا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "باصخرايا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Baṣekhrā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/297/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/297/tei>  .
+ rdfs:label "a small village east of Barṭelli (in Iraq)."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/297/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/297/tei> .

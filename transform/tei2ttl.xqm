@@ -22,7 +22,7 @@ declare function local:make-lang($lang) as xs:string?{
 
 (: Build literal string, add lang if specified :)
 declare function local:make-literal($string, $lang) as xs:string?{
-    concat('"',normalize-space(string-join($string,' ')),'"',
+    concat('"',replace(normalize-space(string-join($string,' ')),'"',''),'"',
         if($lang != '') then local:make-lang($lang) 
         else ())
     
@@ -78,7 +78,12 @@ return
                local:make-triple('','lawd:primaryForm',local:make-literal($name/text(),$name/@xml:lang)) 
             else local:make-triple('','lawd:variantForm',local:make-literal($name/text(),$name/@xml:lang)), 
         '];')    
-    else   local:make-triple('','skos:related',local:make-literal($name/text(),$name/@xml:lang)),'')
+    else   
+        if($name/ancestor::tei:location[@type='nested'][starts-with(@ref,'http://syriaca.org/')]) then
+           local:make-triple('','dcterms:isPartOf',local:make-uri($name/@ref)) 
+        else if($name[starts-with(@ref,'http://syriaca.org/')]) then  
+            local:make-triple('','skos:related',local:make-uri($name/@ref))
+        else (),'')
 };
 
 (: Locations with coords :)
@@ -154,7 +159,7 @@ declare function local:record($rec) as xs:string*{
 if($id = 'run all') then 
     let $recs := collection('/db/apps/srophe-data/data/places/tei')
     (: Individual recs :)
-    for $hit at $p in subsequence($recs, 1, 1000)//tei:TEI
+    for $hit at $p in subsequence($recs, 2000, 4000)//tei:TEI
     let $filename := concat(tokenize(replace($hit/descendant::tei:idno[@type='URI'][starts-with(.,'http://syriaca.org')][1],'/tei',''),'/')[last()],'.ttl')
     let $file-data :=  
         try {

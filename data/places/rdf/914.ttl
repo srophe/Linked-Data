@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Armānīs"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/914/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/914/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/914/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/784> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

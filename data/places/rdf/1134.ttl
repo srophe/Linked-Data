@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Chūlchen"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1134/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1134/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1134/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/741> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

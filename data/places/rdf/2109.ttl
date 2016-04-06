@@ -17,4 +17,7 @@
  lawd:hasName [
  lawd:variantForm "Mār Thomas, Mār Awgin, Mār Quriāqōs and Mār Giwārgīs"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2109/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2109/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2109/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1784> ;
+ dcterms:isPartOf <http://syriaca.org/place/250> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

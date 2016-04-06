@@ -17,4 +17,5 @@
  skos:related <http://syriaca.org/place/573> ;
  dcterms:description "A state in the ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/2570/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2570/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2570/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/573> .

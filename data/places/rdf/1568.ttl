@@ -18,4 +18,5 @@
  lawd:variantForm "Nāṣerīyā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1568/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1568/tei> ;
- dcterms:relation <http://syriaca.org/place/857> .
+ dcterms:relation <http://syriaca.org/place/857> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

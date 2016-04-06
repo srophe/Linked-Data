@@ -20,4 +20,7 @@
  foaf:primaryTopicOf <http://syriaca.org/place/2025/tei> ;
  dcterms:relation <http://syriaca.org/place/2478> ;
  dcterms:relation <http://syriaca.org/place/2024> ;
- dcterms:relation <http://syriaca.org/place/2026> .
+ dcterms:relation <http://syriaca.org/place/2026> ;
+ dcterms:isPartOf <http://syriaca.org/place/1312> ;
+ dcterms:isPartOf <http://syriaca.org/place/784> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

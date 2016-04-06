@@ -15,4 +15,5 @@
  lawd:hasName [
  lawd:primaryForm "Tel Ṣalmā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1772/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1772/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1772/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

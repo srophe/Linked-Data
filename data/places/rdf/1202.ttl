@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Erk"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1202/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1202/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1202/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/787> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

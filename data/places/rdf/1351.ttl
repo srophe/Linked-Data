@@ -15,4 +15,7 @@
  lawd:hasName [
  lawd:primaryForm "Isrūr"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1351/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1351/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1351/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/255> ;
+ dcterms:isPartOf <http://syriaca.org/place/761> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

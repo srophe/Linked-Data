@@ -17,4 +17,5 @@
  lawd:hasName [
  lawd:variantForm "Mār Theodore (West Syrian)"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2099/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2099/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2099/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/139> .

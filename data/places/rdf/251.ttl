@@ -20,4 +20,5 @@
  dcterms:temporal "2000" ;
  foaf:primaryTopicOf <http://syriaca.org/place/251/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/251/tei> ;
- dcterms:relation <http://syriaca.org/place/2391> .
+ dcterms:relation <http://syriaca.org/place/2391> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

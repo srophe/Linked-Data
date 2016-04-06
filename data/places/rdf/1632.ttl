@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Qōṭrānīs"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1632/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1632/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1632/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/780> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

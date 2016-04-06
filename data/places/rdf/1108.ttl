@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Būbāwā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1108/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1108/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1108/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/759> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

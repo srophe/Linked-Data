@@ -19,4 +19,6 @@
  lawd:hasName [
  lawd:variantForm "Sharmen"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1700/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1700/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1700/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/776> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

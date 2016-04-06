@@ -25,4 +25,5 @@
  lawd:hasName [
  lawd:variantForm "Beṯ ‘Awīre"@en-xsrp1 ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1007/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1007/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1007/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

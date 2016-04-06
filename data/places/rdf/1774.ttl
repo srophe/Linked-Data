@@ -17,4 +17,6 @@
  lawd:hasName [
  lawd:variantForm "Tḥūmā Gāwāyā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1774/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1774/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1774/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/251> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

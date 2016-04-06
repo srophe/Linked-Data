@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Bādālābād"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/954/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/954/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/954/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/733> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

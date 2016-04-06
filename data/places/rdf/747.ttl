@@ -21,4 +21,5 @@
  foaf:primaryTopicOf <http://syriaca.org/place/747/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/747/tei> ;
  dcterms:relation <http://syriaca.org/place/2302> ;
- dcterms:relation <http://syriaca.org/place/2303> .
+ dcterms:relation <http://syriaca.org/place/2303> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

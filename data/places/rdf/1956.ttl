@@ -18,4 +18,5 @@
  lawd:variantForm "Patriarchal Cell"@en ;];
  dcterms:description "A residence of the Catholicos of the Church of the East." ;
  foaf:primaryTopicOf <http://syriaca.org/place/1956/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1956/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1956/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/308> .

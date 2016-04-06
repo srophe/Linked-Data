@@ -15,4 +15,5 @@
  lawd:hasName [
  lawd:primaryForm "Barzāḥe"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/973/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/973/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/973/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

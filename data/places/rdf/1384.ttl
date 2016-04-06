@@ -16,4 +16,5 @@
  lawd:primaryForm "Khōrsābād"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1384/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1384/tei> ;
- dcterms:relation <http://syriaca.org/place/1383> .
+ dcterms:relation <http://syriaca.org/place/1383> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

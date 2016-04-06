@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Ḥārgel"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1318/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1318/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1318/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/760> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

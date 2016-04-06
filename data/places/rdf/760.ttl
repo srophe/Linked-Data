@@ -16,4 +16,5 @@
  lawd:primaryForm "Lewūn"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/760/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/760/tei> ;
- dcterms:relation <http://syriaca.org/place/2330> .
+ dcterms:relation <http://syriaca.org/place/2330> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

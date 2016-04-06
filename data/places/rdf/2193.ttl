@@ -17,4 +17,7 @@
  lawd:hasName [
  lawd:variantForm "Mart Maryam and Mār Christopher"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2193/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2193/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2193/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1270> ;
+ dcterms:isPartOf <http://syriaca.org/place/778> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

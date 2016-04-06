@@ -17,4 +17,5 @@
  lawd:hasName [
  lawd:variantForm "Mār Shōnā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2088/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2088/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2088/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

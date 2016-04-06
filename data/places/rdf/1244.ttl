@@ -16,4 +16,6 @@
  lawd:primaryForm "Gūlpāshān"@en ;];
  skos:closeMatch <http://en.wikipedia.org/wiki/Gulpashan> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1244/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1244/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1244/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/733> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

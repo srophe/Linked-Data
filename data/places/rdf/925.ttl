@@ -16,4 +16,5 @@
  lawd:primaryForm "Arsham"@en ;];
  skos:related <http://syriaca.org/place/305> ;
  foaf:primaryTopicOf <http://syriaca.org/place/925/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/925/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/925/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

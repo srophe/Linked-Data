@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Dārālīk"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1144/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1144/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1144/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/782> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

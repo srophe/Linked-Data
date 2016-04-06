@@ -17,4 +17,6 @@
  lawd:hasName [
  lawd:variantForm "Beṯ Kōlā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1035/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1035/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1035/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/794> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

@@ -17,4 +17,6 @@
  lawd:hasName [
  lawd:variantForm "Eqrōr"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1198/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1198/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1198/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/749> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

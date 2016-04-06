@@ -18,4 +18,5 @@
  lawd:variantForm "Mār Denḥā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2453/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2453/tei> ;
- dcterms:relation <http://syriaca.org/place/1427> .
+ dcterms:relation <http://syriaca.org/place/1427> ;
+ dcterms:isPartOf <http://syriaca.org/place/710> .

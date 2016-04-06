@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Bellōn"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/996/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/996/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/996/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/749> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

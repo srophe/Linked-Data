@@ -17,4 +17,7 @@
  lawd:hasName [
  lawd:variantForm "Mār Brīkhā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1892/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1892/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1892/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1559> ;
+ dcterms:isPartOf <http://syriaca.org/place/759> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

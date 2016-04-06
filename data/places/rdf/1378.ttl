@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Kfarbe"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1378/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1378/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1378/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/839> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

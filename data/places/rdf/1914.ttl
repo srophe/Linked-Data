@@ -77,4 +77,7 @@
  dcterms:relation <http://syriaca.org/place/1982> ;
  dcterms:relation <http://syriaca.org/place/1983> ;
  dcterms:relation <http://syriaca.org/place/1984> ;
- dcterms:relation <http://syriaca.org/place/1985> .
+ dcterms:relation <http://syriaca.org/place/1985> ;
+ dcterms:isPartOf <http://syriaca.org/place/912> ;
+ dcterms:isPartOf <http://syriaca.org/place/788> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

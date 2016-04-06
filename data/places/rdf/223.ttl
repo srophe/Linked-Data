@@ -33,4 +33,6 @@
  dcterms:temporal "0596" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Beth_Abe_Monastery> ;
  foaf:primaryTopicOf <http://syriaca.org/place/223/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/223/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/223/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/776> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

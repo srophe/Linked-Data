@@ -15,4 +15,5 @@
  lawd:hasName [
  lawd:primaryForm "Helwā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1282/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1282/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1282/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/254> .

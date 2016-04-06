@@ -17,4 +17,5 @@
  lawd:hasName [
  lawd:variantForm "Mār ʻYazdit’"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2499/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2499/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2499/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

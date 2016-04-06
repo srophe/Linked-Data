@@ -33,4 +33,6 @@ geo:location [
  geo:lat "37.642778" ;
  geo:long "43.789444" ;];
  dcterms:relation <http://syriaca.org/place/771> ;
- dcterms:relation <http://syriaca.org/place/2352> .
+ dcterms:relation <http://syriaca.org/place/2352> ;
+ dcterms:isPartOf <http://syriaca.org/place/771> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

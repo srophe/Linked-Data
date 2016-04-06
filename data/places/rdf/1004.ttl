@@ -26,4 +26,6 @@
  lawd:variantForm "Beṯ ‘Alāṯā"@en-xsrp1 ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1004/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1004/tei> ;
- dcterms:relation <http://syriaca.org/place/1005> .
+ dcterms:relation <http://syriaca.org/place/1005> ;
+ dcterms:isPartOf <http://syriaca.org/place/737> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

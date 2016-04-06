@@ -30,4 +30,6 @@
  dcterms:relation <http://syriaca.org/place/2496> ;
  dcterms:relation <http://syriaca.org/place/2112> ;
  dcterms:relation <http://syriaca.org/place/2113> ;
- dcterms:relation <http://syriaca.org/place/2114> .
+ dcterms:relation <http://syriaca.org/place/2114> ;
+ dcterms:isPartOf <http://syriaca.org/place/583> ;
+ dcterms:isPartOf <http://syriaca.org/place/724> .

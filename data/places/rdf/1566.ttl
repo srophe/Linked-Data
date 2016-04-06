@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Narā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1566/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1566/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1566/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/759> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

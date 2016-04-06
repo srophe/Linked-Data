@@ -17,4 +17,5 @@
  lawd:hasName [
  lawd:variantForm "Mār Zirwandā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2139/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2139/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2139/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

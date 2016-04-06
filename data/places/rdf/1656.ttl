@@ -18,4 +18,7 @@
  lawd:variantForm "Reshā d'Nahrā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1656/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1656/tei> ;
- dcterms:relation <http://syriaca.org/place/1655> .
+ dcterms:relation <http://syriaca.org/place/1655> ;
+ dcterms:isPartOf <http://syriaca.org/place/1231> ;
+ dcterms:isPartOf <http://syriaca.org/place/790> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

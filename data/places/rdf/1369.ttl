@@ -20,4 +20,5 @@
  lawd:variantForm "ܟܲܪܣܵܒ̣ܐ"@syr-Syrn ;];
  dcterms:temporal "1683" ;
  foaf:primaryTopicOf <http://syriaca.org/place/1369/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1369/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1369/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

@@ -18,4 +18,7 @@
  lawd:variantForm "Mār Daniel"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1895/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1895/tei> ;
- dcterms:relation <http://syriaca.org/place/2452> .
+ dcterms:relation <http://syriaca.org/place/2452> ;
+ dcterms:isPartOf <http://syriaca.org/place/935> ;
+ dcterms:isPartOf <http://syriaca.org/place/839> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

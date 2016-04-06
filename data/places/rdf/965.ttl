@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Bārānī"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/965/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/965/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/965/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/782> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Bozlū"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1107/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1107/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1107/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/839> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

@@ -17,4 +17,5 @@
  lawd:hasName [
  lawd:variantForm "Beṯ Ḥūrnīyā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1033/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1033/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1033/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

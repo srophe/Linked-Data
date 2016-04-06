@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Deiri"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1156/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1156/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1156/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/783> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

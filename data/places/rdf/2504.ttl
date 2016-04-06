@@ -29,4 +29,7 @@
  skos:related <http://syriaca.org/place/1399> ;
  dcterms:description "The main Yezidi shrine in , which according to a Syriac text forged in the 19th century was originally a monastery." ;
  foaf:primaryTopicOf <http://syriaca.org/place/2504/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2504/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2504/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1399> ;
+ dcterms:isPartOf <http://syriaca.org/place/777> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

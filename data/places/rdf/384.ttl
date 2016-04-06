@@ -58,4 +58,5 @@ geo:location [
  foaf:primaryTopicOf <http://syriaca.org/place/384/tei> ;
 geo:location [
  geo:lat "37.211579" ;
- geo:long "41.473406" ;].
+ geo:long "41.473406" ;];
+ dcterms:isPartOf <http://syriaca.org/place/723> .

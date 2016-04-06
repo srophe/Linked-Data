@@ -18,4 +18,5 @@
  lawd:variantForm "Aḏārbaigān"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/839/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/839/tei> ;
- dcterms:relation <http://syriaca.org/place/2253> .
+ dcterms:relation <http://syriaca.org/place/2253> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

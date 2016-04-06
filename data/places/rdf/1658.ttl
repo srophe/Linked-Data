@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Robarīyā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1658/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1658/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1658/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/732> ;
+ dcterms:isPartOf <http://syriaca.org/place/724> .

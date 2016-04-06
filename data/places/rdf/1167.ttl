@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Dirgīni"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1167/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1167/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1167/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/783> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

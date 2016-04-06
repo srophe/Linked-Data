@@ -17,4 +17,7 @@
  lawd:hasName [
  lawd:variantForm "Mār Gaddi"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1903/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1903/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1903/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1287> ;
+ dcterms:isPartOf <http://syriaca.org/place/751> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

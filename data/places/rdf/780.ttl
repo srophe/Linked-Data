@@ -21,4 +21,5 @@
  lawd:hasName [
  lawd:variantForm "Bārwār"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/780/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/780/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/780/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

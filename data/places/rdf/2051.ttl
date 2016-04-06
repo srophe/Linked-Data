@@ -17,4 +17,6 @@
  lawd:hasName [
  lawd:variantForm "Mār Quriāqōs and Mart Julitta"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2051/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2051/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2051/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/197> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

@@ -15,4 +15,5 @@
  lawd:hasName [
  lawd:primaryForm "Baradost"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2526/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2526/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2526/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

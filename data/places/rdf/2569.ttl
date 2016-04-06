@@ -17,4 +17,6 @@
  skos:related <http://syriaca.org/place/2570> ;
  dcterms:description "A city in ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/2569/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2569/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2569/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/2570> ;
+ dcterms:isPartOf <http://syriaca.org/place/573> .

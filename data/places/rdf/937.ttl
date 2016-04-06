@@ -25,4 +25,5 @@
  lawd:hasName [
  lawd:variantForm "‘Aïnā d'Nūne"@en-xsrp1 ;];
  foaf:primaryTopicOf <http://syriaca.org/place/937/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/937/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/937/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/254> .

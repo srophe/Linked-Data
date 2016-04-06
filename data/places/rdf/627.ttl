@@ -22,4 +22,5 @@
  skos:related <http://syriaca.org/place/188> ;
  dcterms:description "A monastery near the village west of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/627/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/627/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/627/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/724> .

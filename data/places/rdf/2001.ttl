@@ -26,4 +26,7 @@
  lawd:variantForm "Mār Īshō‘"@en-xsrp1 ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2001/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2001/tei> ;
- dcterms:relation <http://syriaca.org/place/2000> .
+ dcterms:relation <http://syriaca.org/place/2000> ;
+ dcterms:isPartOf <http://syriaca.org/place/1664> ;
+ dcterms:isPartOf <http://syriaca.org/place/778> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

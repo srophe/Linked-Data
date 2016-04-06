@@ -17,4 +17,5 @@
  lawd:hasName [
  lawd:variantForm "Derrenāye"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/740/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/740/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/740/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

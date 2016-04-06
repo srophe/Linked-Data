@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Rūshan"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1662/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1662/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1662/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/784> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

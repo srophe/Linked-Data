@@ -25,4 +25,7 @@
  lawd:hasName [
  lawd:variantForm "‘Aïna d'Alīle"@en-xsrp1 ;];
  foaf:primaryTopicOf <http://syriaca.org/place/936/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/936/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/936/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1231> ;
+ dcterms:isPartOf <http://syriaca.org/place/790> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

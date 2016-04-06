@@ -17,4 +17,6 @@
  lawd:hasName [
  lawd:variantForm "Beṯ Daiwe"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1018/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1018/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1018/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/778> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

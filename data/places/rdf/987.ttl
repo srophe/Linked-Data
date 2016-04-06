@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Beḥmā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/987/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/987/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/987/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/776> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

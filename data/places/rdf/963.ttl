@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Balqān"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/963/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/963/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/963/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/778> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

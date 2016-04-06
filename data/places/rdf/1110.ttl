@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Būrdūk"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1110/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1110/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1110/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/730> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

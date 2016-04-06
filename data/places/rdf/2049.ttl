@@ -17,4 +17,7 @@
  lawd:hasName [
  lawd:variantForm "Mār Quriāqōs and Saint John the Baptist"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2049/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2049/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2049/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1018> ;
+ dcterms:isPartOf <http://syriaca.org/place/778> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

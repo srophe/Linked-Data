@@ -25,4 +25,5 @@
  lawd:hasName [
  lawd:variantForm "Rabban Mār ‘Azīz"@en-xsrp1 ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2236/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2236/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2236/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

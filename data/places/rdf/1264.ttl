@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Haltūn"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1264/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1264/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1264/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/751> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

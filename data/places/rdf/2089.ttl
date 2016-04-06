@@ -17,4 +17,7 @@
  lawd:hasName [
  lawd:variantForm "Mār Stephen"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2089/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2089/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2089/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1358> ;
+ dcterms:isPartOf <http://syriaca.org/place/839> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

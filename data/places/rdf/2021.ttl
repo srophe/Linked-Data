@@ -18,4 +18,7 @@
  lawd:variantForm "Mār Nūḥ"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2021/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2021/tei> ;
- dcterms:relation <http://syriaca.org/place/2475> .
+ dcterms:relation <http://syriaca.org/place/2475> ;
+ dcterms:isPartOf <http://syriaca.org/place/1141> ;
+ dcterms:isPartOf <http://syriaca.org/place/770> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

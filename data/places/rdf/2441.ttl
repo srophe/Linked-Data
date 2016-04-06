@@ -17,4 +17,7 @@
  lawd:hasName [
  lawd:variantForm "Mār Abraham the Penitent"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2441/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2441/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2441/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1776> ;
+ dcterms:isPartOf <http://syriaca.org/place/783> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

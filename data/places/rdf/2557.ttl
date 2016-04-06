@@ -17,4 +17,5 @@
  dcterms:description "An Assyrian settlement in the Šarur region of Northwest Nakhchivan" ;
  dcterms:temporal "1869" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2557/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2557/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2557/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/576> .

@@ -15,4 +15,5 @@
  lawd:hasName [
  lawd:primaryForm "Tūṯā Shamāyā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1785/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1785/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1785/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/> .

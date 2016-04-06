@@ -19,4 +19,6 @@
  lawd:hasName [
  lawd:variantForm "Pā‘ilan"@en-xsrp1 ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1590/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1590/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1590/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/747> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

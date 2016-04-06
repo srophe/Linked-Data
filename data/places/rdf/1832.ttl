@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Zīrīne"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1832/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1832/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1832/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/759> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

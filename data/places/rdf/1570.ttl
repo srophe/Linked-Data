@@ -15,4 +15,5 @@
  lawd:hasName [
  lawd:primaryForm "Navdasht"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1570/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1570/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1570/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/707> .

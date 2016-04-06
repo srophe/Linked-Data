@@ -44,4 +44,5 @@
  dcterms:temporal "0600" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Bakhdida> ;
  foaf:primaryTopicOf <http://syriaca.org/place/262/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/262/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/262/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

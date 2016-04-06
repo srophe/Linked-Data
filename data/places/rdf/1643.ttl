@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Rabanuk"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1643/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1643/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1643/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/732> ;
+ dcterms:isPartOf <http://syriaca.org/place/724> .

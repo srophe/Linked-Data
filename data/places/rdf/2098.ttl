@@ -23,4 +23,7 @@
  dcterms:relation <http://syriaca.org/place/2092> ;
  dcterms:relation <http://syriaca.org/place/2093> ;
  dcterms:relation <http://syriaca.org/place/2094> ;
- dcterms:relation <http://syriaca.org/place/2097> .
+ dcterms:relation <http://syriaca.org/place/2097> ;
+ dcterms:isPartOf <http://syriaca.org/place/868> ;
+ dcterms:isPartOf <http://syriaca.org/place/784> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

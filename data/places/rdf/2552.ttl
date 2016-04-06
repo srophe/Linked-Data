@@ -23,4 +23,5 @@
  dcterms:description "An Assyrian settlement in southeast of" ;
  dcterms:temporal "1839" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2552/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2552/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2552/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/576> .

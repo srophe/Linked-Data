@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Eshe"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1204/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1204/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1204/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/751> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

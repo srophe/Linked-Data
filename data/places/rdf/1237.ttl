@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Gol"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1237/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1237/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1237/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/782> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

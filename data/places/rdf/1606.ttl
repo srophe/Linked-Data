@@ -17,4 +17,5 @@
  lawd:hasName [
  lawd:variantForm "Prāṯ"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1606/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1606/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1606/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

@@ -19,4 +19,5 @@
  lawd:hasName [
  lawd:variantForm "Bāzawāyā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1084/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1084/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1084/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

@@ -35,4 +35,5 @@
  skos:exactMatch <http://pleiades.stoa.org/places/50092> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Malabar_Coast> ;
  foaf:primaryTopicOf <http://syriaca.org/place/461/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/461/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/461/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/500> .

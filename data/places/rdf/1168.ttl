@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Dissiūn"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1168/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1168/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1168/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/770> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

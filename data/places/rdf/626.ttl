@@ -21,4 +21,7 @@
  skos:related <http://syriaca.org/place/88> ;
  dcterms:description "A monastery near the Dūshā river northeast of ." ;
  foaf:primaryTopicOf <http://syriaca.org/place/626/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/626/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/626/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1698> ;
+ dcterms:isPartOf <http://syriaca.org/place/770> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

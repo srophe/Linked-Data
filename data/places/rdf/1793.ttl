@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Ṭanze"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1793/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1793/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1793/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

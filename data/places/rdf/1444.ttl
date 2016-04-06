@@ -15,4 +15,5 @@
  lawd:hasName [
  lawd:primaryForm "Māyā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1444/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1444/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1444/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/254> .

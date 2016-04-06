@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Ūrīj"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1800/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1800/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1800/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/583> ;
+ dcterms:isPartOf <http://syriaca.org/place/724> .

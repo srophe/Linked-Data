@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Zarni"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1824/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1824/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1824/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/761> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

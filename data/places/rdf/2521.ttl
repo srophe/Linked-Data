@@ -17,4 +17,5 @@
  lawd:hasName [
  lawd:variantForm "Shāmīrā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2521/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2521/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2521/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

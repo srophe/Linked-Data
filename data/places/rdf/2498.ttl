@@ -18,4 +18,5 @@
  lawd:variantForm "Mār Yāreṯ"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2498/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2498/tei> ;
- dcterms:relation <http://syriaca.org/place/2111> .
+ dcterms:relation <http://syriaca.org/place/2111> ;
+ dcterms:isPartOf <http://syriaca.org/place/723> .

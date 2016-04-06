@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Dōdi Jeri"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1182/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1182/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1182/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/766> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

@@ -15,4 +15,5 @@
  lawd:hasName [
  lawd:primaryForm "Qaṣrgarḥ"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1622/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1622/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1622/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

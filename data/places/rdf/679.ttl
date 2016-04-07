@@ -21,9 +21,6 @@
  dcterms:description "A village in Iraq." ;
  dcterms:temporal "0894" ;
  skos:exactMatch <http://pleiades.stoa.org/places/894139> ;
-geo:location [
- geo:lat "33.853599" ;
- geo:long "44.404396" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/679/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/679/tei> ;
 geo:location [

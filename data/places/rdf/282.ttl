@@ -20,9 +20,6 @@
  dcterms:description "The river which flows past ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/678095> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Barada> ;
-geo:location [
- geo:lat "33.5123279" ;
- geo:long "36.3006518" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/282/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/282/tei> ;
 geo:location [

@@ -30,9 +30,6 @@
  dcterms:description "A monastery near the monastery of ." ;
  dcterms:temporal "1271" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874586> ;
-geo:location [
- geo:lat "37.198257" ;
- geo:long "41.430776" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/556/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/556/tei> ;
 geo:location [

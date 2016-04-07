@@ -26,9 +26,6 @@
  dcterms:temporal "-0330" ;
  skos:exactMatch <http://pleiades.stoa.org/places/961874> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Herat> ;
-geo:location [
- geo:lat "34.345833" ;
- geo:long "62.188384" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/523/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/523/tei> ;
 geo:location [

@@ -18,9 +18,6 @@
  skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A ruined church on the road between and ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874655> ;
-geo:location [
- geo:lat "36.53173" ;
- geo:long "42.508844" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/638/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/638/tei> ;
 geo:location [

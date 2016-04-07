@@ -59,9 +59,6 @@
  dcterms:temporal "0581" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668318> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Al-Raqqah> ;
-geo:location [
- geo:lat "35.95" ;
- geo:long "39.016667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/109/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/109/tei> ;
 geo:location [

@@ -21,9 +21,6 @@
  dcterms:temporal "-0100" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668186> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Amioun> ;
-geo:location [
- geo:lat "34.299737" ;
- geo:long "35.815881" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/269/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/269/tei> ;
 geo:location [

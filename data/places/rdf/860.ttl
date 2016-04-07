@@ -16,9 +16,6 @@
  lawd:primaryForm "Novara"@en ;];
  skos:exactMatch <http://pleiades.stoa.org/places/383717> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Novara> ;
-geo:location [
- geo:lat "45.445082" ;
- geo:long "8.618661" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/860/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/860/tei> ;
 geo:location [

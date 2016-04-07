@@ -24,9 +24,6 @@
  dcterms:description "An island off the western coast of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/550497> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Chios> ;
-geo:location [
- geo:lat "38.414" ;
- geo:long "26.053" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1529/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1529/tei> ;
 geo:location [

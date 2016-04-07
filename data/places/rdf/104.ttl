@@ -33,9 +33,6 @@
  dcterms:temporal "-1000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/687928> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Jerusalem> ;
-geo:location [
- geo:lat "31.78333" ;
- geo:long "35.21667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/104/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/104/tei> ;
 geo:location [

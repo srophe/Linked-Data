@@ -18,9 +18,6 @@
  dcterms:description "A village in ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/776189> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kellis> ;
-geo:location [
- geo:lat "25.515833" ;
- geo:long "29.095556" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/601/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/601/tei> ;
 geo:location [

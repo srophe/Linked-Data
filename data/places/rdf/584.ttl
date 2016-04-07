@@ -19,9 +19,6 @@
  dcterms:description "On the western bank of the northeast of ." ;
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658418> ;
-geo:location [
- geo:lat "36.655948" ;
- geo:long "38.076558" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/584/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/584/tei> ;
 geo:location [

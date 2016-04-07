@@ -35,9 +35,6 @@
  dcterms:temporal "0790" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668362> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Al-Salamiyah> ;
-geo:location [
- geo:lat "35.050807" ;
- geo:long "37.057146" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/411/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/411/tei> ;
 geo:location [

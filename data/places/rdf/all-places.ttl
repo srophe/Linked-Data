@@ -258,9 +258,6 @@
  dcterms:temporal "1111" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874631> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Urmia> ;
-geo:location [
- geo:lat "37.55" ;
- geo:long "45.1" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/206/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/206/tei> ;
 geo:location [
@@ -473,9 +470,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658562> ;
-geo:location [
- geo:lat "37.110367" ;
- geo:long "37.86555" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/205/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/205/tei> ;
 geo:location [
@@ -1017,9 +1011,6 @@ geo:location [
  dcterms:temporal "-0800" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668394> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tripoli,_Lebanon> ;
-geo:location [
- geo:lat "34.43333" ;
- geo:long "35.85" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/203/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/203/tei> ;
 geo:location [
@@ -1347,9 +1338,6 @@ geo:location [
  dcterms:temporal "0037" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678431> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tiberias> ;
-geo:location [
- geo:lat "32.7966" ;
- geo:long "35.53572" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/201/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/201/tei> ;
 geo:location [
@@ -1570,9 +1558,6 @@ geo:location [
  dcterms:temporal "0484" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874324> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Viranşehir> ;
-geo:location [
- geo:lat "37.233333" ;
- geo:long "39.766666" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/200/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/200/tei> ;
 geo:location [
@@ -1600,9 +1585,6 @@ geo:location [
  dcterms:description "A town in the mountains of northern Iraq, east of the Tigris." ;
  dcterms:temporal "1376" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Amadiya> ;
-geo:location [
- geo:lat "37.0933" ;
- geo:long "43.4872" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/20/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/20/tei> ;
 geo:location [
@@ -1631,9 +1613,6 @@ geo:location [
  skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "1501" ;
-geo:location [
- geo:lat "37.483889" ;
- geo:long "41.4025" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2/tei> ;
 geo:location [
@@ -2340,9 +2319,6 @@ geo:location [
  dcterms:description "A village 48 km. west of known for the nearby ." ;
  dcterms:temporal "0457" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658614> ;
-geo:location [
- geo:lat "36.255349" ;
- geo:long "36.848848" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/198/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/198/tei> ;
 geo:location [
@@ -3093,9 +3069,6 @@ geo:location [
  rdfs:label "536. Telkepe"@en ;];
  dcterms:temporal "1100" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tel_Keppe> ;
-geo:location [
- geo:lat "36.489444" ;
- geo:long "43.119167" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/197/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/197/tei> ;
 geo:location [
@@ -3550,9 +3523,6 @@ geo:location [
  dcterms:temporal "-0401" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648789> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tarsus,_Mersin> ;
-geo:location [
- geo:lat "36.916667" ;
- geo:long "34.9" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/196/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/196/tei> ;
 geo:location [
@@ -3727,9 +3697,6 @@ geo:location [
  dcterms:temporal "-1300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678437> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tyre,_Lebanon> ;
-geo:location [
- geo:lat "33.26889" ;
- geo:long "35.21639" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/195/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/195/tei> ;
 geo:location [
@@ -3840,9 +3807,6 @@ geo:location [
  skos:related <http://syriaca.org/place/500> ;
  dcterms:description "A city in in southern ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/50079> ;
-geo:location [
- geo:lat "9.586011" ;
- geo:long "76.521245" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1947/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1947/tei> ;
 geo:location [
@@ -5042,9 +5006,6 @@ geo:location [
  dcterms:temporal "0628" ;
  skos:exactMatch <http://pleiades.stoa.org/places/894099> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tikrit> ;
-geo:location [
- geo:lat "34.6" ;
- geo:long "43.68333" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/193/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/193/tei> ;
 geo:location [
@@ -5793,9 +5754,6 @@ geo:location [
  dcterms:description "A modern city in northern east of and southeast of ." ;
  dcterms:temporal "1784-11-14" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sulaymaniyah> ;
-geo:location [
- geo:lat "35.55" ;
- geo:long "45.433333" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/192/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/192/tei> ;
 geo:location [
@@ -6747,9 +6705,6 @@ geo:location [
  dcterms:temporal "0325" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sis_(Armenian_Kingdom_of_Cilicia)> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kozan,_Adana> ;
-geo:location [
- geo:lat "37.45" ;
- geo:long "35.8" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/190/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/190/tei> ;
 geo:location [
@@ -6773,9 +6728,6 @@ geo:location [
  rdfs:label "30. Alqosh"@en ;];
  dcterms:temporal "-0750" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Alqosh> ;
-geo:location [
- geo:lat "36.735278" ;
- geo:long "43.096389" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/19/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/19/tei> ;
 geo:location [
@@ -7126,9 +7078,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "1424" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Siirt> ;
-geo:location [
- geo:lat "37.933333" ;
- geo:long "41.95" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/188/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/188/tei> ;
 geo:location [
@@ -7328,9 +7277,6 @@ geo:location [
  dcterms:temporal "-0950" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678393> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sidon> ;
-geo:location [
- geo:lat "33.56056" ;
- geo:long "35.39806" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/187/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/187/tei> ;
 geo:location [
@@ -7513,9 +7459,6 @@ geo:location [
  dcterms:temporal "0270" ;
  skos:exactMatch <http://pleiades.stoa.org/places/912941> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Shushtar> ;
-geo:location [
- geo:lat "32.05" ;
- geo:long "48.85" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/186/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/186/tei> ;
 geo:location [
@@ -7663,9 +7606,6 @@ geo:location [
  dcterms:description "A town on the west of ." ;
  dcterms:temporal "0640" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668376> ;
-geo:location [
- geo:lat "35.8808455" ;
- geo:long "38.847326" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/185/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/185/tei> ;
 geo:location [
@@ -7884,9 +7824,6 @@ geo:location [
  dcterms:temporal "0758" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874699> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sinjar> ;
-geo:location [
- geo:lat "36.321337" ;
- geo:long "41.859566" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/184/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/184/tei> ;
 geo:location [
@@ -8004,9 +7941,6 @@ geo:location [
  dcterms:temporal "-0281" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658483> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Seleucia_Pieria> ;
-geo:location [
- geo:lat "36.124" ;
- geo:long "35.922" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/183/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/183/tei> ;
 geo:location [
@@ -8138,9 +8072,6 @@ geo:location [
  dcterms:temporal "-0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/894084> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Seleucia> ;
-geo:location [
- geo:lat "33.094444" ;
- geo:long "44.522222" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/182/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/182/tei> ;
 geo:location [
@@ -8256,9 +8187,6 @@ geo:location [
  dcterms:temporal "0017" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648628> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Elaiussa_Sebaste> ;
-geo:location [
- geo:lat "36.48362" ;
- geo:long "34.17373" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/181/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/181/tei> ;
 geo:location [
@@ -8406,9 +8334,6 @@ geo:location [
  dcterms:temporal "-2000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678378> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Beit_She'an> ;
-geo:location [
- geo:lat "32.5" ;
- geo:long "35.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/180/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/180/tei> ;
 geo:location [
@@ -8437,9 +8362,6 @@ geo:location [
  dcterms:temporal "0640" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658409> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Aleppo> ;
-geo:location [
- geo:lat "36.21667" ;
- geo:long "37.16667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/18/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/18/tei> ;
 geo:location [
@@ -8571,9 +8493,6 @@ geo:location [
  dcterms:temporal "-1300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678374> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sarepta> ;
-geo:location [
- geo:lat "33.4575" ;
- geo:long "35.29583" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/179/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/179/tei> ;
 geo:location [
@@ -8723,9 +8642,6 @@ geo:location [
  skos:exactMatch <http://pleiades.stoa.org/places/658587> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Samosata> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Samsat,_Turkey> ;
-geo:location [
- geo:lat "37.56452" ;
- geo:long "38.47134" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/178/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/178/tei> ;
 geo:location [
@@ -8844,9 +8760,6 @@ geo:location [
  dcterms:temporal "1281" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874671> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Salmas> ;
-geo:location [
- geo:lat "38.2" ;
- geo:long "44.766667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/177/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/177/tei> ;
 geo:location [
@@ -9191,9 +9104,6 @@ geo:location [
  dcterms:temporal "-0281" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648771> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Silifke> ;
-geo:location [
- geo:lat "36.36667" ;
- geo:long "33.93333" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/174/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/174/tei> ;
 geo:location [
@@ -9314,9 +9224,6 @@ geo:location [
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658585> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Arsuz> ;
-geo:location [
- geo:lat "36.41182" ;
- geo:long "35.89281" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/173/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/173/tei> ;
 geo:location [
@@ -9503,9 +9410,6 @@ geo:location [
  dcterms:temporal "0688" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874662> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ras_al-Ayn,_Syria> ;
-geo:location [
- geo:lat "36.82584" ;
- geo:long "40.04962" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/172/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/172/tei> ;
 geo:location [
@@ -9729,9 +9633,6 @@ geo:location [
  dcterms:temporal "0998" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874409> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ahlat> ;
-geo:location [
- geo:lat "38.752778" ;
- geo:long "42.494444" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/17/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/17/tei> ;
 geo:location [
@@ -9858,9 +9759,6 @@ geo:location [
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/912926> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ramhormoz> ;
-geo:location [
- geo:lat "31.28217" ;
- geo:long "49.60861" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/169/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/169/tei> ;
 geo:location [
@@ -9993,9 +9891,6 @@ geo:location [
  rdfs:label "264. Hormizd, Monastery of Rabban"@en ;];
  dcterms:temporal "0700" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Rabban_Hormizd_Monastery> ;
-geo:location [
- geo:lat "36.749167" ;
- geo:long "43.114444" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/168/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/168/tei> ;
 geo:location [
@@ -10403,9 +10298,6 @@ geo:location [
  dcterms:temporal "-0800" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668354> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Resafa> ;
-geo:location [
- geo:lat "35.616667" ;
- geo:long "38.75" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/165/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/165/tei> ;
 geo:location [
@@ -10540,9 +10432,6 @@ geo:location [
  dcterms:description "A town northeast of and east of ." ;
  dcterms:temporal "1832" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Rowanduz> ;
-geo:location [
- geo:lat "36.6125" ;
- geo:long "44.524444" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/164/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/164/tei> ;
 geo:location [
@@ -10661,9 +10550,6 @@ geo:location [
  dcterms:description "A town in the near the , northeast of ." ;
  dcterms:temporal "1607" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Konak,_Hakkari> ;
-geo:location [
- geo:lat "37.642778" ;
- geo:long "43.789444" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/163/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/163/tei> ;
 geo:location [
@@ -10812,9 +10698,6 @@ geo:location [
  dcterms:temporal "0048" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668226> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Qinnasrin> ;
-geo:location [
- geo:lat "35.99861" ;
- geo:long "36.99806" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/162/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/162/tei> ;
 geo:location [
@@ -10935,9 +10818,6 @@ geo:location [
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668221> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Qarah,_Syria> ;
-geo:location [
- geo:lat "34.16826385" ;
- geo:long "36.75343335" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/161/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/161/tei> ;
 geo:location [
@@ -11059,9 +10939,6 @@ geo:location [
  dcterms:description "A modern city just south of ." ;
  dcterms:temporal "1926" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Qamishli> ;
-geo:location [
- geo:lat "37.05" ;
- geo:long "41.216667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/160/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/160/tei> ;
 geo:location [
@@ -11077,9 +10954,6 @@ geo:location [
  dcterms:temporal "0130" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658368> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ayas,_Adana> ;
-geo:location [
- geo:lat "36.76901" ;
- geo:long "35.78768" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/16/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/16/tei> ;
 geo:location [
@@ -11321,9 +11195,6 @@ geo:location [
  dcterms:temporal "0210" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678332> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Shahba> ;
-geo:location [
- geo:lat "32.85359" ;
- geo:long "36.62683" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/158/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/158/tei> ;
 geo:location [
@@ -11454,9 +11325,6 @@ geo:location [
  dcterms:temporal "-0060" ;
  skos:exactMatch <http://pleiades.stoa.org/places/697725> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Petra> ;
-geo:location [
- geo:lat "30.32861" ;
- geo:long "35.44194" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/157/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/157/tei> ;
 geo:location [
@@ -11578,9 +11446,6 @@ geo:location [
  dcterms:description "The sea that separates the Arabian peninsula from Iran." ;
  skos:exactMatch <http://pleiades.stoa.org/places/29713> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Persian_Gulf> ;
-geo:location [
- geo:lat "27.0000001" ;
- geo:long "50.9999999" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/156/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/156/tei> ;
 geo:location [
@@ -11827,9 +11692,6 @@ geo:location [
  dcterms:temporal "-0003" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678324> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Banias> ;
-geo:location [
- geo:lat "33.24861" ;
- geo:long "35.69444" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/154/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/154/tei> ;
 geo:location [
@@ -11917,9 +11779,6 @@ geo:location [
  dcterms:description "An island off the south-western coast of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/590031> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Rhodes> ;
-geo:location [
- geo:lat "36.195597" ;
- geo:long "27.964125" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1534/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1534/tei> ;
 geo:location [
@@ -11941,9 +11800,6 @@ geo:location [
  dcterms:description "A region of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/638965> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Lycia> ;
-geo:location [
- geo:lat "36.512941" ;
- geo:long "29.1282355" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1533/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1533/tei> ;
 geo:location [
@@ -11965,9 +11821,6 @@ geo:location [
  dcterms:description "A region of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/648698> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Lycaonia> ;
-geo:location [
- geo:lat "37.25" ;
- geo:long "32.75" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1532/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1532/tei> ;
 geo:location [
@@ -12024,9 +11877,6 @@ geo:location [
  skos:exactMatch <http://pleiades.stoa.org/places/668331> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Palmyra> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tadmur> ;
-geo:location [
- geo:lat "34.56" ;
- geo:long "38.26722" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/153/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/153/tei> ;
 geo:location [
@@ -12048,9 +11898,6 @@ geo:location [
  dcterms:description "An island off the western coast of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/550497> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Chios> ;
-geo:location [
- geo:lat "38.414" ;
- geo:long "26.053" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1529/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1529/tei> ;
 geo:location [
@@ -12109,9 +11956,6 @@ geo:location [
  dcterms:description "A region of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/550701> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Lydia> ;
-geo:location [
- geo:lat "38.746057" ;
- geo:long "28.159216" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1526/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1526/tei> ;
 geo:location [
@@ -12505,9 +12349,6 @@ geo:location [
  dcterms:temporal "0807" ;
  skos:exactMatch <http://pleiades.stoa.org/places/687854> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Bayt_Jibrin> ;
-geo:location [
- geo:lat "31.607738" ;
- geo:long "34.894124" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1508/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1508/tei> ;
 geo:location [
@@ -12585,9 +12426,6 @@ geo:location [
  dcterms:description "A city in central Anatolia." ;
  skos:exactMatch <http://pleiades.stoa.org/places/629075> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sivas> ;
-geo:location [
- geo:lat "39.747662" ;
- geo:long "37.017879" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1504/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1504/tei> ;
 geo:location [
@@ -12704,9 +12542,6 @@ geo:location [
  dcterms:temporal "-1335" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648548> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Adana> ;
-geo:location [
- geo:lat "37" ;
- geo:long "35.32133" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/15/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/15/tei> ;
 geo:location [
@@ -12962,9 +12797,6 @@ geo:location [
  dcterms:temporal "1159" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874720> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tal_Afar> ;
-geo:location [
- geo:lat "36.36904" ;
- geo:long "42.437347" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1489/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1489/tei> ;
 geo:location [
@@ -13158,9 +12990,6 @@ geo:location [
  dcterms:description "The island of Lesbos in the north Aegean Sea." ;
  skos:exactMatch <http://pleiades.stoa.org/places/550696> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Lesbos> ;
-geo:location [
- geo:lat "39.2074811" ;
- geo:long "26.1342123" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1478/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1478/tei> ;
 geo:location [
@@ -13183,9 +13012,6 @@ geo:location [
  dcterms:description "A city of Isauria." ;
  dcterms:temporal "0538" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648707> ;
-geo:location [
- geo:lat "36.759213" ;
- geo:long "33.349677" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1477/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1477/tei> ;
 geo:location [
@@ -13209,9 +13035,6 @@ geo:location [
  dcterms:temporal "0538" ;
  skos:exactMatch <http://pleiades.stoa.org/places/550822> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Alaşehir> ;
-geo:location [
- geo:lat "38.35" ;
- geo:long "28.516667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1476/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1476/tei> ;
 geo:location [
@@ -13234,9 +13057,6 @@ geo:location [
  dcterms:description "A location with a monastery whose inhabitants received a letter from ." ;
  dcterms:temporal "0538" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648786> ;
-geo:location [
- geo:lat "36.424325" ;
- geo:long "33.88707" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1475/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1475/tei> ;
 geo:location [
@@ -13272,9 +13092,6 @@ geo:location [
  dcterms:temporal "0538" ;
  skos:exactMatch <http://pleiades.stoa.org/places/727192> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Pelusium> ;
-geo:location [
- geo:lat "31.049917" ;
- geo:long "32.600128" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1473/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1473/tei> ;
 geo:location [
@@ -13296,9 +13113,6 @@ geo:location [
  dcterms:temporal "0538" ;
  skos:exactMatch <http://pleiades.stoa.org/places/599564> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Caria> ;
-geo:location [
- geo:lat "37.0370402584" ;
- geo:long "27.425929777" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1472/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1472/tei> ;
 geo:location [
@@ -13326,9 +13140,6 @@ geo:location [
  dcterms:temporal "0538" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668190> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tartus> ;
-geo:location [
- geo:lat "34.8974275" ;
- geo:long "35.8836795" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1471/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1471/tei> ;
 geo:location [
@@ -13380,9 +13191,6 @@ geo:location [
  dcterms:description "A river of which runs from southwest of north to ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/658560> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Orontes_River> ;
-geo:location [
- geo:lat "35.2728339" ;
- geo:long "36.4825754" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/147/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/147/tei> ;
 geo:location [
@@ -13404,9 +13212,6 @@ geo:location [
  dcterms:temporal "-0323" ;
  skos:exactMatch <http://pleiades.stoa.org/places/639048> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Perga> ;
-geo:location [
- geo:lat "36.961406" ;
- geo:long "30.854274" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1469/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1469/tei> ;
 geo:location [
@@ -13429,9 +13234,6 @@ geo:location [
  skos:exactMatch <http://pleiades.stoa.org/places/599636> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Halicarnassus> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Bodrum> ;
-geo:location [
- geo:lat "37.042901" ;
- geo:long "27.420201" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1468/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1468/tei> ;
 geo:location [
@@ -13453,9 +13255,6 @@ geo:location [
  dcterms:temporal "0538" ;
  skos:exactMatch <http://pleiades.stoa.org/places/727256> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Xois> ;
-geo:location [
- geo:lat "31.108961" ;
- geo:long "30.93728" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1467/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1467/tei> ;
 geo:location [
@@ -13497,9 +13296,6 @@ geo:location [
  dcterms:description "A monastery near the port of ." ;
  dcterms:temporal "0498" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658621> ;
-geo:location [
- geo:lat "36.131236" ;
- geo:long "35.939185" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1464/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1464/tei> ;
 geo:location [
@@ -13589,9 +13385,6 @@ geo:location [
  dcterms:temporal "0024" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648725> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Olba_(ancient_city)> ;
-geo:location [
- geo:lat "36.7" ;
- geo:long "33.91667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/146/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/146/tei> ;
 geo:location [
@@ -13611,9 +13404,6 @@ geo:location [
  lawd:variantForm "ثراقية"@ar ;];
  dcterms:description "A Roman province in southeastern Europe." ;
  skos:exactMatch <http://pleiades.stoa.org/places/1001889> ;
-geo:location [
- geo:lat "42.5" ;
- geo:long "27.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1459/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1459/tei> ;
 geo:location [
@@ -13634,9 +13424,6 @@ geo:location [
  dcterms:description "A city in Thrace." ;
  dcterms:temporal "0523" ;
  skos:exactMatch <http://pleiades.stoa.org/places/216927> ;
-geo:location [
- geo:lat "42.147439" ;
- geo:long "24.749106" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1458/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1458/tei> ;
 geo:location [
@@ -13751,9 +13538,6 @@ geo:location [
  dcterms:description "The watershed of the and rivers, including southeastern Turkey, northeastern Syria, all of Iraq, and western Iran." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874602> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mesopotamia> ;
-geo:location [
- geo:lat "37.5" ;
- geo:long "39.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1452/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1452/tei> ;
 geo:location [
@@ -13985,9 +13769,6 @@ geo:location [
  dcterms:temporal "-1700" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874621> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Nineveh> ;
-geo:location [
- geo:lat "36.35944" ;
- geo:long "43.15278" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/144/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/144/tei> ;
 geo:location [
@@ -14264,9 +14045,6 @@ geo:location [
  dcterms:temporal "1185" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678085> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/An-Nabk> ;
-geo:location [
- geo:lat "34.016667" ;
- geo:long "36.716667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/143/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/143/tei> ;
 geo:location [
@@ -14434,9 +14212,6 @@ geo:location [
  dcterms:temporal "0306" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874623> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Nusaybin> ;
-geo:location [
- geo:lat "37.06667" ;
- geo:long "41.21667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/142/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/142/tei> ;
 geo:location [
@@ -14571,9 +14346,6 @@ geo:location [
  dcterms:description "A village in southeast of ." ;
  dcterms:temporal "1870" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Doğançay,_Mardin> ;
-geo:location [
- geo:lat "37.372222" ;
- geo:long "41.448333" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/141/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/141/tei> ;
 geo:location [
@@ -14715,9 +14487,6 @@ geo:location [
  dcterms:temporal "-1300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678010> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Acre,_Israel> ;
-geo:location [
- geo:lat "32.927778" ;
- geo:long "35.081667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/14/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/14/tei> ;
 geo:location [
@@ -14848,9 +14617,6 @@ geo:location [
  dcterms:temporal "0817" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874609> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mosul> ;
-geo:location [
- geo:lat "36.366667" ;
- geo:long "43.116667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/139/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/139/tei> ;
 geo:location [
@@ -15011,9 +14777,6 @@ geo:location [
  dcterms:temporal "0079" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658538> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mopsuestia> ;
-geo:location [
- geo:lat "36.95" ;
- geo:long "35.58333" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/138/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/138/tei> ;
 geo:location [
@@ -15131,9 +14894,6 @@ geo:location [
  rdfs:label "376. Midyat"@en ;];
  dcterms:temporal "-0859" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Midyat> ;
-geo:location [
- geo:lat "37.416667" ;
- geo:long "41.369722" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/137/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/137/tei> ;
 geo:location [
@@ -15282,9 +15042,6 @@ geo:location [
  dcterms:temporal "-0712" ;
  skos:exactMatch <http://pleiades.stoa.org/places/629040> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Malatya> ;
-geo:location [
- geo:lat "38.34767" ;
- geo:long "38.31463" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/136/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/136/tei> ;
 geo:location [
@@ -15413,9 +15170,6 @@ geo:location [
  dcterms:description "The large sea which divides Europe from Africa and whose eastern waters reach Anatolia, Syria, and Egypt." ;
  skos:exactMatch <http://pleiades.stoa.org/places/1043> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mediterranean_Sea> ;
-geo:location [
- geo:lat "35.0000035" ;
- geo:long "19.9999957" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/135/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/135/tei> ;
 geo:location [
@@ -15561,9 +15315,6 @@ geo:location [
  dcterms:temporal "0410" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874573> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Silvan,_Turkey> ;
-geo:location [
- geo:lat "38.1427855" ;
- geo:long "41.003257" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/134/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/134/tei> ;
 geo:location [
@@ -16021,9 +15772,6 @@ geo:location [
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874588> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mardin> ;
-geo:location [
- geo:lat "37.316667" ;
- geo:long "40.737778" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/130/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/130/tei> ;
 geo:location [
@@ -16065,9 +15813,6 @@ geo:location [
  dcterms:temporal "-6000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874341> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Erbil> ;
-geo:location [
- geo:lat "36.191111" ;
- geo:long "44.009167" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/13/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/13/tei> ;
 geo:location [
@@ -16205,9 +15950,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "1029" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Maragheh> ;
-geo:location [
- geo:lat "37.383333" ;
- geo:long "46.266667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/129/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/129/tei> ;
 geo:location [
@@ -16330,9 +16072,6 @@ geo:location [
  dcterms:description "A monastery east of ." ;
  dcterms:temporal "0700" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874536> ;
-geo:location [
- geo:lat "37.344308" ;
- geo:long "42.404847" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/128/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/128/tei> ;
 geo:location [
@@ -16715,9 +16454,6 @@ geo:location [
  dcterms:temporal "-0600" ;
  skos:exactMatch <http://pleiades.stoa.org/places/893991> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Dūr-Katlimmu> ;
-geo:location [
- geo:lat "35.65633" ;
- geo:long "40.7443" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/125/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/125/tei> ;
 geo:location [
@@ -16982,9 +16718,6 @@ geo:location [
  dcterms:temporal "0226" ;
  skos:exactMatch <http://pleiades.stoa.org/places/912905> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Maishan> ;
-geo:location [
- geo:lat "30.8093425" ;
- geo:long "47.562804" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/123/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/123/tei> ;
 geo:location [
@@ -17128,9 +16861,6 @@ geo:location [
  dcterms:temporal "-0053" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658480> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Manbij> ;
-geo:location [
- geo:lat "36.53333" ;
- geo:long "37.95" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/122/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/122/tei> ;
 geo:location [
@@ -17254,9 +16984,6 @@ geo:location [
  dcterms:description "A river which flows south of and north of and enters the above ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/894184> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Little_Zab> ;
-geo:location [
- geo:lat "35.8572581" ;
- geo:long "44.7915335" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/121/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/121/tei> ;
 geo:location [
@@ -17383,9 +17110,6 @@ geo:location [
  dcterms:description "A town of south of ." ;
  dcterms:temporal "0410" ;
  skos:exactMatch <http://pleiades.stoa.org/places/894034> ;
-geo:location [
- geo:lat "35.05958" ;
- geo:long "44.35167" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/120/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/120/tei> ;
 geo:location [
@@ -17519,9 +17243,6 @@ geo:location [
  dcterms:temporal "-1330" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668292> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Shaizar> ;
-geo:location [
- geo:lat "35.26778" ;
- geo:long "36.56667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/119/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/119/tei> ;
 geo:location [
@@ -17654,9 +17375,6 @@ geo:location [
  dcterms:temporal "-1000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668290> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Latakia> ;
-geo:location [
- geo:lat "35.51667" ;
- geo:long "35.78333" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/118/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/118/tei> ;
 geo:location [
@@ -17671,9 +17389,6 @@ geo:location [
  dcterms:description "A monastery near Jerusalem" ;
  skos:exactMatch <http://pleiades.stoa.org/places/687969> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mar_Saba> ;
-geo:location [
- geo:lat "31.704703" ;
- geo:long "35.331699" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1179/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1179/tei> ;
 geo:location [
@@ -18710,9 +18425,6 @@ geo:location [
  rdfs:label "315. Karamlish"@en ;];
  dcterms:temporal "1317" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Karamlish> ;
-geo:location [
- geo:lat "36.303611" ;
- geo:long "43.412778" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/110/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/110/tei> ;
 geo:location [
@@ -18762,9 +18474,6 @@ geo:location [
  dcterms:temporal "0200" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668335> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Apamea_(Syria)> ;
-geo:location [
- geo:lat "35.418" ;
- geo:long "36.398" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/11/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/11/tei> ;
 geo:location [
@@ -18924,9 +18633,6 @@ geo:location [
  dcterms:temporal "0581" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668318> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Al-Raqqah> ;
-geo:location [
- geo:lat "35.95" ;
- geo:long "39.016667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/109/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/109/tei> ;
 geo:location [
@@ -19092,9 +18798,6 @@ geo:location [
  dcterms:temporal "-0858" ;
  skos:exactMatch <http://pleiades.stoa.org/places/893941> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kirkuk> ;
-geo:location [
- geo:lat "35.468099" ;
- geo:long "44.3953" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/108/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/108/tei> ;
 geo:location [
@@ -19226,9 +18929,6 @@ geo:location [
  dcterms:description "A town in the near the ." ;
  dcterms:temporal "-1000" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Hakkâri> ;
-geo:location [
- geo:lat "37.574444" ;
- geo:long "43.740833" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/107/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/107/tei> ;
 geo:location [
@@ -19495,9 +19195,6 @@ geo:location [
  dcterms:temporal "-9000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/687917> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Jericho> ;
-geo:location [
- geo:lat "31.855444" ;
- geo:long "35.462181" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/105/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/105/tei> ;
 geo:location [
@@ -19646,9 +19343,6 @@ geo:location [
  dcterms:temporal "-1000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/687928> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Jerusalem> ;
-geo:location [
- geo:lat "31.78333" ;
- geo:long "35.21667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/104/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/104/tei> ;
 geo:location [
@@ -19795,9 +19489,6 @@ geo:location [
  skos:exactMatch <http://pleiades.stoa.org/places/658458> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Irenopolis,_Cilicia> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Düziçi> ;
-geo:location [
- geo:lat "37.24952" ;
- geo:long "36.46215" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/103/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/103/tei> ;
 geo:location [
@@ -19969,9 +19660,6 @@ geo:location [
  skos:exactMatch <http://pleiades.stoa.org/places/874348> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Eğil> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Carcathiocerta> ;
-geo:location [
- geo:lat "38.25661" ;
- geo:long "40.08367" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/102/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/102/tei> ;
 geo:location [
@@ -20114,9 +19802,6 @@ geo:location [
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678196> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Yabrud> ;
-geo:location [
- geo:lat "33.97223" ;
- geo:long "36.63115" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/101/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/101/tei> ;
 geo:location [
@@ -20304,9 +19989,6 @@ geo:location [
  dcterms:description "A mountain north of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874530> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mount_Izla> ;
-geo:location [
- geo:lat "37.333333" ;
- geo:long "41.166667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/100/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/100/tei> ;
 geo:location [
@@ -20336,9 +20018,6 @@ geo:location [
  skos:exactMatch <http://pleiades.stoa.org/places/658381> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Antioch> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Antakya> ;
-geo:location [
- geo:lat "36.2" ;
- geo:long "36.15" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/10/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/10/tei> ;
 geo:location [
@@ -20435,9 +20114,6 @@ geo:location [
  rdfs:label "20. Adiabene"@en ;];
  skos:exactMatch <http://pleiades.stoa.org/places/893935> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Adiabene> ;
-geo:location [
- geo:lat "36.191265" ;
- geo:long "44.00924" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/993/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/993/tei> ;
 geo:location [
@@ -20773,9 +20449,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "1203" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Rumkale> ;
-geo:location [
- geo:lat "37.270778" ;
- geo:long "37.837917" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/97/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/97/tei> ;
 geo:location [
@@ -20897,9 +20570,6 @@ geo:location [
  dcterms:temporal "0271" ;
  skos:exactMatch <http://pleiades.stoa.org/places/912865> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ahvaz> ;
-geo:location [
- geo:lat "31.31671" ;
- geo:long "48.68438" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/96/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/96/tei> ;
 geo:location [
@@ -21225,9 +20895,6 @@ geo:location [
  skos:exactMatch <http://pleiades.stoa.org/places/658574> ;
  skos:exactMatch <http://pleiades.stoa.org/places/658568> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Adıyaman> ;
-geo:location [
- geo:lat "37.75972" ;
- geo:long "38.27875" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/94/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/94/tei> ;
 geo:location [
@@ -21395,9 +21062,6 @@ geo:location [
  dcterms:temporal "-0100" ;
  skos:exactMatch <http://pleiades.stoa.org/places/894004> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Hatra> ;
-geo:location [
- geo:lat "35.58806" ;
- geo:long "42.71833" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/93/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/93/tei> ;
 geo:location [
@@ -21551,9 +21215,6 @@ geo:location [
  dcterms:temporal "0640" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874664> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Hasankeyf> ;
-geo:location [
- geo:lat "37.714167" ;
- geo:long "41.413056" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/92/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/92/tei> ;
 geo:location [
@@ -21682,9 +21343,6 @@ geo:location [
  dcterms:temporal "-0835" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668182> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Hama> ;
-geo:location [
- geo:lat "35.13333" ;
- geo:long "36.75" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/91/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/91/tei> ;
 geo:location [
@@ -21872,9 +21530,6 @@ geo:location [
  dcterms:temporal "0525" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658378> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Anazarbus> ;
-geo:location [
- geo:lat "37.263889" ;
- geo:long "35.905556" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/9/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/9/tei> ;
 geo:location [
@@ -22032,9 +21687,6 @@ geo:location [
  dcterms:temporal "0710" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658474> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kahramanmaraş> ;
-geo:location [
- geo:lat "37.583333" ;
- geo:long "36.933333" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/89/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/89/tei> ;
 geo:location [
@@ -22184,9 +21836,6 @@ geo:location [
  dcterms:temporal "0912" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874296> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Cizre> ;
-geo:location [
- geo:lat "37.325" ;
- geo:long "42.195833" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/88/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/88/tei> ;
 geo:location [
@@ -22231,9 +21880,6 @@ geo:location [
  dcterms:description "A medieval city in northeastern Persia." ;
  skos:exactMatch <http://pleiades.stoa.org/places/952108> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tus,_Iran> ;
-geo:location [
- geo:lat "36.475251" ;
- geo:long "59.513982" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/877/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/877/tei> ;
 geo:location [
@@ -22334,9 +21980,6 @@ geo:location [
  dcterms:temporal "-1200" ;
  skos:exactMatch <http://pleiades.stoa.org/places/687902> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Gaza> ;
-geo:location [
- geo:lat "31.51667" ;
- geo:long "34.45" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/87/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/87/tei> ;
 geo:location [
@@ -22397,9 +22040,6 @@ geo:location [
  lawd:variantForm "سَمَرقند"@ar ;];
  skos:exactMatch <http://pleiades.stoa.org/places/59915> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Samarkand> ;
-geo:location [
- geo:lat "39.656498" ;
- geo:long "66.947223" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/865/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/865/tei> ;
 geo:location [
@@ -22419,9 +22059,6 @@ geo:location [
  lawd:variantForm "باريس"@ar ;];
  skos:exactMatch <http://pleiades.stoa.org/places/109126> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Paris> ;
-geo:location [
- geo:lat "48.852964" ;
- geo:long "2.349952" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/863/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/863/tei> ;
 geo:location [
@@ -22459,9 +22096,6 @@ geo:location [
  lawd:primaryForm "Novara"@en ;];
  skos:exactMatch <http://pleiades.stoa.org/places/383717> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Novara> ;
-geo:location [
- geo:lat "45.445082" ;
- geo:long "8.618661" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/860/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/860/tei> ;
 geo:location [
@@ -22503,9 +22137,6 @@ geo:location [
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874353> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Gerger> ;
-geo:location [
- geo:lat "38.028889" ;
- geo:long "39.032222" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/86/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/86/tei> ;
 geo:location [
@@ -22573,9 +22204,6 @@ geo:location [
  lawd:primaryForm "Milan"@en ;];
  skos:exactMatch <http://pleiades.stoa.org/places/383706> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Milan> ;
-geo:location [
- geo:lat "45.463746" ;
- geo:long "9.18806" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/854/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/854/tei> ;
 geo:location [
@@ -22623,9 +22251,6 @@ geo:location [
  dcterms:temporal "-0330" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668250> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Jableh> ;
-geo:location [
- geo:lat "35.37806" ;
- geo:long "35.92233" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/85/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/85/tei> ;
 geo:location [
@@ -22711,9 +22336,6 @@ geo:location [
  dcterms:description "A city of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/79436> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Cambridge> ;
-geo:location [
- geo:lat "52.2125" ;
- geo:long "0.114167" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/844/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/844/tei> ;
 geo:location [
@@ -22786,9 +22408,6 @@ geo:location [
  rdfs:label "209. Fars"@en ;];
  dcterms:temporal "-0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/922698> ;
-geo:location [
- geo:lat "30.5" ;
- geo:long "51.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/84/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/84/tei> ;
 geo:location [
@@ -22876,9 +22495,6 @@ geo:location [
  lawd:variantForm "أَصبهان"@ar ;];
  skos:exactMatch <http://pleiades.stoa.org/places/902990> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Isfahan> ;
-geo:location [
- geo:lat "32.65139" ;
- geo:long "51.679191" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/830/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/830/tei> ;
 geo:location [
@@ -22915,9 +22531,6 @@ geo:location [
  skos:exactMatch <http://pleiades.stoa.org/places/658465> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Carchemish> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Jarabulus> ;
-geo:location [
- geo:lat "36.82972" ;
- geo:long "38.015" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/83/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/83/tei> ;
 geo:location [
@@ -23008,9 +22621,6 @@ geo:location [
  lawd:variantForm "هَمَذَان"@ar ;];
  skos:exactMatch <http://pleiades.stoa.org/places/903021> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Hamedan> ;
-geo:location [
- geo:lat "34.799294" ;
- geo:long "48.512209" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/823/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/823/tei> ;
 geo:location [
@@ -23042,9 +22652,6 @@ geo:location [
  lawd:variantForm "فلورنسا"@ar ;];
  skos:exactMatch <http://pleiades.stoa.org/places/413138> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Florence> ;
-geo:location [
- geo:lat "43.768755" ;
- geo:long "11.256929" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/820/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/820/tei> ;
 geo:location [
@@ -23095,9 +22702,6 @@ geo:location [
  lawd:primaryForm "Erevan"@en ;];
  skos:exactMatch <http://pleiades.stoa.org/places/863922> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Yerevan> ;
-geo:location [
- geo:lat "40.185208" ;
- geo:long "44.51676" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/817/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/817/tei> ;
 geo:location [
@@ -23153,9 +22757,6 @@ geo:location [
  lawd:variantForm "دمياط"@ar ;];
  skos:exactMatch <http://pleiades.stoa.org/places/727235> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Damietta> ;
-geo:location [
- geo:lat "31.417068" ;
- geo:long "31.812588" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/811/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/811/tei> ;
 geo:location [
@@ -23180,9 +22781,6 @@ geo:location [
  dcterms:description "A Roman town in Cilicia II near the head of the Gulf of Iskenderun." ;
  dcterms:temporal "-0330" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658556> ;
-geo:location [
- geo:lat "36.95506" ;
- geo:long "36.19971" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/81/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/81/tei> ;
 geo:location [
@@ -23242,9 +22840,6 @@ geo:location [
  lawd:variantForm "بَيت لَحًم"@ar ;];
  skos:exactMatch <http://pleiades.stoa.org/places/687856> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Bethlehem> ;
-geo:location [
- geo:lat "31.712291" ;
- geo:long "35.202123" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/805/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/805/tei> ;
 geo:location [
@@ -23341,9 +22936,6 @@ geo:location [
  skos:exactMatch <http://pleiades.stoa.org/places/874298> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Amida_(Mesopotamia)> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Diyarbakır> ;
-geo:location [
- geo:lat "37.981944" ;
- geo:long "40.210556" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/8/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/8/tei> ;
 geo:location [
@@ -23359,9 +22951,6 @@ geo:location [
  lawd:variantForm "أَرْدَبِيْل"@ar ;];
  skos:exactMatch <http://pleiades.stoa.org/places/884119> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ardabil> ;
-geo:location [
- geo:lat "38.24647" ;
- geo:long "48.295051" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/798/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/798/tei> ;
 geo:location [
@@ -23459,9 +23048,6 @@ geo:location [
  dcterms:temporal "0350" ;
  skos:exactMatch <http://pleiades.stoa.org/places/1001934> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Euphratensis> ;
-geo:location [
- geo:lat "37.5" ;
- geo:long "37.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/79/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/79/tei> ;
 geo:location [
@@ -23628,9 +23214,6 @@ geo:location [
  skos:exactMatch <http://pleiades.stoa.org/places/658457> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Edessa> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Şanlıurfa> ;
-geo:location [
- geo:lat "37.15" ;
- geo:long "38.8" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/78/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/78/tei> ;
 geo:location [
@@ -23777,9 +23360,6 @@ geo:location [
  dcterms:temporal "-0303" ;
  skos:exactMatch <http://pleiades.stoa.org/places/893990> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Dura-Europos> ;
-geo:location [
- geo:lat "34.747" ;
- geo:long "40.73" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/77/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/77/tei> ;
 geo:location [
@@ -23923,9 +23503,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "1599" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Dohuk> ;
-geo:location [
- geo:lat "36.866667" ;
- geo:long "43" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/76/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/76/tei> ;
 geo:location [
@@ -24070,9 +23647,6 @@ geo:location [
  dcterms:temporal "0180" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658455> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Dülük> ;
-geo:location [
- geo:lat "37.153671" ;
- geo:long "37.359985" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/75/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/75/tei> ;
 geo:location [
@@ -24195,9 +23769,6 @@ geo:location [
  dcterms:description "A Roman town in the province of Isauria." ;
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648623> ;
-geo:location [
- geo:lat "36.5786" ;
- geo:long "33.91464" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/74/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/74/tei> ;
 geo:location [
@@ -24438,9 +24009,6 @@ geo:location [
  lawd:hasName [
  lawd:primaryForm "Media"@en ;];
  skos:exactMatch <http://pleiades.stoa.org/places/903080> ;
-geo:location [
- geo:lat "34.5" ;
- geo:long "46.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/720/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/720/tei> ;
 geo:location [
@@ -24512,9 +24080,6 @@ geo:location [
  lawd:hasName [
  lawd:variantForm "Beṯ Aramāye"@en ;];
  skos:exactMatch <http://pleiades.stoa.org/places/893958> ;
-geo:location [
- geo:lat "32.5" ;
- geo:long "44.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/717/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/717/tei> ;
 geo:location [
@@ -24560,9 +24125,6 @@ geo:location [
  lawd:hasName [
  lawd:variantForm "قُبْرُس"@ar ;];
  skos:exactMatch <http://pleiades.stoa.org/places/707498> ;
-geo:location [
- geo:lat "35.0444470024" ;
- geo:long "32.6288214881" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/714/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/714/tei> ;
 geo:location [
@@ -24630,9 +24192,6 @@ geo:location [
  lawd:hasName [
  lawd:variantForm "Beṯ ‘Arabāye"@en-xsrp1 ;];
  skos:exactMatch <http://pleiades.stoa.org/places/874340> ;
-geo:location [
- geo:lat "36.5" ;
- geo:long "41.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/710/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/710/tei> ;
 geo:location [
@@ -24788,9 +24347,6 @@ geo:location [
  dcterms:description "The capital city of the ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/79574> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/London> ;
-geo:location [
- geo:lat "51.513335" ;
- geo:long "-0.088949" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/701/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/701/tei> ;
 geo:location [
@@ -24834,9 +24390,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "1700" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874577> ;
-geo:location [
- geo:lat "37.594831" ;
- geo:long "40.954207" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/70/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/70/tei> ;
 geo:location [
@@ -24860,9 +24413,6 @@ geo:location [
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/981503> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Egypt_(Roman_province)> ;
-geo:location [
- geo:lat "27.5" ;
- geo:long "27.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/7/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/7/tei> ;
 geo:location [
@@ -24886,9 +24436,6 @@ geo:location [
  lawd:variantForm "فِلَسْطين"@ar ;];
  skos:exactMatch <http://pleiades.stoa.org/places/687995> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Palestine> ;
-geo:location [
- geo:lat "31.25" ;
- geo:long "34.75" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/698/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/698/tei> ;
 geo:location [
@@ -25148,9 +24695,6 @@ geo:location [
  skos:related <http://syriaca.org/place/18> ;
  dcterms:description "A town southwest of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/658414/> ;
-geo:location [
- geo:lat "36.214962" ;
- geo:long "36.696916" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/687/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/687/tei> ;
 geo:location [
@@ -25317,9 +24861,6 @@ geo:location [
  dcterms:description "A village in Iraq." ;
  dcterms:temporal "0894" ;
  skos:exactMatch <http://pleiades.stoa.org/places/894139> ;
-geo:location [
- geo:lat "33.853599" ;
- geo:long "44.404396" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/679/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/679/tei> ;
 geo:location [
@@ -25349,9 +24890,6 @@ geo:location [
  dcterms:description "A city in Greece." ;
  skos:exactMatch <http://pleiades.stoa.org/places/579885> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Athens> ;
-geo:location [
- geo:lat "37.971687" ;
- geo:long "23.726464" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/677/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/677/tei> ;
 geo:location [
@@ -25395,9 +24933,6 @@ geo:location [
  dcterms:description "A coastal city north of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/687839/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ashkelon> ;
-geo:location [
- geo:lat "31.661963" ;
- geo:long "34.546334" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/674/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/674/tei> ;
 geo:location [
@@ -25413,9 +24948,6 @@ geo:location [
  dcterms:description "A region west and a bit south of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874367/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Arzanene> ;
-geo:location [
- geo:lat "38.5" ;
- geo:long "41.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/673/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/673/tei> ;
 geo:location [
@@ -25432,9 +24964,6 @@ geo:location [
  skos:related <http://syriaca.org/place/84> ;
  dcterms:description "A village in ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/912989> ;
-geo:location [
- geo:lat "30.662826" ;
- geo:long "50.309141" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/672/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/672/tei> ;
 geo:location [
@@ -25452,9 +24981,6 @@ geo:location [
  dcterms:description "A city of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/922617> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Firuzabad,_Fars> ;
-geo:location [
- geo:lat "28.852984" ;
- geo:long "52.532446" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/671/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/671/tei> ;
 geo:location [
@@ -25494,9 +25020,6 @@ geo:location [
  dcterms:temporal "0505" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874444> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Dara_(Mesopotamia)> ;
-geo:location [
- geo:lat "37.17899" ;
- geo:long "40.95491" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/67/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/67/tei> ;
 geo:location [
@@ -25585,9 +25108,6 @@ geo:location [
  dcterms:description "A town west of with a Syriac Orthodox school." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874318> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Amuda> ;
-geo:location [
- geo:lat "37.104166" ;
- geo:long "40.93" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/664/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/664/tei> ;
 geo:location [
@@ -25607,9 +25127,6 @@ geo:location [
  dcterms:description "A coastal city north of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/658371/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/İskenderun> ;
-geo:location [
- geo:lat "36.589023" ;
- geo:long "36.166038" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/663/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/663/tei> ;
 geo:location [
@@ -25682,9 +25199,6 @@ geo:location [
  dcterms:temporal "-0700" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678106> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Damascus> ;
-geo:location [
- geo:lat "33.513" ;
- geo:long "36.292" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/66/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/66/tei> ;
 geo:location [
@@ -25802,9 +25316,6 @@ geo:location [
  skos:related <http://syriaca.org/place/929> ;
  dcterms:description "A province of the located in northern ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/903083> ;
-geo:location [
- geo:lat "32.5" ;
- geo:long "47.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/654/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/654/tei> ;
 geo:location [
@@ -25823,9 +25334,6 @@ geo:location [
  skos:related <http://syriaca.org/place/499> ;
  dcterms:description "A settlement west of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/668266> ;
-geo:location [
- geo:lat "35.588322" ;
- geo:long "36.458105" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/653/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/653/tei> ;
 geo:location [
@@ -25885,9 +25393,6 @@ geo:location [
  dcterms:temporal "-0281" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658446> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Cyrrhus> ;
-geo:location [
- geo:lat "36.73466" ;
- geo:long "36.94896" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/65/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/65/tei> ;
 geo:location [
@@ -25953,9 +25458,6 @@ geo:location [
  skos:related <http://syriaca.org/place/213> ;
  dcterms:description "A village southeast of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874762> ;
-geo:location [
- geo:lat "36.438598" ;
- geo:long "40.86652" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/645/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/645/tei> ;
 geo:location [
@@ -26010,9 +25512,6 @@ geo:location [
  dcterms:description "The capital city of and formerly the capital of the ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/423025> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Rome> ;
-geo:location [
- geo:lat "41.8917375" ;
- geo:long "12.4861685" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/641/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/641/tei> ;
 geo:location [
@@ -26039,9 +25538,6 @@ geo:location [
  dcterms:temporal "0054" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648723> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Claudiopolis_(Cilicia)> ;
-geo:location [
- geo:lat "36.63333" ;
- geo:long "33.45" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/64/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/64/tei> ;
 geo:location [
@@ -26056,9 +25552,6 @@ geo:location [
  dcterms:description "A settlement near the Dead Sea." ;
  skos:exactMatch <http://pleiades.stoa.org/places/688011/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Qumran> ;
-geo:location [
- geo:lat "31.741828" ;
- geo:long "35.459407" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/639/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/639/tei> ;
 geo:location [
@@ -26074,9 +25567,6 @@ geo:location [
  skos:related <http://syriaca.org/place/142> ;
  dcterms:description "A ruined church on the road between and ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874655> ;
-geo:location [
- geo:lat "36.53173" ;
- geo:long "42.508844" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/638/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/638/tei> ;
 geo:location [
@@ -26130,9 +25620,6 @@ geo:location [
  dcterms:description "The monastery of St. Simeon Stylites west of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/658606/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Church_of_Saint_Simeon_Stylites> ;
-geo:location [
- geo:lat "36.334167" ;
- geo:long "36.843889" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/635/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/635/tei> ;
 geo:location [
@@ -26246,9 +25733,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "0953" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Qlaudia_(West_Syrian_Diocese)> ;
-geo:location [
- geo:lat "38.1666666" ;
- geo:long "38.6666666" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/63/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/63/tei> ;
 geo:location [
@@ -26266,9 +25750,6 @@ geo:location [
  dcterms:description "The major river of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/727172/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Nile> ;
-geo:location [
- geo:lat "29.7497813" ;
- geo:long "31.2706" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/629/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/629/tei> ;
 geo:location [
@@ -26349,9 +25830,6 @@ geo:location [
  dcterms:description "A city in north-central ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/844926> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Çankırı> ;
-geo:location [
- geo:lat "40.6013428" ;
- geo:long "33.6134213" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/624/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/624/tei> ;
 geo:location [
@@ -26374,9 +25852,6 @@ geo:location [
  dcterms:temporal "-0500" ;
  skos:exactMatch <http://pleiades.stoa.org/places/599612> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ephesus> ;
-geo:location [
- geo:lat "37.941944" ;
- geo:long "27.339722" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/623/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/623/tei> ;
 geo:location [
@@ -26398,9 +25873,6 @@ geo:location [
  skos:exactMatch <http://pleiades.stoa.org/places/520988/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Chalcedon> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kadıköy> ;
-geo:location [
- geo:lat "40.983393" ;
- geo:long "29.025789" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/622/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/622/tei> ;
 geo:location [
@@ -26428,9 +25900,6 @@ geo:location [
  skos:exactMatch <http://pleiades.stoa.org/places/511268> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Nicaea> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Iznik> ;
-geo:location [
- geo:lat "40.426679" ;
- geo:long "29.715443" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/621/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/621/tei> ;
 geo:location [
@@ -26496,9 +25965,6 @@ geo:location [
  skos:exactMatch <http://pleiades.stoa.org/places/893974> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Circesium> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Al-Busayrah> ;
-geo:location [
- geo:lat "35.15676" ;
- geo:long "40.42574" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/62/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/62/tei> ;
 geo:location [
@@ -26683,9 +26149,6 @@ geo:location [
  dcterms:description "A large inland sea north of Iran and east of Adharbayjān." ;
  skos:exactMatch <http://pleiades.stoa.org/places/884130> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Caspian_Sea> ;
-geo:location [
- geo:lat "38.5" ;
- geo:long "50.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/61/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/61/tei> ;
 geo:location [
@@ -26735,9 +26198,6 @@ geo:location [
  dcterms:description "A city of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/961873> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Merv> ;
-geo:location [
- geo:lat "37.662778" ;
- geo:long "62.1925" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/607/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/607/tei> ;
 geo:location [
@@ -26817,9 +26277,6 @@ geo:location [
  dcterms:description "A village in ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/776189> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kellis> ;
-geo:location [
- geo:lat "25.515833" ;
- geo:long "29.095556" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/601/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/601/tei> ;
 geo:location [
@@ -26871,9 +26328,6 @@ geo:location [
  dcterms:temporal "-0316" ;
  skos:exactMatch <http://pleiades.stoa.org/places/629035> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kayseri> ;
-geo:location [
- geo:lat "38.73333" ;
- geo:long "35.48333" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/60/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/60/tei> ;
 geo:location [
@@ -26913,9 +26367,6 @@ geo:location [
  dcterms:description "A river which flows into the Dead Sea." ;
  skos:exactMatch <http://pleiades.stoa.org/places/687932> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Jordan_River> ;
-geo:location [
- geo:lat "33.1864496" ;
- geo:long "35.6191595" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/599/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/599/tei> ;
 geo:location [
@@ -26973,9 +26424,6 @@ geo:location [
  dcterms:description "A mountain in ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/678042> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Jabal_al-Druze> ;
-geo:location [
- geo:lat "32.75" ;
- geo:long "36.75" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/595/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/595/tei> ;
 geo:location [
@@ -27018,9 +26466,6 @@ geo:location [
  dcterms:description "A Mediterranean nation in southern ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/1052> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Italy> ;
-geo:location [
- geo:lat "42.5" ;
- geo:long "12.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/592/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/592/tei> ;
 geo:location [
@@ -27051,9 +26496,6 @@ geo:location [
  dcterms:description "A nation on the horn of Africa." ;
  skos:exactMatch <http://pleiades.stoa.org/places/39274> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ethiopia> ;
-geo:location [
- geo:lat "12.5" ;
- geo:long "37.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/590/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/590/tei> ;
 geo:location [
@@ -27085,9 +26527,6 @@ geo:location [
  dcterms:description "A former village and archaeological site on the now beneath al-Assad Lake." ;
  skos:exactMatch <http://pleiades.stoa.org/places/668201> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Dibsi_Faraj> ;
-geo:location [
- geo:lat "35.976326" ;
- geo:long "38.198554" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/589/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/589/tei> ;
 geo:location [
@@ -27141,9 +26580,6 @@ geo:location [
  skos:exactMatch <http://pleiades.stoa.org/places/520998> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Constantinople> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Istanbul> ;
-geo:location [
- geo:lat "41.008548" ;
- geo:long "28.979938" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/586/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/586/tei> ;
 geo:location [
@@ -27171,9 +26607,6 @@ geo:location [
  dcterms:description "On the western bank of the northeast of ." ;
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658418> ;
-geo:location [
- geo:lat "36.655948" ;
- geo:long "38.076558" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/584/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/584/tei> ;
 geo:location [
@@ -27259,9 +26692,6 @@ geo:location [
  dcterms:temporal "0001" ;
  skos:exactMatch <http://pleiades.stoa.org/places/893976> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ctesiphon> ;
-geo:location [
- geo:lat "33.09361" ;
- geo:long "44.58056" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/58/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/58/tei> ;
 geo:location [
@@ -27280,9 +26710,6 @@ geo:location [
  dcterms:temporal "-0600" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668340> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ras_al-Bassit> ;
-geo:location [
- geo:lat "35.847777" ;
- geo:long "35.824785" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/579/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/579/tei> ;
 geo:location [
@@ -27299,9 +26726,6 @@ geo:location [
  dcterms:description "A region of Mesopotamia around the ancient city of Babylon." ;
  skos:exactMatch <http://pleiades.stoa.org/places/912816> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Babylonia> ;
-geo:location [
- geo:lat "32.5" ;
- geo:long "44.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/578/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/578/tei> ;
 geo:location [
@@ -27328,9 +26752,6 @@ geo:location [
  dcterms:temporal "-0334" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678179> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Baalbek> ;
-geo:location [
- geo:lat "34.006664" ;
- geo:long "36.203685" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/577/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/577/tei> ;
 geo:location [
@@ -27378,9 +26799,6 @@ geo:location [
  dcterms:temporal "0426" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668187> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Anasartha> ;
-geo:location [
- geo:lat "35.809864" ;
- geo:long "37.518964" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/574/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/574/tei> ;
 geo:location [
@@ -27420,9 +26838,6 @@ geo:location [
  dcterms:temporal "-0331" ;
  skos:exactMatch <http://pleiades.stoa.org/places/727070> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Alexandria> ;
-geo:location [
- geo:lat "31.195371" ;
- geo:long "29.904133" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/572/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/572/tei> ;
 geo:location [
@@ -27607,9 +27022,6 @@ geo:location [
  dcterms:description "A mountain in the Sinai Peninsula." ;
  skos:exactMatch <http://pleiades.stoa.org/places/746815> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mount_Sinai> ;
-geo:location [
- geo:lat "28.58771" ;
- geo:long "33.921682" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/563/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/563/tei> ;
 geo:location [
@@ -27773,9 +27185,6 @@ geo:location [
  dcterms:description "A monastery near the monastery of ." ;
  dcterms:temporal "1271" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874586> ;
-geo:location [
- geo:lat "37.198257" ;
- geo:long "41.430776" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/556/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/556/tei> ;
 geo:location [
@@ -27911,9 +27320,6 @@ geo:location [
  dcterms:temporal "-0500" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658440> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Cilicia> ;
-geo:location [
- geo:lat "37.25" ;
- geo:long "35.75" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/55/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/55/tei> ;
 geo:location [
@@ -28405,9 +27811,6 @@ geo:location [
  skos:exactMatch <http://pleiades.stoa.org/places/678401> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Caesarea_Maritima> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Caesarea> ;
-geo:location [
- geo:lat "32.5" ;
- geo:long "34.89972" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/53/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/53/tei> ;
 geo:location [
@@ -28528,9 +27931,6 @@ geo:location [
  dcterms:description "A mountainous ridge in northwestern Iraq." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874700> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sinjar_Mountains> ;
-geo:location [
- geo:lat "36.354311" ;
- geo:long "41.7171985" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/524/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/524/tei> ;
 geo:location [
@@ -28554,9 +27954,6 @@ geo:location [
  dcterms:temporal "-0330" ;
  skos:exactMatch <http://pleiades.stoa.org/places/961874> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Herat> ;
-geo:location [
- geo:lat "34.345833" ;
- geo:long "62.188384" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/523/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/523/tei> ;
 geo:location [
@@ -28583,9 +27980,6 @@ geo:location [
  dcterms:temporal "1943" ;
  skos:exactMatch <http://pleiades.stoa.org/places/893947> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Salman_Pak> ;
-geo:location [
- geo:lat "33.100272" ;
- geo:long "44.583487" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/522/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/522/tei> ;
 geo:location [
@@ -28634,9 +28028,6 @@ geo:location [
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874383> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Palu,_Elazığ> ;
-geo:location [
- geo:lat "38.705472" ;
- geo:long "39.952527" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/520/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/520/tei> ;
 geo:location [
@@ -28660,9 +28051,6 @@ geo:location [
  dcterms:temporal "-7000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668216> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Byblos> ;
-geo:location [
- geo:lat "34.123611" ;
- geo:long "35.651111" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/52/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/52/tei> ;
 geo:location [
@@ -28768,9 +28156,6 @@ geo:location [
  dcterms:temporal "0075" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668196> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Arak,_Syria> ;
-geo:location [
- geo:lat "34.671287" ;
- geo:long "38.582516" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/515/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/515/tei> ;
 geo:location [
@@ -28796,9 +28181,6 @@ geo:location [
  dcterms:temporal "0634" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668178> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Al-Sukhnah> ;
-geo:location [
- geo:lat "34.900877" ;
- geo:long "38.882857" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/514/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/514/tei> ;
 geo:location [
@@ -28837,9 +28219,6 @@ geo:location [
  dcterms:description "A region in southeastern Europe on the northwestern shores of the Aegean Sea." ;
  skos:exactMatch <http://pleiades.stoa.org/places/491656> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Macedonia_(region)> ;
-geo:location [
- geo:lat "41.25" ;
- geo:long "21.75" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/512/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/512/tei> ;
 geo:location [
@@ -28876,9 +28255,6 @@ geo:location [
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658550> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Nizip> ;
-geo:location [
- geo:lat "37.009788" ;
- geo:long "37.788277" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/511/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/511/tei> ;
 geo:location [
@@ -28903,9 +28279,6 @@ geo:location [
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/857105> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tokat> ;
-geo:location [
- geo:lat "40.317677" ;
- geo:long "36.549116" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/510/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/510/tei> ;
 geo:location [
@@ -29052,9 +28425,6 @@ geo:location [
  dcterms:description "A large sea north of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/1224> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Black_Sea> ;
-geo:location [
- geo:lat "43.0786852" ;
- geo:long "34.7425505" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/503/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/503/tei> ;
 geo:location [
@@ -29082,9 +28452,6 @@ geo:location [
  skos:exactMatch <http://pleiades.stoa.org/places/511337> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/İzmit> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Nicomedia> ;
-geo:location [
- geo:lat "40.76445" ;
- geo:long "29.923486" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/502/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/502/tei> ;
 geo:location [
@@ -29125,9 +28492,6 @@ geo:location [
  dcterms:description "A sub-continent in southern Asia, the home of an important and ancient branch of Syriac Christianity." ;
  skos:exactMatch <http://pleiades.stoa.org/places/50004> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/India> ;
-geo:location [
- geo:lat "22.5" ;
- geo:long "77.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/500/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/500/tei> ;
 geo:location [
@@ -29156,9 +28520,6 @@ geo:location [
  dcterms:temporal "0638" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658412> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Birecik> ;
-geo:location [
- geo:lat "37.02543" ;
- geo:long "37.97877" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/50/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/50/tei> ;
 geo:location [
@@ -29280,9 +28641,6 @@ geo:location [
  dcterms:description "A city of western Syria." ;
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668350> ;
-geo:location [
- geo:lat "34.966351" ;
- geo:long "36.39298" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/496/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/496/tei> ;
 geo:location [
@@ -29332,9 +28690,6 @@ geo:location [
  dcterms:temporal "-1000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/619103> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ankara> ;
-geo:location [
- geo:lat "39.943198" ;
- geo:long "32.860538" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/494/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/494/tei> ;
 geo:location [
@@ -29426,9 +28781,6 @@ geo:location [
  dcterms:temporal "0640" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874572> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kızıltepe> ;
-geo:location [
- geo:lat "37.191031" ;
- geo:long "40.589019" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/490/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/490/tei> ;
 geo:location [
@@ -29462,9 +28814,6 @@ geo:location [
  skos:related <http://syriaca.org/place/221> ;
  dcterms:description "A village in ." ;
  dcterms:temporal "0998" ;
-geo:location [
- geo:lat "37.316667" ;
- geo:long "41.616667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/49/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/49/tei> ;
 geo:location [
@@ -29490,9 +28839,6 @@ geo:location [
  dcterms:temporal "-0140" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648810> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mersin> ;
-geo:location [
- geo:lat "36.808642" ;
- geo:long "34.638066" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/489/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/489/tei> ;
 geo:location [
@@ -29515,9 +28861,6 @@ geo:location [
  dcterms:description "A small sea on the waterway between the and the Aegean, south of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/511381> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sea_of_Marmara> ;
-geo:location [
- geo:lat "40.6666672" ;
- geo:long "28.25" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/488/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/488/tei> ;
 geo:location [
@@ -29541,9 +28884,6 @@ geo:location [
  dcterms:description "A mountainous region in the central Levantine coast of the ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/678267> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Lebanon> ;
-geo:location [
- geo:lat "34.3" ;
- geo:long "36.116667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/487/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/487/tei> ;
 geo:location [
@@ -29611,9 +28951,6 @@ geo:location [
  dcterms:temporal "0012" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874373> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Erzurum> ;
-geo:location [
- geo:lat "39.907739" ;
- geo:long "41.276889" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/484/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/484/tei> ;
 geo:location [
@@ -29680,9 +29017,6 @@ geo:location [
  dcterms:description "A river which flows past and before emptying into the near ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/857171> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Yeşilırmak_River> ;
-geo:location [
- geo:lat "41.1802622" ;
- geo:long "36.7190803" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/481/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/481/tei> ;
 geo:location [
@@ -29706,9 +29040,6 @@ geo:location [
  dcterms:temporal "-0047" ;
  skos:exactMatch <http://pleiades.stoa.org/places/857024> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Samsun> ;
-geo:location [
- geo:lat "41.292721" ;
- geo:long "36.3313" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/480/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/480/tei> ;
 geo:location [
@@ -29742,9 +29073,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "0518" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Suruç> ;
-geo:location [
- geo:lat "36.97608" ;
- geo:long "38.42424" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/48/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/48/tei> ;
 geo:location [
@@ -29839,9 +29167,6 @@ geo:location [
  rdfs:label "321. Kokhe"@en ;];
  dcterms:temporal "0224" ;
  skos:exactMatch <http://pleiades.stoa.org/places/894178> ;
-geo:location [
- geo:lat "33.09914" ;
- geo:long "44.551979" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/475/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/475/tei> ;
 geo:location [
@@ -29990,9 +29315,6 @@ geo:location [
  rdfs:label "a village near Kafrtūt, in the province of Mardin."@en ;
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "1943" ;
-geo:location [
- geo:lat "37.12" ;
- geo:long "40.47" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/47/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/47/tei> ;
 geo:location [
@@ -30063,9 +29385,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "0640" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874372> ;
-geo:location [
- geo:lat "38.347032" ;
- geo:long "40.752181" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/467/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/467/tei> ;
 geo:location [
@@ -30096,9 +29415,6 @@ geo:location [
  dcterms:temporal "-0071" ;
  skos:exactMatch <http://pleiades.stoa.org/places/857177> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Niksar> ;
-geo:location [
- geo:lat "40.609983" ;
- geo:long "36.951027" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/466/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/466/tei> ;
 geo:location [
@@ -30321,9 +29637,6 @@ geo:location [
  dcterms:temporal "-1300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678060> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Beirut> ;
-geo:location [
- geo:lat "33.88694" ;
- geo:long "35.51306" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/46/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/46/tei> ;
 geo:location [
@@ -30453,9 +29766,6 @@ geo:location [
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/687903> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Maiuma> ;
-geo:location [
- geo:lat "31.530845" ;
- geo:long "34.433158" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/456/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/456/tei> ;
 geo:location [
@@ -30658,9 +29968,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "0582" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658405> ;
-geo:location [
- geo:lat "36.976694" ;
- geo:long "38.42451" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/45/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/45/tei> ;
 geo:location [
@@ -30777,9 +30084,6 @@ geo:location [
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658442> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kilis> ;
-geo:location [
- geo:lat "36.716346" ;
- geo:long "37.114125" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/446/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/446/tei> ;
 geo:location [
@@ -30944,9 +30248,6 @@ geo:location [
  dcterms:temporal "-0354" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648647> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Konya> ;
-geo:location [
- geo:lat "37.872202" ;
- geo:long "32.492331" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/440/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/440/tei> ;
 geo:location [
@@ -30970,9 +30271,6 @@ geo:location [
  dcterms:temporal "0636" ;
  skos:exactMatch <http://pleiades.stoa.org/places/912821> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Basra> ;
-geo:location [
- geo:lat "30.5" ;
- geo:long "47.816667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/44/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/44/tei> ;
 geo:location [
@@ -31003,9 +30301,6 @@ geo:location [
  dcterms:temporal "-0410" ;
  skos:exactMatch <http://pleiades.stoa.org/places/511218> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Cyzicus> ;
-geo:location [
- geo:lat "40.389806" ;
- geo:long "27.874127" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/439/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/439/tei> ;
 geo:location [
@@ -31060,9 +30355,6 @@ geo:location [
  dcterms:temporal "-0356" ;
  skos:exactMatch <http://pleiades.stoa.org/places/501482> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Philippi> ;
-geo:location [
- geo:lat "41.012021" ;
- geo:long "24.285182" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/437/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/437/tei> ;
 geo:location [
@@ -31201,9 +30493,6 @@ geo:location [
  dcterms:temporal "-1300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668198> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Arqa> ;
-geo:location [
- geo:lat "34.531277" ;
- geo:long "36.047047" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/432/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/432/tei> ;
 geo:location [
@@ -31239,9 +30528,6 @@ geo:location [
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/628929> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Akçadağ> ;
-geo:location [
- geo:lat "38.343754" ;
- geo:long "37.964119" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/431/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/431/tei> ;
 geo:location [
@@ -31282,9 +30568,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "-0330" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874688> ;
-geo:location [
- geo:lat "36.244537" ;
- geo:long "40.707477" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/430/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/430/tei> ;
 geo:location [
@@ -31646,9 +30929,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "0559" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874379> ;
-geo:location [
- geo:lat "36.514152" ;
- geo:long "42.726566" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/42/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/42/tei> ;
 geo:location [
@@ -31789,9 +31069,6 @@ geo:location [
  skos:exactMatch <http://pleiades.stoa.org/places/912936> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Susa> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Shush,_Iran> ;
-geo:location [
- geo:lat "32.1887935" ;
- geo:long "48.2537285" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/415/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/415/tei> ;
 geo:location [
@@ -31822,9 +31099,6 @@ geo:location [
  dcterms:temporal "-0187" ;
  skos:exactMatch <http://pleiades.stoa.org/places/638758> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sozopolis,_Pisidia> ;
-geo:location [
- geo:lat "38.072539" ;
- geo:long "30.470512" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/414/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/414/tei> ;
 geo:location [
@@ -31914,9 +31188,6 @@ geo:location [
  dcterms:temporal "0790" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668362> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Al-Salamiyah> ;
-geo:location [
- geo:lat "35.050807" ;
- geo:long "37.057146" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/411/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/411/tei> ;
 geo:location [
@@ -31950,9 +31221,6 @@ geo:location [
  dcterms:temporal "0581" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668366> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sarmin> ;
-geo:location [
- geo:lat "35.922817" ;
- geo:long "36.735987" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/410/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/410/tei> ;
 geo:location [
@@ -31977,9 +31245,6 @@ geo:location [
  dcterms:temporal "0762" ;
  skos:exactMatch <http://pleiades.stoa.org/places/893952> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Baghdad> ;
-geo:location [
- geo:lat "33.325" ;
- geo:long "44.422" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/41/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/41/tei> ;
 geo:location [
@@ -32018,9 +31283,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  skos:exactMatch <http://pleiades.stoa.org/places/29547> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sistan> ;
-geo:location [
- geo:lat "32.5" ;
- geo:long "62.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/409/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/409/tei> ;
 geo:location [
@@ -32145,9 +31407,6 @@ geo:location [
  dcterms:temporal "1225" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658582> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Araban> ;
-geo:location [
- geo:lat "37.427054" ;
- geo:long "37.692332" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/405/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/405/tei> ;
 geo:location [
@@ -32333,9 +31592,6 @@ geo:location [
  dcterms:temporal "-1300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678073> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Bosra> ;
-geo:location [
- geo:lat "32.516667" ;
- geo:long "36.483333" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/40/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/40/tei> ;
 geo:location [
@@ -32375,9 +31631,6 @@ geo:location [
  dcterms:temporal "1493" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874686> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Savur> ;
-geo:location [
- geo:lat "37.538333" ;
- geo:long "40.888056" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/4/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/4/tei> ;
 geo:location [
@@ -32412,9 +31665,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "0389" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874524> ;
-geo:location [
- geo:lat "37.937557" ;
- geo:long "40.235101" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/399/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/399/tei> ;
 geo:location [
@@ -32455,9 +31705,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "0500" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658527> ;
-geo:location [
- geo:lat "37.105188" ;
- geo:long "38.90284" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/398/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/398/tei> ;
 geo:location [
@@ -32640,9 +31887,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "0600" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874582> ;
-geo:location [
- geo:lat "37.231912" ;
- geo:long "41.411144" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/392/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/392/tei> ;
 geo:location [
@@ -32934,9 +32178,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "0500" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874578> ;
-geo:location [
- geo:lat "37.211579" ;
- geo:long "41.473406" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/384/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/384/tei> ;
 geo:location [
@@ -33839,9 +33080,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "0508" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668402> ;
-geo:location [
- geo:lat "35.978601" ;
- geo:long "39.002571" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/356/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/356/tei> ;
 geo:location [
@@ -34044,9 +33282,6 @@ geo:location [
  dcterms:temporal "0270" ;
  skos:exactMatch <http://pleiades.stoa.org/places/912873> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Gundeshapur> ;
-geo:location [
- geo:lat "32.283618" ;
- geo:long "48.516471" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/35/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/35/tei> ;
 geo:location [
@@ -34404,9 +33639,6 @@ geo:location [
  dcterms:temporal "0410" ;
  skos:exactMatch <http://pleiades.stoa.org/places/912823> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Beth_Huzaye_(East_Syrian_Ecclesiastical_Province)> ;
-geo:location [
- geo:lat "31.5" ;
- geo:long "48.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/34/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/34/tei> ;
 geo:location [
@@ -34443,9 +33675,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "0600" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874579> ;
-geo:location [
- geo:lat "37.187038" ;
- geo:long "41.409741" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/339/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/339/tei> ;
 geo:location [
@@ -34724,9 +33953,6 @@ geo:location [
  dcterms:temporal "0410" ;
  skos:exactMatch <http://pleiades.stoa.org/places/893999> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Beth_Garmaï_(East_Syrian_Ecclesiastical_Province)> ;
-geo:location [
- geo:lat "35.5" ;
- geo:long "44.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/33/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/33/tei> ;
 geo:location [
@@ -35018,9 +34244,6 @@ geo:location [
  dcterms:temporal "0410" ;
  skos:exactMatch <http://pleiades.stoa.org/places/893958> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Province_of_the_Patriarch> ;
-geo:location [
- geo:lat "32.5" ;
- geo:long "44.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/32/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/32/tei> ;
 geo:location [
@@ -35121,9 +34344,6 @@ geo:location [
  dcterms:temporal "0833" ;
  skos:exactMatch <http://pleiades.stoa.org/places/727247> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tennis,_Egypt> ;
-geo:location [
- geo:lat "31.255258" ;
- geo:long "32.292698" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/316/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/316/tei> ;
 geo:location [
@@ -35311,9 +34531,6 @@ geo:location [
  dcterms:temporal "0534" ;
  skos:exactMatch <http://pleiades.stoa.org/places/863903> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tbilisi> ;
-geo:location [
- geo:lat "41.717722" ;
- geo:long "44.78057" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/310/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/310/tei> ;
 geo:location [
@@ -35356,9 +34573,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "0559" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874340> ;
-geo:location [
- geo:lat "36.5" ;
- geo:long "41.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/31/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/31/tei> ;
 geo:location [
@@ -35560,9 +34774,6 @@ geo:location [
  dcterms:temporal "2007" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874393> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Bashiqa> ;
-geo:location [
- geo:lat "36.45075" ;
- geo:long "43.341118" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/303/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/303/tei> ;
 geo:location [
@@ -35637,9 +34848,6 @@ geo:location [
  dcterms:temporal "0700" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874438> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Bitlis> ;
-geo:location [
- geo:lat "38.4" ;
- geo:long "42.116666" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/300/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/300/tei> ;
 geo:location [
@@ -35699,9 +34907,6 @@ geo:location [
  dcterms:temporal "0253" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668208> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Barbalissos> ;
-geo:location [
- geo:lat "36.0021275" ;
- geo:long "38.126807" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/299/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/299/tei> ;
 geo:location [
@@ -35876,9 +35081,6 @@ geo:location [
  dcterms:temporal "-0183" ;
  skos:exactMatch <http://pleiades.stoa.org/places/857018> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Amasya> ;
-geo:location [
- geo:lat "40.6549427" ;
- geo:long "35.8280877" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/292/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/292/tei> ;
 geo:location [
@@ -35912,9 +35114,6 @@ geo:location [
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/619164> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Aksaray> ;
-geo:location [
- geo:lat "38.37335" ;
- geo:long "34.028159" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/290/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/290/tei> ;
 geo:location [
@@ -35950,9 +35149,6 @@ geo:location [
  dcterms:description "A village in ." ;
  dcterms:temporal "1050" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Gülgöze,_Mardin> ;
-geo:location [
- geo:lat "37.408611" ;
- geo:long "41.485556" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/29/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/29/tei> ;
 geo:location [
@@ -35984,9 +35180,6 @@ geo:location [
  dcterms:temporal "0355" ;
  skos:exactMatch <http://pleiades.stoa.org/places/727232> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Wadi_El_Natrun> ;
-geo:location [
- geo:lat "30.75" ;
- geo:long "30.25" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/289/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/289/tei> ;
 geo:location [
@@ -36017,9 +35210,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "0640" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874508> ;
-geo:location [
- geo:lat "37.407482" ;
- geo:long "41.889894" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/288/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/288/tei> ;
 geo:location [
@@ -36157,9 +35347,6 @@ geo:location [
  dcterms:temporal "1254" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874467> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Erzincan> ;
-geo:location [
- geo:lat "39.75" ;
- geo:long "39.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/284/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/284/tei> ;
 geo:location [
@@ -36202,9 +35389,6 @@ geo:location [
  dcterms:description "The river which flows past ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/678095> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Barada> ;
-geo:location [
- geo:lat "33.5123279" ;
- geo:long "36.3006518" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/282/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/282/tei> ;
 geo:location [
@@ -36274,9 +35458,6 @@ geo:location [
  dcterms:temporal "1879" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678273> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ma'loula> ;
-geo:location [
- geo:lat "33.843692" ;
- geo:long "36.520816" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/279/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/279/tei> ;
 geo:location [
@@ -36379,9 +35560,6 @@ geo:location [
  dcterms:temporal "1030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/587486981> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Krak_des_Chevaliers> ;
-geo:location [
- geo:lat "34.756897" ;
- geo:long "36.294731" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/272/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/272/tei> ;
 geo:location [
@@ -36425,9 +35603,6 @@ geo:location [
  dcterms:temporal "-0281" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668199> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Al-Rastan> ;
-geo:location [
- geo:lat "34.96017" ;
- geo:long "36.73511" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/27/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/27/tei> ;
 geo:location [
@@ -36446,9 +35621,6 @@ geo:location [
  dcterms:temporal "-0100" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668186> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Amioun> ;
-geo:location [
- geo:lat "34.299737" ;
- geo:long "35.815881" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/269/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/269/tei> ;
 geo:location [
@@ -36502,9 +35674,6 @@ geo:location [
  dcterms:temporal "0024" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668214> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Batroun> ;
-geo:location [
- geo:lat "34.253561" ;
- geo:long "35.659726" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/266/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/266/tei> ;
 geo:location [
@@ -36719,9 +35888,6 @@ geo:location [
  skos:related <http://syriaca.org/place/110> ;
  dcterms:description "A tributary of the which flows east of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874406> ;
-geo:location [
- geo:lat "36.5" ;
- geo:long "43.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/258/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/258/tei> ;
 geo:location [
@@ -37200,9 +36366,6 @@ geo:location [
  dcterms:description "A town on the northwest of ." ;
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874648> ;
-geo:location [
- geo:lat "37.445274" ;
- geo:long "42.052515" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/253/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/253/tei> ;
 geo:location [
@@ -37785,9 +36948,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "1877" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Aqrah> ;
-geo:location [
- geo:lat "36.741389" ;
- geo:long "43.893333" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/25/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/25/tei> ;
 geo:location [
@@ -39685,9 +38845,6 @@ geo:location [
  dcterms:description "A village in ." ;
  dcterms:temporal "0734" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Yemişli,_Midyat> ;
-geo:location [
- geo:lat "37.33" ;
- geo:long "41.34" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/24/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/24/tei> ;
 geo:location [
@@ -40966,9 +40123,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "0530" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658579> ;
-geo:location [
- geo:lat "36.827426" ;
- geo:long "38.034807" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/230/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/230/tei> ;
 geo:location [
@@ -41232,9 +40386,6 @@ geo:location [
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "0600" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Monastery_of_Saint_Moses_the_Abyssinian> ;
-geo:location [
- geo:lat "34.021667" ;
- geo:long "36.842222" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/228/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/228/tei> ;
 geo:location [
@@ -41387,9 +40538,6 @@ geo:location [
  dcterms:temporal "0628" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874581> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mar_Mattai_monastery> ;
-geo:location [
- geo:lat "36.491605" ;
- geo:long "43.392187" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/227/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/227/tei> ;
 geo:location [
@@ -41597,9 +40745,6 @@ geo:location [
  dcterms:temporal "0397" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874583> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mor_Gabriel_Monastery> ;
-geo:location [
- geo:lat "37.321778" ;
- geo:long "41.5385" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/226/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/226/tei> ;
 geo:location [
@@ -42176,9 +41321,6 @@ geo:location [
  dcterms:description "A city north of and southwest of ." ;
  dcterms:temporal "0600" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Gaziantep> ;
-geo:location [
- geo:lat "37.066667" ;
- geo:long "37.383333" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/222/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/222/tei> ;
 geo:location [
@@ -42549,9 +41691,6 @@ geo:location [
  dcterms:temporal "0400" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874477> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tur_Abdin> ;
-geo:location [
- geo:lat "37.5" ;
- geo:long "41.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/221/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/221/tei> ;
 geo:location [
@@ -42899,9 +42038,6 @@ geo:location [
  dcterms:temporal "0638" ;
  skos:exactMatch <http://pleiades.stoa.org/places/903043> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Hulwan,_Iran> ;
-geo:location [
- geo:lat "34.465" ;
- geo:long "45.855" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/220/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/220/tei> ;
 geo:location [
@@ -42919,9 +42055,6 @@ geo:location [
  dcterms:temporal "-1000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/697728> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Amman> ;
-geo:location [
- geo:lat "31.933333" ;
- geo:long "35.933333" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/22/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/22/tei> ;
 geo:location [
@@ -43298,9 +42431,6 @@ geo:location [
  dcterms:temporal "0358" ;
  skos:exactMatch <http://pleiades.stoa.org/places/912800> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Al-Hirah> ;
-geo:location [
- geo:lat "31.88332" ;
- geo:long "44.44985" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/219/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/219/tei> ;
 geo:location [
@@ -44664,9 +43794,6 @@ geo:location [
  dcterms:description "A village in northeast of ." ;
  dcterms:temporal "0640" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874496> ;
-geo:location [
- geo:lat "37.500035" ;
- geo:long "41.468078" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/217/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/217/tei> ;
 geo:location [
@@ -45377,9 +44504,6 @@ geo:location [
  dcterms:temporal "-2000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658427> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Harran> ;
-geo:location [
- geo:lat "36.8775" ;
- geo:long "39.033889" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/216/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/216/tei> ;
 geo:location [
@@ -46074,9 +45198,6 @@ geo:location [
  dcterms:temporal "0161" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668261> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Homs> ;
-geo:location [
- geo:lat "34.730833" ;
- geo:long "36.709444" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/215/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/215/tei> ;
 geo:location [
@@ -46713,9 +45834,6 @@ geo:location [
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678041> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Hauran> ;
-geo:location [
- geo:lat "32.75" ;
- geo:long "36.25" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/214/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/214/tei> ;
 geo:location [
@@ -46905,9 +46023,6 @@ geo:location [
  dcterms:temporal "1907" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874742> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Al-Hasakah> ;
-geo:location [
- geo:lat "36.483333" ;
- geo:long "40.75" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/213/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/213/tei> ;
 geo:location [
@@ -47158,9 +46273,6 @@ geo:location [
  dcterms:temporal "0638" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668315> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Al-Qaryatayn> ;
-geo:location [
- geo:lat "34.233333" ;
- geo:long "37.233333" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/212/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/212/tei> ;
 geo:location [
@@ -47411,9 +46523,6 @@ geo:location [
  dcterms:temporal "0360" ;
  skos:exactMatch <http://pleiades.stoa.org/places/894043> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Anbar_(town)> ;
-geo:location [
- geo:lat "33.4000693333" ;
- geo:long "43.640686" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/211/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/211/tei> ;
 geo:location [
@@ -47751,9 +46860,6 @@ geo:location [
  dcterms:temporal "-0281" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658636> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Zeugma,_Commagene> ;
-geo:location [
- geo:lat "37.05833" ;
- geo:long "37.86583" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/209/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/209/tei> ;
 geo:location [
@@ -47995,9 +47101,6 @@ geo:location [
  dcterms:description "A city northwest of and southeast of ." ;
  dcterms:temporal "1779" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Zakho> ;
-geo:location [
- geo:lat "37.15" ;
- geo:long "42.683333" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/208/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/208/tei> ;
 geo:location [
@@ -48197,9 +47300,6 @@ geo:location [
  dcterms:temporal "-0465" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874771> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Van,_Turkey> ;
-geo:location [
- geo:lat "38.494167" ;
- geo:long "43.38" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/207/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/207/tei> ;
 geo:location [

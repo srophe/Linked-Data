@@ -24,9 +24,6 @@
  skos:exactMatch <http://pleiades.stoa.org/places/520988/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Chalcedon> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Kadıköy> ;
-geo:location [
- geo:lat "40.983393" ;
- geo:long "29.025789" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/622/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/622/tei> ;
 geo:location [

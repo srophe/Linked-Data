@@ -53,9 +53,6 @@
  dcterms:description "A village 48 km. west of known for the nearby ." ;
  dcterms:temporal "0457" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658614> ;
-geo:location [
- geo:lat "36.255349" ;
- geo:long "36.848848" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/198/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/198/tei> ;
 geo:location [

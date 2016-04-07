@@ -27,9 +27,6 @@
  dcterms:temporal "0762" ;
  skos:exactMatch <http://pleiades.stoa.org/places/893952> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Baghdad> ;
-geo:location [
- geo:lat "33.325" ;
- geo:long "44.422" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/41/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/41/tei> ;
 geo:location [

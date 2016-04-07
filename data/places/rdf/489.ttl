@@ -28,9 +28,6 @@
  dcterms:temporal "-0140" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648810> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mersin> ;
-geo:location [
- geo:lat "36.808642" ;
- geo:long "34.638066" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/489/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/489/tei> ;
 geo:location [

@@ -36,9 +36,6 @@
  dcterms:temporal "0581" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668366> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Sarmin> ;
-geo:location [
- geo:lat "35.922817" ;
- geo:long "36.735987" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/410/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/410/tei> ;
 geo:location [

@@ -23,9 +23,6 @@
  dcterms:description "The capital city of and formerly the capital of the ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/423025> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Rome> ;
-geo:location [
- geo:lat "41.8917375" ;
- geo:long "12.4861685" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/641/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/641/tei> ;
 geo:location [

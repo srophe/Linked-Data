@@ -27,9 +27,6 @@
  dcterms:description "The large sea which divides Europe from Africa and whose eastern waters reach Anatolia, Syria, and Egypt." ;
  skos:exactMatch <http://pleiades.stoa.org/places/1043> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mediterranean_Sea> ;
-geo:location [
- geo:lat "35.0000035" ;
- geo:long "19.9999957" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/135/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/135/tei> ;
 geo:location [

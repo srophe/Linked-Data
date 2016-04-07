@@ -24,9 +24,6 @@
  dcterms:temporal "-0100" ;
  skos:exactMatch <http://pleiades.stoa.org/places/894004> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Hatra> ;
-geo:location [
- geo:lat "35.58806" ;
- geo:long "42.71833" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/93/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/93/tei> ;
 geo:location [

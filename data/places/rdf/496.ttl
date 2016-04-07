@@ -27,9 +27,6 @@
  dcterms:description "A city of western Syria." ;
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668350> ;
-geo:location [
- geo:lat "34.966351" ;
- geo:long "36.39298" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/496/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/496/tei> ;
 geo:location [

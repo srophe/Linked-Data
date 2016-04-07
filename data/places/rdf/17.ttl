@@ -34,9 +34,6 @@
  dcterms:temporal "0998" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874409> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ahlat> ;
-geo:location [
- geo:lat "38.752778" ;
- geo:long "42.494444" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/17/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/17/tei> ;
 geo:location [

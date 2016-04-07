@@ -146,7 +146,6 @@ return
         local:make-triple('','dcterms:temporal', local:make-literal($rec/descendant::tei:state[@type='existence']/@from,''))
     else (),
     local:ids($rec),
-    local:geo($rec),
     local:make-triple('','foaf:primaryTopicOf', local:make-uri(concat($id,'/html'))),
     local:make-triple('','foaf:primaryTopicOf', local:make-uri(concat($id,'/tei'))),
     local:geo($rec),

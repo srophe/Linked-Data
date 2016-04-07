@@ -23,9 +23,6 @@
  lawd:hasName [
  lawd:variantForm "قُبْرُس"@ar ;];
  skos:exactMatch <http://pleiades.stoa.org/places/707498> ;
-geo:location [
- geo:lat "35.0444470024" ;
- geo:long "32.6288214881" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/714/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/714/tei> ;
 geo:location [

@@ -36,9 +36,6 @@
  dcterms:temporal "0534" ;
  skos:exactMatch <http://pleiades.stoa.org/places/863903> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tbilisi> ;
-geo:location [
- geo:lat "41.717722" ;
- geo:long "44.78057" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/310/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/310/tei> ;
 geo:location [

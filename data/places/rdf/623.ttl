@@ -25,9 +25,6 @@
  dcterms:temporal "-0500" ;
  skos:exactMatch <http://pleiades.stoa.org/places/599612> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ephesus> ;
-geo:location [
- geo:lat "37.941944" ;
- geo:long "27.339722" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/623/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/623/tei> ;
 geo:location [

@@ -36,9 +36,6 @@
  dcterms:description "A village in ." ;
  dcterms:temporal "0734" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Yemişli,_Midyat> ;
-geo:location [
- geo:lat "37.33" ;
- geo:long "41.34" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/24/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/24/tei> ;
 geo:location [

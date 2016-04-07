@@ -48,9 +48,6 @@
  skos:exactMatch <http://pleiades.stoa.org/places/658574> ;
  skos:exactMatch <http://pleiades.stoa.org/places/658568> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Adıyaman> ;
-geo:location [
- geo:lat "37.75972" ;
- geo:long "38.27875" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/94/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/94/tei> ;
 geo:location [

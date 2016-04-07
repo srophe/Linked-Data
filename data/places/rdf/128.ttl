@@ -24,9 +24,6 @@
  dcterms:description "A monastery east of ." ;
  dcterms:temporal "0700" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874536> ;
-geo:location [
- geo:lat "37.344308" ;
- geo:long "42.404847" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/128/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/128/tei> ;
 geo:location [

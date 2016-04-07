@@ -25,9 +25,6 @@
  dcterms:description "A region in southeastern Europe on the northwestern shores of the Aegean Sea." ;
  skos:exactMatch <http://pleiades.stoa.org/places/491656> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Macedonia_(region)> ;
-geo:location [
- geo:lat "41.25" ;
- geo:long "21.75" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/512/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/512/tei> ;
 geo:location [

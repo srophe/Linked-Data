@@ -30,9 +30,6 @@
  dcterms:temporal "-0835" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668182> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Hama> ;
-geo:location [
- geo:lat "35.13333" ;
- geo:long "36.75" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/91/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/91/tei> ;
 geo:location [

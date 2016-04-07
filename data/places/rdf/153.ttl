@@ -23,9 +23,6 @@
  skos:exactMatch <http://pleiades.stoa.org/places/668331> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Palmyra> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tadmur> ;
-geo:location [
- geo:lat "34.56" ;
- geo:long "38.26722" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/153/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/153/tei> ;
 geo:location [

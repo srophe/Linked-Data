@@ -18,9 +18,6 @@
  lawd:variantForm "أَرْدَبِيْل"@ar ;];
  skos:exactMatch <http://pleiades.stoa.org/places/884119> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Ardabil> ;
-geo:location [
- geo:lat "38.24647" ;
- geo:long "48.295051" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/798/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/798/tei> ;
 geo:location [

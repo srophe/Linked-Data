@@ -36,9 +36,6 @@
  dcterms:temporal "-1300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668198> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Arqa> ;
-geo:location [
- geo:lat "34.531277" ;
- geo:long "36.047047" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/432/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/432/tei> ;
 geo:location [

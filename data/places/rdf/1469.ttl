@@ -24,9 +24,6 @@
  dcterms:temporal "-0323" ;
  skos:exactMatch <http://pleiades.stoa.org/places/639048> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Perga> ;
-geo:location [
- geo:lat "36.961406" ;
- geo:long "30.854274" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1469/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1469/tei> ;
 geo:location [

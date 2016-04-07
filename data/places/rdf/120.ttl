@@ -23,9 +23,6 @@
  dcterms:description "A town of south of ." ;
  dcterms:temporal "0410" ;
  skos:exactMatch <http://pleiades.stoa.org/places/894034> ;
-geo:location [
- geo:lat "35.05958" ;
- geo:long "44.35167" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/120/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/120/tei> ;
 geo:location [

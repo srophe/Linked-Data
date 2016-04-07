@@ -24,9 +24,6 @@
  lawd:variantForm "بَيت لَحًم"@ar ;];
  skos:exactMatch <http://pleiades.stoa.org/places/687856> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Bethlehem> ;
-geo:location [
- geo:lat "31.712291" ;
- geo:long "35.202123" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/805/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/805/tei> ;
 geo:location [

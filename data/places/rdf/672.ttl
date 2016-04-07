@@ -19,9 +19,6 @@
  skos:related <http://syriaca.org/place/84> ;
  dcterms:description "A village in ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/912989> ;
-geo:location [
- geo:lat "30.662826" ;
- geo:long "50.309141" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/672/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/672/tei> ;
 geo:location [

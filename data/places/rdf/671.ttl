@@ -20,9 +20,6 @@
  dcterms:description "A city of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/922617> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Firuzabad,_Fars> ;
-geo:location [
- geo:lat "28.852984" ;
- geo:long "52.532446" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/671/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/671/tei> ;
 geo:location [

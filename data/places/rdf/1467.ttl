@@ -24,9 +24,6 @@
  dcterms:temporal "0538" ;
  skos:exactMatch <http://pleiades.stoa.org/places/727256> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Xois> ;
-geo:location [
- geo:lat "31.108961" ;
- geo:long "30.93728" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1467/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1467/tei> ;
 geo:location [

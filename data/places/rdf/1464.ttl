@@ -26,9 +26,6 @@
  dcterms:description "A monastery near the port of ." ;
  dcterms:temporal "0498" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658621> ;
-geo:location [
- geo:lat "36.131236" ;
- geo:long "35.939185" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1464/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1464/tei> ;
 geo:location [

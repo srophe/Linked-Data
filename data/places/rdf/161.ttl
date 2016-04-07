@@ -23,9 +23,6 @@
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668221> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Qarah,_Syria> ;
-geo:location [
- geo:lat "34.16826385" ;
- geo:long "36.75343335" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/161/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/161/tei> ;
 geo:location [

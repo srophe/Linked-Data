@@ -21,9 +21,6 @@
  skos:exactMatch <http://pleiades.stoa.org/places/678401> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Caesarea_Maritima> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Caesarea> ;
-geo:location [
- geo:lat "32.5" ;
- geo:long "34.89972" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/53/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/53/tei> ;
 geo:location [

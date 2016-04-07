@@ -31,9 +31,6 @@
  dcterms:description "A village in northeast of ." ;
  dcterms:temporal "0640" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874496> ;
-geo:location [
- geo:lat "37.500035" ;
- geo:long "41.468078" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/217/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/217/tei> ;
 geo:location [

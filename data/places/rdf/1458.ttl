@@ -23,9 +23,6 @@
  dcterms:description "A city in Thrace." ;
  dcterms:temporal "0523" ;
  skos:exactMatch <http://pleiades.stoa.org/places/216927> ;
-geo:location [
- geo:lat "42.147439" ;
- geo:long "24.749106" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1458/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1458/tei> ;
 geo:location [

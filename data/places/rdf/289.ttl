@@ -34,9 +34,6 @@
  dcterms:temporal "0355" ;
  skos:exactMatch <http://pleiades.stoa.org/places/727232> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Wadi_El_Natrun> ;
-geo:location [
- geo:lat "30.75" ;
- geo:long "30.25" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/289/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/289/tei> ;
 geo:location [

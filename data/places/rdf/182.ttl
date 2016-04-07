@@ -36,9 +36,6 @@
  dcterms:temporal "-0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/894084> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Seleucia> ;
-geo:location [
- geo:lat "33.094444" ;
- geo:long "44.522222" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/182/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/182/tei> ;
 geo:location [

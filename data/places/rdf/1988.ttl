@@ -17,4 +17,6 @@
  lawd:hasName [
  lawd:variantForm "Mār Ḥaḏbshabbā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1988/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1988/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1988/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1062> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

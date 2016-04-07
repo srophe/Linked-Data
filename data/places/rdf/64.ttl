@@ -18,9 +18,6 @@
  dcterms:temporal "0054" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648723> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Claudiopolis_(Cilicia)> ;
-geo:location [
- geo:lat "36.63333" ;
- geo:long "33.45" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/64/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/64/tei> ;
 geo:location [

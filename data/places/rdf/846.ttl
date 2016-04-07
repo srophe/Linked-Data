@@ -19,4 +19,5 @@
  skos:closeMatch <http://en.wikipedia.org/wiki/Cambridge,_Massachusetts> ;
  foaf:primaryTopicOf <http://syriaca.org/place/846/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/846/tei> ;
- dcterms:relation <http://syriaca.org/place/844> .
+ dcterms:relation <http://syriaca.org/place/844> ;
+ dcterms:isPartOf <http://syriaca.org/place/845> .

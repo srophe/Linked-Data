@@ -18,9 +18,6 @@
  dcterms:temporal "0350" ;
  skos:exactMatch <http://pleiades.stoa.org/places/1001934> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Euphratensis> ;
-geo:location [
- geo:lat "37.5" ;
- geo:long "37.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/79/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/79/tei> ;
 geo:location [

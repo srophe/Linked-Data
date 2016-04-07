@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Galwāye"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1214/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1214/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1214/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/732> ;
+ dcterms:isPartOf <http://syriaca.org/place/724> .

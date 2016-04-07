@@ -38,9 +38,6 @@
  skos:exactMatch <http://pleiades.stoa.org/places/658587> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Samosata> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Samsat,_Turkey> ;
-geo:location [
- geo:lat "37.56452" ;
- geo:long "38.47134" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/178/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/178/tei> ;
 geo:location [

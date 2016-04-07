@@ -16,4 +16,5 @@
  lawd:primaryForm "Marde"@en ;];
  skos:related <http://syriaca.org/place/130> ;
  foaf:primaryTopicOf <http://syriaca.org/place/762/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/762/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/762/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/993> .

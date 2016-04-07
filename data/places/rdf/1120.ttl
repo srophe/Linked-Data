@@ -17,4 +17,6 @@
  lawd:hasName [
  lawd:variantForm "Chambā d'Beṯ Ṣūṣīnā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1120/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1120/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1120/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/761> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

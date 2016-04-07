@@ -22,4 +22,5 @@
  lawd:variantForm "دير مرماري"@ar ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2471/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2471/tei> ;
- dcterms:relation <http://syriaca.org/place/2009> .
+ dcterms:relation <http://syriaca.org/place/2009> ;
+ dcterms:isPartOf <http://syriaca.org/place/41> .

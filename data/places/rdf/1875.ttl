@@ -26,4 +26,7 @@
  lawd:variantForm "Mār ‘Abdā"@en-xsrp1 ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1875/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1875/tei> ;
- dcterms:relation <http://syriaca.org/place/1874> .
+ dcterms:relation <http://syriaca.org/place/1874> ;
+ dcterms:isPartOf <http://syriaca.org/place/921> ;
+ dcterms:isPartOf <http://syriaca.org/place/732> ;
+ dcterms:isPartOf <http://syriaca.org/place/724> .

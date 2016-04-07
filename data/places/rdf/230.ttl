@@ -43,9 +43,6 @@
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "0530" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658579> ;
-geo:location [
- geo:lat "36.827426" ;
- geo:long "38.034807" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/230/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/230/tei> ;
 geo:location [

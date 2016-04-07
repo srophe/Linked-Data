@@ -19,4 +19,5 @@
  foaf:primaryTopicOf <http://syriaca.org/place/1871/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1871/tei> ;
  dcterms:relation <http://syriaca.org/place/339> ;
- dcterms:relation <http://syriaca.org/place/1872> .
+ dcterms:relation <http://syriaca.org/place/1872> ;
+ dcterms:isPartOf <http://syriaca.org/place/> .

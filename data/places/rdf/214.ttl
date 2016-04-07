@@ -29,9 +29,6 @@
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678041> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Hauran> ;
-geo:location [
- geo:lat "32.75" ;
- geo:long "36.25" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/214/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/214/tei> ;
 geo:location [

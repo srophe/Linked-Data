@@ -19,4 +19,5 @@
  dcterms:description "An Assyrian settlement north of in the province of Kotayk' in" ;
  dcterms:temporal "1849" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2555/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2555/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2555/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/576> .

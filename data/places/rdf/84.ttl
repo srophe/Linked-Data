@@ -24,9 +24,6 @@
  rdfs:label "209. Fars"@en ;];
  dcterms:temporal "-0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/922698> ;
-geo:location [
- geo:lat "30.5" ;
- geo:long "51.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/84/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/84/tei> ;
 geo:location [

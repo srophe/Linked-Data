@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Komāne"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1390/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1390/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1390/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/783> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

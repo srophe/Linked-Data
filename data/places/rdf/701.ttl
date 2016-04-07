@@ -22,9 +22,6 @@
  dcterms:description "The capital city of the ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/79574> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/London> ;
-geo:location [
- geo:lat "51.513335" ;
- geo:long "-0.088949" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/701/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/701/tei> ;
 geo:location [

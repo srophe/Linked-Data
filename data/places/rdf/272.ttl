@@ -21,9 +21,6 @@
  dcterms:temporal "1030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/587486981> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Krak_des_Chevaliers> ;
-geo:location [
- geo:lat "34.756897" ;
- geo:long "36.294731" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/272/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/272/tei> ;
 geo:location [

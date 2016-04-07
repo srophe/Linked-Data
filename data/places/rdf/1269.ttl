@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Harmāshe"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1269/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1269/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1269/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/777> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

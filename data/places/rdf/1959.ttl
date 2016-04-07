@@ -18,4 +18,6 @@
  lawd:variantForm "Patriarchal Residence"@en ;];
  dcterms:description "A residence of the Catholicos of the Church of the East." ;
  foaf:primaryTopicOf <http://syriaca.org/place/1959/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1959/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1959/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/19> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

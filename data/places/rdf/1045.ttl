@@ -17,4 +17,7 @@
  lawd:hasName [
  lawd:variantForm "Beṯ Nahrā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1045/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1045/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1045/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1231> ;
+ dcterms:isPartOf <http://syriaca.org/place/790> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

@@ -44,9 +44,6 @@
  dcterms:temporal "-1300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/678073> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Bosra> ;
-geo:location [
- geo:lat "32.516667" ;
- geo:long "36.483333" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/40/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/40/tei> ;
 geo:location [

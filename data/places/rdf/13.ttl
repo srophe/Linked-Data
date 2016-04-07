@@ -42,9 +42,6 @@
  dcterms:temporal "-6000" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874341> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Erbil> ;
-geo:location [
- geo:lat "36.191111" ;
- geo:long "44.009167" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/13/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/13/tei> ;
 geo:location [

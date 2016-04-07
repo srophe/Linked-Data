@@ -30,9 +30,6 @@
  dcterms:temporal "-0356" ;
  skos:exactMatch <http://pleiades.stoa.org/places/501482> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Philippi> ;
-geo:location [
- geo:lat "41.012021" ;
- geo:long "24.285182" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/437/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/437/tei> ;
 geo:location [

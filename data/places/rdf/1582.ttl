@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Ōret"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1582/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1582/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1582/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/780> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

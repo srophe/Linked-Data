@@ -50,9 +50,6 @@
  dcterms:temporal "0200" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668335> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Apamea_(Syria)> ;
-geo:location [
- geo:lat "35.418" ;
- geo:long "36.398" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/11/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/11/tei> ;
 geo:location [

@@ -44,9 +44,6 @@
  dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:temporal "1599" ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Dohuk> ;
-geo:location [
- geo:lat "36.866667" ;
- geo:long "43" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/76/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/76/tei> ;
 geo:location [

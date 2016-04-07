@@ -18,9 +18,6 @@
  skos:related <http://syriaca.org/place/500> ;
  dcterms:description "A city in in southern ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/50079> ;
-geo:location [
- geo:lat "9.586011" ;
- geo:long "76.521245" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1947/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1947/tei> ;
 geo:location [

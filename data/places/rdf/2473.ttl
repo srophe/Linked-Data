@@ -37,4 +37,5 @@
  lawd:hasName [
  lawd:variantForm "Mar Mikhaʾil of Tar‘il"@en-xsrp1 ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2473/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2473/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2473/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/993> .

@@ -23,9 +23,6 @@
  dcterms:temporal "-0465" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874771> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Van,_Turkey> ;
-geo:location [
- geo:lat "38.494167" ;
- geo:long "43.38" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/207/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/207/tei> ;
 geo:location [

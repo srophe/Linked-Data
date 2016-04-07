@@ -17,4 +17,5 @@
  lawd:hasName [
  lawd:variantForm "ʻElan’"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2486/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2486/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2486/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

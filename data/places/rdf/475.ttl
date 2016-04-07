@@ -20,9 +20,6 @@
  rdfs:label "321. Kokhe"@en ;];
  dcterms:temporal "0224" ;
  skos:exactMatch <http://pleiades.stoa.org/places/894178> ;
-geo:location [
- geo:lat "33.09914" ;
- geo:long "44.551979" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/475/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/475/tei> ;
 geo:location [

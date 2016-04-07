@@ -17,4 +17,6 @@
  lawd:hasName [
  lawd:variantForm "Āḏeḥ"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/884/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/884/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/884/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/777> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

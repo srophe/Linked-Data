@@ -44,4 +44,5 @@
  dcterms:temporal "1165" ;
  foaf:primaryTopicOf <http://syriaca.org/place/470/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/470/tei> ;
- dcterms:relation <http://syriaca.org/place/72> .
+ dcterms:relation <http://syriaca.org/place/72> ;
+ dcterms:isPartOf <http://syriaca.org/place/130> .

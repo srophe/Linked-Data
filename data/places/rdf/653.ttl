@@ -21,9 +21,6 @@
  skos:related <http://syriaca.org/place/499> ;
  dcterms:description "A settlement west of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/668266> ;
-geo:location [
- geo:lat "35.588322" ;
- geo:long "36.458105" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/653/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/653/tei> ;
 geo:location [

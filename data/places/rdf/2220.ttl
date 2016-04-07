@@ -17,4 +17,6 @@
  lawd:hasName [
  lawd:variantForm "Mart Shmūni and the Beni Shmūni"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2220/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2220/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2220/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1766> ;
+ dcterms:isPartOf <http://syriaca.org/place/723> .

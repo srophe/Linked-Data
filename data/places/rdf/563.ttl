@@ -25,9 +25,6 @@
  dcterms:description "A mountain in the Sinai Peninsula." ;
  skos:exactMatch <http://pleiades.stoa.org/places/746815> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Mount_Sinai> ;
-geo:location [
- geo:lat "28.58771" ;
- geo:long "33.921682" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/563/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/563/tei> ;
 geo:location [

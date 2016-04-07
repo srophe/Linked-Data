@@ -17,4 +17,6 @@
  lawd:hasName [
  lawd:variantForm "Beṯ Salam"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1063/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1063/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1063/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/734> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

@@ -44,9 +44,6 @@
  dcterms:temporal "1225" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658582> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Araban> ;
-geo:location [
- geo:lat "37.427054" ;
- geo:long "37.692332" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/405/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/405/tei> ;
 geo:location [

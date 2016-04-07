@@ -17,4 +17,6 @@
  lawd:hasName [
  lawd:variantForm "Nūwābā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1580/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1580/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1580/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/776> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

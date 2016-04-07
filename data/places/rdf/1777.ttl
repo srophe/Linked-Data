@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Tiran"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1777/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1777/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1777/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/732> ;
+ dcterms:isPartOf <http://syriaca.org/place/724> .

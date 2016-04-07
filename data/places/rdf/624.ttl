@@ -28,9 +28,6 @@
  dcterms:description "A city in north-central ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/844926> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Çankırı> ;
-geo:location [
- geo:lat "40.6013428" ;
- geo:long "33.6134213" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/624/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/624/tei> ;
 geo:location [

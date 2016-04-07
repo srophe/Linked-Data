@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Qūrnābād"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1638/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1638/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1638/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/782> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

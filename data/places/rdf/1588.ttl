@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Ōzān"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1588/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1588/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1588/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/730> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

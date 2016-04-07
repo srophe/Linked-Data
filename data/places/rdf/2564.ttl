@@ -22,4 +22,6 @@
  dcterms:description "A church in" ;
  dcterms:temporal "1828" ;
  foaf:primaryTopicOf <http://syriaca.org/place/2564/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2564/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2564/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/2553> ;
+ dcterms:isPartOf <http://syriaca.org/place/576> .

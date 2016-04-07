@@ -17,4 +17,6 @@
  lawd:hasName [
  lawd:variantForm "Māṯā d'Ōryāye"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1439/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1439/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1439/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/759> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

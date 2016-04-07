@@ -46,9 +46,6 @@
  dcterms:temporal "0306" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874623> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Nusaybin> ;
-geo:location [
- geo:lat "37.06667" ;
- geo:long "41.21667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/142/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/142/tei> ;
 geo:location [

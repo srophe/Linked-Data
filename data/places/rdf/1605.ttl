@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Poḥānīs"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1605/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1605/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1605/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/784> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

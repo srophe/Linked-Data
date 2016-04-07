@@ -38,4 +38,5 @@
  lawd:variantForm "Dār al-Duwaydār ‘Alāʾ al-Dīn"@en-xsrp1 ;];
  dcterms:description "A residence of the Catholicos of the Church of the East." ;
  foaf:primaryTopicOf <http://syriaca.org/place/1951/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1951/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1951/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/41> .

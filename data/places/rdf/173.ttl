@@ -21,9 +21,6 @@
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/658585> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Arsuz> ;
-geo:location [
- geo:lat "36.41182" ;
- geo:long "35.89281" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/173/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/173/tei> ;
 geo:location [

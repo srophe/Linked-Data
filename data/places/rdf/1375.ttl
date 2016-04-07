@@ -15,4 +15,6 @@
  lawd:hasName [
  lawd:primaryForm "Keverūk"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1375/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1375/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1375/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/732> ;
+ dcterms:isPartOf <http://syriaca.org/place/724> .

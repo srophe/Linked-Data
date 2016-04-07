@@ -15,4 +15,5 @@
  lawd:hasName [
  lawd:primaryForm "Dez"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/741/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/741/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/741/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

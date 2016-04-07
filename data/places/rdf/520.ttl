@@ -31,9 +31,6 @@
  dcterms:temporal "0300" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874383> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Palu,_Elazığ> ;
-geo:location [
- geo:lat "38.705472" ;
- geo:long "39.952527" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/520/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/520/tei> ;
 geo:location [

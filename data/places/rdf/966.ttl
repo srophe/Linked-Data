@@ -15,4 +15,5 @@
  lawd:hasName [
  lawd:primaryForm "Barbuk"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/966/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/966/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/966/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

@@ -53,9 +53,6 @@
  skos:exactMatch <http://pleiades.stoa.org/places/874298> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Amida_(Mesopotamia)> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Diyarbakır> ;
-geo:location [
- geo:lat "37.981944" ;
- geo:long "40.210556" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/8/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/8/tei> ;
 geo:location [

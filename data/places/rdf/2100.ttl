@@ -17,4 +17,5 @@
  lawd:hasName [
  lawd:variantForm "Mār Ṭāhmasgard"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2100/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2100/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2100/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/108> .

@@ -28,9 +28,6 @@
  dcterms:description "A city of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/961873> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Merv> ;
-geo:location [
- geo:lat "37.662778" ;
- geo:long "62.1925" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/607/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/607/tei> ;
 geo:location [

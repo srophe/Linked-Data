@@ -33,9 +33,6 @@
  dcterms:temporal "0505" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874444> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Dara_(Mesopotamia)> ;
-geo:location [
- geo:lat "37.17899" ;
- geo:long "40.95491" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/67/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/67/tei> ;
 geo:location [

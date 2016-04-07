@@ -17,4 +17,5 @@
  lawd:hasName [
  lawd:variantForm "Beṯ Megāli"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1041/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1041/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1041/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

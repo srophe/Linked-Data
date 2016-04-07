@@ -25,9 +25,6 @@
  dcterms:description "A city of Isauria." ;
  dcterms:temporal "0538" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648707> ;
-geo:location [
- geo:lat "36.759213" ;
- geo:long "33.349677" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1477/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1477/tei> ;
 geo:location [

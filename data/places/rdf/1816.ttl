@@ -15,4 +15,5 @@
  lawd:hasName [
  lawd:primaryForm "Yazdīnābād"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1816/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1816/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1816/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

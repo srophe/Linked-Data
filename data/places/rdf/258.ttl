@@ -22,9 +22,6 @@
  skos:related <http://syriaca.org/place/110> ;
  dcterms:description "A tributary of the which flows east of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874406> ;
-geo:location [
- geo:lat "36.5" ;
- geo:long "43.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/258/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/258/tei> ;
 geo:location [

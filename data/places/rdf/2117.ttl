@@ -26,4 +26,6 @@
  lawd:variantForm "Mār Ya‘qōb the Recluse"@en-xsrp1 ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2117/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2117/tei> ;
- dcterms:relation <http://syriaca.org/place/2497> .
+ dcterms:relation <http://syriaca.org/place/2497> ;
+ dcterms:isPartOf <http://syriaca.org/place/1517> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

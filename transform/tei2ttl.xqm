@@ -100,6 +100,7 @@ return
 (: Relations :)
 declare function local:relation($rec) as xs:string*{
 string-join(
+(
 for $relation in $rec/descendant::tei:relation
 return 
     if($relation/@name = 'contained') then 
@@ -111,7 +112,10 @@ return
         return 
             if(starts-with($mutual,'#')) then ()
             else local:make-triple('','dcterms:relation',local:make-uri($mutual))
-    else (),'')
+    else (),
+for $location-relation in $rec/descendant::tei:location[@type='nested']/child::*[starts-with(@ref,'http://syriaca.org/')]/@ref
+return local:make-triple('','dcterms:isPartOf',local:make-uri($location-relation))
+    ),'')
 };
 
 (: Prefixes :)
@@ -142,7 +146,6 @@ return
         local:make-triple('','dcterms:temporal', local:make-literal($rec/descendant::tei:state[@type='existence']/@from,''))
     else (),
     local:ids($rec),
-    local:geo($rec),
     local:make-triple('','foaf:primaryTopicOf', local:make-uri(concat($id,'/html'))),
     local:make-triple('','foaf:primaryTopicOf', local:make-uri(concat($id,'/tei'))),
     local:geo($rec),
@@ -159,7 +162,7 @@ declare function local:record($rec) as xs:string*{
 if($id = 'run all') then 
     let $recs := collection('/db/apps/srophe-data/data/places/tei')
     (: Individual recs :)
-    for $hit at $p in subsequence($recs, 2000, 4000)//tei:TEI
+    for $hit at $p in subsequence($recs, 1, 4000)//tei:TEI
     let $filename := concat(tokenize(replace($hit/descendant::tei:idno[@type='URI'][starts-with(.,'http://syriaca.org')][1],'/tei',''),'/')[last()],'.ttl')
     let $file-data :=  
         try {

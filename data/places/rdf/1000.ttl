@@ -17,4 +17,5 @@
  lawd:hasName [
  lawd:variantForm "Beṯ Agre"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1000/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/1000/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/1000/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

@@ -38,9 +38,6 @@
  dcterms:temporal "-0354" ;
  skos:exactMatch <http://pleiades.stoa.org/places/648647> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Konya> ;
-geo:location [
- geo:lat "37.872202" ;
- geo:long "32.492331" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/440/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/440/tei> ;
 geo:location [

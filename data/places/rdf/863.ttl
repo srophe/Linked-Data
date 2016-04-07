@@ -22,9 +22,6 @@
  lawd:variantForm "باريس"@ar ;];
  skos:exactMatch <http://pleiades.stoa.org/places/109126> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Paris> ;
-geo:location [
- geo:lat "48.852964" ;
- geo:long "2.349952" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/863/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/863/tei> ;
 geo:location [

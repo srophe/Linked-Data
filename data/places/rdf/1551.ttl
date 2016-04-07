@@ -26,4 +26,6 @@
  lawd:variantForm "Mūrād‘ālūi (i)"@en-xsrp1 ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1551/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1551/tei> ;
- dcterms:relation <http://syriaca.org/place/1552> .
+ dcterms:relation <http://syriaca.org/place/1552> ;
+ dcterms:isPartOf <http://syriaca.org/place/733> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

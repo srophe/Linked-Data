@@ -27,9 +27,6 @@
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/857105> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Tokat> ;
-geo:location [
- geo:lat "40.317677" ;
- geo:long "36.549116" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/510/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/510/tei> ;
 geo:location [

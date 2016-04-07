@@ -26,9 +26,6 @@
  dcterms:temporal "0538" ;
  skos:exactMatch <http://pleiades.stoa.org/places/550822> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Alaşehir> ;
-geo:location [
- geo:lat "38.35" ;
- geo:long "28.516667" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/1476/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/1476/tei> ;
 geo:location [

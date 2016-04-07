@@ -18,9 +18,6 @@
  dcterms:temporal "0638" ;
  skos:exactMatch <http://pleiades.stoa.org/places/903043> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Hulwan,_Iran> ;
-geo:location [
- geo:lat "34.465" ;
- geo:long "45.855" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/220/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/220/tei> ;
 geo:location [

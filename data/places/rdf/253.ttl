@@ -21,11 +21,10 @@
  dcterms:description "A town on the northwest of ." ;
  dcterms:temporal "-0030" ;
  skos:exactMatch <http://pleiades.stoa.org/places/874648> ;
-geo:location [
- geo:lat "37.445274" ;
- geo:long "42.052515" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/253/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/253/tei> ;
 geo:location [
  geo:lat "37.445274" ;
- geo:long "42.052515" ;].
+ geo:long "42.052515" ;];
+ dcterms:isPartOf <http://syriaca.org/place/786> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

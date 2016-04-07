@@ -18,9 +18,6 @@
  dcterms:description "A former village and archaeological site on the now beneath al-Assad Lake." ;
  skos:exactMatch <http://pleiades.stoa.org/places/668201> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Dibsi_Faraj> ;
-geo:location [
- geo:lat "35.976326" ;
- geo:long "38.198554" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/589/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/589/tei> ;
 geo:location [

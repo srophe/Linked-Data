@@ -18,9 +18,6 @@
  dcterms:description "A region west and a bit south of ." ;
  skos:exactMatch <http://pleiades.stoa.org/places/874367/> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Arzanene> ;
-geo:location [
- geo:lat "38.5" ;
- geo:long "41.5" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/673/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/673/tei> ;
 geo:location [

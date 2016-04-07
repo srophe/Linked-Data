@@ -21,9 +21,6 @@
  dcterms:temporal "0426" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668187> ;
  skos:closeMatch <http://en.wikipedia.org/wiki/Anasartha> ;
-geo:location [
- geo:lat "35.809864" ;
- geo:long "37.518964" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/574/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/574/tei> ;
 geo:location [

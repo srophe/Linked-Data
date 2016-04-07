@@ -15,4 +15,5 @@
  lawd:hasName [
  lawd:primaryForm "Patriarchal Seminary of Saint Peter"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2529/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2529/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2529/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/139> .

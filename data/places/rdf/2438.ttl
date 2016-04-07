@@ -17,4 +17,5 @@
  lawd:hasName [
  lawd:variantForm "Mār Abraham of Reshā"@en ;];
  foaf:primaryTopicOf <http://syriaca.org/place/2438/html> ;
- foaf:primaryTopicOf <http://syriaca.org/place/2438/tei> .
+ foaf:primaryTopicOf <http://syriaca.org/place/2438/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

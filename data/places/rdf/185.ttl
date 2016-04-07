@@ -21,9 +21,6 @@
  dcterms:description "A town on the west of ." ;
  dcterms:temporal "0640" ;
  skos:exactMatch <http://pleiades.stoa.org/places/668376> ;
-geo:location [
- geo:lat "35.8808455" ;
- geo:long "38.847326" ;];
  foaf:primaryTopicOf <http://syriaca.org/place/185/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/185/tei> ;
 geo:location [

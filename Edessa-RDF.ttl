@@ -12,7 +12,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> . # not yet used
 @prefix lawd: <http://lawd.info/ontology/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix bibo: <http://bibliontology.com/bibo/bibo.php#> .
+@prefix bibo: <http://bibliontology.com/bibo/bibo.php#> . # site down as of 4.14.16 - domain needs to be renewed
 @prefix time: <https://www.w3.org/TR/owl-time/> .
 @prefix periodo: <http://n2t.net/ark:/99152/p0v> . # need to verify this - dereferences to a download
 @prefix cc: <https://creativecommons.org/schema.rdf> . 

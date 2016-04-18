@@ -57,7 +57,7 @@
 <http://syriaca.org/place/78> skos:exactMatch <http://pleiades.stoa.org/places/658457> ; 
                               skos:closeMatch <https://www.wikidata.org/wiki/Q1190403> , 
                                               <https://www.wikidata.org/wiki/Q133118> ; 
-         skos:altLabel "Urfa"@en ;
+         lawd:variantForm "Urfa"@en ; # lawd:variantForm instead?
          skos:related <http://syriaca.org/place/145.html> ,
                       <http://syriaca.org/place/166.html> .
          
@@ -193,7 +193,7 @@
                            bibo:locator "pp: 138-139." ) .
                            
 <http://syriaca.org/place/78> lawd:Group "Syriac" ,  
-                              ( rdfs:subClassOf "Christians" , # is this allowed?
+                              ( rdfs:subClassOf "Christians" , # is this allowed? - "Christians", etc. not defined classes, so no (or at least not yet)
                               lawd:hasAttestation "520" ,
                               lawd:hasAttestation "1624" ) .
                               

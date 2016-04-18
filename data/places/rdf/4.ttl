@@ -11,40 +11,39 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/4> a lawd:Place ;
-rdfs:label "Ṣawro — ܨܘܪܐ"  ;
-dcterms:description "A village in ."  ;
+ rdfs:label "Ṣawro — ܨܘܪܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Ṣawro"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܨܘܪܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܨܰܘܪܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "الصور"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ṣawr"@en ;];
+ lawd:hasName [
+ lawd:variantForm "الصَور"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/221> ;
+ dcterms:description "A village in ." ;
  dcterms:description [
-rdfs:label "ܐܰܬܪܐ ܘܩܶܠܥܳܐ ܕܰܠܓܰܪܒܝ ܡܰܕܢܰܚ ܡܰܪܕܝܢ ܡܰܪܕܶܐ ܝܰܘܡܳܐ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܐ ܘܩܶܠܥܳܐ ܕܰܠܓܰܪܒܝ ܡܰܕܢܰܚ ܡܰܪܕܝܢ ܡܰܪܕܶܐ ܝܰܘܡܳܐ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة وقلعة شمالي شرقي ماردين مرحلة يوم عنها."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة وقلعة شمالي شرقي ماردين مرحلة يوم عنها."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town and citadel about one day journey northeast from Mardin. [Modern name, Savur. (tr.)]"@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1493"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874686>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Savur>  ;
+ rdfs:label "a town and citadel about one day journey northeast from Mardin. [Modern name, Savur. (tr.)]"@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1493" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874686> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Savur> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/4/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/4/tei> ;
 geo:location [
-geo:lat "37.538333"  ;
-geo:long "37.538333"  ;];
- lawd:hasName [
-lawd:primaryForm "Ṣawro"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܨܘܪܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܨܰܘܪܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "الصور"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ṣawr"@en  ;];
- lawd:hasName [
-lawd:variantForm "الصَور"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/4/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/4/tei>  .
+ geo:lat "37.538333" ;
+ geo:long "40.888056" ;].

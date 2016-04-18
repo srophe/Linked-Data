@@ -11,24 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/531> a lawd:Place ;
-rdfs:label "Fifyāth — ܦܦܝܬ"  ;
-dcterms:description "A village in ."  ;
-dcterms:temporal "1943"  ;
+ rdfs:label "Fifyāth — ܦܦܝܬ" ;
  lawd:hasName [
-lawd:primaryForm "Fifyāth"@en  ;];
+ lawd:primaryForm "Fifyāth"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܦܦܝܬ"@syr  ;];
+ lawd:primaryForm "ܦܦܝܬ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܦܳܦܝܰܬ"@syr-Syrj  ;];
+ lawd:variantForm "ܦܳܦܝܰܬ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "ففياث"@ar  ;];
+ lawd:variantForm "ففياث"@ar ;];
  lawd:hasName [
-lawd:variantForm "Fifyath"@en  ;];
+ lawd:variantForm "Fifyath"@en ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/531/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/531/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/221> ;
+ dcterms:description "A village in ." ;
+ dcterms:temporal "1943" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/531/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/531/tei> .

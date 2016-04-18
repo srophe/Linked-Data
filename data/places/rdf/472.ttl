@@ -11,22 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/472> a lawd:Place ;
-rdfs:label "China — ܨܝܢ"  ;
+ rdfs:label "China — ܨܝܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "China"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܨܝܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܨܺܝܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "الصين"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "الصِين"@ar ;];
  dcterms:description [
-rdfs:label "it remains uncertain when Christians first reached the main, historically Chinese-speaking (Han), part of China."@en  ;];
+ rdfs:label "it remains uncertain when Christians first reached the main, historically Chinese-speaking (Han), part of China."@en ;];
  dcterms:description [
-rdfs:label "129. China, Syriac Christianity in"@en  ;];
-dcterms:temporal "-0221"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/China>  ;
- lawd:hasName [
-lawd:primaryForm "China"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܨܝܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܨܺܝܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "الصين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "الصِين"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/472/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/472/tei>  .
+ rdfs:label "129. China, Syriac Christianity in"@en ;];
+ dcterms:temporal "-0221" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/China> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/472/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/472/tei> .

@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1236> a lawd:Place ;
-rdfs:label "Gōḥikki"  ;
+ rdfs:label "Gōḥikki" ;
  lawd:hasName [
-lawd:primaryForm "Gōḥikki"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1236/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1236/tei>  .
+ lawd:primaryForm "Gōḥikki"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1236/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1236/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/760> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

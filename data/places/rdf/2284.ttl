@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2284> a lawd:Place ;
-rdfs:label "Cairo"  ;
+ rdfs:label "Cairo" ;
  lawd:hasName [
-lawd:primaryForm "Cairo"@en  ;];
+ lawd:primaryForm "Cairo"@en ;];
  lawd:hasName [
-lawd:variantForm "Cairo (patriarchal vicariate)"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2284/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2284/tei>  ;
-dcterms:relation <http://syriaca.org/place/521>  .
+ lawd:variantForm "Cairo (patriarchal vicariate)"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2284/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2284/tei> ;
+ dcterms:relation <http://syriaca.org/place/521> .

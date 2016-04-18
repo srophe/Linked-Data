@@ -11,27 +11,25 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/489> a lawd:Place ;
-rdfs:label "Marsin — ܡܪܣܝܢ"  ;
-dcterms:description "A port city on the in southern ."  ;
-dcterms:temporal "-0140"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/648810>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Mersin>  ;
+ rdfs:label "Marsin — ܡܪܣܝܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Marsin"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܡܪܣܝܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܡܰܪܣܺܝܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "مرسين"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Mersin"@en ;];
+ skos:related <http://syriaca.org/place/135> ;
+ skos:related <http://syriaca.org/place/504> ;
+ dcterms:description "A port city on the in southern ." ;
+ dcterms:temporal "-0140" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/648810> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Mersin> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/489/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/489/tei> ;
 geo:location [
-geo:lat "36.808642"  ;
-geo:long "36.808642"  ;];
- lawd:hasName [
-lawd:primaryForm "Marsin"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܡܪܣܝܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܡܰܪܣܺܝܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "مرسين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Mersin"@en  ;];
- lawd:hasName [
-lawd:variantForm "Mediterranean Sea"  ;];
- lawd:hasName [
-lawd:variantForm "Anatolia"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/489/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/489/tei>  .
+ geo:lat "36.808642" ;
+ geo:long "34.638066" ;].

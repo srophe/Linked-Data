@@ -11,34 +11,33 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/130> a lawd:Place ;
-rdfs:label "Mardin — ܡܪܕܝܢ"  ;
+ rdfs:label "Mardin — ܡܪܕܝܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Mardin"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Marde"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܡܪܕܝܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܡܰܪܕܝܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ماردين"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Mardīn"@en ;];
+ lawd:hasName [
+ lawd:variantForm "مارِدِين"@ar ;];
+ skos:related <http://syriaca.org/place/762> ;
  dcterms:description [
-rdfs:label "City in upper Mesopotamia and important center of Syriac Christianity, especially for the Syr. Orth. Church as the city closest to Dayr al-Zaʿfarān, the seat of the patr. from 1293 until 1932."@en  ;];
+ rdfs:label "City in upper Mesopotamia and important center of Syriac Christianity, especially for the Syr. Orth. Church as the city closest to Dayr al-Zaʿfarān, the seat of the patr. from 1293 until 1932."@en ;];
  dcterms:description [
-rdfs:label "351. Mardin"@en  ;];
-dcterms:temporal "0300"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874588>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Mardin>  ;
+ rdfs:label "351. Mardin"@en ;];
+ dcterms:temporal "0300" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874588> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Mardin> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/130/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/130/tei> ;
 geo:location [
-geo:lat "37.316667"  ;
-geo:long "37.316667"  ;];
- lawd:hasName [
-lawd:primaryForm "Mardin"@en  ;];
- lawd:hasName [
-lawd:variantForm "Marde"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܡܪܕܝܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܡܰܪܕܝܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ماردين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Mardīn"@en  ;];
- lawd:hasName [
-lawd:variantForm "مارِدِين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Marde"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/130/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/130/tei>  ;
-dcterms:relation <http://syriaca.org/place/719>  ;
-dcterms:relation <http://syriaca.org/place/2342>  .
+ geo:lat "37.316667" ;
+ geo:long "40.737778" ;];
+ dcterms:relation <http://syriaca.org/place/719> ;
+ dcterms:relation <http://syriaca.org/place/2342> .

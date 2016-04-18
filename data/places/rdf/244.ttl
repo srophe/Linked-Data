@@ -11,28 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/244> a lawd:Place ;
-rdfs:label "Qarṭmin — ܩܪܛܡܝܢ"  ;
-dcterms:description "A village in southeast of ."  ;
-dcterms:temporal "0397"  ;
+ rdfs:label "Qarṭmin — ܩܪܛܡܝܢ" ;
  lawd:hasName [
-lawd:primaryForm "Qarṭmin"@en  ;];
+ lawd:primaryForm "Qarṭmin"@en ;];
  lawd:hasName [
-lawd:variantForm "Yayvantepe"@en  ;];
+ lawd:variantForm "Yayvantepe"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܩܪܛܡܝܢ"@syr  ;];
+ lawd:primaryForm "ܩܪܛܡܝܢ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܩܰܪܛܰܡܝܢ"@syr-Syrj  ;];
+ lawd:variantForm "ܩܰܪܛܰܡܝܢ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "قرتمين"@ar  ;];
+ lawd:variantForm "قرتمين"@ar ;];
  lawd:hasName [
-lawd:variantForm "Qartmin"@en  ;];
+ lawd:variantForm "Qartmin"@en ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
- lawd:hasName [
-lawd:variantForm "Midyat"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/244/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/244/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/221> ;
+ skos:related <http://syriaca.org/place/137> ;
+ dcterms:description "A village in southeast of ." ;
+ dcterms:temporal "0397" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/244/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/244/tei> .

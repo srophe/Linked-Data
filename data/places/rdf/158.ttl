@@ -11,22 +11,20 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/158> a lawd:Place ;
-rdfs:label "Philippopolis"  ;
-dcterms:description "A town east of in the Roman province of ."  ;
-dcterms:temporal "0210"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/678332>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Shahba>  ;
+ rdfs:label "Philippopolis" ;
+ lawd:hasName [
+ lawd:primaryForm "Philippopolis"@en ;];
+ lawd:hasName [
+ lawd:variantForm "شهبة"@ar ;];
+ skos:related <http://syriaca.org/place/201> ;
+ skos:related <http://syriaca.org/place/12> ;
+ dcterms:description "A town east of in the Roman province of ." ;
+ dcterms:temporal "0210" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/678332> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Shahba> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/158/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/158/tei> ;
 geo:location [
-geo:lat "32.85359"  ;
-geo:long "32.85359"  ;];
- lawd:hasName [
-lawd:primaryForm "Philippopolis"@en  ;];
- lawd:hasName [
-lawd:variantForm "شهبة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Tiberias"  ;];
- lawd:hasName [
-lawd:variantForm "Arabia"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/158/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/158/tei>  ;
-dcterms:relation <http://syriaca.org/place/1458>  .
+ geo:lat "32.85359" ;
+ geo:long "36.62683" ;];
+ dcterms:relation <http://syriaca.org/place/1458> .

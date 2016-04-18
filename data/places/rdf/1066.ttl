@@ -11,10 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1066> a lawd:Place ;
-rdfs:label "Beth Shammasha"  ;
+ rdfs:label "Beth Shammasha" ;
  lawd:hasName [
-lawd:primaryForm "Beth Shammasha"@en  ;];
+ lawd:primaryForm "Beth Shammasha"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Shammāshā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1066/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1066/tei>  .
+ lawd:variantForm "Beṯ Shammāshā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1066/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1066/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/741> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

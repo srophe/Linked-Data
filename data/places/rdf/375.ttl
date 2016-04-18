@@ -11,34 +11,34 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/375> a lawd:Place ;
-rdfs:label "Dayro d-Paʿnur — ܕܝܪܐ ܕܦܥܢܘܪ"  ;
+ rdfs:label "Dayro d-Paʿnur — ܕܝܪܐ ܕܦܥܢܘܪ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dayro d-Paʿnur"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܦܥܢܘܪ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܦܰܥܢܘܪ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير فعنور"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Faʿnūr Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Dayro d-Panur"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Dayro d-Pa‘nur"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Fanūr Monastery"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Fa‘nūr Monastery"@en-xsrp1 ;];
  dcterms:description [
-rdfs:label "ܠܐ ܝܕܝܥܳܐ ܕܘܟܬܗ̇. ܥܰܡܝܺܪ ܗܘܳܐ ܫܢܰܬ 510 - 575"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܠܐ ܝܕܝܥܳܐ ܕܘܟܬܗ̇. ܥܰܡܝܺܪ ܗܘܳܐ ܫܢܰܬ 510 - 575"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مجهول الموقع كان عامرا سنة 510 ـ 575."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مجهول الموقع كان عامرا سنة 510 ـ 575."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "the location of this monastery is unknown; however, it was inhabited between 510 and 575."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0510"  ;
- lawd:hasName [
-lawd:primaryForm "Dayro d-Paʿnur"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܦܥܢܘܪ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܦܰܥܢܘܪ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير فعنور"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Faʿnūr Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Dayro d-Panur"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Dayro d-Pa‘nur"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Fanūr Monastery"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Fa‘nūr Monastery"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/375/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/375/tei>  .
+ rdfs:label "the location of this monastery is unknown; however, it was inhabited between 510 and 575."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0510" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/375/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/375/tei> .

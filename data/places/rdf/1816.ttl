@@ -11,8 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1816> a lawd:Place ;
-rdfs:label "Yazdīnābād"  ;
+ rdfs:label "Yazdīnābād" ;
  lawd:hasName [
-lawd:primaryForm "Yazdīnābād"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1816/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1816/tei>  .
+ lawd:primaryForm "Yazdīnābād"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1816/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1816/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

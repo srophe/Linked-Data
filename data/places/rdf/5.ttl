@@ -11,34 +11,34 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/5> a lawd:Place ;
-rdfs:label "Adharbayjān — ܐܕܪܒܝܓܐܢ"  ;
-dcterms:description "A region west of the Caspian Sea, encompassing the modern country of Azerbaijan and the provinces of northwest Iran."  ;
+ rdfs:label "Adharbayjān — ܐܕܪܒܝܓܐܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Adharbayjān"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Azerbaijan"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܕܪܒܝܓܐܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܰܕܰܪܒܰܝܓܰܐܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "اذربيجان"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Azerbayjan"@en ;];
+ lawd:hasName [
+ lawd:variantForm "أَذْرَبِيجَان"@ar ;];
+ dcterms:description "A region west of the Caspian Sea, encompassing the modern country of Azerbaijan and the provinces of northwest Iran." ;
  dcterms:description [
-rdfs:label "ܩܠܺܝܡܐ ܪܘܺܝܚܐ ܕܡܶܬܬܰܚܰܡ ܗܘܳܐ ܒܝܰܡܐ ܕܩܳܙܒܝܢ ܠܡܰܕܢܚܐ ܘܰܒܝܰܡܬܐ ܕܘܰܐܢ ܠܡܰܥܪܒܐ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܠܺܝܡܐ ܪܘܺܝܚܐ ܕܡܶܬܬܰܚܰܡ ܗܘܳܐ ܒܝܰܡܐ ܕܩܳܙܒܝܢ ܠܡܰܕܢܚܐ ܘܰܒܝܰܡܬܐ ܕܘܰܐܢ ܠܡܰܥܪܒܐ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "اقليم واسع كان حدّه من بحر قزبين مشرقاً الى بحيرة وان مغرباً"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "اقليم واسع كان حدّه من بحر قزبين مشرقاً الى بحيرة وان مغرباً"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a vast territory whose boundaries extended from the Caspian Sea in the east to Lake Van in the west."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0700"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Azerbaijan>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Azerbaijan_(Iran)>  ;
- lawd:hasName [
-lawd:primaryForm "Adharbayjān"@en  ;];
- lawd:hasName [
-lawd:variantForm "Azerbaijan"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܕܪܒܝܓܐܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܰܕܰܪܒܰܝܓܰܐܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "اذربيجان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Azerbayjan"@en  ;];
- lawd:hasName [
-lawd:variantForm "أَذْرَبِيجَان"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/5/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/5/tei>  ;
-dcterms:relation <http://syriaca.org/place/2278>  .
+ rdfs:label "a vast territory whose boundaries extended from the Caspian Sea in the east to Lake Van in the west."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0700" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Azerbaijan> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Azerbaijan_(Iran)> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/5/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/5/tei> ;
+ dcterms:relation <http://syriaca.org/place/2278> .

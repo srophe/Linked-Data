@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1226> a lawd:Place ;
-rdfs:label "Geznakh"  ;
+ rdfs:label "Geznakh" ;
  lawd:hasName [
-lawd:primaryForm "Geznakh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1226/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1226/tei>  .
+ lawd:primaryForm "Geznakh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1226/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1226/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/751> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

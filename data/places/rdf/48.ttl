@@ -11,33 +11,33 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/48> a lawd:Place ;
-rdfs:label "Serugh — ܣܪܘܓ"  ;
-dcterms:description "An ancient city where Jacob of Serugh was bishop."  ;
+ rdfs:label "Serugh — ܣܪܘܓ" ;
+ lawd:hasName [
+ lawd:primaryForm "Serugh"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Saruj"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܣܪܘܓ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "سروج"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Sarug"@en ;];
+ lawd:hasName [
+ lawd:variantForm "سَرُوج"@ar ;];
+ dcterms:description "An ancient city where Jacob of Serugh was bishop." ;
  dcterms:description [
-rdfs:label "ܐܰܬܪܰܐ ܗܘ ܕܰܒܕܝܐܪ ܡܶܨܪ ܒܶܝܬ ܚܳܪܳܢ ܠܓܰܪܰܐܒܠܣ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܰܐ ܗܘ ܕܰܒܕܝܐܪ ܡܶܨܪ ܒܶܝܬ ܚܳܪܳܢ ܠܓܰܪܰܐܒܠܣ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بليدة من ديار مضر بين حران وجرابلس."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بليدة من ديار مضر بين حران وجرابلس."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a small town in the Mudar territory, between Ḥarran and Jarabulus. [Modern name, Suruç (tr.)]"@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0518"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Suruç>  ;
+ rdfs:label "a small town in the Mudar territory, between Ḥarran and Jarabulus. [Modern name, Suruç (tr.)]"@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0518" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Suruç> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/48/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/48/tei> ;
 geo:location [
-geo:lat "36.97608"  ;
-geo:long "36.97608"  ;];
- lawd:hasName [
-lawd:primaryForm "Serugh"@en  ;];
- lawd:hasName [
-lawd:variantForm "Saruj"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܣܪܘܓ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "سروج"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Sarug"@en  ;];
- lawd:hasName [
-lawd:variantForm "سَرُوج"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/48/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/48/tei>  .
+ geo:lat "36.97608" ;
+ geo:long "38.42424" ;].

@@ -11,26 +11,25 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/163> a lawd:Place ;
-rdfs:label "Qudshanis"  ;
-dcterms:description "A town in the near the , northeast of ."  ;
-dcterms:temporal "1607"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Konak,_Hakkari>  ;
+ rdfs:label "Qudshanis" ;
+ lawd:hasName [
+ lawd:primaryForm "Qudshanis"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Kochanes"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Qūdshānīs"@en ;];
+ skos:related <http://syriaca.org/place/90> ;
+ skos:related <http://syriaca.org/place/204> ;
+ skos:related <http://syriaca.org/place/107> ;
+ dcterms:description "A town in the near the , northeast of ." ;
+ dcterms:temporal "1607" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Konak,_Hakkari> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/163/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/163/tei> ;
 geo:location [
-geo:lat "37.642778"  ;
-geo:long "37.642778"  ;];
- lawd:hasName [
-lawd:primaryForm "Qudshanis"@en  ;];
- lawd:hasName [
-lawd:variantForm "Kochanes"@en  ;];
- lawd:hasName [
-lawd:variantForm "Qūdshānīs"@en  ;];
- lawd:hasName [
-lawd:variantForm "Hakkari mountains"  ;];
- lawd:hasName [
-lawd:variantForm "Greater Zab"  ;];
- lawd:hasName [
-lawd:variantForm "Julamerk"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/163/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/163/tei>  ;
-dcterms:relation <http://syriaca.org/place/771>  ;
-dcterms:relation <http://syriaca.org/place/2352>  .
+ geo:lat "37.642778" ;
+ geo:long "43.789444" ;];
+ dcterms:relation <http://syriaca.org/place/771> ;
+ dcterms:relation <http://syriaca.org/place/2352> ;
+ dcterms:isPartOf <http://syriaca.org/place/771> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

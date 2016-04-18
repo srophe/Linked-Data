@@ -11,36 +11,34 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/112> a lawd:Place ;
-rdfs:label "Kaysum — ܟܝܫܘܡ"  ;
-dcterms:description "A town north of and west of ."  ;
+ rdfs:label "Kaysum — ܟܝܫܘܡ" ;
+ lawd:hasName [
+ lawd:primaryForm "Kaysum"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Kesoun"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܟܝܫܘܡ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "كيسوم"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Kesum"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Qala Rumayta"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Qal‘a Rumayta"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/97> ;
+ skos:related <http://syriaca.org/place/178> ;
+ dcterms:description "A town north of and west of ." ;
  dcterms:description [
-rdfs:label "ܐܰܬܪܳܐ ܕܒܐܘܚܕܳܢܰܐ ܗܘ ܕܫܰܡܺܝܫܰܛ ܕܐܝܬ ܒܗ ܚܶܣܢܳܐ ܪܰܒܳܐ ܒܶܝܬ ܚܳܠܒ ܠܐܘܪܗܳܝ ܕܚܰܪܝܒ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܳܐ ܕܒܐܘܚܕܳܢܰܐ ܗܘ ܕܫܰܡܺܝܫܰܛ ܕܐܝܬ ܒܗ ܚܶܣܢܳܐ ܪܰܒܳܐ ܒܶܝܬ ܚܳܠܒ ܠܐܘܪܗܳܝ ܕܚܰܪܝܒ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة من اعمال سميساط ذات حصن كبير بين حلب والرها؛ مندثرة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة من اعمال سميساط ذات حصن كبير بين حلب والرها؛ مندثرة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "an ancient town in the province of Samosata, between Aleppo and Edessa. It also had a citadel."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0825"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Çakırhüyük,_Besni>  ;
- lawd:hasName [
-lawd:primaryForm "Kaysum"@en  ;];
- lawd:hasName [
-lawd:variantForm "Kesoun"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܟܝܫܘܡ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "كيسوم"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Kesum"@en  ;];
- lawd:hasName [
-lawd:variantForm "Qala Rumayta"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qal‘a Rumayta"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qalʿa Rumayta"  ;];
- lawd:hasName [
-lawd:variantForm "Samosata"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/112/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/112/tei>  .
+ rdfs:label "an ancient town in the province of Samosata, between Aleppo and Edessa. It also had a citadel."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0825" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Çakırhüyük,_Besni> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/112/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/112/tei> .

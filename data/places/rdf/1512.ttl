@@ -11,24 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1512> a lawd:Place ;
-rdfs:label "Beth Naʿar — ܒܝܬ ܢܥܪ"  ;
-dcterms:description "A village near ."  ;
-dcterms:temporal "0790"  ;
+ rdfs:label "Beth Naʿar — ܒܝܬ ܢܥܪ" ;
  lawd:hasName [
-lawd:primaryForm "Beth Naʿar"@en  ;];
+ lawd:primaryForm "Beth Naʿar"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܒܝܬ ܢܥܪ"@syr  ;];
+ lawd:primaryForm "ܒܝܬ ܢܥܪ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܒܶܝܬ ܢܢܙ"@syr-Syrj  ;];
+ lawd:variantForm "ܒܶܝܬ ܢܢܙ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "بيت نعر"@ar  ;];
+ lawd:variantForm "بيت نعر"@ar ;];
  lawd:hasName [
-lawd:variantForm "Beth Naar"@en  ;];
+ lawd:variantForm "Beth Naar"@en ;];
  lawd:hasName [
-lawd:variantForm "Beth Naar"@en-xsrp1  ;];
+ lawd:variantForm "Beth Naar"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Beth Na‘ar"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Edessa"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1512/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1512/tei>  .
+ lawd:variantForm "Beth Na‘ar"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/78> ;
+ dcterms:description "A village near ." ;
+ dcterms:temporal "0790" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1512/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1512/tei> .

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:dcterms="http://purl.org/dc/terms/"
+      xmlns:collex="http://www.collex.org/schema#"
+      xmlns:syriaca="http://www.syriaca.org/schema#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:role="http://www.loc.gov/loc.terms/relators/">
+
+   <syriaca:syriaca rdf:about="http://syriaca.org/place/78/html">
+
+<!-- We have chosen to point to the HTML here and the TEI below. Is that correct? -->
+
+      <collex:federation>MESA</collex:federation>
+
+      <collex:archive>syriac_gazetteer</collex:archive>
+
+      <dc:title>Edessa — ܐܘܪܗܝ</dc:title>
+      <!-- Would MESA like us to use TEI namespace for additional markup? For example we can serialize the title as <tei:title level="a" xml:lang="en">Edessa — <tei:foreign xml:lang="syr">ܐܘܪܗܝ</tei:foreign>
+    </tei:title> -->
+
+      <!-- N/A <dcterms:alternative>ALTERNATE TITLE</dcterms:alternative> Should this be the Syriac-->
+
+      <dc:source>The Syriac Gazetteer</dc:source>
+
+      <!-- N/A <role:ART>VISUAL ARTIST</role:ART> -->
+
+      <role:AUT>Carlson, Thomas A.</role:AUT>
+      <role:AUT>Michelson, David A.</role:AUT>
+
+      <!-- Note, we will need to play with our data to get the names in Last, First order. We can also provide VIAF or other URIs for these authors as well if desired -->
+      <role:EDT>Carlson, Thomas A.</role:EDT>
+      <role:EDT>Michelson, David A.</role:EDT>
+
+      <role:PBL>Syriaca.org</role:PBL>
+
+      <!-- N/A <role:TRL>TRANSLATOR</role:TRL>
+      <role:CRE>CREATOR</role:CRE>
+      <role:ETR>ETCHER</role:ETR>
+      <role:EGR>ENGRAVER</role:EGR> -->
+      
+      <dc:subject>Edessa</dc:subject>
+      <dc:subject>Syriac Christianity</dc:subject>
+      <dc:subject>Middle East</dc:subject> <!-- Need to come from standard list or be approved. Are these the keywords we ask about below?-->
+
+      <dc:type>Interactive Resource</dc:type>
+
+      <collex:discipline>History</collex:discipline>
+      <collex:discipline>Classics and Ancient History </collex:discipline>
+      <collex:discipline>Geography</collex:discipline>
+      <collex:discipline>Religious Studies </collex:discipline>
+      <collex:discipline>Archaeology</collex:discipline>
+      <collex:discipline>Ethnic Studies</collex:discipline>
+
+      <collex:genre>Reference Works</collex:genre>
+      <collex:genre>ANOTHER GENRE</collex:genre>
+
+      <collex:freeculture>TRUE</collex:freeculture>
+      <collex:ocr>FALSE</collex:ocr>
+      <collex:fulltext>TRUE</collex:fulltext>
+
+      <dc:language>en</dc:language>
+      <!-- how do we list multi-lingual entries? Can we separate by white space?-->
+
+      <dc:date>2014</dc:date>
+
+      <!-- N/A for now. Perhaps if there is a map we could add this but it would be difficult since our maps are dynamically generated <collex:thumbnail rdf:resource="http://YOUR_PUBLICATION.ORG/THUMBNAIL.JPG"/> -->
+      <!-- N/A <collex:image rdf:resource="http://YOUR_PUBLICATION.ORG/FULL_SIZE_IMAGE.JPG"/> -->
+
+      <collex:source_xml rdf:resource="http://syriaca.org/place/78/tei"/>
+
+      <!-- We do not have this but it might be worth generating. <collex:text rdf:resource="http://PLAIN_TEXT_OBJECT_TRANSCRIPTION.TXT"/> -->
+
+      <rdfs:seeAlso rdf:resource="http://syriaca.org/place/78/"/>
+
+      <!-- unclear about how to hand the above. Our URI for the entry http://syriaca.org/place/78/html is the same as its URL. Should we list it again? -->
+
+      <!-- N/A since we already indicated the dc:source above or should we repeat? <dcterms:hasPart rdf:resource="ANOTHER_OBJECT_CONTAINED_BY_THIS_OBJECT"/>
+      <dcterms:isPartOf rdf:resource="AN_OBJECT_THAT_CONTAINS_THIS_OBJECT"/>
+      <dc:relation rdf:resource="AN_ASSOCIATED_OBJECT"/> -->
+
+   </syriaca:syriaca>
+   <!-- what are the rules for this own namespace? -->
+
+</rdf:RDF>
+
+<!--Notes: WE may want to list related entries using <dc:relation>
+
+Is there a way to include an abstract or description of the item?
+
+How do we include Subject keywords that will be of interest to users and searching, especially the names of the entry translated into other langauges (Arabic or French for example) and the type of location described (monastery, church, village).
+-->

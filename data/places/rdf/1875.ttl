@@ -11,19 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1875> a lawd:Place ;
-rdfs:label "Mar ʿAbda"  ;
+ rdfs:label "Mar ʿAbda" ;
  lawd:hasName [
-lawd:primaryForm "Mar ʿAbda"@en  ;];
+ lawd:primaryForm "Mar ʿAbda"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār ʿAbdā"@en  ;];
+ lawd:variantForm "Mār ʿAbdā"@en ;];
  lawd:hasName [
-lawd:variantForm "Mar Abda"@en-xsrp1  ;];
+ lawd:variantForm "Mar Abda"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mar ‘Abda"@en-xsrp1  ;];
+ lawd:variantForm "Mar ‘Abda"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Abdā"@en-xsrp1  ;];
+ lawd:variantForm "Mār Abdā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār ‘Abdā"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1875/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1875/tei>  ;
-dcterms:relation <http://syriaca.org/place/1874>  .
+ lawd:variantForm "Mār ‘Abdā"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1875/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1875/tei> ;
+ dcterms:relation <http://syriaca.org/place/1874> ;
+ dcterms:isPartOf <http://syriaca.org/place/921> ;
+ dcterms:isPartOf <http://syriaca.org/place/732> ;
+ dcterms:isPartOf <http://syriaca.org/place/724> .

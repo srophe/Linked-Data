@@ -11,22 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/549> a lawd:Place ;
-rdfs:label "Kalasht — ܟܠܫܬ"  ;
-dcterms:description "A village in ."  ;
-dcterms:temporal "1943"  ;
+ rdfs:label "Kalasht — ܟܠܫܬ" ;
  lawd:hasName [
-lawd:primaryForm "Kalasht"@en  ;];
+ lawd:primaryForm "Kalasht"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܟܠܫܬ"@syr  ;];
+ lawd:primaryForm "ܟܠܫܬ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܒܠܫܬ"@syr-Syrj  ;];
+ lawd:variantForm "ܒܠܫܬ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "كلشت"@ar  ;];
+ lawd:variantForm "كلشت"@ar ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/549/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/549/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/221> ;
+ dcterms:description "A village in ." ;
+ dcterms:temporal "1943" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/549/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/549/tei> .

@@ -11,30 +11,30 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/261> a lawd:Place ;
-rdfs:label "ʿAynkawa"  ;
-dcterms:description "A town northeast of ."  ;
-dcterms:temporal "0925"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Ankawa>  ;
+ rdfs:label "ʿAynkawa" ;
  lawd:hasName [
-lawd:primaryForm "ʿAynkawa"@en  ;];
+ lawd:primaryForm "ʿAynkawa"@en ;];
  lawd:hasName [
-lawd:variantForm "ʿAïnqāwā"@en  ;];
+ lawd:variantForm "ʿAïnqāwā"@en ;];
  lawd:hasName [
-lawd:variantForm "ʿAmkābā"@en  ;];
+ lawd:variantForm "ʿAmkābā"@en ;];
  lawd:hasName [
-lawd:variantForm "Aynkawa"@en-xsrp1  ;];
+ lawd:variantForm "Aynkawa"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Aynkawa"@en-xsrp1  ;];
+ lawd:variantForm "‘Aynkawa"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Aïnqāwā"@en-xsrp1  ;];
+ lawd:variantForm "Aïnqāwā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Aïnqāwā"@en-xsrp1  ;];
+ lawd:variantForm "‘Aïnqāwā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Amkābā"@en-xsrp1  ;];
+ lawd:variantForm "Amkābā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Amkābā"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Arbela"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/261/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/261/tei>  ;
-dcterms:relation <http://syriaca.org/place/2261>  .
+ lawd:variantForm "‘Amkābā"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/13> ;
+ dcterms:description "A town northeast of ." ;
+ dcterms:temporal "0925" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Ankawa> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/261/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/261/tei> ;
+ dcterms:relation <http://syriaca.org/place/2261> ;
+ dcterms:isPartOf <http://syriaca.org/place/993> .

@@ -11,12 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/935> a lawd:Place ;
-rdfs:label "ʿĀdā"  ;
+ rdfs:label "ʿĀdā" ;
  lawd:hasName [
-lawd:primaryForm "ʿĀdā"@en  ;];
+ lawd:primaryForm "ʿĀdā"@en ;];
  lawd:hasName [
-lawd:variantForm "Ādā"@en-xsrp1  ;];
+ lawd:variantForm "Ādā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Ādā"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/935/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/935/tei>  .
+ lawd:variantForm "‘Ādā"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/935/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/935/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/839> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

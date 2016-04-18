@@ -11,23 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/495> a lawd:Place ;
-rdfs:label "al-Najaf — ܢܓܦ"  ;
-dcterms:description "A city on the south of ."  ;
-dcterms:temporal "1600"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Najaf>  ;
+ rdfs:label "al-Najaf — ܢܓܦ" ;
  lawd:hasName [
-lawd:primaryForm "al-Najaf"@en  ;];
+ lawd:primaryForm "al-Najaf"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܢܓܦ"@syr  ;];
+ lawd:primaryForm "ܢܓܦ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܢܰܓܦ"@syr-Syrj  ;];
+ lawd:variantForm "ܢܰܓܦ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "النجف"@ar  ;];
+ lawd:variantForm "النجف"@ar ;];
  lawd:hasName [
-lawd:variantForm "النَجَف"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates"  ;];
- lawd:hasName [
-lawd:variantForm "Baghdad"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/495/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/495/tei>  .
+ lawd:variantForm "النَجَف"@ar ;];
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/41> ;
+ dcterms:description "A city on the south of ." ;
+ dcterms:temporal "1600" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Najaf> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/495/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/495/tei> .

@@ -11,11 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/882> a lawd:Place ;
-rdfs:label "Abnaye"  ;
+ rdfs:label "Abnaye" ;
  lawd:hasName [
-lawd:primaryForm "Abnaye"@en  ;];
+ lawd:primaryForm "Abnaye"@en ;];
  lawd:hasName [
-lawd:variantForm "Abnāye"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/882/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/882/tei>  ;
-dcterms:relation <http://syriaca.org/place/2276>  .
+ lawd:variantForm "Abnāye"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/882/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/882/tei> ;
+ dcterms:relation <http://syriaca.org/place/2276> ;
+ dcterms:isPartOf <http://syriaca.org/place/751> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

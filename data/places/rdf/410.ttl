@@ -11,33 +11,33 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/410> a lawd:Place ;
-rdfs:label "Sarmin — ܣܪܡܝܢ"  ;
+ rdfs:label "Sarmin — ܣܪܡܝܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Sarmin"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܣܪܡܝܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܣܰܪܡܝܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "سرمين"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Sermin"@en ;];
+ lawd:hasName [
+ lawd:variantForm "سَرْمِيْن"@ar ;];
  dcterms:description [
-rdfs:label "ܐܰܬܪܰܐ ܗܘ ܕܒܐܘܚܕܳܢܐ ܕܚܳܠܳܒ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܰܐ ܗܘ ܕܒܐܘܚܕܳܢܐ ܕܚܳܠܳܒ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بليدة من اعمال حلب."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بليدة من اعمال حلب."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a small town in the province of Aleppo."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0581"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/668366>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Sarmin>  ;
+ rdfs:label "a small town in the province of Aleppo."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0581" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/668366> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Sarmin> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/410/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/410/tei> ;
 geo:location [
-geo:lat "35.922817"  ;
-geo:long "35.922817"  ;];
- lawd:hasName [
-lawd:primaryForm "Sarmin"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܣܪܡܝܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܣܰܪܡܝܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "سرمين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Sermin"@en  ;];
- lawd:hasName [
-lawd:variantForm "سَرْمِيْن"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/410/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/410/tei>  .
+ geo:lat "35.922817" ;
+ geo:long "36.735987" ;].

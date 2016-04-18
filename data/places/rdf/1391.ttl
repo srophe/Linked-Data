@@ -11,8 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1391> a lawd:Place ;
-rdfs:label "Korīj"  ;
+ rdfs:label "Korīj" ;
  lawd:hasName [
-lawd:primaryForm "Korīj"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1391/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1391/tei>  .
+ lawd:primaryForm "Korīj"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1391/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1391/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/724> .

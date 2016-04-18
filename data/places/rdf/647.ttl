@@ -11,14 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/647> a lawd:Place ;
-rdfs:label "Turkestan"  ;
-dcterms:description "A region in ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Turkestan>  ;
+ rdfs:label "Turkestan" ;
  lawd:hasName [
-lawd:primaryForm "Turkestan"@en  ;];
+ lawd:primaryForm "Turkestan"@en ;];
  lawd:hasName [
-lawd:variantForm "تركستان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Central Asia"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/647/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/647/tei>  .
+ lawd:variantForm "تركستان"@ar ;];
+ skos:related <http://syriaca.org/place/585> ;
+ dcterms:description "A region in ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Turkestan> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/647/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/647/tei> .

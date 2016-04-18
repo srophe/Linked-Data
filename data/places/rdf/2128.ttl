@@ -11,10 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2128> a lawd:Place ;
-rdfs:label "Mar Yoḥannan the Arab"  ;
+ rdfs:label "Mar Yoḥannan the Arab" ;
  lawd:hasName [
-lawd:primaryForm "Mar Yoḥannan the Arab"@en  ;];
+ lawd:primaryForm "Mar Yoḥannan the Arab"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Yōḥannān the Arab"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2128/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2128/tei>  .
+ lawd:variantForm "Mār Yōḥannān the Arab"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2128/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2128/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1223> ;
+ dcterms:isPartOf <http://syriaca.org/place/761> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

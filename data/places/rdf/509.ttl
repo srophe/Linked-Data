@@ -11,23 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/509> a lawd:Place ;
-rdfs:label "al-Wāsiṭ — ܘܐܣܛ"  ;
-dcterms:description "A city of southern Iraq on the west bank of the ."  ;
-dcterms:temporal "0714"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Wasit,_Iraq>  ;
+ rdfs:label "al-Wāsiṭ — ܘܐܣܛ" ;
  lawd:hasName [
-lawd:primaryForm "al-Wāsiṭ"@en  ;];
+ lawd:primaryForm "al-Wāsiṭ"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܘܐܣܛ"@syr  ;];
+ lawd:primaryForm "ܘܐܣܛ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܘܰܐܣܛ"@syr-Syrj  ;];
+ lawd:variantForm "ܘܰܐܣܛ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "واسط"@ar  ;];
+ lawd:variantForm "واسط"@ar ;];
  lawd:hasName [
-lawd:variantForm "Wasit"@en  ;];
- lawd:hasName [
-lawd:variantForm "Tigris"  ;];
- lawd:hasName [
-lawd:variantForm "Kashkar"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/509/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/509/tei>  .
+ lawd:variantForm "Wasit"@en ;];
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/111> ;
+ dcterms:description "A city of southern Iraq on the west bank of the ." ;
+ dcterms:temporal "0714" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Wasit,_Iraq> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/509/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/509/tei> .

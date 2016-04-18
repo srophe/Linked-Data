@@ -11,10 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1052> a lawd:Place ;
-rdfs:label "Beth Qardāgh"  ;
+ rdfs:label "Beth Qardāgh" ;
  lawd:hasName [
-lawd:primaryForm "Beth Qardāgh"@en  ;];
+ lawd:primaryForm "Beth Qardāgh"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Qardāgh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1052/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1052/tei>  .
+ lawd:variantForm "Beṯ Qardāgh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1052/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1052/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/776> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

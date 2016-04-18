@@ -11,14 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2502> a lawd:Place ;
-rdfs:label "Mar Yoḥannan the Egyptian"  ;
+ rdfs:label "Mar Yoḥannan the Egyptian" ;
  lawd:hasName [
-lawd:primaryForm "Mar Yoḥannan the Egyptian"@en  ;];
+ lawd:primaryForm "Mar Yoḥannan the Egyptian"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Yōḥannān the Egyptian"@en  ;];
+ lawd:variantForm "Mār Yōḥannān the Egyptian"@en ;];
  lawd:hasName [
-lawd:variantForm "Mar John the Egyptian"@en  ;];
+ lawd:variantForm "Mar John the Egyptian"@en ;];
  lawd:hasName [
-lawd:variantForm "Ḥlaḥlaḥ"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2502/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2502/tei>  .
+ lawd:variantForm "Ḥlaḥlaḥ"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2502/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2502/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/786> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

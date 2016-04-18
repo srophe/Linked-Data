@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/914> a lawd:Place ;
-rdfs:label "Armānīs"  ;
+ rdfs:label "Armānīs" ;
  lawd:hasName [
-lawd:primaryForm "Armānīs"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/914/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/914/tei>  .
+ lawd:primaryForm "Armānīs"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/914/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/914/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/784> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

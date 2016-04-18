@@ -11,28 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1463> a lawd:Place ;
-rdfs:label "Dayro d-Liqin — ܕܝܪܐ ܕܠܝܩܝܢ"  ;
-dcterms:description "A monastery dedicated to the Virgin Mary located on the Black Mountain."  ;
-dcterms:temporal "0525"  ;
+ rdfs:label "Dayro d-Liqin — ܕܝܪܐ ܕܠܝܩܝܢ" ;
  lawd:hasName [
-lawd:primaryForm "Dayro d-Liqin"@en  ;];
+ lawd:primaryForm "Dayro d-Liqin"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܠܝܩܝܢ"@syr  ;];
+ lawd:primaryForm "ܕܝܪܐ ܕܠܝܩܝܢ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܰܒܬܘܽܠܬܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܰܝܪܐ ܕܰܒܬܘܽܠܬܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "ܒܶܝܬ ܠܺܝܩܝܰܢܳܘܣ"@syr-Syrj  ;];
+ lawd:variantForm "ܒܶܝܬ ܠܺܝܩܝܰܢܳܘܣ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "دير ليقين"@ar  ;];
+ lawd:variantForm "دير ليقين"@ar ;];
  lawd:hasName [
-lawd:variantForm "دير العذراء"@ar  ;];
+ lawd:variantForm "دير العذراء"@ar ;];
  lawd:hasName [
-lawd:variantForm "بيت ليقينوس"@ar  ;];
+ lawd:variantForm "بيت ليقينوس"@ar ;];
  lawd:hasName [
-lawd:variantForm "Monastery of Beth Liqin"@en  ;];
+ lawd:variantForm "Monastery of Beth Liqin"@en ;];
  lawd:hasName [
-lawd:variantForm "Monastery of the Virgin"@en  ;];
+ lawd:variantForm "Monastery of the Virgin"@en ;];
  lawd:hasName [
-lawd:variantForm "Beth Licinius"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1463/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1463/tei>  .
+ lawd:variantForm "Beth Licinius"@en ;];
+ dcterms:description "A monastery dedicated to the Virgin Mary located on the Black Mountain." ;
+ dcterms:temporal "0525" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1463/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1463/tei> .

@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1289> a lawd:Place ;
-rdfs:label "Hūbābqū"  ;
+ rdfs:label "Hūbābqū" ;
  lawd:hasName [
-lawd:primaryForm "Hūbābqū"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1289/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1289/tei>  .
+ lawd:primaryForm "Hūbābqū"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1289/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1289/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/839> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

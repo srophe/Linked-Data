@@ -11,10 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2194> a lawd:Place ;
-rdfs:label "Mart Maryam and Mar Shalliṭa"  ;
+ rdfs:label "Mart Maryam and Mar Shalliṭa" ;
  lawd:hasName [
-lawd:primaryForm "Mart Maryam and Mar Shalliṭa"@en  ;];
+ lawd:primaryForm "Mart Maryam and Mar Shalliṭa"@en ;];
  lawd:hasName [
-lawd:variantForm "Mart Maryam and Mār Shallīṭā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2194/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2194/tei>  .
+ lawd:variantForm "Mart Maryam and Mār Shallīṭā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2194/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2194/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1132> ;
+ dcterms:isPartOf <http://syriaca.org/place/741> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2311> a lawd:Place ;
-rdfs:label "Ḥadita"  ;
+ rdfs:label "Ḥadita" ;
  lawd:hasName [
-lawd:primaryForm "Ḥadita"@en  ;];
+ lawd:primaryForm "Ḥadita"@en ;];
  lawd:hasName [
-lawd:variantForm "Ḥadīṯā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2311/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2311/tei>  ;
-dcterms:relation <http://syriaca.org/place/825>  .
+ lawd:variantForm "Ḥadīṯā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2311/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2311/tei> ;
+ dcterms:relation <http://syriaca.org/place/825> .

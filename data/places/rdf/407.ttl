@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/407> a lawd:Place ;
-rdfs:label "Rūmāniyya — ܪܘܡܐܢܝܗ"  ;
+ rdfs:label "Rūmāniyya — ܪܘܡܐܢܝܗ" ;
+ lawd:hasName [
+ lawd:primaryForm "Rūmāniyya"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܪܘܡܐܢܝܗ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܪܘܡܰܐܢܝܗ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "رومانية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Romaniya"@en ;];
  dcterms:description [
-rdfs:label "ܩܪܝܬܳܐ ܗܝ ܕܒܐܘܚܕܳܢܳܐ ܕܨܰܘܪܐ ܡܝܰܬܒܳܐ ܗܘܳܬ ܒܣܘܪ̈ܝܳܝܶܐ ܥܕܰܡܐ ܠܡܰܐܬܐ ܫܬܰܥܣܝܪܳܝܬܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܝܬܳܐ ܗܝ ܕܒܐܘܚܕܳܢܳܐ ܕܨܰܘܪܐ ܡܝܰܬܒܳܐ ܗܘܳܬ ܒܣܘܪ̈ܝܳܝܶܐ ܥܕܰܡܐ ܠܡܰܐܬܐ ܫܬܰܥܣܝܪܳܝܬܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية من عمل الصور كانت آهلة بالسريان حتى سلخ السادسة عشرة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية من عمل الصور كانت آهلة بالسريان حتى سلخ السادسة عشرة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village in the Sawar district, populated by Syrians until the end of the sixteenth century."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1600"  ;
- lawd:hasName [
-lawd:primaryForm "Rūmāniyya"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܪܘܡܐܢܝܗ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܪܘܡܰܐܢܝܗ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "رومانية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Romaniya"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/407/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/407/tei>  .
+ rdfs:label "a village in the Sawar district, populated by Syrians until the end of the sixteenth century."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1600" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/407/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/407/tei> .

@@ -11,16 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1574> a lawd:Place ;
-rdfs:label "Nerem"  ;
+ rdfs:label "Nerem" ;
  lawd:hasName [
-lawd:primaryForm "Nerem"@en  ;];
+ lawd:primaryForm "Nerem"@en ;];
  lawd:hasName [
-lawd:variantForm "Gūndūk"@en  ;];
+ lawd:variantForm "Gūndūk"@en ;];
  lawd:hasName [
-lawd:variantForm "Nīram d'Raʿawāṯā"@en  ;];
+ lawd:variantForm "Nīram d'Raʿawāṯā"@en ;];
  lawd:hasName [
-lawd:variantForm "Nīram d'Raawāṯā"@en-xsrp1  ;];
+ lawd:variantForm "Nīram d'Raawāṯā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Nīram d'Ra‘awāṯā"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1574/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1574/tei>  .
+ lawd:variantForm "Nīram d'Ra‘awāṯā"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1574/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1574/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/776> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

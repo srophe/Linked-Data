@@ -11,38 +11,38 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/470> a lawd:Place ;
-rdfs:label "Dayro d-Mor Yaʿqub — ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ"  ;
-dcterms:description "A monastery in ."  ;
+ rdfs:label "Dayro d-Mor Yaʿqub — ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dayro d-Mor Yaʿqub"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܝܰܥܩܘܒ ܡܰܠܦܳܢܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير مار يعقوب الملفان"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Jacob the Doctor of the Church Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Mār Yaʿqōb (West Syrian)"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Dayro d-Mor Yaqub"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Dayro d-Mor Ya‘qub"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Mār Yaqōb (West Syrian)"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Mār Ya‘qōb (West Syrian)"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Dayr al-Zafarān"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Dayr al-Za‘farān"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/69> ;
+ dcterms:description "A monastery in ." ;
  dcterms:description [
-rdfs:label "first mentioned in history in 1165 and still active."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1165"  ;
- lawd:hasName [
-lawd:primaryForm "Dayro d-Mor Yaʿqub"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܝܰܥܩܘܒ ܡܰܠܦܳܢܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير مار يعقوب الملفان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Jacob the Doctor of the Church Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Mār Yaʿqōb (West Syrian)"@en  ;];
- lawd:hasName [
-lawd:variantForm "Dayro d-Mor Yaqub"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Dayro d-Mor Ya‘qub"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Mār Yaqōb (West Syrian)"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Mār Ya‘qōb (West Syrian)"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Dayr al-Zafarān"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Dayr al-Za‘farān"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Dayr al-Zaʿfarān"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/470/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/470/tei>  ;
-dcterms:relation <http://syriaca.org/place/72>  .
+ rdfs:label "first mentioned in history in 1165 and still active."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1165" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/470/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/470/tei> ;
+ dcterms:relation <http://syriaca.org/place/72> ;
+ dcterms:isPartOf <http://syriaca.org/place/130> .

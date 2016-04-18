@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2345> a lawd:Place ;
-rdfs:label "Mopsuestia"  ;
+ rdfs:label "Mopsuestia" ;
  lawd:hasName [
-lawd:primaryForm "Mopsuestia"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2345/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2345/tei>  ;
-dcterms:relation <http://syriaca.org/place/138>  .
+ lawd:primaryForm "Mopsuestia"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2345/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2345/tei> ;
+ dcterms:relation <http://syriaca.org/place/138> .

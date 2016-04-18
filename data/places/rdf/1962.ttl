@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1962> a lawd:Place ;
-rdfs:label "Beth Banik"  ;
+ rdfs:label "Beth Banik" ;
  lawd:hasName [
-lawd:primaryForm "Beth Banik"@en  ;];
+ lawd:primaryForm "Beth Banik"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Bānik"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1962/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1962/tei>  .
+ lawd:variantForm "Beṯ Bānik"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1962/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1962/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/993> .

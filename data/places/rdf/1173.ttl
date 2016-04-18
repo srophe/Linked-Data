@@ -11,18 +11,20 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1173> a lawd:Place ;
-rdfs:label "Dīzā d-Āghā ʿĀlī"  ;
+ rdfs:label "Dīzā d-Āghā ʿĀlī" ;
  lawd:hasName [
-lawd:primaryForm "Dīzā d-Āghā ʿĀlī"@en  ;];
+ lawd:primaryForm "Dīzā d-Āghā ʿĀlī"@en ;];
  lawd:hasName [
-lawd:variantForm "Dīzā d'Āghā ʿĀlī"@en  ;];
+ lawd:variantForm "Dīzā d'Āghā ʿĀlī"@en ;];
  lawd:hasName [
-lawd:variantForm "Dīzā d-Āghā Ālī"@en-xsrp1  ;];
+ lawd:variantForm "Dīzā d-Āghā Ālī"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Dīzā d-Āghā ‘Ālī"@en-xsrp1  ;];
+ lawd:variantForm "Dīzā d-Āghā ‘Ālī"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Dīzā d'Āghā Ālī"@en-xsrp1  ;];
+ lawd:variantForm "Dīzā d'Āghā Ālī"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Dīzā d'Āghā ‘Ālī"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1173/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1173/tei>  .
+ lawd:variantForm "Dīzā d'Āghā ‘Ālī"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1173/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1173/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/733> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

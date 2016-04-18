@@ -11,36 +11,36 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/409> a lawd:Place ;
-rdfs:label "Sijistān — ܣܓܣܬܐܢ"  ;
+ rdfs:label "Sijistān — ܣܓܣܬܐܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Sijistān"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܣܓܣܬܐܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܣܰܓܣܬܰܐܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "سجستان"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Sijistan"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Segestan"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Segestān"@en ;];
+ lawd:hasName [
+ lawd:variantForm "سِجِستان"@ar ;];
  dcterms:description [
-rdfs:label "ܦܢܝܬܳܐ ܗܝ ܪܰܒܬܳܐ ܘܰܩܠܝܡܳܐ ܗܘ ܦܰܬܝܳܐ ܒܩܘܪܳܒܐ ܕܗܰܪܐܬ ܪܰܚܝܩܳܐ 10 ܝܰܘܡ̈ܝܢ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܦܢܝܬܳܐ ܗܝ ܪܰܒܬܳܐ ܘܰܩܠܝܡܳܐ ܗܘ ܦܰܬܝܳܐ ܒܩܘܪܳܒܐ ܕܗܰܪܐܬ ܪܰܚܝܩܳܐ 10 ܝܰܘܡ̈ܝܢ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "ناحية كبيرة وولاية واسعة جنوب هرات وبينهما عشرة ايام."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ناحية كبيرة وولاية واسعة جنوب هرات وبينهما عشرة ايام."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a vast territory, ten days’ journey south of Herat."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-skos:exactMatch <http://pleiades.stoa.org/places/29547>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Sistan>  ;
+ rdfs:label "a vast territory, ten days’ journey south of Herat."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ skos:exactMatch <http://pleiades.stoa.org/places/29547> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Sistan> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/409/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/409/tei> ;
 geo:location [
-geo:lat "32.5"  ;
-geo:long "32.5"  ;];
- lawd:hasName [
-lawd:primaryForm "Sijistān"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܣܓܣܬܐܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܣܰܓܣܬܰܐܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "سجستان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Sijistan"@en  ;];
- lawd:hasName [
-lawd:variantForm "Segestan"@en  ;];
- lawd:hasName [
-lawd:variantForm "Segestān"@en  ;];
- lawd:hasName [
-lawd:variantForm "سِجِستان"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/409/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/409/tei>  .
+ geo:lat "32.5" ;
+ geo:long "62.5" ;].

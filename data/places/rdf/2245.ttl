@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2245> a lawd:Place ;
-rdfs:label "Aleppo"  ;
+ rdfs:label "Aleppo" ;
  lawd:hasName [
-lawd:primaryForm "Aleppo"@en  ;];
+ lawd:primaryForm "Aleppo"@en ;];
  lawd:hasName [
-lawd:variantForm "Aleppo (diocese)"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2245/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2245/tei>  ;
-dcterms:relation <http://syriaca.org/place/18>  ;
-dcterms:relation <http://syriaca.org/place/2246>  .
+ lawd:variantForm "Aleppo (diocese)"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2245/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2245/tei> ;
+ dcterms:relation <http://syriaca.org/place/18> ;
+ dcterms:relation <http://syriaca.org/place/2246> .

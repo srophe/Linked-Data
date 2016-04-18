@@ -11,12 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/948> a lawd:Place ;
-rdfs:label "ʿAqdesh"  ;
+ rdfs:label "ʿAqdesh" ;
  lawd:hasName [
-lawd:primaryForm "ʿAqdesh"@en  ;];
+ lawd:primaryForm "ʿAqdesh"@en ;];
  lawd:hasName [
-lawd:variantForm "Aqdesh"@en-xsrp1  ;];
+ lawd:variantForm "Aqdesh"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Aqdesh"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/948/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/948/tei>  .
+ lawd:variantForm "‘Aqdesh"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/948/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/948/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/783> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

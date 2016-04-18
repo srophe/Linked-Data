@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1425> a lawd:Place ;
-rdfs:label "Mārwānan"  ;
+ rdfs:label "Mārwānan" ;
  lawd:hasName [
-lawd:primaryForm "Mārwānan"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1425/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1425/tei>  .
+ lawd:primaryForm "Mārwānan"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1425/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1425/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/767> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

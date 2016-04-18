@@ -11,9 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1761> a lawd:Place ;
-rdfs:label "Tāzākand"  ;
+ rdfs:label "Tāzākand" ;
  lawd:hasName [
-lawd:primaryForm "Tāzākand"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1761/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1761/tei>  ;
-dcterms:relation <http://syriaca.org/place/1762>  .
+ lawd:primaryForm "Tāzākand"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1761/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1761/tei> ;
+ dcterms:relation <http://syriaca.org/place/1762> ;
+ dcterms:isPartOf <http://syriaca.org/place/839> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

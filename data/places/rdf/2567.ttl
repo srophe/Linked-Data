@@ -11,27 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2567> a lawd:Place ;
-rdfs:label "Telneshe — ܬܠܢܫܐ"  ;
-dcterms:description "A village in ancient ."  ;
-dcterms:temporal "0400"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658613>  ;
+ rdfs:label "Telneshe — ܬܠܢܫܐ" ;
  lawd:hasName [
-lawd:primaryForm "Telneshe"@en  ;];
+ lawd:primaryForm "Telneshe"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܬܠܢܫܐ"@syr  ;];
+ lawd:primaryForm "ܬܠܢܫܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "Τελάνισσος"@el  ;];
+ lawd:variantForm "Τελάνισσος"@el ;];
  lawd:hasName [
-lawd:variantForm "ܬܠܢܫܝܢ"@syr  ;];
+ lawd:variantForm "ܬܠܢܫܝܢ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܬܠܢܫܝܠ"@syr  ;];
+ lawd:variantForm "ܬܠܢܫܝܠ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܬܷܠܢܫܰܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܬܷܠܢܫܰܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "ܬܠܝܼܫܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܬܠܝܼܫܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "Deir Sem‘an"@en  ;];
- lawd:hasName [
-lawd:variantForm "Syria"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2567/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2567/tei>  .
+ lawd:variantForm "Deir Sem‘an"@en ;];
+ skos:related <http://syriaca.org/place/486> ;
+ dcterms:description "A village in ancient ." ;
+ dcterms:temporal "0400" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658613> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2567/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2567/tei> .

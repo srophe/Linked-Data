@@ -11,19 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/14> a lawd:Place ;
-rdfs:label "Acre"  ;
-dcterms:description "An ancient port on the coast of Phoenice, and the last Crusader foothold in the Levant."  ;
-dcterms:temporal "-1300"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/678010>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Acre,_Israel>  ;
+ rdfs:label "Acre" ;
+ lawd:hasName [
+ lawd:primaryForm "Acre"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Akko"@en ;];
+ lawd:hasName [
+ lawd:variantForm "عَكّة"@ar ;];
+ dcterms:description "An ancient port on the coast of Phoenice, and the last Crusader foothold in the Levant." ;
+ dcterms:temporal "-1300" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/678010> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Acre,_Israel> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/14/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/14/tei> ;
 geo:location [
-geo:lat "32.927778"  ;
-geo:long "32.927778"  ;];
- lawd:hasName [
-lawd:primaryForm "Acre"@en  ;];
- lawd:hasName [
-lawd:variantForm "Akko"@en  ;];
- lawd:hasName [
-lawd:variantForm "عَكّة"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/14/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/14/tei>  .
+ geo:lat "32.927778" ;
+ geo:long "35.081667" ;].

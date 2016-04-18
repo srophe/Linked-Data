@@ -11,19 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/336> a lawd:Place ;
-rdfs:label "Dayr Ibn Jājī"  ;
+ rdfs:label "Dayr Ibn Jājī" ;
+ lawd:hasName [
+ lawd:primaryForm "Dayr Ibn Jājī"@en ;];
+ lawd:hasName [
+ lawd:variantForm "دير ابن جاجي"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Bar Jājī Monastery"@en ;];
  dcterms:description [
-rdfs:label "على النهر اليابس من اعمال ملطية انشأه باسم الشهداء الاربعين الراهب ايليا ابن جاجي التكريتي عام 960 وعلّم فيه الراهب يوحنا تلميذ مارون العلوم اللغوية والحكمية في حدود سنة 980-999 وتخرج فيه ستة عشر حبرا حتى سنة 1105 وفي سنة 1058 تضعضع بغارة شنها ثلاثة آلاف تركي على ملطية فتولاه الخراب"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "على النهر اليابس من اعمال ملطية انشأه باسم الشهداء الاربعين الراهب ايليا ابن جاجي التكريتي عام 960 وعلّم فيه الراهب يوحنا تلميذ مارون العلوم اللغوية والحكمية في حدود سنة 980-999 وتخرج فيه ستة عشر حبرا حتى سنة 1105 وفي سنة 1058 تضعضع بغارة شنها ثلاثة آلاف تركي على ملطية فتولاه الخراب"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "on the Dry river, in the province of Melitene. It was established in 960 by the monk Elijah Ibn Jājī, in commemoration of the Forty Martyrs. There the monk John, the pupil of Marun, taught linguistics and philosophy (c. 980-999). Sixteen eminent men of the church graduated from it until 1105. In 1085, however, it was destroyed in an attack by three thousand Turkish soldiers against Melitene."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0960"  ;
- lawd:hasName [
-lawd:primaryForm "Dayr Ibn Jājī"@en  ;];
- lawd:hasName [
-lawd:variantForm "دير ابن جاجي"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Bar Jājī Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/336/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/336/tei>  .
+ rdfs:label "on the Dry river, in the province of Melitene. It was established in 960 by the monk Elijah Ibn Jājī, in commemoration of the Forty Martyrs. There the monk John, the pupil of Marun, taught linguistics and philosophy (c. 980-999). Sixteen eminent men of the church graduated from it until 1105. In 1085, however, it was destroyed in an attack by three thousand Turkish soldiers against Melitene."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0960" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/336/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/336/tei> .

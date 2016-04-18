@@ -11,10 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1140> a lawd:Place ;
-rdfs:label "Dayra d-Zengel"  ;
+ rdfs:label "Dayra d-Zengel" ;
  lawd:hasName [
-lawd:primaryForm "Dayra d-Zengel"@en  ;];
+ lawd:primaryForm "Dayra d-Zengel"@en ;];
  lawd:hasName [
-lawd:variantForm "Dairā d'Zengel"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1140/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1140/tei>  .
+ lawd:variantForm "Dairā d'Zengel"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1140/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1140/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/760> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

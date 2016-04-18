@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1072> a lawd:Place ;
-rdfs:label "Beth Ṣayyade"  ;
+ rdfs:label "Beth Ṣayyade" ;
  lawd:hasName [
-lawd:primaryForm "Beth Ṣayyade"@en  ;];
+ lawd:primaryForm "Beth Ṣayyade"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Ṣayyāde"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1072/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1072/tei>  .
+ lawd:variantForm "Beṯ Ṣayyāde"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1072/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1072/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/993> .

@@ -11,10 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1988> a lawd:Place ;
-rdfs:label "Mar Ḥadbshabba"  ;
+ rdfs:label "Mar Ḥadbshabba" ;
  lawd:hasName [
-lawd:primaryForm "Mar Ḥadbshabba"@en  ;];
+ lawd:primaryForm "Mar Ḥadbshabba"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Ḥaḏbshabbā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1988/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1988/tei>  .
+ lawd:variantForm "Mār Ḥaḏbshabbā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1988/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1988/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1062> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

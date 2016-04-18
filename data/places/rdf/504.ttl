@@ -11,22 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/504> a lawd:Place ;
-rdfs:label "Anatolia — ܐܢܐܛܘܠ"  ;
-dcterms:description "The peninsula constituting the westernmost portion of Asia."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Anatolia>  ;
+ rdfs:label "Anatolia — ܐܢܐܛܘܠ" ;
  lawd:hasName [
-lawd:primaryForm "Anatolia"@en  ;];
+ lawd:primaryForm "Anatolia"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܐܢܐܛܘܠ"@syr  ;];
+ lawd:primaryForm "ܐܢܐܛܘܠ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܐܰܢܰܐܛܳܘܠ"@syr-Syrj  ;];
+ lawd:variantForm "ܐܰܢܰܐܛܳܘܠ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "ܐܣܝܰܐ ܙܥܘܪܬܳܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܐܣܝܰܐ ܙܥܘܪܬܳܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "الاناضول"@ar  ;];
+ lawd:variantForm "الاناضول"@ar ;];
  lawd:hasName [
-lawd:variantForm "آسيا الصغرى"@ar  ;];
+ lawd:variantForm "آسيا الصغرى"@ar ;];
  lawd:hasName [
-lawd:variantForm "Asia Minor"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/504/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/504/tei>  .
+ lawd:variantForm "Asia Minor"@en ;];
+ dcterms:description "The peninsula constituting the westernmost portion of Asia." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Anatolia> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/504/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/504/tei> .

@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1288> a lawd:Place ;
-rdfs:label "Hōze"  ;
+ rdfs:label "Hōze" ;
  lawd:hasName [
-lawd:primaryForm "Hōze"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1288/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1288/tei>  .
+ lawd:primaryForm "Hōze"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1288/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1288/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/730> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

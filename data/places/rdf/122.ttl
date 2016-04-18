@@ -11,47 +11,45 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/122> a lawd:Place ;
-rdfs:label "Mabbug — ܡܒܘܓ"  ;
-dcterms:description "A city between and the ."  ;
+ rdfs:label "Mabbug — ܡܒܘܓ" ;
+ lawd:hasName [
+ lawd:primaryForm "Mabbug"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Hierapolis"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Manbij"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Membij"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܡܒܘܓ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܡܰܒܘܓ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "منبج"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Mabug"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Mambeg"@en ;];
+ lawd:hasName [
+ lawd:variantForm "مَنْبِج"@ar ;];
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/82> ;
+ dcterms:description "A city between and the ." ;
  dcterms:description [
-rdfs:label "ܡܕܝܢܬܳܐ ܗܘܳܬ ܪܰܒܬܐ ܕܒܐܘܚܕܳܢܳܐ ܕܚܳܠܳܒ ܠܓܰܪܒܰܝ ܡܰܕܢܚܳܗ̇ ܒܶܝܬ ܠܳܗ̇ ܠܰܦܪܳܬ ܐܝܬ ܬܠܳܬܐ ܦܪ̈ܣܚܶܐ ܝܰܘܡܳܢ ܩܰܣܛܪܰܐ ܗܘܳܬ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܝܢܬܳܐ ܗܘܳܬ ܪܰܒܬܐ ܕܒܐܘܚܕܳܢܳܐ ܕܚܳܠܳܒ ܠܓܰܪܒܰܝ ܡܰܕܢܚܳܗ̇ ܒܶܝܬ ܠܳܗ̇ ܠܰܦܪܳܬ ܐܝܬ ܬܠܳܬܐ ܦܪ̈ܣܚܶܐ ܝܰܘܡܳܢ ܩܰܣܛܪܰܐ ܗܘܳܬ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة كبيرة من ولاية حلب في شماليها الشرقي بينها وبين الفرات ثلاثة فراسخ وهي اليوم بليدة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة كبيرة من ولاية حلب في شماليها الشرقي بينها وبين الفرات ثلاثة فراسخ وهي اليوم بليدة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "once a large town in the northeastern part of the province of Aleppo, three leagues from the Euphrates. Today it is a small town."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-0053"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658480>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Manbij>  ;
+ rdfs:label "once a large town in the northeastern part of the province of Aleppo, three leagues from the Euphrates. Today it is a small town."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-0053" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658480> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Manbij> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/122/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/122/tei> ;
 geo:location [
-geo:lat "36.53333"  ;
-geo:long "36.53333"  ;];
- lawd:hasName [
-lawd:primaryForm "Mabbug"@en  ;];
- lawd:hasName [
-lawd:variantForm "Hierapolis"@en  ;];
- lawd:hasName [
-lawd:variantForm "Manbij"@en  ;];
- lawd:hasName [
-lawd:variantForm "Membij"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܡܒܘܓ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܡܰܒܘܓ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "منبج"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Mabug"@en  ;];
- lawd:hasName [
-lawd:variantForm "Mambeg"@en  ;];
- lawd:hasName [
-lawd:variantForm "مَنْبِج"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Aleppo"  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates river"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/122/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/122/tei>  ;
-dcterms:relation <http://syriaca.org/place/2344>  .
+ geo:lat "36.53333" ;
+ geo:long "37.95" ;];
+ dcterms:relation <http://syriaca.org/place/2344> .

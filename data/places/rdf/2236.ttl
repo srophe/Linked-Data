@@ -11,18 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2236> a lawd:Place ;
-rdfs:label "Rabban Mar ʿAziz"  ;
+ rdfs:label "Rabban Mar ʿAziz" ;
  lawd:hasName [
-lawd:primaryForm "Rabban Mar ʿAziz"@en  ;];
+ lawd:primaryForm "Rabban Mar ʿAziz"@en ;];
  lawd:hasName [
-lawd:variantForm "Rabban Mār ʿAzīz"@en  ;];
+ lawd:variantForm "Rabban Mār ʿAzīz"@en ;];
  lawd:hasName [
-lawd:variantForm "Rabban Mar Aziz"@en-xsrp1  ;];
+ lawd:variantForm "Rabban Mar Aziz"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Rabban Mar ‘Aziz"@en-xsrp1  ;];
+ lawd:variantForm "Rabban Mar ‘Aziz"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Rabban Mār Azīz"@en-xsrp1  ;];
+ lawd:variantForm "Rabban Mār Azīz"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Rabban Mār ‘Azīz"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2236/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2236/tei>  .
+ lawd:variantForm "Rabban Mār ‘Azīz"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2236/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2236/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

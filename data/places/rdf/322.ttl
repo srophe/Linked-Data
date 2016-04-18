@@ -11,27 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/322> a lawd:Place ;
-rdfs:label "Gubos — ܓܘܒܐܣ"  ;
-dcterms:description "A village near ."  ;
+ rdfs:label "Gubos — ܓܘܒܐܣ" ;
+ lawd:hasName [
+ lawd:primaryForm "Gubos"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܓܘܒܐܣ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "جوباس"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Jūbās"@en ;];
+ skos:related <http://syriaca.org/place/136> ;
+ dcterms:description "A village near ." ;
  dcterms:description [
-rdfs:label "ܡܕܺܝܢܬܘܢܳܝܬܐ ܕܩܰܪܝܒܐ ܗܘܳܬ ܡܶܢ ܡܺܝܺܠܝܛܝܢܝ ܘܚܰܪܝ̣ܒܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܺܝܢܬܘܢܳܝܬܐ ܕܩܰܪܝܒܐ ܗܘܳܬ ܡܶܢ ܡܺܝܺܠܝܛܝܢܝ ܘܚܰܪܝ̣ܒܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة كانت قريبة من ملطية خربة"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة كانت قريبة من ملطية خربة"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a ruined city near Melitene."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1070"  ;
- lawd:hasName [
-lawd:primaryForm "Gubos"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܓܘܒܐܣ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "جوباس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Jūbās"@en  ;];
- lawd:hasName [
-lawd:variantForm "Melitene"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/322/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/322/tei>  .
+ rdfs:label "a ruined city near Melitene."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1070" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/322/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/322/tei> .

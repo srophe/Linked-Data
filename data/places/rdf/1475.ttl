@@ -11,22 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1475> a lawd:Place ;
-rdfs:label "Tagai — ܛܐܟܐܣ"  ;
-dcterms:description "A location with a monastery whose inhabitants received a letter from ."  ;
-dcterms:temporal "0538"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/648786>  ;
+ rdfs:label "Tagai — ܛܐܟܐܣ" ;
+ lawd:hasName [
+ lawd:primaryForm "Tagai"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܛܐܟܐܣ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܛܰܐܟܰܐܣ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "طاكايس"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Tagais"@en ;];
+ dcterms:description "A location with a monastery whose inhabitants received a letter from ." ;
+ dcterms:temporal "0538" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/648786> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1475/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1475/tei> ;
 geo:location [
-geo:lat "36.424325"  ;
-geo:long "36.424325"  ;];
- lawd:hasName [
-lawd:primaryForm "Tagai"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܛܐܟܐܣ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܛܰܐܟܰܐܣ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "طاكايس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Tagais"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1475/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1475/tei>  .
+ geo:lat "36.424325" ;
+ geo:long "33.88707" ;].

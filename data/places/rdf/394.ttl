@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/394> a lawd:Place ;
-rdfs:label "Mor Ahrun — ܕܝܪܐ ܕܡܪܝ ܐܗܪܘܢ"  ;
+ rdfs:label "Mor Ahrun — ܕܝܪܐ ܕܡܪܝ ܐܗܪܘܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Mor Ahrun"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܐܗܪܘܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܐܰܗܪܘܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير مار هارون"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Aaron Monastery"@en ;];
  dcterms:description [
-rdfs:label "ܒܛܘܪܐ ܒܪܝܟܳܐ ܒܩܘܪܒܳܐ ܕܡܝܠܝܺܛܝܢܝ ܒܢܳܝܗܝ ܡܳܪܝ ܐܰܗܪܘܢ ܣܪܘܓܳܝܳܐ ܥܢܘܳܝܐ ܫܢܰܬ 389 ܥܰܕܰܪ ܠܥܺܕܬܳܐ ܒܶܫܬܐ ܐܶܦܝܣܩܘܦ̈ܐ ܡܢ ܫܢܰܬ 1088 - 1289"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܛܘܪܐ ܒܪܝܟܳܐ ܒܩܘܪܒܳܐ ܕܡܝܠܝܺܛܝܢܝ ܒܢܳܝܗܝ ܡܳܪܝ ܐܰܗܪܘܢ ܣܪܘܓܳܝܳܐ ܥܢܘܳܝܐ ܫܢܰܬ 389 ܥܰܕܰܪ ܠܥܺܕܬܳܐ ܒܶܫܬܐ ܐܶܦܝܣܩܘܦ̈ܐ ܡܢ ܫܢܰܬ 1088 - 1289"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في الجبل المبارك بقرب ملطية انشأه القديس هارون السروجي الناسك سنة 389+ اعان الكنيسة بستة اساقفة من سنة 1088 الى 1289."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في الجبل المبارك بقرب ملطية انشأه القديس هارون السروجي الناسك سنة 389+ اعان الكنيسة بستة اساقفة من سنة 1088 الى 1289."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "in the Blessed Mountain near Melitene, was built by St. Aaron of Sarug, the ascetic, in 389. It produced six bishops between 1088 and 1289."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0999"  ;
- lawd:hasName [
-lawd:primaryForm "Mor Ahrun"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܐܗܪܘܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܐܰܗܪܘܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير مار هارون"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Aaron Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/394/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/394/tei>  .
+ rdfs:label "in the Blessed Mountain near Melitene, was built by St. Aaron of Sarug, the ascetic, in 389. It produced six bishops between 1088 and 1289."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0999" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/394/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/394/tei> .

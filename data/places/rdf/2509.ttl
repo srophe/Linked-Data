@@ -11,29 +11,32 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2509> a lawd:Place ;
-rdfs:label "Mart Shmuni"  ;
+ rdfs:label "Mart Shmuni" ;
  lawd:hasName [
-lawd:primaryForm "Mart Shmuni"@en  ;];
+ lawd:primaryForm "Mart Shmuni"@en ;];
  lawd:hasName [
-lawd:variantForm "Mart Shmūni"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2509/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2509/tei>  ;
-dcterms:relation <http://syriaca.org/place/1435>  ;
-dcterms:relation <http://syriaca.org/place/2202>  ;
-dcterms:relation <http://syriaca.org/place/2203>  ;
-dcterms:relation <http://syriaca.org/place/2204>  ;
-dcterms:relation <http://syriaca.org/place/2205>  ;
-dcterms:relation <http://syriaca.org/place/2206>  ;
-dcterms:relation <http://syriaca.org/place/2207>  ;
-dcterms:relation <http://syriaca.org/place/2208>  ;
-dcterms:relation <http://syriaca.org/place/2209>  ;
-dcterms:relation <http://syriaca.org/place/2210>  ;
-dcterms:relation <http://syriaca.org/place/2211>  ;
-dcterms:relation <http://syriaca.org/place/2212>  ;
-dcterms:relation <http://syriaca.org/place/2213>  ;
-dcterms:relation <http://syriaca.org/place/2214>  ;
-dcterms:relation <http://syriaca.org/place/2215>  ;
-dcterms:relation <http://syriaca.org/place/2216>  ;
-dcterms:relation <http://syriaca.org/place/2217>  ;
-dcterms:relation <http://syriaca.org/place/2218>  ;
-dcterms:relation <http://syriaca.org/place/2219>  .
+ lawd:variantForm "Mart Shmūni"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2509/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2509/tei> ;
+ dcterms:relation <http://syriaca.org/place/1435> ;
+ dcterms:relation <http://syriaca.org/place/2202> ;
+ dcterms:relation <http://syriaca.org/place/2203> ;
+ dcterms:relation <http://syriaca.org/place/2204> ;
+ dcterms:relation <http://syriaca.org/place/2205> ;
+ dcterms:relation <http://syriaca.org/place/2206> ;
+ dcterms:relation <http://syriaca.org/place/2207> ;
+ dcterms:relation <http://syriaca.org/place/2208> ;
+ dcterms:relation <http://syriaca.org/place/2209> ;
+ dcterms:relation <http://syriaca.org/place/2210> ;
+ dcterms:relation <http://syriaca.org/place/2211> ;
+ dcterms:relation <http://syriaca.org/place/2212> ;
+ dcterms:relation <http://syriaca.org/place/2213> ;
+ dcterms:relation <http://syriaca.org/place/2214> ;
+ dcterms:relation <http://syriaca.org/place/2215> ;
+ dcterms:relation <http://syriaca.org/place/2216> ;
+ dcterms:relation <http://syriaca.org/place/2217> ;
+ dcterms:relation <http://syriaca.org/place/2218> ;
+ dcterms:relation <http://syriaca.org/place/2219> ;
+ dcterms:isPartOf <http://syriaca.org/place/1198> ;
+ dcterms:isPartOf <http://syriaca.org/place/749> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

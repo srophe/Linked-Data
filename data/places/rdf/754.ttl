@@ -11,11 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/754> a lawd:Place ;
-rdfs:label "Ḥezzo and the Gordlaye"  ;
+ rdfs:label "Ḥezzo and the Gordlaye" ;
  lawd:hasName [
-lawd:primaryForm "Ḥezzo and the Gordlaye"@en  ;];
+ lawd:primaryForm "Ḥezzo and the Gordlaye"@en ;];
  lawd:hasName [
-lawd:variantForm "Ḥezzō and the Gordlāye"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/754/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/754/tei>  ;
-dcterms:relation <http://syriaca.org/place/2315>  .
+ lawd:variantForm "Ḥezzō and the Gordlāye"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/754/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/754/tei> ;
+ dcterms:relation <http://syriaca.org/place/2315> ;
+ dcterms:isPartOf <http://syriaca.org/place/724> .

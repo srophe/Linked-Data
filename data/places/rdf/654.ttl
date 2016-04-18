@@ -11,17 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/654> a lawd:Place ;
-rdfs:label "Mihraqan Qadaq"  ;
-dcterms:description "A province of the located in northern ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/903083>  ;
+ rdfs:label "Mihraqan Qadaq" ;
+ lawd:hasName [
+ lawd:primaryForm "Mihraqan Qadaq"@en ;];
+ skos:related <http://syriaca.org/place/150> ;
+ skos:related <http://syriaca.org/place/929> ;
+ dcterms:description "A province of the located in northern ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/903083> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/654/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/654/tei> ;
 geo:location [
-geo:lat "32.5"  ;
-geo:long "32.5"  ;];
- lawd:hasName [
-lawd:primaryForm "Mihraqan Qadaq"@en  ;];
- lawd:hasName [
-lawd:variantForm "Sasanian Empire"  ;];
- lawd:hasName [
-lawd:variantForm "Khuzistan"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/654/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/654/tei>  .
+ geo:lat "32.5" ;
+ geo:long "47.5" ;].

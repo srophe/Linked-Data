@@ -11,53 +11,53 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/221> a lawd:Place ;
-rdfs:label "Ṭur ʿAbdin — ܛܘܪܥܒܕܝܢ"  ;
+ rdfs:label "Ṭur ʿAbdin — ܛܘܪܥܒܕܝܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Ṭur ʿAbdin"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܛܘܪܥܒܕܝܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܛܘܪܥܰܒܕܝܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "طورعبدين"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Tur ʿAbdin"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Tur Abdin"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Ṭūr ʿAbdīn"@en ;];
+ lawd:hasName [
+ lawd:variantForm "طور عَبْدِين"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Tur Abdin"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Tur ‘Abdin"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ṭūr Abdīn"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ṭūr ‘Abdīn"@en-xsrp1 ;];
  dcterms:description [
-rdfs:label "Properly speaking, Ṭur ʿAbdin (‘Mountain of the servants’) does not include the whole province of Mardin in Turkey, but only the limestone plateau in the eastern part of it, between the river Tigris and Nisibis."@en  ;];
+ rdfs:label "Properly speaking, Ṭur ʿAbdin (‘Mountain of the servants’) does not include the whole province of Mardin in Turkey, but only the limestone plateau in the eastern part of it, between the river Tigris and Nisibis."@en ;];
  dcterms:description [
-rdfs:label "565. Ṭur ʿAbdin"@en  ;];
+ rdfs:label "565. Ṭur ʿAbdin"@en ;];
  dcterms:description [
-rdfs:label "ܛܘܪܐ ܗܘ ܕܡܶܬܚܰܝܕ ܒܛܘܪܳܐ ܕܐܝܙܠܳܐ. ܗܰܘ ܕܚܳܐܪ ܠܰܢܨܝܒܝܢ ܘܟܘܪܰܐ ܗܘ ܕܣܰܓ̈ܝܐܝܳܢ ܕܰܝܪ̈ܳܬܗ ܘܟܘܪ̈ܚܰܘܗܝ. ܘܐܶܡܳܐ ܕܰܡܕܺܝܢ̈ܬܗ ܐܰܬܪܐ ܕܡܶܕܝܰܕ ܕܚܳܕܪܝܢ ܠܗ ܝܰܬܝܪ ܡܶܢ ܚܰܡܫܝܢ ܩܘܪ̈ܝܳܐ ܕܰܬܪܝܢ ܬܘ̈ܠܬܐ ܡܫܝܚ̈ܝܐ ܣܘܪ̈ܝܳܝܐ ܘܰܕܫܰܪܟܐ ܛܰܝܳܝ̈ܐ ܘܝ̣ܺܙ݂ܝܼܕܳܝ̈ܐ. ܘܗܳܠܝܢ ܐܶܢܘܢ ܫܡܳܗ̈ܐ ܕܩܘܪ̈ܝܳܐ ܕܰܕܟܝܪܝܢ ܒܰܟܬܳܒܰܢ ܠܡܰܕܢܚܳܐ ܐܰܢܚܠ. ܦܳܦܝܰܬ. ܩܰܪܛܰܡܝܢ ܠܡܰܥܪܒܳܐ: ܒ̈ܬܶܐ. ܚܰܒܣܢܰܐܣ ܨܰܠܚ ܥܰܪܢܰܐܣ ܥܰܝܢܘܪܕ ܟܰܦܪܳܐ ܟܦܰܪܙܗ ܟܦܰܪܣܠܛܐ. ܟܦܰܪܫܳܡܥ ـ ܟܰܢܕܝܪܝܒ. ܠܓܰܪܒܝܐ: ܒܶܝܬ ܩܶܣܝܳܢܳܐ. ܚܰܐܚ. ܚܰܣܢ ܟܺܐܦܳܐ. ܕܰܝܪܳܐ ܕܰܨܠܝܒܐ. ܙܰܐܙ ܟܦܰܪܒܘܪܰܐܢ. ܠܬܰܝܡܢܐ: ܐܰܪܒܳܐ ܒܶܝܬܕܶܒ̈ܐ ܒܶܝܬ ܣܒܝܪܝܢܳܐ ܒܶܝܬ ܡܰܢܥܡ ܬܰܡܰܪܙ ܚܒܳܒ. ܣܰܐܪܗ ܐܘ ܐܶܣܬܝܪ ܥܰܪܒܰܐܢ ܡܝܕܘܢ ܘܩܘܪ̈ܝܳܐ ܕܚܰܪ̈ܝܒܳܢ ܘܰܕܠܐ ܝܕܝ̈ܥܳܢ ܕܘܟܝ̈ܬܗܶܝܢ ܚܰܠܚ. ܙܰܒܕܝܩܐ. ܟܦܪܝܰܗܒ. ܒܠܫܬ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܛܘܪܐ ܗܘ ܕܡܶܬܚܰܝܕ ܒܛܘܪܳܐ ܕܐܝܙܠܳܐ. ܗܰܘ ܕܚܳܐܪ ܠܰܢܨܝܒܝܢ ܘܟܘܪܰܐ ܗܘ ܕܣܰܓ̈ܝܐܝܳܢ ܕܰܝܪ̈ܳܬܗ ܘܟܘܪ̈ܚܰܘܗܝ. ܘܐܶܡܳܐ ܕܰܡܕܺܝܢ̈ܬܗ ܐܰܬܪܐ ܕܡܶܕܝܰܕ ܕܚܳܕܪܝܢ ܠܗ ܝܰܬܝܪ ܡܶܢ ܚܰܡܫܝܢ ܩܘܪ̈ܝܳܐ ܕܰܬܪܝܢ ܬܘ̈ܠܬܐ ܡܫܝܚ̈ܝܐ ܣܘܪ̈ܝܳܝܐ ܘܰܕܫܰܪܟܐ ܛܰܝܳܝ̈ܐ ܘܝ̣ܺܙ݂ܝܼܕܳܝ̈ܐ. ܘܗܳܠܝܢ ܐܶܢܘܢ ܫܡܳܗ̈ܐ ܕܩܘܪ̈ܝܳܐ ܕܰܕܟܝܪܝܢ ܒܰܟܬܳܒܰܢ ܠܡܰܕܢܚܳܐ ܐܰܢܚܠ. ܦܳܦܝܰܬ. ܩܰܪܛܰܡܝܢ ܠܡܰܥܪܒܳܐ: ܒ̈ܬܶܐ. ܚܰܒܣܢܰܐܣ ܨܰܠܚ ܥܰܪܢܰܐܣ ܥܰܝܢܘܪܕ ܟܰܦܪܳܐ ܟܦܰܪܙܗ ܟܦܰܪܣܠܛܐ. ܟܦܰܪܫܳܡܥ ـ ܟܰܢܕܝܪܝܒ. ܠܓܰܪܒܝܐ: ܒܶܝܬ ܩܶܣܝܳܢܳܐ. ܚܰܐܚ. ܚܰܣܢ ܟܺܐܦܳܐ. ܕܰܝܪܳܐ ܕܰܨܠܝܒܐ. ܙܰܐܙ ܟܦܰܪܒܘܪܰܐܢ. ܠܬܰܝܡܢܐ: ܐܰܪܒܳܐ ܒܶܝܬܕܶܒ̈ܐ ܒܶܝܬ ܣܒܝܪܝܢܳܐ ܒܶܝܬ ܡܰܢܥܡ ܬܰܡܰܪܙ ܚܒܳܒ. ܣܰܐܪܗ ܐܘ ܐܶܣܬܝܪ ܥܰܪܒܰܐܢ ܡܝܕܘܢ ܘܩܘܪ̈ܝܳܐ ܕܚܰܪ̈ܝܒܳܢ ܘܰܕܠܐ ܝܕܝ̈ܥܳܢ ܕܘܟܝ̈ܬܗܶܝܢ ܚܰܠܚ. ܙܰܒܕܝܩܐ. ܟܦܪܝܰܗܒ. ܒܠܫܬ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "جبل متصل بجبل الازل المشرف على نصيبين، وكورة كثيرة الاديار والصوامع قصبتها بلدة مذيات، مكتظة بنيف وخمسين قرية وضيعة ثلثا اهلها مسيحيون سريانيون والبقية مسلمون ويزيدية، وهذه اسماء القرى المذكورة في كتابنا: شرقا، انحل ففياث قرتمين، وغربا باتي حبسناس صلح عرناس عينورد كفرة كفرزي كفرسلطا كفر شامع كنديريب. وشمالا: آلين باقسيات حاج حصن كيفا دير صليب زاز كربوران، وجنوبا: اربو بادبة باسبرينة بانمعم تمرس حباب ساري او ستير عربان مدو. والقرى الخربة المجهولة الموقع، حالح زبديقا كفرياب كلشت."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "جبل متصل بجبل الازل المشرف على نصيبين، وكورة كثيرة الاديار والصوامع قصبتها بلدة مذيات، مكتظة بنيف وخمسين قرية وضيعة ثلثا اهلها مسيحيون سريانيون والبقية مسلمون ويزيدية، وهذه اسماء القرى المذكورة في كتابنا: شرقا، انحل ففياث قرتمين، وغربا باتي حبسناس صلح عرناس عينورد كفرة كفرزي كفرسلطا كفر شامع كنديريب. وشمالا: آلين باقسيات حاج حصن كيفا دير صليب زاز كربوران، وجنوبا: اربو بادبة باسبرينة بانمعم تمرس حباب ساري او ستير عربان مدو. والقرى الخربة المجهولة الموقع، حالح زبديقا كفرياب كلشت."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a mountain connected with the mountain of Izla, which overlooks Nisibin. The territory of the same name harbors a great number of monasteries and cells, as well as some fifty villages large and small. Two-thirds of the inhabitants of these villages are Syrian Christians; the rest are Muslims and Yezidis. The capital of Tur ʿAbdin is Midyat. Following are the names of the villages mentioned in our book: to the east of Tur ʿAbdin are situated Anḥil, Fifyath and Qarṭmin; to the west are Bāti, Habsnas, Salaḥ, ʿUrnus, ʿAynward, Kafra, Kafarze, Kafrsalta, Kafrshami and Kandarib; to the north are Ālīn, Baqsyan, Ḥaḥ, Ḥiṣn Kifa, Dayr Ṣalib, Zāz and Karburan; to the south are Arbo, Badebe, Basibrina, Banimʿim, Tamars, Ḥbob, Sari Awastir, ʿArban and Meddo.  The ruined villages and those whose location is unknown, are Ḥāliḥ, Zabdīqā, Kafryab and Kalasht."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0400"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874477>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Tur_Abdin>  ;
+ rdfs:label "a mountain connected with the mountain of Izla, which overlooks Nisibin. The territory of the same name harbors a great number of monasteries and cells, as well as some fifty villages large and small. Two-thirds of the inhabitants of these villages are Syrian Christians; the rest are Muslims and Yezidis. The capital of Tur ʿAbdin is Midyat. Following are the names of the villages mentioned in our book: to the east of Tur ʿAbdin are situated Anḥil, Fifyath and Qarṭmin; to the west are Bāti, Habsnas, Salaḥ, ʿUrnus, ʿAynward, Kafra, Kafarze, Kafrsalta, Kafrshami and Kandarib; to the north are Ālīn, Baqsyan, Ḥaḥ, Ḥiṣn Kifa, Dayr Ṣalib, Zāz and Karburan; to the south are Arbo, Badebe, Basibrina, Banimʿim, Tamars, Ḥbob, Sari Awastir, ʿArban and Meddo.  The ruined villages and those whose location is unknown, are Ḥāliḥ, Zabdīqā, Kafryab and Kalasht."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0400" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874477> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Tur_Abdin> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/221/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/221/tei> ;
 geo:location [
-geo:lat "37.5"  ;
-geo:long "37.5"  ;];
- lawd:hasName [
-lawd:primaryForm "Ṭur ʿAbdin"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܛܘܪܥܒܕܝܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܛܘܪܥܰܒܕܝܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "طورعبدين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Tur ʿAbdin"@en  ;];
- lawd:hasName [
-lawd:variantForm "Tur Abdin"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ṭūr ʿAbdīn"@en  ;];
- lawd:hasName [
-lawd:variantForm "طور عَبْدِين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Tur Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Tur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭūr Abdīn"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭūr ‘Abdīn"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/221/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/221/tei>  .
+ geo:lat "37.5" ;
+ geo:long "41.5" ;].

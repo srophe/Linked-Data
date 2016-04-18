@@ -11,22 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/254> a lawd:Place ;
-rdfs:label "Berwari"  ;
-dcterms:description "A region in the Hakkari mountains."  ;
-dcterms:temporal "2000"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Barwari>  ;
+ rdfs:label "Berwari" ;
  lawd:hasName [
-lawd:primaryForm "Berwari"@en  ;];
+ lawd:primaryForm "Berwari"@en ;];
  lawd:hasName [
-lawd:variantForm "Berwar"@en  ;];
+ lawd:variantForm "Berwar"@en ;];
  lawd:hasName [
-lawd:variantForm "Barwar"@en  ;];
+ lawd:variantForm "Barwar"@en ;];
  lawd:hasName [
-lawd:variantForm "Berwārī"@en  ;];
+ lawd:variantForm "Berwārī"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Tannūrā"@en  ;];
+ lawd:variantForm "Beṯ Tannūrā"@en ;];
  lawd:hasName [
-lawd:variantForm "Julmar"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/254/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/254/tei>  ;
-dcterms:relation <http://syriaca.org/place/2273>  .
+ lawd:variantForm "Julmar"@en ;];
+ dcterms:description "A region in the Hakkari mountains." ;
+ dcterms:temporal "2000" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Barwari> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/254/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/254/tei> ;
+ dcterms:relation <http://syriaca.org/place/2273> .

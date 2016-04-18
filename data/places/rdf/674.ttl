@@ -11,18 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/674> a lawd:Place ;
-rdfs:label "Ascalon"  ;
-dcterms:description "A coastal city north of ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/687839/>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Ashkelon>  ;
+ rdfs:label "Ascalon" ;
+ lawd:hasName [
+ lawd:primaryForm "Ascalon"@en ;];
+ lawd:hasName [
+ lawd:variantForm "عَسْقلان"@ar ;];
+ skos:related <http://syriaca.org/place/87> ;
+ dcterms:description "A coastal city north of ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/687839/> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Ashkelon> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/674/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/674/tei> ;
 geo:location [
-geo:lat "31.661963"  ;
-geo:long "31.661963"  ;];
- lawd:hasName [
-lawd:primaryForm "Ascalon"@en  ;];
- lawd:hasName [
-lawd:variantForm "عَسْقلان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Gaza"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/674/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/674/tei>  .
+ geo:lat "31.661963" ;
+ geo:long "34.546334" ;].

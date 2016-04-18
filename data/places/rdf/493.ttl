@@ -11,22 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/493> a lawd:Place ;
-rdfs:label "Sophene — ܐܬܪܐ ܕܨܘܦܢܝ̈ܐ"  ;
-dcterms:description "A region north of ."  ;
-dcterms:temporal "-0550"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874707>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Sophene>  ;
+ rdfs:label "Sophene — ܐܬܪܐ ܕܨܘܦܢܝ̈ܐ" ;
  lawd:hasName [
-lawd:primaryForm "Sophene"@en  ;];
+ lawd:primaryForm "Sophene"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܐܬܪܐ ܕܨܘܦܢܝ̈ܐ"@syr  ;];
+ lawd:primaryForm "ܐܬܪܐ ܕܨܘܦܢܝ̈ܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܐܰܬܪܳܐ ܕܨܘܦܢܳܝ̈ܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܐܰܬܪܳܐ ܕܨܘܦܢܳܝ̈ܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "قطر الصوفنيين"@ar  ;];
+ lawd:variantForm "قطر الصوفنيين"@ar ;];
  lawd:hasName [
-lawd:variantForm "Sufniyyin province"@en  ;];
- lawd:hasName [
-lawd:variantForm "Maypherqaṭ"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/493/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/493/tei>  .
+ lawd:variantForm "Sufniyyin province"@en ;];
+ skos:related <http://syriaca.org/place/134> ;
+ dcterms:description "A region north of ." ;
+ dcterms:temporal "-0550" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874707> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Sophene> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/493/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/493/tei> .

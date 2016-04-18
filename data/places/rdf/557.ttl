@@ -11,27 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/557> a lawd:Place ;
-rdfs:label "Bāb al-ʿAmūd — ܬܪܥܐ ܕܥܡܘܕܐ"  ;
-dcterms:description "A district of ."  ;
+ rdfs:label "Bāb al-ʿAmūd — ܬܪܥܐ ܕܥܡܘܕܐ" ;
  lawd:hasName [
-lawd:primaryForm "Bāb al-ʿAmūd"@en  ;];
+ lawd:primaryForm "Bāb al-ʿAmūd"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܬܪܥܐ ܕܥܡܘܕܐ"@syr  ;];
+ lawd:primaryForm "ܬܪܥܐ ܕܥܡܘܕܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܬܰܪܥܐ ܕܥܰܡܘܕܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܬܰܪܥܐ ܕܥܰܡܘܕܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "باب العمود"@ar  ;];
+ lawd:variantForm "باب العمود"@ar ;];
  lawd:hasName [
-lawd:variantForm "Bab al-ʿĀmūd"@en  ;];
+ lawd:variantForm "Bab al-ʿĀmūd"@en ;];
  lawd:hasName [
-lawd:variantForm "Bāb al-Amūd"@en-xsrp1  ;];
+ lawd:variantForm "Bāb al-Amūd"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Bāb al-‘Amūd"@en-xsrp1  ;];
+ lawd:variantForm "Bāb al-‘Amūd"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Bab al-Āmūd"@en-xsrp1  ;];
+ lawd:variantForm "Bab al-Āmūd"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Bab al-‘Āmūd"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Jerusalem"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/557/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/557/tei>  .
+ lawd:variantForm "Bab al-‘Āmūd"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/104> ;
+ dcterms:description "A district of ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/557/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/557/tei> .

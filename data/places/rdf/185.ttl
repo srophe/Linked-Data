@@ -11,20 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/185> a lawd:Place ;
-rdfs:label "Shura"  ;
-dcterms:description "A town on the west of ."  ;
-dcterms:temporal "0640"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/668376>  ;
+ rdfs:label "Shura" ;
+ lawd:hasName [
+ lawd:primaryForm "Shura"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Sura"@en ;];
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/109> ;
+ dcterms:description "A town on the west of ." ;
+ dcterms:temporal "0640" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/668376> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/185/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/185/tei> ;
 geo:location [
-geo:lat "35.8808455"  ;
-geo:long "35.8808455"  ;];
- lawd:hasName [
-lawd:primaryForm "Shura"@en  ;];
- lawd:hasName [
-lawd:variantForm "Sura"@en  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates"  ;];
- lawd:hasName [
-lawd:variantForm "Kallinikos"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/185/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/185/tei>  .
+ geo:lat "35.8808455" ;
+ geo:long "38.847326" ;].

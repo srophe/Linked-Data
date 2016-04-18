@@ -11,11 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2569> a lawd:Place ;
-rdfs:label "Kalamazoo"  ;
-dcterms:description "A city in ."  ;
+ rdfs:label "Kalamazoo" ;
  lawd:hasName [
-lawd:primaryForm "Kalamazoo"@en  ;];
- lawd:hasName [
-lawd:variantForm "Michigan"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2569/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2569/tei>  .
+ lawd:primaryForm "Kalamazoo"@en ;];
+ skos:related <http://syriaca.org/place/2570> ;
+ dcterms:description "A city in ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2569/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2569/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/2570> ;
+ dcterms:isPartOf <http://syriaca.org/place/573> .

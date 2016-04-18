@@ -11,10 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1645> a lawd:Place ;
-rdfs:label "Rabnat"  ;
+ rdfs:label "Rabnat" ;
  lawd:hasName [
-lawd:primaryForm "Rabnat"@en  ;];
+ lawd:primaryForm "Rabnat"@en ;];
  lawd:hasName [
-lawd:variantForm "Rabnaṯ"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1645/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1645/tei>  .
+ lawd:variantForm "Rabnaṯ"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1645/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1645/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/778> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

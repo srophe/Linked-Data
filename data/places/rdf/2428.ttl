@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2428> a lawd:Place ;
-rdfs:label "Bezqin"  ;
+ rdfs:label "Bezqin" ;
  lawd:hasName [
-lawd:primaryForm "Bezqin"@en  ;];
+ lawd:primaryForm "Bezqin"@en ;];
  lawd:hasName [
-lawd:variantForm "Bezqīn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2428/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2428/tei>  .
+ lawd:variantForm "Bezqīn"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2428/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2428/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

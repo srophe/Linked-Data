@@ -11,20 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1520> a lawd:Place ;
-rdfs:label "St. John the Baptist — ܗܝܟܠܐ ܡܪܝ ܝܘܚܢܢ ܡܥܡܕܢܐ"  ;
-dcterms:description "A church probably in ."  ;
-dcterms:temporal "0650"  ;
+ rdfs:label "St. John the Baptist — ܗܝܟܠܐ ܡܪܝ ܝܘܚܢܢ ܡܥܡܕܢܐ" ;
  lawd:hasName [
-lawd:primaryForm "St. John the Baptist"@en  ;];
+ lawd:primaryForm "St. John the Baptist"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܗܝܟܠܐ ܡܪܝ ܝܘܚܢܢ ܡܥܡܕܢܐ"@syr  ;];
+ lawd:primaryForm "ܗܝܟܠܐ ܡܪܝ ܝܘܚܢܢ ܡܥܡܕܢܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܗܰܝܟܠܐ ܕܡܳܪܝ ܝܘܚܢܢ ܡܰܥܡܕܳܢܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܗܰܝܟܠܐ ܕܡܳܪܝ ܝܘܚܢܢ ܡܰܥܡܕܳܢܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "هيكل مار يوحنا المعمدان"@ar  ;];
+ lawd:variantForm "هيكل مار يوحنا المعمدان"@ar ;];
  lawd:hasName [
-lawd:variantForm "Church of St. John the Baptist"@en  ;];
- lawd:hasName [
-lawd:variantForm "Amid"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1520/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1520/tei>  .
+ lawd:variantForm "Church of St. John the Baptist"@en ;];
+ skos:related <http://syriaca.org/place/8> ;
+ dcterms:description "A church probably in ." ;
+ dcterms:temporal "0650" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1520/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1520/tei> .

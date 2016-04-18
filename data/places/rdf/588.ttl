@@ -11,13 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/588> a lawd:Place ;
-rdfs:label "Dayr Dayḥīs"  ;
-dcterms:description "A monastery probably near ."  ;
+ rdfs:label "Dayr Dayḥīs" ;
  lawd:hasName [
-lawd:primaryForm "Dayr Dayḥīs"@en  ;];
+ lawd:primaryForm "Dayr Dayḥīs"@en ;];
  lawd:hasName [
-lawd:variantForm "Deir Dehes"@en  ;];
- lawd:hasName [
-lawd:variantForm "Antioch"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/588/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/588/tei>  .
+ lawd:variantForm "Deir Dehes"@en ;];
+ skos:related <http://syriaca.org/place/10> ;
+ dcterms:description "A monastery probably near ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/588/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/588/tei> .

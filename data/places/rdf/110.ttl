@@ -11,22 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/110> a lawd:Place ;
-rdfs:label "Karamlish"  ;
+ rdfs:label "Karamlish" ;
+ lawd:hasName [
+ lawd:primaryForm "Karamlish"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Garmshā"@en ;];
+ lawd:hasName [
+ lawd:variantForm "كرمليس"@ar ;];
  dcterms:description [
-rdfs:label "A small town located between the Tigris and the Upper Zab, some 15 km. southeast of Mosul, between Barṭelle and Qaraqosh."@en  ;];
+ rdfs:label "A small town located between the Tigris and the Upper Zab, some 15 km. southeast of Mosul, between Barṭelle and Qaraqosh."@en ;];
  dcterms:description [
-rdfs:label "315. Karamlish"@en  ;];
-dcterms:temporal "1317"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Karamlish>  ;
+ rdfs:label "315. Karamlish"@en ;];
+ dcterms:temporal "1317" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Karamlish> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/110/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/110/tei> ;
 geo:location [
-geo:lat "36.303611"  ;
-geo:long "36.303611"  ;];
- lawd:hasName [
-lawd:primaryForm "Karamlish"@en  ;];
- lawd:hasName [
-lawd:variantForm "Garmshā"@en  ;];
- lawd:hasName [
-lawd:variantForm "كرمليس"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/110/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/110/tei>  ;
-dcterms:relation <http://syriaca.org/place/2335>  .
+ geo:lat "36.303611" ;
+ geo:long "43.412778" ;];
+ dcterms:relation <http://syriaca.org/place/2335> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

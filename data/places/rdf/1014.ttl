@@ -11,10 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1014> a lawd:Place ;
-rdfs:label "Beth Bōqrā"  ;
+ rdfs:label "Beth Bōqrā" ;
  lawd:hasName [
-lawd:primaryForm "Beth Bōqrā"@en  ;];
+ lawd:primaryForm "Beth Bōqrā"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Bōqrā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1014/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1014/tei>  .
+ lawd:variantForm "Beṯ Bōqrā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1014/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1014/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/759> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

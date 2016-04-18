@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1167> a lawd:Place ;
-rdfs:label "Dirgīni"  ;
+ rdfs:label "Dirgīni" ;
  lawd:hasName [
-lawd:primaryForm "Dirgīni"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1167/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1167/tei>  .
+ lawd:primaryForm "Dirgīni"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1167/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1167/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/783> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

@@ -11,10 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1694> a lawd:Place ;
-rdfs:label "Serṭa"  ;
+ rdfs:label "Serṭa" ;
  lawd:hasName [
-lawd:primaryForm "Serṭa"@en  ;];
+ lawd:primaryForm "Serṭa"@en ;];
  lawd:hasName [
-lawd:variantForm "Serṭā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1694/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1694/tei>  .
+ lawd:variantForm "Serṭā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1694/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1694/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/792> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

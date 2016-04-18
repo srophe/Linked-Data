@@ -11,33 +11,32 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/311> a lawd:Place ;
-rdfs:label "Tel Arsenius — ܬܠ ܐܪܣܐܢܝܘܣ"  ;
-dcterms:description "A Syrian Orthodox diocese on the river ."  ;
+ rdfs:label "Tel Arsenius — ܬܠ ܐܪܣܐܢܝܘܣ" ;
+ lawd:hasName [
+ lawd:primaryForm "Tel Arsenius"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܬܠ ܐܪܣܐܢܝܘܣ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܬܶܠ ܐܰܪܣܰܐܢܝܘܣ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܬܶܠ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "تلّ ارسانيوس"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "تيل"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Tell Arsenius"@en ;];
+ skos:related <http://syriaca.org/place/82> ;
+ dcterms:description "A Syrian Orthodox diocese on the river ." ;
  dcterms:description [
-rdfs:label "ܥܰܠ ܣܦܬ ܦܪܳܬ ܕܩܰܪܝܒܐ ܠܟܰܪܟܘܽܬ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܥܰܠ ܣܦܬ ܦܪܳܬ ܕܩܰܪܝܒܐ ܠܟܰܪܟܘܽܬ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "على ضفة الفرات بالقرب من خربوت"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "على ضفة الفرات بالقرب من خربوت"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "on the Euphrates, near Kharput."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1264"  ;
- lawd:hasName [
-lawd:primaryForm "Tel Arsenius"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܬܠ ܐܪܣܐܢܝܘܣ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܬܶܠ ܐܰܪܣܰܐܢܝܘܣ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܬܶܠ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "تلّ ارسانيوس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "تيل"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Tell Arsenius"@en  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/311/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/311/tei>  .
+ rdfs:label "on the Euphrates, near Kharput."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1264" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/311/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/311/tei> .

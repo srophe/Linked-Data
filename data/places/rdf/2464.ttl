@@ -11,13 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2464> a lawd:Place ;
-rdfs:label "Mar Ḥnanya"  ;
+ rdfs:label "Mar Ḥnanya" ;
  lawd:hasName [
-lawd:primaryForm "Mar Ḥnanya"@en  ;];
+ lawd:primaryForm "Mar Ḥnanya"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Ḥnānyā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2464/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2464/tei>  ;
-dcterms:relation <http://syriaca.org/place/1948>  ;
-dcterms:relation <http://syriaca.org/place/1989>  ;
-dcterms:relation <http://syriaca.org/place/1990>  .
+ lawd:variantForm "Mār Ḥnānyā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2464/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2464/tei> ;
+ dcterms:relation <http://syriaca.org/place/1948> ;
+ dcterms:relation <http://syriaca.org/place/1989> ;
+ dcterms:relation <http://syriaca.org/place/1990> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

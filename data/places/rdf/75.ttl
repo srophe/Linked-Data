@@ -11,32 +11,32 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/75> a lawd:Place ;
-rdfs:label "Doliche — ܕܠܘܟ"  ;
-dcterms:description "A town west of the Euphrates, north of Aleppo, and northeast of Cyrrhus."  ;
+ rdfs:label "Doliche — ܕܠܘܟ" ;
+ lawd:hasName [
+ lawd:primaryForm "Doliche"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܠܘܟ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܠܘܟ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دُلوك"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Dulūk"@en ;];
+ dcterms:description "A town west of the Euphrates, north of Aleppo, and northeast of Cyrrhus." ;
  dcterms:description [
-rdfs:label "ܡܕܝܢܬܳܘܢܝܬܳܐ ܗܝ ܕܒܰܦܢܝܬ ܚܳܠܳܒ ܝܺܕܝܺܥܐ ܗܘܳܬ. ܪܰܚܝ̣ܩܐ ܗܘܳܬ ܡܶܢ ܫܰܡܺܝܫܰܛ ܐܝܟ ܬܪܶܥܣܰܪ ܡܝ̈ܠܐ ܘܝܰܘܡܳܢ ܚܰܪܝܒܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܝܢܬܳܘܢܝܬܳܐ ܗܝ ܕܒܰܦܢܝܬ ܚܳܠܳܒ ܝܺܕܝܺܥܐ ܗܘܳܬ. ܪܰܚܝ̣ܩܐ ܗܘܳܬ ܡܶܢ ܫܰܡܺܝܫܰܛ ܐܝܟ ܬܪܶܥܣܰܪ ܡܝ̈ܠܐ ܘܝܰܘܡܳܢ ܚܰܪܝܒܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بليدة من نواحي حلب بالعواصم كانت وهي اثنا عشر ميلاً عن سميساط، خاوية على عروشها"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بليدة من نواحي حلب بالعواصم كانت وهي اثنا عشر ميلاً عن سميساط، خاوية على عروشها"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a small town in the province of Aleppo, twelve miles from Samosata."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0180"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658455>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Dülük>  ;
+ rdfs:label "a small town in the province of Aleppo, twelve miles from Samosata."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0180" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658455> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Dülük> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/75/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/75/tei> ;
 geo:location [
-geo:lat "37.153671"  ;
-geo:long "37.153671"  ;];
- lawd:hasName [
-lawd:primaryForm "Doliche"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܠܘܟ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܠܘܟ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دُلوك"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Dulūk"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/75/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/75/tei>  .
+ geo:lat "37.153671" ;
+ geo:long "37.359985" ;].

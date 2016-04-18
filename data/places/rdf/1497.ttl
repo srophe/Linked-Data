@@ -11,22 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1497> a lawd:Place ;
-rdfs:label "al-Khaḍarāʾ — ܝܪܘܩܬܐ"  ;
-dcterms:description "A church in ."  ;
-dcterms:temporal "0925"  ;
+ rdfs:label "al-Khaḍarāʾ — ܝܪܘܩܬܐ" ;
  lawd:hasName [
-lawd:primaryForm "al-Khaḍarāʾ"@en  ;];
+ lawd:primaryForm "al-Khaḍarāʾ"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܝܪܘܩܬܐ"@syr  ;];
+ lawd:primaryForm "ܝܪܘܩܬܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "الخضراء"@ar  ;];
+ lawd:variantForm "الخضراء"@ar ;];
  lawd:hasName [
-lawd:variantForm "Green"@en  ;];
+ lawd:variantForm "Green"@en ;];
  lawd:hasName [
-lawd:variantForm "al-Khaḍarāʾ"@en-xsrp1  ;];
+ lawd:variantForm "al-Khaḍarāʾ"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "al-Khaḍarāʾ"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Tagrit"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1497/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1497/tei>  .
+ lawd:variantForm "al-Khaḍarāʾ"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/193> ;
+ dcterms:description "A church in ." ;
+ dcterms:temporal "0925" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1497/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1497/tei> .

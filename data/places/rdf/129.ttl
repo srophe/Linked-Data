@@ -11,35 +11,34 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/129> a lawd:Place ;
-rdfs:label "Maragha — ܡܪܐܓܗ"  ;
-dcterms:description "A city south of ."  ;
+ rdfs:label "Maragha — ܡܪܐܓܗ" ;
+ lawd:hasName [
+ lawd:primaryForm "Maragha"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܡܪܐܓܗ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܡܰܪܰܐܓܰܗ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "مراغة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Marāghā"@en ;];
+ lawd:hasName [
+ lawd:variantForm "مَراغة"@ar ;];
+ skos:related <http://syriaca.org/place/308> ;
+ dcterms:description "A city south of ." ;
  dcterms:description [
-rdfs:label "ܐܰܬܪܐ ܕܰܛܒܺܝܒ ܒܰܡܕܝ̈ܢܳܬܐ ܕܰܐܕܘܪܒܰܝܓܰܐܢ ܠܬܰܝܡܢ ܬܶܒܪܝܙ ܘܰܠܡܰܕܢܚܐ ܕܝܰܡܬܐ ܕܐܘܪܡܺܝܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܐ ܕܰܛܒܺܝܒ ܒܰܡܕܝ̈ܢܳܬܐ ܕܰܐܕܘܪܒܰܝܓܰܐܢ ܠܬܰܝܡܢ ܬܶܒܪܝܙ ܘܰܠܡܰܕܢܚܐ ܕܝܰܡܬܐ ܕܐܘܪܡܺܝܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة اشهر مدن اذربيجان جنوبي تبريز وشرقي بحيرة اورمية."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة اشهر مدن اذربيجان جنوبي تبريز وشرقي بحيرة اورمية."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a most famous town of Azerbayjan, south of Tabriz and east of Lake Urmiya."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1029"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Maragheh>  ;
+ rdfs:label "a most famous town of Azerbayjan, south of Tabriz and east of Lake Urmiya."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1029" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Maragheh> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/129/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/129/tei> ;
 geo:location [
-geo:lat "37.383333"  ;
-geo:long "37.383333"  ;];
- lawd:hasName [
-lawd:primaryForm "Maragha"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܡܪܐܓܗ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܡܰܪܰܐܓܰܗ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "مراغة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Marāghā"@en  ;];
- lawd:hasName [
-lawd:variantForm "مَراغة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Tabriz"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/129/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/129/tei>  .
+ geo:lat "37.383333" ;
+ geo:long "46.266667" ;].

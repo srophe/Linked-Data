@@ -11,35 +11,36 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/459> a lawd:Place ;
-rdfs:label "Maʿdan — ܡܥܕܢ"  ;
+ rdfs:label "Maʿdan — ܡܥܕܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Maʿdan"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܡܥܕܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܡܰܥܕܰܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "المعدن"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Māʿdan"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Madan"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ma‘dan"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Mādan"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Mā‘dan"@en-xsrp1 ;];
  dcterms:description [
-rdfs:label "ܐܰܬܪܰܐ ܗܘ ܕܒܰܦܢܺܝܬ ܫܝܪܘܢ ܕܒܐܘܚܕܳܢ ܣܥܶܪܬ ܗܘܳܬ ܩܪܺܝܬܳܐ ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܡܰܪܕܝܢ ܡܰܪܕܶܐ ܫܶܬ ܫܳܥܝ̈ܢ ܠܓܰܪܒܝܳܗ̇."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܰܐ ܗܘ ܕܒܰܦܢܺܝܬ ܫܝܪܘܢ ܕܒܐܘܚܕܳܢ ܣܥܶܪܬ ܗܘܳܬ ܩܪܺܝܬܳܐ ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܡܰܪܕܝܢ ܡܰܪܕܶܐ ܫܶܬ ܫܳܥܝ̈ܢ ܠܓܰܪܒܝܳܗ̇."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة في ناحية شروان من لواء سعرت صارت قرية."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة في ناحية شروان من لواء سعرت صارت قرية."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town in the vicinity of Sherwan, in the province of Seʿert; now a village."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1417"  ;
- lawd:hasName [
-lawd:primaryForm "Maʿdan"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܡܥܕܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܡܰܥܕܰܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "المعدن"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Māʿdan"@en  ;];
- lawd:hasName [
-lawd:variantForm "Madan"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ma‘dan"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Mādan"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Mā‘dan"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/459/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/459/tei>  ;
-dcterms:relation <http://syriaca.org/place/2336>  .
+ rdfs:label "a town in the vicinity of Sherwan, in the province of Seʿert; now a village."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1417" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/459/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/459/tei> ;
+ dcterms:relation <http://syriaca.org/place/2336> ;
+ dcterms:isPartOf <http://syriaca.org/place/724> .

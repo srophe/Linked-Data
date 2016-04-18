@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1181> a lawd:Place ;
-rdfs:label "Pishon"  ;
-dcterms:description "One of the biblical rivers coming out of Eden in Genesis 2"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Pishon>  ;
+ rdfs:label "Pishon" ;
  lawd:hasName [
-lawd:primaryForm "Pishon"@en  ;];
+ lawd:primaryForm "Pishon"@en ;];
  lawd:hasName [
-lawd:variantForm "فيشون"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1181/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1181/tei>  .
+ lawd:variantForm "فيشون"@ar ;];
+ dcterms:description "One of the biblical rivers coming out of Eden in Genesis 2" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Pishon> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1181/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1181/tei> .

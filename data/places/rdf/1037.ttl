@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1037> a lawd:Place ;
-rdfs:label "Beth Kshāye"  ;
+ rdfs:label "Beth Kshāye" ;
  lawd:hasName [
-lawd:primaryForm "Beth Kshāye"@en  ;];
+ lawd:primaryForm "Beth Kshāye"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Kshāye"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1037/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1037/tei>  .
+ lawd:variantForm "Beṯ Kshāye"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1037/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1037/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

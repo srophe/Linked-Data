@@ -11,18 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/595> a lawd:Place ;
-rdfs:label "Jabal al-Durūz"  ;
-dcterms:description "A mountain in ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/678042>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Jabal_al-Druze>  ;
+ rdfs:label "Jabal al-Durūz" ;
+ lawd:hasName [
+ lawd:primaryForm "Jabal al-Durūz"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Jebel Druze"@en ;];
+ skos:related <http://syriaca.org/place/486> ;
+ dcterms:description "A mountain in ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/678042> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Jabal_al-Druze> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/595/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/595/tei> ;
 geo:location [
-geo:lat "32.75"  ;
-geo:long "32.75"  ;];
- lawd:hasName [
-lawd:primaryForm "Jabal al-Durūz"@en  ;];
- lawd:hasName [
-lawd:variantForm "Jebel Druze"@en  ;];
- lawd:hasName [
-lawd:variantForm "Syria"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/595/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/595/tei>  .
+ geo:lat "32.75" ;
+ geo:long "36.75" ;].

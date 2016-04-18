@@ -11,10 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1045> a lawd:Place ;
-rdfs:label "Beth Nahra"  ;
+ rdfs:label "Beth Nahra" ;
  lawd:hasName [
-lawd:primaryForm "Beth Nahra"@en  ;];
+ lawd:primaryForm "Beth Nahra"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Nahrā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1045/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1045/tei>  .
+ lawd:variantForm "Beṯ Nahrā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1045/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1045/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1231> ;
+ dcterms:isPartOf <http://syriaca.org/place/790> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

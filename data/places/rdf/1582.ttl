@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1582> a lawd:Place ;
-rdfs:label "Ōret"  ;
+ rdfs:label "Ōret" ;
  lawd:hasName [
-lawd:primaryForm "Ōret"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1582/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1582/tei>  .
+ lawd:primaryForm "Ōret"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1582/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1582/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/780> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

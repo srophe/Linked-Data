@@ -11,9 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1751> a lawd:Place ;
-rdfs:label "Takālūi"  ;
+ rdfs:label "Takālūi" ;
  lawd:hasName [
-lawd:primaryForm "Takālūi"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1751/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1751/tei>  ;
-dcterms:relation <http://syriaca.org/place/1752>  .
+ lawd:primaryForm "Takālūi"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1751/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1751/tei> ;
+ dcterms:relation <http://syriaca.org/place/1752> ;
+ dcterms:isPartOf <http://syriaca.org/place/839> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

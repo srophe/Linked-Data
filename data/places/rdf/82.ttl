@@ -11,19 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/82> a lawd:Place ;
-rdfs:label "Euphrates — ܦܪܬ"  ;
-dcterms:description "The western major river of Mesopotamia, flowing from eastern Turkey to the Persian Gulf."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/912849>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Euphrates>  ;
+ rdfs:label "Euphrates — ܦܪܬ" ;
  lawd:hasName [
-lawd:primaryForm "Euphrates"@en  ;];
+ lawd:primaryForm "Euphrates"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܦܪܬ"@syr  ;];
+ lawd:primaryForm "ܦܪܬ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܦܪܰܬ"@syr-Syrj  ;];
+ lawd:variantForm "ܦܪܰܬ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "الفرات"@ar  ;];
+ lawd:variantForm "الفرات"@ar ;];
  lawd:hasName [
-lawd:variantForm "الفُرات"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/82/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/82/tei>  .
+ lawd:variantForm "الفُرات"@ar ;];
+ dcterms:description "The western major river of Mesopotamia, flowing from eastern Turkey to the Persian Gulf." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/912849> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Euphrates> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/82/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/82/tei> .

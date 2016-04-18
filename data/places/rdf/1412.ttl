@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1412> a lawd:Place ;
-rdfs:label "Malakta"  ;
+ rdfs:label "Malakta" ;
  lawd:hasName [
-lawd:primaryForm "Malakta"@en  ;];
+ lawd:primaryForm "Malakta"@en ;];
  lawd:hasName [
-lawd:variantForm "Malakṯā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1412/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1412/tei>  .
+ lawd:variantForm "Malakṯā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1412/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1412/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/254> .

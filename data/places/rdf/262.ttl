@@ -11,37 +11,38 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/262> a lawd:Place ;
-rdfs:label "Qaraqosh — ܒܝܬ ܟܘܕܝܕܐ"  ;
+ rdfs:label "Qaraqosh — ܒܝܬ ܟܘܕܝܕܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Qaraqosh"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܝܬ ܟܘܕܝܕܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܶܝܬ ܟܘܕܰܝܕܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "باُخديدة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Beth Khudayda"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Qaraqōsh"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Beṯ Khūdaidā"@en ;];
+ lawd:hasName [
+ lawd:variantForm "باخُدَيْدا"@ar ;];
  dcterms:description [
-rdfs:label "A sizable town located to the east of Mosul, on the same road along which Barṭelle and Karamlish are located."@en  ;];
+ rdfs:label "A sizable town located to the east of Mosul, on the same road along which Barṭelle and Karamlish are located."@en ;];
  dcterms:description [
-rdfs:label "441. Qaraqosh"@en  ;];
+ rdfs:label "441. Qaraqosh"@en ;];
  dcterms:description [
-rdfs:label "ܩܪܝܬܐ ܪܰܒܬܳܐ ܕܒܐܘܚܕܳܢܐ ܕܢܝܺܢܘܶܐ ܠܡܰܕܢܚܐ ܕܡܰܘܨܠ ܘܡܶܬܐܡܰܪ ܠܗ̇ ܝܰܘܡܳܢ ܩܰܪܰܩܽܘܫ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܝܬܐ ܪܰܒܬܳܐ ܕܒܐܘܚܕܳܢܐ ܕܢܝܺܢܘܶܐ ܠܡܰܕܢܚܐ ܕܡܰܘܨܠ ܘܡܶܬܐܡܰܪ ܠܗ̇ ܝܰܘܡܳܢ ܩܰܪܰܩܽܘܫ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية كبيرة من اعمال نينوى شرقي مدينة الموصل يقال لها اليوم قرقوش"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية كبيرة من اعمال نينوى شرقي مدينة الموصل يقال لها اليوم قرقوش"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a large village in the province of Nineveh, north of Mosul; now called Qaraqosh."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0600"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Bakhdida>  ;
- lawd:hasName [
-lawd:primaryForm "Qaraqosh"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܝܬ ܟܘܕܝܕܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܒܶܝܬ ܟܘܕܰܝܕܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "باُخديدة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Beth Khudayda"@en  ;];
- lawd:hasName [
-lawd:variantForm "Qaraqōsh"@en  ;];
- lawd:hasName [
-lawd:variantForm "Beṯ Khūdaidā"@en  ;];
- lawd:hasName [
-lawd:variantForm "باخُدَيْدا"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/262/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/262/tei>  .
+ rdfs:label "a large village in the province of Nineveh, north of Mosul; now called Qaraqosh."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0600" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Bakhdida> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/262/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/262/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

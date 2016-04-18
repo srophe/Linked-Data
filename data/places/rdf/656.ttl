@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/656> a lawd:Place ;
-rdfs:label "Karka d-Ledan"  ;
-dcterms:description "A diocese of the Church of the East, whose bishop was a suffragan of the Metropolitan of Beth Huzaye."  ;
-dcterms:temporal "0410"  ;
+ rdfs:label "Karka d-Ledan" ;
  lawd:hasName [
-lawd:primaryForm "Karka d-Ledan"@en  ;];
+ lawd:primaryForm "Karka d-Ledan"@en ;];
  lawd:hasName [
-lawd:variantForm "Karka d'Ledan"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/656/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/656/tei>  .
+ lawd:variantForm "Karka d'Ledan"@en ;];
+ dcterms:description "A diocese of the Church of the East, whose bishop was a suffragan of the Metropolitan of Beth Huzaye." ;
+ dcterms:temporal "0410" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/656/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/656/tei> .

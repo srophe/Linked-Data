@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1061> a lawd:Place ;
-rdfs:label "Beth Rewai"  ;
+ rdfs:label "Beth Rewai" ;
  lawd:hasName [
-lawd:primaryForm "Beth Rewai"@en  ;];
+ lawd:primaryForm "Beth Rewai"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Rewai"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1061/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1061/tei>  .
+ lawd:variantForm "Beṯ Rewai"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1061/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1061/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/993> .

@@ -11,31 +11,30 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/442> a lawd:Place ;
-rdfs:label "Kaʿbiya — ܟܥܒܝܗ"  ;
-dcterms:description "A village near ."  ;
+ rdfs:label "Kaʿbiya — ܟܥܒܝܗ" ;
+ lawd:hasName [
+ lawd:primaryForm "Kaʿbiya"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܟܥܒܝܗ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܟܰܥܒܺܝܶܗ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "كعبية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Kabiya"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ka‘biya"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/8> ;
+ dcterms:description "A village near ." ;
  dcterms:description [
-rdfs:label "ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܐܳܡܝܕ ܕܰܡܝܰܬܒܳܐ ܗܘܳܬ ܒܣܘܪ̈ܝܳܝܐ ܐܶܣܬܰܚܦܰܬ ܒܰܩܪܳܒܐ ܕܰܥܒܰܪ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܶܢ ܩܘܪ̈ܝܳܐ ܕܐܳܡܝܕ ܕܰܡܝܰܬܒܳܐ ܗܘܳܬ ܒܣܘܪ̈ܝܳܝܐ ܐܶܣܬܰܚܦܰܬ ܒܰܩܪܳܒܐ ܕܰܥܒܰܪ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "من قرى ديار بكر الآهلة بالسريان دمرت في الحرب الماضية."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "من قرى ديار بكر الآهلة بالسريان دمرت في الحرب الماضية."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village in the vicinity of Diyarbakir which was populated by Syrians. It was destroyed in World War I."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1914"  ;
- lawd:hasName [
-lawd:primaryForm "Kaʿbiya"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܟܥܒܝܗ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܟܰܥܒܺܝܶܗ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "كعبية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Kabiya"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ka‘biya"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Amid"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/442/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/442/tei>  .
+ rdfs:label "a village in the vicinity of Diyarbakir which was populated by Syrians. It was destroyed in World War I."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1914" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/442/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/442/tei> .

@@ -11,24 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2475> a lawd:Place ;
-rdfs:label "Mar Nuḥ"  ;
-dcterms:description "A monastery east of on , near the traditional site for the landing of Noah's Ark."  ;
+ rdfs:label "Mar Nuḥ" ;
  lawd:hasName [
-lawd:primaryForm "Mar Nuḥ"@en  ;];
+ lawd:primaryForm "Mar Nuḥ"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Nūḥ"@en  ;];
+ lawd:variantForm "Mār Nūḥ"@en ;];
  lawd:hasName [
-lawd:variantForm "Monastery of the Ark"@en  ;];
+ lawd:variantForm "Monastery of the Ark"@en ;];
  lawd:hasName [
-lawd:variantForm "دير ابون"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Dairek"  ;];
- lawd:hasName [
-lawd:variantForm "Mount Qardu"  ;];
- lawd:hasName [
-lawd:variantForm "Jabal Jūdi,"  ;];
- lawd:hasName [
-lawd:variantForm "the village of Dairek"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2475/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2475/tei>  ;
-dcterms:relation <http://syriaca.org/place/2021>  .
+ lawd:variantForm "دير ابون"@ar ;];
+ skos:related <http://syriaca.org/place/1141> ;
+ skos:related <http://syriaca.org/place/637> ;
+ skos:related <http://syriaca.org/place/637> ;
+ skos:related <http://syriaca.org/place/1141> ;
+ dcterms:description "A monastery east of on , near the traditional site for the landing of Noah's Ark." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2475/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2475/tei> ;
+ dcterms:relation <http://syriaca.org/place/2021> ;
+ dcterms:isPartOf <http://syriaca.org/place/770> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

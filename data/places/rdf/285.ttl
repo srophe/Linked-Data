@@ -11,36 +11,36 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/285> a lawd:Place ;
-rdfs:label "Arzun — ܐܪܙܘܢ"  ;
+ rdfs:label "Arzun — ܐܪܙܘܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Arzun"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Arzon"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܪܙܘܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܰܪܙܘܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܓܘܽܪܙܰܐܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ارزون"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "غورزان"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ghurzān"@en ;];
+ lawd:hasName [
+ lawd:variantForm "أَرْزَن"@ar ;];
  dcterms:description [
-rdfs:label "ܡܕܝܺܢܬܐ ܪܒܬܐ ܕܢܳܦܠܐ ܠܓܰܪܒܰܝ ܡܰܥܪܰܒ ܣܥܶܪܬ ܚܰܪ̈ܒܳܬܗ̇ ܩܝ̈ܡܳܢ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܝܺܢܬܐ ܪܒܬܐ ܕܢܳܦܠܐ ܠܓܰܪܒܰܝ ܡܰܥܪܰܒ ܣܥܶܪܬ ܚܰܪ̈ܒܳܬܗ̇ ܩܝ̈ܡܳܢ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة كبيرة كانت شمالي غربي سعرت اطلالها ماثلة"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة كبيرة كانت شمالي غربي سعرت اطلالها ماثلة"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a large city, formerly northwest of Seʿert. Its ruins can still be seen."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0410"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Nisibis_(East_Syrian_Ecclesiastical_Province)#The_diocese_of_Arzun>  ;
- lawd:hasName [
-lawd:primaryForm "Arzun"@en  ;];
- lawd:hasName [
-lawd:variantForm "Arzon"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܪܙܘܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܰܪܙܘܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܓܘܽܪܙܰܐܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ارزون"@ar  ;];
- lawd:hasName [
-lawd:variantForm "غورزان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ghurzān"@en  ;];
- lawd:hasName [
-lawd:variantForm "أَرْزَن"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/285/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/285/tei>  ;
-dcterms:relation <http://syriaca.org/place/2256>  .
+ rdfs:label "a large city, formerly northwest of Seʿert. Its ruins can still be seen."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0410" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Nisibis_(East_Syrian_Ecclesiastical_Province)#The_diocese_of_Arzun> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/285/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/285/tei> ;
+ dcterms:relation <http://syriaca.org/place/2256> .

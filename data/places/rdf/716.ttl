@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/716> a lawd:Place ;
-rdfs:label "Arabia"  ;
+ rdfs:label "Arabia" ;
  lawd:hasName [
-lawd:primaryForm "Arabia"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/716/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/716/tei>  ;
-dcterms:relation <http://syriaca.org/place/12>  .
+ lawd:primaryForm "Arabia"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/716/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/716/tei> ;
+ dcterms:relation <http://syriaca.org/place/12> .

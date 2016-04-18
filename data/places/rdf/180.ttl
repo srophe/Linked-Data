@@ -11,21 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/180> a lawd:Place ;
-rdfs:label "Scythopolis"  ;
-dcterms:description "A city near the east of ."  ;
-dcterms:temporal "-2000"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/678378>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Beit_She'an>  ;
+ rdfs:label "Scythopolis" ;
+ lawd:hasName [
+ lawd:primaryForm "Scythopolis"@en ;];
+ lawd:hasName [
+ lawd:variantForm "بَيْسان"@ar ;];
+ skos:related <http://syriaca.org/place/599> ;
+ skos:related <http://syriaca.org/place/53> ;
+ dcterms:description "A city near the east of ." ;
+ dcterms:temporal "-2000" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/678378> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Beit_She'an> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/180/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/180/tei> ;
 geo:location [
-geo:lat "32.5"  ;
-geo:long "32.5"  ;];
- lawd:hasName [
-lawd:primaryForm "Scythopolis"@en  ;];
- lawd:hasName [
-lawd:variantForm "بَيْسان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Jordan river"  ;];
- lawd:hasName [
-lawd:variantForm "Caesarea"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/180/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/180/tei>  .
+ geo:lat "32.5" ;
+ geo:long "35.5" ;].

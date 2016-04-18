@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/989> a lawd:Place ;
-rdfs:label "Bejīl"  ;
+ rdfs:label "Bejīl" ;
  lawd:hasName [
-lawd:primaryForm "Bejīl"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/989/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/989/tei>  .
+ lawd:primaryForm "Bejīl"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/989/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/989/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/776> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

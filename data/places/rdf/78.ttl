@@ -11,69 +11,60 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/78> a lawd:Place ;
-rdfs:label "Edessa — ܐܘܪܗܝ"  ;
-dcterms:description "A city of , the capital of the ancient kingdom of , modern Urfa."  ;
+ rdfs:label "Edessa — ܐܘܪܗܝ" ;
+ lawd:hasName [
+ lawd:primaryForm "Edessa"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Urfa"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܘܪܗܝ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܘܪܗܳܝ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܘܪܦܰܗ̈"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "الرها"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "اورفه"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Adme"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Antiochia Kallirhoe"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Urhay"@en ;];
+ lawd:hasName [
+ lawd:variantForm "الرُّهاء"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "أَذاسا"@ar ;];
+ skos:related <http://syriaca.org/place/124> ;
+ skos:related <http://syriaca.org/place/145> ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/191> ;
+ skos:related <http://syriaca.org/place/166> ;
+ skos:related <http://syriaca.org/place/631> ;
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/43> ;
+ dcterms:description "A city of , the capital of the ancient kingdom of , modern Urfa." ;
  dcterms:description [
-rdfs:label "183. Edessa"@en  ;];
+ rdfs:label "183. Edessa"@en ;];
  dcterms:description [
-rdfs:label "ܡܕܺܝܢܬܐ ܗܳܝ ܛܒܝܒܬܳܐ ܠܡܰܕܢܚܳܐ ܕܚܳܠܳܒ ܚܰܡܫܳܐ ܝܰܘܡ̈ܝܢ ܘܡܶܫܬܰܡܗܐ ܝܰܘܡܳܢ ܐܘܪܦܰܗ̈"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܺܝܢܬܐ ܗܳܝ ܛܒܝܒܬܳܐ ܠܡܰܕܢܚܳܐ ܕܚܳܠܳܒ ܚܰܡܫܳܐ ܝܰܘܡ̈ܝܢ ܘܡܶܫܬܰܡܗܐ ܝܰܘܡܳܢ ܐܘܪܦܰܗ̈"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة مشهورة خمسة ايام عن حلب شرقا وتسمى اليوم اورفه."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة مشهورة خمسة ايام عن حلب شرقا وتسمى اليوم اورفه."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a famous city, five day journey eastward from Aleppo, now called Urfa."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-0304"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658457>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Edessa>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Şanlıurfa>  ;
+ rdfs:label "a famous city, five day journey eastward from Aleppo, now called Urfa."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-0304" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658457> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Edessa> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Şanlıurfa> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/78/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/78/tei> ;
 geo:location [
-geo:lat "37.15"  ;
-geo:long "37.15"  ;];
- lawd:hasName [
-lawd:primaryForm "Edessa"@en  ;];
- lawd:hasName [
-lawd:variantForm "Urfa"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܘܪܗܝ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܘܪܗܳܝ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܐܘܪܦܰܗ̈"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "الرها"@ar  ;];
- lawd:hasName [
-lawd:variantForm "اورفه"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Adme"@en  ;];
- lawd:hasName [
-lawd:variantForm "Antiochia Kallirhoe"@en  ;];
- lawd:hasName [
-lawd:variantForm "Urhay"@en  ;];
- lawd:hasName [
-lawd:variantForm "الرُّهاء"@ar  ;];
- lawd:hasName [
-lawd:variantForm "أَذاسا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Mesopotamia"  ;];
- lawd:hasName [
-lawd:variantForm "Osrhoene"  ;];
- lawd:hasName [
-lawd:variantForm "Aleppo"  ;];
- lawd:hasName [
-lawd:variantForm "Aleppo"  ;];
- lawd:hasName [
-lawd:variantForm "Daiṣan"  ;];
- lawd:hasName [
-lawd:variantForm "Roman Empire"  ;];
- lawd:hasName [
-lawd:variantForm "Ottoman Empire"  ;];
- lawd:hasName [
-lawd:variantForm "Aleppo"  ;];
- lawd:hasName [
-lawd:variantForm "Balikh"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/78/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/78/tei>  ;
-dcterms:isPartOf <http://syriaca.org/place/145>  ;
-dcterms:isPartOf <http://syriaca.org/place/166>  .
+ geo:lat "37.15" ;
+ geo:long "38.8" ;];
+ dcterms:isPartOf <http://syriaca.org/place/145> ;
+ dcterms:isPartOf <http://syriaca.org/place/166> .

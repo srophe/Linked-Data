@@ -11,19 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/154> a lawd:Place ;
-rdfs:label "Paneas"  ;
-dcterms:description "A town east of and southwest of ."  ;
-dcterms:temporal "-0003"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/678324>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Banias>  ;
+ rdfs:label "Paneas" ;
+ lawd:hasName [
+ lawd:primaryForm "Paneas"@en ;];
+ skos:related <http://syriaca.org/place/195> ;
+ skos:related <http://syriaca.org/place/66> ;
+ dcterms:description "A town east of and southwest of ." ;
+ dcterms:temporal "-0003" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/678324> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Banias> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/154/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/154/tei> ;
 geo:location [
-geo:lat "33.24861"  ;
-geo:long "33.24861"  ;];
- lawd:hasName [
-lawd:primaryForm "Paneas"@en  ;];
- lawd:hasName [
-lawd:variantForm "Tyros"  ;];
- lawd:hasName [
-lawd:variantForm "Damascus"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/154/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/154/tei>  .
+ geo:lat "33.24861" ;
+ geo:long "35.69444" ;].

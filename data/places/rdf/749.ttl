@@ -11,12 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/749> a lawd:Place ;
-rdfs:label "Goyan"  ;
+ rdfs:label "Goyan" ;
  lawd:hasName [
-lawd:primaryForm "Goyan"@en  ;];
+ lawd:primaryForm "Goyan"@en ;];
  lawd:hasName [
-lawd:variantForm "Gōgāye"@en  ;];
+ lawd:variantForm "Gōgāye"@en ;];
  lawd:hasName [
-lawd:variantForm "Sindi"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/749/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/749/tei>  .
+ lawd:variantForm "Sindi"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/749/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/749/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

@@ -11,10 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2131> a lawd:Place ;
-rdfs:label "Mar Yonan and the Bnay Shmuni"  ;
+ rdfs:label "Mar Yonan and the Bnay Shmuni" ;
  lawd:hasName [
-lawd:primaryForm "Mar Yonan and the Bnay Shmuni"@en  ;];
+ lawd:primaryForm "Mar Yonan and the Bnay Shmuni"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Yōnān and the Beni Shmūni"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2131/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2131/tei>  .
+ lawd:variantForm "Mār Yōnān and the Beni Shmūni"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2131/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2131/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/931> ;
+ dcterms:isPartOf <http://syriaca.org/place/740> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

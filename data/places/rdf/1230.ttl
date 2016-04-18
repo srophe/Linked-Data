@@ -11,20 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1230> a lawd:Place ;
-rdfs:label "Monastery of Yaʿqob the Recluse"  ;
-dcterms:description "A monastery near ."  ;
-dcterms:temporal "0998"  ;
+ rdfs:label "Monastery of Yaʿqob the Recluse" ;
  lawd:hasName [
-lawd:primaryForm "Monastery of Yaʿqob the Recluse"@en  ;];
+ lawd:primaryForm "Monastery of Yaʿqob the Recluse"@en ;];
  lawd:hasName [
-lawd:variantForm "monastery of Mar Jacob"@en  ;];
+ lawd:variantForm "monastery of Mar Jacob"@en ;];
  lawd:hasName [
-lawd:variantForm "دير احويشا"@ar  ;];
+ lawd:variantForm "دير احويشا"@ar ;];
  lawd:hasName [
-lawd:variantForm "Monastery of Yaqob the Recluse"@en-xsrp1  ;];
+ lawd:variantForm "Monastery of Yaqob the Recluse"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Monastery of Ya‘qob the Recluse"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Siirt"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1230/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1230/tei>  .
+ lawd:variantForm "Monastery of Ya‘qob the Recluse"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/188> ;
+ dcterms:description "A monastery near ." ;
+ dcterms:temporal "0998" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1230/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1230/tei> .

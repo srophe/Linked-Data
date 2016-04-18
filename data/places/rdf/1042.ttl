@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1042> a lawd:Place ;
-rdfs:label "Beth Mgūshe"  ;
+ rdfs:label "Beth Mgūshe" ;
  lawd:hasName [
-lawd:primaryForm "Beth Mgūshe"@en  ;];
+ lawd:primaryForm "Beth Mgūshe"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Mgūshe"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1042/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1042/tei>  .
+ lawd:variantForm "Beṯ Mgūshe"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1042/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1042/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

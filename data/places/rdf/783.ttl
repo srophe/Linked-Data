@@ -11,8 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/783> a lawd:Place ;
-rdfs:label "Ṣapnā"  ;
+ rdfs:label "Ṣapnā" ;
  lawd:hasName [
-lawd:primaryForm "Ṣapnā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/783/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/783/tei>  .
+ lawd:primaryForm "Ṣapnā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/783/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/783/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

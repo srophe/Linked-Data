@@ -11,15 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/64> a lawd:Place ;
-rdfs:label "Claudiopolis"  ;
-dcterms:description "A city of south-central Anatolia."  ;
-dcterms:temporal "0054"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/648723>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Claudiopolis_(Cilicia)>  ;
-geo:location [
-geo:lat "36.63333"  ;
-geo:long "36.63333"  ;];
+ rdfs:label "Claudiopolis" ;
  lawd:hasName [
-lawd:primaryForm "Claudiopolis"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/64/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/64/tei>  .
+ lawd:primaryForm "Claudiopolis"@en ;];
+ dcterms:description "A city of south-central Anatolia." ;
+ dcterms:temporal "0054" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/648723> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Claudiopolis_(Cilicia)> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/64/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/64/tei> ;
+geo:location [
+ geo:lat "36.63333" ;
+ geo:long "33.45" ;].

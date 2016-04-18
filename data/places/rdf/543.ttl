@@ -11,22 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/543> a lawd:Place ;
-rdfs:label "Ḥbob — ܚܒܒ"  ;
-dcterms:description "A village in ."  ;
-dcterms:temporal "1943"  ;
+ rdfs:label "Ḥbob — ܚܒܒ" ;
  lawd:hasName [
-lawd:primaryForm "Ḥbob"@en  ;];
+ lawd:primaryForm "Ḥbob"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܚܒܒ"@syr  ;];
+ lawd:primaryForm "ܚܒܒ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܚܒܳܒ"@syr-Syrj  ;];
+ lawd:variantForm "ܚܒܳܒ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "حباب"@ar  ;];
+ lawd:variantForm "حباب"@ar ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/543/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/543/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/221> ;
+ dcterms:description "A village in ." ;
+ dcterms:temporal "1943" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/543/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/543/tei> .

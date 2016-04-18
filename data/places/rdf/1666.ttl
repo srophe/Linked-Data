@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1666> a lawd:Place ;
-rdfs:label "Saleḥ"  ;
+ rdfs:label "Saleḥ" ;
  lawd:hasName [
-lawd:primaryForm "Saleḥ"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1666/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1666/tei>  .
+ lawd:primaryForm "Saleḥ"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1666/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1666/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/780> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

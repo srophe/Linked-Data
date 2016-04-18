@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2557> a lawd:Place ;
-rdfs:label "Siyagut"  ;
-dcterms:description "An Assyrian settlement in the Šarur region of Northwest Nakhchivan"  ;
-dcterms:temporal "1869"  ;
+ rdfs:label "Siyagut" ;
  lawd:hasName [
-lawd:primaryForm "Siyagut"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2557/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2557/tei>  .
+ lawd:primaryForm "Siyagut"@en ;];
+ dcterms:description "An Assyrian settlement in the Šarur region of Northwest Nakhchivan" ;
+ dcterms:temporal "1869" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2557/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2557/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/576> .

@@ -11,22 +11,20 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1505> a lawd:Place ;
-rdfs:label "Benshemesh — ܒܢܫܡܫ"  ;
-dcterms:description "A place east of the in ."  ;
-dcterms:temporal "0837"  ;
+ rdfs:label "Benshemesh — ܒܢܫܡܫ" ;
  lawd:hasName [
-lawd:primaryForm "Benshemesh"@en  ;];
+ lawd:primaryForm "Benshemesh"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܒܢܫܡܫ"@syr  ;];
+ lawd:primaryForm "ܒܢܫܡܫ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܒܢܶܫܡܫ"@syr-Syrj  ;];
+ lawd:variantForm "ܒܢܶܫܡܫ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "بنشمش"@ar  ;];
+ lawd:variantForm "بنشمش"@ar ;];
  lawd:hasName [
-lawd:variantForm "Benshams"@en  ;];
- lawd:hasName [
-lawd:variantForm "Khabur river"  ;];
- lawd:hasName [
-lawd:variantForm "Jazira"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1505/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1505/tei>  .
+ lawd:variantForm "Benshams"@en ;];
+ skos:related <http://syriaca.org/place/114> ;
+ skos:related <http://syriaca.org/place/321> ;
+ dcterms:description "A place east of the in ." ;
+ dcterms:temporal "0837" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1505/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1505/tei> .

@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1151> a lawd:Place ;
-rdfs:label "Darṣāpā"  ;
+ rdfs:label "Darṣāpā" ;
  lawd:hasName [
-lawd:primaryForm "Darṣāpā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1151/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1151/tei>  .
+ lawd:primaryForm "Darṣāpā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1151/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1151/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/250> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

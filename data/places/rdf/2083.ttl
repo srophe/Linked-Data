@@ -11,23 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2083> a lawd:Place ;
-rdfs:label "Mar Shemʿon bar Ṣabbaʿe"  ;
+ rdfs:label "Mar Shemʿon bar Ṣabbaʿe" ;
  lawd:hasName [
-lawd:primaryForm "Mar Shemʿon bar Ṣabbaʿe"@en  ;];
+ lawd:primaryForm "Mar Shemʿon bar Ṣabbaʿe"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Shemʿōn Bar Ṣabbāʿe"@en  ;];
+ lawd:variantForm "Mār Shemʿōn Bar Ṣabbāʿe"@en ;];
  lawd:hasName [
-lawd:variantForm "Mar Shemon bar Ṣabbae"@en-xsrp1  ;];
+ lawd:variantForm "Mar Shemon bar Ṣabbae"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mar Shem‘on bar Ṣabba‘e"@en-xsrp1  ;];
+ lawd:variantForm "Mar Shem‘on bar Ṣabba‘e"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Shemōn Bar Ṣabbāe"@en-xsrp1  ;];
+ lawd:variantForm "Mār Shemōn Bar Ṣabbāe"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Shem‘ōn Bar Ṣabbā‘e"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2083/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2083/tei>  ;
-dcterms:relation <http://syriaca.org/place/2082>  ;
-dcterms:relation <http://syriaca.org/place/2084>  ;
-dcterms:relation <http://syriaca.org/place/2085>  ;
-dcterms:relation <http://syriaca.org/place/2086>  ;
-dcterms:relation <http://syriaca.org/place/2087>  .
+ lawd:variantForm "Mār Shem‘ōn Bar Ṣabbā‘e"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2083/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2083/tei> ;
+ dcterms:relation <http://syriaca.org/place/2082> ;
+ dcterms:relation <http://syriaca.org/place/2084> ;
+ dcterms:relation <http://syriaca.org/place/2085> ;
+ dcterms:relation <http://syriaca.org/place/2086> ;
+ dcterms:relation <http://syriaca.org/place/2087> ;
+ dcterms:isPartOf <http://syriaca.org/place/1001> ;
+ dcterms:isPartOf <http://syriaca.org/place/251> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

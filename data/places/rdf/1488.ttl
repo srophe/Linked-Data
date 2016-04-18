@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1488> a lawd:Place ;
-rdfs:label "Shalabdīn — ܫܠܒܕܝܢ"  ;
-dcterms:description "Seat of a bishop about 1174."  ;
-dcterms:temporal "1179"  ;
+ rdfs:label "Shalabdīn — ܫܠܒܕܝܢ" ;
  lawd:hasName [
-lawd:primaryForm "Shalabdīn"@en  ;];
+ lawd:primaryForm "Shalabdīn"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܫܠܒܕܝܢ"@syr  ;];
+ lawd:primaryForm "ܫܠܒܕܝܢ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܝܠܒܕܺܝܢ"@syr-Syrj  ;];
+ lawd:variantForm "ܝܠܒܕܺܝܢ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "شلبدين"@ar  ;];
+ lawd:variantForm "شلبدين"@ar ;];
  lawd:hasName [
-lawd:variantForm "Shalabdin"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1488/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1488/tei>  .
+ lawd:variantForm "Shalabdin"@en ;];
+ dcterms:description "Seat of a bishop about 1174." ;
+ dcterms:temporal "1179" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1488/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1488/tei> .

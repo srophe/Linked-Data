@@ -11,40 +11,39 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/286> a lawd:Place ;
-rdfs:label "Arsamosata — ܐܪܫܡܝܫܛ"  ;
+ rdfs:label "Arsamosata — ܐܪܫܡܝܫܛ" ;
+ lawd:hasName [
+ lawd:primaryForm "Arsamosata"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܪܫܡܝܫܛ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܰܪܫܡܝܫܛ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܫܡܺܝܫܰܛ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ارشميشاط"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "شمشاط"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Samosata"@en ;];
+ lawd:hasName [
+ lawd:variantForm "شِمْشاط"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Kabiya"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ka‘biya"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/442> ;
  dcterms:description [
-rdfs:label "ܡܕܺܝܢܬܐ ܕܥܠ ܣܦܳܪ̈ܝ ܦܪܳܬ ܠܡܰܕܢܰܚ ܒܰܐܠܘ ܘܰܠܡܰܥܪܰܒ ܟܰܪܒܘܬ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܺܝܢܬܐ ܕܥܠ ܣܦܳܪ̈ܝ ܦܪܳܬ ܠܡܰܕܢܰܚ ܒܰܐܠܘ ܘܰܠܡܰܥܪܰܒ ܟܰܪܒܘܬ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة كانت بالروم على شاطئ الفرات شرقيها بالو وغربيها خربوت في طرف ارمينية"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة كانت بالروم على شاطئ الفرات شرقيها بالو وغربيها خربوت في طرف ارمينية"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a city in the Roman territory on the Euphrates. To its east lies Balū and to its west Kharput, contiguous to Armenia."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-0200"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874354>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Arsamosata>  ;
- lawd:hasName [
-lawd:primaryForm "Arsamosata"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܪܫܡܝܫܛ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܰܪܫܡܝܫܛ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܫܡܺܝܫܰܛ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ارشميشاط"@ar  ;];
- lawd:hasName [
-lawd:variantForm "شمشاط"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Samosata"@en  ;];
- lawd:hasName [
-lawd:variantForm "شِمْشاط"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Kabiya"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ka‘biya"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Kaʿbiya"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/286/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/286/tei>  .
+ rdfs:label "a city in the Roman territory on the Euphrates. To its east lies Balū and to its west Kharput, contiguous to Armenia."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-0200" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874354> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Arsamosata> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/286/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/286/tei> .

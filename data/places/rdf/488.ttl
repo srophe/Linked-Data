@@ -11,24 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/488> a lawd:Place ;
-rdfs:label "Sea of Marmara — ܝܡܐ ܕܡܪܡܪܐ"  ;
-dcterms:description "A small sea on the waterway between the and the Aegean, south of ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/511381>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Sea_of_Marmara>  ;
+ rdfs:label "Sea of Marmara — ܝܡܐ ܕܡܪܡܪܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Sea of Marmara"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܝܡܐ ܕܡܪܡܪܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܝܰܡܐ ܕܡܰܪܡܰܪܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "بحر مرمرة"@ar ;];
+ skos:related <http://syriaca.org/place/503> ;
+ skos:related <http://syriaca.org/place/586> ;
+ dcterms:description "A small sea on the waterway between the and the Aegean, south of ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/511381> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Sea_of_Marmara> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/488/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/488/tei> ;
 geo:location [
-geo:lat "40.6666672"  ;
-geo:long "40.6666672"  ;];
- lawd:hasName [
-lawd:primaryForm "Sea of Marmara"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܝܡܐ ܕܡܪܡܪܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܝܰܡܐ ܕܡܰܪܡܰܪܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "بحر مرمرة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Black Sea"  ;];
- lawd:hasName [
-lawd:variantForm "Constantinople"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/488/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/488/tei>  .
+ geo:lat "40.6666672" ;
+ geo:long "28.25" ;].

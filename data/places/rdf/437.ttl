@@ -11,27 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/437> a lawd:Place ;
-rdfs:label "Philippi — ܦܝܠܝܦܝ"  ;
+ rdfs:label "Philippi — ܦܝܠܝܦܝ" ;
+ lawd:hasName [
+ lawd:primaryForm "Philippi"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܦܝܠܝܦܝ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "فيلبي"@ar ;];
  dcterms:description [
-rdfs:label "ܡܕܺܝܢܬܳܐ ܥܰܬܝܩܬܐ ܕܰܠܡܰܕܢܚܳܐ ܕܡܰܩܕܘܢܺܝܰܐ ܚܶܪܒܰܬ ܒ݁ܬܰܪ ܕܳܪܳܐ ܕܝ̄ܓ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܺܝܢܬܳܐ ܥܰܬܝܩܬܐ ܕܰܠܡܰܕܢܚܳܐ ܕܡܰܩܕܘܢܺܝܰܐ ܚܶܪܒܰܬ ܒ݁ܬܰܪ ܕܳܪܳܐ ܕܝ̄ܓ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة قديمة في اقصى شرقي مقدونية خربت بعد القرن الثالث عشر."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة قديمة في اقصى شرقي مقدونية خربت بعد القرن الثالث عشر."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "an ancient city in the easternmost part of Macedonia; it lay in ruins after the thirteenth century."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-0356"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/501482>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Philippi>  ;
+ rdfs:label "an ancient city in the easternmost part of Macedonia; it lay in ruins after the thirteenth century."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-0356" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/501482> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Philippi> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/437/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/437/tei> ;
 geo:location [
-geo:lat "41.012021"  ;
-geo:long "41.012021"  ;];
- lawd:hasName [
-lawd:primaryForm "Philippi"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܦܝܠܝܦܝ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "فيلبي"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/437/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/437/tei>  .
+ geo:lat "41.012021" ;
+ geo:long "24.285182" ;].

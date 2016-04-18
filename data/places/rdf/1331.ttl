@@ -11,8 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1331> a lawd:Place ;
-rdfs:label "Ḥeṣṣā"  ;
+ rdfs:label "Ḥeṣṣā" ;
  lawd:hasName [
-lawd:primaryForm "Ḥeṣṣā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1331/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1331/tei>  .
+ lawd:primaryForm "Ḥeṣṣā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1331/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1331/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/993> .

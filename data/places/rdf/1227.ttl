@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1227> a lawd:Place ;
-rdfs:label "Ginne"  ;
+ rdfs:label "Ginne" ;
  lawd:hasName [
-lawd:primaryForm "Ginne"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1227/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1227/tei>  .
+ lawd:primaryForm "Ginne"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1227/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1227/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/732> ;
+ dcterms:isPartOf <http://syriaca.org/place/724> .

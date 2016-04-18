@@ -11,47 +11,47 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/11> a lawd:Place ;
-rdfs:label "Apamea — ܐܘܦܡܝܐ"  ;
+ rdfs:label "Apamea — ܐܘܦܡܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Apamea"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܘܦܡܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܘܦܰܡܝܰܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܩܰܠܥܗ̈ ܐܠܡܨ̇ܝܩ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "آفامية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "فامية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "قلعة المضيق"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Qalʿat al-Madīq"@en ;];
+ lawd:hasName [
+ lawd:variantForm "أَفَامِيَة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Qalat al-Madīq"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Qal‘at al-Madīq"@en-xsrp1 ;];
  dcterms:description [
-rdfs:label "One of the earliest Hellenistic city foundations in Syria, Apamea, situated on the Orontes ca. 90 km. south of Antioch, from the 2nd cent. onwards was an important center of Middle- and Neo-Platonist philosophy."@en  ;];
+ rdfs:label "One of the earliest Hellenistic city foundations in Syria, Apamea, situated on the Orontes ca. 90 km. south of Antioch, from the 2nd cent. onwards was an important center of Middle- and Neo-Platonist philosophy."@en ;];
  dcterms:description [
-rdfs:label "38. Apamea"@en  ;];
+ rdfs:label "38. Apamea"@en ;];
  dcterms:description [
-rdfs:label "ܡܕܝܢܬܳܐ ܗܘܳܬ ܪܰܒܬܐ ܕܰܠܓܰܪܒܰܝ ܡܰܕܢܰܚ ܚܡܳܬ ܘܚܰܪܝܒܳܐ ܗܳܫܐ ܘܡܶܬܐܶܡܰܪ ܠܗ̇ ܩܰܠܥܗ̈ ܐܠܡܨ̇ܝܩ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܝܢܬܳܐ ܗܘܳܬ ܪܰܒܬܐ ܕܰܠܓܰܪܒܰܝ ܡܰܕܢܰܚ ܚܡܳܬ ܘܚܰܪܝܒܳܐ ܗܳܫܐ ܘܡܶܬܐܶܡܰܪ ܠܗ̇ ܩܰܠܥܗ̈ ܐܠܡܨ̇ܝܩ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة كانت كبيرة في الشمال الشرقي من حماة وهي الآن خربة يقال لها قلعة المضيق"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة كانت كبيرة في الشمال الشرقي من حماة وهي الآن خربة يقال لها قلعة المضيق"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "once a large city northeast of Ḥama, it is now in ruins and is called Qalʿat al-Madīq."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0200"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/668335>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Apamea_(Syria)>  ;
+ rdfs:label "once a large city northeast of Ḥama, it is now in ruins and is called Qalʿat al-Madīq."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0200" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/668335> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Apamea_(Syria)> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/11/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/11/tei> ;
 geo:location [
-geo:lat "35.418"  ;
-geo:long "35.418"  ;];
- lawd:hasName [
-lawd:primaryForm "Apamea"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܘܦܡܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܘܦܰܡܝܰܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܩܰܠܥܗ̈ ܐܠܡܨ̇ܝܩ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "آفامية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "فامية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "قلعة المضيق"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Qalʿat al-Madīq"@en  ;];
- lawd:hasName [
-lawd:variantForm "أَفَامِيَة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Qalat al-Madīq"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qal‘at al-Madīq"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/11/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/11/tei>  .
+ geo:lat "35.418" ;
+ geo:long "36.398" ;].

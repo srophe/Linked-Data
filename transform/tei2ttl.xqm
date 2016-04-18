@@ -22,7 +22,7 @@ declare function local:make-lang($lang) as xs:string?{
 
 (: Build literal string, add lang if specified :)
 declare function local:make-literal($string, $lang) as xs:string?{
-    concat('"',normalize-space(string-join($string,' ')),'"',
+    concat('"',replace(normalize-space(string-join($string,' ')),'"',''),'"',
         if($lang != '') then local:make-lang($lang) 
         else ())
     
@@ -40,14 +40,14 @@ for $desc in $rec/descendant::tei:desc
 let $source := $desc/tei:quote/@source
 return
     if($desc[@type='abstract'][not(@source)][not(tei:quote/@source)] or $desc[contains(@xml:id,'abstract')][not(@source)][not(tei:quote/@source)][. != '']) then 
-        local:make-triple('dcterms:description', local:make-literal($desc/text(),''),'')
+        local:make-triple('', 'dcterms:description', local:make-literal($desc/text(),''))
     else 
         if($desc/child::* != '' or $desc != '') then 
             concat('&#xa; dcterms:description [',
-                local:make-triple('rdfs:label', local:make-literal($desc, string($desc/@xml:lang)),''),
+                local:make-triple('','rdfs:label', local:make-literal($desc, string($desc/@xml:lang))),
                     if($source != '') then
                        if($desc/ancestor::tei:TEI/descendant::tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence/tei:p/tei:listBibl/tei:bibl/tei:ptr/@target = $source) then 
-                            local:make-triple('dcterms:license', local:make-uri(string($desc/ancestor::tei:TEI/descendant::tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence/@target)),'')
+                            local:make-triple('','dcterms:license', local:make-uri(string($desc/ancestor::tei:TEI/descendant::tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:availability/tei:licence/@target)))
                        else ()
                     else (),
             '];')
@@ -60,9 +60,9 @@ string-join(
 for $id in $rec/descendant::tei:idno[@type='URI']
 return 
     if($id[starts-with(.,'http://pleiades')]) then 
-        local:make-triple('skos:exactMatch',local:make-uri($id),'')
+        local:make-triple('','skos:exactMatch',local:make-uri($id))
     else if($id[starts-with(.,'http://en.wikipedia.org')]) then 
-        local:make-triple('skos:closeMatch',local:make-uri($id),'')
+        local:make-triple('','skos:closeMatch',local:make-uri($id))
     else (),''
     )
 };
@@ -72,11 +72,18 @@ declare function local:names($rec) as xs:string*{
 string-join(
 for $name in $rec/descendant::tei:placeName
 return 
-    concat('&#xa; lawd:hasName [',
-        if($name[contains(@syriaca-tags,'#syriaca-headword')]) then
-           local:make-triple('lawd:primaryForm',local:make-literal($name/text(),$name/@xml:lang),'') 
-        else local:make-triple('lawd:variantForm',local:make-literal($name/text(),$name/@xml:lang),''), 
-    '];'),'')
+    if($name/parent::tei:place) then 
+        concat('&#xa; lawd:hasName [',
+            if($name[contains(@syriaca-tags,'#syriaca-headword')]) then
+               local:make-triple('','lawd:primaryForm',local:make-literal($name/text(),$name/@xml:lang)) 
+            else local:make-triple('','lawd:variantForm',local:make-literal($name/text(),$name/@xml:lang)), 
+        '];')    
+    else   
+        if($name/ancestor::tei:location[@type='nested'][starts-with(@ref,'http://syriaca.org/')]) then
+           local:make-triple('','dcterms:isPartOf',local:make-uri($name/@ref)) 
+        else if($name[starts-with(@ref,'http://syriaca.org/')]) then  
+            local:make-triple('','skos:related',local:make-uri($name/@ref))
+        else (),'')
 };
 
 (: Locations with coords :)
@@ -85,25 +92,30 @@ string-join(
 for $geo in $rec/descendant::tei:location[tei:geo]
 return 
     concat('&#xa;geo:location [',
-        local:make-triple('geo:lat',local:make-literal(substring-before($geo/tei:geo,' '),''),''),
-        local:make-triple('geo:long',local:make-literal(substring-before($geo/tei:geo,' '),''),''),
+        local:make-triple('','geo:lat',local:make-literal(substring-before($geo/tei:geo,' '),'')),
+        local:make-triple('','geo:long',local:make-literal(substring-after($geo/tei:geo,' '),'')),
     '];'),'')
 };
 
 (: Relations :)
 declare function local:relation($rec) as xs:string*{
 string-join(
+(
 for $relation in $rec/descendant::tei:relation
 return 
     if($relation/@name = 'contained') then 
         for $active in tokenize($relation/@active,' ')
-        return local:make-triple('dcterms:isPartOf',local:make-uri($active),'')
+        return local:make-triple('','dcterms:isPartOf',local:make-uri($active))
     else if($relation/@name = 'share-a-name') then 
-        for $mutual in tokenize($relation/@mutual,' ')
+        let $rel := normalize-space($relation/@mutual)
+        for $mutual in tokenize($rel,' ')
         return 
-            if($mutual(.,'#')) then () 
-            else local:make-triple('dcterms:relation',local:make-uri($mutual),'')
-    else (),'')
+            if(starts-with($mutual,'#')) then ()
+            else local:make-triple('','dcterms:relation',local:make-uri($mutual))
+    else (),
+for $location-relation in $rec/descendant::tei:location[@type='nested']/child::*[starts-with(@ref,'http://syriaca.org/')]/@ref
+return local:make-triple('','dcterms:isPartOf',local:make-uri($location-relation))
+    ),'')
 };
 
 (: Prefixes :)
@@ -127,15 +139,15 @@ let $id := replace($rec/descendant::tei:idno[starts-with(.,'http://syriaca.org/'
 return 
     concat(
     local:make-triple(local:make-uri($id), 'a', 'lawd:Place'),
-    local:make-triple('rdfs:label', local:make-literal($rec/descendant::tei:titleStmt/tei:title[@level='a'][1]/descendant::text(),''),''),
+    local:make-triple('','rdfs:label', local:make-literal($rec/descendant::tei:titleStmt/tei:title[@level='a'][1]/descendant::text(),'')),
+    local:names($rec),
     local:desc($rec),
     if($rec/descendant::tei:state[@type='existence'][@from]) then
-        local:make-triple('dcterms:temporal', local:make-literal($rec/descendant::tei:state[@type='existence']/@from,''),'')
+        local:make-triple('','dcterms:temporal', local:make-literal($rec/descendant::tei:state[@type='existence']/@from,''))
     else (),
     local:ids($rec),
-    local:geo($rec),
-    local:make-triple('foaf:primaryTopicOf', local:make-uri(concat($id,'/html')),''),
-    local:make-triple('foaf:primaryTopicOf', local:make-uri(concat($id,'/tei')),''),
+    local:make-triple('','foaf:primaryTopicOf', local:make-uri(concat($id,'/html'))),
+    local:make-triple('','foaf:primaryTopicOf', local:make-uri(concat($id,'/tei'))),
     local:geo($rec),
     local:relation($rec)
     )
@@ -147,22 +159,10 @@ declare function local:record($rec) as xs:string*{
 };
 
 (: Get/save triples to db :)
-if($id != '') then  
-    let $recs := collection('/db/apps/srophe-data/data/places/tei')//tei:idno[@type='URI'][. = $id]
-    (: Individual recs :)
-    for $hit in $recs/ancestor::tei:TEI
-    let $filename := concat(tokenize(replace($hit/descendant::tei:idno[@type='URI'][starts-with(.,'http://syriaca.org')][1],'/tei',''),'/')[last()],'.ttl')
-    let $file-data :=  
-        try {
-            (concat(local:prefix(), local:record($hit)))
-        } catch * {
-            <error>Caught error {$err:code}: {$err:description}</error>
-            }     
-    return $file-data(:xmldb:store(xs:anyURI('/db/apps/bug-test/data/places/rdf'), xmldb:encode-uri($filename), $file-data):)
-else if($id = 'run all') then 
+if($id = 'run all') then 
     let $recs := collection('/db/apps/srophe-data/data/places/tei')
     (: Individual recs :)
-    for $hit at $p in subsequence($recs, 1, 20)//tei:TEI
+    for $hit at $p in subsequence($recs, 1, 4000)//tei:TEI
     let $filename := concat(tokenize(replace($hit/descendant::tei:idno[@type='URI'][starts-with(.,'http://syriaca.org')][1],'/tei',''),'/')[last()],'.ttl')
     let $file-data :=  
         try {
@@ -170,9 +170,10 @@ else if($id = 'run all') then
         } catch * {
             <error>Caught error {$err:code}: {$err:description}</error>
             }     
-    return xmldb:store(xs:anyURI('/db/apps/bug-test/data/places/rdf'), xmldb:encode-uri($filename), $file-data)
+    return xmldb:store(xs:anyURI('/db/apps/bug-test/data'), xmldb:encode-uri($filename), $file-data)
 else if($id = 'combined') then 
     (: Full collection:) 
+    let $recs := collection('/db/apps/srophe-data/data/places/tei')
     let $full-rec := 
        string-join(
        for $hit in $recs
@@ -185,5 +186,18 @@ else if($id = 'combined') then
                 }
         return $file-data,'&#xa;')  
     let $full := concat(local:prefix(),$full-rec)    
-    return xmldb:store(xs:anyURI('/db/apps/bug-test/data/places/rdf'), xmldb:encode-uri('all-places.ttl'), $full)
+    return xmldb:store(xs:anyURI('/db/apps/bug-test/data'), xmldb:encode-uri('all-places.ttl'), $full)
+else if($id != '') then  
+    let $recs := collection('/db/apps/srophe-data/data/places/tei')//tei:idno[@type='URI'][. = $id]
+    (: Individual recs :)
+    for $hit in $recs/ancestor::tei:TEI
+    let $filename := concat(tokenize(replace($hit/descendant::tei:idno[@type='URI'][starts-with(.,'http://syriaca.org')][1],'/tei',''),'/')[last()],'.ttl')
+    let $file-data :=  
+        try {
+            (concat(local:prefix(), local:record($hit)))
+        } catch * {
+            <error>Caught error {$err:code}: {$err:description}</error>
+            }     
+    return $file-data
+    (:xmldb:store(xs:anyURI('/db/apps/bug-test/data/places/rdf'), xmldb:encode-uri($filename), $file-data):)
 else ()

@@ -11,20 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1506> a lawd:Place ;
-rdfs:label "Mor Yuḥanon d-Qurdis — ܕܝܪܐ ܕܡܪܝ ܝܘܚܢܢ ܕܩܘܪܕܝܣ"  ;
-dcterms:description "A monastery in ."  ;
-dcterms:temporal "0829"  ;
+ rdfs:label "Mor Yuḥanon d-Qurdis — ܕܝܪܐ ܕܡܪܝ ܝܘܚܢܢ ܕܩܘܪܕܝܣ" ;
  lawd:hasName [
-lawd:primaryForm "Mor Yuḥanon d-Qurdis"@en  ;];
+ lawd:primaryForm "Mor Yuḥanon d-Qurdis"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܝܘܚܢܢ ܕܩܘܪܕܝܣ"@syr  ;];
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܝܘܚܢܢ ܕܩܘܪܕܝܣ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܝܘܚܰܢܳܢ ܕܩܘܽܪܕܺܝܣ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܰܝܪܐ ܕܡܳܪܝ ܝܘܚܰܢܳܢ ܕܩܘܽܪܕܺܝܣ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "دير مار يوحنا قورديس"@ar  ;];
+ lawd:variantForm "دير مار يوحنا قورديس"@ar ;];
  lawd:hasName [
-lawd:variantForm "Monastery of Mar John Qurdis"@en  ;];
- lawd:hasName [
-lawd:variantForm "Dara"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1506/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1506/tei>  .
+ lawd:variantForm "Monastery of Mar John Qurdis"@en ;];
+ skos:related <http://syriaca.org/place/67> ;
+ dcterms:description "A monastery in ." ;
+ dcterms:temporal "0829" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1506/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1506/tei> .

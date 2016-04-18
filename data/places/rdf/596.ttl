@@ -11,14 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/596> a lawd:Place ;
-rdfs:label "Jabal Ḥalqa"  ;
-dcterms:description "A mountain in ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Harim_Mountains>  ;
+ rdfs:label "Jabal Ḥalqa" ;
  lawd:hasName [
-lawd:primaryForm "Jabal Ḥalqa"@en  ;];
+ lawd:primaryForm "Jabal Ḥalqa"@en ;];
  lawd:hasName [
-lawd:variantForm "Jebel Halaqa"@en  ;];
- lawd:hasName [
-lawd:variantForm "Syria"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/596/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/596/tei>  .
+ lawd:variantForm "Jebel Halaqa"@en ;];
+ skos:related <http://syriaca.org/place/486> ;
+ dcterms:description "A mountain in ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Harim_Mountains> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/596/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/596/tei> .

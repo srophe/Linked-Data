@@ -11,19 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/239> a lawd:Place ;
-rdfs:label "Upper Kafro"  ;
-dcterms:description "A village in north of ."  ;
-dcterms:temporal "1941"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Arıca,_Gercüş>  ;
+ rdfs:label "Upper Kafro" ;
  lawd:hasName [
-lawd:primaryForm "Upper Kafro"@en  ;];
+ lawd:primaryForm "Upper Kafro"@en ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
- lawd:hasName [
-lawd:variantForm "Midyat"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/239/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/239/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/221> ;
+ skos:related <http://syriaca.org/place/137> ;
+ dcterms:description "A village in north of ." ;
+ dcterms:temporal "1941" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Arıca,_Gercüş> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/239/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/239/tei> .

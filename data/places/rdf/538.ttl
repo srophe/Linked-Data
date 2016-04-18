@@ -11,23 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/538> a lawd:Place ;
-rdfs:label "Zāz — ܙܐܙ"  ;
-dcterms:description "A village in ."  ;
-dcterms:temporal "1431"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/İzbırak,_Mardin>  ;
+ rdfs:label "Zāz — ܙܐܙ" ;
  lawd:hasName [
-lawd:primaryForm "Zāz"@en  ;];
+ lawd:primaryForm "Zāz"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܙܐܙ"@syr  ;];
+ lawd:primaryForm "ܙܐܙ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܙܰܐܙ"@syr-Syrj  ;];
+ lawd:variantForm "ܙܰܐܙ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "زاز"@ar  ;];
+ lawd:variantForm "زاز"@ar ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/538/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/538/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/221> ;
+ dcterms:description "A village in ." ;
+ dcterms:temporal "1431" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/İzbırak,_Mardin> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/538/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/538/tei> .

@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1697> a lawd:Place ;
-rdfs:label "Shaiṭānābād"  ;
+ rdfs:label "Shaiṭānābād" ;
  lawd:hasName [
-lawd:primaryForm "Shaiṭānābād"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1697/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1697/tei>  .
+ lawd:primaryForm "Shaiṭānābād"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1697/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1697/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/733> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

@@ -11,30 +11,30 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/362> a lawd:Place ;
-rdfs:label "Dayr Sinun — ܕܝܪܐ ܕܣܢܘܢ"  ;
+ rdfs:label "Dayr Sinun — ܕܝܪܐ ܕܣܢܘܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dayr Sinun"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܣܢܘܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܣܢܘܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير سنون"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "دير سنين"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Sinun Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Sinin Monastery"@en ;];
  dcterms:description [
-rdfs:label "ܒܩܘܪܒܳܐ ܕܐܘܪܗܳܝ. ܕܟܝܺܪ ܫܢܰܝ̈ 512 - 565 ܐܰܚܪܒܗ ܥܳܫܘܡܐ ܥܰܒܕܐܠܠܗ ܒܰܪ ܒܰܟܬܰܪܝ 751."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܩܘܪܒܳܐ ܕܐܘܪܗܳܝ. ܕܟܝܺܪ ܫܢܰܝ̈ 512 - 565 ܐܰܚܪܒܗ ܥܳܫܘܡܐ ܥܰܒܕܐܠܠܗ ܒܰܪ ܒܰܟܬܰܪܝ 751."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بقرب الرها ذكر سنة 512 و 565 و اخربه الغاشم عبد الله ابن البختري سنة 751"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بقرب الرها ذكر سنة 512 و 565 و اخربه الغاشم عبد الله ابن البختري سنة 751"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "near Edessa, was mentioned in history in 512 and 565. It was destroyed in 751 by the tyrant ʿAbd Allah al-Bukhtūri."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0512"  ;
- lawd:hasName [
-lawd:primaryForm "Dayr Sinun"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܣܢܘܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܣܢܘܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير سنون"@ar  ;];
- lawd:hasName [
-lawd:variantForm "دير سنين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Sinun Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Sinin Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/362/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/362/tei>  .
+ rdfs:label "near Edessa, was mentioned in history in 512 and 565. It was destroyed in 751 by the tyrant ʿAbd Allah al-Bukhtūri."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0512" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/362/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/362/tei> .

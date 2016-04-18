@@ -11,27 +11,25 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/143> a lawd:Place ;
-rdfs:label "Nabk — ܢܒܟ"  ;
-dcterms:description "A town northeast of and southwest of ."  ;
-dcterms:temporal "1185"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/678085>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/An-Nabk>  ;
+ rdfs:label "Nabk — ܢܒܟ" ;
+ lawd:hasName [
+ lawd:primaryForm "Nabk"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܢܒܟ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܢܰܒܟ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "النبك"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "al-Nabak"@en ;];
+ skos:related <http://syriaca.org/place/66> ;
+ skos:related <http://syriaca.org/place/212> ;
+ dcterms:description "A town northeast of and southwest of ." ;
+ dcterms:temporal "1185" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/678085> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/An-Nabk> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/143/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/143/tei> ;
 geo:location [
-geo:lat "34.016667"  ;
-geo:long "34.016667"  ;];
- lawd:hasName [
-lawd:primaryForm "Nabk"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܢܒܟ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܢܰܒܟ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "النبك"@ar  ;];
- lawd:hasName [
-lawd:variantForm "al-Nabak"@en  ;];
- lawd:hasName [
-lawd:variantForm "Damascus"  ;];
- lawd:hasName [
-lawd:variantForm "al-Qaryatayn"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/143/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/143/tei>  .
+ geo:lat "34.016667" ;
+ geo:long "36.716667" ;].

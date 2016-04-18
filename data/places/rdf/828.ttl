@@ -11,15 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/828> a lawd:Place ;
-rdfs:label "Ḥezzo"  ;
-dcterms:description "A town near ."  ;
+ rdfs:label "Ḥezzo" ;
  lawd:hasName [
-lawd:primaryForm "Ḥezzo"@en  ;];
+ lawd:primaryForm "Ḥezzo"@en ;];
  lawd:hasName [
-lawd:variantForm "Hezza"@en  ;];
+ lawd:variantForm "Hezza"@en ;];
  lawd:hasName [
-lawd:variantForm "Ḥezzō"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ḥesno d-Kifo"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/828/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/828/tei>  .
+ lawd:variantForm "Ḥezzō"@en ;];
+ skos:related <http://syriaca.org/place/92> ;
+ dcterms:description "A town near ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/828/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/828/tei> .

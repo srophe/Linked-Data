@@ -11,9 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1314> a lawd:Place ;
-rdfs:label "Ḥarbā"  ;
+ rdfs:label "Ḥarbā" ;
  lawd:hasName [
-lawd:primaryForm "Ḥarbā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1314/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1314/tei>  ;
-dcterms:relation <http://syriaca.org/place/1313>  .
+ lawd:primaryForm "Ḥarbā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1314/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1314/tei> ;
+ dcterms:relation <http://syriaca.org/place/1313> ;
+ dcterms:isPartOf <http://syriaca.org/place/768> .

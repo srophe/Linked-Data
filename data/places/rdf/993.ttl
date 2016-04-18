@@ -11,29 +11,29 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/993> a lawd:Place ;
-rdfs:label "Adiabene"  ;
+ rdfs:label "Adiabene" ;
+ lawd:hasName [
+ lawd:primaryForm "Adiabene"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Ḥadyab"@en ;];
+ lawd:hasName [
+ lawd:variantForm "ܚܕܝܐܒ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܚܶܕܝܰܐܒ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "حدياب"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Erbil"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Ḥazzā"@en ;];
  dcterms:description [
-rdfs:label "Classical Adiabene, Syriac Ḥadyāb, refers to the region between the Upper and Lower Zab rivers, from the Tigris in the west to Mt. Ṣalāḥ al-dīn (= Mt. Pirmum) in the east."@en  ;];
+ rdfs:label "Classical Adiabene, Syriac Ḥadyāb, refers to the region between the Upper and Lower Zab rivers, from the Tigris in the west to Mt. Ṣalāḥ al-dīn (= Mt. Pirmum) in the east."@en ;];
  dcterms:description [
-rdfs:label "20. Adiabene"@en  ;];
-skos:exactMatch <http://pleiades.stoa.org/places/893935>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Adiabene>  ;
+ rdfs:label "20. Adiabene"@en ;];
+ skos:exactMatch <http://pleiades.stoa.org/places/893935> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Adiabene> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/993/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/993/tei> ;
 geo:location [
-geo:lat "36.191265"  ;
-geo:long "36.191265"  ;];
- lawd:hasName [
-lawd:primaryForm "Adiabene"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ḥadyab"@en  ;];
- lawd:hasName [
-lawd:variantForm "ܚܕܝܐܒ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܚܶܕܝܰܐܒ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "حدياب"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Erbil"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ḥazzā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/993/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/993/tei>  .
+ geo:lat "36.191265" ;
+ geo:long "44.00924" ;].

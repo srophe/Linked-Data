@@ -11,15 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/280> a lawd:Place ;
-rdfs:label "Ṣaydnāyā"  ;
-dcterms:description "A village north of and southwest of Maʿlula."  ;
-dcterms:temporal "1700"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Saidnaya>  ;
+ rdfs:label "Ṣaydnāyā" ;
  lawd:hasName [
-lawd:primaryForm "Ṣaydnāyā"@en  ;];
+ lawd:primaryForm "Ṣaydnāyā"@en ;];
  lawd:hasName [
-lawd:variantForm "صيدنايا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Damascus"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/280/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/280/tei>  .
+ lawd:variantForm "صيدنايا"@ar ;];
+ skos:related <http://syriaca.org/place/66> ;
+ dcterms:description "A village north of and southwest of Maʿlula." ;
+ dcterms:temporal "1700" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Saidnaya> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/280/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/280/tei> .

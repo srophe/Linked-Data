@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/355> a lawd:Place ;
-rdfs:label "Mor Dimeṭ — ܕܝܪܐ ܕܡܪܝ ܕܝܡܛ"  ;
+ rdfs:label "Mor Dimeṭ — ܕܝܪܐ ܕܡܪܝ ܕܝܡܛ" ;
+ lawd:hasName [
+ lawd:primaryForm "Mor Dimeṭ"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܕܝܡܛ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܕܺܝܡܶܛ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير مار ديميط"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Dimet Monastery"@en ;];
  dcterms:description [
-rdfs:label "ܒܰܩܠܘܕܺܝܰܐ ܕܟܝܺܪ ܫܢܰܬ 1000 ܘܒܗ ܐܶܬܬܣܪܰܚ ܕܝܘܢܢܘܣܺܝܘܣ ܚܡܝܫܳܝܳܐ 1034."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܰܩܠܘܕܺܝܰܐ ܕܟܝܺܪ ܫܢܰܬ 1000 ܘܒܗ ܐܶܬܬܣܪܰܚ ܕܝܘܢܢܘܣܺܝܘܣ ܚܡܝܫܳܝܳܐ 1034."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في قلوديا ورد ذكره سنة 1000 وفيه رسم ديونيسيوس الخامس 1034"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في قلوديا ورد ذكره سنة 1000 وفيه رسم ديونيسيوس الخامس 1034"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "in Claudia, first mentioned in history in 1000. Dionysius V was consecrated there in 1034."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1000"  ;
- lawd:hasName [
-lawd:primaryForm "Mor Dimeṭ"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܕܝܡܛ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܕܺܝܡܶܛ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير مار ديميط"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Dimet Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/355/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/355/tei>  .
+ rdfs:label "in Claudia, first mentioned in history in 1000. Dionysius V was consecrated there in 1034."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1000" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/355/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/355/tei> .

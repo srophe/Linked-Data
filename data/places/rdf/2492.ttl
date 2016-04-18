@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2492> a lawd:Place ;
-rdfs:label "Mar Shubḥalmaran"  ;
+ rdfs:label "Mar Shubḥalmaran" ;
  lawd:hasName [
-lawd:primaryForm "Mar Shubḥalmaran"@en  ;];
+ lawd:primaryForm "Mar Shubḥalmaran"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Shūbḥālmāran"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2492/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2492/tei>  .
+ lawd:variantForm "Mār Shūbḥālmāran"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2492/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2492/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/718> .

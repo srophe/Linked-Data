@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2400> a lawd:Place ;
-rdfs:label "ʻUngi’"  ;
+ rdfs:label "ʻUngi’" ;
  lawd:hasName [
-lawd:primaryForm "ʻUngi’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2400/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2400/tei>  .
+ lawd:primaryForm "ʻUngi’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2400/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2400/tei> .

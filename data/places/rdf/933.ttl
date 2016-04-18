@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/933> a lawd:Place ;
-rdfs:label "Azyānīsh"  ;
+ rdfs:label "Azyānīsh" ;
  lawd:hasName [
-lawd:primaryForm "Azyānīsh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/933/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/933/tei>  .
+ lawd:primaryForm "Azyānīsh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/933/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/933/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/769> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

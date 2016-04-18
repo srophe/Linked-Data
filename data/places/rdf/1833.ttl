@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1833> a lawd:Place ;
-rdfs:label "Zirkānīs"  ;
+ rdfs:label "Zirkānīs" ;
  lawd:hasName [
-lawd:primaryForm "Zirkānīs"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1833/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1833/tei>  .
+ lawd:primaryForm "Zirkānīs"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1833/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1833/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/747> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

@@ -11,52 +11,52 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/9> a lawd:Place ;
-rdfs:label "ʿAyn Zarba — ܥܝܢ ܙܪܒܐ"  ;
-dcterms:description "A city in Cilicia, a provincial capital of the Roman Empire and for a time the capital of the Armenian Kingdom of Cilicia."  ;
+ rdfs:label "ʿAyn Zarba — ܥܝܢ ܙܪܒܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "ʿAyn Zarba"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Anazarbos"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Anazarba"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܥܝܢ ܙܪܒܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܥܰܝܢܕܰܐܒܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܙܢܐܙܪܒܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܰܢܐܙܘܪܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "عين زربة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "انازربة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "انازروه"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Anāzarba"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Anāzūra"@en ;];
+ lawd:hasName [
+ lawd:variantForm "عينُ زَربَى"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ayn Zarba"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Ayn Zarba"@en-xsrp1 ;];
+ dcterms:description "A city in Cilicia, a provincial capital of the Roman Empire and for a time the capital of the Armenian Kingdom of Cilicia." ;
  dcterms:description [
-rdfs:label "ܡܕܝܢܬܳܐ ܕܰܒܩܝܠܺܝܩܝܰܐ ܣܺܝܡܳܐ ܗܘܳܬ ܥܰܠ ܢܗܰܪ ܓܺܝ̣ܚܘܢ ܘܝܰܘܡܳܢ ܗܘܳܬ ܩܪܺܝܬܳܐ ܕܡܶܬܶܐܡܰܪ ܠܳܗ̇ ܐܰܢܐܙܘܪܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܝܢܬܳܐ ܕܰܒܩܝܠܺܝܩܝܰܐ ܣܺܝܡܳܐ ܗܘܳܬ ܥܰܠ ܢܗܰܪ ܓܺܝ̣ܚܘܢ ܘܝܰܘܡܳܢ ܗܘܳܬ ܩܪܺܝܬܳܐ ܕܡܶܬܶܐܡܰܪ ܠܳܗ̇ ܐܰܢܐܙܘܪܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة في قيليقية كانت واقعة على نهر جيحان وامست الان قرية يقال لها انازروه."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة في قيليقية كانت واقعة على نهر جيحان وامست الان قرية يقال لها انازروه."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town in Cilicia, on the river Jījān. Today it is a small village called Anāzūra."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0525"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658378>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Anazarbus>  ;
+ rdfs:label "a town in Cilicia, on the river Jījān. Today it is a small village called Anāzūra."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0525" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658378> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Anazarbus> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/9/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/9/tei> ;
 geo:location [
-geo:lat "37.263889"  ;
-geo:long "37.263889"  ;];
- lawd:hasName [
-lawd:primaryForm "ʿAyn Zarba"@en  ;];
- lawd:hasName [
-lawd:variantForm "Anazarbos"@en  ;];
- lawd:hasName [
-lawd:variantForm "Anazarba"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܥܝܢ ܙܪܒܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܥܰܝܢܕܰܐܒܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܙܢܐܙܪܒܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܐܰܢܐܙܘܪܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "عين زربة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "انازربة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "انازروه"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Anāzarba"@en  ;];
- lawd:hasName [
-lawd:variantForm "Anāzūra"@en  ;];
- lawd:hasName [
-lawd:variantForm "عينُ زَربَى"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ayn Zarba"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Ayn Zarba"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/9/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/9/tei>  .
+ geo:lat "37.263889" ;
+ geo:long "35.905556" ;].

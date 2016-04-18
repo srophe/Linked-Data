@@ -11,23 +11,25 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2504> a lawd:Place ;
-rdfs:label "Shaykh ʿAdī"  ;
-dcterms:description "The main Yezidi shrine in , which according to a Syriac text forged in the 19th century was originally a monastery."  ;
+ rdfs:label "Shaykh ʿAdī" ;
  lawd:hasName [
-lawd:primaryForm "Shaykh ʿAdī"@en  ;];
+ lawd:primaryForm "Shaykh ʿAdī"@en ;];
  lawd:hasName [
-lawd:variantForm "Shaikh ‘Adi"@en  ;];
+ lawd:variantForm "Shaikh ‘Adi"@en ;];
  lawd:hasName [
-lawd:variantForm "‘Mār Yōḥannān and Mār Īshōʿsabrān’"@en  ;];
+ lawd:variantForm "‘Mār Yōḥannān and Mār Īshōʿsabrān’"@en ;];
  lawd:hasName [
-lawd:variantForm "Shaykh Adī"@en-xsrp1  ;];
+ lawd:variantForm "Shaykh Adī"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Shaykh ‘Adī"@en-xsrp1  ;];
+ lawd:variantForm "Shaykh ‘Adī"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Mār Yōḥannān and Mār Īshōsabrān’"@en-xsrp1  ;];
+ lawd:variantForm "‘Mār Yōḥannān and Mār Īshōsabrān’"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Mār Yōḥannān and Mār Īshō‘sabrān’"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Lālish"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2504/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2504/tei>  .
+ lawd:variantForm "‘Mār Yōḥannān and Mār Īshō‘sabrān’"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/1399> ;
+ dcterms:description "The main Yezidi shrine in , which according to a Syriac text forged in the 19th century was originally a monastery." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2504/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2504/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1399> ;
+ dcterms:isPartOf <http://syriaca.org/place/777> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

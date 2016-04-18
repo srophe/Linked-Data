@@ -11,23 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/523> a lawd:Place ;
-rdfs:label "Herat — ܗܪܐܬ"  ;
-dcterms:description "A city in Afghanistan."  ;
-dcterms:temporal "-0330"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/961874>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Herat>  ;
+ rdfs:label "Herat — ܗܪܐܬ" ;
+ lawd:hasName [
+ lawd:primaryForm "Herat"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܗܪܐܬ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܗܰܪܐܬ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "هرات"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "هَراة"@ar ;];
+ dcterms:description "A city in Afghanistan." ;
+ dcterms:temporal "-0330" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/961874> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Herat> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/523/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/523/tei> ;
 geo:location [
-geo:lat "34.345833"  ;
-geo:long "34.345833"  ;];
- lawd:hasName [
-lawd:primaryForm "Herat"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܗܪܐܬ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܗܰܪܐܬ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "هرات"@ar  ;];
- lawd:hasName [
-lawd:variantForm "هَراة"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/523/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/523/tei>  .
+ geo:lat "34.345833" ;
+ geo:long "62.188384" ;].

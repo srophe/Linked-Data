@@ -11,24 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/44> a lawd:Place ;
-rdfs:label "Baṣra"  ;
-dcterms:description "A city in southern Iraq."  ;
-dcterms:temporal "0636"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/912821>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Basra>  ;
+ rdfs:label "Baṣra" ;
+ lawd:hasName [
+ lawd:primaryForm "Baṣra"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Prat d-Mayshan"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Basrah"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Basra"@en ;];
+ lawd:hasName [
+ lawd:variantForm "البصرة"@ar ;];
+ dcterms:description "A city in southern Iraq." ;
+ dcterms:temporal "0636" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/912821> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Basra> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/44/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/44/tei> ;
 geo:location [
-geo:lat "30.5"  ;
-geo:long "30.5"  ;];
- lawd:hasName [
-lawd:primaryForm "Baṣra"@en  ;];
- lawd:hasName [
-lawd:variantForm "Prat d-Mayshan"@en  ;];
- lawd:hasName [
-lawd:variantForm "Basrah"@en  ;];
- lawd:hasName [
-lawd:variantForm "Basra"@en  ;];
- lawd:hasName [
-lawd:variantForm "البصرة"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/44/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/44/tei>  ;
-dcterms:relation <http://syriaca.org/place/2269>  .
+ geo:lat "30.5" ;
+ geo:long "47.816667" ;];
+ dcterms:relation <http://syriaca.org/place/2269> .

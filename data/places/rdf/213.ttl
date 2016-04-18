@@ -11,31 +11,29 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/213> a lawd:Place ;
-rdfs:label "al-Ḥasake — ܚܣܝܟܐ"  ;
-dcterms:description "A city south of and southeast of ."  ;
-dcterms:temporal "1907"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874742>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Al-Hasakah>  ;
+ rdfs:label "al-Ḥasake — ܚܣܝܟܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "al-Ḥasake"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Ḥasaka"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܚܣܝܟܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܚܰܣܝܟܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "الحسكة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Reshayna"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Resh‘ayna"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/130> ;
+ skos:related <http://syriaca.org/place/172> ;
+ dcterms:description "A city south of and southeast of ." ;
+ dcterms:temporal "1907" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874742> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Al-Hasakah> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/213/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/213/tei> ;
 geo:location [
-geo:lat "36.483333"  ;
-geo:long "36.483333"  ;];
- lawd:hasName [
-lawd:primaryForm "al-Ḥasake"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ḥasaka"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܚܣܝܟܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܚܰܣܝܟܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "الحسكة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Reshayna"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Resh‘ayna"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Mardin"  ;];
- lawd:hasName [
-lawd:variantForm "Reshʿayna"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/213/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/213/tei>  .
+ geo:lat "36.483333" ;
+ geo:long "40.75" ;].

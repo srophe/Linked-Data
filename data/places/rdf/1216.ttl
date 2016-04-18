@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1216> a lawd:Place ;
-rdfs:label "Gardābād"  ;
+ rdfs:label "Gardābād" ;
  lawd:hasName [
-lawd:primaryForm "Gardābād"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1216/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1216/tei>  .
+ lawd:primaryForm "Gardābād"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1216/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1216/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/839> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

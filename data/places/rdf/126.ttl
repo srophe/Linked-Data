@@ -11,22 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/126> a lawd:Place ;
-rdfs:label "Mar Aḥa"  ;
-dcterms:description "A monastery west of ."  ;
-dcterms:temporal "0400"  ;
+ rdfs:label "Mar Aḥa" ;
  lawd:hasName [
-lawd:primaryForm "Mar Aḥa"@en  ;];
+ lawd:primaryForm "Mar Aḥa"@en ;];
  lawd:hasName [
-lawd:variantForm "monastery of Mar Ahha"@en  ;];
+ lawd:variantForm "monastery of Mar Ahha"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Aḥḥā the Egyptian"@en  ;];
+ lawd:variantForm "Mār Aḥḥā the Egyptian"@en ;];
  lawd:hasName [
-lawd:variantForm "Zarnūqā"@en  ;];
+ lawd:variantForm "Zarnūqā"@en ;];
  lawd:hasName [
-lawd:variantForm "دير الزرنوق"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Gazarta"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/126/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/126/tei>  ;
-dcterms:relation <http://syriaca.org/place/1867>  ;
-dcterms:relation <http://syriaca.org/place/1868>  .
+ lawd:variantForm "دير الزرنوق"@ar ;];
+ skos:related <http://syriaca.org/place/88> ;
+ dcterms:description "A monastery west of ." ;
+ dcterms:temporal "0400" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/126/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/126/tei> ;
+ dcterms:relation <http://syriaca.org/place/1867> ;
+ dcterms:relation <http://syriaca.org/place/1868> ;
+ dcterms:isPartOf <http://syriaca.org/place/786> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

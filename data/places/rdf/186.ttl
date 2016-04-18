@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/186> a lawd:Place ;
-rdfs:label "Shushtar"  ;
-dcterms:description "A city in Khuzistan."  ;
-dcterms:temporal "0270"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/912941>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Shushtar>  ;
+ rdfs:label "Shushtar" ;
+ lawd:hasName [
+ lawd:primaryForm "Shushtar"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Shushterin"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Tustar"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Suster"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Shūshter"@en ;];
+ lawd:hasName [
+ lawd:variantForm "تُسْتَر"@ar ;];
+ dcterms:description "A city in Khuzistan." ;
+ dcterms:temporal "0270" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/912941> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Shushtar> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/186/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/186/tei> ;
 geo:location [
-geo:lat "32.05"  ;
-geo:long "32.05"  ;];
- lawd:hasName [
-lawd:primaryForm "Shushtar"@en  ;];
- lawd:hasName [
-lawd:variantForm "Shushterin"@en  ;];
- lawd:hasName [
-lawd:variantForm "Tustar"@en  ;];
- lawd:hasName [
-lawd:variantForm "Suster"@en  ;];
- lawd:hasName [
-lawd:variantForm "Shūshter"@en  ;];
- lawd:hasName [
-lawd:variantForm "تُسْتَر"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/186/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/186/tei>  ;
-dcterms:relation <http://syriaca.org/place/2376>  .
+ geo:lat "32.05" ;
+ geo:long "48.85" ;];
+ dcterms:relation <http://syriaca.org/place/2376> .

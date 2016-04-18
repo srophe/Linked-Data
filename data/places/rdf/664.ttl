@@ -11,20 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/664> a lawd:Place ;
-rdfs:label "ʿĀmūda"  ;
-dcterms:description "A town west of with a Syriac Orthodox school."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874318>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Amuda>  ;
+ rdfs:label "ʿĀmūda" ;
+ lawd:hasName [
+ lawd:primaryForm "ʿĀmūda"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Āmūda"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Āmūda"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/160> ;
+ dcterms:description "A town west of with a Syriac Orthodox school." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874318> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Amuda> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/664/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/664/tei> ;
 geo:location [
-geo:lat "37.104166"  ;
-geo:long "37.104166"  ;];
- lawd:hasName [
-lawd:primaryForm "ʿĀmūda"@en  ;];
- lawd:hasName [
-lawd:variantForm "Āmūda"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Āmūda"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qamishli"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/664/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/664/tei>  .
+ geo:lat "37.104166" ;
+ geo:long "40.93" ;].

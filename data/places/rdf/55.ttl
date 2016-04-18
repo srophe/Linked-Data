@@ -11,21 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/55> a lawd:Place ;
-rdfs:label "Cilicia — ܩܝܠܝܩܝܐ"  ;
-dcterms:description "An Anatolian coastal region north of Antioch."  ;
-dcterms:temporal "-0500"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658440>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Cilicia>  ;
+ rdfs:label "Cilicia — ܩܝܠܝܩܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Cilicia"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܩܝܠܝܩܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܩܝܠܝܺܩܝܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "قيليقية"@ar ;];
+ dcterms:description "An Anatolian coastal region north of Antioch." ;
+ dcterms:temporal "-0500" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658440> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Cilicia> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/55/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/55/tei> ;
 geo:location [
-geo:lat "37.25"  ;
-geo:long "37.25"  ;];
- lawd:hasName [
-lawd:primaryForm "Cilicia"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܩܝܠܝܩܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܩܝܠܝܺܩܝܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "قيليقية"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/55/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/55/tei>  .
+ geo:lat "37.25" ;
+ geo:long "35.75" ;].

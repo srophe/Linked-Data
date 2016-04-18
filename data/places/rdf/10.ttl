@@ -11,30 +11,30 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/10> a lawd:Place ;
-rdfs:label "Antioch — ܐܢܛܝܘܟܝܐ"  ;
+ rdfs:label "Antioch — ܐܢܛܝܘܟܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Antioch"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Antakya"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܢܛܝܘܟܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܰܢܛܝܘܟܝܰܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "انطاكية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "أَنطاكِيَة"@ar ;];
  dcterms:description [
-rdfs:label "City in the historical region of Syria (today in Turkey)."@en  ;];
+ rdfs:label "City in the historical region of Syria (today in Turkey)."@en ;];
  dcterms:description [
-rdfs:label "36. Antioch"@en  ;];
-dcterms:temporal "-0300"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658381>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Antioch>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Antakya>  ;
+ rdfs:label "36. Antioch"@en ;];
+ dcterms:temporal "-0300" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658381> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Antioch> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Antakya> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/10/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/10/tei> ;
 geo:location [
-geo:lat "36.2"  ;
-geo:long "36.2"  ;];
- lawd:hasName [
-lawd:primaryForm "Antioch"@en  ;];
- lawd:hasName [
-lawd:variantForm "Antakya"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܢܛܝܘܟܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܰܢܛܝܘܟܝܰܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "انطاكية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "أَنطاكِيَة"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/10/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/10/tei>  ;
-dcterms:relation <http://syriaca.org/place/995>  .
+ geo:lat "36.2" ;
+ geo:long "36.15" ;];
+ dcterms:relation <http://syriaca.org/place/995> .

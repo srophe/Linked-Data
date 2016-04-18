@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/327> a lawd:Place ;
-rdfs:label "Ḥurrīn"  ;
+ rdfs:label "Ḥurrīn" ;
+ lawd:hasName [
+ lawd:primaryForm "Ḥurrīn"@en ;];
+ lawd:hasName [
+ lawd:variantForm "حرّين"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ḥerrīn"@en ;];
  dcterms:description [
-rdfs:label "من قرى ماردين جنوباً"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "من قرى ماردين جنوباً"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village south of Mardin."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
- lawd:hasName [
-lawd:primaryForm "Ḥurrīn"@en  ;];
- lawd:hasName [
-lawd:variantForm "حرّين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ḥerrīn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/327/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/327/tei>  .
+ rdfs:label "a village south of Mardin."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/327/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/327/tei> .

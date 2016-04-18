@@ -11,18 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2240> a lawd:Place ;
-rdfs:label "Rabban Yaʿqob"  ;
+ rdfs:label "Rabban Yaʿqob" ;
  lawd:hasName [
-lawd:primaryForm "Rabban Yaʿqob"@en  ;];
+ lawd:primaryForm "Rabban Yaʿqob"@en ;];
  lawd:hasName [
-lawd:variantForm "Rabban Yaʿqōb"@en  ;];
+ lawd:variantForm "Rabban Yaʿqōb"@en ;];
  lawd:hasName [
-lawd:variantForm "Rabban Yaqob"@en-xsrp1  ;];
+ lawd:variantForm "Rabban Yaqob"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Rabban Ya‘qob"@en-xsrp1  ;];
+ lawd:variantForm "Rabban Ya‘qob"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Rabban Yaqōb"@en-xsrp1  ;];
+ lawd:variantForm "Rabban Yaqōb"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Rabban Ya‘qōb"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2240/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2240/tei>  .
+ lawd:variantForm "Rabban Ya‘qōb"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2240/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2240/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1548> ;
+ dcterms:isPartOf <http://syriaca.org/place/761> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

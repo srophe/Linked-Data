@@ -11,60 +11,57 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/89> a lawd:Place ;
-rdfs:label "Marʿash — ܡܪܥܫ"  ;
-dcterms:description "A city near the northeast of and northwest of ."  ;
+ rdfs:label "Marʿash — ܡܪܥܫ" ;
+ lawd:hasName [
+ lawd:primaryForm "Marʿash"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Germanicea"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܡܪܥܫ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܡܰܪܥܫ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܓܰܪܡܰܐܢܝܩܝ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "مرعش"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "جرمانيقي"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Germanicia"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Kahramanmaraş"@en ;];
+ lawd:hasName [
+ lawd:variantForm "مَرْعَش"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Marash"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Mar‘ash"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Ayn Zarba"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Ayn Zarba"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Aintab"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Aintab"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/159> ;
+ skos:related <http://syriaca.org/place/9> ;
+ skos:related <http://syriaca.org/place/222> ;
+ dcterms:description "A city near the northeast of and northwest of ." ;
  dcterms:description [
-rdfs:label "ܘܐܝܬܶܝܗ̇ ܓܰܪܡܰܐܢܝܩܝ ܥܰܬܝܩܬܐ ܡܕܝܺܢܬܐ ܕܰܒܓܰܪܒܝ ܚܳܠܳܒ ܘܰܒܬܝܡܢܳܐ ܕܣܺܝܘܐܰܣ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܘܐܝܬܶܝܗ̇ ܓܰܪܡܰܐܢܝܩܝ ܥܰܬܝܩܬܐ ܡܕܝܺܢܬܐ ܕܰܒܓܰܪܒܝ ܚܳܠܳܒ ܘܰܒܬܝܡܢܳܐ ܕܣܺܝܘܐܰܣ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "وهي جرمانيقي القديمة؛ مدينة شمالي حلب وجنوبي سيواس."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "وهي جرمانيقي القديمة؛ مدينة شمالي حلب وجنوبي سيواس."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "the ancient Germanicia, north of Aleppo and south of Sivas. [Modern name, Kahramanmaraş. (tr.)]"@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0710"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658474>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Kahramanmaraş>  ;
+ rdfs:label "the ancient Germanicia, north of Aleppo and south of Sivas. [Modern name, Kahramanmaraş. (tr.)]"@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0710" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658474> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Kahramanmaraş> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/89/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/89/tei> ;
 geo:location [
-geo:lat "37.583333"  ;
-geo:long "37.583333"  ;];
- lawd:hasName [
-lawd:primaryForm "Marʿash"@en  ;];
- lawd:hasName [
-lawd:variantForm "Germanicea"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܡܪܥܫ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܡܰܪܥܫ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܓܰܪܡܰܐܢܝܩܝ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "مرعش"@ar  ;];
- lawd:hasName [
-lawd:variantForm "جرمانيقي"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Germanicia"@en  ;];
- lawd:hasName [
-lawd:variantForm "Kahramanmaraş"@en  ;];
- lawd:hasName [
-lawd:variantForm "مَرْعَش"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Marash"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Mar‘ash"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ayn Zarba"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Ayn Zarba"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Aintab"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Aintab"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Pyramos river"  ;];
- lawd:hasName [
-lawd:variantForm "ʿAyn Zarba"  ;];
- lawd:hasName [
-lawd:variantForm "ʿAintab"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/89/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/89/tei>  .
+ geo:lat "37.583333" ;
+ geo:long "36.933333" ;].

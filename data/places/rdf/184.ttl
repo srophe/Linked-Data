@@ -11,45 +11,43 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/184> a lawd:Place ;
-rdfs:label "Sinjar — ܫܝܓܪ"  ;
-dcterms:description "A town west of and east of ."  ;
+ rdfs:label "Sinjar — ܫܝܓܪ" ;
+ lawd:hasName [
+ lawd:primaryForm "Sinjar"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Shiggar"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Singara"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܫܝܓܪ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܫܝܓܳܪ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "سنجار"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Singar"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Sinjār"@en ;];
+ lawd:hasName [
+ lawd:variantForm "سِنْجار"@ar ;];
+ skos:related <http://syriaca.org/place/139> ;
+ skos:related <http://syriaca.org/place/524> ;
+ dcterms:description "A town west of and east of ." ;
  dcterms:description [
-rdfs:label "ܐܰܬܪܐ ܗܘ ܕܒܰܫܦܘܠܳܐ ܕܛܘܪܳܐ ܕܫܝܓܳܪ ܠܡܰܥܪܰܒ ܡܰܘܨܠ ܒܰܝܢܳܬܗܝܢ ܬܠܳܬܐ ܝܰܘܡܝ̈ܢ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܐ ܗܘ ܕܒܰܫܦܘܠܳܐ ܕܛܘܪܳܐ ܕܫܝܓܳܪ ܠܡܰܥܪܰܒ ܡܰܘܨܠ ܒܰܝܢܳܬܗܝܢ ܬܠܳܬܐ ܝܰܘܡܝ̈ܢ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة في لحف جبل سنجار غربي الموصل بينهما ثلاثة ايام."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة في لحف جبل سنجار غربي الموصل بينهما ثلاثة ايام."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town situated at the foot of the Sinjar mountain, three days’ journey from Mosul."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0758"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874699>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Sinjar>  ;
+ rdfs:label "a town situated at the foot of the Sinjar mountain, three days’ journey from Mosul."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0758" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874699> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Sinjar> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/184/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/184/tei> ;
 geo:location [
-geo:lat "36.321337"  ;
-geo:long "36.321337"  ;];
- lawd:hasName [
-lawd:primaryForm "Sinjar"@en  ;];
- lawd:hasName [
-lawd:variantForm "Shiggar"@en  ;];
- lawd:hasName [
-lawd:variantForm "Singara"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܫܝܓܪ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܫܝܓܳܪ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "سنجار"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Singar"@en  ;];
- lawd:hasName [
-lawd:variantForm "Sinjār"@en  ;];
- lawd:hasName [
-lawd:variantForm "سِنْجار"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Mosul"  ;];
- lawd:hasName [
-lawd:variantForm "Mount Sinjar"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/184/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/184/tei>  ;
-dcterms:relation <http://syriaca.org/place/2377>  .
+ geo:lat "36.321337" ;
+ geo:long "41.859566" ;];
+ dcterms:relation <http://syriaca.org/place/2377> .

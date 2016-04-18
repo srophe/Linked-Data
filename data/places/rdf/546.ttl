@@ -11,22 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/546> a lawd:Place ;
-rdfs:label "Ḥāliḥ — ܚܠܚ"  ;
-dcterms:description "A village in ."  ;
-dcterms:temporal "1943"  ;
+ rdfs:label "Ḥāliḥ — ܚܠܚ" ;
  lawd:hasName [
-lawd:primaryForm "Ḥāliḥ"@en  ;];
+ lawd:primaryForm "Ḥāliḥ"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܚܠܚ"@syr  ;];
+ lawd:primaryForm "ܚܠܚ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܚܰܠܚ"@syr-Syrj  ;];
+ lawd:variantForm "ܚܰܠܚ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "حالح"@ar  ;];
+ lawd:variantForm "حالح"@ar ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/546/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/546/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/221> ;
+ dcterms:description "A village in ." ;
+ dcterms:temporal "1943" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/546/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/546/tei> .

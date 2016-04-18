@@ -11,26 +11,25 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/624> a lawd:Place ;
-rdfs:label "Gangra — ܓܢܓܪܐ"  ;
-dcterms:description "A city in north-central ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/844926>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Çankırı>  ;
+ rdfs:label "Gangra — ܓܢܓܪܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Gangra"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܓܢܓܪܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܓܰܢܓܰܪܰܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "غنغرة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Gangara"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Gangre"@en ;];
+ skos:related <http://syriaca.org/place/504> ;
+ dcterms:description "A city in north-central ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/844926> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Çankırı> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/624/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/624/tei> ;
 geo:location [
-geo:lat "40.6013428"  ;
-geo:long "40.6013428"  ;];
- lawd:hasName [
-lawd:primaryForm "Gangra"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܓܢܓܪܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܓܰܢܓܰܪܰܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "غنغرة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Gangara"@en  ;];
- lawd:hasName [
-lawd:variantForm "Gangre"@en  ;];
- lawd:hasName [
-lawd:variantForm "Anatolia"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/624/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/624/tei>  .
+ geo:lat "40.6013428" ;
+ geo:long "33.6134213" ;].

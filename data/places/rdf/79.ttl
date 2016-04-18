@@ -11,15 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/79> a lawd:Place ;
-rdfs:label "Euphratesia"  ;
-dcterms:description "A Roman province on the west bank of the Euphrates from above Samosata to Circesium."  ;
-dcterms:temporal "0350"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/1001934>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Euphratensis>  ;
-geo:location [
-geo:lat "37.5"  ;
-geo:long "37.5"  ;];
+ rdfs:label "Euphratesia" ;
  lawd:hasName [
-lawd:primaryForm "Euphratesia"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/79/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/79/tei>  .
+ lawd:primaryForm "Euphratesia"@en ;];
+ dcterms:description "A Roman province on the west bank of the Euphrates from above Samosata to Circesium." ;
+ dcterms:temporal "0350" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/1001934> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Euphratensis> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/79/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/79/tei> ;
+geo:location [
+ geo:lat "37.5" ;
+ geo:long "37.5" ;].

@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/962> a lawd:Place ;
-rdfs:label "Bālānōsh"  ;
+ rdfs:label "Bālānōsh" ;
  lawd:hasName [
-lawd:primaryForm "Bālānōsh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/962/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/962/tei>  .
+ lawd:primaryForm "Bālānōsh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/962/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/962/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/733> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

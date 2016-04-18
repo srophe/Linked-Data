@@ -11,10 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1122> a lawd:Place ;
-rdfs:label "Chambā d-Kūrdāye"  ;
+ rdfs:label "Chambā d-Kūrdāye" ;
  lawd:hasName [
-lawd:primaryForm "Chambā d-Kūrdāye"@en  ;];
+ lawd:primaryForm "Chambā d-Kūrdāye"@en ;];
  lawd:hasName [
-lawd:variantForm "Chambā d'Kūrdāye"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1122/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1122/tei>  .
+ lawd:variantForm "Chambā d'Kūrdāye"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1122/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1122/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/790> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

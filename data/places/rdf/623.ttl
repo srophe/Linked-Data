@@ -11,23 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/623> a lawd:Place ;
-rdfs:label "Ephesus — ܐܦܣܘܣ"  ;
-dcterms:description "A city in western ."  ;
-dcterms:temporal "-0500"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/599612>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Ephesus>  ;
+ rdfs:label "Ephesus — ܐܦܣܘܣ" ;
+ lawd:hasName [
+ lawd:primaryForm "Ephesus"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܦܣܘܣ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܶܦܶܣܘܣ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "افسس"@ar ;];
+ skos:related <http://syriaca.org/place/504> ;
+ dcterms:description "A city in western ." ;
+ dcterms:temporal "-0500" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/599612> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Ephesus> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/623/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/623/tei> ;
 geo:location [
-geo:lat "37.941944"  ;
-geo:long "37.941944"  ;];
- lawd:hasName [
-lawd:primaryForm "Ephesus"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܦܣܘܣ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܶܦܶܣܘܣ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "افسس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Asia Minor"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/623/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/623/tei>  .
+ geo:lat "37.941944" ;
+ geo:long "27.339722" ;].

@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1869> a lawd:Place ;
-rdfs:label "Mar Aḥudemmeh"  ;
+ rdfs:label "Mar Aḥudemmeh" ;
  lawd:hasName [
-lawd:primaryForm "Mar Aḥudemmeh"@en  ;];
+ lawd:primaryForm "Mar Aḥudemmeh"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Aḥūdemmeh (West Syrian)"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1869/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1869/tei>  .
+ lawd:variantForm "Mār Aḥūdemmeh (West Syrian)"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1869/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1869/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/139> .

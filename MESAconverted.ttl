@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<response>
+<extractors>
+<extractor>rdf-xml</extractor>
+</extractors>
+<report>
+<message/>
+<error/>
+<issueReport>
+</issueReport>
+<validationReport>
+<issues>
+</issues>
+<ruleActivations>
+</ruleActivations>
+<errors>
+</errors>
+</validationReport>
+</report>
+<data>
+<![CDATA[
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix collex: <http://www.collex.org/schema#> .
+@prefix syriaca: <http://www.syriaca.org/schema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix role: <http://www.loc.gov/loc.terms/relators/> .
+
+<http://syriaca.org/place/78/html> a syriaca:syriaca ;
+	collex:federation "MESA" ;
+	collex:archive "syriac_gazetteer" ;
+	dc:title "Edessa  ܐܘܪܗܝ" ;
+	dc:source "The Syriac Gazetteer" ;
+	role:AUT "Carlson, Thomas A." , "Michelson, David A." ;
+	role:EDT "Carlson, Thomas A." , "Michelson, David A." ;
+	role:PBL "Syriaca.org" ;
+	dc:subject "Edessa" , "Syriac Christianity" , "Middle East" ;
+	dc:type "Interactive Resource" ;
+	collex:discipline "History" , "Classics and Ancient History" , "Geography" , "Religious Studies" , "Archaeology" , "Ethnic Studies" ;
+	collex:genre "Reference Works" , "ANOTHER GENRE" ;
+	collex:freeculture "TRUE" ;
+	collex:ocr "FALSE" ;
+	collex:fulltext "TRUE" ;
+	dc:language "en" ;
+	dc:date "2014" ;
+	collex:source_xml <http://syriaca.org/place/78/tei> ;
+	rdfs:seeAlso <http://syriaca.org/place/78/> .
+]]>
+</data>
+</response>

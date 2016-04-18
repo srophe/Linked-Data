@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1722> a lawd:Place ;
-rdfs:label "Shūwash"  ;
+ rdfs:label "Shūwash" ;
  lawd:hasName [
-lawd:primaryForm "Shūwash"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1722/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1722/tei>  .
+ lawd:primaryForm "Shūwash"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1722/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1722/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/769> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

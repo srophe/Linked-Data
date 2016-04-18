@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1787> a lawd:Place ;
-rdfs:label "Ṭabyatha"  ;
+ rdfs:label "Ṭabyatha" ;
  lawd:hasName [
-lawd:primaryForm "Ṭabyatha"@en  ;];
+ lawd:primaryForm "Ṭabyatha"@en ;];
  lawd:hasName [
-lawd:variantForm "Ṭabyāṯā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1787/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1787/tei>  .
+ lawd:variantForm "Ṭabyāṯā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1787/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1787/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/719> .

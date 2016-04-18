@@ -11,18 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2002> a lawd:Place ;
-rdfs:label "Mar Ishoʿsabran"  ;
+ rdfs:label "Mar Ishoʿsabran" ;
  lawd:hasName [
-lawd:primaryForm "Mar Ishoʿsabran"@en  ;];
+ lawd:primaryForm "Mar Ishoʿsabran"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Īshōʿsabrān"@en  ;];
+ lawd:variantForm "Mār Īshōʿsabrān"@en ;];
  lawd:hasName [
-lawd:variantForm "Mar Ishosabran"@en-xsrp1  ;];
+ lawd:variantForm "Mar Ishosabran"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mar Isho‘sabran"@en-xsrp1  ;];
+ lawd:variantForm "Mar Isho‘sabran"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Īshōsabrān"@en-xsrp1  ;];
+ lawd:variantForm "Mār Īshōsabrān"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Mār Īshō‘sabrān"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2002/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2002/tei>  .
+ lawd:variantForm "Mār Īshō‘sabrān"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2002/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2002/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/13> .

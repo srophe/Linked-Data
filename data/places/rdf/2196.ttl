@@ -11,10 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2196> a lawd:Place ;
-rdfs:label "Mart Maryam, Mar Toma and Mar Yoḥannan"  ;
+ rdfs:label "Mart Maryam, Mar Toma and Mar Yoḥannan" ;
  lawd:hasName [
-lawd:primaryForm "Mart Maryam, Mar Toma and Mar Yoḥannan"@en  ;];
+ lawd:primaryForm "Mart Maryam, Mar Toma and Mar Yoḥannan"@en ;];
  lawd:hasName [
-lawd:variantForm "Mart Maryam, Mār Thomas and Mār Yōḥannān"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2196/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2196/tei>  .
+ lawd:variantForm "Mart Maryam, Mār Thomas and Mār Yōḥannān"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2196/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2196/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/248> ;
+ dcterms:isPartOf <http://syriaca.org/place/250> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

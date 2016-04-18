@@ -11,17 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/672> a lawd:Place ;
-rdfs:label "Arragan"  ;
-dcterms:description "A village in ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/912989>  ;
+ rdfs:label "Arragan" ;
+ lawd:hasName [
+ lawd:primaryForm "Arragan"@en ;];
+ lawd:hasName [
+ lawd:variantForm "أَرّجان"@ar ;];
+ skos:related <http://syriaca.org/place/84> ;
+ dcterms:description "A village in ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/912989> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/672/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/672/tei> ;
 geo:location [
-geo:lat "30.662826"  ;
-geo:long "30.662826"  ;];
- lawd:hasName [
-lawd:primaryForm "Arragan"@en  ;];
- lawd:hasName [
-lawd:variantForm "أَرّجان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Fars"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/672/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/672/tei>  .
+ geo:lat "30.662826" ;
+ geo:long "50.309141" ;].

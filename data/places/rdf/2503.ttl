@@ -11,12 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2503> a lawd:Place ;
-rdfs:label "Mar Yoḥannan the Persian"  ;
+ rdfs:label "Mar Yoḥannan the Persian" ;
  lawd:hasName [
-lawd:primaryForm "Mar Yoḥannan the Persian"@en  ;];
+ lawd:primaryForm "Mar Yoḥannan the Persian"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Yōḥannān the Persian"@en  ;];
+ lawd:variantForm "Mār Yōḥannān the Persian"@en ;];
  lawd:hasName [
-lawd:variantForm "Glāle"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2503/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2503/tei>  .
+ lawd:variantForm "Glāle"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2503/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2503/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

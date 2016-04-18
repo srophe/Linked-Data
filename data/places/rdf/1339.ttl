@@ -11,10 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1339> a lawd:Place ;
-rdfs:label "Ḥṭārā"  ;
+ rdfs:label "Ḥṭārā" ;
  lawd:hasName [
-lawd:primaryForm "Ḥṭārā"@en  ;];
+ lawd:primaryForm "Ḥṭārā"@en ;];
  lawd:hasName [
-lawd:variantForm "Ḥetrā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1339/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1339/tei>  .
+ lawd:variantForm "Ḥetrā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1339/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1339/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/777> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

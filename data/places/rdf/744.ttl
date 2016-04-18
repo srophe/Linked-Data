@@ -11,8 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/744> a lawd:Place ;
-rdfs:label "‘Farson’"  ;
+ rdfs:label "‘Farson’" ;
  lawd:hasName [
-lawd:primaryForm "‘Farson’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/744/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/744/tei>  .
+ lawd:primaryForm "‘Farson’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/744/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/744/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

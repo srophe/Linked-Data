@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1168> a lawd:Place ;
-rdfs:label "Dissiūn"  ;
+ rdfs:label "Dissiūn" ;
  lawd:hasName [
-lawd:primaryForm "Dissiūn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1168/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1168/tei>  .
+ lawd:primaryForm "Dissiūn"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1168/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1168/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/770> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

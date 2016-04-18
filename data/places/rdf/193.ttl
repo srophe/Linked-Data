@@ -11,41 +11,41 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/193> a lawd:Place ;
-rdfs:label "Tagrit — ܬܓܪܝܬ"  ;
+ rdfs:label "Tagrit — ܬܓܪܝܬ" ;
+ lawd:hasName [
+ lawd:primaryForm "Tagrit"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Tikrit"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Takrit"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܬܓܪܝܬ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܬܰܓܪܝܬ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "تكريت"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Tagrīt"@en ;];
+ lawd:hasName [
+ lawd:variantForm "تَكريت"@ar ;];
  dcterms:description [
-rdfs:label "Tagrit is a modern city located on the west bank of the Tigris, almost mid-way between Mosul and Baghdad."@en  ;];
+ rdfs:label "Tagrit is a modern city located on the west bank of the Tigris, almost mid-way between Mosul and Baghdad."@en ;];
  dcterms:description [
-rdfs:label "532. Tagrit"@en  ;];
+ rdfs:label "532. Tagrit"@en ;];
  dcterms:description [
-rdfs:label "ܡܕܺܝܢܬܐ ܕܒܶܝܬ ܒܓܕܕ ܠܡܰܘܨܠ ܐܰܬܛܰܒܒܬ ܗܘܳܬ ܒܕܳܪ̈ܐ ܕܰܥܒܰܪܘ ܒܟܘܽܪܣܝܳܐ ܕܡܰܦܪܝܢܘܬܐ ܕܡܰܕܢܚܐ ܡܶܢ ܫܢܰܬ 628 ܥܕܰܡܐ ܠܫܘܠܳܡܐ ܕܡܰܐܬܐ ܬܪܶܥܣܝܪܳܝܬܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܺܝܢܬܐ ܕܒܶܝܬ ܒܓܕܕ ܠܡܰܘܨܠ ܐܰܬܛܰܒܒܬ ܗܘܳܬ ܒܕܳܪ̈ܐ ܕܰܥܒܰܪܘ ܒܟܘܽܪܣܝܳܐ ܕܡܰܦܪܝܢܘܬܐ ܕܡܰܕܢܚܐ ܡܶܢ ܫܢܰܬ 628 ܥܕܰܡܐ ܠܫܘܠܳܡܐ ܕܡܰܐܬܐ ܬܪܶܥܣܝܪܳܝܬܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة بين بغداد والموصل غربي دجلة كانت في العصور الذاهبة اشتهرت بكرسي مفارنة المشرق من سنة 628 م حتى منسلخ المئة الثانية عشرة"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة بين بغداد والموصل غربي دجلة كانت في العصور الذاهبة اشتهرت بكرسي مفارنة المشرق من سنة 628 م حتى منسلخ المئة الثانية عشرة"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "an ancient city west of the Tigris, between Baghdad and Mosul. In the golden age of the Syrians, it was the seat of the Maphryonos of the East from 628 until the end of the twelfth century."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0628"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/894099>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Tikrit>  ;
+ rdfs:label "an ancient city west of the Tigris, between Baghdad and Mosul. In the golden age of the Syrians, it was the seat of the Maphryonos of the East from 628 until the end of the twelfth century."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0628" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/894099> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Tikrit> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/193/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/193/tei> ;
 geo:location [
-geo:lat "34.6"  ;
-geo:long "34.6"  ;];
- lawd:hasName [
-lawd:primaryForm "Tagrit"@en  ;];
- lawd:hasName [
-lawd:variantForm "Tikrit"@en  ;];
- lawd:hasName [
-lawd:variantForm "Takrit"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܬܓܪܝܬ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܬܰܓܪܝܬ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "تكريت"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Tagrīt"@en  ;];
- lawd:hasName [
-lawd:variantForm "تَكريت"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/193/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/193/tei>  .
+ geo:lat "34.6" ;
+ geo:long "43.68333" ;].

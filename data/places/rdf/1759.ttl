@@ -11,8 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1759> a lawd:Place ;
-rdfs:label "Tarshīsh"  ;
+ rdfs:label "Tarshīsh" ;
  lawd:hasName [
-lawd:primaryForm "Tarshīsh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1759/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1759/tei>  .
+ lawd:primaryForm "Tarshīsh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1759/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1759/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/> .

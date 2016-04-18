@@ -11,24 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/324> a lawd:Place ;
-rdfs:label "Ḥadl — ܚܕܠ"  ;
+ rdfs:label "Ḥadl — ܚܕܠ" ;
+ lawd:hasName [
+ lawd:primaryForm "Ḥadl"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܚܕܠ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "حدل"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ḥidl"@en ;];
  dcterms:description [
-rdfs:label "ܩܪܺܝܬܐ ܕܒܰܦܢܝܬ ܒܶܝܬ ܙܰܒܕܝ ܕܰܠܥܶܠ ܡܶܢ ܐܶܣܦܶܣ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܺܝܬܐ ܕܒܰܦܢܝܬ ܒܶܝܬ ܙܰܒܕܝ ܕܰܠܥܶܠ ܡܶܢ ܐܶܣܦܶܣ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية من ناحية بازبدي فوق إِسفس"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية من ناحية بازبدي فوق إِسفس"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village of Bazabdi, above Isfes."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1384"  ;
- lawd:hasName [
-lawd:primaryForm "Ḥadl"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܚܕܠ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "حدل"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ḥidl"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/324/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/324/tei>  .
+ rdfs:label "a village of Bazabdi, above Isfes."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1384" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/324/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/324/tei> .

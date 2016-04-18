@@ -11,39 +11,39 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/13> a lawd:Place ;
-rdfs:label "Arbela — ܐܪܒܝܠ"  ;
+ rdfs:label "Arbela — ܐܪܒܝܠ" ;
+ lawd:hasName [
+ lawd:primaryForm "Arbela"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Erbil"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܪܒܝܠ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܰܪܒܝܠ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "اربل"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Arbil"@en ;];
+ lawd:hasName [
+ lawd:variantForm "إِرْبِل"@ar ;];
  dcterms:description [
-rdfs:label "Capital of modern Kurdistan, in eastern Iraq."@en  ;];
+ rdfs:label "Capital of modern Kurdistan, in eastern Iraq."@en ;];
  dcterms:description [
-rdfs:label "45. Arbela"@en  ;];
+ rdfs:label "45. Arbela"@en ;];
  dcterms:description [
-rdfs:label "ܐܰܬܪܐ ܕܰܠܡܰܕܢܰܚ ܓܰܪܒܰܝ ܡܰܘܨܰܠ ܡܰܫܩܠܐ ܕܰܬܪܝܢ ܝܰܘܡܝ̈ܢ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܐ ܕܰܠܡܰܕܢܰܚ ܓܰܪܒܰܝ ܡܰܘܨܰܠ ܡܰܫܩܠܐ ܕܰܬܪܝܢ ܝܰܘܡܝ̈ܢ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة بين المشرق والجنوب عن الموصل مرحلة يومين"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة بين المشرق والجنوب عن الموصل مرحلة يومين"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town about two day journey southeast of Mosul."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-6000"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874341>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Erbil>  ;
+ rdfs:label "a town about two day journey southeast of Mosul."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-6000" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874341> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Erbil> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/13/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/13/tei> ;
 geo:location [
-geo:lat "36.191111"  ;
-geo:long "36.191111"  ;];
- lawd:hasName [
-lawd:primaryForm "Arbela"@en  ;];
- lawd:hasName [
-lawd:variantForm "Erbil"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܪܒܝܠ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܰܪܒܝܠ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "اربل"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Arbil"@en  ;];
- lawd:hasName [
-lawd:variantForm "إِرْبِل"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/13/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/13/tei>  .
+ geo:lat "36.191111" ;
+ geo:long "44.009167" ;].

@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/797> a lawd:Place ;
-rdfs:label "Amara"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Amarah>  ;
+ rdfs:label "Amara" ;
  lawd:hasName [
-lawd:primaryForm "Amara"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/797/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/797/tei>  .
+ lawd:primaryForm "Amara"@en ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Amarah> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/797/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/797/tei> .

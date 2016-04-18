@@ -11,23 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/641> a lawd:Place ;
-rdfs:label "Rome — ܪܘܡܝ"  ;
-dcterms:description "The capital city of and formerly the capital of the ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/423025>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Rome>  ;
+ rdfs:label "Rome — ܪܘܡܝ" ;
+ lawd:hasName [
+ lawd:primaryForm "Rome"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܪܘܡܝ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "رومية"@ar ;];
+ skos:related <http://syriaca.org/place/592> ;
+ skos:related <http://syriaca.org/place/166> ;
+ dcterms:description "The capital city of and formerly the capital of the ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/423025> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Rome> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/641/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/641/tei> ;
 geo:location [
-geo:lat "41.8917375"  ;
-geo:long "41.8917375"  ;];
- lawd:hasName [
-lawd:primaryForm "Rome"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܪܘܡܝ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "رومية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Italy"  ;];
- lawd:hasName [
-lawd:variantForm "Roman Empire"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/641/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/641/tei>  ;
-dcterms:relation <http://syriaca.org/place/2360>  .
+ geo:lat "41.8917375" ;
+ geo:long "12.4861685" ;];
+ dcterms:relation <http://syriaca.org/place/2360> .

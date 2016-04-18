@@ -11,37 +11,35 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/378> a lawd:Place ;
-rdfs:label "Monastery of Prophet Elijah — ܕܝܪܐ ܕܩܢܩܪܬ"  ;
-dcterms:description "A monastery near about 8 km. southwest of ."  ;
+ rdfs:label "Monastery of Prophet Elijah — ܕܝܪܐ ܕܩܢܩܪܬ" ;
+ lawd:hasName [
+ lawd:primaryForm "Monastery of Prophet Elijah"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܩܢܩܪܬ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܐ ܕܩܰܢܩܪܬ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܩܰܪܰܗ ܟܺܝܠܺܝܣܰܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير قَنْقرت"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "قره كليسا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Qanqart Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Qara Kelisa"@en ;];
+ skos:related <http://syriaca.org/place/565> ;
+ skos:related <http://syriaca.org/place/8> ;
+ dcterms:description "A monastery near about 8 km. southwest of ." ;
  dcterms:description [
-rdfs:label "ܒܫܶܡ ܐܠܝܐ ܢܺܒܝܐ. ܠܒܰܪ ܡܶܢ ܐܳܡܝ̣ܕ ܗܘ ܡܰܪܕܶܐ ܫܳܥܐ ܘܦܶܠܓܳܐ ܠܘܳܬ ܩܰܢܩܪܰܬ ܩܪܝܬܳܐ ܕܟܺܝܪ ܫܢܰܬ 1050 ܘܚܰܕܶܬܘ ܒܶܢܝܳܢܰܘ̈ܗܝ ܡܝܟܳܐܝܠ ܪܰܒܐ ܫܢܬ 1173 ܘܐܝܓܢܰܐܛܝܘܣ ܫܟܪܐܠܠܗ ܫܢܰܬ 1730 ܘܐܶܬܓܰܙܝ ܡܶܢ ܐܢ̈ܫܰܘܗܝ ܒܫܘܪܳܝܐ ܕܡܰܐܬܐ ܬܫܰܥܣܝܪܳܝܬܐ. ܘܩܳܡܰܬ ܒܕܘܟܬܗ ܩܪܝܬܐ ܕܡܶܬܐܡܰܪ ܠܗ ܬܘܪܟܳܐܝܬ ܩܰܪܰܗ ܟܺܝܠܺܝܣܰܐ ܗܳܢܰܘ ܥܕܬܐ ܐܘܟܳܡܬܐ. ܡܶܛܠ ܐܘܟܳܡܘܬܐ ܕܐܰܬܪ̈ܘܳܬܐ ܗܳܢܘܢ ܘܰܥܕܰܡܐ ܠܝܰܘܡܳܢ ܩܳܝ̈ܡܝܢ ܚܰܪ̈ܒܬܳܗ̇"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܫܶܡ ܐܠܝܐ ܢܺܒܝܐ. ܠܒܰܪ ܡܶܢ ܐܳܡܝ̣ܕ ܗܘ ܡܰܪܕܶܐ ܫܳܥܐ ܘܦܶܠܓܳܐ ܠܘܳܬ ܩܰܢܩܪܰܬ ܩܪܝܬܳܐ ܕܟܺܝܪ ܫܢܰܬ 1050 ܘܚܰܕܶܬܘ ܒܶܢܝܳܢܰܘ̈ܗܝ ܡܝܟܳܐܝܠ ܪܰܒܐ ܫܢܬ 1173 ܘܐܝܓܢܰܐܛܝܘܣ ܫܟܪܐܠܠܗ ܫܢܰܬ 1730 ܘܐܶܬܓܰܙܝ ܡܶܢ ܐܢ̈ܫܰܘܗܝ ܒܫܘܪܳܝܐ ܕܡܰܐܬܐ ܬܫܰܥܣܝܪܳܝܬܐ. ܘܩܳܡܰܬ ܒܕܘܟܬܗ ܩܪܝܬܐ ܕܡܶܬܐܡܰܪ ܠܗ ܬܘܪܟܳܐܝܬ ܩܰܪܰܗ ܟܺܝܠܺܝܣܰܐ ܗܳܢܰܘ ܥܕܬܐ ܐܘܟܳܡܬܐ. ܡܶܛܠ ܐܘܟܳܡܘܬܐ ܕܐܰܬܪ̈ܘܳܬܐ ܗܳܢܘܢ ܘܰܥܕܰܡܐ ܠܝܰܘܡܳܢ ܩܳܝ̈ܡܝܢ ܚܰܪ̈ܒܬܳܗ̇"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "باسم ايليا النبي بظاهر مدينة ديار بكر مسيرة ساعة ونصف عنها عند قرية قنقرت ذكر سنة 1050 وجدد ميخائيل الكبير عمارته عام 1173 ثم اغناطيوس شكرالله سنة 1730 وخلا من اهله في اوائل المئة التاسعة عشرة وقامت مكانه قرية يقال لها قره كليسا (الكنيسة السوداء لسواد حجارة تلك الديار) ولا تزال اطلاله ماثلة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "باسم ايليا النبي بظاهر مدينة ديار بكر مسيرة ساعة ونصف عنها عند قرية قنقرت ذكر سنة 1050 وجدد ميخائيل الكبير عمارته عام 1173 ثم اغناطيوس شكرالله سنة 1730 وخلا من اهله في اوائل المئة التاسعة عشرة وقامت مكانه قرية يقال لها قره كليسا (الكنيسة السوداء لسواد حجارة تلك الديار) ولا تزال اطلاله ماثلة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "built in the name of the prophet Elijah near Qanqart, a journey of an hour and a half from Diyarbakir, was first mentioned in history in 1050. It was twice renovated, once by Patriarch Michael the Great in 1173 and again in 1730 by Patriarch Ignatius Shukr Allah. It was abandoned at the start of the nineteenth century and on its site today stands a village called Qara Kelisa (“The Black Church,” because of the black stones of the area). Its remains are still visible. See the Patriarchal Magazine, VI, 144-153."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1050"  ;
- lawd:hasName [
-lawd:primaryForm "Monastery of Prophet Elijah"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܩܢܩܪܬ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܩܰܢܩܪܬ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܩܰܪܰܗ ܟܺܝܠܺܝܣܰܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير قَنْقرت"@ar  ;];
- lawd:hasName [
-lawd:variantForm "قره كليسا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Qanqart Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Qara Kelisa"@en  ;];
- lawd:hasName [
-lawd:variantForm "Qanqart"  ;];
- lawd:hasName [
-lawd:variantForm "Amid"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/378/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/378/tei>  .
+ rdfs:label "built in the name of the prophet Elijah near Qanqart, a journey of an hour and a half from Diyarbakir, was first mentioned in history in 1050. It was twice renovated, once by Patriarch Michael the Great in 1173 and again in 1730 by Patriarch Ignatius Shukr Allah. It was abandoned at the start of the nineteenth century and on its site today stands a village called Qara Kelisa (“The Black Church,” because of the black stones of the area). Its remains are still visible. See the Patriarchal Magazine, VI, 144-153."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1050" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/378/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/378/tei> .

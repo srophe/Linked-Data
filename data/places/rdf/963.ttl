@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/963> a lawd:Place ;
-rdfs:label "Balqān"  ;
+ rdfs:label "Balqān" ;
  lawd:hasName [
-lawd:primaryForm "Balqān"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/963/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/963/tei>  .
+ lawd:primaryForm "Balqān"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/963/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/963/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/778> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

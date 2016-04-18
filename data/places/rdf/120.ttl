@@ -11,23 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/120> a lawd:Place ;
-rdfs:label "Lashom"  ;
-dcterms:description "A town of south of ."  ;
-dcterms:temporal "0410"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/894034>  ;
+ rdfs:label "Lashom" ;
+ lawd:hasName [
+ lawd:primaryForm "Lashom"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Lāshōm"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Lāshīn"@en ;];
+ skos:related <http://syriaca.org/place/33> ;
+ skos:related <http://syriaca.org/place/108> ;
+ dcterms:description "A town of south of ." ;
+ dcterms:temporal "0410" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/894034> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/120/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/120/tei> ;
 geo:location [
-geo:lat "35.05958"  ;
-geo:long "35.05958"  ;];
- lawd:hasName [
-lawd:primaryForm "Lashom"@en  ;];
- lawd:hasName [
-lawd:variantForm "Lāshōm"@en  ;];
- lawd:hasName [
-lawd:variantForm "Lāshīn"@en  ;];
- lawd:hasName [
-lawd:variantForm "Beth Garmai"  ;];
- lawd:hasName [
-lawd:variantForm "Karka d-Beth Slokh"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/120/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/120/tei>  ;
-dcterms:relation <http://syriaca.org/place/2329>  .
+ geo:lat "35.05958" ;
+ geo:long "44.35167" ;];
+ dcterms:relation <http://syriaca.org/place/2329> .

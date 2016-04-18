@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/910> a lawd:Place ;
-rdfs:label "Ārewūn"  ;
+ rdfs:label "Ārewūn" ;
  lawd:hasName [
-lawd:primaryForm "Ārewūn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/910/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/910/tei>  .
+ lawd:primaryForm "Ārewūn"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/910/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/910/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/787> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

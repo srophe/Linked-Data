@@ -11,13 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/790> a lawd:Place ;
-rdfs:label "Upper Ṭiyari"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Tyari>  ;
+ rdfs:label "Upper Ṭiyari" ;
  lawd:hasName [
-lawd:primaryForm "Upper Ṭiyari"@en  ;];
+ lawd:primaryForm "Upper Ṭiyari"@en ;];
  lawd:hasName [
-lawd:variantForm "Upper Tiari"@en  ;];
+ lawd:variantForm "Upper Tiari"@en ;];
  lawd:hasName [
-lawd:variantForm "Upper Ṭiyārī"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/790/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/790/tei>  .
+ lawd:variantForm "Upper Ṭiyārī"@en ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Tyari> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/790/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/790/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1807> a lawd:Place ;
-rdfs:label "‘Village of the Levites’"  ;
+ rdfs:label "‘Village of the Levites’" ;
  lawd:hasName [
-lawd:primaryForm "‘Village of the Levites’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1807/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1807/tei>  .
+ lawd:primaryForm "‘Village of the Levites’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1807/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1807/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/732> ;
+ dcterms:isPartOf <http://syriaca.org/place/724> .

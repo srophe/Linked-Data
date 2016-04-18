@@ -11,25 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/510> a lawd:Place ;
-rdfs:label "Tokat — ܬܘܩܐܬ"  ;
-dcterms:description "A city of north-central ."  ;
-dcterms:temporal "-0030"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/857105>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Tokat>  ;
+ rdfs:label "Tokat — ܬܘܩܐܬ" ;
+ lawd:hasName [
+ lawd:primaryForm "Tokat"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܬܘܩܐܬ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܬܳܘܩܰܐܬ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "توقات"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "تَوْقات"@ar ;];
+ skos:related <http://syriaca.org/place/504> ;
+ dcterms:description "A city of north-central ." ;
+ dcterms:temporal "-0030" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/857105> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Tokat> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/510/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/510/tei> ;
 geo:location [
-geo:lat "40.317677"  ;
-geo:long "40.317677"  ;];
- lawd:hasName [
-lawd:primaryForm "Tokat"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܬܘܩܐܬ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܬܳܘܩܰܐܬ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "توقات"@ar  ;];
- lawd:hasName [
-lawd:variantForm "تَوْقات"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Anatolia"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/510/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/510/tei>  .
+ geo:lat "40.317677" ;
+ geo:long "36.549116" ;].

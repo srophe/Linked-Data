@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/955> a lawd:Place ;
-rdfs:label "Bādilbū"  ;
+ rdfs:label "Bādilbū" ;
  lawd:hasName [
-lawd:primaryForm "Bādilbū"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/955/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/955/tei>  .
+ lawd:primaryForm "Bādilbū"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/955/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/955/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/839> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

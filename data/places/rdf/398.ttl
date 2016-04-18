@@ -11,40 +11,40 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/398> a lawd:Place ;
-rdfs:label "Mor Yaʿqub Malpono — ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ"  ;
+ rdfs:label "Mor Yaʿqub Malpono — ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Mor Yaʿqub Malpono"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܝܰܥܩܘܒ ܡܰܠܦܢܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܐ ܕܢܰܦܫ̈ܬܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير مار يعقوب الملفان"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "دير النواويس"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Jacob the Doctor of the Church Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Nawawīs Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Mor Yaqub Malpono"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Mor Ya‘qub Malpono"@en-xsrp1 ;];
  dcterms:description [
-rdfs:label "ܒܛܘܪܐ ܕܐܘܪܗܳܝ ܒܬܰܝܡܢܳܗ̇ ܕܰܡܕܝܢܬܐ ܡܰܪܕܶܐ ܫܳܥܳܐ ܘܦܶܠܓܳܐ. ܐܶܬܒܢܝ ܒܡܰܐܬܰܐ ܚܡܝܫܳܝܬܐ ܘܰܕܟܝܪ ܠܗ ܠܝܘܚܰܢܢ ܕܐܶܦܣܘܣ ܫܢܰܬ 519 ܚܰܕܬܗ ܪܝܫܳܢܗ ܕܰܝܪܳܝܐ ܝܘܚܰܢܢ ܣܪܘܓܳܝܳܐ ܗܰܘ ܕܐܶܬܥܰܠܝ ܠܡܰܦܪܝܳܢܘܬܐ ܕܡܰܕܢܚܐ ܫܢܰܬ 1164 ܘܥܰܡܝܪ ܗܘܐ ܫܢܰܬ 1223 ܘܫܶܬܶܐܣܰܘ̈ܗܝ ܩܰܝܳܡ̈ܢ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܛܘܪܐ ܕܐܘܪܗܳܝ ܒܬܰܝܡܢܳܗ̇ ܕܰܡܕܝܢܬܐ ܡܰܪܕܶܐ ܫܳܥܳܐ ܘܦܶܠܓܳܐ. ܐܶܬܒܢܝ ܒܡܰܐܬܰܐ ܚܡܝܫܳܝܬܐ ܘܰܕܟܝܪ ܠܗ ܠܝܘܚܰܢܢ ܕܐܶܦܣܘܣ ܫܢܰܬ 519 ܚܰܕܬܗ ܪܝܫܳܢܗ ܕܰܝܪܳܝܐ ܝܘܚܰܢܢ ܣܪܘܓܳܝܳܐ ܗܰܘ ܕܐܶܬܥܰܠܝ ܠܡܰܦܪܝܳܢܘܬܐ ܕܡܰܕܢܚܐ ܫܢܰܬ 1164 ܘܥܰܡܝܪ ܗܘܐ ܫܢܰܬ 1223 ܘܫܶܬܶܐܣܰܘ̈ܗܝ ܩܰܝܳܡ̈ܢ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في جبل الرها مسيرة ساعة ونصف جنوبي المدينة، شيد بناؤه في المئة الخامسة وذكره يوحنا الافسسي عام 519 جدده رئيسه الراهب يوحنا السروجي الذي رقي الى مفريانية المشرق عام 1164 كان عامرا سنة 1223 ورسومه ماثلة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في جبل الرها مسيرة ساعة ونصف جنوبي المدينة، شيد بناؤه في المئة الخامسة وذكره يوحنا الافسسي عام 519 جدده رئيسه الراهب يوحنا السروجي الذي رقي الى مفريانية المشرق عام 1164 كان عامرا سنة 1223 ورسومه ماثلة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "in the Mount of Edessa, an hour and a half south of the city. It was built in the fifth century and was mentioned by John of Ephesus in his history in 519. It was renovated by its abbot, John of Sarug, who was elevated to the office of Maphryono of the East in 1164. It remained inhabited until 1223. Its ruins are still visible."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0500"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658527>  ;
+ rdfs:label "in the Mount of Edessa, an hour and a half south of the city. It was built in the fifth century and was mentioned by John of Ephesus in his history in 519. It was renovated by its abbot, John of Sarug, who was elevated to the office of Maphryono of the East in 1164. It remained inhabited until 1223. Its ruins are still visible."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0500" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658527> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/398/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/398/tei> ;
 geo:location [
-geo:lat "37.105188"  ;
-geo:long "37.105188"  ;];
- lawd:hasName [
-lawd:primaryForm "Mor Yaʿqub Malpono"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ ܡܠܦܢܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܝܰܥܩܘܒ ܡܰܠܦܢܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܢܰܦܫ̈ܬܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير مار يعقوب الملفان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "دير النواويس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Jacob the Doctor of the Church Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Nawawīs Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Mor Yaqub Malpono"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Mor Ya‘qub Malpono"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/398/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/398/tei>  .
+ geo:lat "37.105188" ;
+ geo:long "38.90284" ;].

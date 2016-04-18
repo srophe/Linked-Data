@@ -11,32 +11,31 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/373> a lawd:Place ;
-rdfs:label "Phesilta — ܕܝܪܐ ܕܦܣܝܠܬܐ"  ;
-dcterms:description "A monastery near ."  ;
+ rdfs:label "Phesilta — ܕܝܪܐ ܕܦܣܝܠܬܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Phesilta"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܦܣܝܠܬܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܐ ܕܰܦܣܝܠܬܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير فسيلتا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Fsīltā Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Quarry Monastery"@en ;];
+ skos:related <http://syriaca.org/place/200> ;
+ dcterms:description "A monastery near ." ;
  dcterms:description [
-rdfs:label "ܐܰܘܟܝܬ ܓܠܺܝܦܐ ܠܒܰܪ ܡܶܢ ܬܶܠ ܡܰܘܙܠܰܬ ܡܕܝܢܬܐ. ܐܶܫܬܰܬܐܣ ܒܡܰܐܬܳܐ ܚܡܝܫܳܝܬܳܐ ܘܐܰܦܩ ܚܰܡܫܐ ܐܶܦܝܣܩܘܦ̈ܐ ܘܰܫܠܺܝܘ ܛܶܒܰܘ̈ܗܝ ܫܢܰܬ 880 ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܘܟܝܬ ܓܠܺܝܦܐ ܠܒܰܪ ܡܶܢ ܬܶܠ ܡܰܘܙܠܰܬ ܡܕܝܢܬܐ. ܐܶܫܬܰܬܐܣ ܒܡܰܐܬܳܐ ܚܡܝܫܳܝܬܳܐ ܘܐܰܦܩ ܚܰܡܫܐ ܐܶܦܝܣܩܘܦ̈ܐ ܘܰܫܠܺܝܘ ܛܶܒܰܘ̈ܗܝ ܫܢܰܬ 880 ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "اي المنحوت؛ بظاهر مدينة تل موزل وطدت دعائمه في المئة الخامسة وانجب خمسة مطارنة ووقفت اخباره سنة 880."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "اي المنحوت؛ بظاهر مدينة تل موزل وطدت دعائمه في المئة الخامسة وانجب خمسة مطارنة ووقفت اخباره سنة 880."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "outside Tell Mawzalt, was built in the fifth century and it produced five metropolitans. Nothing is known about it after 880."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0500"  ;
- lawd:hasName [
-lawd:primaryForm "Phesilta"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܦܣܝܠܬܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܰܦܣܝܠܬܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير فسيلتا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Fsīltā Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Quarry Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Tella"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/373/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/373/tei>  ;
-dcterms:relation <http://syriaca.org/place/374>  .
+ rdfs:label "outside Tell Mawzalt, was built in the fifth century and it produced five metropolitans. Nothing is known about it after 880."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0500" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/373/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/373/tei> ;
+ dcterms:relation <http://syriaca.org/place/374> .

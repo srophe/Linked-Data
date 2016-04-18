@@ -11,19 +11,20 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/259> a lawd:Place ;
-rdfs:label "Shaqlāwa"  ;
-dcterms:description "A town near Arbela."  ;
-dcterms:temporal "1200"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Shaqlawa>  ;
+ rdfs:label "Shaqlāwa" ;
  lawd:hasName [
-lawd:primaryForm "Shaqlāwa"@en  ;];
+ lawd:primaryForm "Shaqlāwa"@en ;];
  lawd:hasName [
-lawd:variantForm "Shanqlabad"@en  ;];
+ lawd:variantForm "Shanqlabad"@en ;];
  lawd:hasName [
-lawd:variantForm "Shaqlāwā"@en  ;];
+ lawd:variantForm "Shaqlāwā"@en ;];
  lawd:hasName [
-lawd:variantForm "Shanqlābād"@en  ;];
+ lawd:variantForm "Shanqlābād"@en ;];
  lawd:hasName [
-lawd:variantForm "شَقْلاباذ"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/259/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/259/tei>  .
+ lawd:variantForm "شَقْلاباذ"@ar ;];
+ dcterms:description "A town near Arbela." ;
+ dcterms:temporal "1200" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Shaqlawa> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/259/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/259/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/993> .

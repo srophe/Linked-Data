@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1177> a lawd:Place ;
-rdfs:label "Dizzi"  ;
+ rdfs:label "Dizzi" ;
  lawd:hasName [
-lawd:primaryForm "Dizzi"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1177/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1177/tei>  .
+ lawd:primaryForm "Dizzi"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1177/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1177/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/777> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

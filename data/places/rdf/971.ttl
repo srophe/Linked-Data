@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/971> a lawd:Place ;
-rdfs:label "Bar Qawta"  ;
+ rdfs:label "Bar Qawta" ;
  lawd:hasName [
-lawd:primaryForm "Bar Qawta"@en  ;];
+ lawd:primaryForm "Bar Qawta"@en ;];
  lawd:hasName [
-lawd:variantForm "Bar Qawtā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/971/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/971/tei>  .
+ lawd:variantForm "Bar Qawtā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/971/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/971/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/993> .

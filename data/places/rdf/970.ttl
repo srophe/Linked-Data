@@ -11,8 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/970> a lawd:Place ;
-rdfs:label "Barmōn"  ;
+ rdfs:label "Barmōn" ;
  lawd:hasName [
-lawd:primaryForm "Barmōn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/970/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/970/tei>  .
+ lawd:primaryForm "Barmōn"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/970/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/970/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/723> .

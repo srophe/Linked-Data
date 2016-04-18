@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1360> a lawd:Place ;
-rdfs:label "Jōnā"  ;
+ rdfs:label "Jōnā" ;
  lawd:hasName [
-lawd:primaryForm "Jōnā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1360/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1360/tei>  .
+ lawd:primaryForm "Jōnā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1360/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1360/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/776> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

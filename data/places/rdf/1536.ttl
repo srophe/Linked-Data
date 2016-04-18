@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1536> a lawd:Place ;
-rdfs:label "Mazringan"  ;
+ rdfs:label "Mazringan" ;
  lawd:hasName [
-lawd:primaryForm "Mazringan"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1536/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1536/tei>  .
+ lawd:primaryForm "Mazringan"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1536/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1536/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/766> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

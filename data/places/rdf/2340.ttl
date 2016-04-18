@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2340> a lawd:Place ;
-rdfs:label "Manṣūriyya"  ;
+ rdfs:label "Manṣūriyya" ;
  lawd:hasName [
-lawd:primaryForm "Manṣūriyya"@en  ;];
+ lawd:primaryForm "Manṣūriyya"@en ;];
  lawd:hasName [
-lawd:variantForm "Manṣūrīyā"@en  ;];
+ lawd:variantForm "Manṣūrīyā"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻMesciara’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2340/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2340/tei>  ;
-dcterms:relation <http://syriaca.org/place/1417>  .
+ lawd:variantForm "ʻMesciara’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2340/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2340/tei> ;
+ dcterms:relation <http://syriaca.org/place/1417> .

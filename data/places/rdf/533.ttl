@@ -11,24 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/533> a lawd:Place ;
-rdfs:label "Kfarsalṭo — ܟܦܪܣܠܛܐ"  ;
-dcterms:description "A village in ."  ;
-dcterms:temporal "1943"  ;
+ rdfs:label "Kfarsalṭo — ܟܦܪܣܠܛܐ" ;
  lawd:hasName [
-lawd:primaryForm "Kfarsalṭo"@en  ;];
+ lawd:primaryForm "Kfarsalṭo"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܟܦܪܣܠܛܐ"@syr  ;];
+ lawd:primaryForm "ܟܦܪܣܠܛܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܟܦܰܪܣܠܛܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܟܦܰܪܣܠܛܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "كفرسلطا"@ar  ;];
+ lawd:variantForm "كفرسلطا"@ar ;];
  lawd:hasName [
-lawd:variantForm "Kafrsalta"@en  ;];
+ lawd:variantForm "Kafrsalta"@en ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/533/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/533/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/221> ;
+ dcterms:description "A village in ." ;
+ dcterms:temporal "1943" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/533/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/533/tei> .

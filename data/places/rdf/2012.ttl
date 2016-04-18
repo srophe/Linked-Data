@@ -11,10 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2012> a lawd:Place ;
-rdfs:label "Mar Mattay"  ;
+ rdfs:label "Mar Mattay" ;
  lawd:hasName [
-lawd:primaryForm "Mar Mattay"@en  ;];
+ lawd:primaryForm "Mar Mattay"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Mattai"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2012/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2012/tei>  .
+ lawd:variantForm "Mār Mattai"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2012/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2012/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/948> ;
+ dcterms:isPartOf <http://syriaca.org/place/783> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

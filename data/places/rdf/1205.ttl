@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1205> a lawd:Place ;
-rdfs:label "Esnāḥ"  ;
+ rdfs:label "Esnāḥ" ;
  lawd:hasName [
-lawd:primaryForm "Esnāḥ"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1205/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1205/tei>  .
+ lawd:primaryForm "Esnāḥ"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1205/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1205/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/749> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

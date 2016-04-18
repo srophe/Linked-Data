@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1219> a lawd:Place ;
-rdfs:label "Garmāwā"  ;
+ rdfs:label "Garmāwā" ;
  lawd:hasName [
-lawd:primaryForm "Garmāwā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1219/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1219/tei>  .
+ lawd:primaryForm "Garmāwā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1219/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1219/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/742> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

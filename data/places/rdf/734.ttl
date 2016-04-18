@@ -11,12 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/734> a lawd:Place ;
-rdfs:label "Baz"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Baz,_Turkey>  ;
+ rdfs:label "Baz" ;
  lawd:hasName [
-lawd:primaryForm "Baz"@en  ;];
+ lawd:primaryForm "Baz"@en ;];
  lawd:hasName [
-lawd:variantForm "Bāz"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/734/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/734/tei>  ;
-dcterms:relation <http://syriaca.org/place/2271>  .
+ lawd:variantForm "Bāz"@en ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Baz,_Turkey> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/734/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/734/tei> ;
+ dcterms:relation <http://syriaca.org/place/2271> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

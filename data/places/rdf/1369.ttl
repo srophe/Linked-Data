@@ -11,13 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1369> a lawd:Place ;
-rdfs:label "Karsāpā — ܟܪܣܒܐ"  ;
-dcterms:temporal "1683"  ;
+ rdfs:label "Karsāpā — ܟܪܣܒܐ" ;
  lawd:hasName [
-lawd:primaryForm "Karsāpā"@en  ;];
+ lawd:primaryForm "Karsāpā"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܟܪܣܒܐ"@syr  ;];
+ lawd:primaryForm "ܟܪܣܒܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܟܲܪܣܵܒ̣ܐ"@syr-Syrn  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1369/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1369/tei>  .
+ lawd:variantForm "ܟܲܪܣܵܒ̣ܐ"@syr-Syrn ;];
+ dcterms:temporal "1683" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1369/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1369/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

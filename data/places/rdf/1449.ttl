@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1449> a lawd:Place ;
-rdfs:label "Vatican City"  ;
-dcterms:description "The papal city-state since the 1929 Lateran Treaty."  ;
-dcterms:temporal "1929"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Vatican_City>  ;
+ rdfs:label "Vatican City" ;
  lawd:hasName [
-lawd:primaryForm "Vatican City"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1449/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1449/tei>  .
+ lawd:primaryForm "Vatican City"@en ;];
+ dcterms:description "The papal city-state since the 1929 Lateran Treaty." ;
+ dcterms:temporal "1929" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Vatican_City> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1449/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1449/tei> .

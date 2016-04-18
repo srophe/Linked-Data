@@ -11,22 +11,20 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/99> a lawd:Place ;
-rdfs:label "Isauria — ܐܝܣܘܪܝܐ"  ;
-dcterms:description "A Roman coastal province of south-central north of the island of ."  ;
-dcterms:temporal "0325"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/982261>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Isauria>  ;
+ rdfs:label "Isauria — ܐܝܣܘܪܝܐ" ;
  lawd:hasName [
-lawd:primaryForm "Isauria"@en  ;];
+ lawd:primaryForm "Isauria"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܐܝܣܘܪܝܐ"@syr  ;];
+ lawd:primaryForm "ܐܝܣܘܪܝܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܐܺܝܣܘܪܺܝܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܐܺܝܣܘܪܺܝܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "ايسورية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Anatolia"  ;];
- lawd:hasName [
-lawd:variantForm "Cyprus"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/99/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/99/tei>  .
+ lawd:variantForm "ايسورية"@ar ;];
+ skos:related <http://syriaca.org/place/504> ;
+ skos:related <http://syriaca.org/place/714> ;
+ dcterms:description "A Roman coastal province of south-central north of the island of ." ;
+ dcterms:temporal "0325" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/982261> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Isauria> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/99/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/99/tei> .

@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1199> a lawd:Place ;
-rdfs:label "Erbesh"  ;
+ rdfs:label "Erbesh" ;
  lawd:hasName [
-lawd:primaryForm "Erbesh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1199/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1199/tei>  .
+ lawd:primaryForm "Erbesh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1199/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1199/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/772> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

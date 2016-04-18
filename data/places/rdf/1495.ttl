@@ -11,18 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1495> a lawd:Place ;
-rdfs:label "Bezona — ܕܝܪܐ ܒܝܙܘܢܐ"  ;
-dcterms:description "An unlocated monastery, perhaps near ."  ;
-dcterms:temporal "0945"  ;
+ rdfs:label "Bezona — ܕܝܪܐ ܒܝܙܘܢܐ" ;
  lawd:hasName [
-lawd:primaryForm "Bezona"@en  ;];
+ lawd:primaryForm "Bezona"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܒܝܙܘܢܐ"@syr  ;];
+ lawd:primaryForm "ܕܝܪܐ ܒܝܙܘܢܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܒܰܚܙܘܢܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܰܝܪܐ ܒܰܚܙܘܢܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "دير بيزونا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Maypherqaṭ"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1495/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1495/tei>  .
+ lawd:variantForm "دير بيزونا"@ar ;];
+ skos:related <http://syriaca.org/place/134> ;
+ dcterms:description "An unlocated monastery, perhaps near ." ;
+ dcterms:temporal "0945" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1495/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1495/tei> .

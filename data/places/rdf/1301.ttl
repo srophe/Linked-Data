@@ -11,9 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1301> a lawd:Place ;
-rdfs:label "Ḥānāgā"  ;
+ rdfs:label "Ḥānāgā" ;
  lawd:hasName [
-lawd:primaryForm "Ḥānāgā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1301/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1301/tei>  ;
-dcterms:relation <http://syriaca.org/place/1300>  .
+ lawd:primaryForm "Ḥānāgā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1301/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1301/tei> ;
+ dcterms:relation <http://syriaca.org/place/1300> ;
+ dcterms:isPartOf <http://syriaca.org/place/776> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

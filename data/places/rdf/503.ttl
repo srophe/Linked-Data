@@ -11,24 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/503> a lawd:Place ;
-rdfs:label "Black Sea — ܝܡܐ ܐܘܟܡܐ"  ;
-dcterms:description "A large sea north of ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/1224>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Black_Sea>  ;
+ rdfs:label "Black Sea — ܝܡܐ ܐܘܟܡܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Black Sea"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܝܡܐ ܐܘܟܡܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܝܰܡܳܐ ܐܘܟܳܡܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "البحر الاسود"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "بحر بنْطُس"@ar ;];
+ skos:related <http://syriaca.org/place/504> ;
+ dcterms:description "A large sea north of ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/1224> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Black_Sea> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/503/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/503/tei> ;
 geo:location [
-geo:lat "43.0786852"  ;
-geo:long "43.0786852"  ;];
- lawd:hasName [
-lawd:primaryForm "Black Sea"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܝܡܐ ܐܘܟܡܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܝܰܡܳܐ ܐܘܟܳܡܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "البحر الاسود"@ar  ;];
- lawd:hasName [
-lawd:variantForm "بحر بنْطُس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Anatolia"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/503/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/503/tei>  .
+ geo:lat "43.0786852" ;
+ geo:long "34.7425505" ;].

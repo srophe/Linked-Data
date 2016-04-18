@@ -11,11 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2034> a lawd:Place ;
-rdfs:label "Mar Qayyoma"  ;
+ rdfs:label "Mar Qayyoma" ;
  lawd:hasName [
-lawd:primaryForm "Mar Qayyoma"@en  ;];
+ lawd:primaryForm "Mar Qayyoma"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Qayyōmā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2034/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2034/tei>  ;
-dcterms:relation <http://syriaca.org/place/2483>  .
+ lawd:variantForm "Mār Qayyōmā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2034/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2034/tei> ;
+ dcterms:relation <http://syriaca.org/place/2483> ;
+ dcterms:isPartOf <http://syriaca.org/place/1725> ;
+ dcterms:isPartOf <http://syriaca.org/place/759> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

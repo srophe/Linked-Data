@@ -11,33 +11,33 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/310> a lawd:Place ;
-rdfs:label "Tbilisi — ܬܦܠܝܣ"  ;
+ rdfs:label "Tbilisi — ܬܦܠܝܣ" ;
+ lawd:hasName [
+ lawd:primaryForm "Tbilisi"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܬܦܠܝܣ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܬܶܦܠܝܣ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "تفليس"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Tiflis"@en ;];
+ lawd:hasName [
+ lawd:variantForm "تَفليس"@ar ;];
  dcterms:description [
-rdfs:label "ܡܕܺܝܢܬܐ ܥܰܬܝܩܬܐ ܕܒܰܩܠܝܡܳܐ ܕܐܺܝܒܰܪܝܰܐ ܘܰܠܬܝܡܰܢ ܩܘܽܛܢܘܬܐ ܕܪܘܽܣܝܰܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܺܝܢܬܐ ܥܰܬܝܩܬܐ ܕܒܰܩܠܝܡܳܐ ܕܐܺܝܒܰܪܝܰܐ ܘܰܠܬܝܡܰܢ ܩܘܽܛܢܘܬܐ ܕܪܘܽܣܝܰܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة قديمة في اقليم جورجيا جنوبي جمهورية روسيا"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة قديمة في اقليم جورجيا جنوبي جمهورية روسيا"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "an old city in Georgia, in Russia."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0534"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/863903>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Tbilisi>  ;
+ rdfs:label "an old city in Georgia, in Russia."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0534" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/863903> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Tbilisi> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/310/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/310/tei> ;
 geo:location [
-geo:lat "41.717722"  ;
-geo:long "41.717722"  ;];
- lawd:hasName [
-lawd:primaryForm "Tbilisi"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܬܦܠܝܣ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܬܶܦܠܝܣ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "تفليس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Tiflis"@en  ;];
- lawd:hasName [
-lawd:variantForm "تَفليس"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/310/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/310/tei>  .
+ geo:lat "41.717722" ;
+ geo:long "44.78057" ;].

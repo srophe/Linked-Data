@@ -11,15 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/166> a lawd:Place ;
-rdfs:label "Roman Empire"  ;
-dcterms:description "The empire west of the which endured in various forms until 1453."  ;
-dcterms:temporal "-0027"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Roman_Empire>  ;
+ rdfs:label "Roman Empire" ;
  lawd:hasName [
-lawd:primaryForm "Roman Empire"@en  ;];
+ lawd:primaryForm "Roman Empire"@en ;];
  lawd:hasName [
-lawd:variantForm "Byzantine empire"@en  ;];
- lawd:hasName [
-lawd:variantForm "Persian-Sasanian Empire"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/166/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/166/tei>  .
+ lawd:variantForm "Byzantine empire"@en ;];
+ skos:related <http://syriaca.org/place/150> ;
+ dcterms:description "The empire west of the which endured in various forms until 1453." ;
+ dcterms:temporal "-0027" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Roman_Empire> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/166/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/166/tei> .

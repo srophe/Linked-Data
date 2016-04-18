@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/552> a lawd:Place ;
-rdfs:label "Ḥārim — ܚܐܪܡ"  ;
-dcterms:description "A mountain range in northwestern Syria."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Harim_Mountains>  ;
+ rdfs:label "Ḥārim — ܚܐܪܡ" ;
  lawd:hasName [
-lawd:primaryForm "Ḥārim"@en  ;];
+ lawd:primaryForm "Ḥārim"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܚܐܪܡ"@syr  ;];
+ lawd:primaryForm "ܚܐܪܡ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܚܰܐܪܡ"@syr-Syrj  ;];
+ lawd:variantForm "ܚܰܐܪܡ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "حارم"@ar  ;];
+ lawd:variantForm "حارم"@ar ;];
  lawd:hasName [
-lawd:variantForm "حارِم"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/552/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/552/tei>  .
+ lawd:variantForm "حارِم"@ar ;];
+ dcterms:description "A mountain range in northwestern Syria." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Harim_Mountains> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/552/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/552/tei> .

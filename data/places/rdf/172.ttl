@@ -11,75 +11,74 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/172> a lawd:Place ;
-rdfs:label "Reshʿayna — ܪܝܫ ܥܝܢܐ"  ;
+ rdfs:label "Reshʿayna — ܪܝܫ ܥܝܢܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Reshʿayna"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Theodosiopolis"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Raʾs al-ʿAyn"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Ceylanpınar"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Resülayn"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܪܝܫ ܥܝܢܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܪܝܺܫ ܥܰܝܢܳܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "رأس عين"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Rish ʿAyna"@en ;];
+ lawd:hasName [
+ lawd:variantForm "رأس العين"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Reshayna"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Resh‘ayna"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Raʾs al-Ayn"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Raʾs al-‘Ayn"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Rish Ayna"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Rish ‘Ayna"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Resh Ayna"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Resh ‘Ayna"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Raʾs al-Ayn"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Raʾs al-’Ayn"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Raʾs al-Ayn"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Raʾs al-Ayn"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Raʾs al-‘Ayn"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Raʾs al-‘Ayn"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/1654> ;
  dcterms:description [
-rdfs:label "City on the Khabur, located in the eastern part of ancient Osrhoene and today straddling the Turkish-Syrian border, the Syrian part now bearing the name Raʾs al-ʿAyn and the Turkish part Ceylanpınar (earlier Resülayn)."@en  ;];
+ rdfs:label "City on the Khabur, located in the eastern part of ancient Osrhoene and today straddling the Turkish-Syrian border, the Syrian part now bearing the name Raʾs al-ʿAyn and the Turkish part Ceylanpınar (earlier Resülayn)."@en ;];
  dcterms:description [
-rdfs:label "455. Reshʿayna"@en  ;];
+ rdfs:label "455. Reshʿayna"@en ;];
  dcterms:description [
-rdfs:label "ܡܕܝܢܬܳܐ ܗܝ ܥܰܠ ܢܗܰܪ ܚܳܒܘܪ ܒܓܳܙܰܪܬܐ ܒܕܳܪܐ ܕܰܬܠܳܬܰܥܣܪ ܥܰܡܝܪܐ ܗܘܳܬ ܟܶܢ ܚܶܪܒܰܬ ܘܒܰܫܢܰܬ 1869 ܥܡܰܪܘ ܒܗ ܚܰܕ ܛܘܗܡܳܐ ܕܰܓܙܝܪ. ܟܶܢ ܐܶܬܘ ܠܗ̇ ܣܘܪ̈ܝܳܝܐ ܘܐܰܪ̈ܡܢܳܝܐ ܘܰܥܡܰܪܘ ܒܗ̇ ܘܐܝܬ ܠܗܘܢ ܒܗ̇ ܬܰܪܬܶܝܢ ܥܕ̈ܬܳܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܝܢܬܳܐ ܗܝ ܥܰܠ ܢܗܰܪ ܚܳܒܘܪ ܒܓܳܙܰܪܬܐ ܒܕܳܪܐ ܕܰܬܠܳܬܰܥܣܪ ܥܰܡܝܪܐ ܗܘܳܬ ܟܶܢ ܚܶܪܒܰܬ ܘܒܰܫܢܰܬ 1869 ܥܡܰܪܘ ܒܗ ܚܰܕ ܛܘܗܡܳܐ ܕܰܓܙܝܪ. ܟܶܢ ܐܶܬܘ ܠܗ̇ ܣܘܪ̈ܝܳܝܐ ܘܐܰܪ̈ܡܢܳܝܐ ܘܰܥܡܰܪܘ ܒܗ̇ ܘܐܝܬ ܠܗܘܢ ܒܗ̇ ܬܰܪܬܶܝܢ ܥܕ̈ܬܳܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة على منابع نهر الخابور في الجزيرة كانت عامرة في المئة الثالثة عشرة ثم جربت وسنة 1869 توطنتها عشيره من الجركس، ثم سكنها خلق من السريان والارمن ولهم فيها بيعتان."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة على منابع نهر الخابور في الجزيرة كانت عامرة في المئة الثالثة عشرة ثم جربت وسنة 1869 توطنتها عشيره من الجركس، ثم سكنها خلق من السريان والارمن ولهم فيها بيعتان."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town located at the source of the river Khabur in the Jazira. It was settled in the thirteenth century, but was laid waste in 1869. It was later resettled by a Circassian tribe and then by Syrians and Armenians, who built churches in it."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0688"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874662>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Ras_al-Ayn,_Syria>  ;
+ rdfs:label "a town located at the source of the river Khabur in the Jazira. It was settled in the thirteenth century, but was laid waste in 1869. It was later resettled by a Circassian tribe and then by Syrians and Armenians, who built churches in it."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0688" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874662> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Ras_al-Ayn,_Syria> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/172/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/172/tei> ;
 geo:location [
-geo:lat "36.82584"  ;
-geo:long "36.82584"  ;];
- lawd:hasName [
-lawd:primaryForm "Reshʿayna"@en  ;];
- lawd:hasName [
-lawd:variantForm "Theodosiopolis"@en  ;];
- lawd:hasName [
-lawd:variantForm "Raʾs al-ʿAyn"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ceylanpınar"@en  ;];
- lawd:hasName [
-lawd:variantForm "Resülayn"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܪܝܫ ܥܝܢܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܪܝܺܫ ܥܰܝܢܳܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "رأس عين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Rish ʿAyna"@en  ;];
- lawd:hasName [
-lawd:variantForm "رأس العين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Reshayna"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Resh‘ayna"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Raʾs al-Ayn"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Raʾs al-‘Ayn"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Rish Ayna"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Rish ‘Ayna"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Resh Ayna"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Resh ‘Ayna"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Raʾs al-Ayn"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Raʾs al-’Ayn"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Raʾs al-Ayn"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Raʾs al-Ayn"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Raʾs al-‘Ayn"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Raʾs al-‘Ayn"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Resh ʿAyna"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/172/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/172/tei>  .
+ geo:lat "36.82584" ;
+ geo:long "40.04962" ;].

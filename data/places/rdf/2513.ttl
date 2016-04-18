@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2513> a lawd:Place ;
-rdfs:label "Qori"  ;
+ rdfs:label "Qori" ;
  lawd:hasName [
-lawd:primaryForm "Qori"@en  ;];
+ lawd:primaryForm "Qori"@en ;];
  lawd:hasName [
-lawd:variantForm "Qōrī"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2513/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2513/tei>  .
+ lawd:variantForm "Qōrī"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2513/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2513/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

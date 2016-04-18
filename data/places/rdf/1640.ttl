@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1640> a lawd:Place ;
-rdfs:label "Qūrtāpāh"  ;
+ rdfs:label "Qūrtāpāh" ;
  lawd:hasName [
-lawd:primaryForm "Qūrtāpāh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1640/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1640/tei>  .
+ lawd:primaryForm "Qūrtāpāh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1640/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1640/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/733> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

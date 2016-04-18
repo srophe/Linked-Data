@@ -11,20 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/248> a lawd:Place ;
-rdfs:label "Bālulan"  ;
-dcterms:description "A village west of ."  ;
-dcterms:temporal "1824"  ;
+ rdfs:label "Bālulan" ;
  lawd:hasName [
-lawd:primaryForm "Bālulan"@en  ;];
+ lawd:primaryForm "Bālulan"@en ;];
  lawd:hasName [
-lawd:variantForm "Bālūlan"@en  ;];
+ lawd:variantForm "Bālūlan"@en ;];
  lawd:hasName [
-lawd:variantForm "‘Beʿellawin'"@en  ;];
+ lawd:variantForm "‘Beʿellawin'"@en ;];
  lawd:hasName [
-lawd:variantForm "‘Beellawin'"@en-xsrp1  ;];
+ lawd:variantForm "‘Beellawin'"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Be‘ellawin'"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Urmia"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/248/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/248/tei>  .
+ lawd:variantForm "‘Be‘ellawin'"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/206> ;
+ dcterms:description "A village west of ." ;
+ dcterms:temporal "1824" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/248/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/248/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/250> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

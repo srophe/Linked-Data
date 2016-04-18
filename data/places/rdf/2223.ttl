@@ -11,10 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2223> a lawd:Place ;
-rdfs:label "Church in Bespin"  ;
+ rdfs:label "Church in Bespin" ;
  lawd:hasName [
-lawd:primaryForm "Church in Bespin"@en  ;];
+ lawd:primaryForm "Church in Bespin"@en ;];
  lawd:hasName [
-lawd:variantForm "Name not known"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2223/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2223/tei>  .
+ lawd:variantForm "Name not known"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2223/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2223/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/997> ;
+ dcterms:isPartOf <http://syriaca.org/place/770> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

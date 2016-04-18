@@ -11,33 +11,32 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/426> a lawd:Place ;
-rdfs:label "Quṭurbul — ܩܛܪܒܠ"  ;
-dcterms:description "A village near ."  ;
+ rdfs:label "Quṭurbul — ܩܛܪܒܠ" ;
+ lawd:hasName [
+ lawd:primaryForm "Quṭurbul"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Qaṭrabil"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܩܛܪܒܠ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܩܶܛܪܒܠ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "قطربل"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Quṭrubul"@en ;];
+ lawd:hasName [
+ lawd:variantForm "قُطْرَبُّل"@ar ;];
+ skos:related <http://syriaca.org/place/8> ;
+ dcterms:description "A village near ." ;
  dcterms:description [
-rdfs:label "ܩܪܝܬܳܐ ܗܝ ܕܠܘܩܒܰܠ ܐܳܡܝܕ ܕܥܰܠ ܝܰܕ ܕܶܩܠܰܬ ܢܦܰܩܘ ܐܢܳܫ̈ܝܗ̇ ܣܘܪ̈ܝܳܝܐ ܫܢܰܬ 1928 ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܝܬܳܐ ܗܝ ܕܠܘܩܒܰܠ ܐܳܡܝܕ ܕܥܰܠ ܝܰܕ ܕܶܩܠܰܬ ܢܦܰܩܘ ܐܢܳܫ̈ܝܗ̇ ܣܘܪ̈ܝܳܝܐ ܫܢܰܬ 1928 ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية مقابل مدينة دياربكر على شط دجلة نزح اهلها السريان سنة 1928."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية مقابل مدينة دياربكر على شط دجلة نزح اهلها السريان سنة 1928."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town on the Tigris, opposite the city of Diyarbakr. Its Syrian population left it in 1928."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1710"  ;
- lawd:hasName [
-lawd:primaryForm "Quṭurbul"@en  ;];
- lawd:hasName [
-lawd:variantForm "Qaṭrabil"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܩܛܪܒܠ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܩܶܛܪܒܠ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "قطربل"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Quṭrubul"@en  ;];
- lawd:hasName [
-lawd:variantForm "قُطْرَبُّل"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Amid"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/426/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/426/tei>  .
+ rdfs:label "a town on the Tigris, opposite the city of Diyarbakr. Its Syrian population left it in 1928."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1710" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/426/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/426/tei> .

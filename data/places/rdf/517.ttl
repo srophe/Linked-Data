@@ -11,22 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/517> a lawd:Place ;
-rdfs:label "Ghūṭa — ܥܒܐ"  ;
-dcterms:description "The fertile farmland surrounding ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Ghouta>  ;
+ rdfs:label "Ghūṭa — ܥܒܐ" ;
  lawd:hasName [
-lawd:primaryForm "Ghūṭa"@en  ;];
+ lawd:primaryForm "Ghūṭa"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܥܒܐ"@syr  ;];
+ lawd:primaryForm "ܥܒܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܥܳܒܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܥܳܒܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "غوطة"@ar  ;];
+ lawd:variantForm "غوطة"@ar ;];
  lawd:hasName [
-lawd:variantForm "Ghūta"@en  ;];
+ lawd:variantForm "Ghūta"@en ;];
  lawd:hasName [
-lawd:variantForm "الغْوْطة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Damascus"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/517/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/517/tei>  .
+ lawd:variantForm "الغْوْطة"@ar ;];
+ skos:related <http://syriaca.org/place/66> ;
+ dcterms:description "The fertile farmland surrounding ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Ghouta> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/517/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/517/tei> .

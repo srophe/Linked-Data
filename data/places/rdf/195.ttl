@@ -11,23 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/195> a lawd:Place ;
-rdfs:label "Tyros"  ;
-dcterms:description "An important port city of the eastern west of ."  ;
-dcterms:temporal "-1300"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/678437>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Tyre,_Lebanon>  ;
+ rdfs:label "Tyros" ;
+ lawd:hasName [
+ lawd:primaryForm "Tyros"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Tyre"@en ;];
+ lawd:hasName [
+ lawd:variantForm "صُوْر"@ar ;];
+ skos:related <http://syriaca.org/place/135> ;
+ skos:related <http://syriaca.org/place/66> ;
+ dcterms:description "An important port city of the eastern west of ." ;
+ dcterms:temporal "-1300" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/678437> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Tyre,_Lebanon> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/195/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/195/tei> ;
 geo:location [
-geo:lat "33.26889"  ;
-geo:long "33.26889"  ;];
- lawd:hasName [
-lawd:primaryForm "Tyros"@en  ;];
- lawd:hasName [
-lawd:variantForm "Tyre"@en  ;];
- lawd:hasName [
-lawd:variantForm "صُوْر"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Mediterranean Sea"  ;];
- lawd:hasName [
-lawd:variantForm "Damascus"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/195/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/195/tei>  .
+ geo:lat "33.26889" ;
+ geo:long "35.21639" ;].

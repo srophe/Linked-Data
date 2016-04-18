@@ -11,24 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/526> a lawd:Place ;
-rdfs:label "Persia — ܐܬܪ̈ܘܬܐ ܕܦܪܣ"  ;
-dcterms:description "A large plateau region stretching from the to the ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Iran>  ;
+ rdfs:label "Persia — ܐܬܪ̈ܘܬܐ ܕܦܪܣ" ;
  lawd:hasName [
-lawd:primaryForm "Persia"@en  ;];
+ lawd:primaryForm "Persia"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܐܬܪ̈ܘܬܐ ܕܦܪܣ"@syr  ;];
+ lawd:primaryForm "ܐܬܪ̈ܘܬܐ ܕܦܪܣ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܐܰܬܪ̈ܘܳܬܳܐ ܕܦܳܪܶܣ"@syr-Syrj  ;];
+ lawd:variantForm "ܐܰܬܪ̈ܘܳܬܳܐ ܕܦܳܪܶܣ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "بلاد فارس"@ar  ;];
+ lawd:variantForm "بلاد فارس"@ar ;];
  lawd:hasName [
-lawd:variantForm "Iran"@en  ;];
+ lawd:variantForm "Iran"@en ;];
  lawd:hasName [
-lawd:variantForm "فارس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Caspian Sea"  ;];
- lawd:hasName [
-lawd:variantForm "Persian Gulf"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/526/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/526/tei>  .
+ lawd:variantForm "فارس"@ar ;];
+ skos:related <http://syriaca.org/place/61> ;
+ skos:related <http://syriaca.org/place/156> ;
+ dcterms:description "A large plateau region stretching from the to the ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Iran> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/526/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/526/tei> .

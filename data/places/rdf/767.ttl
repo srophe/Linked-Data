@@ -11,8 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/767> a lawd:Place ;
-rdfs:label "Nōrdūz"  ;
+ rdfs:label "Nōrdūz" ;
  lawd:hasName [
-lawd:primaryForm "Nōrdūz"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/767/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/767/tei>  .
+ lawd:primaryForm "Nōrdūz"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/767/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/767/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

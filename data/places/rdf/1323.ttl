@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1323> a lawd:Place ;
-rdfs:label "Ḥawṣar"  ;
+ rdfs:label "Ḥawṣar" ;
  lawd:hasName [
-lawd:primaryForm "Ḥawṣar"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1323/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1323/tei>  .
+ lawd:primaryForm "Ḥawṣar"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1323/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1323/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/-786> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

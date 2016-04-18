@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1298> a lawd:Place ;
-rdfs:label "Ḥālīlā"  ;
+ rdfs:label "Ḥālīlā" ;
  lawd:hasName [
-lawd:primaryForm "Ḥālīlā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1298/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1298/tei>  .
+ lawd:primaryForm "Ḥālīlā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1298/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1298/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/752> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

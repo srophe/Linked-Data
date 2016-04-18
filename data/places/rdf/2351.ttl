@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2351> a lawd:Place ;
-rdfs:label "Nisibis"  ;
+ rdfs:label "Nisibis" ;
  lawd:hasName [
-lawd:primaryForm "Nisibis"@en  ;];
+ lawd:primaryForm "Nisibis"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻNassibin’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2351/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2351/tei>  ;
-dcterms:relation <http://syriaca.org/place/723>  ;
-dcterms:relation <http://syriaca.org/place/142>  .
+ lawd:variantForm "ʻNassibin’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2351/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2351/tei> ;
+ dcterms:relation <http://syriaca.org/place/723> ;
+ dcterms:relation <http://syriaca.org/place/142> .

@@ -11,15 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/804> a lawd:Place ;
-rdfs:label "Berlin — ܒܪܠܝܢ"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Berlin>  ;
+ rdfs:label "Berlin — ܒܪܠܝܢ" ;
  lawd:hasName [
-lawd:primaryForm "Berlin"@en  ;];
+ lawd:primaryForm "Berlin"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܒܪܠܝܢ"@syr  ;];
+ lawd:primaryForm "ܒܪܠܝܢ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܒܰܪܠܝܢ"@syr-Syrj  ;];
+ lawd:variantForm "ܒܰܪܠܝܢ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "برلين"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/804/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/804/tei>  .
+ lawd:variantForm "برلين"@ar ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Berlin> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/804/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/804/tei> .

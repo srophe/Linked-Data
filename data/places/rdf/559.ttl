@@ -11,20 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/559> a lawd:Place ;
-rdfs:label "Arkaḥ — ܐܪܟܚ"  ;
-dcterms:description "A village in ."  ;
-dcterms:temporal "1918"  ;
+ rdfs:label "Arkaḥ — ܐܪܟܚ" ;
  lawd:hasName [
-lawd:primaryForm "Arkaḥ"@en  ;];
+ lawd:primaryForm "Arkaḥ"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܐܪܟܚ"@syr  ;];
+ lawd:primaryForm "ܐܪܟܚ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܐܰܪܟܰܚ"@syr-Syrj  ;];
+ lawd:variantForm "ܐܰܪܟܰܚ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/559/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/559/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/221> ;
+ dcterms:description "A village in ." ;
+ dcterms:temporal "1918" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/559/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/559/tei> .

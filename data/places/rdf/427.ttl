@@ -11,46 +11,46 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/427> a lawd:Place ;
-rdfs:label "Qalʿat al-Imraʾa — ܩܠܥܐ ܕܐܢܬܬܐ"  ;
+ rdfs:label "Qalʿat al-Imraʾa — ܩܠܥܐ ܕܐܢܬܬܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Qalʿat al-Imraʾa"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܩܠܥܐ ܕܐܢܬܬܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܩܶܠܥܳܐ ܕܐܰܢܬܬܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "قلعة الامراة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Qalʿat al-Imra'a"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Qalat al-Imraʾa"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Qal‘at al-Imraʾa"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Qalat al-Imra'a"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Qal‘at al-Imra'a"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Qalat al-Imraʾa"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Qal’at al-Imraʾa"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Qalat al-Imraʾa"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Qalat al-Imraʾa"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Qal‘at al-Imraʾa"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Qal‘at al-Imraʾa"@en-xsrp1 ;];
  dcterms:description [
-rdfs:label "ܩܪܝܬܳܐ ܗܝ ܕܰܠܡܰܕܢܚܐ ܕܡܰܪܕܝܢ ܘܒܶܝܬ ܠܗ̇ ܠܕܰܝܪܳܐ ܕܙܰܥܦܰܪܐܢ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܝܬܳܐ ܗܝ ܕܰܠܡܰܕܢܚܐ ܕܡܰܪܕܝܢ ܘܒܶܝܬ ܠܗ̇ ܠܕܰܝܪܳܐ ܕܙܰܥܦܰܪܐܢ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية شرقي ماردين بينها وبين دير الزعفران."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية شرقي ماردين بينها وبين دير الزعفران."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village north of Mardin, on the way to the Zaʿfaran Monastery."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1943"  ;
- lawd:hasName [
-lawd:primaryForm "Qalʿat al-Imraʾa"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܩܠܥܐ ܕܐܢܬܬܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܩܶܠܥܳܐ ܕܐܰܢܬܬܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "قلعة الامراة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Qalʿat al-Imra'a"@en  ;];
- lawd:hasName [
-lawd:variantForm "Qalat al-Imraʾa"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qal‘at al-Imraʾa"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qalat al-Imra'a"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qal‘at al-Imra'a"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qalat al-Imraʾa"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qal’at al-Imraʾa"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qalat al-Imraʾa"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qalat al-Imraʾa"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qal‘at al-Imraʾa"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Qal‘at al-Imraʾa"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/427/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/427/tei>  .
+ rdfs:label "a village north of Mardin, on the way to the Zaʿfaran Monastery."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1943" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/427/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/427/tei> .

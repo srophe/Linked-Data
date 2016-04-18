@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1347> a lawd:Place ;
-rdfs:label "Īrīmā"  ;
+ rdfs:label "Īrīmā" ;
  lawd:hasName [
-lawd:primaryForm "Īrīmā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1347/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1347/tei>  .
+ lawd:primaryForm "Īrīmā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1347/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1347/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/250> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

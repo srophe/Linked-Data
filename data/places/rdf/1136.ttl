@@ -11,10 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1136> a lawd:Place ;
-rdfs:label "Dādār"  ;
+ rdfs:label "Dādār" ;
  lawd:hasName [
-lawd:primaryForm "Dādār"@en  ;];
+ lawd:primaryForm "Dādār"@en ;];
  lawd:hasName [
-lawd:variantForm "Ṭamānōn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1136/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1136/tei>  .
+ lawd:variantForm "Ṭamānōn"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1136/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1136/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/770> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

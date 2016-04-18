@@ -11,20 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/592> a lawd:Place ;
-rdfs:label "Italy — ܐܝܛܐܠܝ"  ;
-dcterms:description "A Mediterranean nation in southern ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/1052>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Italy>  ;
+ rdfs:label "Italy — ܐܝܛܐܠܝ" ;
+ lawd:hasName [
+ lawd:primaryForm "Italy"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܝܛܐܠܝ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ايطاليا"@ar ;];
+ skos:related <http://syriaca.org/place/591> ;
+ dcterms:description "A Mediterranean nation in southern ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/1052> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Italy> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/592/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/592/tei> ;
 geo:location [
-geo:lat "42.5"  ;
-geo:long "42.5"  ;];
- lawd:hasName [
-lawd:primaryForm "Italy"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܝܛܐܠܝ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ايطاليا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Europe"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/592/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/592/tei>  .
+ geo:lat "42.5" ;
+ geo:long "12.5" ;].

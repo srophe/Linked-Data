@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2370> a lawd:Place ;
-rdfs:label "Shāhrgard"  ;
+ rdfs:label "Shāhrgard" ;
  lawd:hasName [
-lawd:primaryForm "Shāhrgard"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2370/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2370/tei>  .
+ lawd:primaryForm "Shāhrgard"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2370/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2370/tei> .

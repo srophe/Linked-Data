@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1963> a lawd:Place ;
-rdfs:label "Beth Gawaya"  ;
+ rdfs:label "Beth Gawaya" ;
  lawd:hasName [
-lawd:primaryForm "Beth Gawaya"@en  ;];
+ lawd:primaryForm "Beth Gawaya"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Gāwāyā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1963/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1963/tei>  .
+ lawd:variantForm "Beṯ Gāwāyā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1963/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1963/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/718> .

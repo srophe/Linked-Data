@@ -11,21 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1469> a lawd:Place ;
-rdfs:label "Perga — ܦܪܓܝ"  ;
-dcterms:description "A city in Pamphylia"  ;
-dcterms:temporal "-0323"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/639048>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Perga>  ;
+ rdfs:label "Perga — ܦܪܓܝ" ;
+ lawd:hasName [
+ lawd:primaryForm "Perga"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܦܪܓܝ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܦܰܪܓܰܝ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "برجة"@ar ;];
+ dcterms:description "A city in Pamphylia" ;
+ dcterms:temporal "-0323" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/639048> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Perga> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1469/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1469/tei> ;
 geo:location [
-geo:lat "36.961406"  ;
-geo:long "36.961406"  ;];
- lawd:hasName [
-lawd:primaryForm "Perga"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܦܪܓܝ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܦܰܪܓܰܝ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "برجة"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1469/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1469/tei>  .
+ geo:lat "36.961406" ;
+ geo:long "30.854274" ;].

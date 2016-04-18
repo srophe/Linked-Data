@@ -11,29 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/87> a lawd:Place ;
-rdfs:label "Gaza — ܥܙܐ"  ;
-dcterms:description "A city near the coast of the southeastern ."  ;
-dcterms:temporal "-1200"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/687902>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Gaza>  ;
+ rdfs:label "Gaza — ܥܙܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Gaza"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܥܙܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܥܰܙܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "غزة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Gazza"@en ;];
+ lawd:hasName [
+ lawd:variantForm "الغَزَّة"@ar ;];
+ skos:related <http://syriaca.org/place/135> ;
+ skos:related <http://syriaca.org/place/456> ;
+ dcterms:description "A city near the coast of the southeastern ." ;
+ dcterms:temporal "-1200" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/687902> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Gaza> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/87/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/87/tei> ;
 geo:location [
-geo:lat "31.51667"  ;
-geo:long "31.51667"  ;];
- lawd:hasName [
-lawd:primaryForm "Gaza"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܥܙܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܥܰܙܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "غزة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Gazza"@en  ;];
- lawd:hasName [
-lawd:variantForm "الغَزَّة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Mediterranean Sea"  ;];
- lawd:hasName [
-lawd:variantForm "Mayuma"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/87/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/87/tei>  .
+ geo:lat "31.51667" ;
+ geo:long "34.45" ;].

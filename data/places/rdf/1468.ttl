@@ -11,22 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1468> a lawd:Place ;
-rdfs:label "Halicarnassus — ܗܐܠܝܩܪܢܣܘܣ"  ;
-dcterms:description "A city in western Anatolia."  ;
-dcterms:temporal "-0480"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/599636>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Halicarnassus>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Bodrum>  ;
+ rdfs:label "Halicarnassus — ܗܐܠܝܩܪܢܣܘܣ" ;
+ lawd:hasName [
+ lawd:primaryForm "Halicarnassus"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܗܐܠܝܩܪܢܣܘܣ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܗܶܐܠܺܝܩܰܪܢܣܳܘܣ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "هاليكرناس"@ar ;];
+ dcterms:description "A city in western Anatolia." ;
+ dcterms:temporal "-0480" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/599636> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Halicarnassus> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Bodrum> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1468/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1468/tei> ;
 geo:location [
-geo:lat "37.042901"  ;
-geo:long "37.042901"  ;];
- lawd:hasName [
-lawd:primaryForm "Halicarnassus"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܗܐܠܝܩܪܢܣܘܣ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܗܶܐܠܺܝܩܰܪܢܣܳܘܣ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "هاليكرناس"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1468/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1468/tei>  .
+ geo:lat "37.042901" ;
+ geo:long "27.420201" ;].

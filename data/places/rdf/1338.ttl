@@ -11,8 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1338> a lawd:Place ;
-rdfs:label "Ḥrem"  ;
+ rdfs:label "Ḥrem" ;
  lawd:hasName [
-lawd:primaryForm "Ḥrem"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1338/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1338/tei>  .
+ lawd:primaryForm "Ḥrem"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1338/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1338/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/993> .

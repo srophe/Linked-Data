@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/898> a lawd:Place ;
-rdfs:label "Alqoshta"  ;
+ rdfs:label "Alqoshta" ;
  lawd:hasName [
-lawd:primaryForm "Alqoshta"@en  ;];
+ lawd:primaryForm "Alqoshta"@en ;];
  lawd:hasName [
-lawd:variantForm "Alqōshtā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/898/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/898/tei>  .
+ lawd:variantForm "Alqōshtā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/898/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/898/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/254> .

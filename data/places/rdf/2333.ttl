@@ -11,20 +11,20 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2333> a lawd:Place ;
-rdfs:label "Maʿarrin"  ;
+ rdfs:label "Maʿarrin" ;
  lawd:hasName [
-lawd:primaryForm "Maʿarrin"@en  ;];
+ lawd:primaryForm "Maʿarrin"@en ;];
  lawd:hasName [
-lawd:variantForm "Maʿarrīn"@en  ;];
+ lawd:variantForm "Maʿarrīn"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻMacchazin’"@en  ;];
+ lawd:variantForm "ʻMacchazin’"@en ;];
  lawd:hasName [
-lawd:variantForm "Maarrin"@en-xsrp1  ;];
+ lawd:variantForm "Maarrin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ma‘arrin"@en-xsrp1  ;];
+ lawd:variantForm "Ma‘arrin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Maarrīn"@en-xsrp1  ;];
+ lawd:variantForm "Maarrīn"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ma‘arrīn"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2333/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2333/tei>  .
+ lawd:variantForm "Ma‘arrīn"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2333/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2333/tei> .

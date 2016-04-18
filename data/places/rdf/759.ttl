@@ -11,14 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/759> a lawd:Place ;
-rdfs:label "Jilu"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Jilu>  ;
+ rdfs:label "Jilu" ;
  lawd:hasName [
-lawd:primaryForm "Jilu"@en  ;];
+ lawd:primaryForm "Jilu"@en ;];
  lawd:hasName [
-lawd:variantForm "Jīlū"@en  ;];
+ lawd:variantForm "Jīlū"@en ;];
  lawd:hasName [
-lawd:variantForm "‘Galu’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/759/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/759/tei>  ;
-dcterms:relation <http://syriaca.org/place/2322>  .
+ lawd:variantForm "‘Galu’"@en ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Jilu> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/759/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/759/tei> ;
+ dcterms:relation <http://syriaca.org/place/2322> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

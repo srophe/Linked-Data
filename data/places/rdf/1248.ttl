@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1248> a lawd:Place ;
-rdfs:label "Gurbatānes"  ;
+ rdfs:label "Gurbatānes" ;
  lawd:hasName [
-lawd:primaryForm "Gurbatānes"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1248/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1248/tei>  .
+ lawd:primaryForm "Gurbatānes"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1248/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1248/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/583> ;
+ dcterms:isPartOf <http://syriaca.org/place/724> .

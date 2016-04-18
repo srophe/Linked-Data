@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1111> a lawd:Place ;
-rdfs:label "Būrhānlūi"  ;
+ rdfs:label "Būrhānlūi" ;
  lawd:hasName [
-lawd:primaryForm "Būrhānlūi"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1111/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1111/tei>  .
+ lawd:primaryForm "Būrhānlūi"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1111/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1111/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/733> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

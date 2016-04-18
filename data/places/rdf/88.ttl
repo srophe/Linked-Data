@@ -11,56 +11,53 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/88> a lawd:Place ;
-rdfs:label "Gazarta — ܓܙܪܬܐ ܕܒܪ ܥܘܡܪ"  ;
-dcterms:description "A city on the between and ."  ;
+ rdfs:label "Gazarta — ܓܙܪܬܐ ܕܒܪ ܥܘܡܪ" ;
+ lawd:hasName [
+ lawd:primaryForm "Gazarta"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Gozarto"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Cizre"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Gzarta"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Jazīra"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܓܙܪܬܐ ܕܒܪ ܥܘܡܪ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܓܳܙܰܪܬܐ ܕܒܰܪ ܥܘܡܪ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "جزيرة ابن عمر"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Jazirat Ibn ʿUmar"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Gāzartā"@en ;];
+ lawd:hasName [
+ lawd:variantForm "ܓܙܪܬܐ ܙܒܕܝܬܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "Jazirat Ibn Umar"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Jazirat Ibn ‘Umar"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/8> ;
+ skos:related <http://syriaca.org/place/139> ;
+ dcterms:description "A city on the between and ." ;
  dcterms:description [
-rdfs:label "ܡܕܺܝܢܬܘܢܝܬܳܐ ܗܝ ܕܥܰܠ ܕܶܩܠܰܬ ܒܶܝܬ ܐܳܡܝܕ ܠܡܰܘܨܠ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܺܝܢܬܘܢܝܬܳܐ ܗܝ ܕܥܰܠ ܕܶܩܠܰܬ ܒܶܝܬ ܐܳܡܝܕ ܠܡܰܘܨܠ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة بين الموصل وديار بكر راكبة على دجلة"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة بين الموصل وديار بكر راكبة على دجلة"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town between Mosul and Diyarbakir, in a deep valley on the west bank of the Tigris."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0912"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874296>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Cizre>  ;
+ rdfs:label "a town between Mosul and Diyarbakir, in a deep valley on the west bank of the Tigris."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0912" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874296> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Cizre> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/88/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/88/tei> ;
 geo:location [
-geo:lat "37.325"  ;
-geo:long "37.325"  ;];
- lawd:hasName [
-lawd:primaryForm "Gazarta"@en  ;];
- lawd:hasName [
-lawd:variantForm "Gozarto"@en  ;];
- lawd:hasName [
-lawd:variantForm "Cizre"@en  ;];
- lawd:hasName [
-lawd:variantForm "Gzarta"@en  ;];
- lawd:hasName [
-lawd:variantForm "Jazīra"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܓܙܪܬܐ ܕܒܪ ܥܘܡܪ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܓܳܙܰܪܬܐ ܕܒܰܪ ܥܘܡܪ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "جزيرة ابن عمر"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Jazirat Ibn ʿUmar"@en  ;];
- lawd:hasName [
-lawd:variantForm "Gāzartā"@en  ;];
- lawd:hasName [
-lawd:variantForm "ܓܙܪܬܐ ܙܒܕܝܬܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "Jazirat Ibn Umar"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Jazirat Ibn ‘Umar"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Tigris river"  ;];
- lawd:hasName [
-lawd:variantForm "Amida"  ;];
- lawd:hasName [
-lawd:variantForm "Mosul"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/88/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/88/tei>  ;
-dcterms:relation <http://syriaca.org/place/712>  ;
-dcterms:relation <http://syriaca.org/place/2304>  .
+ geo:lat "37.325" ;
+ geo:long "42.195833" ;];
+ dcterms:relation <http://syriaca.org/place/712> ;
+ dcterms:relation <http://syriaca.org/place/2304> .

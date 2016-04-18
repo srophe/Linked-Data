@@ -11,8 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1221> a lawd:Place ;
-rdfs:label "Gaznā"  ;
+ rdfs:label "Gaznā" ;
  lawd:hasName [
-lawd:primaryForm "Gaznā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1221/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1221/tei>  .
+ lawd:primaryForm "Gaznā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1221/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1221/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/993> .

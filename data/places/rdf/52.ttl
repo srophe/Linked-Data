@@ -11,23 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/52> a lawd:Place ;
-rdfs:label "Byblos"  ;
-dcterms:description "A port city between Beirut and Tripolis."  ;
-dcterms:temporal "-7000"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/668216>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Byblos>  ;
+ rdfs:label "Byblos" ;
+ lawd:hasName [
+ lawd:primaryForm "Byblos"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Jubail"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Jbeil"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Giblet"@en ;];
+ lawd:hasName [
+ lawd:variantForm "الجُبَيل"@ar ;];
+ dcterms:description "A port city between Beirut and Tripolis." ;
+ dcterms:temporal "-7000" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/668216> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Byblos> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/52/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/52/tei> ;
 geo:location [
-geo:lat "34.123611"  ;
-geo:long "34.123611"  ;];
- lawd:hasName [
-lawd:primaryForm "Byblos"@en  ;];
- lawd:hasName [
-lawd:variantForm "Jubail"@en  ;];
- lawd:hasName [
-lawd:variantForm "Jbeil"@en  ;];
- lawd:hasName [
-lawd:variantForm "Giblet"@en  ;];
- lawd:hasName [
-lawd:variantForm "الجُبَيل"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/52/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/52/tei>  .
+ geo:lat "34.123611" ;
+ geo:long "35.651111" ;].

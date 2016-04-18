@@ -11,31 +11,31 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/316> a lawd:Place ;
-rdfs:label "Tinnīs — ܬܢܝܣ"  ;
+ rdfs:label "Tinnīs — ܬܢܝܣ" ;
+ lawd:hasName [
+ lawd:primaryForm "Tinnīs"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܬܢܝܣ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "تِنّيس"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Tinnis"@en ;];
+ lawd:hasName [
+ lawd:variantForm "تِنِّيْس"@ar ;];
  dcterms:description [
-rdfs:label "ܡܕܝܢܬܐ ܥܰܬܝܩܬܳܐ ܕܰܒܬܰܝܡܰܢ ܡܰܥܪܰܒ ܒܳܘܪܣܰܥܝܕ ܚܶܪܒܰܬ 1227."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܝܢܬܐ ܥܰܬܝܩܬܳܐ ܕܰܒܬܰܝܡܰܢ ܡܰܥܪܰܒ ܒܳܘܪܣܰܥܝܕ ܚܶܪܒܰܬ 1227."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة قديمة كانت في جنوبي غربي بورسعيد خربت سنة 1227"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة قديمة كانت في جنوبي غربي بورسعيد خربت سنة 1227"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "an ancient city southwest of Port Saʿīd, ruined in 1227."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0833"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/727247>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Tennis,_Egypt>  ;
+ rdfs:label "an ancient city southwest of Port Saʿīd, ruined in 1227."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0833" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/727247> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Tennis,_Egypt> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/316/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/316/tei> ;
 geo:location [
-geo:lat "31.255258"  ;
-geo:long "31.255258"  ;];
- lawd:hasName [
-lawd:primaryForm "Tinnīs"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܬܢܝܣ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "تِنّيس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Tinnis"@en  ;];
- lawd:hasName [
-lawd:variantForm "تِنِّيْس"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/316/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/316/tei>  .
+ geo:lat "31.255258" ;
+ geo:long "32.292698" ;].

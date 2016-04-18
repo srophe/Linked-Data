@@ -11,22 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/582> a lawd:Place ;
-rdfs:label "Beth Zagba — ܒܝܬ ܙܘܓܒܐ"  ;
-dcterms:description "The site of the monastery where the Rabbula Gospels were copied, probably located north of ."  ;
-dcterms:temporal "0568"  ;
+ rdfs:label "Beth Zagba — ܒܝܬ ܙܘܓܒܐ" ;
  lawd:hasName [
-lawd:primaryForm "Beth Zagba"@en  ;];
+ lawd:primaryForm "Beth Zagba"@en ;];
  lawd:hasName [
-lawd:variantForm "ܒܶܝܬ ܙܘܓܒܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܒܶܝܬ ܙܘܓܒܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "بيت زغبا"@ar  ;];
+ lawd:variantForm "بيت زغبا"@ar ;];
  lawd:hasName [
-lawd:variantForm "Beth Zaghba"@en  ;];
+ lawd:variantForm "Beth Zaghba"@en ;];
  lawd:hasName [
-lawd:variantForm "Bet Zagba"@en  ;];
+ lawd:variantForm "Bet Zagba"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܒܝܬ ܙܓܒܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "Apamea"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/582/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/582/tei>  .
+ lawd:primaryForm "ܒܝܬ ܙܓܒܐ"@syr ;];
+ skos:related <http://syriaca.org/place/11> ;
+ dcterms:description "The site of the monastery where the Rabbula Gospels were copied, probably located north of ." ;
+ dcterms:temporal "0568" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/582/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/582/tei> .

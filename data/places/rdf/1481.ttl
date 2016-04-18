@@ -11,16 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1481> a lawd:Place ;
-rdfs:label "al-Aḥmadiyya — ܐܚܡܕܝܗ"  ;
-dcterms:description "A village in al-Ṣawr region."  ;
-dcterms:temporal "1480"  ;
+ rdfs:label "al-Aḥmadiyya — ܐܚܡܕܝܗ" ;
  lawd:hasName [
-lawd:primaryForm "al-Aḥmadiyya"@en  ;];
+ lawd:primaryForm "al-Aḥmadiyya"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܐܚܡܕܝܗ"@syr  ;];
+ lawd:primaryForm "ܐܚܡܕܝܗ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܐܰܚܡܰܕܺܝܶܗ"@syr-Syrj  ;];
+ lawd:variantForm "ܐܰܚܡܰܕܺܝܶܗ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "الاحمدية"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1481/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1481/tei>  .
+ lawd:variantForm "الاحمدية"@ar ;];
+ dcterms:description "A village in al-Ṣawr region." ;
+ dcterms:temporal "1480" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1481/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1481/tei> .

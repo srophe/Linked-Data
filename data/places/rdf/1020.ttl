@@ -11,12 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1020> a lawd:Place ;
-rdfs:label "Beth Daniel"  ;
+ rdfs:label "Beth Daniel" ;
  lawd:hasName [
-lawd:primaryForm "Beth Daniel"@en  ;];
+ lawd:primaryForm "Beth Daniel"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Daniel"@en  ;];
+ lawd:variantForm "Beṯ Daniel"@en ;];
  lawd:hasName [
-lawd:variantForm "Bādāna"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1020/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1020/tei>  .
+ lawd:variantForm "Bādāna"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1020/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1020/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

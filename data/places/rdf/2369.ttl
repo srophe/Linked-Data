@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2369> a lawd:Place ;
-rdfs:label "Shaḥ"  ;
+ rdfs:label "Shaḥ" ;
  lawd:hasName [
-lawd:primaryForm "Shaḥ"@en  ;];
+ lawd:primaryForm "Shaḥ"@en ;];
  lawd:hasName [
-lawd:variantForm "Shāḥ"@en  ;];
+ lawd:variantForm "Shāḥ"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻEsci’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2369/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2369/tei>  .
+ lawd:variantForm "ʻEsci’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2369/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2369/tei> .

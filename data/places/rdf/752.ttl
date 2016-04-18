@@ -11,8 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/752> a lawd:Place ;
-rdfs:label "Ḥānānīs"  ;
+ rdfs:label "Ḥānānīs" ;
  lawd:hasName [
-lawd:primaryForm "Ḥānānīs"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/752/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/752/tei>  .
+ lawd:primaryForm "Ḥānānīs"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/752/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/752/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1612> a lawd:Place ;
-rdfs:label "Qārāghāj"  ;
+ rdfs:label "Qārāghāj" ;
  lawd:hasName [
-lawd:primaryForm "Qārāghāj"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1612/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1612/tei>  .
+ lawd:primaryForm "Qārāghāj"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1612/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1612/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/733> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

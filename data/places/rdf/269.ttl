@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/269> a lawd:Place ;
-rdfs:label "Amyūn"  ;
- dcterms:description [
-rdfs:label "The town of Amyūn is situated 20 km. south of Tripoli (Northern Lebanon), on the road between Chekka and Kousba, built on a high, rocky cliff rising above the plains of olives and fruit orchards watered by the Qadisha river."@en  ;];
- dcterms:description [
-rdfs:label "34. Amyūn"@en  ;];
-dcterms:temporal "-0100"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/668186>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Amioun>  ;
-geo:location [
-geo:lat "34.299737"  ;
-geo:long "34.299737"  ;];
+ rdfs:label "Amyūn" ;
  lawd:hasName [
-lawd:primaryForm "Amyūn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/269/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/269/tei>  .
+ lawd:primaryForm "Amyūn"@en ;];
+ dcterms:description [
+ rdfs:label "The town of Amyūn is situated 20 km. south of Tripoli (Northern Lebanon), on the road between Chekka and Kousba, built on a high, rocky cliff rising above the plains of olives and fruit orchards watered by the Qadisha river."@en ;];
+ dcterms:description [
+ rdfs:label "34. Amyūn"@en ;];
+ dcterms:temporal "-0100" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/668186> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Amioun> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/269/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/269/tei> ;
+geo:location [
+ geo:lat "34.299737" ;
+ geo:long "35.815881" ;].

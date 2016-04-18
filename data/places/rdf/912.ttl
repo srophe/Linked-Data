@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/912> a lawd:Place ;
-rdfs:label "Ārgen"  ;
+ rdfs:label "Ārgen" ;
  lawd:hasName [
-lawd:primaryForm "Ārgen"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/912/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/912/tei>  .
+ lawd:primaryForm "Ārgen"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/912/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/912/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/788> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

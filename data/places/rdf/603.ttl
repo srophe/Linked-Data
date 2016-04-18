@@ -11,22 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/603> a lawd:Place ;
-rdfs:label "Khurasan — ܟܘܪܐܣܐܢ"  ;
-dcterms:description "A region east and somewhat south of the ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Greater_Khorasan>  ;
+ rdfs:label "Khurasan — ܟܘܪܐܣܐܢ" ;
  lawd:hasName [
-lawd:primaryForm "Khurasan"@en  ;];
+ lawd:primaryForm "Khurasan"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܟܘܪܐܣܐܢ"@syr  ;];
+ lawd:primaryForm "ܟܘܪܐܣܐܢ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܟܘܽܪܐܣܰܐܢ"@syr-Syrj  ;];
+ lawd:variantForm "ܟܘܽܪܐܣܰܐܢ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "خراسان"@ar  ;];
+ lawd:variantForm "خراسان"@ar ;];
  lawd:hasName [
-lawd:variantForm "Khorasan"@en  ;];
+ lawd:variantForm "Khorasan"@en ;];
  lawd:hasName [
-lawd:variantForm "Khorasān"@en  ;];
- lawd:hasName [
-lawd:variantForm "Caspian Sea"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/603/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/603/tei>  .
+ lawd:variantForm "Khorasān"@en ;];
+ skos:related <http://syriaca.org/place/61> ;
+ dcterms:description "A region east and somewhat south of the ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Greater_Khorasan> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/603/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/603/tei> .

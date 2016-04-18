@@ -11,20 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/39> a lawd:Place ;
-rdfs:label "Beth Zabdai — ܒܝܬ ܙܒܕܝ"  ;
-dcterms:description "A diocese of the Church of the East on the upper ."  ;
-dcterms:temporal "0497"  ;
+ rdfs:label "Beth Zabdai — ܒܝܬ ܙܒܕܝ" ;
  lawd:hasName [
-lawd:primaryForm "Beth Zabdai"@en  ;];
+ lawd:primaryForm "Beth Zabdai"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܒܝܬ ܙܒܕܝ"@syr  ;];
+ lawd:primaryForm "ܒܝܬ ܙܒܕܝ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܒܶܝܬ ܙܰܒܕܰܝ"@syr-Syrj  ;];
+ lawd:variantForm "ܒܶܝܬ ܙܰܒܕܰܝ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "بازبدي"@ar  ;];
+ lawd:variantForm "بازبدي"@ar ;];
  lawd:hasName [
-lawd:variantForm "Bazabdi"@en  ;];
- lawd:hasName [
-lawd:variantForm "Tigris"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/39/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/39/tei>  .
+ lawd:variantForm "Bazabdi"@en ;];
+ skos:related <http://syriaca.org/place/202> ;
+ dcterms:description "A diocese of the Church of the East on the upper ." ;
+ dcterms:temporal "0497" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/39/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/39/tei> .

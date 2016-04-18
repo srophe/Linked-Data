@@ -11,18 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/841> a lawd:Place ;
-rdfs:label "New Jersey — ܢܝܘܓܪܙܝ"  ;
-dcterms:description "A state of the ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/New_Jersey>  ;
+ rdfs:label "New Jersey — ܢܝܘܓܪܙܝ" ;
  lawd:hasName [
-lawd:primaryForm "New Jersey"@en  ;];
+ lawd:primaryForm "New Jersey"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܢܝܘܓܪܙܝ"@syr  ;];
+ lawd:primaryForm "ܢܝܘܓܪܙܝ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܢܺܝܽܘܓܰܪܙܺܝ"@syr-Syrj  ;];
+ lawd:variantForm "ܢܺܝܽܘܓܰܪܙܺܝ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "نيوجرزي"@ar  ;];
- lawd:hasName [
-lawd:variantForm "United States of America"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/841/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/841/tei>  .
+ lawd:variantForm "نيوجرزي"@ar ;];
+ skos:related <http://syriaca.org/place/573> ;
+ dcterms:description "A state of the ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/New_Jersey> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/841/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/841/tei> .

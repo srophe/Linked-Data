@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1621> a lawd:Place ;
-rdfs:label "Qaṣr-i-Yāzdīn"  ;
+ rdfs:label "Qaṣr-i-Yāzdīn" ;
  lawd:hasName [
-lawd:primaryForm "Qaṣr-i-Yāzdīn"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1621/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1621/tei>  .
+ lawd:primaryForm "Qaṣr-i-Yāzdīn"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1621/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1621/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/742> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1810> a lawd:Place ;
-rdfs:label "Wāzirāwā"  ;
+ rdfs:label "Wāzirāwā" ;
  lawd:hasName [
-lawd:primaryForm "Wāzirāwā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1810/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1810/tei>  .
+ lawd:primaryForm "Wāzirāwā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1810/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1810/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/747> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

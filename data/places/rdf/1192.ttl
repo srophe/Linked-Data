@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1192> a lawd:Place ;
-rdfs:label "Dūrī"  ;
+ rdfs:label "Dūrī" ;
  lawd:hasName [
-lawd:primaryForm "Dūrī"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1192/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1192/tei>  .
+ lawd:primaryForm "Dūrī"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1192/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1192/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/778> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

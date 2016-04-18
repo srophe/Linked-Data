@@ -11,22 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1532> a lawd:Place ;
-rdfs:label "Lycaonia — ܠܘܩܐܢܝܐ"  ;
-dcterms:description "A region of ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/648698>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Lycaonia>  ;
+ rdfs:label "Lycaonia — ܠܘܩܐܢܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Lycaonia"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܠܘܩܐܢܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܠܽܘܩܰܐܢܺܝܰܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "لوقانيا"@ar ;];
+ skos:related <http://syriaca.org/place/504> ;
+ dcterms:description "A region of ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/648698> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Lycaonia> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1532/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1532/tei> ;
 geo:location [
-geo:lat "37.25"  ;
-geo:long "37.25"  ;];
- lawd:hasName [
-lawd:primaryForm "Lycaonia"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܠܘܩܐܢܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܠܽܘܩܰܐܢܺܝܰܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "لوقانيا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Asia Minor"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1532/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1532/tei>  .
+ geo:lat "37.25" ;
+ geo:long "32.75" ;].

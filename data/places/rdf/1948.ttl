@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1948> a lawd:Place ;
-rdfs:label "Mar Ḥnanya"  ;
-dcterms:description "A church serving both and ."  ;
+ rdfs:label "Mar Ḥnanya" ;
  lawd:hasName [
-lawd:primaryForm "Mar Ḥnanya"@en  ;];
+ lawd:primaryForm "Mar Ḥnanya"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Ḥnānyā"@en  ;];
+ lawd:variantForm "Mār Ḥnānyā"@en ;];
  lawd:hasName [
-lawd:variantForm "Sāātlūi"@en-xsrp1  ;];
+ lawd:variantForm "Sāātlūi"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Sā‘ātlūi"@en-xsrp1  ;];
+ lawd:variantForm "Sā‘ātlūi"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ālyābād"@en-xsrp1  ;];
+ lawd:variantForm "Ālyābād"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Ālyābād"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Sāʿātlūi"  ;];
- lawd:hasName [
-lawd:variantForm "ʿĀlyābād"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1948/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1948/tei>  ;
-dcterms:relation <http://syriaca.org/place/2464>  ;
-dcterms:relation <http://syriaca.org/place/1989>  ;
-dcterms:relation <http://syriaca.org/place/1990>  .
+ lawd:variantForm "‘Ālyābād"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/1665> ;
+ skos:related <http://syriaca.org/place/944> ;
+ dcterms:description "A church serving both and ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1948/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1948/tei> ;
+ dcterms:relation <http://syriaca.org/place/2464> ;
+ dcterms:relation <http://syriaca.org/place/1989> ;
+ dcterms:relation <http://syriaca.org/place/1990> ;
+ dcterms:isPartOf <http://syriaca.org/place/733> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

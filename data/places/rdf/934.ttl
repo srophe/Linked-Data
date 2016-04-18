@@ -11,12 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/934> a lawd:Place ;
-rdfs:label "ʿĀbdūlākandi"  ;
+ rdfs:label "ʿĀbdūlākandi" ;
  lawd:hasName [
-lawd:primaryForm "ʿĀbdūlākandi"@en  ;];
+ lawd:primaryForm "ʿĀbdūlākandi"@en ;];
  lawd:hasName [
-lawd:variantForm "Ābdūlākandi"@en-xsrp1  ;];
+ lawd:variantForm "Ābdūlākandi"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "‘Ābdūlākandi"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/934/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/934/tei>  .
+ lawd:variantForm "‘Ābdūlākandi"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/934/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/934/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/839> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

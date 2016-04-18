@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1238> a lawd:Place ;
-rdfs:label "Gōlōzōr"  ;
+ rdfs:label "Gōlōzōr" ;
  lawd:hasName [
-lawd:primaryForm "Gōlōzōr"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1238/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1238/tei>  .
+ lawd:primaryForm "Gōlōzōr"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1238/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1238/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/741> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

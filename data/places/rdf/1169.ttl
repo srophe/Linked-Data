@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1169> a lawd:Place ;
-rdfs:label "Diyānā"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Diana,_Iraq>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Diana,_Iraq>  ;
+ rdfs:label "Diyānā" ;
  lawd:hasName [
-lawd:primaryForm "Diyānā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1169/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1169/tei>  .
+ lawd:primaryForm "Diyānā"@en ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Diana,_Iraq> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Diana,_Iraq> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1169/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1169/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/993> .

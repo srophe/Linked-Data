@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1819> a lawd:Place ;
-rdfs:label "Zanṭā"  ;
+ rdfs:label "Zanṭā" ;
  lawd:hasName [
-lawd:primaryForm "Zanṭā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1819/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1819/tei>  .
+ lawd:primaryForm "Zanṭā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1819/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1819/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/776> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

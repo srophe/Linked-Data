@@ -11,37 +11,35 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/178> a lawd:Place ;
-rdfs:label "Samosata — ܫܡܝܫܛ"  ;
-dcterms:description "A town on the northwest of ."  ;
+ rdfs:label "Samosata — ܫܡܝܫܛ" ;
+ lawd:hasName [
+ lawd:primaryForm "Samosata"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܫܡܝܫܛ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܫܰܡܝܫܛ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "سميساط"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "سُمَيْساط"@ar ;];
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/78> ;
+ dcterms:description "A town on the northwest of ." ;
  dcterms:description [
-rdfs:label "ܐܰܬܪܐ ܗܘ ܕܰܠܡܰܥܪܒܗ ܕܰܦܪܳܬ ܘܰܠܓܰܪܒܝܗ ܕܐܘܪܗܳܝ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܐ ܗܘ ܕܰܠܡܰܥܪܒܗ ܕܰܦܪܳܬ ܘܰܠܓܰܪܒܝܗ ܕܐܘܪܗܳܝ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة على غربي الفرات شمالي الرها."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة على غربي الفرات شمالي الرها."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town on the Euphrates, north of Edessa."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0750"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658587>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Samosata>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Samsat,_Turkey>  ;
+ rdfs:label "a town on the Euphrates, north of Edessa."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0750" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658587> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Samosata> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Samsat,_Turkey> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/178/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/178/tei> ;
 geo:location [
-geo:lat "37.56452"  ;
-geo:long "37.56452"  ;];
- lawd:hasName [
-lawd:primaryForm "Samosata"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܫܡܝܫܛ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܫܰܡܝܫܛ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "سميساط"@ar  ;];
- lawd:hasName [
-lawd:variantForm "سُمَيْساط"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates"  ;];
- lawd:hasName [
-lawd:variantForm "Edessa"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/178/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/178/tei>  .
+ geo:lat "37.56452" ;
+ geo:long "38.47134" ;].

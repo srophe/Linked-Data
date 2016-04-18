@@ -11,30 +11,30 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/229> a lawd:Place ;
-rdfs:label "Qarqaphto — ܕܝܪܐ ܕܩܪܩܦܬܐ"  ;
- dcterms:description [
-rdfs:label "The Qarqaphto (‘Skull’) Monastery was located near the town of Magdal on the Khabur river southeast of Reshʿayna, in the Jazīra region of Syria."@en  ;];
- dcterms:description [
-rdfs:label "442. Qarqaphto, Monastery of"@en  ;];
- dcterms:description [
-rdfs:label "ܒܶܝܬ ܪܝܫ ܥܰܝܢܐ ܠܡܰܓܕܰܠ ܒܰܓܙܝܺܪܬܐ ܥܶܠܳܝܬܐ ܒܢܳܝܗܝ ܡܳܪܝ ܫܶܡܥܘܢ ܘܐܶܬܛܒܰܒ ܫܰܪܒܗ ܒܫܘܼܪܳܝ ܕܳܪܐ ܬܡܺܝܢܳܝܐ. ܘܣܰܝܰܥ ܠܥܺܕܬܐ ܒܶܫܬܐ ܐܶܦܝܣܩܘ̈ܦܐ ܥܕܰܡܐ ܠܦܶܠܓܗ ܕܕܳܪܐ ܥܣܝܪܝܐ. ܘܡܶܢ ܙܰܒܢܐ ܣܰܓܝܐܐ ܚܪܶܒ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
- dcterms:description [
-rdfs:label "بين رأس عين والمجدل في الجزيرة العليا، بناه مار شمعون واشتهر امره في غرة القرن الثامن ودعم الكنيسة بستة اساقفة حتى منتصف القرن العاشر وقد دثرت معالمه منذ عهد عهيد."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
- dcterms:description [
-rdfs:label "between Rish ʿAyna and Majdal in upper Jazira, was built by St. Simon and became famous at the beginning of the eighth century. By the middle of the tenth century, six bishops had graduated from it. It fell to ruin a long time ago."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0724"  ;
+ rdfs:label "Qarqaphto — ܕܝܪܐ ܕܩܪܩܦܬܐ" ;
  lawd:hasName [
-lawd:primaryForm "Qarqaphto"@en  ;];
+ lawd:primaryForm "Qarqaphto"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܩܪܩܦܬܐ"@syr  ;];
+ lawd:primaryForm "ܕܝܪܐ ܕܩܪܩܦܬܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܩܰܪܩܰܦܬܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܰܝܪܐ ܕܩܰܪܩܰܦܬܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "دير قرقفتا"@ar  ;];
+ lawd:variantForm "دير قرقفتا"@ar ;];
  lawd:hasName [
-lawd:variantForm "Qarqafta Monastery"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/229/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/229/tei>  .
+ lawd:variantForm "Qarqafta Monastery"@en ;];
+ dcterms:description [
+ rdfs:label "The Qarqaphto (‘Skull’) Monastery was located near the town of Magdal on the Khabur river southeast of Reshʿayna, in the Jazīra region of Syria."@en ;];
+ dcterms:description [
+ rdfs:label "442. Qarqaphto, Monastery of"@en ;];
+ dcterms:description [
+ rdfs:label "ܒܶܝܬ ܪܝܫ ܥܰܝܢܐ ܠܡܰܓܕܰܠ ܒܰܓܙܝܺܪܬܐ ܥܶܠܳܝܬܐ ܒܢܳܝܗܝ ܡܳܪܝ ܫܶܡܥܘܢ ܘܐܶܬܛܒܰܒ ܫܰܪܒܗ ܒܫܘܼܪܳܝ ܕܳܪܐ ܬܡܺܝܢܳܝܐ. ܘܣܰܝܰܥ ܠܥܺܕܬܐ ܒܶܫܬܐ ܐܶܦܝܣܩܘ̈ܦܐ ܥܕܰܡܐ ܠܦܶܠܓܗ ܕܕܳܪܐ ܥܣܝܪܝܐ. ܘܡܶܢ ܙܰܒܢܐ ܣܰܓܝܐܐ ܚܪܶܒ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:description [
+ rdfs:label "بين رأس عين والمجدل في الجزيرة العليا، بناه مار شمعون واشتهر امره في غرة القرن الثامن ودعم الكنيسة بستة اساقفة حتى منتصف القرن العاشر وقد دثرت معالمه منذ عهد عهيد."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:description [
+ rdfs:label "between Rish ʿAyna and Majdal in upper Jazira, was built by St. Simon and became famous at the beginning of the eighth century. By the middle of the tenth century, six bishops had graduated from it. It fell to ruin a long time ago."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0724" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/229/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/229/tei> .

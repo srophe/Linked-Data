@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1179> a lawd:Place ;
-rdfs:label "Mar Sabas"  ;
-dcterms:description "A monastery near Jerusalem"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/687969>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Mar_Saba>  ;
-geo:location [
-geo:lat "31.704703"  ;
-geo:long "31.704703"  ;];
+ rdfs:label "Mar Sabas" ;
  lawd:hasName [
-lawd:primaryForm "Mar Sabas"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1179/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1179/tei>  .
+ lawd:primaryForm "Mar Sabas"@en ;];
+ dcterms:description "A monastery near Jerusalem" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/687969> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Mar_Saba> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1179/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1179/tei> ;
+geo:location [
+ geo:lat "31.704703" ;
+ geo:long "35.331699" ;].

@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1148> a lawd:Place ;
-rdfs:label "Darbarūd"  ;
+ rdfs:label "Darbarūd" ;
  lawd:hasName [
-lawd:primaryForm "Darbarūd"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1148/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1148/tei>  .
+ lawd:primaryForm "Darbarūd"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1148/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1148/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/733> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

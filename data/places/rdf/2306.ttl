@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2306> a lawd:Place ;
-rdfs:label "Goa"  ;
+ rdfs:label "Goa" ;
  lawd:hasName [
-lawd:primaryForm "Goa"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2306/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2306/tei>  ;
-dcterms:relation <http://syriaca.org/place/822>  .
+ lawd:primaryForm "Goa"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2306/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2306/tei> ;
+ dcterms:relation <http://syriaca.org/place/822> .

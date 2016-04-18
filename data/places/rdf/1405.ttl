@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1405> a lawd:Place ;
-rdfs:label "Mādes"  ;
+ rdfs:label "Mādes" ;
  lawd:hasName [
-lawd:primaryForm "Mādes"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1405/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1405/tei>  .
+ lawd:primaryForm "Mādes"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1405/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1405/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/741> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

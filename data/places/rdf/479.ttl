@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/479> a lawd:Place ;
-rdfs:label "Xi'an"  ;
+ rdfs:label "Xi'an" ;
+ lawd:hasName [
+ lawd:primaryForm "Xi'an"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Sian-fu"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Hsi-an fu"@en ;];
  dcterms:description [
-rdfs:label "Ancient Chinese city in Shanxi Province."@en  ;];
+ rdfs:label "Ancient Chinese city in Shanxi Province."@en ;];
  dcterms:description [
-rdfs:label "576. Xi’an"@en  ;];
-dcterms:temporal "-1000"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Xi'an>  ;
- lawd:hasName [
-lawd:primaryForm "Xi'an"@en  ;];
- lawd:hasName [
-lawd:variantForm "Sian-fu"@en  ;];
- lawd:hasName [
-lawd:variantForm "Hsi-an fu"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/479/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/479/tei>  .
+ rdfs:label "576. Xi’an"@en ;];
+ dcterms:temporal "-1000" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Xi'an> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/479/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/479/tei> .

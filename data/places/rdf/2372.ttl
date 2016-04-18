@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2372> a lawd:Place ;
-rdfs:label "Sharūkhiyya"  ;
+ rdfs:label "Sharūkhiyya" ;
  lawd:hasName [
-lawd:primaryForm "Sharūkhiyya"@en  ;];
+ lawd:primaryForm "Sharūkhiyya"@en ;];
  lawd:hasName [
-lawd:variantForm "Sharūkhīyā"@en  ;];
+ lawd:variantForm "Sharūkhīyā"@en ;];
  lawd:hasName [
-lawd:variantForm "ʻChiaruchia’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2372/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2372/tei>  .
+ lawd:variantForm "ʻChiaruchia’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2372/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2372/tei> .

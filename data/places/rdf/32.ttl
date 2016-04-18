@@ -11,25 +11,25 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/32> a lawd:Place ;
-rdfs:label "Beth Aramaye"  ;
+ rdfs:label "Beth Aramaye" ;
+ lawd:hasName [
+ lawd:primaryForm "Beth Aramaye"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Bet Aramaye"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Beṯ Aramāye"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Patriarchal Province, fifth to thirteenth centuries"@en ;];
  dcterms:description [
-rdfs:label "Ecclesiastical province of the Ch. of E., situated in Central Iraq."@en  ;];
+ rdfs:label "Ecclesiastical province of the Ch. of E., situated in Central Iraq."@en ;];
  dcterms:description [
-rdfs:label "97. Beth Aramaye"@en  ;];
-dcterms:temporal "0410"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/893958>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Province_of_the_Patriarch>  ;
+ rdfs:label "97. Beth Aramaye"@en ;];
+ dcterms:temporal "0410" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/893958> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Province_of_the_Patriarch> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/32/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/32/tei> ;
 geo:location [
-geo:lat "32.5"  ;
-geo:long "32.5"  ;];
- lawd:hasName [
-lawd:primaryForm "Beth Aramaye"@en  ;];
- lawd:hasName [
-lawd:variantForm "Bet Aramaye"@en  ;];
- lawd:hasName [
-lawd:variantForm "Beṯ Aramāye"@en  ;];
- lawd:hasName [
-lawd:variantForm "Patriarchal Province, fifth to thirteenth centuries"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/32/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/32/tei>  ;
-dcterms:relation <http://syriaca.org/place/717>  .
+ geo:lat "32.5" ;
+ geo:long "44.5" ;];
+ dcterms:relation <http://syriaca.org/place/717> .

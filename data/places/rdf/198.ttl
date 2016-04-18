@@ -11,55 +11,51 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/198> a lawd:Place ;
-rdfs:label "Tell ʿAda — ܬܠܥܕܐ"  ;
-dcterms:description "A village 48 km. west of known for the nearby ."  ;
-dcterms:temporal "0457"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658614>  ;
+ rdfs:label "Tell ʿAda — ܬܠܥܕܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Tell ʿAda"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܬܠܥܕܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܬܰܠܥܕܰܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "تلعدا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Talʿada"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Tell Ada"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Tell Ada"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Tell ‘Ada"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Talada"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Tal‘ada"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Monastery of Tell Ada"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Monastery of Tell ‘Ada"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "Τελεδάν"@el ;];
+ lawd:hasName [
+ lawd:variantForm "Τέλεδαν"@el ;];
+ lawd:hasName [
+ lawd:variantForm "Τελείαν"@el ;];
+ lawd:hasName [
+ lawd:variantForm "Τελεδᾶν"@el ;];
+ lawd:hasName [
+ lawd:variantForm "Teleda"@en ;];
+ skos:related <http://syriaca.org/place/18> ;
+ skos:related <http://syriaca.org/place/233> ;
+ skos:related <http://syriaca.org/place/91> ;
+ skos:related <http://syriaca.org/place/18> ;
+ dcterms:description "A village 48 km. west of known for the nearby ." ;
+ dcterms:temporal "0457" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658614> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/198/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/198/tei> ;
 geo:location [
-geo:lat "36.255349"  ;
-geo:long "36.255349"  ;];
- lawd:hasName [
-lawd:primaryForm "Tell ʿAda"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܬܠܥܕܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܬܰܠܥܕܰܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "تلعدا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Talʿada"@en  ;];
- lawd:hasName [
-lawd:variantForm "Tell Ada"@en  ;];
- lawd:hasName [
-lawd:variantForm "Tell Ada"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Tell ‘Ada"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Talada"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Tal‘ada"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Monastery of Tell Ada"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Monastery of Tell ‘Ada"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Τελεδάν"@el  ;];
- lawd:hasName [
-lawd:variantForm "Τέλεδαν"@el  ;];
- lawd:hasName [
-lawd:variantForm "Τελείαν"@el  ;];
- lawd:hasName [
-lawd:variantForm "Τελεδᾶν"@el  ;];
- lawd:hasName [
-lawd:variantForm "Teleda"@en  ;];
- lawd:hasName [
-lawd:variantForm "Aleppo"  ;];
- lawd:hasName [
-lawd:variantForm "Monastery of Tell ʿAda"  ;];
- lawd:hasName [
-lawd:variantForm "Ḥama"  ;];
- lawd:hasName [
-lawd:variantForm "Aleppo"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/198/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/198/tei>  ;
-dcterms:relation <http://syriaca.org/place/233>  .
+ geo:lat "36.255349" ;
+ geo:long "36.848848" ;];
+ dcterms:relation <http://syriaca.org/place/233> .

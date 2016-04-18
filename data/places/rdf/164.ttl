@@ -11,23 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/164> a lawd:Place ;
-rdfs:label "Rāwandūz"  ;
-dcterms:description "A town northeast of and east of ."  ;
-dcterms:temporal "1832"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Rowanduz>  ;
+ rdfs:label "Rāwandūz" ;
+ lawd:hasName [
+ lawd:primaryForm "Rāwandūz"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Aqra"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Aqra"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/13> ;
+ skos:related <http://syriaca.org/place/25> ;
+ dcterms:description "A town northeast of and east of ." ;
+ dcterms:temporal "1832" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Rowanduz> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/164/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/164/tei> ;
 geo:location [
-geo:lat "36.6125"  ;
-geo:long "36.6125"  ;];
- lawd:hasName [
-lawd:primaryForm "Rāwandūz"@en  ;];
- lawd:hasName [
-lawd:variantForm "Aqra"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Aqra"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Arbela"  ;];
- lawd:hasName [
-lawd:variantForm "ʿAqra"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/164/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/164/tei>  ;
-dcterms:relation <http://syriaca.org/place/773>  .
+ geo:lat "36.6125" ;
+ geo:long "44.524444" ;];
+ dcterms:relation <http://syriaca.org/place/773> .

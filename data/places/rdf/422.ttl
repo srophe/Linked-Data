@@ -11,29 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/422> a lawd:Place ;
-rdfs:label "Qāluq — ܩܐܠܘܩ"  ;
-dcterms:description "A village near ."  ;
+ rdfs:label "Qāluq — ܩܐܠܘܩ" ;
+ lawd:hasName [
+ lawd:primaryForm "Qāluq"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܩܐܠܘܩ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܩܰܐܠܘܩ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "قالوق"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Qālūq"@en ;];
+ skos:related <http://syriaca.org/place/130> ;
+ dcterms:description "A village near ." ;
  dcterms:description [
-rdfs:label "ܩܪܝܬܳܐ ܗܝ ܕܒܐܘܚܕܳܢܳܐ ܕܨܰܘܪܳܐ ܘܰܡܝܰܬܒܳܐ ܗܘܳܬ ܒܣܘܪ̈ܝܳܝܶܐ ܒܡܶܨܥܝ̈ܬܗ ܕܕܳܪܐ ܕܝ̄ܙ"@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܝܬܳܐ ܗܝ ܕܒܐܘܚܕܳܢܳܐ ܕܨܰܘܪܳܐ ܘܰܡܝܰܬܒܳܐ ܗܘܳܬ ܒܣܘܪ̈ܝܳܝܶܐ ܒܡܶܨܥܝ̈ܬܗ ܕܕܳܪܐ ܕܝ̄ܙ"@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية من عمل الصور كانت آهلة بالسريان حتى اواسط القرن السابع عشر."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية من عمل الصور كانت آهلة بالسريان حتى اواسط القرن السابع عشر."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town in the province of al-Ṣawr, populated by Syrians until the middle of the seventeenth century."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1549"  ;
- lawd:hasName [
-lawd:primaryForm "Qāluq"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܩܐܠܘܩ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܩܰܐܠܘܩ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "قالوق"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Qālūq"@en  ;];
- lawd:hasName [
-lawd:variantForm "Mardin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/422/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/422/tei>  .
+ rdfs:label "a town in the province of al-Ṣawr, populated by Syrians until the middle of the seventeenth century."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1549" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/422/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/422/tei> .

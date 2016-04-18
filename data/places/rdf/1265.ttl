@@ -11,10 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1265> a lawd:Place ;
-rdfs:label "Hamziyyā"  ;
+ rdfs:label "Hamziyyā" ;
  lawd:hasName [
-lawd:primaryForm "Hamziyyā"@en  ;];
+ lawd:primaryForm "Hamziyyā"@en ;];
  lawd:hasName [
-lawd:variantForm "Hamzīyyā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1265/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1265/tei>  .
+ lawd:variantForm "Hamzīyyā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1265/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1265/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/783> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

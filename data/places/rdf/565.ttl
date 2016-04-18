@@ -11,24 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/565> a lawd:Place ;
-rdfs:label "Qanqart — ܩܢܩܪܬ"  ;
-dcterms:description "A village near ."  ;
-dcterms:temporal "1850"  ;
+ rdfs:label "Qanqart — ܩܢܩܪܬ" ;
  lawd:hasName [
-lawd:primaryForm "Qanqart"@en  ;];
+ lawd:primaryForm "Qanqart"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܩܢܩܪܬ"@syr  ;];
+ lawd:primaryForm "ܩܢܩܪܬ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܩܰܢܩܪܰܬ"@syr-Syrj  ;];
+ lawd:variantForm "ܩܰܢܩܪܰܬ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "ܩܰܪܰܗ ܟܺܝܠܺܝܣܰܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܩܰܪܰܗ ܟܺܝܠܺܝܣܰܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "قنقرت"@ar  ;];
+ lawd:variantForm "قنقرت"@ar ;];
  lawd:hasName [
-lawd:variantForm "قره كليسا"@ar  ;];
+ lawd:variantForm "قره كليسا"@ar ;];
  lawd:hasName [
-lawd:variantForm "Qara Kelisa"@en  ;];
- lawd:hasName [
-lawd:variantForm "Amid"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/565/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/565/tei>  .
+ lawd:variantForm "Qara Kelisa"@en ;];
+ skos:related <http://syriaca.org/place/8> ;
+ dcterms:description "A village near ." ;
+ dcterms:temporal "1850" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/565/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/565/tei> .

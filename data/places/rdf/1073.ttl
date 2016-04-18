@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1073> a lawd:Place ;
-rdfs:label "Beth Taklita"  ;
+ rdfs:label "Beth Taklita" ;
  lawd:hasName [
-lawd:primaryForm "Beth Taklita"@en  ;];
+ lawd:primaryForm "Beth Taklita"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Taklīṯā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1073/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1073/tei>  .
+ lawd:variantForm "Beṯ Taklīṯā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1073/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1073/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

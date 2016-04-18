@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1113> a lawd:Place ;
-rdfs:label "Chāhārbaḥsh"  ;
+ rdfs:label "Chāhārbaḥsh" ;
  lawd:hasName [
-lawd:primaryForm "Chāhārbaḥsh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1113/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1113/tei>  .
+ lawd:primaryForm "Chāhārbaḥsh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1113/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1113/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/733> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

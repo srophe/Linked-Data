@@ -11,24 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/15> a lawd:Place ;
-rdfs:label "Adana — ܐܛܢܗ"  ;
-dcterms:description "A city on the Seyhan River in south-eastern Anatolia, near the Mediterranean coast."  ;
-dcterms:temporal "-1335"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/648548>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Adana>  ;
+ rdfs:label "Adana — ܐܛܢܗ" ;
+ lawd:hasName [
+ lawd:primaryForm "Adana"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܛܢܗ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܰܛܰܢܰܗ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ادنة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "أَذَنَة"@ar ;];
+ dcterms:description "A city on the Seyhan River in south-eastern Anatolia, near the Mediterranean coast." ;
+ dcterms:temporal "-1335" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/648548> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Adana> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/15/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/15/tei> ;
 geo:location [
-geo:lat "37"  ;
-geo:long "37"  ;];
- lawd:hasName [
-lawd:primaryForm "Adana"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܛܢܗ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܰܛܰܢܰܗ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ادنة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "أَذَنَة"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/15/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/15/tei>  ;
-dcterms:relation <http://syriaca.org/place/2277>  .
+ geo:lat "37" ;
+ geo:long "35.32133" ;];
+ dcterms:relation <http://syriaca.org/place/2277> .

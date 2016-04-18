@@ -11,12 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/845> a lawd:Place ;
-rdfs:label "Massachussetts"  ;
-dcterms:description "A state of the ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Massachusetts>  ;
+ rdfs:label "Massachussetts" ;
  lawd:hasName [
-lawd:primaryForm "Massachussetts"@en  ;];
- lawd:hasName [
-lawd:variantForm "United States of America"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/845/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/845/tei>  .
+ lawd:primaryForm "Massachussetts"@en ;];
+ skos:related <http://syriaca.org/place/573> ;
+ dcterms:description "A state of the ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Massachusetts> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/845/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/845/tei> .

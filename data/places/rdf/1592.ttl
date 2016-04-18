@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1592> a lawd:Place ;
-rdfs:label "Pāqaibaiglū"  ;
+ rdfs:label "Pāqaibaiglū" ;
  lawd:hasName [
-lawd:primaryForm "Pāqaibaiglū"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1592/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1592/tei>  .
+ lawd:primaryForm "Pāqaibaiglū"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1592/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1592/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/839> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

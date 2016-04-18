@@ -11,15 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/662> a lawd:Place ;
-rdfs:label "Dayr al-ʿAdas"  ;
-dcterms:description "A monastery in founded in 1532 by ."  ;
+ rdfs:label "Dayr al-ʿAdas" ;
  lawd:hasName [
-lawd:primaryForm "Dayr al-ʿAdas"@en  ;];
+ lawd:primaryForm "Dayr al-ʿAdas"@en ;];
  lawd:hasName [
-lawd:variantForm "Dayr al-Adas"@en-xsrp1  ;];
+ lawd:variantForm "Dayr al-Adas"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Dayr al-‘Adas"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Jerusalem"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/662/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/662/tei>  .
+ lawd:variantForm "Dayr al-‘Adas"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/104> ;
+ dcterms:description "A monastery in founded in 1532 by ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/662/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/662/tei> .

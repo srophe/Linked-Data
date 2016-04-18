@@ -11,16 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1455> a lawd:Place ;
-rdfs:label "Beth Ḥur — ܒܝܬ ܚܘܪ"  ;
-dcterms:description "A place the invasion of which was described in two poems ascribed to ."  ;
-dcterms:temporal "0491"  ;
+ rdfs:label "Beth Ḥur — ܒܝܬ ܚܘܪ" ;
  lawd:hasName [
-lawd:primaryForm "Beth Ḥur"@en  ;];
+ lawd:primaryForm "Beth Ḥur"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܒܝܬ ܚܘܪ"@syr  ;];
+ lawd:primaryForm "ܒܝܬ ܚܘܪ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܒܶܝܬ ܚܘܪ"@syr-Syrj  ;];
+ lawd:variantForm "ܒܶܝܬ ܚܘܪ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "بيت حور"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1455/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1455/tei>  .
+ lawd:variantForm "بيت حور"@ar ;];
+ dcterms:description "A place the invasion of which was described in two poems ascribed to ." ;
+ dcterms:temporal "0491" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1455/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1455/tei> .

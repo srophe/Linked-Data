@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/927> a lawd:Place ;
-rdfs:label "Awāh"  ;
+ rdfs:label "Awāh" ;
  lawd:hasName [
-lawd:primaryForm "Awāh"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/927/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/927/tei>  .
+ lawd:primaryForm "Awāh"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/927/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/927/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/788> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

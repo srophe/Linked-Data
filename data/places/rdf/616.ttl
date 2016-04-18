@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/616> a lawd:Place ;
-rdfs:label "Mqurtaya"  ;
-dcterms:description "A monastery north of ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Monastery_of_Saint_John_of_Dailam>  ;
+ rdfs:label "Mqurtaya" ;
  lawd:hasName [
-lawd:primaryForm "Mqurtaya"@en  ;];
+ lawd:primaryForm "Mqurtaya"@en ;];
  lawd:hasName [
-lawd:variantForm "monastery of Mqurtaya"@en  ;];
+ lawd:variantForm "monastery of Mqurtaya"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Yōḥannān of Dailām"@en  ;];
+ lawd:variantForm "Mār Yōḥannān of Dailām"@en ;];
  lawd:hasName [
-lawd:variantForm "Mqūrtāyā"@en  ;];
- lawd:hasName [
-lawd:variantForm "Qaraqosh"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/616/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/616/tei>  .
+ lawd:variantForm "Mqūrtāyā"@en ;];
+ skos:related <http://syriaca.org/place/262> ;
+ dcterms:description "A monastery north of ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Monastery_of_Saint_John_of_Dailam> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/616/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/616/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

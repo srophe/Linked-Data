@@ -11,16 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1519> a lawd:Place ;
-rdfs:label "Ramtashir — ܪܡܬܫܝܪ"  ;
-dcterms:description "An unlocated village, the birthplace of ."  ;
-dcterms:temporal "0630"  ;
+ rdfs:label "Ramtashir — ܪܡܬܫܝܪ" ;
  lawd:hasName [
-lawd:primaryForm "Ramtashir"@en  ;];
+ lawd:primaryForm "Ramtashir"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܪܡܬܫܝܪ"@syr  ;];
+ lawd:primaryForm "ܪܡܬܫܝܪ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܪܰܡܰܬܫܺܝܪ"@syr-Syrj  ;];
+ lawd:variantForm "ܪܰܡܰܬܫܺܝܪ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "رمتشير"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1519/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1519/tei>  .
+ lawd:variantForm "رمتشير"@ar ;];
+ dcterms:description "An unlocated village, the birthplace of ." ;
+ dcterms:temporal "0630" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1519/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1519/tei> .

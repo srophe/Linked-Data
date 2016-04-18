@@ -11,34 +11,34 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/452> a lawd:Place ;
-rdfs:label "al-Kūfa — ܟܘܦܗ"  ;
+ rdfs:label "al-Kūfa — ܟܘܦܗ" ;
+ lawd:hasName [
+ lawd:primaryForm "al-Kūfa"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܟܘܦܗ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܥܰܐܩܘܠܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "الكوفة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "عاقولا"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Kufa"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Aqula"@en ;];
+ lawd:hasName [
+ lawd:variantForm "الكُوفة"@ar ;];
  dcterms:description [
-rdfs:label "ܘܡܶܬܶܐܡܰܪ ܠܳܗ̇ ܥܰܐܩܘܠܐ ܘܺܗܝ ܗܺܝ ܐܰܬܪܐ ܕܝܺܕܝܥ ܒܰܙܒܰܢ ܐܰܪܥܳܐ ܕܒܳܒܝܠ ܒܡܰܕܒܪܳܐ ܕܥܪܰܐܩ ܚܰܪܝܒܳܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܘܡܶܬܶܐܡܰܪ ܠܳܗ̇ ܥܰܐܩܘܠܐ ܘܺܗܝ ܗܺܝ ܐܰܬܪܐ ܕܝܺܕܝܥ ܒܰܙܒܰܢ ܐܰܪܥܳܐ ܕܒܳܒܝܠ ܒܡܰܕܒܪܳܐ ܕܥܪܰܐܩ ܚܰܪܝܒܳܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "ويقال لها عاقولا وهي المصر المشهور يوما بارض بابل من سواد العراق، مندرسة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ويقال لها عاقولا وهي المصر المشهور يوما بارض بابل من سواد العراق، مندرسة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "in southern Iraq; no longer in existence."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0638"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/912808>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Kufa>  ;
- lawd:hasName [
-lawd:primaryForm "al-Kūfa"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܟܘܦܗ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܥܰܐܩܘܠܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "الكوفة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "عاقولا"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Kufa"@en  ;];
- lawd:hasName [
-lawd:variantForm "Aqula"@en  ;];
- lawd:hasName [
-lawd:variantForm "الكُوفة"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/452/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/452/tei>  .
+ rdfs:label "in southern Iraq; no longer in existence."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0638" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/912808> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Kufa> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/452/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/452/tei> .

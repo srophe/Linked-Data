@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/333> a lawd:Place ;
-rdfs:label "Kharshana — ܟܪܫܢܐ"  ;
+ rdfs:label "Kharshana — ܟܪܫܢܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Kharshana"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܟܪܫܢܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܪܫܢܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "خرشنة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "خَرْشنة"@ar ;];
  dcterms:description [
-rdfs:label "ܡܕܺܝܢܬܘܽܢܳܝܬܐ ܒܩܘܽܪܒܐ ܕܡܺܝܠܝܛܝܢܝ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܺܝܢܬܘܽܢܳܝܬܐ ܒܩܘܽܪܒܐ ܕܡܺܝܠܝܛܝܢܝ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة قرب ملطية"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة قرب ملطية"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town near Melitene."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1095"  ;
- lawd:hasName [
-lawd:primaryForm "Kharshana"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܟܪܫܢܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܒܪܫܢܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "خرشنة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "خَرْشنة"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/333/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/333/tei>  .
+ rdfs:label "a town near Melitene."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1095" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/333/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/333/tei> .

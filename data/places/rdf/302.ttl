@@ -11,36 +11,37 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/302> a lawd:Place ;
-rdfs:label "Beth Sheriye — ܒܝܬ ܫܐܪ̈ܝܐ"  ;
+ rdfs:label "Beth Sheriye — ܒܝܬ ܫܐܪ̈ܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Beth Sheriye"@en ;];
+ lawd:hasName [
+ lawd:variantForm "al-Bsheriyyeh"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Bsheriyyeh"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܝܬ ܫܐܪ̈ܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܶܝܬ ܫܶܐܪ̈ܺܝܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܶܫܶܝܪܺܝܶܗ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "بشيريّة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "اللام"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Bushayriyya"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Bshīr"@en ;];
  dcterms:description [
-rdfs:label "ܘܝܰܘܡܳܢ ܡܶܫܬܰܡܗܐ ܒܶܫܶܝܪܺܝܶܗ ܠܓܰܪܒܰܝ ܐܳܡܝܕ. ܡܰܪܕܶܐ ܬܪܝܢ ܝܰܘܡ̈ܝܢ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܘܝܰܘܡܳܢ ܡܶܫܬܰܡܗܐ ܒܶܫܶܝܪܺܝܶܗ ܠܓܰܪܒܰܝ ܐܳܡܝܕ. ܡܰܪܕܶܐ ܬܪܝܢ ܝܰܘܡ̈ܝܢ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "ناحية في شمالي ديار بكر مرحلة يومين عنها"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ناحية في شمالي ديار بكر مرحلة يومين عنها"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town two day journey north of Diyarbakir."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1526"  ;
- lawd:hasName [
-lawd:primaryForm "Beth Sheriye"@en  ;];
- lawd:hasName [
-lawd:variantForm "al-Bsheriyyeh"@en  ;];
- lawd:hasName [
-lawd:variantForm "Bsheriyyeh"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܝܬ ܫܐܪ̈ܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܒܶܝܬ ܫܶܐܪ̈ܺܝܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܒܶܫܶܝܪܺܝܶܗ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "بشيريّة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "اللام"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Bushayriyya"@en  ;];
- lawd:hasName [
-lawd:variantForm "Bshīr"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/302/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/302/tei>  .
+ rdfs:label "a town two day journey north of Diyarbakir."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1526" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/302/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/302/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/724> .

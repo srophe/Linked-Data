@@ -11,20 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/701> a lawd:Place ;
-rdfs:label "London — ܠܘܢܕܘܢ"  ;
-dcterms:description "The capital city of the ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/79574>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/London>  ;
+ rdfs:label "London — ܠܘܢܕܘܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "London"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܠܘܢܕܘܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "لندن"@ar ;];
+ skos:related <http://syriaca.org/place/700> ;
+ dcterms:description "The capital city of the ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/79574> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/London> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/701/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/701/tei> ;
 geo:location [
-geo:lat "51.513335"  ;
-geo:long "51.513335"  ;];
- lawd:hasName [
-lawd:primaryForm "London"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܠܘܢܕܘܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "لندن"@ar  ;];
- lawd:hasName [
-lawd:variantForm "United Kingdom"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/701/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/701/tei>  .
+ geo:lat "51.513335" ;
+ geo:long "-0.088949" ;].

@@ -11,27 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/428> a lawd:Place ;
-rdfs:label "Sārī — ܐܣܬܝܪ"  ;
-dcterms:description "A village in ."  ;
+ rdfs:label "Sārī — ܐܣܬܝܪ" ;
  lawd:hasName [
-lawd:primaryForm "Sārī"@en  ;];
+ lawd:primaryForm "Sārī"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܐܣܬܝܪ"@syr  ;];
+ lawd:primaryForm "ܐܣܬܝܪ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܣܰܐܪܗ"@syr-Syrj  ;];
+ lawd:variantForm "ܣܰܐܪܗ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "ܐܶܣܬܝܪ"@syr-Syrj  ;];
+ lawd:variantForm "ܐܶܣܬܝܪ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "ساري"@ar  ;];
+ lawd:variantForm "ساري"@ar ;];
  lawd:hasName [
-lawd:variantForm "ستير"@ar  ;];
+ lawd:variantForm "ستير"@ar ;];
  lawd:hasName [
-lawd:variantForm "Sari Awastir"@en  ;];
+ lawd:variantForm "Sari Awastir"@en ;];
  lawd:hasName [
-lawd:variantForm "Ṭur Abdin"@en-xsrp1  ;];
+ lawd:variantForm "Ṭur Abdin"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Ṭur ʿAbdin"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/428/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/428/tei>  .
+ lawd:variantForm "Ṭur ‘Abdin"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/221> ;
+ dcterms:description "A village in ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/428/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/428/tei> .

@@ -11,33 +11,31 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/346> a lawd:Place ;
-rdfs:label "St. Barbara — ܕܝܪܐ ܕܩܕܝܫܬܐ ܒܪܒܪܐ"  ;
-dcterms:description "A monastery near ."  ;
+ rdfs:label "St. Barbara — ܕܝܪܐ ܕܩܕܝܫܬܐ ܒܪܒܪܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "St. Barbara"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܩܕܝܫܬܐ ܒܪܒܪܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܐ ܕܩܰܕܝܫܬܳܐ ܒܰܪܒܰܪܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير القديسة بربارة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Barbara Monastery"@en ;];
+ skos:related <http://syriaca.org/place/78> ;
+ skos:related <http://syriaca.org/place/551> ;
+ dcterms:description "A monastery near ." ;
  dcterms:description [
-rdfs:label "ܒܛܘܪܳܐ ܕܐܘܪܗܳܝ ܐܶܫܬܰܬܰܐܣ ܗܰܘ ܕܰܝܪܳܐ ܐܚܪܺܢܳܐ ܒܗ ܒܰܫܡܳܐ ܒܫܘܪܳܝ ܕܳܪܳܐ ܚܡܝܫܳܝܳܐ. ܘܐܶܬܕܰܟܪܳܗ̇ ܡܰܟܬܰܒܙܰܒܢ̈ܐ ܥܕܰܡܐ ܠܰܫܢܰܬ 1191 ܘܒܗ ܐܶܬܢܰܦܩ ܒܰܣܝܺܠܝܘܣ ܦܐܪܣ ܡܝܺܛܪܘܦܘܠܝܛܳܐ ܕܐܘܪܗܳܝ 1204."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܛܘܪܳܐ ܕܐܘܪܗܳܝ ܐܶܫܬܰܬܰܐܣ ܗܰܘ ܕܰܝܪܳܐ ܐܚܪܺܢܳܐ ܒܗ ܒܰܫܡܳܐ ܒܫܘܪܳܝ ܕܳܪܳܐ ܚܡܝܫܳܝܳܐ. ܘܐܶܬܕܰܟܪܳܗ̇ ܡܰܟܬܰܒܙܰܒܢ̈ܐ ܥܕܰܡܐ ܠܰܫܢܰܬ 1191 ܘܒܗ ܐܶܬܢܰܦܩ ܒܰܣܝܺܠܝܘܣ ܦܐܪܣ ܡܝܺܛܪܘܦܘܠܝܛܳܐ ܕܐܘܪܗܳܝ 1204."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في جبل الرها وطدت اركانه وديراً آخر بالاسم عينه صدر القرن الخامس ونوّه به التاريخ حتى سنة 1191 وفيه تخرج باسيليوس فارس مطران الرها +1204"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في جبل الرها وطدت اركانه وديراً آخر بالاسم عينه صدر القرن الخامس ونوّه به التاريخ حتى سنة 1191 وفيه تخرج باسيليوس فارس مطران الرها +1204"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "in the Mountain of Edessa. There is another monastery by the same name. This one was established in the beginning of the fifth century, but was not mentioned by historians until 1191. From it graduated Basilius Fāris, metropolitan of Edessa (d. 1204)."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1149"  ;
- lawd:hasName [
-lawd:primaryForm "St. Barbara"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܩܕܝܫܬܐ ܒܪܒܪܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܩܰܕܝܫܬܳܐ ܒܰܪܒܰܪܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير القديسة بربارة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Barbara Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Edessa"  ;];
- lawd:hasName [
-lawd:variantForm "St. Barbara"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/346/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/346/tei>  ;
-dcterms:relation <http://syriaca.org/place/551>  ;
-dcterms:relation <http://syriaca.org/place/1487>  .
+ rdfs:label "in the Mountain of Edessa. There is another monastery by the same name. This one was established in the beginning of the fifth century, but was not mentioned by historians until 1191. From it graduated Basilius Fāris, metropolitan of Edessa (d. 1204)."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1149" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/346/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/346/tei> ;
+ dcterms:relation <http://syriaca.org/place/551> ;
+ dcterms:relation <http://syriaca.org/place/1487> .

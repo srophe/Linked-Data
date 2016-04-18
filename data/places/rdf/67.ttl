@@ -11,32 +11,32 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/67> a lawd:Place ;
-rdfs:label "Dara — ܕܪܐ"  ;
-dcterms:description "A Roman city between Mardin and Nisibis."  ;
+ rdfs:label "Dara — ܕܪܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dara"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܪܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܳܪܳܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دارا"@ar ;];
+ dcterms:description "A Roman city between Mardin and Nisibis." ;
  dcterms:description [
-rdfs:label "ܡܕܝܺܢܬܐ ܗܝ ܕܒܰܦܫܦܘܽܠܐ ܕܛܘܪܐ ܒܶܝܬ ܢܨܺܝܒܝܺܢ ܠܡܰܪܕܺܝܢ ܐܶܬܝܰܬܒܰܬ ܫܢܰܬ 506 ܘܩܰܘܝܰܬ ܟܘܪܣܝܳܐ ܐܶܦܝܣܩܘܦܳܝܐ ܠܣܘܪ̈ܝܳܝܐ ܥܕܡܐ ܠܡܶܨܥܝ̈ܬܗ ܕܕܳܪܳܐ ܕܝ̄ܒ ܘܝܰܘܡܳܢ ܩܪܺܝܬܳܐ ܗܝ ܙܥܘܽܪܬܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܝܺܢܬܐ ܗܝ ܕܒܰܦܫܦܘܽܠܐ ܕܛܘܪܐ ܒܶܝܬ ܢܨܺܝܒܝܺܢ ܠܡܰܪܕܺܝܢ ܐܶܬܝܰܬܒܰܬ ܫܢܰܬ 506 ܘܩܰܘܝܰܬ ܟܘܪܣܝܳܐ ܐܶܦܝܣܩܘܦܳܝܐ ܠܣܘܪ̈ܝܳܝܐ ܥܕܡܐ ܠܡܶܨܥܝ̈ܬܗ ܕܕܳܪܳܐ ܕܝ̄ܒ ܘܝܰܘܡܳܢ ܩܪܺܝܬܳܐ ܗܝ ܙܥܘܽܪܬܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة في لحف جبل بين نصيبين وماردين مُصّرت عام 506م وظلت كرسيا اسقفيا للسريان حتى اواسط المئة الثانية عشرة وهي اليوم قرية حقيرة"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة في لحف جبل بين نصيبين وماردين مُصّرت عام 506م وظلت كرسيا اسقفيا للسريان حتى اواسط المئة الثانية عشرة وهي اليوم قرية حقيرة"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town situated at the foot of the mountain between Nisibin and Mardin. Built in 506, it remained a seat of Syrian bishops until the middle of the twelfth century. Today it is an insignificant village."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0505"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874444>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Dara_(Mesopotamia)>  ;
+ rdfs:label "a town situated at the foot of the mountain between Nisibin and Mardin. Built in 506, it remained a seat of Syrian bishops until the middle of the twelfth century. Today it is an insignificant village."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0505" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874444> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Dara_(Mesopotamia)> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/67/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/67/tei> ;
 geo:location [
-geo:lat "37.17899"  ;
-geo:long "37.17899"  ;];
- lawd:hasName [
-lawd:primaryForm "Dara"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܪܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܳܪܳܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دارا"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/67/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/67/tei>  ;
-dcterms:relation <http://syriaca.org/place/1143>  ;
-dcterms:relation <http://syriaca.org/place/1234>  .
+ geo:lat "37.17899" ;
+ geo:long "40.95491" ;];
+ dcterms:relation <http://syriaca.org/place/1143> ;
+ dcterms:relation <http://syriaca.org/place/1234> .

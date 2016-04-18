@@ -11,13 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/792> a lawd:Place ;
-rdfs:label "Walṭo"  ;
+ rdfs:label "Walṭo" ;
  lawd:hasName [
-lawd:primaryForm "Walṭo"@en  ;];
+ lawd:primaryForm "Walṭo"@en ;];
  lawd:hasName [
-lawd:variantForm "Walto"@en  ;];
+ lawd:variantForm "Walto"@en ;];
  lawd:hasName [
-lawd:variantForm "Walṭō"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/792/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/792/tei>  ;
-dcterms:relation <http://syriaca.org/place/2410>  .
+ lawd:variantForm "Walṭō"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/792/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/792/tei> ;
+ dcterms:relation <http://syriaca.org/place/2410> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

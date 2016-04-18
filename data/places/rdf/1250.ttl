@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1250> a lawd:Place ;
-rdfs:label "Guske"  ;
+ rdfs:label "Guske" ;
  lawd:hasName [
-lawd:primaryForm "Guske"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1250/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1250/tei>  .
+ lawd:primaryForm "Guske"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1250/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1250/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/766> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1691> a lawd:Place ;
-rdfs:label "Semmel"  ;
+ rdfs:label "Semmel" ;
  lawd:hasName [
-lawd:primaryForm "Semmel"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1691/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1691/tei>  .
+ lawd:primaryForm "Semmel"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1691/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1691/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/742> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

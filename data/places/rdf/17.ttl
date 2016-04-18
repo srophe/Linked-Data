@@ -11,32 +11,32 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/17> a lawd:Place ;
-rdfs:label "Akhlat — ܟܠܐܛ"  ;
-dcterms:description "A town on the northwestern coast of Lake Van in eastern Anatolia."  ;
-dcterms:temporal "0998"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874409>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Ahlat>  ;
+ rdfs:label "Akhlat — ܟܠܐܛ" ;
+ lawd:hasName [
+ lawd:primaryForm "Akhlat"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Khilat"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܟܠܐܛ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܟܰܠܐܛ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "خلاط"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Khalāṭ"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Ḥalāṭ"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Aḥlāṭ"@en ;];
+ lawd:hasName [
+ lawd:variantForm "خِلاط"@ar ;];
+ dcterms:description "A town on the northwestern coast of Lake Van in eastern Anatolia." ;
+ dcterms:temporal "0998" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874409> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Ahlat> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/17/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/17/tei> ;
 geo:location [
-geo:lat "38.752778"  ;
-geo:long "38.752778"  ;];
- lawd:hasName [
-lawd:primaryForm "Akhlat"@en  ;];
- lawd:hasName [
-lawd:variantForm "Khilat"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܟܠܐܛ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܟܰܠܐܛ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "خلاط"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Khalāṭ"@en  ;];
- lawd:hasName [
-lawd:variantForm "Ḥalāṭ"@en  ;];
- lawd:hasName [
-lawd:variantForm "Aḥlāṭ"@en  ;];
- lawd:hasName [
-lawd:variantForm "خِلاط"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/17/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/17/tei>  ;
-dcterms:relation <http://syriaca.org/place/2312>  .
+ geo:lat "38.752778" ;
+ geo:long "42.494444" ;];
+ dcterms:relation <http://syriaca.org/place/2312> .

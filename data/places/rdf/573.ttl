@@ -11,17 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/573> a lawd:Place ;
-rdfs:label "America — ܐܡܪܝܟܐ"  ;
-dcterms:description "The United States of America, a country in North America."  ;
-dcterms:temporal "1776"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/United_States>  ;
+ rdfs:label "America — ܐܡܪܝܟܐ" ;
  lawd:hasName [
-lawd:primaryForm "America"@en  ;];
+ lawd:primaryForm "America"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܐܡܪܝܟܐ"@syr  ;];
+ lawd:primaryForm "ܐܡܪܝܟܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "الولايات المتحدة"@ar  ;];
+ lawd:variantForm "الولايات المتحدة"@ar ;];
  lawd:hasName [
-lawd:variantForm "United States"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/573/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/573/tei>  .
+ lawd:variantForm "United States"@en ;];
+ dcterms:description "The United States of America, a country in North America." ;
+ dcterms:temporal "1776" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/United_States> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/573/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/573/tei> .

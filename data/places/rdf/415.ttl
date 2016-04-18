@@ -11,37 +11,37 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/415> a lawd:Place ;
-rdfs:label "Susa — ܫܘܫ"  ;
+ rdfs:label "Susa — ܫܘܫ" ;
+ lawd:hasName [
+ lawd:primaryForm "Susa"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܫܘܫ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܫܘܫܰܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "السوس"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "شوشان"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Sus"@en ;];
+ lawd:hasName [
+ lawd:variantForm "السُوْس"@ar ;];
  dcterms:description [
-rdfs:label "ܐܰܬܪܰܐ ܗܘ ܒܟܳܘܙܣܬܰܐܢ ܐܰܘ ܒܰܐܬܪܐ ܕܗܘܙܳܝ̈ܐ ܘܗܽܘܝܘ ܫܘܫܰܢ ܥܰܬܝܩܬܳܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܰܐ ܗܘ ܒܟܳܘܙܣܬܰܐܢ ܐܰܘ ܒܰܐܬܪܐ ܕܗܘܙܳܝ̈ܐ ܘܗܽܘܝܘ ܫܘܫܰܢ ܥܰܬܝܩܬܳܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة بخوزستان او الاهواز وهي شوشان القديمة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة بخوزستان او الاهواز وهي شوشان القديمة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town in Khuzistan (Ahwaz); the ancient Susa."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-4000"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/912936>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Susa>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Shush,_Iran>  ;
+ rdfs:label "a town in Khuzistan (Ahwaz); the ancient Susa."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-4000" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/912936> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Susa> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Shush,_Iran> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/415/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/415/tei> ;
 geo:location [
-geo:lat "32.1887935"  ;
-geo:long "32.1887935"  ;];
- lawd:hasName [
-lawd:primaryForm "Susa"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܫܘܫ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܫܘܫܰܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "السوس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "شوشان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Sus"@en  ;];
- lawd:hasName [
-lawd:variantForm "السُوْس"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/415/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/415/tei>  ;
-dcterms:relation <http://syriaca.org/place/2381>  .
+ geo:lat "32.1887935" ;
+ geo:long "48.2537285" ;];
+ dcterms:relation <http://syriaca.org/place/2381> .

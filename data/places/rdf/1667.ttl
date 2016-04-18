@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1667> a lawd:Place ;
-rdfs:label "Samsalūi"  ;
+ rdfs:label "Samsalūi" ;
  lawd:hasName [
-lawd:primaryForm "Samsalūi"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1667/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1667/tei>  .
+ lawd:primaryForm "Samsalūi"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1667/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1667/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/839> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

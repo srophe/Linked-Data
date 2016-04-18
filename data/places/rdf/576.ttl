@@ -11,19 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/576> a lawd:Place ;
-rdfs:label "Armenia — ܐܪܡܢܝܐ"  ;
-dcterms:description "A mountainous region between the Caspian Sea and eastern Anatolia, south of Georgia and north of Kurdistan."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874350>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Armenian_Highland>  ;
+ rdfs:label "Armenia — ܐܪܡܢܝܐ" ;
  lawd:hasName [
-lawd:primaryForm "Armenia"@en  ;];
+ lawd:primaryForm "Armenia"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܐܪܡܢܝܐ"@syr  ;];
+ lawd:primaryForm "ܐܪܡܢܝܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܐܰܪܡܶܢܺܝܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܐܰܪܡܶܢܺܝܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "ارمينية"@ar  ;];
+ lawd:variantForm "ارمينية"@ar ;];
  lawd:hasName [
-lawd:variantForm "إِرْمِيْنِيَة"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/576/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/576/tei>  .
+ lawd:variantForm "إِرْمِيْنِيَة"@ar ;];
+ dcterms:description "A mountainous region between the Caspian Sea and eastern Anatolia, south of Georgia and north of Kurdistan." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874350> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Armenian_Highland> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/576/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/576/tei> .

@@ -11,20 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1513> a lawd:Place ;
-rdfs:label "Dayr al-Athārib — ܕܝܪܐ ܕܐܬܐܪܒ"  ;
-dcterms:description "A monastery near ."  ;
-dcterms:temporal "0727"  ;
+ rdfs:label "Dayr al-Athārib — ܕܝܪܐ ܕܐܬܐܪܒ" ;
  lawd:hasName [
-lawd:primaryForm "Dayr al-Athārib"@en  ;];
+ lawd:primaryForm "Dayr al-Athārib"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܐܬܐܪܒ"@syr  ;];
+ lawd:primaryForm "ܕܝܪܐ ܕܐܬܐܪܒ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܐܰܬܐܪܒ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܰܝܪܐ ܕܐܰܬܐܪܒ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "دير الاثارب"@ar  ;];
+ lawd:variantForm "دير الاثارب"@ar ;];
  lawd:hasName [
-lawd:variantForm "Monastery of Atharb"@en  ;];
- lawd:hasName [
-lawd:variantForm "Aleppo"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1513/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1513/tei>  .
+ lawd:variantForm "Monastery of Atharb"@en ;];
+ skos:related <http://syriaca.org/place/18> ;
+ dcterms:description "A monastery near ." ;
+ dcterms:temporal "0727" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1513/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1513/tei> .

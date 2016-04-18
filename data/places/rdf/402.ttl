@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/402> a lawd:Place ;
-rdfs:label "Dayr Hābīl — ܕܝܪܐ ܕܗܒܝܠ"  ;
+ rdfs:label "Dayr Hābīl — ܕܝܪܐ ܕܗܒܝܠ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dayr Hābīl"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܗܒܝܠ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܗܳܒܝܠ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير هابيل"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Dayr Hābil"@en ;];
  dcterms:description [
-rdfs:label "ܩܪܺܝܬܳܐ ܗܝ ܕܰܒܟܘܪܐ ܕܰܣܥܶܪܬ ܠܐ ܣܳܒܰܪ ܐܢܳܐ ܕܥܰܡܝܪܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܩܪܺܝܬܳܐ ܗܝ ܕܰܒܟܘܪܐ ܕܰܣܥܶܪܬ ܠܐ ܣܳܒܰܪ ܐܢܳܐ ܕܥܰܡܝܪܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "قرية في كورة سعرت لا اظنها عامرة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "قرية في كورة سعرت لا اظنها عامرة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village in the province of Seʿert, which I do not believe is inhabited."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1943"  ;
- lawd:hasName [
-lawd:primaryForm "Dayr Hābīl"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܗܒܝܠ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܗܳܒܝܠ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير هابيل"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Dayr Hābil"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/402/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/402/tei>  .
+ rdfs:label "a village in the province of Seʿert, which I do not believe is inhabited."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1943" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/402/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/402/tei> .

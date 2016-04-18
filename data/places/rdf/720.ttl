@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/720> a lawd:Place ;
-rdfs:label "Media"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/903080>  ;
-geo:location [
-geo:lat "34.5"  ;
-geo:long "34.5"  ;];
+ rdfs:label "Media" ;
  lawd:hasName [
-lawd:primaryForm "Media"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/720/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/720/tei>  .
+ lawd:primaryForm "Media"@en ;];
+ skos:exactMatch <http://pleiades.stoa.org/places/903080> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/720/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/720/tei> ;
+geo:location [
+ geo:lat "34.5" ;
+ geo:long "46.5" ;].

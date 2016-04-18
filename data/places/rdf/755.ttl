@@ -11,8 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/755> a lawd:Place ;
-rdfs:label "Ḥītr"  ;
+ rdfs:label "Ḥītr" ;
  lawd:hasName [
-lawd:primaryForm "Ḥītr"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/755/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/755/tei>  .
+ lawd:primaryForm "Ḥītr"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/755/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/755/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/993> .

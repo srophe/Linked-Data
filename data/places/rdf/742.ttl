@@ -11,11 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/742> a lawd:Place ;
-rdfs:label "Duhok"  ;
+ rdfs:label "Duhok" ;
  lawd:hasName [
-lawd:primaryForm "Duhok"@en  ;];
+ lawd:primaryForm "Duhok"@en ;];
  lawd:hasName [
-lawd:variantForm "Dohuk"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/742/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/742/tei>  ;
-dcterms:relation <http://syriaca.org/place/76>  .
+ lawd:variantForm "Dohuk"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/742/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/742/tei> ;
+ dcterms:relation <http://syriaca.org/place/76> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

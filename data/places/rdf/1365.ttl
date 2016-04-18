@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1365> a lawd:Place ;
-rdfs:label "Kānifallā"  ;
+ rdfs:label "Kānifallā" ;
  lawd:hasName [
-lawd:primaryForm "Kānifallā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1365/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1365/tei>  .
+ lawd:primaryForm "Kānifallā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1365/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1365/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/777> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

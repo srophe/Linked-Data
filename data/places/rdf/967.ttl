@@ -11,10 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/967> a lawd:Place ;
-rdfs:label "Barbitha"  ;
+ rdfs:label "Barbitha" ;
  lawd:hasName [
-lawd:primaryForm "Barbitha"@en  ;];
+ lawd:primaryForm "Barbitha"@en ;];
  lawd:hasName [
-lawd:variantForm "Barbīṯā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/967/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/967/tei>  .
+ lawd:variantForm "Barbīṯā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/967/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/967/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/770> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

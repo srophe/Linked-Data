@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/475> a lawd:Place ;
-rdfs:label "Kokhe"  ;
- dcterms:description [
-rdfs:label "Also known as Veh-Ardashir or New Seleucia. Located on the Tigris, south of modern Baghdad, the name Kokhe is Aramaic in origin."@en  ;];
- dcterms:description [
-rdfs:label "321. Kokhe"@en  ;];
-dcterms:temporal "0224"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/894178>  ;
-geo:location [
-geo:lat "33.09914"  ;
-geo:long "33.09914"  ;];
+ rdfs:label "Kokhe" ;
  lawd:hasName [
-lawd:primaryForm "Kokhe"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/475/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/475/tei>  ;
-dcterms:relation <http://syriaca.org/place/1855>  .
+ lawd:primaryForm "Kokhe"@en ;];
+ dcterms:description [
+ rdfs:label "Also known as Veh-Ardashir or New Seleucia. Located on the Tigris, south of modern Baghdad, the name Kokhe is Aramaic in origin."@en ;];
+ dcterms:description [
+ rdfs:label "321. Kokhe"@en ;];
+ dcterms:temporal "0224" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/894178> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/475/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/475/tei> ;
+geo:location [
+ geo:lat "33.09914" ;
+ geo:long "44.551979" ;];
+ dcterms:relation <http://syriaca.org/place/1855> .

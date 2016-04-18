@@ -11,19 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/146> a lawd:Place ;
-rdfs:label "Olba"  ;
-dcterms:description "A town of north of ."  ;
-dcterms:temporal "0024"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/648725>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Olba_(ancient_city)>  ;
+ rdfs:label "Olba" ;
+ lawd:hasName [
+ lawd:primaryForm "Olba"@en ;];
+ skos:related <http://syriaca.org/place/99> ;
+ skos:related <http://syriaca.org/place/174> ;
+ dcterms:description "A town of north of ." ;
+ dcterms:temporal "0024" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/648725> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Olba_(ancient_city)> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/146/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/146/tei> ;
 geo:location [
-geo:lat "36.7"  ;
-geo:long "36.7"  ;];
- lawd:hasName [
-lawd:primaryForm "Olba"@en  ;];
- lawd:hasName [
-lawd:variantForm "Isauria"  ;];
- lawd:hasName [
-lawd:variantForm "Seleucia"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/146/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/146/tei>  .
+ geo:lat "36.7" ;
+ geo:long "33.91667" ;].

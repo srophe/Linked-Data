@@ -11,14 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/600> a lawd:Place ;
-rdfs:label "Jordan valley"  ;
-dcterms:description "The valley which contains the ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Jordan_Valley_(Middle_East)>  ;
+ rdfs:label "Jordan valley" ;
  lawd:hasName [
-lawd:primaryForm "Jordan valley"@en  ;];
+ lawd:primaryForm "Jordan valley"@en ;];
  lawd:hasName [
-lawd:variantForm "الغَوْر"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Jordan River"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/600/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/600/tei>  .
+ lawd:variantForm "الغَوْر"@ar ;];
+ skos:related <http://syriaca.org/place/599> ;
+ dcterms:description "The valley which contains the ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Jordan_Valley_(Middle_East)> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/600/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/600/tei> .

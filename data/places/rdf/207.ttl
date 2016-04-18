@@ -11,23 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/207> a lawd:Place ;
-rdfs:label "Van"  ;
-dcterms:description "A city southeast of ."  ;
-dcterms:temporal "-0465"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874771>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Van,_Turkey>  ;
+ rdfs:label "Van" ;
+ lawd:hasName [
+ lawd:primaryForm "Van"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Vān"@en ;];
+ lawd:hasName [
+ lawd:variantForm "وان"@ar ;];
+ skos:related <http://syriaca.org/place/117> ;
+ dcterms:description "A city southeast of ." ;
+ dcterms:temporal "-0465" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874771> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Van,_Turkey> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/207/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/207/tei> ;
 geo:location [
-geo:lat "38.494167"  ;
-geo:long "38.494167"  ;];
- lawd:hasName [
-lawd:primaryForm "Van"@en  ;];
- lawd:hasName [
-lawd:variantForm "Vān"@en  ;];
- lawd:hasName [
-lawd:variantForm "وان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Lake Van"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/207/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/207/tei>  ;
-dcterms:relation <http://syriaca.org/place/791>  ;
-dcterms:relation <http://syriaca.org/place/2407>  .
+ geo:lat "38.494167" ;
+ geo:long "43.38" ;];
+ dcterms:relation <http://syriaca.org/place/791> ;
+ dcterms:relation <http://syriaca.org/place/2407> .

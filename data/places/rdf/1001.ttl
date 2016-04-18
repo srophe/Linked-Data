@@ -11,10 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1001> a lawd:Place ;
-rdfs:label "Beth Arijai"  ;
+ rdfs:label "Beth Arijai" ;
  lawd:hasName [
-lawd:primaryForm "Beth Arijai"@en  ;];
+ lawd:primaryForm "Beth Arijai"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Arijai"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1001/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1001/tei>  .
+ lawd:variantForm "Beṯ Arijai"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1001/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1001/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/251> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

@@ -11,18 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1456> a lawd:Place ;
-rdfs:label "Ḥawrā — ܚܘܪܐ"  ;
-dcterms:description "A village near Serugh."  ;
-dcterms:temporal "0471"  ;
+ rdfs:label "Ḥawrā — ܚܘܪܐ" ;
  lawd:hasName [
-lawd:primaryForm "Ḥawrā"@en  ;];
+ lawd:primaryForm "Ḥawrā"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܚܘܪܐ"@syr  ;];
+ lawd:primaryForm "ܚܘܪܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܚܰܘܪܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܚܰܘܪܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "حَوْرا"@ar  ;];
+ lawd:variantForm "حَوْرا"@ar ;];
  lawd:hasName [
-lawd:variantForm "حَوْرة"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1456/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1456/tei>  .
+ lawd:variantForm "حَوْرة"@ar ;];
+ dcterms:description "A village near Serugh." ;
+ dcterms:temporal "0471" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1456/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1456/tei> .

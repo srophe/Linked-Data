@@ -11,27 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/390> a lawd:Place ;
-rdfs:label "Dayro d-Madnḥoye — ܕܝܪܐ ܕܡܕܢܚܝ̈ܐ"  ;
+ rdfs:label "Dayro d-Madnḥoye — ܕܝܪܐ ܕܡܕܢܚܝ̈ܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dayro d-Madnḥoye"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܕܢܚܝ̈ܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܡܰܕܢܚܳܝ̈ܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير المشارقة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Monastery of the Easterners"@en ;];
  dcterms:description [
-rdfs:label "ܒܛܘܪܳܐ ܕܐܘܪܗܳܝ ܪܰܒ ܘܰܫܛܝ̣ܚ ܒܕܰܝܪ̈ܬܳܗ̇. ܐܶܫܬܬܰܐܣ ܒܡܰܐܬܐ ܪܒܝܥܳܝܬܐ. ܘܰܪܕܰܦ ܠܕܰܝܪ̈ܝܰܘܗܝ ܕܘܡܝܛܝܰܐܢܶܐ ܡܝܠܝܛܝܢܳܝܐ ܘܝܰܘܢܳܝܐ ܘܰܩܛܠ ܡܶܢܗܘܢ ܐܝܟ ܐܰܪܒܰܥܡܳܐܐ ܫܢܰܬ 600 ܥܰܠ ܕܣܰܩܘܒ̈ܠܳܝܺܝܢ ܠܪܶܥܝܳܢܗ. ܥܰܕܪ ܠܥܺܕܬܳܐ ܒܰܚܕܰܥܣܪ ܐܶܦܝܣܩܘܦ̈ܐ. ܘܩܰܘܝ ܟܰܕ ܥܰܡܝܪ ܠܡܶܨܥܳܝ̈ܬܗ ܕܡܰܐܬܐ ܕܰܬܠܳܬܥܣܪ̈ܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܛܘܪܳܐ ܕܐܘܪܗܳܝ ܪܰܒ ܘܰܫܛܝ̣ܚ ܒܕܰܝܪ̈ܬܳܗ̇. ܐܶܫܬܬܰܐܣ ܒܡܰܐܬܐ ܪܒܝܥܳܝܬܐ. ܘܰܪܕܰܦ ܠܕܰܝܪ̈ܝܰܘܗܝ ܕܘܡܝܛܝܰܐܢܶܐ ܡܝܠܝܛܝܢܳܝܐ ܘܝܰܘܢܳܝܐ ܘܰܩܛܠ ܡܶܢܗܘܢ ܐܝܟ ܐܰܪܒܰܥܡܳܐܐ ܫܢܰܬ 600 ܥܰܠ ܕܣܰܩܘܒ̈ܠܳܝܺܝܢ ܠܪܶܥܝܳܢܗ. ܥܰܕܪ ܠܥܺܕܬܳܐ ܒܰܚܕܰܥܣܪ ܐܶܦܝܣܩܘܦ̈ܐ. ܘܩܰܘܝ ܟܰܕ ܥܰܡܝܪ ܠܡܶܨܥܳܝ̈ܬܗ ܕܡܰܐܬܐ ܕܰܬܠܳܬܥܣܪ̈ܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "في جبل الرها من اعظم ادياره واجلها وطدت اركانه في المئة الرابعة، واضطهد دومطيان الملطي اليوناني رهبانه وقتل منهم نحواً من اربعمائة لمخالفتهم مذهبه سنة 600، نجد الكنيسة باحد عشر اسقفاً وظل عامرا الى اواسط المئة الثالثة عشرة."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "في جبل الرها من اعظم ادياره واجلها وطدت اركانه في المئة الرابعة، واضطهد دومطيان الملطي اليوناني رهبانه وقتل منهم نحواً من اربعمائة لمخالفتهم مذهبه سنة 600، نجد الكنيسة باحد عشر اسقفاً وظل عامرا الى اواسط المئة الثالثة عشرة."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "one of the biggest and most important monasteries in the Mountain of Edessa, was built in the fourth century. In 600 Domitian, the Greek of Melitene, persecuted and killed about four hundred of its monks for holding a belief contrary to his. It remained in existence until the middle of the thirteenth century and produced eleven bishops."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0600"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/662181>  ;
- lawd:hasName [
-lawd:primaryForm "Dayro d-Madnḥoye"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܕܢܚܝ̈ܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܡܰܕܢܚܳܝ̈ܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير المشارقة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Monastery of the Easterners"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/390/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/390/tei>  .
+ rdfs:label "one of the biggest and most important monasteries in the Mountain of Edessa, was built in the fourth century. In 600 Domitian, the Greek of Melitene, persecuted and killed about four hundred of its monks for holding a belief contrary to his. It remained in existence until the middle of the thirteenth century and produced eleven bishops."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0600" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/662181> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/390/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/390/tei> .

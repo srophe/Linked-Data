@@ -11,30 +11,30 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/468> a lawd:Place ;
-rdfs:label "Wank — ܘܐܢܟ"  ;
+ rdfs:label "Wank — ܘܐܢܟ" ;
+ lawd:hasName [
+ lawd:primaryForm "Wank"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܘܐܢܟ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܘܰܐܢܟ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܰܐܒܘ ܓܰܐܠܶܒ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ونك"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "دير ابو غالب"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Dayr Abu Ghalib"@en ;];
  dcterms:description [
-rdfs:label "ܡܶܢ ܩܘܼܪ̈ܝܳܐ ܕܓܰܪܓܰܪ. ܘܡܶܬܐܡܰܪ ܠܳܗ̇ ܕܰܝܪܳܐ ܕܰܐܒܘ ܓܰܐܠܶܒ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܶܢ ܩܘܼܪ̈ܝܳܐ ܕܓܰܪܓܰܪ. ܘܡܶܬܐܡܰܪ ܠܳܗ̇ ܕܰܝܪܳܐ ܕܰܐܒܘ ܓܰܐܠܶܒ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "من قرى كركر ويقال لها ايضا دير ابو غالب."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "من قرى كركر ويقال لها ايضا دير ابو غالب."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a village in the province of Karkar, also called Dayr Abu Ghalib."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1566"  ;
- lawd:hasName [
-lawd:primaryForm "Wank"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܘܐܢܟ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܘܰܐܢܟ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܰܐܒܘ ܓܰܐܠܶܒ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ونك"@ar  ;];
- lawd:hasName [
-lawd:variantForm "دير ابو غالب"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Dayr Abu Ghalib"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/468/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/468/tei>  .
+ rdfs:label "a village in the province of Karkar, also called Dayr Abu Ghalib."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1566" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/468/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/468/tei> .

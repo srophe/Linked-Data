@@ -11,27 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/137> a lawd:Place ;
-rdfs:label "Midyat — ܡܕܝܕ"  ;
+ rdfs:label "Midyat — ܡܕܝܕ" ;
+ lawd:hasName [
+ lawd:primaryForm "Midyat"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Medyad"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܡܕܝܕ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܡܶܕܝܰܕ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "مذيات"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Miḏyāt"@en ;];
  dcterms:description [
-rdfs:label "Principal town of Ṭur ʿAbdin, situated at the geographical center of the region where the main east-west road from Mardin to Gozarto (Cizre) and the north-south road from Ḥesno d-Kifo (Hasankeyf) to Nisibis meet."@en  ;];
+ rdfs:label "Principal town of Ṭur ʿAbdin, situated at the geographical center of the region where the main east-west road from Mardin to Gozarto (Cizre) and the north-south road from Ḥesno d-Kifo (Hasankeyf) to Nisibis meet."@en ;];
  dcterms:description [
-rdfs:label "376. Midyat"@en  ;];
-dcterms:temporal "-0859"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Midyat>  ;
+ rdfs:label "376. Midyat"@en ;];
+ dcterms:temporal "-0859" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Midyat> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/137/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/137/tei> ;
 geo:location [
-geo:lat "37.416667"  ;
-geo:long "37.416667"  ;];
- lawd:hasName [
-lawd:primaryForm "Midyat"@en  ;];
- lawd:hasName [
-lawd:variantForm "Medyad"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܡܕܝܕ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܡܶܕܝܰܕ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "مذيات"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Miḏyāt"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/137/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/137/tei>  .
+ geo:lat "37.416667" ;
+ geo:long "41.369722" ;].

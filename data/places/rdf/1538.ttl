@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1538> a lawd:Place ;
-rdfs:label "Membarre"  ;
+ rdfs:label "Membarre" ;
  lawd:hasName [
-lawd:primaryForm "Membarre"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1538/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1538/tei>  .
+ lawd:primaryForm "Membarre"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1538/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1538/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/766> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

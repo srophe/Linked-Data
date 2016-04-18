@@ -11,9 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/670> a lawd:Place ;
-rdfs:label "Ardamut"  ;
-dcterms:description "A village in northern Iraq."  ;
+ rdfs:label "Ardamut" ;
  lawd:hasName [
-lawd:primaryForm "Ardamut"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/670/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/670/tei>  .
+ lawd:primaryForm "Ardamut"@en ;];
+ dcterms:description "A village in northern Iraq." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/670/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/670/tei> .

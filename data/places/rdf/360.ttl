@@ -11,36 +11,38 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/360> a lawd:Place ;
-rdfs:label "Dayr al-Suryān — ܕܝܪܐ ܕܣܘܪ̈ܝܝܐ"  ;
+ rdfs:label "Dayr al-Suryān — ܕܝܪܐ ܕܣܘܪ̈ܝܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Dayr al-Suryān"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Monastery of the Syrians"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܣܘܪ̈ܝܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܣܘܪ̈ܝܝܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير السريان"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Deir al-Surian"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Saint Mary Deipara (West Syrian)"@en ;];
  dcterms:description [
-rdfs:label "Monastery situated halfway between Cairo and Alexandria in Wadi al-Natrun, ancient Scetis, Egypt."@en  ;];
+ rdfs:label "Monastery situated halfway between Cairo and Alexandria in Wadi al-Natrun, ancient Scetis, Egypt."@en ;];
  dcterms:description [
-rdfs:label "523. al-Suryān, Dayr"@en  ;];
+ rdfs:label "523. al-Suryān, Dayr"@en ;];
  dcterms:description [
-rdfs:label "ܕܰܒܫܶܡ ܡܳܪܬܰܢ ܒܬܘܠܬܐ ܒܡܰܕܒܪܳܐ ܕܐܶܣܩܺܝܛܝ ܒܡܶܨܪܝܢ. ܡܶܣܬܒܰܪ ܒܶܢܝܳܢܗ ܒܕܳܪܳܐ ܚܡܝܫܳܝܳܐ ܙܰܒܢܗ ܡܰܪܘܬܶܐ ܬܰܓܪܝܬܳܝܐ ܬܰܓܳܪܐ ܣܘܪܝܳܝܳܐ ܒܡܶܨܥܳܝ̈ܬܳܗ̇ ܕܡܰܐܬܳܐ ܫܬܝܬܳܝܬܳܐ ܘܫܰܟܢܗ ܠܕܰܝܪ̈ܝܐ ܣܘܪ̈ܝܳܝܐ. ܥܳܡܪܺܝܢ ܗܘܘ ܒܗ ܫܢܰܬ 1084 ܫܰܒܥܺܝܢ ܕܰܝܪ̈ܝܐ. ܘܩܰܘܝ ܡܝܰܬܰܒ ܒܗܽܘܢ ܥܕܰܡܳܐ ܠܦܶܠܓܳܗ̇ ܕܡܰܐܬܳܐ ܕܰܫܒܰܥܣܶܪ̈ܐ ܘܗܳܫܐ ܥܳܡܪܝܢ ܒܗ ܕܰܝܪ̈ܝܐ ܐܝܺܓܘܦܛܳܝ̈ܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܕܰܒܫܶܡ ܡܳܪܬܰܢ ܒܬܘܠܬܐ ܒܡܰܕܒܪܳܐ ܕܐܶܣܩܺܝܛܝ ܒܡܶܨܪܝܢ. ܡܶܣܬܒܰܪ ܒܶܢܝܳܢܗ ܒܕܳܪܳܐ ܚܡܝܫܳܝܳܐ ܙܰܒܢܗ ܡܰܪܘܬܶܐ ܬܰܓܪܝܬܳܝܐ ܬܰܓܳܪܐ ܣܘܪܝܳܝܳܐ ܒܡܶܨܥܳܝ̈ܬܳܗ̇ ܕܡܰܐܬܳܐ ܫܬܝܬܳܝܬܳܐ ܘܫܰܟܢܗ ܠܕܰܝܪ̈ܝܐ ܣܘܪ̈ܝܳܝܐ. ܥܳܡܪܺܝܢ ܗܘܘ ܒܗ ܫܢܰܬ 1084 ܫܰܒܥܺܝܢ ܕܰܝܪ̈ܝܐ. ܘܩܰܘܝ ܡܝܰܬܰܒ ܒܗܽܘܢ ܥܕܰܡܳܐ ܠܦܶܠܓܳܗ̇ ܕܡܰܐܬܳܐ ܕܰܫܒܰܥܣܶܪ̈ܐ ܘܗܳܫܐ ܥܳܡܪܝܢ ܒܗ ܕܰܝܪ̈ܝܐ ܐܝܺܓܘܦܛܳܝ̈ܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "باسم السيدة العذرآء في برية الاسقيط بمصر، يظن بنآؤه في القرن الخامس ابتاعه ماروثا التكريتي التاجر السرياني في اواسط المئة السادسة واوقفه على رهبان السريان وكان يحوي منهم سبعين راهباً عام 1084 وظلّ آهلا بهم الى منتصف المئة السابعة عشرة ويسكنه في هذا الوقت رهبان اقباط"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "باسم السيدة العذرآء في برية الاسقيط بمصر، يظن بنآؤه في القرن الخامس ابتاعه ماروثا التكريتي التاجر السرياني في اواسط المئة السادسة واوقفه على رهبان السريان وكان يحوي منهم سبعين راهباً عام 1084 وظلّ آهلا بهم الى منتصف المئة السابعة عشرة ويسكنه في هذا الوقت رهبان اقباط"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "this monastery was built in the name of the Virgin in the Scete desert in Egypt, perhaps in the fifth century. In the middle of the sixth century the Syrian merchant Marutha of Takrit bought it and dedicated it to the Syrian monks, whose number reached seventy in 1084. Inhabited by Syrian monks until the seventeenth century, it is presently inhabited by Coptic monks."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0800"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/727108>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Syrian_Monastery,_Egypt>  ;
- lawd:hasName [
-lawd:primaryForm "Dayr al-Suryān"@en  ;];
- lawd:hasName [
-lawd:variantForm "Monastery of the Syrians"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܣܘܪ̈ܝܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܣܘܪ̈ܝܝܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير السريان"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Deir al-Surian"@en  ;];
- lawd:hasName [
-lawd:variantForm "Saint Mary Deipara (West Syrian)"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/360/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/360/tei>  .
+ rdfs:label "this monastery was built in the name of the Virgin in the Scete desert in Egypt, perhaps in the fifth century. In the middle of the sixth century the Syrian merchant Marutha of Takrit bought it and dedicated it to the Syrian monks, whose number reached seventy in 1084. Inhabited by Syrian monks until the seventeenth century, it is presently inhabited by Coptic monks."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0800" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/727108> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Syrian_Monastery,_Egypt> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/360/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/360/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/289> ;
+ dcterms:isPartOf <http://syriaca.org/place/750> .

@@ -11,24 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/192> a lawd:Place ;
-rdfs:label "Sulaymāniyya"  ;
-dcterms:description "A modern city in northern east of and southeast of ."  ;
-dcterms:temporal "1784-11-14"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Sulaymaniyah>  ;
+ rdfs:label "Sulaymāniyya" ;
+ lawd:hasName [
+ lawd:primaryForm "Sulaymāniyya"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Sulemaniyya"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Suleimaniya"@en ;];
+ skos:related <http://syriaca.org/place/98> ;
+ skos:related <http://syriaca.org/place/108> ;
+ skos:related <http://syriaca.org/place/13> ;
+ dcterms:description "A modern city in northern east of and southeast of ." ;
+ dcterms:temporal "1784-11-14" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Sulaymaniyah> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/192/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/192/tei> ;
 geo:location [
-geo:lat "35.55"  ;
-geo:long "35.55"  ;];
- lawd:hasName [
-lawd:primaryForm "Sulaymāniyya"@en  ;];
- lawd:hasName [
-lawd:variantForm "Sulemaniyya"@en  ;];
- lawd:hasName [
-lawd:variantForm "Suleimaniya"@en  ;];
- lawd:hasName [
-lawd:variantForm "Iraq"  ;];
- lawd:hasName [
-lawd:variantForm "Kirkuk"  ;];
- lawd:hasName [
-lawd:variantForm "Erbil"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/192/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/192/tei>  .
+ geo:lat "35.55" ;
+ geo:long "45.433333" ;].

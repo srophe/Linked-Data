@@ -11,10 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1046> a lawd:Place ;
-rdfs:label "Beth Nānō"  ;
+ rdfs:label "Beth Nānō" ;
  lawd:hasName [
-lawd:primaryForm "Beth Nānō"@en  ;];
+ lawd:primaryForm "Beth Nānō"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Nānō"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1046/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1046/tei>  .
+ lawd:variantForm "Beṯ Nānō"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1046/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1046/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/771> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

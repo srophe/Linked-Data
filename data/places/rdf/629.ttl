@@ -11,18 +11,17 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/629> a lawd:Place ;
-rdfs:label "Nile"  ;
-dcterms:description "The major river of ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/727172/>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Nile>  ;
+ rdfs:label "Nile" ;
+ lawd:hasName [
+ lawd:primaryForm "Nile"@en ;];
+ lawd:hasName [
+ lawd:variantForm "النِّيل"@ar ;];
+ skos:related <http://syriaca.org/place/715> ;
+ dcterms:description "The major river of ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/727172/> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Nile> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/629/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/629/tei> ;
 geo:location [
-geo:lat "29.7497813"  ;
-geo:long "29.7497813"  ;];
- lawd:hasName [
-lawd:primaryForm "Nile"@en  ;];
- lawd:hasName [
-lawd:variantForm "النِّيل"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Egypt"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/629/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/629/tei>  .
+ geo:lat "29.7497813" ;
+ geo:long "31.2706" ;].

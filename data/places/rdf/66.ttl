@@ -11,28 +11,28 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/66> a lawd:Place ;
-rdfs:label "Damascus — ܕܪܡܣܘܩ"  ;
+ rdfs:label "Damascus — ܕܪܡܣܘܩ" ;
+ lawd:hasName [
+ lawd:primaryForm "Damascus"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܪܡܣܘܩ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܪܡܣܘܩ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دمشق"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "دِمَشق"@ar ;];
  dcterms:description [
-rdfs:label "Syriac Darmsuq and Arabic Dimashq. City in Syria and the seat at present of the Syr. Orth. Patriarchate."@en  ;];
+ rdfs:label "Syriac Darmsuq and Arabic Dimashq. City in Syria and the seat at present of the Syr. Orth. Patriarchate."@en ;];
  dcterms:description [
-rdfs:label "148. Damascus"@en  ;];
-dcterms:temporal "-0700"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/678106>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Damascus>  ;
+ rdfs:label "148. Damascus"@en ;];
+ dcterms:temporal "-0700" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/678106> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Damascus> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/66/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/66/tei> ;
 geo:location [
-geo:lat "33.513"  ;
-geo:long "33.513"  ;];
- lawd:hasName [
-lawd:primaryForm "Damascus"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܪܡܣܘܩ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܪܡܣܘܩ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دمشق"@ar  ;];
- lawd:hasName [
-lawd:variantForm "دِمَشق"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/66/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/66/tei>  ;
-dcterms:relation <http://syriaca.org/place/2294>  ;
-dcterms:relation <http://syriaca.org/place/2295>  .
+ geo:lat "33.513" ;
+ geo:long "36.292" ;];
+ dcterms:relation <http://syriaca.org/place/2294> ;
+ dcterms:relation <http://syriaca.org/place/2295> .

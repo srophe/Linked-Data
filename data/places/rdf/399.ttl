@@ -11,35 +11,34 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/399> a lawd:Place ;
-rdfs:label "Yoḥannan Urṭaya — ܕܝܪܐ ܕܡܪܝ ܝܘܚܢܢ ܕܐܘܪ̈ܛܝܐ"  ;
-dcterms:description "A monastery north of ."  ;
+ rdfs:label "Yoḥannan Urṭaya — ܕܝܪܐ ܕܡܪܝ ܝܘܚܢܢ ܕܐܘܪ̈ܛܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Yoḥannan Urṭaya"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܝܘܚܢܢ ܕܐܘܪ̈ܛܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܝܘܚܰܢܢ ܕܐܘܪ̈ܛܝܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "دير مار يوحنا الاورطي"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "John Orti Monastery"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Monastery of John the Iberian"@en ;];
+ skos:related <http://syriaca.org/place/8> ;
+ dcterms:description "A monastery north of ." ;
  dcterms:description [
-rdfs:label "ܒܢܳܝܗܝ ܗܳܢܐ ܥܢܘܳܝܐ ܒܰܫܒܳܒܘܬܗ̇ ܕܐܳܡܝܕ ܫܢܰܬ 590 ܐܰܦܩ ܬܠܳܬܐ ܐܶܦܝܣ̈ܩܘܦܐ ܗܰܘ ܕܶܝܢ ܕܛܰܒܝܒ ܒܗܘܢ ܝܘܚܰܢܢ ܕܐܶܦܣܘܣ ܘܠܐ ܦܓܰܥܢܢ ܒܛܶܐܒܐ ܥܠܰܘܗܝ ܒܳܬܰܪ ܫܢܰܬ 600 ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܒܢܳܝܗܝ ܗܳܢܐ ܥܢܘܳܝܐ ܒܰܫܒܳܒܘܬܗ̇ ܕܐܳܡܝܕ ܫܢܰܬ 590 ܐܰܦܩ ܬܠܳܬܐ ܐܶܦܝܣ̈ܩܘܦܐ ܗܰܘ ܕܶܝܢ ܕܛܰܒܝܒ ܒܗܘܢ ܝܘܚܰܢܢ ܕܐܶܦܣܘܣ ܘܠܐ ܦܓܰܥܢܢ ܒܛܶܐܒܐ ܥܠܰܘܗܝ ܒܳܬܰܪ ܫܢܰܬ 600 ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بناه هذا الناسك في جوار ديار بكر سنة 390 انجب ثلاثة أساقفة أشهرهم يوحنا الافسسي المؤرخ 587 + ولم نقف له على خبر بعد سنة 600."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بناه هذا الناسك في جوار ديار بكر سنة 390 انجب ثلاثة أساقفة أشهرهم يوحنا الافسسي المؤرخ 587 + ولم نقف له على خبر بعد سنة 600."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "John the ascetic built this monastery in 390 near Diyarbakir. It produced three bishops, the most famous of whom is John of Ephesus, the historian (d. 587). We know nothing about it after 600."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0389"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874524>  ;
+ rdfs:label "John the ascetic built this monastery in 390 near Diyarbakir. It produced three bishops, the most famous of whom is John of Ephesus, the historian (d. 587). We know nothing about it after 600."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0389" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874524> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/399/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/399/tei> ;
 geo:location [
-geo:lat "37.937557"  ;
-geo:long "37.937557"  ;];
- lawd:hasName [
-lawd:primaryForm "Yoḥannan Urṭaya"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܝܘܚܢܢ ܕܐܘܪ̈ܛܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܝܘܚܰܢܢ ܕܐܘܪ̈ܛܝܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "دير مار يوحنا الاورطي"@ar  ;];
- lawd:hasName [
-lawd:variantForm "John Orti Monastery"@en  ;];
- lawd:hasName [
-lawd:variantForm "Monastery of John the Iberian"@en  ;];
- lawd:hasName [
-lawd:variantForm "Amid"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/399/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/399/tei>  .
+ geo:lat "37.937557" ;
+ geo:long "40.235101" ;].

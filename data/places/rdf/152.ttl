@@ -11,20 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/152> a lawd:Place ;
-rdfs:label "Phoenice Libanensis"  ;
-dcterms:description "A Roman province of inland bordering to the west and including and ."  ;
-dcterms:temporal "0400"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/1001938>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Phoenice_(Roman_province)>  ;
+ rdfs:label "Phoenice Libanensis" ;
  lawd:hasName [
-lawd:primaryForm "Phoenice Libanensis"@en  ;];
- lawd:hasName [
-lawd:variantForm "Syria"  ;];
- lawd:hasName [
-lawd:variantForm "Phoenice"  ;];
- lawd:hasName [
-lawd:variantForm "Damascus"  ;];
- lawd:hasName [
-lawd:variantForm "Emesa"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/152/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/152/tei>  .
+ lawd:primaryForm "Phoenice Libanensis"@en ;];
+ skos:related <http://syriaca.org/place/486> ;
+ skos:related <http://syriaca.org/place/151> ;
+ skos:related <http://syriaca.org/place/66> ;
+ skos:related <http://syriaca.org/place/215> ;
+ dcterms:description "A Roman province of inland bordering to the west and including and ." ;
+ dcterms:temporal "0400" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/1001938> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Phoenice_(Roman_province)> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/152/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/152/tei> .

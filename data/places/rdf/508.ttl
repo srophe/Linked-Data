@@ -11,21 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/508> a lawd:Place ;
-rdfs:label "Yemen — ܝܡܢ"  ;
-dcterms:description "A region in the extreme south of the Arabian peninsula."  ;
-dcterms:temporal "0891"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Yemen>  ;
+ rdfs:label "Yemen — ܝܡܢ" ;
  lawd:hasName [
-lawd:primaryForm "Yemen"@en  ;];
+ lawd:primaryForm "Yemen"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܝܡܢ"@syr  ;];
+ lawd:primaryForm "ܝܡܢ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܝܰܡܰܢ"@syr-Syrj  ;];
+ lawd:variantForm "ܝܰܡܰܢ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "اليمن"@ar  ;];
+ lawd:variantForm "اليمن"@ar ;];
  lawd:hasName [
-lawd:variantForm "Yaman"@en  ;];
+ lawd:variantForm "Yaman"@en ;];
  lawd:hasName [
-lawd:variantForm "اليَمَن"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/508/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/508/tei>  .
+ lawd:variantForm "اليَمَن"@ar ;];
+ dcterms:description "A region in the extreme south of the Arabian peninsula." ;
+ dcterms:temporal "0891" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Yemen> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/508/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/508/tei> .

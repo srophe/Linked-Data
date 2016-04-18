@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1324> a lawd:Place ;
-rdfs:label "Ḥaydarlūi"  ;
+ rdfs:label "Ḥaydarlūi" ;
  lawd:hasName [
-lawd:primaryForm "Ḥaydarlūi"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1324/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1324/tei>  .
+ lawd:primaryForm "Ḥaydarlūi"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1324/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1324/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/839> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

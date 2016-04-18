@@ -11,19 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/53> a lawd:Place ;
-rdfs:label "Caesarea"  ;
-dcterms:description "A port city in Palaestina north of Gaza."  ;
-dcterms:temporal "-0013"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/678401>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Caesarea_Maritima>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Caesarea>  ;
+ rdfs:label "Caesarea" ;
+ lawd:hasName [
+ lawd:primaryForm "Caesarea"@en ;];
+ lawd:hasName [
+ lawd:variantForm "قَيْساريّة"@ar ;];
+ dcterms:description "A port city in Palaestina north of Gaza." ;
+ dcterms:temporal "-0013" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/678401> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Caesarea_Maritima> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Caesarea> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/53/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/53/tei> ;
 geo:location [
-geo:lat "32.5"  ;
-geo:long "32.5"  ;];
- lawd:hasName [
-lawd:primaryForm "Caesarea"@en  ;];
- lawd:hasName [
-lawd:variantForm "قَيْساريّة"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/53/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/53/tei>  ;
-dcterms:relation <http://syriaca.org/place/60>  .
+ geo:lat "32.5" ;
+ geo:long "34.89972" ;];
+ dcterms:relation <http://syriaca.org/place/60> .

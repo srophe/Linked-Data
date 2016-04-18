@@ -11,13 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1330> a lawd:Place ;
-rdfs:label "Kherpa"  ;
-dcterms:description "A village near ʿAqrā."  ;
+ rdfs:label "Kherpa" ;
  lawd:hasName [
-lawd:primaryForm "Kherpa"@en  ;];
+ lawd:primaryForm "Kherpa"@en ;];
  lawd:hasName [
-lawd:variantForm "Ḥerpā"@en  ;];
+ lawd:variantForm "Ḥerpā"@en ;];
  lawd:hasName [
-lawd:variantForm "Kherpā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1330/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1330/tei>  .
+ lawd:variantForm "Kherpā"@en ;];
+ dcterms:description "A village near ʿAqrā." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1330/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1330/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/776> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

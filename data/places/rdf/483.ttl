@@ -11,19 +11,18 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/483> a lawd:Place ;
-rdfs:label "al-ʿAjjāja — ܥܓܐܓܗ̈"  ;
-dcterms:description "A site east of the in Mesopotamia."  ;
+ rdfs:label "al-ʿAjjāja — ܥܓܐܓܗ̈" ;
  lawd:hasName [
-lawd:primaryForm "al-ʿAjjāja"@en  ;];
+ lawd:primaryForm "al-ʿAjjāja"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܥܓܐܓܗ̈"@syr  ;];
+ lawd:primaryForm "ܥܓܐܓܗ̈"@syr ;];
  lawd:hasName [
-lawd:variantForm "العجاجة"@ar  ;];
+ lawd:variantForm "العجاجة"@ar ;];
  lawd:hasName [
-lawd:variantForm "al-Ajjāja"@en-xsrp1  ;];
+ lawd:variantForm "al-Ajjāja"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "al-‘Ajjāja"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Khabur River"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/483/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/483/tei>  .
+ lawd:variantForm "al-‘Ajjāja"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/114> ;
+ dcterms:description "A site east of the in Mesopotamia." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/483/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/483/tei> .

@@ -11,13 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/718> a lawd:Place ;
-rdfs:label "Kirkuk"  ;
+ rdfs:label "Kirkuk" ;
  lawd:hasName [
-lawd:primaryForm "Kirkuk"@en  ;];
+ lawd:primaryForm "Kirkuk"@en ;];
  lawd:hasName [
-lawd:variantForm "Kirkūk"@en  ;];
+ lawd:variantForm "Kirkūk"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Garmaï"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/718/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/718/tei>  ;
-dcterms:relation <http://syriaca.org/place/2327>  .
+ lawd:variantForm "Beṯ Garmaï"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/718/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/718/tei> ;
+ dcterms:relation <http://syriaca.org/place/2327> .

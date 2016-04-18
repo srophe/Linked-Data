@@ -11,11 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1893> a lawd:Place ;
-rdfs:label "Mar Christopher"  ;
+ rdfs:label "Mar Christopher" ;
  lawd:hasName [
-lawd:primaryForm "Mar Christopher"@en  ;];
+ lawd:primaryForm "Mar Christopher"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Christopher"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1893/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1893/tei>  ;
-dcterms:relation <http://syriaca.org/place/1894>  .
+ lawd:variantForm "Mār Christopher"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1893/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1893/tei> ;
+ dcterms:relation <http://syriaca.org/place/1894> ;
+ dcterms:isPartOf <http://syriaca.org/place/1160> ;
+ dcterms:isPartOf <http://syriaca.org/place/742> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

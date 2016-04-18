@@ -11,18 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/191> a lawd:Place ;
-rdfs:label "Daiṣan"  ;
-dcterms:description "A tributary of the which flows south from ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658602>  ;
+ rdfs:label "Daiṣan" ;
  lawd:hasName [
-lawd:primaryForm "Daiṣan"@en  ;];
+ lawd:primaryForm "Daiṣan"@en ;];
  lawd:hasName [
-lawd:variantForm "Skirtos"@en  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates"  ;];
- lawd:hasName [
-lawd:variantForm "Edessa"  ;];
- lawd:hasName [
-lawd:variantForm "Balikh"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/191/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/191/tei>  .
+ lawd:variantForm "Skirtos"@en ;];
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/78> ;
+ skos:related <http://syriaca.org/place/43> ;
+ dcterms:description "A tributary of the which flows south from ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658602> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/191/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/191/tei> .

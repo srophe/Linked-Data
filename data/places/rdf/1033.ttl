@@ -11,10 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1033> a lawd:Place ;
-rdfs:label "Beth Ḥūrnīyā"  ;
+ rdfs:label "Beth Ḥūrnīyā" ;
  lawd:hasName [
-lawd:primaryForm "Beth Ḥūrnīyā"@en  ;];
+ lawd:primaryForm "Beth Ḥūrnīyā"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Ḥūrnīyā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1033/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1033/tei>  .
+ lawd:variantForm "Beṯ Ḥūrnīyā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1033/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1033/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

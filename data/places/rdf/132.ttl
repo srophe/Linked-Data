@@ -11,18 +11,16 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/132> a lawd:Place ;
-rdfs:label "Mariamme"  ;
-dcterms:description "A town northwest of and southwest of ."  ;
-dcterms:temporal "0079"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/668308>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Maryamin>  ;
+ rdfs:label "Mariamme" ;
  lawd:hasName [
-lawd:primaryForm "Mariamme"@en  ;];
+ lawd:primaryForm "Mariamme"@en ;];
  lawd:hasName [
-lawd:variantForm "مريمين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Emesa"  ;];
- lawd:hasName [
-lawd:variantForm "Ḥama"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/132/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/132/tei>  .
+ lawd:variantForm "مريمين"@ar ;];
+ skos:related <http://syriaca.org/place/215> ;
+ skos:related <http://syriaca.org/place/91> ;
+ dcterms:description "A town northwest of and southwest of ." ;
+ dcterms:temporal "0079" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/668308> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Maryamin> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/132/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/132/tei> .

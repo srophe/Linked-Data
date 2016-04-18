@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1557> a lawd:Place ;
-rdfs:label "Muspīran"  ;
+ rdfs:label "Muspīran" ;
  lawd:hasName [
-lawd:primaryForm "Muspīran"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1557/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1557/tei>  .
+ lawd:primaryForm "Muspīran"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1557/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1557/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/759> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

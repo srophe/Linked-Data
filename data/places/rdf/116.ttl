@@ -11,26 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/116> a lawd:Place ;
-rdfs:label "Lake Urmia — ܝܡܬܐ ܕܐܘܪܡܝܐ"  ;
-dcterms:description "A lake in northern west of and southeast of ."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Lake_Urmia>  ;
+ rdfs:label "Lake Urmia — ܝܡܬܐ ܕܐܘܪܡܝܐ" ;
  lawd:hasName [
-lawd:primaryForm "Lake Urmia"@en  ;];
+ lawd:primaryForm "Lake Urmia"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܝܡܬܐ ܕܐܘܪܡܝܐ"@syr  ;];
+ lawd:primaryForm "ܝܡܬܐ ܕܐܘܪܡܝܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܝܰܡܬܳܐ ܕܐܘܪܡܺܝܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܝܰܡܬܳܐ ܕܐܘܪܡܺܝܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "بحيرة اورمية"@ar  ;];
+ lawd:variantForm "بحيرة اورمية"@ar ;];
  lawd:hasName [
-lawd:variantForm "Lake Urmiya"@en  ;];
+ lawd:variantForm "Lake Urmiya"@en ;];
  lawd:hasName [
-lawd:variantForm "بُحَيْرة ارمية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Iran"  ;];
- lawd:hasName [
-lawd:variantForm "Tabriz"  ;];
- lawd:hasName [
-lawd:variantForm "Lake Van"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/116/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/116/tei>  .
+ lawd:variantForm "بُحَيْرة ارمية"@ar ;];
+ skos:related <http://syriaca.org/place/526> ;
+ skos:related <http://syriaca.org/place/308> ;
+ skos:related <http://syriaca.org/place/117> ;
+ dcterms:description "A lake in northern west of and southeast of ." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Lake_Urmia> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/116/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/116/tei> .

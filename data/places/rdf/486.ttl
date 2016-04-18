@@ -11,26 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/486> a lawd:Place ;
-rdfs:label "Syria — ܣܘܪܝܐ"  ;
-dcterms:description "A historical region bounded on the north by the and the Taurus Mountains, on the west by the , on the east by the desert, and on the south by , which during the medieval period was considered the southernmost district of Syria."  ;
-dcterms:temporal "-0200"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/1306>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Syria>  ;
+ rdfs:label "Syria — ܣܘܪܝܐ" ;
  lawd:hasName [
-lawd:primaryForm "Syria"@en  ;];
+ lawd:primaryForm "Syria"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܣܘܪܝܐ"@syr  ;];
+ lawd:primaryForm "ܣܘܪܝܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܣܽܘܪܺܝܰܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܣܽܘܪܺܝܰܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "ارض الشام"@ar  ;];
+ lawd:variantForm "ارض الشام"@ar ;];
  lawd:hasName [
-lawd:variantForm "الشَأم"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates River"  ;];
- lawd:hasName [
-lawd:variantForm "Mediterranean Sea"  ;];
- lawd:hasName [
-lawd:variantForm "Palestine"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/486/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/486/tei>  .
+ lawd:variantForm "الشَأم"@ar ;];
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/135> ;
+ skos:related <http://syriaca.org/place/698> ;
+ dcterms:description "A historical region bounded on the north by the and the Taurus Mountains, on the west by the , on the east by the desert, and on the south by , which during the medieval period was considered the southernmost district of Syria." ;
+ dcterms:temporal "-0200" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/1306> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Syria> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/486/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/486/tei> .

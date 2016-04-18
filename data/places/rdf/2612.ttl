@@ -11,12 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2612> a lawd:Place ;
-rdfs:label "Urmia"  ;
-dcterms:description "An Assyrian settlement in the Krasnodar region of southwestern"  ;
-dcterms:temporal "1924"  ;
+ rdfs:label "Urmia" ;
  lawd:hasName [
-lawd:primaryForm "Urmia"@en  ;];
- lawd:hasName [
-lawd:variantForm "Russia"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2612/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2612/tei>  .
+ lawd:primaryForm "Urmia"@en ;];
+ skos:related <http://syriaca.org/place/529> ;
+ dcterms:description "An Assyrian settlement in the Krasnodar region of southwestern" ;
+ dcterms:temporal "1924" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2612/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2612/tei> .

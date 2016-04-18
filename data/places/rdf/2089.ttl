@@ -11,10 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2089> a lawd:Place ;
-rdfs:label "Mar Stephen"  ;
+ rdfs:label "Mar Stephen" ;
  lawd:hasName [
-lawd:primaryForm "Mar Stephen"@en  ;];
+ lawd:primaryForm "Mar Stephen"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Stephen"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2089/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2089/tei>  .
+ lawd:variantForm "Mār Stephen"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2089/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2089/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1358> ;
+ dcterms:isPartOf <http://syriaca.org/place/839> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

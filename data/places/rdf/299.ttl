@@ -11,47 +11,47 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/299> a lawd:Place ;
-rdfs:label "Bālis — ܒܐܠܫ"  ;
+ rdfs:label "Bālis — ܒܐܠܫ" ;
+ lawd:hasName [
+ lawd:primaryForm "Bālis"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܐܠܫ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܳܐܠܫ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܪܒܐܠܝܣܘܣ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܡܰܣܟܢܗ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "بالس"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "بالش"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "برباليسوس"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "مسكنة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Bāls"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Bālsh"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Perpalisos"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Maskana"@en ;];
  dcterms:description [
-rdfs:label "ܐܰܬܪܐ ܕܒܶܝܬ ܚܳܠܳܒ ܠܩܰܐܠܘܢܝܩܝ ܘܐܝܬܘܗܝ ܒܪܒܐܠܝܣܘܣ ܥܰܬܝܩܬܳܐ ܘܡܶܫܬܰܡܰܗ ܝܰܘܡܳܢ ܡܰܣܟܢܗ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܐ ܕܒܶܝܬ ܚܳܠܳܒ ܠܩܰܐܠܘܢܝܩܝ ܘܐܝܬܘܗܝ ܒܪܒܐܠܝܣܘܣ ܥܰܬܝܩܬܳܐ ܘܡܶܫܬܰܡܰܗ ܝܰܘܡܳܢ ܡܰܣܟܢܗ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة بارض الشام بين حلب والرقة وهي برباليسوس القديمة تسمى في وقتنا مسكنة"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة بارض الشام بين حلب والرقة وهي برباليسوس القديمة تسمى في وقتنا مسكنة"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town in Syria between Aleppo and al-Raqqa, known in antiquity as Perpalisos, it is now called Maskana."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "0253"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/668208>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Barbalissos>  ;
+ rdfs:label "a town in Syria between Aleppo and al-Raqqa, known in antiquity as Perpalisos, it is now called Maskana."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "0253" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/668208> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Barbalissos> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/299/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/299/tei> ;
 geo:location [
-geo:lat "36.0021275"  ;
-geo:long "36.0021275"  ;];
- lawd:hasName [
-lawd:primaryForm "Bālis"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܐܠܫ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܒܳܐܠܫ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܒܪܒܐܠܝܣܘܣ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܡܰܣܟܢܗ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "بالس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "بالش"@ar  ;];
- lawd:hasName [
-lawd:variantForm "برباليسوس"@ar  ;];
- lawd:hasName [
-lawd:variantForm "مسكنة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Bāls"@en  ;];
- lawd:hasName [
-lawd:variantForm "Bālsh"@en  ;];
- lawd:hasName [
-lawd:variantForm "Perpalisos"@en  ;];
- lawd:hasName [
-lawd:variantForm "Maskana"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/299/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/299/tei>  .
+ geo:lat "36.0021275" ;
+ geo:long "38.126807" ;].

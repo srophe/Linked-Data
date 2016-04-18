@@ -11,12 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/777> a lawd:Place ;
-rdfs:label "Shemkān"  ;
+ rdfs:label "Shemkān" ;
  lawd:hasName [
-lawd:primaryForm "Shemkān"@en  ;];
+ lawd:primaryForm "Shemkān"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Rustāqā"@en  ;];
+ lawd:variantForm "Beṯ Rustāqā"@en ;];
  lawd:hasName [
-lawd:variantForm "Gōmel Valley"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/777/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/777/tei>  .
+ lawd:variantForm "Gōmel Valley"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/777/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/777/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

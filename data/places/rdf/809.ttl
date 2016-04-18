@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/809> a lawd:Place ;
-rdfs:label "Burdqel"  ;
+ rdfs:label "Burdqel" ;
  lawd:hasName [
-lawd:primaryForm "Burdqel"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/809/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/809/tei>  .
+ lawd:primaryForm "Burdqel"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/809/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/809/tei> .

@@ -1,0 +1,125 @@
+@prefix cito: <http://purl.org/spar/cito> .
+@prefix cnt: <http://www.w3.org/2011/content#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix collex: <http://www.collex.org/schema#> .
+@prefix syriaca: <http://www.syriaca.org/schema#> .
+@prefix role: <http://www.loc.gov/loc.terms/relators/> .
+
+@prefix modsrdf: <http://www.loc.gov/mods/modsrdf/v1#> .
+
+<http://syriaca.org/place/78/html> a syriaca:syriaca ;
+	collex:federation "MESA" ;
+	collex:archive "syriac_gazetteer" ;
+	dc:title "Edessa  ܐܘܪܗܝ" ;
+	dc:source "The Syriac Gazetteer" ;
+  dcterms:isPartOf <http://syriaca.org/geo>;
+  dc:publisher "Syriaca.org: The Syriac Reference Portal";
+  role:PBL "Syriaca.org" ;
+  role:FND "The National Endowment for the Humanities";
+  role:FND "The International Balzan Prize Foundation";
+  role:DRT "Michelson, David A.";
+	role:AUT "Carlson, Thomas A." , "Michelson, David A." ;
+	role:EDT "Carlson, Thomas A." , "Michelson, David A." ;
+  role:CTB <http://syriaca.org/documentation/editors.xml#dmichelson>;
+  role:CTB <http://syriaca.org/documentation/editors.xml#tcarlson>;
+  #Etc. Please have a script grab all editors TEI:name @ref inside TEI:respStmt
+  dcterms:hasVersion "1.0";
+  dcterms:license <http://creativecommons.org/licenses/by/3.0/>;
+  dc:references <http://syriaca.org/bibl/3>;
+  #Etc. We need a resolver for the bibl URIs cited in the record.
+  dcterms:dateCopyrighted "2014-06-30-04:00"^^xsd:date;
+  modsrdf:digitalOrigin "Born digital";
+  #we need something that says hasDocumentation
+	dc:subject "Edessa" , "Syriac Christianity" , "Middle East" ;
+	dc:type "Interactive Resource" ;
+	collex:discipline "History" , "Classics and Ancient History" , "Geography" , "Religious Studies" , "Archaeology" , "Ethnic Studies" ;
+	collex:genre "Reference Works" , "ANOTHER GENRE" ;
+	collex:freeculture "TRUE" ;
+	collex:ocr "FALSE" ;
+	collex:fulltext "TRUE" ;
+	dc:language "en" ;
+	dc:date "2014" ;
+	collex:source_xml <http://syriaca.org/place/78/tei> ;
+	rdfs:seeAlso <http://syriaca.org/place/78/>.
+
+<http://syriaca.org/place/78> a lawd:Place ;
+rdfs:label "Edessa — ܐܘܪܗܝ"  ;
+dcterms:description "A city of , the capital of the ancient kingdom of , modern Urfa."  ;
+ dcterms:description [
+rdfs:label "183. Edessa"@en  ;];
+ dcterms:description [
+rdfs:label "ܡܕܺܝܢܬܐ ܗܳܝ ܛܒܝܒܬܳܐ ܠܡܰܕܢܚܳܐ ܕܚܳܠܳܒ ܚܰܡܫܳܐ ܝܰܘܡ̈ܝܢ ܘܡܶܫܬܰܡܗܐ ܝܰܘܡܳܢ ܐܘܪܦܰܗ̈"@syr-Syrj  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "مدينة مشهورة خمسة ايام عن حلب شرقا وتسمى اليوم اورفه."@ar  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ dcterms:description [
+rdfs:label "a famous city, five day journey eastward from Aleppo, now called Urfa."@en  ;
+dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+dcterms:temporal "-0304"  ;
+skos:exactMatch <http://pleiades.stoa.org/places/658457>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Edessa>  ;
+skos:closeMatch <http://en.wikipedia.org/wiki/Şanlıurfa>  ;
+geo:location [
+geo:lat "37.15"  ;
+geo:long "37.15"  ;];
+ lawd:hasName [
+lawd:primaryForm "Edessa"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Urfa"@en  ;];
+ lawd:hasName [
+lawd:primaryForm "ܐܘܪܗܝ"@syr  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܘܪܗܳܝ"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "ܐܘܪܦܰܗ̈"@syr-Syrj  ;];
+ lawd:hasName [
+lawd:variantForm "الرها"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "اورفه"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "Adme"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Antiochia Kallirhoe"@en  ;];
+ lawd:hasName [
+lawd:variantForm "Urhay"@en  ;];
+ lawd:hasName [
+lawd:variantForm "الرُّهاء"@ar  ;];
+ lawd:hasName [
+lawd:variantForm "أَذاسا"@ar  ;];
+ lawd:hasName [
+#below here the related Names have been mistransformed as variant Form
+lawd:variantForm "Mesopotamia"  ;];
+ lawd:hasName [
+lawd:variantForm "Osrhoene"  ;];
+ lawd:hasName [
+lawd:variantForm "Aleppo"  ;];
+ lawd:hasName [
+lawd:variantForm "Aleppo"  ;];
+ lawd:hasName [
+lawd:variantForm "Daiṣan"  ;];
+ lawd:hasName [
+lawd:variantForm "Roman Empire"  ;];
+ lawd:hasName [
+lawd:variantForm "Ottoman Empire"  ;];
+ lawd:hasName [
+lawd:variantForm "Aleppo"  ;];
+ lawd:hasName [
+lawd:variantForm "Balikh"  ;];
+#see above for errors, need to re-encode as
+#need to find vocab similar to skos:related (because does dc:terms refer to an intellectual resource or document)
+foaf:primaryTopicOf <http://syriaca.org/place/78/html>  ;
+foaf:primaryTopicOf <http://syriaca.org/place/78/tei>  ;
+dcterms:isPartOf <http://syriaca.org/place/145>  ;
+dcterms:isPartOf <http://syriaca.org/place/166>  .

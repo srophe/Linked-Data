@@ -11,33 +11,33 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/206> a lawd:Place ;
-rdfs:label "Urmia — ܐܘܪܡܝܐ"  ;
+ rdfs:label "Urmia — ܐܘܪܡܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Urmia"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Urūmiyya"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Rīzāya"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܘܪܡܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܘܪܡܺܝܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "اورمية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Ūrmī"@en ;];
+ lawd:hasName [
+ lawd:variantForm "أُرْميَة"@ar ;];
  dcterms:description [
-rdfs:label "Urmia (Urūmiyya, Rīzāya), a city in northwest Iran, west of Lake Urmia, is first mentioned in E.-Syr. sources in 1111, whereas the mentioning of bishops in Azerbaijan (Hoshaʿ of Ganzak in 486, Ḥenanishoʿ in 605), testify to earlier presence of the Ch. of E. in this region."@en  ;];
+ rdfs:label "Urmia (Urūmiyya, Rīzāya), a city in northwest Iran, west of Lake Urmia, is first mentioned in E.-Syr. sources in 1111, whereas the mentioning of bishops in Azerbaijan (Hoshaʿ of Ganzak in 486, Ḥenanishoʿ in 605), testify to earlier presence of the Ch. of E. in this region."@en ;];
  dcterms:description [
-rdfs:label "568. Urmia"@en  ;];
-dcterms:temporal "1111"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874631>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Urmia>  ;
+ rdfs:label "568. Urmia"@en ;];
+ dcterms:temporal "1111" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874631> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Urmia> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/206/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/206/tei> ;
 geo:location [
-geo:lat "37.55"  ;
-geo:long "37.55"  ;];
- lawd:hasName [
-lawd:primaryForm "Urmia"@en  ;];
- lawd:hasName [
-lawd:variantForm "Urūmiyya"@en  ;];
- lawd:hasName [
-lawd:variantForm "Rīzāya"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܘܪܡܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܘܪܡܺܝܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "اورمية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Ūrmī"@en  ;];
- lawd:hasName [
-lawd:variantForm "أُرْميَة"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/206/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/206/tei>  ;
-dcterms:relation <http://syriaca.org/place/729>  .
+ geo:lat "37.55" ;
+ geo:long "45.1" ;];
+ dcterms:relation <http://syriaca.org/place/729> .

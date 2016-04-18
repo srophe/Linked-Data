@@ -11,13 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/625> a lawd:Place ;
-rdfs:label "Gabrona and Shmona"  ;
-dcterms:description "A monastery probably near ."  ;
+ rdfs:label "Gabrona and Shmona" ;
  lawd:hasName [
-lawd:primaryForm "Gabrona and Shmona"@en  ;];
+ lawd:primaryForm "Gabrona and Shmona"@en ;];
  lawd:hasName [
-lawd:variantForm "monastery of Gabrona and Shmona"@en  ;];
- lawd:hasName [
-lawd:variantForm "Nisibis"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/625/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/625/tei>  .
+ lawd:variantForm "monastery of Gabrona and Shmona"@en ;];
+ skos:related <http://syriaca.org/place/142> ;
+ dcterms:description "A monastery probably near ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/625/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/625/tei> .

@@ -11,31 +11,31 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/292> a lawd:Place ;
-rdfs:label "Amāsiyya — ܐܡܐܣܝܐ"  ;
+ rdfs:label "Amāsiyya — ܐܡܐܣܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Amāsiyya"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܐܡܐܣܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܐܰܡܰܐܣܝܰܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "اماسية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Amasya"@en ;];
  dcterms:description [
-rdfs:label "ܡܕܝܢܬܐ ܕܥܠ ܣܦܬ ܢܰܗܪܐ ܕܝܶܫܺܝܠ ܐܺܝܪܡܰܐܩ ܘܰܒܬܰܝܡܢܗ̇ ܕܨܰܐܡܨܘܽܢ ܡܪܰܕܶܐ 50 ܡܝ̈ܠܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܡܕܝܢܬܐ ܕܥܠ ܣܦܬ ܢܰܗܪܐ ܕܝܶܫܺܝܠ ܐܺܝܪܡܰܐܩ ܘܰܒܬܰܝܡܢܗ̇ ܕܨܰܐܡܨܘܽܢ ܡܪܰܕܶܐ 50 ܡܝ̈ܠܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "مدينة على ضفة نهر يشيل ايرماق على مسافة 50 ميلاً من جنوبي سمسون"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "مدينة على ضفة نهر يشيل ايرماق على مسافة 50 ميلاً من جنوبي سمسون"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town fifty miles south of Samsun, on the bank of Yeşil Irmak."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-0183"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/857018>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Amasya>  ;
+ rdfs:label "a town fifty miles south of Samsun, on the bank of Yeşil Irmak."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-0183" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/857018> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Amasya> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/292/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/292/tei> ;
 geo:location [
-geo:lat "40.6549427"  ;
-geo:long "40.6549427"  ;];
- lawd:hasName [
-lawd:primaryForm "Amāsiyya"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܐܡܐܣܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܐܰܡܰܐܣܝܰܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "اماسية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Amasya"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/292/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/292/tei>  .
+ geo:lat "40.6549427" ;
+ geo:long "35.8280877" ;].

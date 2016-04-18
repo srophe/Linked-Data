@@ -11,22 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/128> a lawd:Place ;
-rdfs:label "Mar Yoḥannan of Kamul"  ;
-dcterms:description "A monastery east of ."  ;
-dcterms:temporal "0700"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874536>  ;
+ rdfs:label "Mar Yoḥannan of Kamul" ;
+ lawd:hasName [
+ lawd:primaryForm "Mar Yoḥannan of Kamul"@en ;];
+ lawd:hasName [
+ lawd:variantForm "monastery of Mar Yohannan Qamulaya"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Mār Yōḥannān of Beṯ Garmaï and Ūkāmā"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Kamūl"@en ;];
+ skos:related <http://syriaca.org/place/88> ;
+ dcterms:description "A monastery east of ." ;
+ dcterms:temporal "0700" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874536> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/128/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/128/tei> ;
 geo:location [
-geo:lat "37.344308"  ;
-geo:long "37.344308"  ;];
- lawd:hasName [
-lawd:primaryForm "Mar Yoḥannan of Kamul"@en  ;];
- lawd:hasName [
-lawd:variantForm "monastery of Mar Yohannan Qamulaya"@en  ;];
- lawd:hasName [
-lawd:variantForm "Mār Yōḥannān of Beṯ Garmaï and Ūkāmā"@en  ;];
- lawd:hasName [
-lawd:variantForm "Kamūl"@en  ;];
- lawd:hasName [
-lawd:variantForm "Gazarta"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/128/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/128/tei>  .
+ geo:lat "37.344308" ;
+ geo:long "42.404847" ;];
+ dcterms:isPartOf <http://syriaca.org/place/712> .

@@ -11,13 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/620> a lawd:Place ;
-rdfs:label "Zobar"  ;
-dcterms:description "A monastery near ."  ;
+ rdfs:label "Zobar" ;
  lawd:hasName [
-lawd:primaryForm "Zobar"@en  ;];
+ lawd:primaryForm "Zobar"@en ;];
  lawd:hasName [
-lawd:variantForm "monastery of Zobar"@en  ;];
- lawd:hasName [
-lawd:variantForm "Melitene"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/620/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/620/tei>  .
+ lawd:variantForm "monastery of Zobar"@en ;];
+ skos:related <http://syriaca.org/place/136> ;
+ dcterms:description "A monastery near ." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/620/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/620/tei> .

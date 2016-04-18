@@ -11,20 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1500> a lawd:Place ;
-rdfs:label "Seven Martyrs — ܕܝܪܐ ܕܣ̈ܕܐ ܫܒܥܐ"  ;
-dcterms:description "A monastery near ."  ;
-dcterms:temporal "0861"  ;
+ rdfs:label "Seven Martyrs — ܕܝܪܐ ܕܣ̈ܕܐ ܫܒܥܐ" ;
  lawd:hasName [
-lawd:primaryForm "Seven Martyrs"@en  ;];
+ lawd:primaryForm "Seven Martyrs"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܕܝܪܐ ܕܣ̈ܕܐ ܫܒܥܐ"@syr  ;];
+ lawd:primaryForm "ܕܝܪܐ ܕܣ̈ܕܐ ܫܒܥܐ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܕܰܝܪܐ ܕܣܳܗ̈ܕܐ ܫܰܒܥܐ"@syr-Syrj  ;];
+ lawd:variantForm "ܕܰܝܪܐ ܕܣܳܗ̈ܕܐ ܫܰܒܥܐ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "دير الشهداء السبعة"@ar  ;];
+ lawd:variantForm "دير الشهداء السبعة"@ar ;];
  lawd:hasName [
-lawd:variantForm "Monastery of the Seven Martyrs"@en  ;];
- lawd:hasName [
-lawd:variantForm "Fārīn"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1500/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1500/tei>  .
+ lawd:variantForm "Monastery of the Seven Martyrs"@en ;];
+ skos:related <http://syriaca.org/place/1501> ;
+ dcterms:description "A monastery near ." ;
+ dcterms:temporal "0861" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1500/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1500/tei> .

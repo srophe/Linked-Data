@@ -11,29 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/522> a lawd:Place ;
-rdfs:label "Salmān Pāk — ܣܠܡܐܢ ܒܐܟ"  ;
-dcterms:description "A modern city on the south of which partially overlaps the ancient city of ."  ;
-dcterms:temporal "1943"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/893947>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Salman_Pak>  ;
+ rdfs:label "Salmān Pāk — ܣܠܡܐܢ ܒܐܟ" ;
+ lawd:hasName [
+ lawd:primaryForm "Salmān Pāk"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܣܠܡܐܢ ܒܐܟ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܣܰܠܡܰܐܢ ܒܰܐܟ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "سلمان باك"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Salman Pak"@en ;];
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/41> ;
+ skos:related <http://syriaca.org/place/58> ;
+ dcterms:description "A modern city on the south of which partially overlaps the ancient city of ." ;
+ dcterms:temporal "1943" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/893947> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Salman_Pak> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/522/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/522/tei> ;
 geo:location [
-geo:lat "33.100272"  ;
-geo:long "33.100272"  ;];
- lawd:hasName [
-lawd:primaryForm "Salmān Pāk"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܣܠܡܐܢ ܒܐܟ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܣܰܠܡܰܐܢ ܒܰܐܟ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "سلمان باك"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Salman Pak"@en  ;];
- lawd:hasName [
-lawd:variantForm "Tigris"  ;];
- lawd:hasName [
-lawd:variantForm "Baghdad"  ;];
- lawd:hasName [
-lawd:variantForm "Ctesiphon"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/522/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/522/tei>  .
+ geo:lat "33.100272" ;
+ geo:long "44.583487" ;].

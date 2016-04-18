@@ -11,19 +11,22 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2057> a lawd:Place ;
-rdfs:label "Mar Saba"  ;
+ rdfs:label "Mar Saba" ;
  lawd:hasName [
-lawd:primaryForm "Mar Saba"@en  ;];
+ lawd:primaryForm "Mar Saba"@en ;];
  lawd:hasName [
-lawd:variantForm "Mār Sābā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2057/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2057/tei>  ;
-dcterms:relation <http://syriaca.org/place/2053>  ;
-dcterms:relation <http://syriaca.org/place/2054>  ;
-dcterms:relation <http://syriaca.org/place/2055>  ;
-dcterms:relation <http://syriaca.org/place/2056>  ;
-dcterms:relation <http://syriaca.org/place/2058>  ;
-dcterms:relation <http://syriaca.org/place/2059>  ;
-dcterms:relation <http://syriaca.org/place/2060>  ;
-dcterms:relation <http://syriaca.org/place/2061>  ;
-dcterms:relation <http://syriaca.org/place/2062>  .
+ lawd:variantForm "Mār Sābā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2057/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2057/tei> ;
+ dcterms:relation <http://syriaca.org/place/2053> ;
+ dcterms:relation <http://syriaca.org/place/2054> ;
+ dcterms:relation <http://syriaca.org/place/2055> ;
+ dcterms:relation <http://syriaca.org/place/2056> ;
+ dcterms:relation <http://syriaca.org/place/2058> ;
+ dcterms:relation <http://syriaca.org/place/2059> ;
+ dcterms:relation <http://syriaca.org/place/2060> ;
+ dcterms:relation <http://syriaca.org/place/2061> ;
+ dcterms:relation <http://syriaca.org/place/2062> ;
+ dcterms:isPartOf <http://syriaca.org/place/1183> ;
+ dcterms:isPartOf <http://syriaca.org/place/766> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

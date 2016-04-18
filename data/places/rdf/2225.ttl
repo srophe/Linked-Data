@@ -11,10 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2225> a lawd:Place ;
-rdfs:label "Church in Deir Abūn"  ;
+ rdfs:label "Church in Deir Abūn" ;
  lawd:hasName [
-lawd:primaryForm "Church in Deir Abūn"@en  ;];
+ lawd:primaryForm "Church in Deir Abūn"@en ;];
  lawd:hasName [
-lawd:variantForm "Name not known"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2225/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2225/tei>  .
+ lawd:variantForm "Name not known"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2225/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2225/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/1155> ;
+ dcterms:isPartOf <http://syriaca.org/place/332> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

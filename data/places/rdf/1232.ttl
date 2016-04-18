@@ -11,11 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1232> a lawd:Place ;
-rdfs:label "Salaḥ"  ;
+ rdfs:label "Salaḥ" ;
  lawd:hasName [
-lawd:primaryForm "Salaḥ"@en  ;];
+ lawd:primaryForm "Salaḥ"@en ;];
  lawd:hasName [
-lawd:variantForm "Salāḥ"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1232/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1232/tei>  ;
-dcterms:relation <http://syriaca.org/place/2362>  .
+ lawd:variantForm "Salāḥ"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1232/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1232/tei> ;
+ dcterms:relation <http://syriaca.org/place/2362> .

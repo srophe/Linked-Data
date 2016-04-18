@@ -11,24 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/135> a lawd:Place ;
-rdfs:label "Mediterranean Sea — ܝܡܐ ܡܨܥܝܐ"  ;
-dcterms:description "The large sea which divides Europe from Africa and whose eastern waters reach Anatolia, Syria, and Egypt."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/1043>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Mediterranean_Sea>  ;
+ rdfs:label "Mediterranean Sea — ܝܡܐ ܡܨܥܝܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Mediterranean Sea"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܝܡܐ ܡܨܥܝܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܝܰܡܳܐ ܡܶܨܥܳܝܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "بحر الروم"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Mediterranean"@en ;];
+ lawd:hasName [
+ lawd:variantForm "بحر المغرب"@ar ;];
+ dcterms:description "The large sea which divides Europe from Africa and whose eastern waters reach Anatolia, Syria, and Egypt." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/1043> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Mediterranean_Sea> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/135/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/135/tei> ;
 geo:location [
-geo:lat "35.0000035"  ;
-geo:long "35.0000035"  ;];
- lawd:hasName [
-lawd:primaryForm "Mediterranean Sea"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܝܡܐ ܡܨܥܝܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܝܰܡܳܐ ܡܶܨܥܳܝܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "بحر الروم"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Mediterranean"@en  ;];
- lawd:hasName [
-lawd:variantForm "بحر المغرب"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/135/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/135/tei>  .
+ geo:lat "35.0000035" ;
+ geo:long "19.9999957" ;].

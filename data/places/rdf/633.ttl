@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/633> a lawd:Place ;
-rdfs:label "Pontos"  ;
-dcterms:description "A region south of the Black Sea."  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Pontus>  ;
+ rdfs:label "Pontos" ;
  lawd:hasName [
-lawd:primaryForm "Pontos"@en  ;];
+ lawd:primaryForm "Pontos"@en ;];
  lawd:hasName [
-lawd:variantForm "Pontus"@en  ;];
+ lawd:variantForm "Pontus"@en ;];
  lawd:hasName [
-lawd:variantForm "بُنطس"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/633/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/633/tei>  .
+ lawd:variantForm "بُنطس"@ar ;];
+ dcterms:description "A region south of the Black Sea." ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Pontus> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/633/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/633/tei> .

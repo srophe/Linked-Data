@@ -11,8 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/781> a lawd:Place ;
-rdfs:label "‘Soch’"  ;
+ rdfs:label "‘Soch’" ;
  lawd:hasName [
-lawd:primaryForm "‘Soch’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/781/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/781/tei>  .
+ lawd:primaryForm "‘Soch’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/781/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/781/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

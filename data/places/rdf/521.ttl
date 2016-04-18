@@ -11,22 +11,20 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/521> a lawd:Place ;
-rdfs:label "Cairo — ܩܐܗܪܗ̈"  ;
-dcterms:description "A major city on the which served as a medieval and modern capital of ."  ;
-dcterms:temporal "0969"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Cairo>  ;
+ rdfs:label "Cairo — ܩܐܗܪܗ̈" ;
  lawd:hasName [
-lawd:primaryForm "Cairo"@en  ;];
+ lawd:primaryForm "Cairo"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܩܐܗܪܗ̈"@syr  ;];
+ lawd:primaryForm "ܩܐܗܪܗ̈"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܩܐܰܗܪܗ̈"@syr-Syrj  ;];
+ lawd:variantForm "ܩܐܰܗܪܗ̈"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "القاهرة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Nile"  ;];
- lawd:hasName [
-lawd:variantForm "Egypt"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/521/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/521/tei>  ;
-dcterms:relation <http://syriaca.org/place/2284>  .
+ lawd:variantForm "القاهرة"@ar ;];
+ skos:related <http://syriaca.org/place/629> ;
+ skos:related <http://syriaca.org/place/715> ;
+ dcterms:description "A major city on the which served as a medieval and modern capital of ." ;
+ dcterms:temporal "0969" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Cairo> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/521/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/521/tei> ;
+ dcterms:relation <http://syriaca.org/place/2284> .

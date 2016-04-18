@@ -11,34 +11,34 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/312> a lawd:Place ;
-rdfs:label "Tel Besme — ܬܠܒܣ̈ܡܐ"  ;
+ rdfs:label "Tel Besme — ܬܠܒܣ̈ܡܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "Tel Besme"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܬܠܒܣ̈ܡܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܬܶܠܒܣܡ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ܬܶܠܒܶܣ̈ܡܐ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "تلّ بسم"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "تلّ بسمة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Tālbsam"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Tālbsma"@en ;];
+ lawd:hasName [
+ lawd:variantForm "تل بسمة"@ar ;];
  dcterms:description [
-rdfs:label "ܐܰܬܪܐ ܗܘ ܕܡܶܢ ܦܶܢܝ̈ܬܳܐ ܕܕܺܝܐܰܪ ܪܒܝܥܗ ܘܡܶܢ ܦܶܢܝ̈ܬܳܐ ܕܰܫܒܟܬܐܢ ܠܓܰܪܒܰܝ ܡܰܥܪܰܒ ܡܰܪܕܝܢ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܐ ܗܘ ܕܡܶܢ ܦܶܢܝ̈ܬܳܐ ܕܕܺܝܐܰܪ ܪܒܝܥܗ ܘܡܶܢ ܦܶܢܝ̈ܬܳܐ ܕܰܫܒܟܬܐܢ ܠܓܰܪܒܰܝ ܡܰܥܪܰܒ ܡܰܪܕܝܢ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلد من نواحي ديار ربيعة ثم من ناحية شبختان شمالي غربي ماردين"@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلد من نواحي ديار ربيعة ثم من ناحية شبختان شمالي غربي ماردين"@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town in the district of Rabiʿa, later Shabakhtan, northwest of Mardin."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1125"  ;
- lawd:hasName [
-lawd:primaryForm "Tel Besme"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܬܠܒܣ̈ܡܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܬܶܠܒܣܡ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ܬܶܠܒܶܣ̈ܡܐ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "تلّ بسم"@ar  ;];
- lawd:hasName [
-lawd:variantForm "تلّ بسمة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Tālbsam"@en  ;];
- lawd:hasName [
-lawd:variantForm "Tālbsma"@en  ;];
- lawd:hasName [
-lawd:variantForm "تل بسمة"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/312/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/312/tei>  .
+ rdfs:label "a town in the district of Rabiʿa, later Shabakhtan, northwest of Mardin."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1125" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/312/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/312/tei> .

@@ -11,26 +11,26 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/41> a lawd:Place ;
-rdfs:label "Baghdad — ܒܓܕܕ"  ;
+ rdfs:label "Baghdad — ܒܓܕܕ" ;
+ lawd:hasName [
+ lawd:primaryForm "Baghdad"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܓܕܕ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "بغداد"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Babylon"@en ;];
  dcterms:description [
-rdfs:label "City on the Tigris, approximately 35 km. north of Seleucia-Ctesiphon."@en  ;];
+ rdfs:label "City on the Tigris, approximately 35 km. north of Seleucia-Ctesiphon."@en ;];
  dcterms:description [
-rdfs:label "68. Baghdad"@en  ;];
-dcterms:temporal "0762"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/893952>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Baghdad>  ;
+ rdfs:label "68. Baghdad"@en ;];
+ dcterms:temporal "0762" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/893952> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Baghdad> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/41/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/41/tei> ;
 geo:location [
-geo:lat "33.325"  ;
-geo:long "33.325"  ;];
- lawd:hasName [
-lawd:primaryForm "Baghdad"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܓܕܕ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "بغداد"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Babylon"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/41/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/41/tei>  ;
-dcterms:relation <http://syriaca.org/place/709>  ;
-dcterms:relation <http://syriaca.org/place/2267>  .
+ geo:lat "33.325" ;
+ geo:long "44.422" ;];
+ dcterms:relation <http://syriaca.org/place/709> ;
+ dcterms:relation <http://syriaca.org/place/2267> .

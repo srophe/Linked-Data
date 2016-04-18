@@ -11,10 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1094> a lawd:Place ;
-rdfs:label "Billān"  ;
+ rdfs:label "Billān" ;
  lawd:hasName [
-lawd:primaryForm "Billān"@en  ;];
+ lawd:primaryForm "Billān"@en ;];
  lawd:hasName [
-lawd:variantForm "Barbellī"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1094/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1094/tei>  .
+ lawd:variantForm "Barbellī"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1094/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1094/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/777> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

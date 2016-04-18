@@ -11,8 +11,8 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/2409> a lawd:Place ;
-rdfs:label "ʻVorce’"  ;
+ rdfs:label "ʻVorce’" ;
  lawd:hasName [
-lawd:primaryForm "ʻVorce’"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/2409/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/2409/tei>  .
+ lawd:primaryForm "ʻVorce’"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/2409/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2409/tei> .

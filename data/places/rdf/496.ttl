@@ -11,24 +11,24 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/496> a lawd:Place ;
-rdfs:label "Rafaniyya — ܪܦܢܝܗ"  ;
-dcterms:description "A city of western Syria."  ;
-dcterms:temporal "0300"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/668350>  ;
+ rdfs:label "Rafaniyya — ܪܦܢܝܗ" ;
+ lawd:hasName [
+ lawd:primaryForm "Rafaniyya"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܪܦܢܝܗ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܦܰܢܺܝܗ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "رفنية"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Raphina"@en ;];
+ lawd:hasName [
+ lawd:variantForm "رَفَنِيّة"@ar ;];
+ dcterms:description "A city of western Syria." ;
+ dcterms:temporal "0300" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/668350> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/496/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/496/tei> ;
 geo:location [
-geo:lat "34.966351"  ;
-geo:long "34.966351"  ;];
- lawd:hasName [
-lawd:primaryForm "Rafaniyya"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܪܦܢܝܗ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܦܰܢܺܝܗ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "رفنية"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Raphina"@en  ;];
- lawd:hasName [
-lawd:variantForm "رَفَنِيّة"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/496/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/496/tei>  .
+ geo:lat "34.966351" ;
+ geo:long "36.39298" ;].

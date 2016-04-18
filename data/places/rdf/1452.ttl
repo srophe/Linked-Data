@@ -11,27 +11,25 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1452> a lawd:Place ;
-rdfs:label "Mesopotamia — ܒܝܬ ܢܗܪ̈ܝܢ"  ;
-dcterms:description "The watershed of the and rivers, including southeastern Turkey, northeastern Syria, all of Iraq, and western Iran."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874602>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Mesopotamia>  ;
+ rdfs:label "Mesopotamia — ܒܝܬ ܢܗܪ̈ܝܢ" ;
+ lawd:hasName [
+ lawd:primaryForm "Mesopotamia"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܝܬ ܢܗܪ̈ܝܢ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܶܝܬ ܢܰܗܪ̈ܺܝܢ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "ما بين النهرين"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "جزيرة اقور"@ar ;];
+ skos:related <http://syriaca.org/place/202> ;
+ skos:related <http://syriaca.org/place/82> ;
+ dcterms:description "The watershed of the and rivers, including southeastern Turkey, northeastern Syria, all of Iraq, and western Iran." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874602> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Mesopotamia> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1452/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1452/tei> ;
 geo:location [
-geo:lat "37.5"  ;
-geo:long "37.5"  ;];
- lawd:hasName [
-lawd:primaryForm "Mesopotamia"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܝܬ ܢܗܪ̈ܝܢ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܒܶܝܬ ܢܰܗܪ̈ܺܝܢ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "ما بين النهرين"@ar  ;];
- lawd:hasName [
-lawd:variantForm "جزيرة اقور"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Tigris"  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1452/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1452/tei>  ;
-dcterms:relation <http://syriaca.org/place/124>  .
+ geo:lat "37.5" ;
+ geo:long "39.5" ;];
+ dcterms:relation <http://syriaca.org/place/124> .

@@ -11,10 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1724> a lawd:Place ;
-rdfs:label "Shwāwūṯā"  ;
+ rdfs:label "Shwāwūṯā" ;
  lawd:hasName [
-lawd:primaryForm "Shwāwūṯā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1724/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1724/tei>  ;
-dcterms:relation <http://syriaca.org/place/1723>  ;
-dcterms:relation <http://syriaca.org/place/1725>  .
+ lawd:primaryForm "Shwāwūṯā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1724/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1724/tei> ;
+ dcterms:relation <http://syriaca.org/place/1723> ;
+ dcterms:relation <http://syriaca.org/place/1725> ;
+ dcterms:isPartOf <http://syriaca.org/place/779> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

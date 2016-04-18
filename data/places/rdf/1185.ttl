@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1185> a lawd:Place ;
-rdfs:label "Dūchail"  ;
+ rdfs:label "Dūchail" ;
  lawd:hasName [
-lawd:primaryForm "Dūchail"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1185/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1185/tei>  .
+ lawd:primaryForm "Dūchail"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1185/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1185/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/782> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

@@ -11,27 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/416> a lawd:Place ;
-rdfs:label "Siverek — ܣܘܝܪܟ"  ;
+ rdfs:label "Siverek — ܣܘܝܪܟ" ;
+ lawd:hasName [
+ lawd:primaryForm "Siverek"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܣܘܝܪܟ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܣܘܶܝܪܰܟ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "سويرك"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Swayrik"@en ;];
  dcterms:description [
-rdfs:label "ܐܰܬܪܰܐ ܗܘ ܒܓܰܪܓܰܪ ܕܰܠܡܰܥܪܒ ܬܰܝܡܰܢ ܕܐܳܡܺܝܕ ܘܒܰܝܢܳܬܗܝܢ ܬܪܝܢ ܝܰܘ̈ܡܝܢ ܘܡܶܢ ܩܕܺܝܡ ܡܶܬܩܰܪܝܳܐ ܗܘܳܬ ܣܺܝܒܰܐܪܰܟ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܰܐ ܗܘ ܒܓܰܪܓܰܪ ܕܰܠܡܰܥܪܒ ܬܰܝܡܰܢ ܕܐܳܡܺܝܕ ܘܒܰܝܢܳܬܗܝܢ ܬܪܝܢ ܝܰܘ̈ܡܝܢ ܘܡܶܢ ܩܕܺܝܡ ܡܶܬܩܰܪܝܳܐ ܗܘܳܬ ܣܺܝܒܰܐܪܰܟ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلدة في كركر غربي جنوبي ديار بكر وبينهما يومان وكانت تسمى سيبابرك."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلدة في كركر غربي جنوبي ديار بكر وبينهما يومان وكانت تسمى سيبابرك."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town in Karkar, about two days journey southwest of Diyarbakir. It may be Sibaberk."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "1169"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Siverek>  ;
- lawd:hasName [
-lawd:primaryForm "Siverek"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܣܘܝܪܟ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܣܘܶܝܪܰܟ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "سويرك"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Swayrik"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/416/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/416/tei>  .
+ rdfs:label "a town in Karkar, about two days journey southwest of Diyarbakir. It may be Sibaberk."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "1169" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Siverek> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/416/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/416/tei> .

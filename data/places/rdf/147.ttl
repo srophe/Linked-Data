@@ -11,30 +11,27 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/147> a lawd:Place ;
-rdfs:label "Orontes"  ;
-dcterms:description "A river of which runs from southwest of north to ."  ;
-skos:exactMatch <http://pleiades.stoa.org/places/658560>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Orontes_River>  ;
+ rdfs:label "Orontes" ;
+ lawd:hasName [
+ lawd:primaryForm "Orontes"@en ;];
+ lawd:hasName [
+ lawd:variantForm "ʿĀṣī"@en ;];
+ lawd:hasName [
+ lawd:variantForm "الأُرُنْد"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "العاصي"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Āṣī"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Āṣī"@en-xsrp1 ;];
+ skos:related <http://syriaca.org/place/486> ;
+ skos:related <http://syriaca.org/place/215> ;
+ skos:related <http://syriaca.org/place/10> ;
+ dcterms:description "A river of which runs from southwest of north to ." ;
+ skos:exactMatch <http://pleiades.stoa.org/places/658560> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Orontes_River> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/147/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/147/tei> ;
 geo:location [
-geo:lat "35.2728339"  ;
-geo:long "35.2728339"  ;];
- lawd:hasName [
-lawd:primaryForm "Orontes"@en  ;];
- lawd:hasName [
-lawd:variantForm "ʿĀṣī"@en  ;];
- lawd:hasName [
-lawd:variantForm "الأُرُنْد"@ar  ;];
- lawd:hasName [
-lawd:variantForm "العاصي"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Āṣī"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Āṣī"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "Syria"  ;];
- lawd:hasName [
-lawd:variantForm "Emesa"  ;];
- lawd:hasName [
-lawd:variantForm "Antioch"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/147/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/147/tei>  .
+ geo:lat "35.2728339" ;
+ geo:long "36.4825754" ;].

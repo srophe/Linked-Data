@@ -11,10 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/982> a lawd:Place ;
-rdfs:label "Bāsūrīn — ܒܣܘܪܝܢ"  ;
+ rdfs:label "Bāsūrīn — ܒܣܘܪܝܢ" ;
  lawd:hasName [
-lawd:primaryForm "Bāsūrīn"@en  ;];
+ lawd:primaryForm "Bāsūrīn"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܒܣܘܪܝܢ"@syr  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/982/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/982/tei>  .
+ lawd:primaryForm "ܒܣܘܪܝܢ"@syr ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/982/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/982/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/332> ;
+ dcterms:isPartOf <http://syriaca.org/place/712> .

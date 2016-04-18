@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/998> a lawd:Place ;
-rdfs:label "Bestāvā"  ;
+ rdfs:label "Bestāvā" ;
  lawd:hasName [
-lawd:primaryForm "Bestāvā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/998/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/998/tei>  .
+ lawd:primaryForm "Bestāvā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/998/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/998/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/777> ;
+ dcterms:isPartOf <http://syriaca.org/place/703> .

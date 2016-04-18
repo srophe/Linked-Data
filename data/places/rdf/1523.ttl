@@ -11,20 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1523> a lawd:Place ;
-rdfs:label "Afghanistan — ܐܦܓܐܢܣܬܐܢ"  ;
-dcterms:description "A region of ."  ;
-dcterms:temporal "1530"  ;
+ rdfs:label "Afghanistan — ܐܦܓܐܢܣܬܐܢ" ;
  lawd:hasName [
-lawd:primaryForm "Afghanistan"@en  ;];
+ lawd:primaryForm "Afghanistan"@en ;];
  lawd:hasName [
-lawd:primaryForm "ܐܦܓܐܢܣܬܐܢ"@syr  ;];
+ lawd:primaryForm "ܐܦܓܐܢܣܬܐܢ"@syr ;];
  lawd:hasName [
-lawd:variantForm "ܐܰܦܓܰܐܢܺܣܬܰܐܢ"@syr-Syrj  ;];
+ lawd:variantForm "ܐܰܦܓܰܐܢܺܣܬܰܐܢ"@syr-Syrj ;];
  lawd:hasName [
-lawd:variantForm "افغانستان"@ar  ;];
+ lawd:variantForm "افغانستان"@ar ;];
  lawd:hasName [
-lawd:variantForm "Αfghanistan"@en  ;];
- lawd:hasName [
-lawd:variantForm "Central Asia"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1523/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1523/tei>  .
+ lawd:variantForm "Αfghanistan"@en ;];
+ skos:related <http://syriaca.org/place/585> ;
+ dcterms:description "A region of ." ;
+ dcterms:temporal "1530" ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1523/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1523/tei> .

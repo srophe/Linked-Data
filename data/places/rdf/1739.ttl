@@ -11,9 +11,11 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1739> a lawd:Place ;
-rdfs:label "Supūrghān"  ;
+ rdfs:label "Supūrghān" ;
  lawd:hasName [
-lawd:primaryForm "Supūrghān"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1739/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1739/tei>  ;
-dcterms:relation <http://syriaca.org/place/2380>  .
+ lawd:primaryForm "Supūrghān"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1739/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1739/tei> ;
+ dcterms:relation <http://syriaca.org/place/2380> ;
+ dcterms:isPartOf <http://syriaca.org/place/839> ;
+ dcterms:isPartOf <http://syriaca.org/place/729> .

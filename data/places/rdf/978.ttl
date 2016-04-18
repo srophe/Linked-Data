@@ -11,18 +11,19 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/978> a lawd:Place ;
-rdfs:label "Bāʿshīqā"  ;
+ rdfs:label "Bāʿshīqā" ;
  lawd:hasName [
-lawd:primaryForm "Bāʿshīqā"@en  ;];
+ lawd:primaryForm "Bāʿshīqā"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ ʿAshīqā"@en  ;];
+ lawd:variantForm "Beṯ ʿAshīqā"@en ;];
  lawd:hasName [
-lawd:variantForm "Bāshīqā"@en-xsrp1  ;];
+ lawd:variantForm "Bāshīqā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Bā‘shīqā"@en-xsrp1  ;];
+ lawd:variantForm "Bā‘shīqā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Ashīqā"@en-xsrp1  ;];
+ lawd:variantForm "Beṯ Ashīqā"@en-xsrp1 ;];
  lawd:hasName [
-lawd:variantForm "Beṯ ‘Ashīqā"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/978/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/978/tei>  .
+ lawd:variantForm "Beṯ ‘Ashīqā"@en-xsrp1 ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/978/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/978/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

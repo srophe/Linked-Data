@@ -11,8 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1570> a lawd:Place ;
-rdfs:label "Navdasht"  ;
+ rdfs:label "Navdasht" ;
  lawd:hasName [
-lawd:primaryForm "Navdasht"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1570/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1570/tei>  .
+ lawd:primaryForm "Navdasht"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1570/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1570/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/707> .

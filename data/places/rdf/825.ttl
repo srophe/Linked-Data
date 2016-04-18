@@ -11,14 +11,14 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/825> a lawd:Place ;
-rdfs:label "Ḥadita"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Hdatta>  ;
+ rdfs:label "Ḥadita" ;
  lawd:hasName [
-lawd:primaryForm "Ḥadita"@en  ;];
+ lawd:primaryForm "Ḥadita"@en ;];
  lawd:hasName [
-lawd:variantForm "Ḥadīṯā"@en  ;];
+ lawd:variantForm "Ḥadīṯā"@en ;];
  lawd:hasName [
-lawd:variantForm "حَدِيْثة الموصل"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/825/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/825/tei>  ;
-dcterms:relation <http://syriaca.org/place/2311>  .
+ lawd:variantForm "حَدِيْثة الموصل"@ar ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Hdatta> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/825/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/825/tei> ;
+ dcterms:relation <http://syriaca.org/place/2311> .

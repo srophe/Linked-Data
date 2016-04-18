@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/930> a lawd:Place ;
-rdfs:label "Āwert"  ;
+ rdfs:label "Āwert" ;
  lawd:hasName [
-lawd:primaryForm "Āwert"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/930/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/930/tei>  .
+ lawd:primaryForm "Āwert"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/930/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/930/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/735> ;
+ dcterms:isPartOf <http://syriaca.org/place/90> .

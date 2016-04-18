@@ -11,15 +11,15 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/806> a lawd:Place ;
-rdfs:label "Beth Waziq"  ;
+ rdfs:label "Beth Waziq" ;
  lawd:hasName [
-lawd:primaryForm "Beth Waziq"@en  ;];
+ lawd:primaryForm "Beth Waziq"@en ;];
  lawd:hasName [
-lawd:variantForm "Beth Bawazig"@en  ;];
+ lawd:variantForm "Beth Bawazig"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Wāzīq"@en  ;];
+ lawd:variantForm "Beṯ Wāzīq"@en ;];
  lawd:hasName [
-lawd:variantForm "Kōnishābūr"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/806/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/806/tei>  ;
-dcterms:relation <http://syriaca.org/place/2281>  .
+ lawd:variantForm "Kōnishābūr"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/806/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/806/tei> ;
+ dcterms:relation <http://syriaca.org/place/2281> .

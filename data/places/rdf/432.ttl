@@ -11,33 +11,33 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/432> a lawd:Place ;
-rdfs:label "ʿIrqa — ܥܪܩܐ"  ;
+ rdfs:label "ʿIrqa — ܥܪܩܐ" ;
+ lawd:hasName [
+ lawd:primaryForm "ʿIrqa"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܥܪܩܐ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "عرقة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "عِرْقة"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Irqa"@en-xsrp1 ;];
+ lawd:hasName [
+ lawd:variantForm "‘Irqa"@en-xsrp1 ;];
  dcterms:description [
-rdfs:label "ܐܰܬܪܰܐ ܗܘ ܕܥܰܠ ܝܰܕ ܝܰܡܐ ܒܶܝܬ ܦܰܢܺܝܗ ܘܰܛܪܺܝܦܳܘܠܝܣ ܒܡܰܕܢܰܚ ܓܰܪܒܰܝ ܕܝܠܗ̇. ܒܰܝܢܳܬܗܝܢ ܐܰܪܒܥܐ ܦܰܪ̈ܣܚܐ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܐܰܬܪܰܐ ܗܘ ܕܥܰܠ ܝܰܕ ܝܰܡܐ ܒܶܝܬ ܦܰܢܺܝܗ ܘܰܛܪܺܝܦܳܘܠܝܣ ܒܡܰܕܢܰܚ ܓܰܪܒܰܝ ܕܝܠܗ̇. ܒܰܝܢܳܬܗܝܢ ܐܰܪܒܥܐ ܦܰܪ̈ܣܚܐ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "بلد على سيف البحر بين رفنية وطرابلس في شرقيها الشمالي بينهما اربعة فراسخ."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "بلد على سيف البحر بين رفنية وطرابلس في شرقيها الشمالي بينهما اربعة فراسخ."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "a town on the seashore between Raphina and Tripoli, about four leagues from the latter city."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-1300"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/668198>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Arqa>  ;
+ rdfs:label "a town on the seashore between Raphina and Tripoli, about four leagues from the latter city."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-1300" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/668198> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Arqa> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/432/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/432/tei> ;
 geo:location [
-geo:lat "34.531277"  ;
-geo:long "34.531277"  ;];
- lawd:hasName [
-lawd:primaryForm "ʿIrqa"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܥܪܩܐ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "عرقة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "عِرْقة"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Irqa"@en-xsrp1  ;];
- lawd:hasName [
-lawd:variantForm "‘Irqa"@en-xsrp1  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/432/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/432/tei>  .
+ geo:lat "34.531277" ;
+ geo:long "36.047047" ;].

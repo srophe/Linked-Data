@@ -11,11 +11,13 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1959> a lawd:Place ;
-rdfs:label "Patriarchal Residence at Alqōsh"  ;
-dcterms:description "A residence of the Catholicos of the Church of the East."  ;
+ rdfs:label "Patriarchal Residence at Alqōsh" ;
  lawd:hasName [
-lawd:primaryForm "Patriarchal Residence at Alqōsh"@en  ;];
+ lawd:primaryForm "Patriarchal Residence at Alqōsh"@en ;];
  lawd:hasName [
-lawd:variantForm "Patriarchal Residence"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1959/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1959/tei>  .
+ lawd:variantForm "Patriarchal Residence"@en ;];
+ dcterms:description "A residence of the Catholicos of the Church of the East." ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1959/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1959/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/19> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

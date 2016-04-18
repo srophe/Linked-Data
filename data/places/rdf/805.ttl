@@ -11,21 +11,21 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/805> a lawd:Place ;
-rdfs:label "Bethlehem — ܒܝܬܠܚܡ"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/687856>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Bethlehem>  ;
+ rdfs:label "Bethlehem — ܒܝܬܠܚܡ" ;
+ lawd:hasName [
+ lawd:primaryForm "Bethlehem"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܒܝܬܠܚܡ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܒܶܝܬܠܚܡ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "بيت لحم"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "بَيت لَحًم"@ar ;];
+ skos:exactMatch <http://pleiades.stoa.org/places/687856> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Bethlehem> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/805/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/805/tei> ;
 geo:location [
-geo:lat "31.712291"  ;
-geo:long "31.712291"  ;];
- lawd:hasName [
-lawd:primaryForm "Bethlehem"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܒܝܬܠܚܡ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܒܶܝܬܠܚܡ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "بيت لحم"@ar  ;];
- lawd:hasName [
-lawd:variantForm "بَيت لَحًم"@ar  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/805/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/805/tei>  .
+ geo:lat "31.712291" ;
+ geo:long "35.202123" ;].

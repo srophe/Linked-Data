@@ -11,12 +11,12 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1262> a lawd:Place ;
-rdfs:label "Beth Nuhadra"  ;
+ rdfs:label "Beth Nuhadra" ;
  lawd:hasName [
-lawd:primaryForm "Beth Nuhadra"@en  ;];
+ lawd:primaryForm "Beth Nuhadra"@en ;];
  lawd:hasName [
-lawd:variantForm "Beṯ Nūhadrā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1262/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1262/tei>  ;
-dcterms:relation <http://syriaca.org/place/36>  ;
-dcterms:relation <http://syriaca.org/place/2279>  .
+ lawd:variantForm "Beṯ Nūhadrā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1262/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1262/tei> ;
+ dcterms:relation <http://syriaca.org/place/36> ;
+ dcterms:relation <http://syriaca.org/place/2279> .

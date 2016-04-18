@@ -11,22 +11,23 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/197> a lawd:Place ;
-rdfs:label "Telkepe"  ;
+ rdfs:label "Telkepe" ;
+ lawd:hasName [
+ lawd:primaryForm "Telkepe"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Tell Kaif"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Talkef"@en ;];
  dcterms:description [
-rdfs:label "Town 15 km. north of Mosul, it is a populous Chald. settlement, seat of a bishopric., with a conspicuous diaspora in Iraq (Mosul, Baghdad, Baṣra, etc.) as well as in the USA, especially in San Diego and Detroit."@en  ;];
+ rdfs:label "Town 15 km. north of Mosul, it is a populous Chald. settlement, seat of a bishopric., with a conspicuous diaspora in Iraq (Mosul, Baghdad, Baṣra, etc.) as well as in the USA, especially in San Diego and Detroit."@en ;];
  dcterms:description [
-rdfs:label "536. Telkepe"@en  ;];
-dcterms:temporal "1100"  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Tel_Keppe>  ;
+ rdfs:label "536. Telkepe"@en ;];
+ dcterms:temporal "1100" ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Tel_Keppe> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/197/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/197/tei> ;
 geo:location [
-geo:lat "36.489444"  ;
-geo:long "36.489444"  ;];
- lawd:hasName [
-lawd:primaryForm "Telkepe"@en  ;];
- lawd:hasName [
-lawd:variantForm "Tell Kaif"@en  ;];
- lawd:hasName [
-lawd:variantForm "Talkef"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/197/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/197/tei>  ;
-dcterms:relation <http://syriaca.org/place/2388>  .
+ geo:lat "36.489444" ;
+ geo:long "43.119167" ;];
+ dcterms:relation <http://syriaca.org/place/2388> ;
+ dcterms:isPartOf <http://syriaca.org/place/722> .

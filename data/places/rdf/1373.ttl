@@ -11,8 +11,10 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1373> a lawd:Place ;
-rdfs:label "Kashkāwā"  ;
+ rdfs:label "Kashkāwā" ;
  lawd:hasName [
-lawd:primaryForm "Kashkāwā"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1373/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1373/tei>  .
+ lawd:primaryForm "Kashkāwā"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1373/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1373/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/766> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

@@ -11,8 +11,9 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/1573> a lawd:Place ;
-rdfs:label "Nerab Barzaï"  ;
+ rdfs:label "Nerab Barzaï" ;
  lawd:hasName [
-lawd:primaryForm "Nerab Barzaï"@en  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/1573/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/1573/tei>  .
+ lawd:primaryForm "Nerab Barzaï"@en ;];
+ foaf:primaryTopicOf <http://syriaca.org/place/1573/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1573/tei> ;
+ dcterms:isPartOf <http://syriaca.org/place/708> .

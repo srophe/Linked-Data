@@ -11,44 +11,41 @@
 @prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
 
 <http://syriaca.org/place/86> a lawd:Place ;
-rdfs:label "Gargar — ܓܪܓܪ"  ;
-dcterms:description "A city near the between and ."  ;
+ rdfs:label "Gargar — ܓܪܓܪ" ;
+ lawd:hasName [
+ lawd:primaryForm "Gargar"@en ;];
+ lawd:hasName [
+ lawd:variantForm "Gerger"@en ;];
+ lawd:hasName [
+ lawd:primaryForm "ܓܪܓܪ"@syr ;];
+ lawd:hasName [
+ lawd:variantForm "ܓܰܪܓܰܪ"@syr-Syrj ;];
+ lawd:hasName [
+ lawd:variantForm "كركر"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "جرجر"@ar ;];
+ lawd:hasName [
+ lawd:variantForm "Karkar"@en ;];
+ lawd:hasName [
+ lawd:variantForm "كَرْكر"@ar ;];
+ skos:related <http://syriaca.org/place/82> ;
+ skos:related <http://syriaca.org/place/136> ;
+ skos:related <http://syriaca.org/place/8> ;
+ dcterms:description "A city near the between and ." ;
  dcterms:description [
-rdfs:label "ܚܶܣܢܰܐ ܗܘ ܘܰܡܕܝܢܬܐ ܒܩܘܪܒܳܐ ܕܡܝܺܠܝܺܛܝܢܝ ܒܶܝܬ ܫܰܡܝܫܰܛ ܠܚܰܣܢ ܙܝܰܐܕ ܠܡܰܥܪܒܳܐ ܕܰܦܪܳܬ. ܚܶܪܒܰܬ."@syr-Syrj  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "ܚܶܣܢܰܐ ܗܘ ܘܰܡܕܝܢܬܐ ܒܩܘܪܒܳܐ ܕܡܝܺܠܝܺܛܝܢܝ ܒܶܝܬ ܫܰܡܝܫܰܛ ܠܚܰܣܢ ܙܝܰܐܕ ܠܡܰܥܪܒܳܐ ܕܰܦܪܳܬ. ܚܶܪܒܰܬ."@syr-Syrj ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "حصن وبلدة قرب ملطية بين سميساط وحصن زياد غربي الفرات تولاها الخراب."@ar  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
+ rdfs:label "حصن وبلدة قرب ملطية بين سميساط وحصن زياد غربي الفرات تولاها الخراب."@ar ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
  dcterms:description [
-rdfs:label "an ancient citadel and town near Melitene, between Samosata and Ḥiṣn Ziyād, west of the Euphrates."@en  ;
-dcterms:license <http://creativecommons.org/licenses/by/3.0/>  ;];
-dcterms:temporal "-0030"  ;
-skos:exactMatch <http://pleiades.stoa.org/places/874353>  ;
-skos:closeMatch <http://en.wikipedia.org/wiki/Gerger>  ;
+ rdfs:label "an ancient citadel and town near Melitene, between Samosata and Ḥiṣn Ziyād, west of the Euphrates."@en ;
+ dcterms:license <http://creativecommons.org/licenses/by/3.0/> ;];
+ dcterms:temporal "-0030" ;
+ skos:exactMatch <http://pleiades.stoa.org/places/874353> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Gerger> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/86/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/86/tei> ;
 geo:location [
-geo:lat "38.028889"  ;
-geo:long "38.028889"  ;];
- lawd:hasName [
-lawd:primaryForm "Gargar"@en  ;];
- lawd:hasName [
-lawd:variantForm "Gerger"@en  ;];
- lawd:hasName [
-lawd:primaryForm "ܓܪܓܪ"@syr  ;];
- lawd:hasName [
-lawd:variantForm "ܓܰܪܓܰܪ"@syr-Syrj  ;];
- lawd:hasName [
-lawd:variantForm "كركر"@ar  ;];
- lawd:hasName [
-lawd:variantForm "جرجر"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Karkar"@en  ;];
- lawd:hasName [
-lawd:variantForm "كَرْكر"@ar  ;];
- lawd:hasName [
-lawd:variantForm "Euphrates"  ;];
- lawd:hasName [
-lawd:variantForm "Melitene"  ;];
- lawd:hasName [
-lawd:variantForm "Amida"  ;];
-foaf:primaryTopicOf <http://syriaca.org/place/86/html>  ;
-foaf:primaryTopicOf <http://syriaca.org/place/86/tei>  .
+ geo:lat "38.028889" ;
+ geo:long "39.032222" ;].
